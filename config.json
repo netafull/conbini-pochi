@@ -2,7 +2,7 @@
   "site_title": "コンビニポチ",
   "site_tagline": "セブン・ファミマ・ローソン新商品アーカイブ",
   "site_description": "セブン-イレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています",
-  "site_url": "https://konbini.netaful.jp/",
+  "site_url": "https://conbini.netaful.jp/",
   "ga_measurement_id": "",
   "chains": [
     {"slug": "seven", "name": "セブン-イレブン", "base_url": "https://www.sej.co.jp"},
@@ -14,7 +14,7 @@
     "familymart": 3,
     "lawson": 3
   },
-  "user_agent": "KonbiniPochi/1.0 (+https://konbini.netaful.jp/)",
+  "user_agent": "ConbiniPochi/1.0 (+https://conbini.netaful.jp/)",
   "related_sites": [
     {"name": "電書ポチ", "desc": "Kindle本セール", "url": "https://book.netaful.jp/"},
     {"name": "家電ポチ", "desc": "ガジェット・家電セール", "url": "https://kaden.netaful.jp/"},

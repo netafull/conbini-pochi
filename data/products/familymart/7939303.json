@@ -4,7 +4,7 @@
  "name": "モブサイコ100　Ⅲ　トレーディングアクリルスタンド",
  "category": "キャラクターくじ・エンタメ雑貨など",
  "price_excl_tax": 700,
- "price_incl_tax": null,
+ "price_incl_tax": 770,
  "launch_date": null,
  "launch_text": "",
  "regions": [
@@ -28,5 +28,6 @@
  "first_seen_at": "2026-09-25T20:57:13+09:00",
  "fetched_at": "2026-09-25T20:57:13+09:00",
  "source_list": "lastweek",
- "image": null
+ "image": null,
+ "list_week_start": "2026-09-15"
 }

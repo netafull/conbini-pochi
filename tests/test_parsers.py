@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """fixtures/ を相手にしたパーサのユニットテスト。本番へは一切アクセスしない。"""
 
+import datetime
 import sys
 import unittest
 from pathlib import Path
@@ -73,6 +74,26 @@ class TestFamilyMart(unittest.TestCase):
         self.assertIsNotNone(d["nutrition"])
         self.assertEqual(d["nutrition"]["kcal"], 327.0)
         self.assertIn("小麦", d["allergens"])
+
+    def test_detail_price_incl_tax_not_lost_to_nested_span(self):
+        # 実物HTMLでは「（税込」「）」がそれぞれ入れ子の<span>で囲まれており、
+        # 外側spanの閉じまで取らないと税込価格が欠落する(全167件nullのバグ)
+        d = parsers.parse_familymart_detail(read("familymart/item_0920018.html"))
+        self.assertIsNotNone(d)
+        excl, incl = parsers.parse_price_pair(d["price_text"])
+        self.assertEqual(excl, 406)
+        self.assertEqual(incl, 438)
+
+    def test_list_week_start_extracted_from_heading(self):
+        w = parsers.parse_familymart_list_week_start(
+            read("familymart/newgoods.html"), datetime.date(2026, 9, 25)
+        )
+        self.assertEqual(w, "2026-09-22")
+
+    def test_list_week_start_handles_year_boundary(self):
+        html = "今週の新商品&nbsp;(12/29～01/04)"
+        w = parsers.parse_familymart_list_week_start(html, datetime.date(2026, 1, 2))
+        self.assertEqual(w, "2025-12-29")
 
 
 class TestLawson(unittest.TestCase):

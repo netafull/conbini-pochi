@@ -32,7 +32,7 @@ PRODUCTS = DATA / "products"
 PENDING_PATH = DATA / "pending.json"
 JST = datetime.timezone(datetime.timedelta(hours=9))
 
-UA = CONFIG.get("user_agent", "KonbiniPochi/1.0")
+UA = CONFIG.get("user_agent", "ConbiniPochi/1.0")
 INTERVALS = CONFIG.get("request_interval_seconds", {})
 
 
@@ -239,6 +239,8 @@ def crawl_familymart(pending: dict, stats: dict) -> None:
                               "failed": 0, "blocked": False})
 
     all_entries: list[dict] = []
+    list_week_by_source: dict[str, str | None] = {}
+    today = datetime.datetime.now(JST).date()
     for list_path, source_list in (
         ("/goods/newgoods.html", "thisweek"),
         ("/goods/newgoods/nextweek.html", "nextweek"),
@@ -254,6 +256,7 @@ def crawl_familymart(pending: dict, stats: dict) -> None:
         except Exception as e:  # noqa: BLE001
             print(f"[warn] familymart list {list_path} 取得失敗: {e}", file=sys.stderr)
             continue
+        list_week_by_source[source_list] = parsers.parse_familymart_list_week_start(html, today)
         for entry in parsers.parse_familymart_list(html):
             entry["source_list"] = source_list
             all_entries.append(entry)
@@ -312,6 +315,9 @@ def crawl_familymart(pending: dict, stats: dict) -> None:
             "first_seen_at": now_iso(),
             "fetched_at": now_iso(),
             "source_list": e["source_list"],
+            # 発売日が詳細ページに無い商品(キャラクターくじ・雑貨等)を週別
+            # アーカイブへ正しく振り分けるための、一覧見出しから取った週開始日
+            "list_week_start": list_week_by_source.get(e["source_list"]),
             "image": None,
         }
         save_product(chain, product)

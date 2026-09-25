@@ -4,7 +4,7 @@
  "name": "4種チーズの沼　※グラタンです",
  "category": "スープ・グラタン・お好み焼き",
  "price_excl_tax": 510,
- "price_incl_tax": null,
+ "price_incl_tax": 550,
  "launch_date": null,
  "launch_text": "",
  "regions": [
@@ -45,5 +45,6 @@
  "first_seen_at": "2026-09-25T20:55:44+09:00",
  "fetched_at": "2026-09-25T20:55:44+09:00",
  "source_list": "lastweek",
- "image": null
+ "image": null,
+ "list_week_start": "2026-09-15"
 }

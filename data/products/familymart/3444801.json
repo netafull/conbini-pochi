@@ -4,7 +4,7 @@
  "name": "フタバ　ちょこっと大きな！プリンバー",
  "category": "アイス",
  "price_excl_tax": 128,
- "price_incl_tax": null,
+ "price_incl_tax": 138,
  "launch_date": null,
  "launch_text": "",
  "regions": [
@@ -28,5 +28,6 @@
  "first_seen_at": "2026-09-25T20:56:26+09:00",
  "fetched_at": "2026-09-25T20:56:26+09:00",
  "source_list": "lastweek",
- "image": null
+ "image": null,
+ "list_week_start": "2026-09-15"
 }

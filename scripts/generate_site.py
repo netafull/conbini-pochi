@@ -22,6 +22,54 @@ JST = datetime.timezone(datetime.timedelta(hours=9))
 CHAINS = CONFIG["chains"]
 CHAIN_NAME = {c["slug"]: c["name"] for c in CHAINS}
 
+REVIEWS_PATH = DATA / "netaful_reviews.json"
+
+
+def load_reviews() -> dict:
+    try:
+        return json.loads(REVIEWS_PATH.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {"articles": {}, "matches": {}}
+
+
+REVIEWS = load_reviews()
+ARTICLES_BY_ID: dict[int, dict] = {}
+for _chain, _arts in REVIEWS.get("articles", {}).items():
+    for _a in _arts:
+        _a = dict(_a)
+        _a["chain"] = _chain
+        ARTICLES_BY_ID[_a["id"]] = _a
+del _chain, _arts
+
+
+def item_reviews(item: dict) -> list[dict]:
+    """商品にひも付いたネタフルのレビュー記事(新しい順)。"""
+    key = f"{item['chain']}-{item['product_id']}"
+    ids = REVIEWS.get("matches", {}).get(key, [])
+    arts = [ARTICLES_BY_ID[i] for i in ids if i in ARTICLES_BY_ID]
+    return sorted(arts, key=lambda a: a.get("date") or "", reverse=True)
+
+
+def latest_reviews(chain: str | None, limit: int) -> list[dict]:
+    arts = list(ARTICLES_BY_ID.values())
+    if chain:
+        arts = [a for a in arts if a["chain"] == chain]
+    return sorted(arts, key=lambda a: a.get("date") or "", reverse=True)[:limit]
+
+
+def render_reviews_section(title: str, articles: list[dict]) -> str:
+    if not articles:
+        return ""
+    rows = "\n".join(
+        f'<li><a href="{esc(a["link"])}" target="_blank">{esc(a["title"])}</a>'
+        f'<span class="meta"> {esc((a.get("date") or "")[:10])}</span></li>'
+        for a in articles
+    )
+    return f"""<h2>{esc(title)}</h2>
+<ul class="reviewlist">
+{rows}
+</ul>"""
+
 
 def esc(s) -> str:
     return html.escape(s or "", quote=True)
@@ -57,8 +105,20 @@ def week_start(date_str: str | None) -> str | None:
 
 
 def effective_date(item: dict) -> str | None:
-    """発売日が無ければ初回検出日で代替する。"""
-    return item.get("launch_date") or (item.get("first_seen_at") or "")[:10] or None
+    """発売日が無ければ、一覧見出しの週開始日(list_week_start。ファミマの
+    キャラクターくじ・雑貨等、詳細ページに発売日が無い商品向け)、
+    それも無ければ初回検出日で代替する。
+
+    first_seen_atだけに頼ると、先週の一覧で見つけた商品がクロール実行日を
+    基準に今週へ入ってしまう(週アーカイブの取り違え)ため、list_week_startを
+    優先する。
+    """
+    return (
+        item.get("launch_date")
+        or item.get("list_week_start")
+        or (item.get("first_seen_at") or "")[:10]
+        or None
+    )
 
 
 def item_url(item: dict) -> str:
@@ -85,12 +145,14 @@ def render_card(item: dict) -> str:
     date = effective_date(item) or ""
     kcal = (item.get("nutrition") or {}).get("kcal")
     kcal_html = f'<span class="kcal">{kcal:g}kcal</span>' if kcal is not None else ""
+    review_html = '<div class="review-badge">レビューあり</div>' if item_reviews(item) else ""
     return f"""<a class="item" href="{esc(item_url(item))}" data-kcal="{kcal if kcal is not None else ''}"
    data-date="{esc(date)}" data-chain="{esc(item['chain'])}">
   <div class="badge">{esc(chain_name)}</div>
   <div class="t">{esc(item['name'])}</div>
   <div class="price">{price_html(item)}{kcal_html}</div>
   <div class="meta">{esc(date)} 発売{('・' + esc(item['category'])) if item.get('category') else ''}</div>
+  {review_html}
 </a>"""
 
 
@@ -172,6 +234,14 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .about h2 { font-size: 14px; border-left-width: 3px; margin-bottom: 8px; color: var(--text); }
 .about p { margin-top: 8px; }
 .empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
+.item .review-badge { display: inline-block; margin-top: 4px; font-size: 10px; color: var(--accent);
+  border: 1px solid var(--accent); border-radius: 4px; padding: 0 5px; }
+.reviewlist { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
+.reviewlist li { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: 8px 12px; font-size: 13px; }
+.reviewlist a { text-decoration: none; color: var(--accent); }
+.reviewlist .meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
+.detail .reviewlist { margin-top: 4px; }
 """
 
 
@@ -333,9 +403,10 @@ def build_search_index(items: list[dict]) -> list[dict]:
 
 
 def render_grid_page(title: str, description: str, items: list[dict], canonical: str,
-                      show_filters: bool = True) -> str:
+                      show_filters: bool = True, review_chain: str | None = None) -> str:
+    reviews_section = render_reviews_section("ネタフルの最新レビュー", latest_reviews(review_chain, 5))
     if not items:
-        body = f"<h2>{esc(title)}</h2><p class='empty'>商品がありません。</p>"
+        body = f"<h2>{esc(title)}</h2><p class='empty'>商品がありません。</p>\n{reviews_section}"
         return page_shell(title, description, body, canonical)
     cards = "\n".join(render_card(it) for it in items)
     filters = ""
@@ -352,14 +423,35 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
 <div class="grid" data-sortable>
 {cards}
 </div>
-{SORT_JS if show_filters else ""}"""
+{SORT_JS if show_filters else ""}
+{reviews_section}"""
     return page_shell(title, description, body, canonical)
 
 
 def render_top(items: list[dict]) -> str:
     weeks = sorted({w for it in items if (w := week_start(effective_date(it)))}, reverse=True)
-    latest_week = weeks[0] if weeks else None
-    latest_items = [it for it in items if week_start(effective_date(it)) == latest_week]
+    weeks_set = set(weeks)
+
+    # トップは「今日(Asia/Tokyo)を含む週」を主に表示する。来週発売分だけの
+    # 週が最大の週になっていても、それをトップに出さない(未来週バグ対策)。
+    # 今週が0件なら直近の過去週を出す。
+    today_week = week_start(datetime.datetime.now(JST).date().isoformat())
+    if today_week in weeks_set:
+        current_week = today_week
+    else:
+        past_weeks = [w for w in weeks if w <= today_week]
+        current_week = past_weeks[0] if past_weeks else (weeks[0] if weeks else None)
+    current_items = [it for it in items if week_start(effective_date(it)) == current_week]
+
+    next_week = None
+    next_items: list[dict] = []
+    if today_week:
+        candidate_next = (
+            datetime.date.fromisoformat(today_week) + datetime.timedelta(days=7)
+        ).isoformat()
+        if candidate_next in weeks_set and candidate_next != current_week:
+            next_week = candidate_next
+            next_items = [it for it in items if week_start(effective_date(it)) == next_week]
 
     site_url = CONFIG.get("site_url", "")
     search_html = """<div class="searchbox"><input id="search-input" type="search"
@@ -378,8 +470,15 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
         paras = "\n".join(f"<p>{esc(x)}</p>" for x in about)
         about_html = f'<section class="about"><h2>{esc(CONFIG["site_title"])}について</h2>\n{paras}\n</section>'
 
-    latest_label = f"{latest_week} の週の新商品" if latest_week else "新商品"
-    body = f"""<h2>{esc(latest_label)} ({len(latest_items)}件)</h2>
+    current_label = f"{current_week} の週の新商品" if current_week else "新商品"
+    next_section = ""
+    if next_items:
+        next_section = f"""<h2>来週の新商品 ({len(next_items)}件)</h2>
+<div class="grid">
+{chr(10).join(render_card(it) for it in next_items)}
+</div>"""
+
+    body = f"""<h2>{esc(current_label)} ({len(current_items)}件)</h2>
 <div class="sort-bar">
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
 <option value="kcal">カロリー順</option></select></label>
@@ -388,10 +487,12 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 <option value="lawson">ローソン</option></select></label>
 </div>
 <div class="grid" data-sortable>
-{chr(10).join(render_card(it) for it in latest_items)}
+{chr(10).join(render_card(it) for it in current_items)}
 </div>
 {SORT_JS}
+{next_section}
 {weeks_link}
+{render_reviews_section("ネタフルの最新レビュー", latest_reviews(None, 6))}
 <h2>社別に見る</h2>
 <div class="chainlist">
 {chain_links}
@@ -483,6 +584,20 @@ def render_item_page(item: dict) -> str:
     date = effective_date(item) or ""
     title = item["name"]
     canonical = CONFIG.get("site_url", "") + item_url(item)
+
+    reviews_html = ""
+    reviews = item_reviews(item)
+    if reviews:
+        rows = "\n".join(
+            f'<li><a href="{esc(a["link"])}" target="_blank">{esc(a["title"])}</a>'
+            f'<span class="meta"> {esc((a.get("date") or "")[:10])}</span></li>'
+            for a in reviews
+        )
+        reviews_html = f"""<h3 style='margin-top:16px;font-size:14px'>ネタフルのレビュー</h3>
+<ul class="reviewlist">
+{rows}
+</ul>"""
+
     body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
 <div class="detail">
 <div class="badge" style="display:inline-block;font-size:11px;font-weight:700;color:#fff;
@@ -496,6 +611,7 @@ border-radius:4px;padding:2px 8px;background:var(--accent)">{esc(chain_name)}</d
 {nut_rows}
 {allergen_html}
 {variants_html}
+{reviews_html}
 </div>"""
     return page_shell(title, item.get("description") or CONFIG["site_description"], body, canonical)
 
@@ -592,6 +708,7 @@ def main() -> int:
         page = render_grid_page(
             c["name"], f"{c['name']}の新商品一覧", chain_items,
             CONFIG.get("site_url", "") + f"chains/{c['slug']}/",
+            review_chain=c["slug"],
         )
         (cdir / "index.html").write_text(page, encoding="utf-8")
 

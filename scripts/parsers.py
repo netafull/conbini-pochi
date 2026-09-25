@@ -10,6 +10,7 @@ None を返す。呼び出し側はNoneを「次回再試行」対象として�
 
 from __future__ import annotations
 
+import datetime
 import html as html_lib
 import re
 
@@ -252,9 +253,42 @@ def parse_familymart_list(html: str) -> list[dict]:
     return items
 
 
+FAMIMA_LIST_WEEK_RE = re.compile(
+    r"新商品&nbsp;\(?\s*(\d{1,2})/(\d{1,2})\s*[～~]\s*(\d{1,2})/(\d{1,2})\)?"
+)
+
+
+def parse_familymart_list_week_start(html: str, reference_date: datetime.date) -> str | None:
+    """一覧見出し「今週の新商品 (09/22～09/28)」等から週の開始日(ISO)を取る。
+
+    見出しには年が無い(MM/DD表記のみ)ため、reference_date(クロール実行日)に
+    最も近い年を採用する。年またぎ(12/29〜01/04等)でも、実行日に近い方の
+    年を選ぶことで正しく解決できる。
+    """
+    m = FAMIMA_LIST_WEEK_RE.search(html)
+    if not m:
+        return None
+    start_month, start_day, _end_month, _end_day = (int(x) for x in m.groups())
+    best: datetime.date | None = None
+    best_diff: int | None = None
+    for year in (reference_date.year - 1, reference_date.year, reference_date.year + 1):
+        try:
+            candidate = datetime.date(year, start_month, start_day)
+        except ValueError:
+            continue
+        diff = abs((candidate - reference_date).days)
+        if best_diff is None or diff < best_diff:
+            best_diff = diff
+            best = candidate
+    return best.isoformat() if best else None
+
+
 def parse_familymart_detail(html: str) -> dict | None:
     lead_m = re.search(r'ly-goods-lead">(.*?)</p>', html, re.S)
-    price_m = re.search(r'ly-kakaku-usual">(.*?)</span>', html, re.S)
+    # ly-kakaku-usual の中身には「（税込」「）」がそれぞれ入れ子の<span>で
+    # 囲まれている(例: 406円<span>（税込</span>438円<span>）</span>)。
+    # 外側spanの閉じ(</span></span>と連続する箇所)まで取ってからタグを除去する
+    price_m = re.search(r'ly-kakaku-usual">(.*?)</span>\s*</span>', html, re.S)
     spec_lis = re.findall(r'ly-goods-spec">.*?</ul>', html, re.S)
     launch_m = re.search(r"発売日[：:]\s*(\d{4}年\d{1,2}月\d{1,2}日)", html)
 

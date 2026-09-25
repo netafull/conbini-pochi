@@ -7,7 +7,7 @@ on:
   # おり(2026-08-25〜29、家電/電書/林檎ポチで確認済み)、workflow_dispatchは
   # その間引きの対象外のため。
   #
-  # 発火元(設定予定): Cloud Scheduler ジョブ konbini-pochi-update
+  # 発火元(設定予定): Cloud Scheduler ジョブ conbini-pochi-update
   #   1日1回で足りる(公式サイトの新商品掲載は日次更新のため、30分間隔の
   #   林檎ポチのような即時性は不要)。
   #
@@ -38,6 +38,11 @@ jobs:
 
       - name: 新商品を取得
         run: python3 scripts/crawl.py
+
+      - name: ネタフルのレビュー記事を取得・照合
+        # ネタフル側の失敗はサイト更新全体を止めない(スクリプト内でエラーを
+        # 記録するだけで常に正常終了する)
+        run: python3 scripts/fetch_netaful_reviews.py
 
       - name: サイトを生成
         run: python3 scripts/generate_site.py

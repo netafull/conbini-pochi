@@ -4,7 +4,7 @@
  "name": "天神屋監修　大きなおむすび　元祖たぬきむすび",
  "category": "おむすび",
  "price_excl_tax": 264,
- "price_incl_tax": null,
+ "price_incl_tax": 285,
  "launch_date": null,
  "launch_text": "",
  "regions": [
@@ -20,5 +20,6 @@
  "first_seen_at": "2026-09-25T20:54:13+09:00",
  "fetched_at": "2026-09-25T20:54:13+09:00",
  "source_list": "lastweek",
- "image": null
+ "image": null,
+ "list_week_start": "2026-09-15"
 }
