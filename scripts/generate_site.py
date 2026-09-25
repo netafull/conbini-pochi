@@ -739,6 +739,26 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
     return page_shell(title, item.get("description") or CONFIG["site_description"], body, canonical)
 
 
+# AIの学習データ集め専用のクローラーは断る。商品説明は各社公式サイトからの引用なので、
+# 引用元への配慮として学習用にまとめて持っていかれるのは避ける(2026-09-25 コグレ判断)。
+# 検索やAI検索の表示に使うクローラー(Googlebot, Bingbot, OAI-SearchBot, ChatGPT-User,
+# PerplexityBot 等)は集客の入口なので止めない。
+# 漫画ポチ(manga.netaful.jp)は通信量課金対策で調査系ボットも止めているが、
+# GitHub Pages は通信量に課金されないので、その理由はここには当てはまらない。
+AI_TRAINING_BOTS = [
+    "GPTBot", "CCBot", "Google-Extended", "Applebot-Extended", "anthropic-ai",
+    "ClaudeBot", "Bytespider", "meta-externalagent", "cohere-training-data-crawler",
+    "Diffbot", "Omgilibot",
+]
+
+
+def generate_robots() -> str:
+    lines = [f"User-agent: {bot}" for bot in AI_TRAINING_BOTS]
+    lines += ["Disallow: /", "", "User-agent: *", "Allow: /", "",
+              f"Sitemap: {CONFIG.get('site_url', '')}sitemap.xml", ""]
+    return "\n".join(lines)
+
+
 def generate_rss(items: list[dict]) -> str:
     site_url = CONFIG.get("site_url", "")
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
@@ -862,10 +882,7 @@ def main() -> int:
     )
     (DOCS / "rss.xml").write_text(generate_rss(items), encoding="utf-8")
     (DOCS / "sitemap.xml").write_text(generate_sitemap(items, weeks), encoding="utf-8")
-    (DOCS / "robots.txt").write_text(
-        f"User-agent: *\nAllow: /\nSitemap: {CONFIG.get('site_url', '')}sitemap.xml\n",
-        encoding="utf-8",
-    )
+    (DOCS / "robots.txt").write_text(generate_robots(), encoding="utf-8")
     (DOCS / "CNAME").write_text(
         CONFIG.get("site_url", "").replace("https://", "").strip("/") + "\n", encoding="utf-8"
     )
