@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "041746",
+ "name": "鶏の旨み！鶏そぼろごはん（もち麦）",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "食感のよいもち麦ご飯に、鶏そぼろ，玉子そぼろ，高菜炒めを彩りよく盛りつけた御飯です。原材料高騰により価格（税抜）を３６０円から３９８円に変更させていただきます。",
+ "nutrition": {
+  "kcal": 365.0,
+  "protein_g": 17.5,
+  "fat_g": 8.9,
+  "carbs_g": 55.8,
+  "sugar_g": 51.5,
+  "fiber_g": 4.3,
+  "salt_g": 2.8,
+  "raw": "熱量：365kcal、たんぱく質：17.5g、脂質：8.9g、炭水化物：55.8g（糖質：51.5g、食物繊維：4.3g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/041746/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041746/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041746/kinki/"
+ ],
+ "first_seen_at": "2026-09-25T20:41:11+09:00",
+ "fetched_at": "2026-09-25T20:41:11+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

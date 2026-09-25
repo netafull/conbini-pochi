@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "3444801",
+ "name": "フタバ　ちょこっと大きな！プリンバー",
+ "category": "アイス",
+ "price_excl_tax": 128,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "味、価格、ボリューム感で大満足のプリン味のアイスバーです。パリパリ食感のカラメル風味のチョコレートとアイスの相性が抜群です。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/ice/3444801.html",
+ "first_seen_at": "2026-09-25T20:56:26+09:00",
+ "fetched_at": "2026-09-25T20:56:26+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

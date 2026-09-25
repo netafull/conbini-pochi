@@ -1,0 +1,40 @@
+{
+ "chain": "lawson",
+ "product_id": "1532644",
+ "name": "贅沢すぎ！肉づくし満腹濃厚豚ラーメン",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 797,
+ "launch_date": "2026-09-28",
+ "launch_text": "2026.09.28",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。",
+ "description": "野菜・2種のチャーシューと焼豚・ワシワシ麺が楽しめる、にんにくがきいた濃厚ラーメン！3種類の肉具材が楽しめる贅沢な仕様です。",
+ "nutrition": {
+  "kcal": 922.0,
+  "protein_g": 48.2,
+  "fat_g": 41.5,
+  "carbs_g": 94.2,
+  "sugar_g": 83.6,
+  "fiber_g": 10.6,
+  "salt_g": 11.45,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>922kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>48.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>41.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>94.2g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>83.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>10.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>11.45g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532644_1996.html",
+ "first_seen_at": "2026-09-25T21:00:24+09:00",
+ "fetched_at": "2026-09-25T21:00:24+09:00",
+ "source_list": "/recommend/new/list/1532631_5162.html",
+ "image": null
+}

@@ -1,0 +1,63 @@
+{
+ "chain": "seven",
+ "product_id": "044507",
+ "name": "香ばし野菜のあんかけ中華丼",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-09-23",
+ "launch_text": "2026年09月23日（水）以降順次発売",
+ "regions": [
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "沖縄"
+ ],
+ "region_text": "関東、甲信越、北陸、東海、近畿、中国、四国、沖縄",
+ "description": "香ばしく炒めた野菜などを畜肉の旨みが詰まったあんと絡めた中華丼です。",
+ "nutrition": {
+  "kcal": 505.0,
+  "protein_g": 14.3,
+  "fat_g": 12.1,
+  "carbs_g": 87.9,
+  "sugar_g": 81.6,
+  "fiber_g": 6.3,
+  "salt_g": 2.6,
+  "raw": "熱量：505kcal、たんぱく質：14.3g、脂質：12.1g、炭水化物：87.9g（糖質：81.6g、食物繊維：6.3g）、食塩相当量：2.6g"
+ },
+ "allergens": [
+  "小麦",
+  "えび"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "関東、甲信越、北陸、東海、近畿、中国、四国、沖縄",
+   "regions": [
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "沖縄"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044507/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044507/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044507/okinawa/"
+ ],
+ "first_seen_at": "2026-09-25T20:42:36+09:00",
+ "fetched_at": "2026-09-25T20:42:36+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

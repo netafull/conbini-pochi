@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1532432",
+ "name": "ダブルカステラサンド（とやまの牛乳入りホイップ）",
+ "category": "パン",
+ "price_excl_tax": 165,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "東海",
+  "北陸"
+ ],
+ "region_text": "東海・北陸",
+ "description": "「とやまの牛乳」入りホイップクリームと2枚のカステラ風ケーキをサンドしました。※静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1532432.html",
+ "first_seen_at": "2026-09-25T20:54:53+09:00",
+ "fetched_at": "2026-09-25T20:54:53+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

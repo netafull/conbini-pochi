@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1534931",
+ "name": "あんマーガリンシャルロット",
+ "category": "パン",
+ "price_excl_tax": 138,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "関西",
+  "中国・四国"
+ ],
+ "region_text": "関西、中国・四国",
+ "description": "しっとりふんわりとした食感のケーキ生地に、甘みのあるつぶあんとコクのあるマーガリンを巻き込んだ軽食やおやつにぴったりな一品です。※和歌山県の一部、山口県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1534931.html",
+ "first_seen_at": "2026-09-25T20:52:31+09:00",
+ "fetched_at": "2026-09-25T20:52:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

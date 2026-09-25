@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1022131",
+ "name": "3種きのこのクリームスープ",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "関東",
+  "東海",
+  "九州"
+ ],
+ "region_text": "関東・東海・九州",
+ "description": "3種のきのこ（エリンギ、しめじ、まいたけ）を使用したクリームスープです。きのこの風味を楽しめるスープで、具材にはきのこ、フジリ（パスタ）、ポテトなどを使用しています。※山梨県の一部、長野県、宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1022131.html",
+ "first_seen_at": "2026-09-25T20:53:19+09:00",
+ "fetched_at": "2026-09-25T20:53:19+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

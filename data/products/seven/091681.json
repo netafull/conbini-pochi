@@ -1,0 +1,63 @@
+{
+ "chain": "seven",
+ "product_id": "091681",
+ "name": "中華蕎麦とみ田監修　冷し辛豚まぜ麺",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "山梨県",
+  "長野県",
+  "沖縄"
+ ],
+ "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、沖縄",
+ "description": "人気ラーメン店「中華蕎麦とみ田」監修の、辛味やにんにくを効かせた冷たい豚骨醤油まぜ麺です。",
+ "nutrition": {
+  "kcal": 757.0,
+  "protein_g": 26.5,
+  "fat_g": 29.5,
+  "carbs_g": 101.6,
+  "sugar_g": 91.0,
+  "fiber_g": 10.6,
+  "salt_g": 7.7,
+  "raw": "熱量：757kcal、たんぱく質：26.5g、脂質：29.5g、炭水化物：101.6g（糖質：91.0g、食物繊維：10.6g）、食塩相当量：7.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、沖縄",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "沖縄"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/091681/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/091681/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/091681/okinawa/"
+ ],
+ "first_seen_at": "2026-09-25T20:42:47+09:00",
+ "fetched_at": "2026-09-25T20:42:47+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

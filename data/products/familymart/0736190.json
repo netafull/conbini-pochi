@@ -1,0 +1,50 @@
+{
+ "chain": "familymart",
+ "product_id": "0736190",
+ "name": "ベーコンとほうれん草のトマトクリームドリア",
+ "category": "お弁当",
+ "price_excl_tax": 554,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "トマトの旨みを感じるコクのあるトマトクリームソース、ベーコン、ほうれん草、チーズソースなどをバターライス風のご飯にトッピングしたドリアです。",
+ "nutrition": {
+  "kcal": 434.0,
+  "protein_g": 10.5,
+  "fat_g": 10.5,
+  "carbs_g": 75.7,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 3.0,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">434.00</td>\r\n                          <td class=\"con_nut\">10.50</td>\r\n                          <td class=\"con_nut\">10.50</td>\r\n                          <td class=\"con_nut\">75.70</td>\r\n                          <td class=\"con_nut\">3.00</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "牛肉",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0736190.html",
+ "first_seen_at": "2026-09-25T20:49:25+09:00",
+ "fetched_at": "2026-09-25T20:49:25+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044745",
+ "name": "味付のりおにぎり　チキン南蛮",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "九州の定番グルメ「チキン南蛮」を手軽に楽しめるおにぎりです。九州産の鶏むね肉を使用した、しっとりやわらかなチキン南蛮に、甘酸っぱい南蛮ダレを染み込ませました。",
+ "nutrition": {
+  "kcal": 218.0,
+  "protein_g": 5.0,
+  "fat_g": 4.8,
+  "carbs_g": 39.7,
+  "sugar_g": 37.9,
+  "fiber_g": 1.8,
+  "salt_g": 1.2,
+  "raw": "熱量：218kcal、たんぱく質：5.0g、脂質：4.8g、炭水化物：39.7g（糖質：37.9g、食物繊維：1.8g）、食塩相当量：1.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "九州",
+   "regions": [
+    "九州"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/044745/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044745/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044745/kyushu/"
+ ],
+ "first_seen_at": "2026-09-25T20:48:42+09:00",
+ "fetched_at": "2026-09-25T20:48:42+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

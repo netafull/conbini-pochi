@@ -1,0 +1,51 @@
+{
+ "chain": "familymart",
+ "product_id": "0920018",
+ "name": "トルティーヤ　ヤンニョムチキンと豚プルコギ",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 406,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "ヤンニョムチキンと豚プルコギ、2種類の味が楽しめるトルティーヤです。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": {
+  "kcal": 327.0,
+  "protein_g": 12.2,
+  "fat_g": 11.6,
+  "carbs_g": 45.0,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 1.9,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">327.00</td>\r\n                          <td class=\"con_nut\">12.20</td>\r\n                          <td class=\"con_nut\">11.60</td>\r\n                          <td class=\"con_nut\">45.00</td>\r\n                          <td class=\"con_nut\">1.90</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご",
+  "ゼラチン"
+ ],
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0920018.html",
+ "first_seen_at": "2026-09-25T20:49:34+09:00",
+ "fetched_at": "2026-09-25T20:49:34+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

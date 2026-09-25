@@ -1,0 +1,86 @@
+{
+ "chain": "seven",
+ "product_id": "044668",
+ "name": "旨塩ダレのねぎ塩豚カルビ弁当（もち麦）",
+ "category": null,
+ "price_excl_tax": 528,
+ "price_incl_tax": 570.24,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "関東",
+  "静岡県",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "関東、静岡県、近畿、中国、四国、九州",
+ "description": "香ばしく焼き上げた豚カルビを旨塩ダレで味付けした食べ進みの良いお弁当です。",
+ "nutrition": {
+  "kcal": 560.0,
+  "protein_g": 19.5,
+  "fat_g": 21.8,
+  "carbs_g": 74.9,
+  "sugar_g": 67.9,
+  "fiber_g": 7.0,
+  "salt_g": 1.3,
+  "raw": "熱量：560kcal、たんぱく質：19.5g、脂質：21.8g、炭水化物：74.9g（糖質：67.9g、食物繊維：7.0g）、食塩相当量：1.3g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "関東、静岡県、近畿、中国、四国、九州",
+   "regions": [
+    "関東",
+    "静岡県",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 528,
+   "price_incl_tax": 570.24,
+   "url": "https://www.sej.co.jp/products/a/item/044668/kanto/"
+  },
+  "shikoku": {
+   "region_text": "関東、静岡県、近畿、中国、四国、九州",
+   "regions": [
+    "関東",
+    "静岡県",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 528,
+   "price_incl_tax": 570.24,
+   "url": "https://www.sej.co.jp/products/a/item/044668/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "関東、静岡県、近畿、中国、四国、九州",
+   "regions": [
+    "関東",
+    "静岡県",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 528,
+   "price_incl_tax": 570.24,
+   "url": "https://www.sej.co.jp/products/a/item/044668/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044668/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044668/kanto/",
+  "https://www.sej.co.jp/products/a/item/044668/kyushu/",
+  "https://www.sej.co.jp/products/a/item/044668/shikoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:39:23+09:00",
+ "fetched_at": "2026-09-25T20:39:23+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

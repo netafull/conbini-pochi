@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0815482",
+ "name": "とろろ昆布そば",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 462,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北陸"
+ ],
+ "region_text": "北陸",
+ "description": "とろろ昆布のうまみが広がる、だし感のある優しい味わいのそばです。とろろ昆布、ねぎ、花かつおをトッピングしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0815482.html",
+ "first_seen_at": "2026-09-25T20:55:14+09:00",
+ "fetched_at": "2026-09-25T20:55:14+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

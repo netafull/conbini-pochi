@@ -1,0 +1,50 @@
+{
+ "chain": "familymart",
+ "product_id": "1032482",
+ "name": "チーズに溺れた！タスケテたこ焼き",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 462,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "背徳のチーズコンビニ飯",
+ "description": "チーズとマヨソースで6個のたこ焼きを溺れさせた仕立てです。チーズを惜しみなくトッピングし、最後の一口まで背徳的な味わいを楽しむことができます。",
+ "nutrition": {
+  "kcal": 374.0,
+  "protein_g": 15.1,
+  "fat_g": 23.6,
+  "carbs_g": 26.4,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 2.5,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">374.00</td>\r\n                          <td class=\"con_nut\">15.10</td>\r\n                          <td class=\"con_nut\">23.60</td>\r\n                          <td class=\"con_nut\">26.40</td>\r\n                          <td class=\"con_nut\">2.50</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "さば",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1032482.html",
+ "first_seen_at": "2026-09-25T20:55:41+09:00",
+ "fetched_at": "2026-09-25T20:55:41+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

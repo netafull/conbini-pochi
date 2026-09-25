@@ -1,0 +1,51 @@
+{
+ "chain": "familymart",
+ "product_id": "0820196",
+ "name": "ドーン！とにんにく　チーズ×チーズ×チーズ　カルボパスタ",
+ "category": "パスタ",
+ "price_excl_tax": 599,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "背徳のチーズコンビニ飯",
+ "description": "チーズと抜群の相性を誇るカルボナーラを、にんにくとコショウをきかせた背徳的商品に仕立てました。チーズは数種類のシュレッドチーズやパウダーチーズを組み合わせて、さらにベーコン、ブラックペッパー、おろしにんにく、きざみにんにく、ガーリックチップをトッピングしました。",
+ "nutrition": {
+  "kcal": 685.0,
+  "protein_g": 24.0,
+  "fat_g": 30.2,
+  "carbs_g": 82.0,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 5.0,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">685.00</td>\r\n                          <td class=\"con_nut\">24.00</td>\r\n                          <td class=\"con_nut\">30.20</td>\r\n                          <td class=\"con_nut\">82.00</td>\r\n                          <td class=\"con_nut\">5.00</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/pasta/0820196.html",
+ "first_seen_at": "2026-09-25T20:55:17+09:00",
+ "fetched_at": "2026-09-25T20:55:17+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "3441336",
+ "name": "とろける食感ぎゅっとみかん",
+ "category": "アイス",
+ "price_excl_tax": 230,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "和歌山県産みかん果汁を67%使用したアイスバーです。和歌山県産みかんの最大の特徴である濃厚な甘みとさわやかな酸味を生かした濃厚なみかん果汁層と、とろける食感のジェラート層の2層仕立てです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/ice/3441336.html",
+ "first_seen_at": "2026-09-25T20:56:24+09:00",
+ "fetched_at": "2026-09-25T20:56:24+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1025569",
+ "name": "甘辛仕立て！辛みそ鍋",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 554,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "東海",
+  "北陸"
+ ],
+ "region_text": "東海・北陸",
+ "description": "豚の旨みや味噌のコクと甘みを味わえる甘辛仕立ての鍋です。1/2日分の野菜（もやし、キャベツ、ニラ、人参）を使用しています。※静岡県（東部）では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1025569.html",
+ "first_seen_at": "2026-09-25T20:50:19+09:00",
+ "fetched_at": "2026-09-25T20:50:19+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

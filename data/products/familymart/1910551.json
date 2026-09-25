@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1910551",
+ "name": "クリームのせレトロプリン",
+ "category": "デザート",
+ "price_excl_tax": 186,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "喫茶店で食べるような固めのプリンにクリームをのせたレトロプリンです。［ファミリーマート限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1910551.html",
+ "first_seen_at": "2026-09-25T20:56:02+09:00",
+ "fetched_at": "2026-09-25T20:56:02+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

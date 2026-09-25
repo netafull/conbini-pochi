@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0615587",
+ "name": "あぶらあげごはん　幕の内弁当",
+ "category": "お弁当",
+ "price_excl_tax": 554,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北陸"
+ ],
+ "region_text": "北陸",
+ "description": "焼鮭・かき揚げ・鶏つくね・煮物など、バラエティ豊かなおかずを盛り込んだ幕の内弁当です。ごはんは、あぶらあげごはんを盛り付けました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0615587.html",
+ "first_seen_at": "2026-09-25T20:54:32+09:00",
+ "fetched_at": "2026-09-25T20:54:32+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

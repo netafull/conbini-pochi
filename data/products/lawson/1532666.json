@@ -1,0 +1,38 @@
+{
+ "chain": "lawson",
+ "product_id": "1532666",
+ "name": "こだわりたまごサンド",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 297,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026.09.29",
+ "regions": null,
+ "region_text": null,
+ "description": "たまごのコクと旨みが引き立ちつつ、たまごのゴロゴロ食感が楽しめるこだわりのたまごサンドです。",
+ "nutrition": {
+  "kcal": 290.0,
+  "protein_g": 10.5,
+  "fat_g": 17.6,
+  "carbs_g": 23.1,
+  "sugar_g": 21.8,
+  "fiber_g": 1.3,
+  "salt_g": 1.69,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>290kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>10.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>17.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>23.1g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>21.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.69g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆",
+  "りんご",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532666_1996.html",
+ "first_seen_at": "2026-09-25T20:58:35+09:00",
+ "fetched_at": "2026-09-25T20:58:35+09:00",
+ "source_list": "/recommend/new/list/1532630_5162.html",
+ "image": null
+}

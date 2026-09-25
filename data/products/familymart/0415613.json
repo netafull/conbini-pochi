@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0415613",
+ "name": "青磯海苔　海老天むす",
+ "category": "おむすび",
+ "price_excl_tax": 221,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "北海道",
+  "東海"
+ ],
+ "region_text": "北海道・東海",
+ "description": "「なごやめし」として人気の海老天むすです。海老天は醤油・あおさ・コショウでしっかり味付けをしています。※静岡県（東部）では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0415613.html",
+ "first_seen_at": "2026-09-25T20:49:16+09:00",
+ "fetched_at": "2026-09-25T20:49:16+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

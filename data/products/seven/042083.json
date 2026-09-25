@@ -1,0 +1,148 @@
+{
+ "chain": "seven",
+ "product_id": "042083",
+ "name": "阿部商店監修　いかめしおむすび",
+ "category": null,
+ "price_excl_tax": 228,
+ "price_incl_tax": 246.24,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "全国"
+ ],
+ "region_text": "全国",
+ "description": "北海道名物いかめしをイメージしたおむすびです。阿部商店監修のレシピで煮たいかを中具に組み合わせ、いかの煮汁で炊き上げたご飯で仕立てました。",
+ "nutrition": {
+  "kcal": 231.0,
+  "protein_g": 6.0,
+  "fat_g": 1.6,
+  "carbs_g": 48.9,
+  "sugar_g": 47.5,
+  "fiber_g": 1.4,
+  "salt_g": 2.3,
+  "raw": "熱量：231kcal、たんぱく質：6.0g、脂質：1.6g、炭水化物：48.9g（糖質：47.5g、食物繊維：1.4g）、食塩相当量：2.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/hokkaido/"
+  },
+  "tohoku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/tohoku/"
+  },
+  "kanto": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/hokuriku/"
+  },
+  "tokai": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/tokai/"
+  },
+  "kinki": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/kinki/"
+  },
+  "chugoku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/kyushu/"
+  },
+  "okinawa": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/042083/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042083/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042083/chugoku/",
+  "https://www.sej.co.jp/products/a/item/042083/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/042083/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042083/kanto/",
+  "https://www.sej.co.jp/products/a/item/042083/kinki/",
+  "https://www.sej.co.jp/products/a/item/042083/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/042083/kyushu/",
+  "https://www.sej.co.jp/products/a/item/042083/okinawa/",
+  "https://www.sej.co.jp/products/a/item/042083/shikoku/",
+  "https://www.sej.co.jp/products/a/item/042083/tohoku/",
+  "https://www.sej.co.jp/products/a/item/042083/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:44:00+09:00",
+ "fetched_at": "2026-09-25T20:44:00+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

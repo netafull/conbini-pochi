@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "1037005",
+ "name": "玉子包み焼き（焼そば&キャベツ）",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "中国・四国"
+ ],
+ "region_text": "中国・四国",
+ "description": "濃厚ソースで炒めた焼そばとキャベツを薄く焼いたたまごで包みました。お好みでマヨネーズをつけてお召し上がりください。※山口県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1037005.html",
+ "first_seen_at": "2026-09-25T20:53:22+09:00",
+ "fetched_at": "2026-09-25T20:53:22+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,99 @@
+{
+ "chain": "seven",
+ "product_id": "042484",
+ "name": "直火焼ソーセージおむすび",
+ "category": null,
+ "price_excl_tax": 205,
+ "price_incl_tax": 221.4,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "関東",
+  "甲信越",
+  "北陸",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "関東、甲信越、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県",
+ "description": "厚みのあるソーセージに、照り焼きタレとガーリックマヨネーズを合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 307.0,
+  "protein_g": 6.6,
+  "fat_g": 15.4,
+  "carbs_g": 36.3,
+  "sugar_g": 34.7,
+  "fiber_g": 1.6,
+  "salt_g": 2.2,
+  "raw": "熱量：307kcal、たんぱく質：6.6g、脂質：15.4g、炭水化物：36.3g（糖質：34.7g、食物繊維：1.6g）、食塩相当量：2.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "関東、甲信越、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県",
+   "regions": [
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 205,
+   "price_incl_tax": 221.4,
+   "url": "https://www.sej.co.jp/products/a/item/042484/hokuriku/"
+  },
+  "tokai": {
+   "region_text": "関東、甲信越、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県",
+   "regions": [
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 205,
+   "price_incl_tax": 221.4,
+   "url": "https://www.sej.co.jp/products/a/item/042484/tokai/"
+  },
+  "kinki": {
+   "region_text": "関東、東海、近畿、島根県、広島県、山口県",
+   "regions": [
+    "関東",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 205,
+   "price_incl_tax": 221.4,
+   "url": "https://www.sej.co.jp/products/a/item/042484/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042484/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042484/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042484/kinki/",
+  "https://www.sej.co.jp/products/a/item/042484/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:40:18+09:00",
+ "fetched_at": "2026-09-25T20:40:18+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

@@ -1,0 +1,49 @@
+{
+ "chain": "familymart",
+ "product_id": "0614061",
+ "name": "チーズソースまみれの塩ダレ豚焼肉丼",
+ "category": "お弁当",
+ "price_excl_tax": 647,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "背徳のチーズコンビニ飯",
+ "description": "たっぷりチーズソースまみれの塩ダレ豚焼肉丼です。黒コショウとにんにくのアクセントがきいた、やみつきになる味わいの塩ダレ豚焼肉丼に、チェダー、ゴーダ、モッツァレラの3種のチーズ入りのソースとモッツァレラチーズ入りのシュレッドチーズをトッピングした、背徳感いっぱいの商品です。",
+ "nutrition": {
+  "kcal": 661.0,
+  "protein_g": 18.9,
+  "fat_g": 22.9,
+  "carbs_g": 95.4,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 2.9,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">661.00</td>\r\n                          <td class=\"con_nut\">18.90</td>\r\n                          <td class=\"con_nut\">22.90</td>\r\n                          <td class=\"con_nut\">95.40</td>\r\n                          <td class=\"con_nut\">2.90</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0614061.html",
+ "first_seen_at": "2026-09-25T20:54:19+09:00",
+ "fetched_at": "2026-09-25T20:54:19+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

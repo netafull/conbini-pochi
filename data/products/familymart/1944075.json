@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1944075",
+ "name": "イタリア栗のモンブランタルト",
+ "category": "デザート",
+ "price_excl_tax": 258,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "イタリア産マロンのペーストとダイスを使用したモンブランタルトです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1944075.html",
+ "first_seen_at": "2026-09-25T20:53:28+09:00",
+ "fetched_at": "2026-09-25T20:53:28+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

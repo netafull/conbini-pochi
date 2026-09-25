@@ -1,0 +1,41 @@
+{
+ "chain": "familymart",
+ "product_id": "0810272",
+ "name": "お手軽！冷しぶっかけそば",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 298,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "関東",
+  "東海",
+  "関西",
+  "中国・四国"
+ ],
+ "region_text": null,
+ "description": "歯切れの良いそばにだしのきいたつゆを合わせ、揚げ玉・わさびを添えた、お手頃価格で小容量サイズの商品です。",
+ "nutrition": {
+  "kcal": 246.0,
+  "protein_g": 11.4,
+  "fat_g": 4.2,
+  "carbs_g": 42.3,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 2.8,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">246.00</td>\r\n                          <td class=\"con_nut\">11.40</td>\r\n                          <td class=\"con_nut\">4.20</td>\r\n                          <td class=\"con_nut\">42.30</td>\r\n                          <td class=\"con_nut\">2.80</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "そば",
+  "卵",
+  "大豆"
+ ],
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0810272.html",
+ "first_seen_at": "2026-09-25T20:49:55+09:00",
+ "fetched_at": "2026-09-25T20:49:55+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

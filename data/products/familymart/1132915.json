@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1132915",
+ "name": "食物繊維4.1gほうれん草のごま和え",
+ "category": "チルド惣菜",
+ "price_excl_tax": 249,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "ほうれん草、油揚げ、人参、こんにゃく、ひじきが入ったごまとだしが特徴の和え物です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1132915.html",
+ "first_seen_at": "2026-09-25T20:50:13+09:00",
+ "fetched_at": "2026-09-25T20:50:13+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

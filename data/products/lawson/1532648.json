@@ -1,0 +1,36 @@
+{
+ "chain": "lawson",
+ "product_id": "1532648",
+ "name": "MILKふんわりホイップデニッシュ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 181,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026.09.29",
+ "regions": null,
+ "region_text": "※沖縄地域では商品仕様と価格が異なります。",
+ "description": "ふんわりとしたデニッシュ生地に、ホイップと角切りホワイトチョコを組み合わせました。ミルクの甘さに角切りホワイトチョコの食感がアクセントになって楽しめます。",
+ "nutrition": {
+  "kcal": 407.0,
+  "protein_g": 4.8,
+  "fat_g": 24.3,
+  "carbs_g": 42.9,
+  "sugar_g": 41.8,
+  "fiber_g": 1.1,
+  "salt_g": 0.6,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1個当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>407kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>4.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>24.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>42.9g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>41.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 1個",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532648_1996.html",
+ "first_seen_at": "2026-09-25T20:58:20+09:00",
+ "fetched_at": "2026-09-25T20:58:20+09:00",
+ "source_list": "/recommend/new/list/1532630_5162.html",
+ "image": null
+}

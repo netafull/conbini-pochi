@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "040443",
+ "name": "静岡県水揚げしらすと三つ葉ごはんのおむすび",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "静岡県で水揚げされたしらすと静岡県産の三つ葉を使用したおむすびです。",
+ "nutrition": {
+  "kcal": 166.0,
+  "protein_g": 5.8,
+  "fat_g": 1.6,
+  "carbs_g": 32.8,
+  "sugar_g": 31.2,
+  "fiber_g": 1.6,
+  "salt_g": 1.9,
+  "raw": "熱量：166kcal、たんぱく質：5.8g、脂質：1.6g、炭水化物：32.8g（糖質：31.2g、食物繊維：1.6g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/040443/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040443/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040443/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:40:41+09:00",
+ "fetched_at": "2026-09-25T20:40:41+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

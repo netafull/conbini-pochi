@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0415422",
+ "name": "青磯海苔　海老マヨネーズ",
+ "category": "おむすび",
+ "price_excl_tax": 227,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北陸"
+ ],
+ "region_text": "北陸",
+ "description": "コクとほどよい酸味のあるマヨネーズを使用した海老マヨのおむすびです。海老マヨネーズと相性の良い青磯海苔を使用しました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0415422.html",
+ "first_seen_at": "2026-09-25T20:54:17+09:00",
+ "fetched_at": "2026-09-25T20:54:17+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

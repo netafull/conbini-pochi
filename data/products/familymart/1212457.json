@@ -1,0 +1,42 @@
+{
+ "chain": "familymart",
+ "product_id": "1212457",
+ "name": "まいたけとベーコンのサラダ",
+ "category": "サラダ",
+ "price_excl_tax": 398,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "関東",
+  "東海",
+  "北陸",
+  "関西"
+ ],
+ "region_text": null,
+ "description": "レタスなどの葉物野菜にベーコン、まいたけ、かぼちゃをトッピングしたサラダです。シーザードレッシング付きです。※東海地方、北陸地方では仕様が異なります。※山梨県の一部、長野県では取り扱いがございません。",
+ "nutrition": {
+  "kcal": 125.0,
+  "protein_g": 3.2,
+  "fat_g": 10.2,
+  "carbs_g": 5.7,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 0.9,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">125.00</td>\r\n                          <td class=\"con_nut\">3.20</td>\r\n                          <td class=\"con_nut\">10.20</td>\r\n                          <td class=\"con_nut\">5.70</td>\r\n                          <td class=\"con_nut\">0.90</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "卵",
+  "乳成分",
+  "大豆",
+  "豚肉",
+  "りんご"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/salad/1212457.html",
+ "first_seen_at": "2026-09-25T20:55:24+09:00",
+ "fetched_at": "2026-09-25T20:55:24+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

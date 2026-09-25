@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1940190",
+ "name": "クリスピーチョコサンド",
+ "category": "デザート",
+ "price_excl_tax": 276,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "中心にチョコソースが入ったチョコクリームをパリっと食感のチョココーティングで覆い、サクっと食感のビスケット生地でサンドしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1940190.html",
+ "first_seen_at": "2026-09-25T20:55:58+09:00",
+ "fetched_at": "2026-09-25T20:55:58+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

@@ -1,0 +1,49 @@
+{
+ "chain": "familymart",
+ "product_id": "1032475",
+ "name": "4種チーズの沼　※グラタンです",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 510,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "背徳のチーズコンビニ飯",
+ "description": "トッピングだけでなくホワイトソースにもチーズソースを加え、どこを食べても濃厚なチーズの味わいを楽しめるチーズ好きにはたまらない一品です。ベーコンの旨みも加わり、やみつき感と背徳感のある味わいに仕上げました。",
+ "nutrition": {
+  "kcal": 379.0,
+  "protein_g": 18.4,
+  "fat_g": 20.0,
+  "carbs_g": 32.8,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 2.9,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">379.00</td>\r\n                          <td class=\"con_nut\">18.40</td>\r\n                          <td class=\"con_nut\">20.00</td>\r\n                          <td class=\"con_nut\">32.80</td>\r\n                          <td class=\"con_nut\">2.90</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1032475.html",
+ "first_seen_at": "2026-09-25T20:55:44+09:00",
+ "fetched_at": "2026-09-25T20:55:44+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "0616096",
+ "name": "香味醤油ソースの鶏から揚げ弁当（黒マー油使用）",
+ "category": "お弁当",
+ "price_excl_tax": 628,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "ジューシーな鶏から揚げに特製ソースと黒マー油で香ばしい風味をプラスした満足感たっぷりの特製お弁当です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0616096.html",
+ "first_seen_at": "2026-09-25T20:52:04+09:00",
+ "fetched_at": "2026-09-25T20:52:04+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

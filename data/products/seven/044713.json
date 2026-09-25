@@ -1,0 +1,53 @@
+{
+ "chain": "seven",
+ "product_id": "044713",
+ "name": "韓国風手巻おにぎり　　鶏そぼろ卵黄",
+ "category": null,
+ "price_excl_tax": 185,
+ "price_incl_tax": 199.8,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "韓国海苔と相性の良い卵黄と、たまり醤油や味噌で味付けした地域になじみのある鶏そぼろを使用したおにぎり。",
+ "nutrition": {
+  "kcal": 191.0,
+  "protein_g": 4.7,
+  "fat_g": 3.0,
+  "carbs_g": 37.3,
+  "sugar_g": 35.3,
+  "fiber_g": 2.0,
+  "salt_g": 1.1,
+  "raw": "熱量：191kcal、たんぱく質：4.7g、脂質：3.0g、炭水化物：37.3g（糖質：35.3g、食物繊維：2.0g）、食塩相当量：1.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 185,
+   "price_incl_tax": 199.8,
+   "url": "https://www.sej.co.jp/products/a/item/044713/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044713/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044713/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:40:29+09:00",
+ "fetched_at": "2026-09-25T20:40:29+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

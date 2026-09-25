@@ -1,0 +1,42 @@
+{
+ "chain": "familymart",
+ "product_id": "0842709",
+ "name": "牛肉とナムルのコチュジャン和え麺",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 499,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "東京都の一部・神奈川県の一部",
+ "description": "味が良く絡む平太麺に牛肉玉ねぎ炒めとナムルをトッピングしました。麺にコチュジャンやごま油などを使用したピリ辛のソースが絡めてあり、麺と具材を絡めて食べた時に食感の違いを楽しめます。※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区） 、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。",
+ "nutrition": {
+  "kcal": 515.0,
+  "protein_g": 19.6,
+  "fat_g": 17.8,
+  "carbs_g": 71.0,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 3.7,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">515.00</td>\r\n                          <td class=\"con_nut\">19.60</td>\r\n                          <td class=\"con_nut\">17.80</td>\r\n                          <td class=\"con_nut\">71.00</td>\r\n                          <td class=\"con_nut\">3.70</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "牛肉",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0842709.html",
+ "first_seen_at": "2026-09-25T20:55:11+09:00",
+ "fetched_at": "2026-09-25T20:55:11+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

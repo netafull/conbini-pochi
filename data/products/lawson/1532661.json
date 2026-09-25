@@ -1,0 +1,39 @@
+{
+ "chain": "lawson",
+ "product_id": "1532661",
+ "name": "混ぜて食べる　和風パフェサラダ(ビーフン入り)",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 475,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026.09.29",
+ "regions": null,
+ "region_text": "※東京・神奈川・埼玉(一部)・千葉・茨城・栃木・群馬地域のローソンのみのお取り扱いとなります。※沖縄地域のローソン、ナチュラルローソンではお取り扱いしておりません。",
+ "description": "生成AIが提案した「パフェのような見た目で楽しむサラダ」という発想をもとに開発した商品です。紅芯大根やきゅうり、オクラ、カニカマなど7種類の具材とビーフンを使用し、白だし仕立ての和風ジュレで味わいます。",
+ "nutrition": {
+  "kcal": 136.0,
+  "protein_g": 5.2,
+  "fat_g": 2.7,
+  "carbs_g": 22.0,
+  "sugar_g": 20.1,
+  "fiber_g": 1.9,
+  "salt_g": 2.4,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>136kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>5.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>2.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>22.0g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>20.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>2.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "かに",
+  "小麦",
+  "卵",
+  "ごま",
+  "さば",
+  "大豆",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532661_1996.html",
+ "first_seen_at": "2026-09-25T20:58:53+09:00",
+ "fetched_at": "2026-09-25T20:58:53+09:00",
+ "source_list": "/recommend/new/list/1532630_5162.html",
+ "image": null
+}

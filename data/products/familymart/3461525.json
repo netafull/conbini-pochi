@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "3461525",
+ "name": "井村屋　紅はるかの焼いも最中",
+ "category": "アイス",
+ "price_excl_tax": 209,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "ファミマのおいも収穫祭",
+ "description": "焼き芋のような形をした香ばしい最中に、紅はるかペーストを使用したお芋アイスとお芋あんを入れた、味も見た目もまるで焼き芋のような最中アイスです。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/ice/3461525.html",
+ "first_seen_at": "2026-09-25T20:50:58+09:00",
+ "fetched_at": "2026-09-25T20:50:58+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

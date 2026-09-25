@@ -1,0 +1,33 @@
+{
+ "chain": "lawson",
+ "product_id": "1532015",
+ "name": "巨峰ティーフラッペ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 395,
+ "launch_date": "2026-09-15",
+ "launch_text": "2026.09.15",
+ "regions": null,
+ "region_text": null,
+ "description": "巨峰の果肉がアクセント、秋を感じるフルーティーなフラッペを発売します。",
+ "nutrition": {
+  "kcal": 239.0,
+  "protein_g": 3.2,
+  "fat_g": 5.5,
+  "carbs_g": 45.0,
+  "sugar_g": 44.8,
+  "fiber_g": 0.2,
+  "salt_g": 0.3,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分</h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>239kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>3.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>5.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>45.0g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>44.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "乳成分"
+ ],
+ "spec": "規格（内容量）: 1杯",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532015_1996.html",
+ "first_seen_at": "2026-09-25T21:03:33+09:00",
+ "fetched_at": "2026-09-25T21:03:33+09:00",
+ "source_list": "/recommend/new/list/1532031_5162.html",
+ "image": null
+}

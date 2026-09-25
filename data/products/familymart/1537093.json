@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1537093",
+ "name": "牛乳入りパン（信州産牛乳入りホイップ）",
+ "category": "パン",
+ "price_excl_tax": 165,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "関東",
+  "東海"
+ ],
+ "region_text": "関東の一部・東海",
+ "description": "ふんわりとした山型のパンに、信州産牛乳入りのホイップクリームをサンドしました。※関東地区では山梨県・長野県での取り扱いです。※静岡の一部、三重県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1537093.html",
+ "first_seen_at": "2026-09-25T20:49:48+09:00",
+ "fetched_at": "2026-09-25T20:49:48+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

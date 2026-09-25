@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "0240659",
+ "name": "極旨　黒豚まんチーズ",
+ "category": "中華まん",
+ "price_excl_tax": 232,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "国産黒豚を100%使用しました。あらびき肉のゴロっとした食感と玉ねぎの甘みが特徴の黒豚まんに、中心に5種類のチーズを閉じ込めました。［数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/chukaman/0240659.html",
+ "first_seen_at": "2026-09-25T20:53:25+09:00",
+ "fetched_at": "2026-09-25T20:53:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

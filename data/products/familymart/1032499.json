@@ -1,0 +1,50 @@
+{
+ "chain": "familymart",
+ "product_id": "1032499",
+ "name": "ボロネーゼ風ラザニア",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 462,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "もちもち食感の生パスタを使用したラザニアです。肉の旨みとトマトの酸味のきいたミートソースとコク深い味わいのデミクリームソースを使用し、チーズやパセリをトッピングしました。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": {
+  "kcal": 307.0,
+  "protein_g": 13.8,
+  "fat_g": 14.5,
+  "carbs_g": 31.4,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 3.3,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">307.00</td>\r\n                          <td class=\"con_nut\">13.80</td>\r\n                          <td class=\"con_nut\">14.50</td>\r\n                          <td class=\"con_nut\">31.40</td>\r\n                          <td class=\"con_nut\">3.30</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "牛肉",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご",
+  "ゼラチン"
+ ],
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1032499.html",
+ "first_seen_at": "2026-09-25T20:50:16+09:00",
+ "fetched_at": "2026-09-25T20:50:16+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

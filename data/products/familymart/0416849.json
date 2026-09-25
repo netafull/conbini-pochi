@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0416849",
+ "name": "かやくごはんおむすび",
+ "category": "おむすび",
+ "price_excl_tax": 153,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "関西"
+ ],
+ "region_text": "関西",
+ "description": "だしの旨みをきかせた、地域でなじみのあるかやくごはんのおむすびです。※和歌山県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0416849.html",
+ "first_seen_at": "2026-09-25T20:54:08+09:00",
+ "fetched_at": "2026-09-25T20:54:08+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

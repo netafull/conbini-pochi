@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "1945003",
+ "name": "シェアする!?クリームコーヒーゼリー",
+ "category": "デザート",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "コーヒーゼリーにコーヒーホイップを重ね、ホイップクリームをトッピングしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1945003.html",
+ "first_seen_at": "2026-09-25T20:55:52+09:00",
+ "fetched_at": "2026-09-25T20:55:52+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

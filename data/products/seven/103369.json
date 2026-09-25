@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "103369",
+ "name": "辛味噌もつ煮込み鍋　道産ホルモン使用",
+ "category": null,
+ "price_excl_tax": 518,
+ "price_incl_tax": 559.44,
+ "launch_date": "2026-10-01",
+ "launch_text": "2026年10月01日（木）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "北海道産豚ホルモンを、味噌に豆板醤や唐辛子の辛みをきかせたスープで煮込んだもつ煮込み鍋です",
+ "nutrition": {
+  "kcal": 247.0,
+  "protein_g": 16.0,
+  "fat_g": 11.4,
+  "carbs_g": 22.8,
+  "sugar_g": 17.3,
+  "fiber_g": 5.5,
+  "salt_g": 5.2,
+  "raw": "熱量：247kcal、たんぱく質：16.0g、脂質：11.4g、炭水化物：22.8g（糖質：17.3g、食物繊維：5.5g）、食塩相当量：5.2g"
+ },
+ "allergens": [
+  "乳"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 518,
+   "price_incl_tax": 559.44,
+   "url": "https://www.sej.co.jp/products/a/item/103369/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/103369/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/103369/hokkaido/"
+ ],
+ "first_seen_at": "2026-09-25T20:45:07+09:00",
+ "fetched_at": "2026-09-25T20:45:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

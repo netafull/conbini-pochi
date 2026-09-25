@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0824903",
+ "name": "桜木屋監修　ニラ焼そば",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "秋田県で人気のラーメン店「桜木屋」監修の焼そばです。ピリッと辛い醤油ベースの焼そばにニラもやしをたっぷりのせました。肉そぼろが味のアクセントです。※新潟県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0824903.html",
+ "first_seen_at": "2026-09-25T20:52:58+09:00",
+ "fetched_at": "2026-09-25T20:52:58+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

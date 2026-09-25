@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044669",
+ "name": "旨塩ダレのねぎ塩豚カルビ弁当（もち麦）",
+ "category": null,
+ "price_excl_tax": 528,
+ "price_incl_tax": 570.24,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "甲信越",
+  "北陸"
+ ],
+ "region_text": "北海道、甲信越、北陸",
+ "description": "香ばしく焼き上げた豚カルビを旨塩ダレで味付けした食べ進みの良いお弁当です。",
+ "nutrition": {
+  "kcal": 646.0,
+  "protein_g": 15.7,
+  "fat_g": 26.7,
+  "carbs_g": 89.2,
+  "sugar_g": 82.0,
+  "fiber_g": 7.2,
+  "salt_g": 1.6,
+  "raw": "熱量：646kcal、たんぱく質：15.7g、脂質：26.7g、炭水化物：89.2g（糖質：82.0g、食物繊維：7.2g）、食塩相当量：1.6g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、甲信越、北陸",
+   "regions": [
+    "北海道",
+    "甲信越",
+    "北陸"
+   ],
+   "price_excl_tax": 528,
+   "price_incl_tax": 570.24,
+   "url": "https://www.sej.co.jp/products/a/item/044669/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044669/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044669/hokkaido/"
+ ],
+ "first_seen_at": "2026-09-25T20:36:54+09:00",
+ "fetched_at": "2026-09-25T20:36:54+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

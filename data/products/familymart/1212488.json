@@ -1,0 +1,27 @@
+{
+ "chain": "familymart",
+ "product_id": "1212488",
+ "name": "砕いて食べる！タコス風サラダ",
+ "category": "サラダ",
+ "price_excl_tax": 417,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "関東",
+  "東海",
+  "北陸",
+  "関西"
+ ],
+ "region_text": null,
+ "description": "砕いて食べるトルティーヤチップスのサラダです。タコミート、チーズ、キャベツやレタスなどの野菜をトッピングしました。サルサソース付きです。※東京都の一部、神奈川県の一部、山梨県の一部、長野県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/salad/1212488.html",
+ "first_seen_at": "2026-09-25T20:53:07+09:00",
+ "fetched_at": "2026-09-25T20:53:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

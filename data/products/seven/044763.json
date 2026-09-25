@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "044763",
+ "name": "手巻おにぎり　鶏そぼろ",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-09-30",
+ "launch_text": "2026年09月30日（水）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "醤油と砂糖で甘辛く味付けし、生姜をきかせて後味すっきりに仕上げた鶏そぼろを中具にしました。食べる直前にパリッとした海苔を巻いて食べる手巻おにぎりです。",
+ "nutrition": {
+  "kcal": 199.0,
+  "protein_g": 5.5,
+  "fat_g": 2.8,
+  "carbs_g": 38.8,
+  "sugar_g": 36.9,
+  "fiber_g": 1.9,
+  "salt_g": 1.4,
+  "raw": "熱量：199kcal、たんぱく質：5.5g、脂質：2.8g、炭水化物：38.8g（糖質：36.9g、食物繊維：1.9g）、食塩相当量：1.4g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/044763/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044763/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044763/kinki/"
+ ],
+ "first_seen_at": "2026-09-25T20:47:54+09:00",
+ "fetched_at": "2026-09-25T20:47:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

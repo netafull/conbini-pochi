@@ -1,0 +1,65 @@
+{
+ "chain": "seven",
+ "product_id": "044455",
+ "name": "ガーリックオニオンのグリルチキン弁当",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "静岡県",
+  "近畿",
+  "福岡県",
+  "佐賀県",
+  "大分県"
+ ],
+ "region_text": "埼玉県、千葉県、東京都、神奈川県、静岡県、近畿、福岡県、佐賀県、大分県",
+ "description": "にんにくを効かせたオニオンソースで味付けしたグリルチキンを楽しめるお弁当です。",
+ "nutrition": {
+  "kcal": 593.0,
+  "protein_g": 32.6,
+  "fat_g": 11.8,
+  "carbs_g": 91.6,
+  "sugar_g": 86.7,
+  "fiber_g": 4.9,
+  "salt_g": 4.1,
+  "raw": "熱量：593kcal、たんぱく質：32.6g、脂質：11.8g、炭水化物：91.6g（糖質：86.7g、食物繊維：4.9g）、食塩相当量：4.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、静岡県、近畿、福岡県、佐賀県、大分県",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "静岡県",
+    "近畿",
+    "福岡県",
+    "佐賀県",
+    "大分県"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044455/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044455/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044455/kinki/"
+ ],
+ "first_seen_at": "2026-09-25T20:41:00+09:00",
+ "fetched_at": "2026-09-25T20:41:00+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

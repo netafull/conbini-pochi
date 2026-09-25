@@ -1,0 +1,62 @@
+{
+ "chain": "seven",
+ "product_id": "044731",
+ "name": "おおきなおむすび　秋鮭バター醤油　押麦入り",
+ "category": null,
+ "price_excl_tax": 228,
+ "price_incl_tax": 246.24,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "バター醤油タレを混ぜ込んだ御飯と相性の良い鮭を組み合わせた、温めて美味しいおむすびです。",
+ "nutrition": {
+  "kcal": 279.0,
+  "protein_g": 6.7,
+  "fat_g": 4.9,
+  "carbs_g": 53.4,
+  "sugar_g": 50.4,
+  "fiber_g": 3.0,
+  "salt_g": 2.0,
+  "raw": "熱量：279kcal、たんぱく質：6.7g、脂質：4.9g、炭水化物：53.4g（糖質：50.4g、食物繊維：3.0g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/044731/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/044731/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044731/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044731/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044731/koshinetsu/"
+ ],
+ "first_seen_at": "2026-09-25T20:39:35+09:00",
+ "fetched_at": "2026-09-25T20:39:35+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

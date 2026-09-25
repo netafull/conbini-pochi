@@ -1,0 +1,184 @@
+{
+ "chain": "seven",
+ "product_id": "041417",
+ "name": "鶏釜めし仕立て（もち麦）",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "宮城県",
+  "山形県",
+  "福島県",
+  "関東",
+  "甲信越",
+  "北陸",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "近畿",
+  "中国",
+  "四国"
+ ],
+ "region_text": "北海道、宮城県、山形県、福島県、関東、甲信越、北陸、岐阜県、愛知県、三重県、近畿、中国、四国",
+ "description": "香ばしく焼いた鶏肉やさつまいも，きんぴらごぼう，錦糸玉子などを彩りよく盛り付けたお弁当です。",
+ "nutrition": {
+  "kcal": 329.0,
+  "protein_g": 16.0,
+  "fat_g": 5.0,
+  "carbs_g": 57.5,
+  "sugar_g": 52.5,
+  "fiber_g": 5.0,
+  "salt_g": 1.4,
+  "raw": "熱量：329kcal、たんぱく質：16.0g、脂質：5.0g、炭水化物：57.5g（糖質：52.5g、食物繊維：5.0g）、食塩相当量：1.4g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、宮城県、山形県、福島県、関東、甲信越、北陸、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "宮城県",
+    "山形県",
+    "福島県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/041417/hokkaido/"
+  },
+  "tohoku": {
+   "region_text": "北海道、宮城県、山形県、福島県、関東、甲信越、北陸、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "宮城県",
+    "山形県",
+    "福島県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/041417/tohoku/"
+  },
+  "kanto": {
+   "region_text": "北海道、宮城県、山形県、福島県、関東、甲信越、北陸、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "宮城県",
+    "山形県",
+    "福島県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/041417/kanto/"
+  },
+  "hokuriku": {
+   "region_text": "北海道、宮城県、山形県、福島県、関東、甲信越、北陸、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "宮城県",
+    "山形県",
+    "福島県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/041417/hokuriku/"
+  },
+  "shikoku": {
+   "region_text": "北海道、宮城県、山形県、福島県、関東、甲信越、北陸、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "宮城県",
+    "山形県",
+    "福島県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/041417/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "北海道、宮城県、山形県、福島県、関東、甲信越、北陸、岐阜県、愛知県、三重県、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "宮城県",
+    "山形県",
+    "福島県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/041417/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041417/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041417/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/041417/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/041417/kanto/",
+  "https://www.sej.co.jp/products/a/item/041417/kyushu/",
+  "https://www.sej.co.jp/products/a/item/041417/shikoku/",
+  "https://www.sej.co.jp/products/a/item/041417/tohoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:36:48+09:00",
+ "fetched_at": "2026-09-25T20:36:48+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

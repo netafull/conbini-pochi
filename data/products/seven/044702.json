@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044702",
+ "name": "おおきなおむすび　昆布ご飯とツナマヨ",
+ "category": null,
+ "price_excl_tax": 228,
+ "price_incl_tax": 246.24,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "北陸"
+ ],
+ "region_text": "北陸",
+ "description": "旨味のあるだし飯に昆布を混ぜた昆布ご飯とツナマヨを中具に合わせた、人気具材の組み合わせが楽しめるおにぎりです。",
+ "nutrition": {
+  "kcal": 368.0,
+  "protein_g": 6.3,
+  "fat_g": 11.6,
+  "carbs_g": 60.8,
+  "sugar_g": 58.2,
+  "fiber_g": 2.6,
+  "salt_g": 2.5,
+  "raw": "熱量：368kcal、たんぱく質：6.3g、脂質：11.6g、炭水化物：60.8g（糖質：58.2g、食物繊維：2.6g）、食塩相当量：2.5g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "北陸",
+   "regions": [
+    "北陸"
+   ],
+   "price_excl_tax": 228,
+   "price_incl_tax": 246.24,
+   "url": "https://www.sej.co.jp/products/a/item/044702/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044702/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044702/hokuriku/"
+ ],
+ "first_seen_at": "2026-09-25T20:39:59+09:00",
+ "fetched_at": "2026-09-25T20:39:59+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "5836390",
+ "name": "ズブロッカ　アップルズー　350ml",
+ "category": "お酒",
+ "price_excl_tax": 180,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "関東",
+  "東海",
+  "関西"
+ ],
+ "region_text": "関東・東海・関西",
+ "description": "世界的に有名なフレーバードウオッカ『ズブロッカ』を使ったチューハイです。さわやかなアップルの甘みとほのかなハーブの香りが調和した味わいが特徴です。【アルコール度数：4.5%】［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/alcohol/5836390.html",
+ "first_seen_at": "2026-09-25T20:56:20+09:00",
+ "fetched_at": "2026-09-25T20:56:20+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

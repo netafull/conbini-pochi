@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1160765",
+ "name": "たっぷりタルタルチキン南蛮",
+ "category": "チルド惣菜",
+ "price_excl_tax": 462,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "関東",
+  "東海",
+  "北陸"
+ ],
+ "region_text": "関東・東海・北陸",
+ "description": "玉ねぎやピクルスの食感と酸味が特徴のタルタルソースとフルーティーな甘さの甘酢ダレを絡めたチキン南蛮です。タルタルソースがたっぷりと入った仕立てです。ナポリタン風のパスタ入りです。※関東地方の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1160765.html",
+ "first_seen_at": "2026-09-25T20:50:01+09:00",
+ "fetched_at": "2026-09-25T20:50:01+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

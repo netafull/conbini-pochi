@@ -1,0 +1,70 @@
+{
+ "chain": "seven",
+ "product_id": "091759",
+ "name": "札幌すみれ監修　濃厚しおラーメン",
+ "category": null,
+ "price_excl_tax": 580,
+ "price_incl_tax": 626.4,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "全国"
+ ],
+ "region_text": "全国",
+ "description": "北海道札幌市の人気ラーメン店「すみれ」が監修した、にんにくの効いたコクのあるスープの塩ラーメンです。",
+ "nutrition": {
+  "kcal": 567.0,
+  "protein_g": 27.3,
+  "fat_g": 11.2,
+  "carbs_g": 91.5,
+  "sugar_g": 87.2,
+  "fiber_g": 4.3,
+  "salt_g": 6.7,
+  "raw": "熱量：567kcal、たんぱく質：27.3g、脂質：11.2g、炭水化物：91.5g（糖質：87.2g、食物繊維：4.3g）、食塩相当量：6.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 580,
+   "price_incl_tax": 626.4,
+   "url": "https://www.sej.co.jp/products/a/item/091759/hokkaido/"
+  },
+  "shikoku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 580,
+   "price_incl_tax": 626.4,
+   "url": "https://www.sej.co.jp/products/a/item/091759/shikoku/"
+  },
+  "okinawa": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 580,
+   "price_incl_tax": 626.4,
+   "url": "https://www.sej.co.jp/products/a/item/091759/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/091759/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/091759/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/091759/okinawa/",
+  "https://www.sej.co.jp/products/a/item/091759/shikoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:44:53+09:00",
+ "fetched_at": "2026-09-25T20:44:53+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1532195",
+ "name": "こんにゃく",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 140,
+ "launch_date": "2026-09-23",
+ "launch_text": "2026.09.23",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。",
+ "description": "群馬県産こんにゃく粉を使用した食べやすいサイズにカットしたおでん専用こんにゃくです。",
+ "nutrition": {
+  "kcal": 7.0,
+  "protein_g": 0.0,
+  "fat_g": 0.0,
+  "carbs_g": 3.5,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 0.0,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【100g当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>7kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>3.5g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532195_1996.html",
+ "first_seen_at": "2026-09-25T21:00:47+09:00",
+ "fetched_at": "2026-09-25T21:00:47+09:00",
+ "source_list": "/recommend/new/list/1532205_5162.html",
+ "image": null
+}

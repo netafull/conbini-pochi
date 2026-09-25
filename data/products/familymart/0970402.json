@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "0970402",
+ "name": "トルティーヤ　背脂にんにく豚チーズ",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": "背徳のチーズコンビニ飯",
+ "description": "背脂とにんにくを使用した背徳感のあるソース、チーズ、焼き豚をトルティーヤで包みました。ガツンとにんにくの味わいを感じられる商品です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0970402.html",
+ "first_seen_at": "2026-09-25T20:54:50+09:00",
+ "fetched_at": "2026-09-25T20:54:50+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

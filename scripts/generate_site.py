@@ -1,0 +1,624 @@
+#!/usr/bin/env python3
+"""data/products/*/*.json から docs/ 一式を生成する静的サイトジェネレータ。
+
+林檎ポチ(apple-refurb-site)の骨格を踏襲しつつ、コンビニポチは「入荷イベント」
+ではなく「アーカイブ」が軸なので、週(月曜始まり)ごとのページを中心に構成する。
+"""
+
+from __future__ import annotations
+
+import datetime
+import html
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+DATA = ROOT / "data"
+PRODUCTS = DATA / "products"
+DOCS = ROOT / "docs"
+JST = datetime.timezone(datetime.timedelta(hours=9))
+
+CHAINS = CONFIG["chains"]
+CHAIN_NAME = {c["slug"]: c["name"] for c in CHAINS}
+
+
+def esc(s) -> str:
+    return html.escape(s or "", quote=True)
+
+
+def has_asset(name: str) -> bool:
+    return (DOCS / "assets" / name).is_file()
+
+
+def load_all_products() -> list[dict]:
+    items = []
+    for chain in CHAIN_NAME:
+        d = PRODUCTS / chain
+        if not d.is_dir():
+            continue
+        for f in sorted(d.glob("*.json")):
+            try:
+                items.append(json.loads(f.read_text(encoding="utf-8")))
+            except json.JSONDecodeError:
+                continue
+    return items
+
+
+def week_start(date_str: str | None) -> str | None:
+    """月曜始まりの週の開始日(ISO)を返す。"""
+    if not date_str:
+        return None
+    try:
+        d = datetime.date.fromisoformat(date_str)
+    except ValueError:
+        return None
+    return (d - datetime.timedelta(days=d.weekday())).isoformat()
+
+
+def effective_date(item: dict) -> str | None:
+    """発売日が無ければ初回検出日で代替する。"""
+    return item.get("launch_date") or (item.get("first_seen_at") or "")[:10] or None
+
+
+def item_url(item: dict) -> str:
+    return f"items/{item['chain']}-{item['product_id']}.html"
+
+
+def price_html(item: dict) -> str:
+    incl = item.get("price_incl_tax")
+    excl = item.get("price_excl_tax")
+    if incl is None and excl is None:
+        return ""
+    parts = []
+    if incl is not None:
+        v = int(incl) if float(incl) == int(incl) else incl
+        parts.append(f"税込{v}円")
+    if excl is not None:
+        v = int(excl) if float(excl) == int(excl) else excl
+        parts.append(f"（税抜{v}円）")
+    return "".join(parts)
+
+
+def render_card(item: dict) -> str:
+    chain_name = CHAIN_NAME.get(item["chain"], item["chain"])
+    date = effective_date(item) or ""
+    kcal = (item.get("nutrition") or {}).get("kcal")
+    kcal_html = f'<span class="kcal">{kcal:g}kcal</span>' if kcal is not None else ""
+    return f"""<a class="item" href="{esc(item_url(item))}" data-kcal="{kcal if kcal is not None else ''}"
+   data-date="{esc(date)}" data-chain="{esc(item['chain'])}">
+  <div class="badge">{esc(chain_name)}</div>
+  <div class="t">{esc(item['name'])}</div>
+  <div class="price">{price_html(item)}{kcal_html}</div>
+  <div class="meta">{esc(date)} 発売{('・' + esc(item['category'])) if item.get('category') else ''}</div>
+</a>"""
+
+
+CSS = """
+:root {
+  --bg: #fafaf7; --card: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
+  --accent: #0071e3; --line: #e5e2dc;
+  --seven: #ee2f36; --familymart: #00a650; --lawson: #0058a3;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #14151a; --card: #1e2027; --text: #e8e8e6; --muted: #9a9a96;
+    --line: #2c2e36; --accent: #2997ff; }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text);
+  font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.6; }
+a { color: inherit; }
+header { padding: 24px 16px 12px; max-width: 980px; margin: 0 auto; }
+header h1 a { text-decoration: none; font-size: 22px; }
+header p { color: var(--muted); font-size: 13px; margin-top: 4px; }
+nav.crumbs { font-size: 12px; color: var(--muted); margin-top: 8px; }
+nav.crumbs a { text-decoration: none; color: var(--accent); }
+.sites { margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap; align-items: baseline; }
+.sites .lbl { font-size: 12px; color: var(--muted); }
+.sites a { font-size: 12px; padding: 3px 10px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); text-decoration: none; }
+main { max-width: 980px; margin: 0 auto; padding: 8px 16px 48px; }
+h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); margin: 24px 0 12px; }
+.chain-tabs { display: flex; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
+.chain-tabs button { font-size: 13px; padding: 6px 14px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); cursor: pointer; font-family: inherit; }
+.chain-tabs button[aria-selected="true"] { background: var(--text); color: var(--bg); font-weight: 600; }
+.sort-bar { display: flex; gap: 8px; margin: 8px 0 16px; flex-wrap: wrap; align-items: center; }
+.sort-bar select, .sort-bar input { font-size: 13px; padding: 5px 8px; border-radius: 6px;
+  border: 1px solid var(--line); background: var(--card); color: var(--text); font-family: inherit; }
+.grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+.item { display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; padding: 12px; text-decoration: none; }
+.item:hover { border-color: var(--accent); }
+.item .badge { display: inline-block; font-size: 10px; font-weight: 700; color: #fff;
+  border-radius: 4px; padding: 1px 6px; margin-bottom: 6px; }
+.item[data-chain="seven"] .badge { background: var(--seven); }
+.item[data-chain="familymart"] .badge { background: var(--familymart); }
+.item[data-chain="lawson"] .badge { background: var(--lawson); }
+.item .t { font-size: 14px; font-weight: 600; display: -webkit-box;
+  -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em; }
+.item .price { margin-top: 6px; font-size: 13px; }
+.item .price .kcal { margin-left: 8px; color: var(--muted); }
+.item .meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+.weeklist { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
+.weeklist a { text-decoration: none; padding: 10px 14px; background: var(--card);
+  border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
+.weeklist a:hover { border-color: var(--accent); }
+.weeklist .n { color: var(--muted); font-size: 12px; margin-left: 8px; }
+.chainlist { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 8px; }
+.chainlist a { text-decoration: none; padding: 8px 16px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); font-size: 13px; }
+.detail { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+  padding: 20px; margin-top: 12px; }
+.detail h1 { font-size: 20px; margin-bottom: 8px; }
+.detail .price { font-size: 18px; font-weight: 700; margin: 8px 0; }
+.detail table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
+.detail table th, .detail table td { border-bottom: 1px solid var(--line); text-align: left;
+  padding: 6px 4px; }
+.detail table th { color: var(--muted); font-weight: 500; width: 40%; }
+.detail blockquote { border-left: 3px solid var(--accent); margin: 12px 0; padding: 8px 14px;
+  color: var(--text); background: var(--bg); border-radius: 4px; font-size: 14px; }
+.detail .source { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.detail .warn { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.tags { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.tags span { font-size: 11px; border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; }
+.searchbox { margin: 16px 0; }
+.searchbox input { width: 100%; font-size: 14px; padding: 10px 12px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--card); color: var(--text); font-family: inherit; }
+footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); font-size: 12px;
+  border-top: 1px solid var(--line); }
+.about { max-width: 980px; margin: 40px auto 0; padding: 20px 16px 0; border-top: 1px solid var(--line);
+  color: var(--muted); font-size: 13px; line-height: 1.9; }
+.about h2 { font-size: 14px; border-left-width: 3px; margin-bottom: 8px; color: var(--text); }
+.about p { margin-top: 8px; }
+.empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
+"""
+
+
+def page_shell(title: str, description: str, body: str, canonical: str, extra_head: str = "") -> str:
+    site_url = CONFIG.get("site_url", "")
+    page_title = f'{esc(title)}｜{esc(CONFIG["site_title"])}' if title != CONFIG["site_title"] else esc(title)
+
+    ga_id = CONFIG.get("ga_measurement_id")
+    ga_tag = ""
+    if ga_id:
+        ga_tag = (
+            f'<script async src="https://www.googletagmanager.com/gtag/js?id={esc(ga_id)}"></script>\n'
+            "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+            f"gtag('js',new Date());gtag('config','{esc(ga_id)}');</script>"
+        )
+
+    icon_tags = []
+    if has_asset("favicon.png"):
+        icon_tags.append('<link rel="icon" type="image/png" href="/assets/favicon.png">')
+    if has_asset("apple-touch-icon.png"):
+        icon_tags.append('<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">')
+    ogp_tags = []
+    if has_asset("ogp.jpg"):
+        ogp_tags = [
+            f'<meta property="og:image" content="{esc(site_url)}assets/ogp.jpg">',
+            '<meta property="og:image:width" content="1200">',
+            '<meta property="og:image:height" content="630">',
+            '<meta name="twitter:card" content="summary_large_image">',
+        ]
+
+    related = CONFIG.get("related_sites") or []
+    links = "\n".join(
+        f'<a href="{esc(s["url"])}">{esc(s["name"])}'
+        + (f'<span class="lbl"> {esc(s["desc"])}</span>' if s.get("desc") else "")
+        + "</a>"
+        for s in related
+    )
+    related_html = f'<nav class="sites"><span class="lbl">関連サイト</span>\n{links}\n</nav>' if related else ""
+
+    policy_url = CONFIG.get("policy_url", "")
+    policy_link = (
+        f'｜ <a href="{esc(policy_url)}">メディアポリシー</a>\n' if policy_url else ""
+    )
+
+    return f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{page_title}</title>
+<meta name="description" content="{esc(description)}">
+<link rel="canonical" href="{esc(canonical)}">
+{ga_tag}
+{chr(10).join(icon_tags)}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{page_title}">
+<meta property="og:description" content="{esc(description)}">
+<meta property="og:url" content="{esc(canonical)}">
+<meta property="og:site_name" content="{esc(CONFIG['site_title'])}">
+<meta property="og:locale" content="ja_JP">
+{chr(10).join(ogp_tags)}
+<link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
+<style>{CSS}</style>
+{extra_head}
+</head>
+<body>
+<header>
+<h1><a href="/">{esc(CONFIG["site_title"])}</a></h1>
+<p>{esc(CONFIG["site_description"])}</p>
+{related_html}
+</header>
+<main>
+{body}
+</main>
+<footer>
+価格・発売日・在庫は取得時点のものです。最新の状況は各社公式サイトでご確認ください。
+当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン各社とは関係のない非公式サイトです。
+{policy_link}｜ <a href="/rss.xml">RSS</a> ｜ <a href="/weeks/">週別アーカイブ</a>
+{related_html}
+</footer>
+</body>
+</html>
+"""
+
+
+SORT_JS = """
+<script>
+(function () {
+  var grid = document.querySelector('[data-sortable]');
+  if (!grid) return;
+  var select = document.getElementById('sort-select');
+  var chainSel = document.getElementById('chain-filter');
+  function apply() {
+    var items = Array.prototype.slice.call(grid.querySelectorAll('.item'));
+    var mode = select ? select.value : 'date';
+    var chain = chainSel ? chainSel.value : 'all';
+    items.forEach(function (el) {
+      el.style.display = (chain === 'all' || el.dataset.chain === chain) ? '' : 'none';
+    });
+    items.sort(function (a, b) {
+      if (mode === 'kcal') {
+        var ka = parseFloat(a.dataset.kcal || '-1');
+        var kb = parseFloat(b.dataset.kcal || '-1');
+        return kb - ka;
+      }
+      return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+    });
+    items.forEach(function (el) { grid.appendChild(el); });
+  }
+  if (select) select.addEventListener('change', apply);
+  if (chainSel) chainSel.addEventListener('change', apply);
+  apply();
+})();
+</script>
+"""
+
+SEARCH_JS = """
+<script>
+(function () {
+  var box = document.getElementById('search-input');
+  var results = document.getElementById('search-results');
+  if (!box || !results) return;
+  var index = null;
+  box.addEventListener('input', function () {
+    var q = box.value.trim();
+    if (!q) { results.innerHTML = ''; return; }
+    function render() {
+      var lower = q.toLowerCase();
+      var hits = index.filter(function (it) {
+        return it.n.toLowerCase().indexOf(lower) !== -1;
+      }).slice(0, 50);
+      results.innerHTML = hits.map(function (it) {
+        return '<a class="item" data-chain="' + it.c + '" href="' + it.u + '">' +
+          '<div class="badge">' + it.cn + '</div><div class="t">' + it.n +
+          '</div><div class="meta">' + (it.d || '') + '</div></a>';
+      }).join('');
+    }
+    if (index) { render(); return; }
+    fetch('/search-index.json').then(function (r) { return r.json(); }).then(function (data) {
+      index = data; render();
+    });
+  });
+})();
+</script>
+"""
+
+
+def build_search_index(items: list[dict]) -> list[dict]:
+    return [
+        {
+            "n": it["name"],
+            "u": "/" + item_url(it),
+            "c": it["chain"],
+            "cn": CHAIN_NAME.get(it["chain"], it["chain"]),
+            "d": effective_date(it) or "",
+        }
+        for it in items
+    ]
+
+
+def render_grid_page(title: str, description: str, items: list[dict], canonical: str,
+                      show_filters: bool = True) -> str:
+    if not items:
+        body = f"<h2>{esc(title)}</h2><p class='empty'>商品がありません。</p>"
+        return page_shell(title, description, body, canonical)
+    cards = "\n".join(render_card(it) for it in items)
+    filters = ""
+    if show_filters:
+        filters = """<div class="sort-bar">
+<label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
+<option value="kcal">カロリー順</option></select></label>
+<label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
+<option value="seven">セブン-イレブン</option><option value="familymart">ファミリーマート</option>
+<option value="lawson">ローソン</option></select></label>
+</div>"""
+    body = f"""<h2>{esc(title)} ({len(items)}件)</h2>
+{filters}
+<div class="grid" data-sortable>
+{cards}
+</div>
+{SORT_JS if show_filters else ""}"""
+    return page_shell(title, description, body, canonical)
+
+
+def render_top(items: list[dict]) -> str:
+    weeks = sorted({w for it in items if (w := week_start(effective_date(it)))}, reverse=True)
+    latest_week = weeks[0] if weeks else None
+    latest_items = [it for it in items if week_start(effective_date(it)) == latest_week]
+
+    site_url = CONFIG.get("site_url", "")
+    search_html = """<div class="searchbox"><input id="search-input" type="search"
+placeholder="商品名で検索（例: おむすび、チョコ）"></div>
+<div class="grid" id="search-results"></div>"""
+
+    weeks_link = f'<p><a href="/weeks/">週別アーカイブ一覧（全{len(weeks)}週）を見る →</a></p>' if weeks else ""
+
+    chain_links = "\n".join(
+        f'<a href="/chains/{c["slug"]}/">{esc(c["name"])}</a>' for c in CHAINS
+    )
+
+    about = CONFIG.get("about") or []
+    about_html = ""
+    if about:
+        paras = "\n".join(f"<p>{esc(x)}</p>" for x in about)
+        about_html = f'<section class="about"><h2>{esc(CONFIG["site_title"])}について</h2>\n{paras}\n</section>'
+
+    latest_label = f"{latest_week} の週の新商品" if latest_week else "新商品"
+    body = f"""<h2>{esc(latest_label)} ({len(latest_items)}件)</h2>
+<div class="sort-bar">
+<label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
+<option value="kcal">カロリー順</option></select></label>
+<label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
+<option value="seven">セブン-イレブン</option><option value="familymart">ファミリーマート</option>
+<option value="lawson">ローソン</option></select></label>
+</div>
+<div class="grid" data-sortable>
+{chr(10).join(render_card(it) for it in latest_items)}
+</div>
+{SORT_JS}
+{weeks_link}
+<h2>社別に見る</h2>
+<div class="chainlist">
+{chain_links}
+</div>
+<h2>商品名で検索</h2>
+{search_html}
+{SEARCH_JS}
+{about_html}"""
+    return page_shell(CONFIG["site_title"], CONFIG["site_description"], body, site_url)
+
+
+def render_weeks_index(items: list[dict]) -> str:
+    by_week: dict[str, int] = {}
+    for it in items:
+        w = week_start(effective_date(it))
+        if w:
+            by_week[w] = by_week.get(w, 0) + 1
+    rows = "\n".join(
+        f'<a href="/weeks/{w}/">{w} の週<span class="n">{n}件</span></a>'
+        for w, n in sorted(by_week.items(), reverse=True)
+    )
+    body = f"""<h2>週別アーカイブ ({len(by_week)}週)</h2>
+<div class="weeklist">
+{rows}
+</div>"""
+    return page_shell("週別アーカイブ", "週ごとの新商品一覧", body,
+                       CONFIG.get("site_url", "") + "weeks/")
+
+
+def render_chains_top() -> str:
+    links = "\n".join(f'<a href="/chains/{c["slug"]}/">{esc(c["name"])}</a>' for c in CHAINS)
+    body = f'<h2>社別一覧</h2><div class="chainlist">{links}</div>'
+    return page_shell("社別一覧", "セブン-イレブン・ファミリーマート・ローソンの商品一覧", body,
+                       CONFIG.get("site_url", "") + "chains/")
+
+
+def render_item_page(item: dict) -> str:
+    chain_name = CHAIN_NAME.get(item["chain"], item["chain"])
+    nutrition = item.get("nutrition")
+    nut_rows = ""
+    if nutrition:
+        labels = [
+            ("kcal", "熱量", "kcal"), ("protein_g", "たんぱく質", "g"),
+            ("fat_g", "脂質", "g"), ("carbs_g", "炭水化物", "g"),
+            ("sugar_g", "　糖質", "g"), ("fiber_g", "　食物繊維", "g"),
+            ("salt_g", "食塩相当量", "g"),
+        ]
+        trs = []
+        for key, label, unit in labels:
+            v = nutrition.get(key)
+            if v is None:
+                continue
+            trs.append(f"<tr><th>{esc(label)}</th><td>{v:g}{unit}</td></tr>")
+        if trs:
+            nut_rows = f"<h3 style='margin-top:16px;font-size:14px'>栄養成分</h3><table>{''.join(trs)}</table>"
+
+    allergen_html = ""
+    allergens = item.get("allergens")
+    if allergens is not None:
+        text = "、".join(allergens) if allergens else "特定原材料8品目は含まれていません"
+        allergen_html = f"<p class='tags'><strong>アレルゲン：</strong>{esc(text)}</p>"
+
+    spec_html = f"<p><strong>規格：</strong>{esc(item['spec'])}</p>" if item.get("spec") else ""
+    region_html = ""
+    if item.get("regions"):
+        region_html = f"<p><strong>販売地域：</strong>{esc('・'.join(item['regions']))}</p>"
+    elif item.get("region_text"):
+        region_html = f"<p><strong>販売地域：</strong>{esc(item['region_text'])}</p>"
+
+    variants_html = ""
+    if item.get("variants"):
+        rows = []
+        for key, v in item["variants"].items():
+            price = ""
+            if v.get("price_incl_tax") is not None:
+                price = f"税込{v['price_incl_tax']:g}円"
+            rows.append(f"<tr><th>{esc(key)}</th><td>{esc(v.get('region_text') or '')} {price}</td></tr>")
+        variants_html = f"<h3 style='margin-top:16px;font-size:14px'>地域別価格・販売地域</h3><table>{''.join(rows)}</table>"
+
+    official_url = item.get("official_url") or (item.get("official_urls") or [None])[0]
+    quote_html = ""
+    if item.get("description"):
+        fetched = (item.get("fetched_at") or "")[:10]
+        quote_html = f"""<blockquote cite="{esc(official_url or '')}">{esc(item['description'])}</blockquote>
+<p class="source">出典：{esc(chain_name)}公式サイト（{esc(fetched)}時点） ・
+<a href="{esc(official_url or '')}" target="_blank" rel="noopener">公式ページを見る</a></p>
+<p class="warn">※現在は公式ページが削除されている、または内容が変更されている場合があります。</p>"""
+
+    date = effective_date(item) or ""
+    title = item["name"]
+    canonical = CONFIG.get("site_url", "") + item_url(item)
+    body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
+<div class="detail">
+<div class="badge" style="display:inline-block;font-size:11px;font-weight:700;color:#fff;
+border-radius:4px;padding:2px 8px;background:var(--accent)">{esc(chain_name)}</div>
+<h1>{esc(item['name'])}</h1>
+<p class="price">{price_html(item)}</p>
+<p><strong>発売日：</strong>{esc(date)}{('（' + esc(item.get('launch_text','')) + '）') if item.get('launch_text') else ''}</p>
+{region_html}
+{spec_html}
+{quote_html}
+{nut_rows}
+{allergen_html}
+{variants_html}
+</div>"""
+    return page_shell(title, item.get("description") or CONFIG["site_description"], body, canonical)
+
+
+def generate_rss(items: list[dict]) -> str:
+    site_url = CONFIG.get("site_url", "")
+    now = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+    def sort_key(it):
+        return it.get("first_seen_at") or ""
+
+    recent = sorted(items, key=sort_key, reverse=True)[: CONFIG.get("rss_max_items", 100)]
+    entries = []
+    for it in recent:
+        chain_name = CHAIN_NAME.get(it["chain"], it["chain"])
+        title = f"【{chain_name}】{it['name']}"
+        link = f"{site_url}{item_url(it)}"
+        guid = f"{it['chain']}-{it['product_id']}"
+        try:
+            pub = datetime.datetime.fromisoformat(it.get("first_seen_at"))
+            pub_html = "\n<pubDate>" + pub.strftime("%a, %d %b %Y %H:%M:%S %z") + "</pubDate>"
+        except (TypeError, ValueError):
+            pub_html = ""
+        entries.append(
+            f"""<item>
+<title>{esc(title)}</title>
+<link>{esc(link)}</link>
+<guid isPermaLink="false">{esc(guid)}</guid>
+<category>{esc(chain_name)}</category>{pub_html}
+</item>"""
+        )
+    items_xml = "\n".join(entries)
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>{esc(CONFIG["site_title"])}</title>
+<link>{esc(site_url)}</link>
+<description>{esc(CONFIG["site_description"])}</description>
+<lastBuildDate>{now}</lastBuildDate>
+{items_xml}
+</channel>
+</rss>
+"""
+
+
+def generate_sitemap(items: list[dict], weeks: list[str]) -> str:
+    site_url = CONFIG.get("site_url", "")
+    today = datetime.date.today().isoformat()
+    urls = [site_url, site_url + "weeks/", site_url + "chains/"]
+    for c in CHAINS:
+        urls.append(f"{site_url}chains/{c['slug']}/")
+    for w in weeks:
+        urls.append(f"{site_url}weeks/{w}/")
+    for it in items:
+        urls.append(site_url + item_url(it))
+    body = "\n".join(
+        f"<url><loc>{esc(u)}</loc><lastmod>{today}</lastmod></url>" for u in urls
+    )
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{body}
+</urlset>
+"""
+
+
+def main() -> int:
+    items = load_all_products()
+    DOCS.mkdir(parents=True, exist_ok=True)
+
+    (DOCS / "index.html").write_text(render_top(items), encoding="utf-8")
+
+    weeks = sorted({w for it in items if (w := week_start(effective_date(it)))})
+    (DOCS / "weeks").mkdir(parents=True, exist_ok=True)
+    (DOCS / "weeks" / "index.html").write_text(render_weeks_index(items), encoding="utf-8")
+    for w in weeks:
+        week_items = [it for it in items if week_start(effective_date(it)) == w]
+        wdir = DOCS / "weeks" / w
+        wdir.mkdir(parents=True, exist_ok=True)
+        page = render_grid_page(
+            f"{w} の週の新商品", f"{w}の週に発売された新商品一覧", week_items,
+            CONFIG.get("site_url", "") + f"weeks/{w}/",
+        )
+        (wdir / "index.html").write_text(page, encoding="utf-8")
+
+    (DOCS / "chains").mkdir(parents=True, exist_ok=True)
+    (DOCS / "chains" / "index.html").write_text(render_chains_top(), encoding="utf-8")
+    for c in CHAINS:
+        cdir = DOCS / "chains" / c["slug"]
+        cdir.mkdir(parents=True, exist_ok=True)
+        chain_items = sorted(
+            [it for it in items if it["chain"] == c["slug"]],
+            key=lambda it: effective_date(it) or "", reverse=True,
+        )
+        page = render_grid_page(
+            c["name"], f"{c['name']}の新商品一覧", chain_items,
+            CONFIG.get("site_url", "") + f"chains/{c['slug']}/",
+        )
+        (cdir / "index.html").write_text(page, encoding="utf-8")
+
+    (DOCS / "items").mkdir(parents=True, exist_ok=True)
+    for it in items:
+        (DOCS / item_url(it)).write_text(render_item_page(it), encoding="utf-8")
+
+    (DOCS / "search-index.json").write_text(
+        json.dumps(build_search_index(items), ensure_ascii=False), encoding="utf-8"
+    )
+    (DOCS / "rss.xml").write_text(generate_rss(items), encoding="utf-8")
+    (DOCS / "sitemap.xml").write_text(generate_sitemap(items, weeks), encoding="utf-8")
+    (DOCS / "robots.txt").write_text(
+        f"User-agent: *\nAllow: /\nSitemap: {CONFIG.get('site_url', '')}sitemap.xml\n",
+        encoding="utf-8",
+    )
+    (DOCS / "CNAME").write_text(
+        CONFIG.get("site_url", "").replace("https://", "").strip("/") + "\n", encoding="utf-8"
+    )
+    (DOCS / ".nojekyll").write_text("", encoding="utf-8")
+
+    print(
+        f"generated: index.html, {len(weeks)} weeks, {len(CHAINS)} chain pages, "
+        f"{len(items)} item pages, rss.xml, sitemap.xml, search-index.json"
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

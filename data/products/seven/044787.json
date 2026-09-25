@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044787",
+ "name": "親子めし（御飯）",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "甘い味付けの玉子と鶏肉煮を盛りつけた静岡地区でなじみのある御飯です。",
+ "nutrition": {
+  "kcal": 427.0,
+  "protein_g": 17.4,
+  "fat_g": 8.8,
+  "carbs_g": 70.9,
+  "sugar_g": 68.2,
+  "fiber_g": 2.7,
+  "salt_g": 2.5,
+  "raw": "熱量：427kcal、たんぱく質：17.4g、脂質：8.8g、炭水化物：70.9g（糖質：68.2g、食物繊維：2.7g）、食塩相当量：2.5g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044787/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044787/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044787/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:47:49+09:00",
+ "fetched_at": "2026-09-25T20:47:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,82 @@
+{
+ "chain": "seven",
+ "product_id": "044737",
+ "name": "おでかけ　おにぎりランチ",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "近畿、中国、四国、九州",
+ "description": "３種類のおにぎり（とうもろこし・カリカリ梅・鮭わかめ）と、コロッケ，玉子焼き，ウインナーなど複数のおかずが楽しめるミニ弁当です。",
+ "nutrition": {
+  "kcal": 394.0,
+  "protein_g": 10.0,
+  "fat_g": 12.3,
+  "carbs_g": 62.4,
+  "sugar_g": 59.4,
+  "fiber_g": 3.0,
+  "salt_g": 2.9,
+  "raw": "熱量：394kcal、たんぱく質：10.0g、脂質：12.3g、炭水化物：62.4g（糖質：59.4g、食物繊維：3.0g）、食塩相当量：2.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "近畿、中国、四国、九州",
+   "regions": [
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044737/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "近畿、中国、四国、九州",
+   "regions": [
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044737/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "近畿、中国、四国、九州",
+   "regions": [
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044737/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044737/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044737/chugoku/",
+  "https://www.sej.co.jp/products/a/item/044737/kyushu/",
+  "https://www.sej.co.jp/products/a/item/044737/shikoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:42:06+09:00",
+ "fetched_at": "2026-09-25T20:42:06+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

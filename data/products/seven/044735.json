@@ -1,0 +1,71 @@
+{
+ "chain": "seven",
+ "product_id": "044735",
+ "name": "おかかだしごはんで食べる高菜弁当",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国"
+ ],
+ "region_text": "鳥取県、島根県、岡山県、広島県、四国",
+ "description": "地区でよく食べられる高菜炒めのミニ弁当です。",
+ "nutrition": {
+  "kcal": 334.0,
+  "protein_g": 10.4,
+  "fat_g": 6.1,
+  "carbs_g": 60.1,
+  "sugar_g": 58.7,
+  "fiber_g": 1.4,
+  "salt_g": 3.1,
+  "raw": "熱量：334kcal、たんぱく質：10.4g、脂質：6.1g、炭水化物：60.1g（糖質：58.7g、食物繊維：1.4g）、食塩相当量：3.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044735/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044735/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044735/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044735/chugoku/",
+  "https://www.sej.co.jp/products/a/item/044735/shikoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:41:49+09:00",
+ "fetched_at": "2026-09-25T20:41:49+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

@@ -1,0 +1,36 @@
+{
+ "chain": "lawson",
+ "product_id": "1532649",
+ "name": "MILK牛乳仕込みのメロンパン",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 181,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026.09.29",
+ "regions": null,
+ "region_text": "※沖縄地域では商品仕様と価格が異なります。",
+ "description": "牛乳で仕込んだ甘みのあるメロンパンに、ホイップとチーズクリームをサンド。ミルクの甘さとチーズクリームのほのかな酸味がバランスよい味わいです。",
+ "nutrition": {
+  "kcal": 426.0,
+  "protein_g": 6.6,
+  "fat_g": 19.6,
+  "carbs_g": 56.5,
+  "sugar_g": 55.2,
+  "fiber_g": 1.3,
+  "salt_g": 0.4,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1個当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>426kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>6.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>19.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>56.5g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>55.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 1個",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532649_1996.html",
+ "first_seen_at": "2026-09-25T20:58:17+09:00",
+ "fetched_at": "2026-09-25T20:58:17+09:00",
+ "source_list": "/recommend/new/list/1532630_5162.html",
+ "image": null
+}

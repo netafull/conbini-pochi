@@ -1,0 +1,30 @@
+{
+ "chain": "familymart",
+ "product_id": "1063356",
+ "name": "太麺使用　広島お好み焼",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 598,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "太麺を使用した食べごたえのある広島お好み焼です。生地に野菜、豚肉、焼そば、薄焼きたまごなどを重ね、ソースとあおさ粉をトッピングしました。別添でソース付きです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1063356.html",
+ "first_seen_at": "2026-09-25T20:55:38+09:00",
+ "fetched_at": "2026-09-25T20:55:38+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

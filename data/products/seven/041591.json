@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "041591",
+ "name": "鶏そぼろおむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "醤油で味付けした鶏そぼろをご飯に混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 245.0,
+  "protein_g": 5.9,
+  "fat_g": 4.6,
+  "carbs_g": 45.9,
+  "sugar_g": 44.1,
+  "fiber_g": 1.8,
+  "salt_g": 1.1,
+  "raw": "熱量：245kcal、たんぱく質：5.9g、脂質：4.6g、炭水化物：45.9g（糖質：44.1g、食物繊維：1.8g）、食塩相当量：1.1g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/041591/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041591/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041591/kinki/"
+ ],
+ "first_seen_at": "2026-09-25T20:40:53+09:00",
+ "fetched_at": "2026-09-25T20:40:53+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

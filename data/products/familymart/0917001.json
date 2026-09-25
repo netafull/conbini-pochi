@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0917001",
+ "name": "ミックスサンドBOX",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 406,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "中国・四国"
+ ],
+ "region_text": "中国・四国",
+ "description": "レタス・ハム・たまごサラダ・ハムカツなど人気の具材をはさんだボックスタイプのサンドイッチです。※山口県の一部店舗での取り扱いはございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0917001.html",
+ "first_seen_at": "2026-09-25T20:54:47+09:00",
+ "fetched_at": "2026-09-25T20:54:47+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

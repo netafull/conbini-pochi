@@ -1,0 +1,47 @@
+{
+ "chain": "familymart",
+ "product_id": "0910323",
+ "name": "ツナとたまごサンド",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 276,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "みじん切りした玉ねぎを加えたツナサラダと、たまごのコクを感じるたまごサンドの２種類の味が楽しめる仕立てです。",
+ "nutrition": {
+  "kcal": 295.0,
+  "protein_g": 8.4,
+  "fat_g": 17.8,
+  "carbs_g": 26.0,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 1.1,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">295.00</td>\r\n                          <td class=\"con_nut\">8.40</td>\r\n                          <td class=\"con_nut\">17.80</td>\r\n                          <td class=\"con_nut\">26.00</td>\r\n                          <td class=\"con_nut\">1.10</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆",
+  "豚肉",
+  "りんご"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0910323.html",
+ "first_seen_at": "2026-09-25T20:54:41+09:00",
+ "fetched_at": "2026-09-25T20:54:41+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

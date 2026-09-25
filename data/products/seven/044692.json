@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044692",
+ "name": "枝豆ごはんおむすび（だし飯）",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "新潟県"
+ ],
+ "region_text": "新潟県",
+ "description": "こんぶとかつおのだし飯に枝豆を混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 190.0,
+  "protein_g": 4.4,
+  "fat_g": 2.0,
+  "carbs_g": 39.6,
+  "sugar_g": 37.4,
+  "fiber_g": 2.2,
+  "salt_g": 1.7,
+  "raw": "熱量：190kcal、たんぱく質：4.4g、脂質：2.0g、炭水化物：39.6g（糖質：37.4g、食物繊維：2.2g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県",
+   "regions": [
+    "新潟県"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/044692/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044692/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044692/koshinetsu/"
+ ],
+ "first_seen_at": "2026-09-25T20:39:48+09:00",
+ "fetched_at": "2026-09-25T20:39:48+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

@@ -1,0 +1,30 @@
+{
+ "chain": "familymart",
+ "product_id": "1511994",
+ "name": "もっちハムたまごパン4個入",
+ "category": "パン",
+ "price_excl_tax": 204,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "もちっと食感の生地に、ハムとたまごサラダを包んで焼き上げた、惣菜デニッシュの4個入りです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1511994.html",
+ "first_seen_at": "2026-09-25T20:54:55+09:00",
+ "fetched_at": "2026-09-25T20:54:55+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

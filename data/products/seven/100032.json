@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "100032",
+ "name": "炭火焼き鳥　もも３本・皮２本入り",
+ "category": null,
+ "price_excl_tax": 580,
+ "price_incl_tax": 626.4,
+ "launch_date": "2026-09-24",
+ "launch_text": "2026年09月24日（木）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "ももタレ３本、皮タレ２本の２種類を盛り合わせた串付きの炭火焼き鳥です。",
+ "nutrition": {
+  "kcal": 391.0,
+  "protein_g": 31.0,
+  "fat_g": 27.3,
+  "carbs_g": 5.3,
+  "sugar_g": 5.1,
+  "fiber_g": 0.2,
+  "salt_g": 2.5,
+  "raw": "熱量：391kcal、たんぱく質：31.0g、脂質：27.3g、炭水化物：5.3g（糖質：5.1g、食物繊維：0.2g）、食塩相当量：2.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 580,
+   "price_incl_tax": 626.4,
+   "url": "https://www.sej.co.jp/products/a/item/100032/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/100032/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/100032/okinawa/"
+ ],
+ "first_seen_at": "2026-09-25T20:42:54+09:00",
+ "fetched_at": "2026-09-25T20:42:54+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

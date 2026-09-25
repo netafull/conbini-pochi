@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044743",
+ "name": "大船渡港水揚げさんまの蒲焼きおむすび",
+ "category": null,
+ "price_excl_tax": 238,
+ "price_incl_tax": 257.04,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "岩手県大船渡港水揚げのさんまを蒲焼きにしてトッピングしたおむすびです。",
+ "nutrition": {
+  "kcal": 264.0,
+  "protein_g": 7.6,
+  "fat_g": 7.0,
+  "carbs_g": 43.5,
+  "sugar_g": 41.6,
+  "fiber_g": 1.9,
+  "salt_g": 1.5,
+  "raw": "熱量：264kcal、たんぱく質：7.6g、脂質：7.0g、炭水化物：43.5g（糖質：41.6g、食物繊維：1.9g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北",
+   "regions": [
+    "東北"
+   ],
+   "price_excl_tax": 238,
+   "price_incl_tax": 257.04,
+   "url": "https://www.sej.co.jp/products/a/item/044743/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044743/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044743/tohoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:45:13+09:00",
+ "fetched_at": "2026-09-25T20:45:13+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

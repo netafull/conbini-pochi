@@ -1,0 +1,89 @@
+{
+ "chain": "seven",
+ "product_id": "044673",
+ "name": "ぶたはげ監修　炭火焼き豚丼",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "全国"
+ ],
+ "region_text": "全国",
+ "description": "帯広の名店「ぶたはげ」監修。炭火で香ばしく焼き上げた豚肉を甘辛いタレで味わう豚丼です。",
+ "nutrition": {
+  "kcal": 660.0,
+  "protein_g": 34.5,
+  "fat_g": 19.8,
+  "carbs_g": 87.1,
+  "sugar_g": 85.0,
+  "fiber_g": 2.1,
+  "salt_g": 3.5,
+  "raw": "熱量：660kcal、たんぱく質：34.5g、脂質：19.8g、炭水化物：87.1g（糖質：85.0g、食物繊維：2.1g）、食塩相当量：3.5g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/044673/hokkaido/"
+  },
+  "hokuriku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/044673/hokuriku/"
+  },
+  "kinki": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/044673/kinki/"
+  },
+  "shikoku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/044673/shikoku/"
+  },
+  "okinawa": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/044673/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044673/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044673/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/044673/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044673/kinki/",
+  "https://www.sej.co.jp/products/a/item/044673/okinawa/",
+  "https://www.sej.co.jp/products/a/item/044673/shikoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:44:31+09:00",
+ "fetched_at": "2026-09-25T20:44:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

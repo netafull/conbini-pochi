@@ -1,0 +1,68 @@
+{
+ "chain": "seven",
+ "product_id": "044536",
+ "name": "舞茸御飯幕の内　さつまいもかき揚げ",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "北海道、東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "秋を感じる舞茸御飯に、さつまいものかき揚げ，ヒレカツ，煮物，玉子焼きなどを盛り付けた幕の内弁当です。",
+ "nutrition": {
+  "kcal": 550.0,
+  "protein_g": 16.4,
+  "fat_g": 14.6,
+  "carbs_g": 91.1,
+  "sugar_g": 85.4,
+  "fiber_g": 5.7,
+  "salt_g": 3.5,
+  "raw": "熱量：550kcal、たんぱく質：16.4g、脂質：14.6g、炭水化物：91.1g（糖質：85.4g、食物繊維：5.7g）、食塩相当量：3.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "北海道、東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044536/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044536/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044536/kinki/"
+ ],
+ "first_seen_at": "2026-09-25T20:41:06+09:00",
+ "fetched_at": "2026-09-25T20:41:06+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

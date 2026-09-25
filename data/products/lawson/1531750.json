@@ -1,0 +1,36 @@
+{
+ "chain": "lawson",
+ "product_id": "1531750",
+ "name": "バター香るスナックスティック　6本入",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 149,
+ "launch_date": "2026-09-08",
+ "launch_text": "2026.09.08",
+ "regions": null,
+ "region_text": "※沖縄地域のローソンではお取り扱いしておりません。",
+ "description": "おやつ感覚で楽しめるスナックスティック6本入。",
+ "nutrition": {
+  "kcal": 87.0,
+  "protein_g": 1.9,
+  "fat_g": 3.7,
+  "carbs_g": 11.7,
+  "sugar_g": 11.3,
+  "fiber_g": 0.4,
+  "salt_g": 0.1,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1本当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>87kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>1.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>3.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>11.7g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>11.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 6本",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1531750_1996.html",
+ "first_seen_at": "2026-09-25T21:03:57+09:00",
+ "fetched_at": "2026-09-25T21:03:57+09:00",
+ "source_list": "/recommend/new/list/1531756_5162.html",
+ "image": null
+}

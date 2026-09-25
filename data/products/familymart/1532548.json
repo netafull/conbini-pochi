@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1532548",
+ "name": "豆パン（マーガリンサンド）",
+ "category": "パン",
+ "price_excl_tax": 147,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "東海",
+  "北陸"
+ ],
+ "region_text": "東海・北陸",
+ "description": "北海道産金時豆入りのほんのりバター香るパンに、マーガリンをサンドしました。※三重県の一部、静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1532548.html",
+ "first_seen_at": "2026-09-25T20:52:43+09:00",
+ "fetched_at": "2026-09-25T20:52:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

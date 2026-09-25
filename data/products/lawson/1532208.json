@@ -1,0 +1,34 @@
+{
+ "chain": "lawson",
+ "product_id": "1532208",
+ "name": "ミルクたっぷり　黒蜜きなこラテ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 238,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026.09.22",
+ "regions": null,
+ "region_text": null,
+ "description": "生乳を50％以上使用。北海道産大豆のきなこと黒蜜の香ばしさを楽しむ季節限定のラテ。",
+ "nutrition": {
+  "kcal": 171.0,
+  "protein_g": 4.8,
+  "fat_g": 6.3,
+  "carbs_g": 24.1,
+  "sugar_g": 23.3,
+  "fiber_g": 0.8,
+  "salt_g": 0.21,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1本(240ml)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>171kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>4.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>6.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>24.1g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>23.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.21g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "乳成分",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 240ml",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532208_1996.html",
+ "first_seen_at": "2026-09-25T21:01:51+09:00",
+ "fetched_at": "2026-09-25T21:01:51+09:00",
+ "source_list": "/recommend/new/list/1532204_5162.html",
+ "image": null
+}

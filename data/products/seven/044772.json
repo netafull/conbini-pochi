@@ -1,0 +1,56 @@
+{
+ "chain": "seven",
+ "product_id": "044772",
+ "name": "海苔コロ弁当（麦飯）",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県"
+ ],
+ "region_text": "茨城県、栃木県、群馬県、埼玉県",
+ "description": "海苔とおかかを敷いたもち麦だし飯の上に、コロッケ、だし巻玉子、きんぴら、漬物を盛り付けたお弁当です。",
+ "nutrition": {
+  "kcal": 485.0,
+  "protein_g": 10.9,
+  "fat_g": 14.0,
+  "carbs_g": 82.7,
+  "sugar_g": 75.1,
+  "fiber_g": 7.6,
+  "salt_g": 3.0,
+  "raw": "熱量：485kcal、たんぱく質：10.9g、脂質：14.0g、炭水化物：82.7g（糖質：75.1g、食物繊維：7.6g）、食塩相当量：3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県、栃木県、群馬県、埼玉県",
+   "regions": [
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/044772/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044772/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044772/kanto/"
+ ],
+ "first_seen_at": "2026-09-25T20:46:47+09:00",
+ "fetched_at": "2026-09-25T20:46:47+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

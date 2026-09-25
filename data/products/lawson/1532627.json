@@ -1,0 +1,35 @@
+{
+ "chain": "lawson",
+ "product_id": "1532627",
+ "name": "一点突破すぎ！敷き詰めごはん　焼とうもろこし",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 297,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026.09.29",
+ "regions": null,
+ "region_text": null,
+ "description": "焦がし醤油とバターソースの風味豊かな焼とうもろこしをごはんに敷き詰めた、おかずは焼とうもろこしだけの一点突破なお弁当です。",
+ "nutrition": {
+  "kcal": 382.0,
+  "protein_g": 7.7,
+  "fat_g": 3.7,
+  "carbs_g": 81.7,
+  "sugar_g": 77.4,
+  "fiber_g": 4.3,
+  "salt_g": 2.18,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>382kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>7.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>3.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>81.7g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>77.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>4.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>2.18g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532627_1996.html",
+ "first_seen_at": "2026-09-25T20:58:03+09:00",
+ "fetched_at": "2026-09-25T20:58:03+09:00",
+ "source_list": "/recommend/new/list/1532630_5162.html",
+ "image": null
+}

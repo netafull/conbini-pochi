@@ -1,0 +1,94 @@
+{
+ "chain": "seven",
+ "product_id": "042535",
+ "name": "高菜チャーハンおむすび",
+ "category": null,
+ "price_excl_tax": 188,
+ "price_incl_tax": 203.04,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "関東",
+  "新潟県",
+  "北陸",
+  "東海"
+ ],
+ "region_text": "関東、新潟県、北陸、東海",
+ "description": "中華料理の定番のチャーハンに、相性のよい辛子高菜炒めを組み合わせたおむすびです。ご飯に高菜や玉子を加えてラードで香ばしく炒め、塩、胡椒などで味付けしました。",
+ "nutrition": {
+  "kcal": 194.0,
+  "protein_g": 5.2,
+  "fat_g": 4.7,
+  "carbs_g": 33.5,
+  "sugar_g": 31.7,
+  "fiber_g": 1.8,
+  "salt_g": 3.1,
+  "raw": "熱量：194kcal、たんぱく質：5.2g、脂質：4.7g、炭水化物：33.5g（糖質：31.7g、食物繊維：1.8g）、食塩相当量：3.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "関東、新潟県、北陸、東海",
+   "regions": [
+    "関東",
+    "新潟県",
+    "北陸",
+    "東海"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/042535/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "関東、新潟県、北陸、東海",
+   "regions": [
+    "関東",
+    "新潟県",
+    "北陸",
+    "東海"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/042535/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "関東、新潟県、北陸、東海",
+   "regions": [
+    "関東",
+    "新潟県",
+    "北陸",
+    "東海"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/042535/hokuriku/"
+  },
+  "tokai": {
+   "region_text": "関東、新潟県、北陸、東海",
+   "regions": [
+    "関東",
+    "新潟県",
+    "北陸",
+    "東海"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/042535/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042535/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042535/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042535/kanto/",
+  "https://www.sej.co.jp/products/a/item/042535/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/042535/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:46:36+09:00",
+ "fetched_at": "2026-09-25T20:46:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

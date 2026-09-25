@@ -1,0 +1,35 @@
+{
+ "chain": "lawson",
+ "product_id": "1532654",
+ "name": "ギンビス　たべっ子どうぶつサブレ　メープル味",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 140,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026.09.29",
+ "regions": null,
+ "region_text": null,
+ "description": "メープルシロップを生地に練りこんだ濃厚な甘みとコクが特徴のたべっ子どうぶつサブレです。",
+ "nutrition": {
+  "kcal": 198.0,
+  "protein_g": 3.0,
+  "fat_g": 9.2,
+  "carbs_g": 26.7,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 0.4,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1袋(40g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>198kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>3.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>9.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>26.7g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 40g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532654_1996.html",
+ "first_seen_at": "2026-09-25T20:59:59+09:00",
+ "fetched_at": "2026-09-25T20:59:59+09:00",
+ "source_list": "/recommend/new/list/1532630_5162.html",
+ "image": null
+}

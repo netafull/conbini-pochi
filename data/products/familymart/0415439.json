@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0415439",
+ "name": "天神屋監修　大きなおむすび　元祖たぬきむすび",
+ "category": "おむすび",
+ "price_excl_tax": 264,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "東海"
+ ],
+ "region_text": "東海",
+ "description": "静岡県の弁当・惣菜店「天神屋」監修商品です。天神屋の看板メニュー「元祖たぬきむすび」の味わいを再現しました。醤油とねぎの風味が、天かすとご飯に染み込んだ大きなおむすびです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0415439.html",
+ "first_seen_at": "2026-09-25T20:54:13+09:00",
+ "fetched_at": "2026-09-25T20:54:13+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

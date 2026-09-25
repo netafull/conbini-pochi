@@ -1,0 +1,39 @@
+{
+ "chain": "lawson",
+ "product_id": "1531863",
+ "name": "温・冷　気分で選べる！半熟玉子と磯辺揚げのぶっかけうどん",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 599,
+ "launch_date": "2026-09-08",
+ "launch_text": "2026.09.08",
+ "regions": null,
+ "region_text": "※近畿・九州・沖縄地域のローソンではお取り扱いしておりません。※一部地域では商品仕様と栄養成分とアレルギー情報が異なります。※一部地域で販売終了となっております。",
+ "description": "国産小麦粉を使用したうどんに半熟玉子とちくわの磯辺揚げをあわせました。",
+ "nutrition": {
+  "kcal": 539.0,
+  "protein_g": 19.4,
+  "fat_g": 14.8,
+  "carbs_g": 83.8,
+  "sugar_g": 80.4,
+  "fiber_g": 3.4,
+  "salt_g": 3.69,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>539kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>19.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>14.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>83.8g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>80.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>3.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>3.69g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "いか",
+  "さば",
+  "大豆",
+  "豚肉"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1531863_1996.html",
+ "first_seen_at": "2026-09-25T21:04:06+09:00",
+ "fetched_at": "2026-09-25T21:04:06+09:00",
+ "source_list": "/recommend/new/list/1531756_5162.html",
+ "image": null
+}

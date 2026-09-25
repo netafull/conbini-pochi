@@ -1,0 +1,30 @@
+{
+ "chain": "familymart",
+ "product_id": "0411981",
+ "name": "炙り焼　牛ハラミおむすび",
+ "category": "おむすび",
+ "price_excl_tax": 223,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "炙り焼した牛ハラミを、醤油タレやおろしにんにくで味付けした風味豊かなおむすびです。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0411981.html",
+ "first_seen_at": "2026-09-25T20:51:49+09:00",
+ "fetched_at": "2026-09-25T20:51:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

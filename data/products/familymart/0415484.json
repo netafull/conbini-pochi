@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0415484",
+ "name": "おむすびセット（ゆかり®・炊き込みご飯）",
+ "category": "おむすび",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "東海"
+ ],
+ "region_text": "東海",
+ "description": "中部地方の方に人気のある「ゆかり®」と炊き込みご飯のおむすびとおかずを詰め合わせたお買い得感のあるミニ弁当です。※静岡県（東部）では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0415484.html",
+ "first_seen_at": "2026-09-25T20:52:01+09:00",
+ "fetched_at": "2026-09-25T20:52:01+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

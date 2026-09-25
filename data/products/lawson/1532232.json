@@ -1,0 +1,41 @@
+{
+ "chain": "lawson",
+ "product_id": "1532232",
+ "name": "肉オールスター弁当",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 994,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026.09.22",
+ "regions": null,
+ "region_text": "※熱量は参照値となります。※沖縄地域のローソン、ナチュラルローソンではお取り扱いしておりません。",
+ "description": "食べ応えある「厚切りとんかつ」とジューシーな「ハンバーグ」、大人気の「まんまる鶏」と3種の肉を満喫できる弁当です。",
+ "nutrition": {
+  "kcal": 1108.0,
+  "protein_g": 56.4,
+  "fat_g": 49.6,
+  "carbs_g": 112.3,
+  "sugar_g": 105.5,
+  "fiber_g": 6.8,
+  "salt_g": 6.6,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>1,108kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>56.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>49.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>112.3g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>105.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>6.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>6.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "牛肉",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1包装",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532232_1996.html",
+ "first_seen_at": "2026-09-25T21:01:15+09:00",
+ "fetched_at": "2026-09-25T21:01:15+09:00",
+ "source_list": "/recommend/new/list/1532204_5162.html",
+ "image": null
+}

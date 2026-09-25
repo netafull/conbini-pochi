@@ -1,0 +1,46 @@
+{
+ "chain": "seven",
+ "product_id": "044736",
+ "name": "長野県産コシヒカリおむすび　炭火焼さば",
+ "category": null,
+ "price_excl_tax": 248,
+ "price_incl_tax": 267.84,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "長野県"
+ ],
+ "region_text": "長野県",
+ "description": "原材料高騰により、価格（税抜）を２４８円に変更させていただきます。塩麹，おろし生姜などで漬け込み、炭火で焼き上げたさばを挟んだおにぎりです。",
+ "nutrition": {
+  "kcal": 234.0,
+  "protein_g": 8.9,
+  "fat_g": 5.4,
+  "carbs_g": 38.3,
+  "sugar_g": 36.8,
+  "fiber_g": 1.5,
+  "salt_g": 1.5,
+  "raw": "熱量：234kcal、たんぱく質：8.9g、脂質：5.4g、炭水化物：38.3g（糖質：36.8g、食物繊維：1.5g）、食塩相当量：1.5g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "長野県",
+   "regions": [
+    "長野県"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/044736/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044736/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044736/koshinetsu/"
+ ],
+ "first_seen_at": "2026-09-25T20:39:53+09:00",
+ "fetched_at": "2026-09-25T20:39:53+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

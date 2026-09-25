@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0615358",
+ "name": "直源醤油仕込みの特製から揚げ弁当",
+ "category": "お弁当",
+ "price_excl_tax": 580,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "北陸",
+  "沖縄"
+ ],
+ "region_text": "北陸・沖縄",
+ "description": "石川県でなじみのある「直源醤油」を使用した、から揚げ弁当です。醤油やしょうが、にんにくなどで漬け込んだから揚げを盛り付けました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0615358.html",
+ "first_seen_at": "2026-09-25T20:52:10+09:00",
+ "fetched_at": "2026-09-25T20:52:10+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

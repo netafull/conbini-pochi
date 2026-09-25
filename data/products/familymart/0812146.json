@@ -1,0 +1,48 @@
+{
+ "chain": "familymart",
+ "product_id": "0812146",
+ "name": "ねぎたっぷり！豚肉そば",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 599,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "そばの香りと歯切れの良さが特徴のそばに、だしのきいたつゆを合わせ、具材として豚肉、白ねぎ・青ねぎをのせた温かいそばです。",
+ "nutrition": {
+  "kcal": 289.0,
+  "protein_g": 17.6,
+  "fat_g": 4.5,
+  "carbs_g": 46.0,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 4.5,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">289.00</td>\r\n                          <td class=\"con_nut\">17.60</td>\r\n                          <td class=\"con_nut\">4.50</td>\r\n                          <td class=\"con_nut\">46.00</td>\r\n                          <td class=\"con_nut\">4.50</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "そば",
+  "卵",
+  "ごま",
+  "さば",
+  "大豆",
+  "豚肉"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0812146.html",
+ "first_seen_at": "2026-09-25T20:55:05+09:00",
+ "fetched_at": "2026-09-25T20:55:05+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

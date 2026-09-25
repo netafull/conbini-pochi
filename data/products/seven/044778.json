@@ -1,0 +1,53 @@
+{
+ "chain": "seven",
+ "product_id": "044778",
+ "name": "サンドおむすび　旨辛鶏唐揚",
+ "category": null,
+ "price_excl_tax": 260,
+ "price_incl_tax": 280.8,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "島根県、広島県、山口県",
+ "description": "豆板醤，コチュジャンを加えたピリ辛なタレで和えた鶏唐揚げを挟んだボリューム感のあるサンドおむすびです。",
+ "nutrition": {
+  "kcal": 293.0,
+  "protein_g": 7.1,
+  "fat_g": 9.7,
+  "carbs_g": 45.2,
+  "sugar_g": 43.2,
+  "fiber_g": 2.0,
+  "salt_g": 2.4,
+  "raw": "熱量：293kcal、たんぱく質：7.1g、脂質：9.7g、炭水化物：45.2g（糖質：43.2g、食物繊維：2.0g）、食塩相当量：2.4g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "島根県、広島県、山口県",
+   "regions": [
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 260,
+   "price_incl_tax": 280.8,
+   "url": "https://www.sej.co.jp/products/a/item/044778/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044778/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044778/chugoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:48:01+09:00",
+ "fetched_at": "2026-09-25T20:48:01+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

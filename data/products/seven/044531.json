@@ -1,0 +1,56 @@
+{
+ "chain": "seven",
+ "product_id": "044531",
+ "name": "三陸産切昆布と鮭の混ぜめしおむすび",
+ "category": null,
+ "price_excl_tax": 138,
+ "price_incl_tax": 149.04,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "青森県",
+  "岩手県",
+  "宮城県",
+  "秋田県",
+  "福島県"
+ ],
+ "region_text": "青森県、岩手県、宮城県、秋田県、福島県",
+ "description": "だし飯に三陸産切昆布と白鮭フレークを混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 173.0,
+  "protein_g": 4.4,
+  "fat_g": 1.4,
+  "carbs_g": 36.4,
+  "sugar_g": 34.9,
+  "fiber_g": 1.5,
+  "salt_g": 2.5,
+  "raw": "熱量：173kcal、たんぱく質：4.4g、脂質：1.4g、炭水化物：36.4g（糖質：34.9g、食物繊維：1.5g）、食塩相当量：2.5g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、福島県",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "福島県"
+   ],
+   "price_excl_tax": 138,
+   "price_incl_tax": 149.04,
+   "url": "https://www.sej.co.jp/products/a/item/044531/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044531/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044531/tohoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:37:05+09:00",
+ "fetched_at": "2026-09-25T20:37:05+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

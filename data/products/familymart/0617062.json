@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0617062",
+ "name": "長崎県産真あじ使用　焼あじほぐしごはん（麦飯）",
+ "category": "お弁当",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "塩こうじに漬けたあじを焼きほぐし、醤油や藻塩などで味付けし麦飯に合わせました。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0617062.html",
+ "first_seen_at": "2026-09-25T20:54:29+09:00",
+ "fetched_at": "2026-09-25T20:54:29+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

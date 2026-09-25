@@ -1,0 +1,40 @@
+{
+ "chain": "lawson",
+ "product_id": "1531793",
+ "name": "食感を楽しむ！ゆずポン酢仕立てのネバネバご飯",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 697,
+ "launch_date": "2026-09-08",
+ "launch_text": "2026.09.08",
+ "regions": null,
+ "region_text": "※沖縄地域のローソンではお取り扱いしておりません。",
+ "description": "オクラ、なめこ、長芋のネバネバ具材と沢庵や押し麦の食感が楽しい新メニューです。黒酢入りのゆずポン酢で野菜をさっぱり味わえます。ご飯のみを温め、冷たい具材を乗せ、混ぜて食べる商品です。",
+ "nutrition": {
+  "kcal": 282.0,
+  "protein_g": 10.2,
+  "fat_g": 2.0,
+  "carbs_g": 58.8,
+  "sugar_g": 52.9,
+  "fiber_g": 5.9,
+  "salt_g": 3.16,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>282kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>10.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>2.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>58.8g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>52.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>5.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>3.16g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "ごま",
+  "さば",
+  "大豆",
+  "鶏肉",
+  "やまいも",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1531793_1996.html",
+ "first_seen_at": "2026-09-25T21:04:12+09:00",
+ "fetched_at": "2026-09-25T21:04:12+09:00",
+ "source_list": "/recommend/new/list/1531756_5162.html",
+ "image": null
+}

@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "044727",
+ "name": "わさび味噌おむすび",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県"
+ ],
+ "region_text": "山梨県、長野県",
+ "description": "酒粕を練り込んだ風味豊かな味噌炒めと本わさびを合わせた、爽やかな辛味を感じられるおむすびです。",
+ "nutrition": {
+  "kcal": 200.0,
+  "protein_g": 3.9,
+  "fat_g": 1.9,
+  "carbs_g": 42.8,
+  "sugar_g": 40.6,
+  "fiber_g": 2.2,
+  "salt_g": 2.4,
+  "raw": "熱量：200kcal、たんぱく質：3.9g、脂質：1.9g、炭水化物：42.8g（糖質：40.6g、食物繊維：2.2g）、食塩相当量：2.4g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県、長野県",
+   "regions": [
+    "山梨県",
+    "長野県"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/044727/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044727/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044727/koshinetsu/"
+ ],
+ "first_seen_at": "2026-09-25T20:39:41+09:00",
+ "fetched_at": "2026-09-25T20:39:41+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

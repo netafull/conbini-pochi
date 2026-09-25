@@ -1,0 +1,81 @@
+{
+ "chain": "seven",
+ "product_id": "044492",
+ "name": "おおきなおむすび　海老マヨネーズ",
+ "category": null,
+ "price_excl_tax": 268,
+ "price_incl_tax": 289.44,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "甲信越",
+  "北陸",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "近畿",
+  "島根県",
+  "広島県",
+  "山口県",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、甲信越、北陸、岐阜県、愛知県、三重県、近畿、島根県、広島県、山口県、九州、沖縄",
+ "description": "食べ応えのあるおおきな直巻おむすびです。具材には甘みとコクのある味付けの「海老マヨネーズ」を使用しています。",
+ "nutrition": {
+  "kcal": 380.0,
+  "protein_g": 6.9,
+  "fat_g": 11.7,
+  "carbs_g": 63.2,
+  "sugar_g": 60.2,
+  "fiber_g": 3.0,
+  "salt_g": 1.9,
+  "raw": "熱量：380kcal、たんぱく質：6.9g、脂質：11.7g、炭水化物：63.2g（糖質：60.2g、食物繊維：3.0g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦",
+  "えび"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、甲信越、北陸、岐阜県、愛知県、三重県、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044492/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044492/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044492/okinawa/"
+ ],
+ "first_seen_at": "2026-09-25T20:42:29+09:00",
+ "fetched_at": "2026-09-25T20:42:29+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

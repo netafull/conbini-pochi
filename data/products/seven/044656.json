@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "044656",
+ "name": "会津産コシヒカリおむすび　はちみつ梅おかか",
+ "category": null,
+ "price_excl_tax": 220,
+ "price_incl_tax": 237.6,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "福島県"
+ ],
+ "region_text": "福島県",
+ "description": "種を抜き、はちみつ味に仕上げた紀州南高梅一粒とおかかを中具にしたおむすびです。",
+ "nutrition": {
+  "kcal": 176.0,
+  "protein_g": 3.0,
+  "fat_g": 0.9,
+  "carbs_g": 39.7,
+  "sugar_g": 38.0,
+  "fiber_g": 1.7,
+  "salt_g": 1.7,
+  "raw": "熱量：176kcal、たんぱく質：3.0g、脂質：0.9g、炭水化物：39.7g（糖質：38.0g、食物繊維：1.7g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "福島県",
+   "regions": [
+    "福島県"
+   ],
+   "price_excl_tax": 220,
+   "price_incl_tax": 237.6,
+   "url": "https://www.sej.co.jp/products/a/item/044656/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044656/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044656/tohoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:37:24+09:00",
+ "fetched_at": "2026-09-25T20:37:24+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

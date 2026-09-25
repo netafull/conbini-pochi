@@ -1,0 +1,38 @@
+{
+ "chain": "lawson",
+ "product_id": "1532028",
+ "name": "からあげクン　つぶつぶコーン味",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 298,
+ "launch_date": "2026-09-15",
+ "launch_text": "2026.09.15",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。",
+ "description": "からあげクン史上最大の具材感、つぶつぶ食感を味わえるからあげクン。",
+ "nutrition": {
+  "kcal": 235.0,
+  "protein_g": 11.4,
+  "fat_g": 16.5,
+  "carbs_g": 10.8,
+  "sugar_g": 9.6,
+  "fiber_g": 1.2,
+  "salt_g": 1.4,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1食(5個入)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>235kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>11.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>16.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>10.8g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>9.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆",
+  "鶏肉",
+  "豚肉"
+ ],
+ "spec": "規格（内容量）: 1食(5個入)",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532028_1996.html",
+ "first_seen_at": "2026-09-25T21:02:51+09:00",
+ "fetched_at": "2026-09-25T21:02:51+09:00",
+ "source_list": "/recommend/new/list/1532031_5162.html",
+ "image": null
+}

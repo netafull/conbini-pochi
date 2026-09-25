@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1140033",
+ "name": "しっかり食感で旨み広がる親鶏の炙り焼き",
+ "category": "チルド惣菜",
+ "price_excl_tax": 343,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "黒コショウ・にんにくをきかせた、やみつきになる味です。もも肉、ムネ肉をミックスしているため、食感の違いとコクのある旨みを感じられる商品です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1140033.html",
+ "first_seen_at": "2026-09-25T20:50:07+09:00",
+ "fetched_at": "2026-09-25T20:50:07+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

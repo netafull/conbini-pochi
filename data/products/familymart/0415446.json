@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0415446",
+ "name": "おむすび3個のミニ弁当",
+ "category": "おむすび",
+ "price_excl_tax": 462,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "静岡県の一部",
+ "description": "鮭入りごはん、焼津産かつお節ごはん、昆布の3種類のおむすびと鶏つくねや焼そばのおかずが入ったおむすびセットです。※静岡県（西部）では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0415446.html",
+ "first_seen_at": "2026-09-25T20:51:52+09:00",
+ "fetched_at": "2026-09-25T20:51:52+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

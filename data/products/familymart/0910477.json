@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "0910477",
+ "name": "大きなサンドイッチ　コーンマヨ&ベーコン",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "パンが厚くておいしい大きなサンドイッチです。コーンマヨ、ベーコン、マカロニサラダを挟みました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0910477.html",
+ "first_seen_at": "2026-09-25T20:54:44+09:00",
+ "fetched_at": "2026-09-25T20:54:44+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

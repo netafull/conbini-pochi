@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "4796633",
+ "name": "プチキャンお文具といっしょ",
+ "category": "キャラクターくじ・エンタメ雑貨など",
+ "price_excl_tax": 250,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-28",
+ "launch_text": "2026年9月28日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "お文具といっしょのミニ丸缶です。お文具さんとみんなをかわいくデザインしました。【種類数】全10種※店舗により発売日・販売開始時間が異なる場合がございます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月28日（月）午後から順次発売",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/charakuji/4796633.html",
+ "first_seen_at": "2026-09-25T20:51:07+09:00",
+ "fetched_at": "2026-09-25T20:51:07+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

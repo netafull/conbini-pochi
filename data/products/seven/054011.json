@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054011",
+ "name": "ミニロール　ハムたまご＆コロッケ",
+ "category": null,
+ "price_excl_tax": 268,
+ "price_incl_tax": 289.44,
+ "launch_date": "2026-09-30",
+ "launch_text": "2026年09月30日（水）以降順次発売",
+ "regions": [
+  "四国"
+ ],
+ "region_text": "四国",
+ "description": "２種類（ハムとたまごサラダ，ソースで味付けしたコロッケ）の具材を盛り付けたミニタイプのロールパンです。",
+ "nutrition": {
+  "kcal": 323.0,
+  "protein_g": 8.3,
+  "fat_g": 14.1,
+  "carbs_g": 41.7,
+  "sugar_g": 39.8,
+  "fiber_g": 1.9,
+  "salt_g": 1.3,
+  "raw": "熱量：323kcal、たんぱく質：8.3g、脂質：14.1g、炭水化物：41.7g（糖質：39.8g、食物繊維：1.9g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "四国",
+   "regions": [
+    "四国"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/054011/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054011/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054011/shikoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:48:36+09:00",
+ "fetched_at": "2026-09-25T20:48:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

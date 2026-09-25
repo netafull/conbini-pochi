@@ -1,0 +1,29 @@
+{
+ "chain": "familymart",
+ "product_id": "0510202",
+ "name": "手巻寿司　三陸産めかぶとおくら納豆",
+ "category": "お寿司",
+ "price_excl_tax": 220,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "関西",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "納豆に三陸産のめかぶと刻んだオクラを合わせたねばねば具材の納豆手巻寿司です。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sushi/0510202.html",
+ "first_seen_at": "2026-09-25T20:52:13+09:00",
+ "fetched_at": "2026-09-25T20:52:13+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

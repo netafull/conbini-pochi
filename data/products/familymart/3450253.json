@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "3450253",
+ "name": "赤城　たべる牧場やきいも",
+ "category": "アイス",
+ "price_excl_tax": 258,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "ファミマのおいも収穫祭",
+ "description": "大人気アイスシリーズ「たべる牧場」のやきいも味です。上段は北海道産牛乳を使用したコクのあるミルクアイス、下段は甘くて香ばしいやきいも風アイス、中間層にはさつまいもあんを入れることで、味わいと食感の変化をお楽しみいただけます。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/ice/3450253.html",
+ "first_seen_at": "2026-09-25T20:50:55+09:00",
+ "fetched_at": "2026-09-25T20:50:55+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

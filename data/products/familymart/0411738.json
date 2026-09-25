@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "0411738",
+ "name": "北海道産昆布　ごま昆布おむすび",
+ "category": "おむすび",
+ "price_excl_tax": 147,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "かつお節やホタテの旨みを加えた北海道産昆布にごまを和えた風味の良いおむすびです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月29日発売予定",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0411738.html",
+ "first_seen_at": "2026-09-25T20:51:43+09:00",
+ "fetched_at": "2026-09-25T20:51:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

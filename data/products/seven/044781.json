@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "044781",
+ "name": "６種おかずの明太のり弁当",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "島根県、広島県、山口県",
+ "description": "御飯の上におかか醤油和えをまぶし、海苔の上に明太子を盛り付けたのり弁当です。人気のおかずを組み合わせました。",
+ "nutrition": {
+  "kcal": 731.0,
+  "protein_g": 17.2,
+  "fat_g": 24.2,
+  "carbs_g": 112.5,
+  "sugar_g": 109.9,
+  "fiber_g": 2.6,
+  "salt_g": 3.2,
+  "raw": "熱量：731kcal、たんぱく質：17.2g、脂質：24.2g、炭水化物：112.5g（糖質：109.9g、食物繊維：2.6g）、食塩相当量：3.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "島根県、広島県、山口県",
+   "regions": [
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044781/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044781/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044781/chugoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:48:18+09:00",
+ "fetched_at": "2026-09-25T20:48:18+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

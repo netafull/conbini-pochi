@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "044777",
+ "name": "サラダ巻５巻",
+ "category": null,
+ "price_excl_tax": 528,
+ "price_incl_tax": 570.24,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "中国",
+  "四国"
+ ],
+ "region_text": "中国、四国",
+ "description": "厚焼き玉子，胡瓜，ツナマヨネーズ，カニカマを巻いた５巻入りの巻き寿司です。",
+ "nutrition": {
+  "kcal": 432.0,
+  "protein_g": 10.0,
+  "fat_g": 10.2,
+  "carbs_g": 76.9,
+  "sugar_g": 73.3,
+  "fiber_g": 3.6,
+  "salt_g": 4.1,
+  "raw": "熱量：432kcal、たんぱく質：10.0g、脂質：10.2g、炭水化物：76.9g（糖質：73.3g、食物繊維：3.6g）、食塩相当量：4.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "中国、四国",
+   "regions": [
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 528,
+   "price_incl_tax": 570.24,
+   "url": "https://www.sej.co.jp/products/a/item/044777/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044777/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044777/shikoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:48:25+09:00",
+ "fetched_at": "2026-09-25T20:48:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,62 @@
+{
+ "chain": "seven",
+ "product_id": "044775",
+ "name": "炭火焼き鳥丼",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "鶏むね肉を使った炭火焼き鳥に、鶏そぼろと玉子そぼろを組み合わせた、御飯が進む丼です。",
+ "nutrition": {
+  "kcal": 593.0,
+  "protein_g": 50.8,
+  "fat_g": 8.6,
+  "carbs_g": 79.3,
+  "sugar_g": 77.0,
+  "fiber_g": 2.3,
+  "salt_g": 2.8,
+  "raw": "熱量：593kcal、たんぱく質：50.8g、脂質：8.6g、炭水化物：79.3g（糖質：77.0g、食物繊維：2.3g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044775/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044775/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044775/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044775/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044775/koshinetsu/"
+ ],
+ "first_seen_at": "2026-09-25T20:47:06+09:00",
+ "fetched_at": "2026-09-25T20:47:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

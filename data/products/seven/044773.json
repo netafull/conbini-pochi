@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "044773",
+ "name": "とり五目おむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "地区で馴染みの出汁を使用し炊き上げ、味染みの良い具材を混ぜたご飯のおむすびです。",
+ "nutrition": {
+  "kcal": 204.0,
+  "protein_g": 5.5,
+  "fat_g": 2.5,
+  "carbs_g": 40.8,
+  "sugar_g": 39.0,
+  "fiber_g": 1.8,
+  "salt_g": 1.7,
+  "raw": "熱量：204kcal、たんぱく質：5.5g、脂質：2.5g、炭水化物：40.8g（糖質：39.0g、食物繊維：1.8g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/044773/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044773/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044773/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:47:31+09:00",
+ "fetched_at": "2026-09-25T20:47:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,33 @@
+{
+ "chain": "lawson",
+ "product_id": "1532642",
+ "name": "のむヨーグルト　プレーン",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 168,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026.09.29",
+ "regions": null,
+ "region_text": null,
+ "description": "すっきりとした味わいに仕立てたのむヨーグルト。",
+ "nutrition": {
+  "kcal": 142.0,
+  "protein_g": 7.4,
+  "fat_g": 0.2,
+  "carbs_g": 27.7,
+  "sugar_g": 27.5,
+  "fiber_g": 0.2,
+  "salt_g": 0.2,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1本(240g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>142kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>7.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>27.7g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>27.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "乳成分"
+ ],
+ "spec": "規格（内容量）: 240g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532642_1996.html",
+ "first_seen_at": "2026-09-25T20:59:18+09:00",
+ "fetched_at": "2026-09-25T20:59:18+09:00",
+ "source_list": "/recommend/new/list/1532630_5162.html",
+ "image": null
+}

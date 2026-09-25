@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0826266",
+ "name": "特製濃厚ソースのオムスパ",
+ "category": "パスタ",
+ "price_excl_tax": 369,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "関西"
+ ],
+ "region_text": "関西",
+ "description": "特製ソースで炒めたパスタと薄焼きたまごを合わせたオムそばのようなパスタです。※和歌山県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/pasta/0826266.html",
+ "first_seen_at": "2026-09-25T20:49:58+09:00",
+ "fetched_at": "2026-09-25T20:49:58+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

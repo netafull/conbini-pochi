@@ -1,0 +1,160 @@
+{
+ "chain": "seven",
+ "product_id": "044677",
+ "name": "直巻おむすび　具たっぷりとり五目",
+ "category": null,
+ "price_excl_tax": 188,
+ "price_incl_tax": 203.04,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "山梨県",
+  "長野県",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "島根県",
+  "広島県",
+  "山口県",
+  "九州"
+ ],
+ "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+ "description": "甘辛く味付けした鶏肉，人参，ごぼう，油揚げ，こんにゃく，椎茸をご飯に混ぜ込んだ、しっとり海苔の直巻おむすびです。",
+ "nutrition": {
+  "kcal": 190.0,
+  "protein_g": 5.2,
+  "fat_g": 2.3,
+  "carbs_g": 38.0,
+  "sugar_g": 36.0,
+  "fiber_g": 2.0,
+  "salt_g": 1.6,
+  "raw": "熱量：190kcal、たんぱく質：5.2g、脂質：2.3g、炭水化物：38.0g（糖質：36.0g、食物繊維：2.0g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/044677/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/044677/koshinetsu/"
+  },
+  "tokai": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/044677/tokai/"
+  },
+  "chugoku": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/044677/chugoku/"
+  },
+  "kyushu": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/044677/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044677/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044677/chugoku/",
+  "https://www.sej.co.jp/products/a/item/044677/kanto/",
+  "https://www.sej.co.jp/products/a/item/044677/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/044677/kyushu/",
+  "https://www.sej.co.jp/products/a/item/044677/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:39:05+09:00",
+ "fetched_at": "2026-09-25T20:39:05+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

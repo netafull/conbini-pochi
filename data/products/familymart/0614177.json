@@ -1,0 +1,45 @@
+{
+ "chain": "familymart",
+ "product_id": "0614177",
+ "name": "ごま油香る！高菜明太ごはん",
+ "category": "お弁当",
+ "price_excl_tax": 398,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "関東",
+  "東海",
+  "関西",
+  "中国・四国"
+ ],
+ "region_text": null,
+ "description": "焼鮭のほぐし身、高菜（ごま油和え）、たまごそぼろ、明太子、きざみ海苔を盛り合わせた、ごはんが進む味付けのお弁当です。※新潟県、茨城県、栃木県、群馬県、埼玉県では取り扱いがございません。",
+ "nutrition": {
+  "kcal": 409.0,
+  "protein_g": 8.5,
+  "fat_g": 8.0,
+  "carbs_g": 77.0,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 2.4,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">409.00</td>\r\n                          <td class=\"con_nut\">8.50</td>\r\n                          <td class=\"con_nut\">8.00</td>\r\n                          <td class=\"con_nut\">77.00</td>\r\n                          <td class=\"con_nut\">2.40</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "ごま",
+  "さけ",
+  "大豆",
+  "鶏肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0614177.html",
+ "first_seen_at": "2026-09-25T20:54:25+09:00",
+ "fetched_at": "2026-09-25T20:54:25+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

@@ -1,0 +1,41 @@
+{
+ "chain": "lawson",
+ "product_id": "1532212",
+ "name": "贅沢すぎ！海鮮づくし上海風焼そば",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 797,
+ "launch_date": "2026-09-21",
+ "launch_text": "2026.09.21",
+ "regions": null,
+ "region_text": null,
+ "description": "海老とイカを入れて、オイスターソースで味付けした海鮮の旨みが感じられる、贅沢な仕立ての上海風焼そば。",
+ "nutrition": {
+  "kcal": 588.0,
+  "protein_g": 25.2,
+  "fat_g": 20.1,
+  "carbs_g": 79.8,
+  "sugar_g": 73.5,
+  "fiber_g": 6.3,
+  "salt_g": 4.7,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>588kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>25.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>20.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>79.8g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>73.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>6.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>4.70g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "えび",
+  "小麦",
+  "卵",
+  "いか",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532212_1996.html",
+ "first_seen_at": "2026-09-25T21:02:17+09:00",
+ "fetched_at": "2026-09-25T21:02:17+09:00",
+ "source_list": "/recommend/new/list/1532203_5162.html",
+ "image": null
+}

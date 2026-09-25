@@ -1,0 +1,40 @@
+{
+ "chain": "lawson",
+ "product_id": "1532626",
+ "name": "とろ〜り醤油餡の天津丼(麦入りご飯)",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 497,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026.09.29",
+ "regions": null,
+ "region_text": "※関東・沖縄地域のローソン、ナチュラルローソンではお取り扱いしておりません。",
+ "description": "鶏ガラをベースに醤油、生姜の風味を効かせた醤油餡の天津丼です。餡と相性のよい麦入りご飯を使用し、スプーンでさらっと召し上がれます。",
+ "nutrition": {
+  "kcal": 465.0,
+  "protein_g": 14.1,
+  "fat_g": 17.2,
+  "carbs_g": 65.7,
+  "sugar_g": 61.0,
+  "fiber_g": 4.7,
+  "salt_g": 4.51,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>465kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>14.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>17.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>65.7g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>61.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>4.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>4.51g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "かに",
+  "小麦",
+  "卵",
+  "オレンジ",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532626_1996.html",
+ "first_seen_at": "2026-09-25T20:59:08+09:00",
+ "fetched_at": "2026-09-25T20:59:08+09:00",
+ "source_list": "/recommend/new/list/1532630_5162.html",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1532201",
+ "name": "国産手結び白滝",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 135,
+ "launch_date": "2026-09-23",
+ "launch_text": "2026.09.23",
+ "regions": null,
+ "region_text": "※近畿・中四国・九州地域のローソン、ナチュラルローソンではお取り扱いしておりません。※沖縄地域では商品仕様が異なります。",
+ "description": "職人が一つひとつ丁寧に結んだ白滝です。国産こんにゃく粉を使用しています。",
+ "nutrition": {
+  "kcal": 6.0,
+  "protein_g": 0.0,
+  "fat_g": 0.0,
+  "carbs_g": 2.9,
+  "sugar_g": 0.6,
+  "fiber_g": 2.3,
+  "salt_g": 0.2,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【100g当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>6kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>2.9g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>0.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>2.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532201_1996.html",
+ "first_seen_at": "2026-09-25T21:00:29+09:00",
+ "fetched_at": "2026-09-25T21:00:29+09:00",
+ "source_list": "/recommend/new/list/1532205_5162.html",
+ "image": null
+}

@@ -1,0 +1,70 @@
+{
+ "chain": "seven",
+ "product_id": "044661",
+ "name": "熟成ダレの牛カルビ弁当",
+ "category": null,
+ "price_excl_tax": 620,
+ "price_incl_tax": 669.6,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "関東",
+  "新潟県",
+  "北陸",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "近畿",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国"
+ ],
+ "region_text": "関東、新潟県、北陸、岐阜県、愛知県、三重県、近畿、鳥取県、島根県、岡山県、広島県、四国",
+ "description": "香ばしく焼き上げた牛肉を熟成だれで味付けした、ご飯が進むお弁当です。",
+ "nutrition": {
+  "kcal": 753.0,
+  "protein_g": 16.1,
+  "fat_g": 25.2,
+  "carbs_g": 117.0,
+  "sugar_g": 114.1,
+  "fiber_g": 2.9,
+  "salt_g": 1.8,
+  "raw": "熱量：753kcal、たんぱく質：16.1g、脂質：25.2g、炭水化物：117.0g（糖質：114.1g、食物繊維：2.9g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "関東、新潟県、北陸、岐阜県、愛知県、三重県、近畿、鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "関東",
+    "新潟県",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 620,
+   "price_incl_tax": 669.6,
+   "url": "https://www.sej.co.jp/products/a/item/044661/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044661/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044661/shikoku/"
+ ],
+ "first_seen_at": "2026-09-25T20:42:12+09:00",
+ "fetched_at": "2026-09-25T20:42:12+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

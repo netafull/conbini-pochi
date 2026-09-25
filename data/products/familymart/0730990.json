@@ -1,0 +1,52 @@
+{
+ "chain": "familymart",
+ "product_id": "0730990",
+ "name": "コク旨！パイコー飯（台湾風豚から揚げ）",
+ "category": "お弁当",
+ "price_excl_tax": 647,
+ "price_incl_tax": null,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "パイコー（台湾風豚から揚げ）に旨みとコクのあるあんかけを絡めて食べるワンプレートのお弁当です。香りの良いスパイスと鶏がらスープの旨みが味の決め手です。",
+ "nutrition": {
+  "kcal": 543.0,
+  "protein_g": 19.7,
+  "fat_g": 10.1,
+  "carbs_g": 94.5,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 4.9,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">543.00</td>\r\n                          <td class=\"con_nut\">19.70</td>\r\n                          <td class=\"con_nut\">10.10</td>\r\n                          <td class=\"con_nut\">94.50</td>\r\n                          <td class=\"con_nut\">4.90</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "えび",
+  "小麦",
+  "卵",
+  "乳成分",
+  "牛肉",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0730990.html",
+ "first_seen_at": "2026-09-25T20:54:34+09:00",
+ "fetched_at": "2026-09-25T20:54:34+09:00",
+ "source_list": "lastweek",
+ "image": null
+}

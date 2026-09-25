@@ -1,0 +1,33 @@
+{
+ "chain": "lawson",
+ "product_id": "1532194",
+ "name": "ごぼう巻",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 120,
+ "launch_date": "2026-09-23",
+ "launch_text": "2026.09.23",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。※沖縄地域では商品仕様が異なります。",
+ "description": "シャキッとしたごぼうを、すり身で巻いて香ばしく揚げた一品です。",
+ "nutrition": {
+  "kcal": 151.0,
+  "protein_g": 12.3,
+  "fat_g": 2.9,
+  "carbs_g": 18.8,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 1.04,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【100g当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>151kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>12.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>2.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>18.8g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.04g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "卵"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532194_1996.html",
+ "first_seen_at": "2026-09-25T21:00:50+09:00",
+ "fetched_at": "2026-09-25T21:00:50+09:00",
+ "source_list": "/recommend/new/list/1532205_5162.html",
+ "image": null
+}

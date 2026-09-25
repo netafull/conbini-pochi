@@ -1,0 +1,48 @@
+{
+ "chain": "familymart",
+ "product_id": "0514743",
+ "name": "チキン南蛮巻（タルタルソース入り）",
+ "category": "お寿司",
+ "price_excl_tax": 417,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "甘酸っぱいタレで和えたチキン南蛮とたまごサラダ・オニオン・ピクルス入りのタルタルソースを合わせた、チキン南蛮巻の5巻セットです。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": {
+  "kcal": 304.0,
+  "protein_g": 8.2,
+  "fat_g": 8.0,
+  "carbs_g": 50.2,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 2.8,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">304.00</td>\r\n                          <td class=\"con_nut\">8.20</td>\r\n                          <td class=\"con_nut\">8.00</td>\r\n                          <td class=\"con_nut\">50.20</td>\r\n                          <td class=\"con_nut\">2.80</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "オレンジ",
+  "大豆",
+  "鶏肉",
+  "りんご"
+ ],
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sushi/0514743.html",
+ "first_seen_at": "2026-09-25T20:49:30+09:00",
+ "fetched_at": "2026-09-25T20:49:30+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

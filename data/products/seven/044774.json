@@ -1,0 +1,69 @@
+{
+ "chain": "seven",
+ "product_id": "044774",
+ "name": "Ｓｕａｇｅ監修チキンと野菜のスープカレー",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-05",
+ "launch_text": "2026年10月05日（月）以降順次発売",
+ "regions": [
+  "宮城県",
+  "山形県",
+  "福島県",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "福岡県",
+  "佐賀県",
+  "宮崎県",
+  "鹿児島県"
+ ],
+ "region_text": "宮城県、山形県、福島県、埼玉県、千葉県、東京都、神奈川県、福岡県、佐賀県、宮崎県、鹿児島県",
+ "description": "札幌の名店「Ｓｕａｇｅ」監修のスープカレー。鶏や野菜の旨みがつまったスパイス香るカレーに、香ばしく焼いた鶏肉や素揚げしたじゃがいもや人参などを合わせました。",
+ "nutrition": {
+  "kcal": 480.0,
+  "protein_g": 14.8,
+  "fat_g": 11.3,
+  "carbs_g": 83.4,
+  "sugar_g": 76.0,
+  "fiber_g": 7.4,
+  "salt_g": 4.6,
+  "raw": "熱量：480kcal、たんぱく質：14.8g、脂質：11.3g、炭水化物：83.4g（糖質：76.0g、食物繊維：7.4g）、食塩相当量：4.6g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "宮城県、山形県、福島県、埼玉県、千葉県、東京都、神奈川県、福岡県、佐賀県、宮崎県、鹿児島県",
+   "regions": [
+    "宮城県",
+    "山形県",
+    "福島県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "福岡県",
+    "佐賀県",
+    "宮崎県",
+    "鹿児島県"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044774/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044774/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044774/kyushu/"
+ ],
+ "first_seen_at": "2026-09-25T20:48:56+09:00",
+ "fetched_at": "2026-09-25T20:48:56+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

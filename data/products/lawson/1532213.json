@@ -1,0 +1,42 @@
+{
+ "chain": "lawson",
+ "product_id": "1532213",
+ "name": "贅沢すぎ！肉づくし冷し中華",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 797,
+ "launch_date": "2026-09-21",
+ "launch_text": "2026.09.21",
+ "regions": null,
+ "region_text": null,
+ "description": "国産小麦粉使用ののど越しのよい麺と、すっきりとした酸味のある醤油スープが好バランス。3種類の肉具材が楽しめる贅沢な仕様です。",
+ "nutrition": {
+  "kcal": 643.0,
+  "protein_g": 35.8,
+  "fat_g": 19.4,
+  "carbs_g": 82.9,
+  "sugar_g": 79.9,
+  "fiber_g": 3.0,
+  "salt_g": 6.68,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>643kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>35.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>19.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>82.9g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>79.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>3.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>6.68g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "オレンジ",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532213_1996.html",
+ "first_seen_at": "2026-09-25T21:02:15+09:00",
+ "fetched_at": "2026-09-25T21:02:15+09:00",
+ "source_list": "/recommend/new/list/1532203_5162.html",
+ "image": null
+}

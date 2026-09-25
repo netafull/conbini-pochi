@@ -1,0 +1,24 @@
+{
+ "chain": "familymart",
+ "product_id": "0615808",
+ "name": "ごはん280g!デミハンバーグ&から揚げ弁当",
+ "category": "お弁当",
+ "price_excl_tax": 693,
+ "price_incl_tax": null,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年9月22日",
+ "regions": [
+  "東海"
+ ],
+ "region_text": "東海",
+ "description": "デミグラスソースのハンバーグとタルタルソース付きのから揚げ、ナポリタンなど人気のおかずを組み合わせた、いろいろな味が楽しめるボリュームのあるお弁当です。※静岡県（東部）では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": "ly-goods-spec\">\r\n          発売日：2026年9月22日",
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0615808.html",
+ "first_seen_at": "2026-09-25T20:49:22+09:00",
+ "fetched_at": "2026-09-25T20:49:22+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

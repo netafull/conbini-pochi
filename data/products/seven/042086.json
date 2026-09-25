@@ -1,0 +1,191 @@
+{
+ "chain": "seven",
+ "product_id": "042086",
+ "name": "５種おかずのミニ明太海苔弁当（もち麦）",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "新潟県",
+  "北陸",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "島根県",
+  "広島県",
+  "山口県",
+  "九州"
+ ],
+ "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+ "description": "白身フライ，ちくわの磯辺揚げ，玉子焼きなどの人気のおかずを盛り付けたミニサイズの海苔弁当です。",
+ "nutrition": {
+  "kcal": 461.0,
+  "protein_g": 13.3,
+  "fat_g": 17.0,
+  "carbs_g": 66.7,
+  "sugar_g": 61.0,
+  "fiber_g": 5.7,
+  "salt_g": 2.1,
+  "raw": "熱量：461kcal、たんぱく質：13.3g、脂質：17.0g、炭水化物：66.7g（糖質：61.0g、食物繊維：5.7g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/042086/tohoku/"
+  },
+  "kanto": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/042086/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/042086/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/042086/hokuriku/"
+  },
+  "tokai": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/042086/tokai/"
+  },
+  "kyushu": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、岐阜県、愛知県、三重県、島根県、広島県、山口県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/042086/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042086/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042086/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042086/kanto/",
+  "https://www.sej.co.jp/products/a/item/042086/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/042086/kyushu/",
+  "https://www.sej.co.jp/products/a/item/042086/tohoku/",
+  "https://www.sej.co.jp/products/a/item/042086/tokai/"
+ ],
+ "first_seen_at": "2026-09-25T20:46:07+09:00",
+ "fetched_at": "2026-09-25T20:46:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
