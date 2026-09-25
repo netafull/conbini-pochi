@@ -618,7 +618,7 @@ def render_item_page(item: dict) -> str:
     body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
 <div class="detail">
 <div class="badge" style="display:inline-block;font-size:11px;font-weight:700;color:#fff;
-border-radius:4px;padding:2px 8px;background:var(--accent)">{esc(chain_name)}</div>
+border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(chain_name)}</div>
 <h1>{esc(item['name'])}</h1>
 <p class="price">{price_html(item)}</p>
 <p><strong>発売日：</strong>{esc(date)}{('（' + esc(item.get('launch_text','')) + '）') if item.get('launch_text') else ''}</p>
