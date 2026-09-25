@@ -7,13 +7,10 @@ on:
   # おり(2026-08-25〜29、家電/電書/林檎ポチで確認済み)、workflow_dispatchは
   # その間引きの対象外のため。
   #
-  # 発火元(設定予定): Cloud Scheduler ジョブ conbini-pochi-update
+  # 発火元: Cloud Scheduler ジョブ conbini-pochi-update(GCPプロジェクト manga-rss /
+  #   asia-northeast1、毎朝7時 JST)
   #   1日1回で足りる(公式サイトの新商品掲載は日次更新のため、30分間隔の
   #   林檎ポチのような即時性は不要)。
-  #
-  # このファイルはワークフローを定義するだけで、実際にCloud Schedulerの
-  # 設定・GitHubへのpush・Actionsの起動はまだ行っていない
-  # (運営者の確認を取ってから行う)。
   workflow_dispatch:
 
 permissions:
