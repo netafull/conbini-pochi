@@ -438,7 +438,7 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
 <option value="kcal">カロリー順</option></select></label>
 <label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
-<option value="seven">セブン-イレブン</option><option value="familymart">ファミリーマート</option>
+<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option>
 <option value="lawson">ローソン</option></select></label>
 </div>"""
     body = f"""<h2>{esc(title)} ({len(items)}件)</h2>
@@ -497,12 +497,19 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
         next_section = f"""<h2>来週の新商品 ({len(next_items)}件)</h2>
 {render_grouped(next_items, sortable=False)}"""
 
-    body = f"""<h2>{esc(current_label)} ({len(current_items)}件)</h2>
+    body = f"""<h2>社別に見る</h2>
+<div class="chainlist">
+{chain_links}
+</div>
+<h2>商品名で検索</h2>
+{search_html}
+{SEARCH_JS}
+<h2>{esc(current_label)} ({len(current_items)}件)</h2>
 <div class="sort-bar">
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
 <option value="kcal">カロリー順</option></select></label>
 <label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
-<option value="seven">セブン-イレブン</option><option value="familymart">ファミリーマート</option>
+<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option>
 <option value="lawson">ローソン</option></select></label>
 </div>
 {render_grouped(current_items)}
@@ -510,13 +517,6 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 {next_section}
 {weeks_link}
 {render_reviews_section("ネタフルの最新レビュー", latest_reviews(None, 6))}
-<h2>社別に見る</h2>
-<div class="chainlist">
-{chain_links}
-</div>
-<h2>商品名で検索</h2>
-{search_html}
-{SEARCH_JS}
 {about_html}"""
     return page_shell(CONFIG["site_title"], CONFIG["site_description"], body, site_url)
 
@@ -542,7 +542,7 @@ def render_weeks_index(items: list[dict]) -> str:
 def render_chains_top() -> str:
     links = "\n".join(f'<a href="/chains/{c["slug"]}/">{esc(c["name"])}</a>' for c in CHAINS)
     body = f'<h2>社別一覧</h2><div class="chainlist">{links}</div>'
-    return page_shell("社別一覧", "セブン-イレブン・ファミリーマート・ローソンの商品一覧", body,
+    return page_shell("社別一覧", "セブンイレブン・ファミリーマート・ローソンの商品一覧", body,
                        CONFIG.get("site_url", "") + "chains/")
 
 

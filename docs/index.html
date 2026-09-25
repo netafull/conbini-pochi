@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>コンビニポチ</title>
-<meta name="description" content="セブン-イレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
+<meta name="description" content="セブンイレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
 <link rel="canonical" href="https://conbini.netaful.jp/">
 
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="コンビニポチ">
-<meta property="og:description" content="セブン-イレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
+<meta property="og:description" content="セブンイレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
 <meta property="og:url" content="https://conbini.netaful.jp/">
 <meta property="og:site_name" content="コンビニポチ">
 <meta property="og:locale" content="ja_JP">
@@ -112,7 +112,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <body>
 <header>
 <h1><a href="/">コンビニポチ</a></h1>
-<p>セブン-イレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています</p>
+<p>セブンイレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています</p>
 <nav class="sites"><span class="lbl">関連サイト</span>
 <a href="https://book.netaful.jp/">電書ポチ<span class="lbl"> Kindle本セール</span></a>
 <a href="https://kaden.netaful.jp/">家電ポチ<span class="lbl"> ガジェット・家電セール</span></a>
@@ -121,20 +121,59 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </nav>
 </header>
 <main>
+<h2>社別に見る</h2>
+<div class="chainlist">
+<a href="/chains/seven/">セブンイレブン</a>
+<a href="/chains/familymart/">ファミリーマート</a>
+<a href="/chains/lawson/">ローソン</a>
+</div>
+<h2>商品名で検索</h2>
+<div class="searchbox"><input id="search-input" type="search"
+placeholder="商品名で検索（例: おむすび、チョコ）"></div>
+<div class="grid" id="search-results"></div>
+
+<script>
+(function () {
+  var box = document.getElementById('search-input');
+  var results = document.getElementById('search-results');
+  if (!box || !results) return;
+  var index = null;
+  box.addEventListener('input', function () {
+    var q = box.value.trim();
+    if (!q) { results.innerHTML = ''; return; }
+    function render() {
+      var lower = q.toLowerCase();
+      var hits = index.filter(function (it) {
+        return it.n.toLowerCase().indexOf(lower) !== -1;
+      }).slice(0, 50);
+      results.innerHTML = hits.map(function (it) {
+        return '<a class="item" data-chain="' + it.c + '" href="' + it.u + '">' +
+          '<div class="badge">' + it.cn + '</div><div class="t">' + it.n +
+          '</div><div class="meta">' + (it.d || '') + '</div></a>';
+      }).join('');
+    }
+    if (index) { render(); return; }
+    fetch('/search-index.json').then(function (r) { return r.json(); }).then(function (data) {
+      index = data; render();
+    });
+  });
+})();
+</script>
+
 <h2>2026-09-21 の週の新商品 (115件)</h2>
 <div class="sort-bar">
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
 <option value="kcal">カロリー順</option></select></label>
 <label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
-<option value="seven">セブン-イレブン</option><option value="familymart">ファミリーマート</option>
+<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option>
 <option value="lawson">ローソン</option></select></label>
 </div>
 <section class="chain-group" data-chain="seven">
-<h3>セブン-イレブン (42件)</h3>
+<h3>セブンイレブン (42件)</h3>
 <div class="grid" data-sortable>
 <a class="item" href="items/seven-100032.html" data-kcal="391.0"
    data-date="2026-09-24" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">炭火焼き鳥　もも３本・皮２本入り</div>
   <div class="price">税込626.4円（税抜580円）<span class="kcal">391kcal</span></div>
   <div class="meta">2026-09-24 発売</div>
@@ -142,7 +181,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044494.html" data-kcal="392.0"
    data-date="2026-09-23" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　唐揚げマヨネーズ</div>
   <div class="price">税込289.44円（税抜268円）<span class="kcal">392kcal</span></div>
   <div class="meta">2026-09-23 発売</div>
@@ -150,7 +189,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044507.html" data-kcal="505.0"
    data-date="2026-09-23" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">香ばし野菜のあんかけ中華丼</div>
   <div class="price">税込645.84円（税抜598円）<span class="kcal">505kcal</span></div>
   <div class="meta">2026-09-23 発売</div>
@@ -158,7 +197,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-040443.html" data-kcal="166.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">静岡県水揚げしらすと三つ葉ごはんのおむすび</div>
   <div class="price">税込170.64円（税抜158円）<span class="kcal">166kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -166,7 +205,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-041417.html" data-kcal="329.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">鶏釜めし仕立て（もち麦）</div>
   <div class="price">税込464.4円（税抜430円）<span class="kcal">329kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -174,7 +213,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-041589.html" data-kcal="342.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">北海道産秋鮭ほぐしのだしごはん（もち麦）</div>
   <div class="price">税込464.4円（税抜430円）<span class="kcal">342kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -182,7 +221,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-041591.html" data-kcal="245.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">鶏そぼろおむすび</div>
   <div class="price">税込159.84円（税抜148円）<span class="kcal">245kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -190,7 +229,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-041607.html" data-kcal="352.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　鰹節　昆布ツナマヨネーズ</div>
   <div class="price">税込248.4円（税抜230円）<span class="kcal">352kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -198,7 +237,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-041746.html" data-kcal="365.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">鶏の旨み！鶏そぼろごはん（もち麦）</div>
   <div class="price">税込429.84円（税抜398円）<span class="kcal">365kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -206,7 +245,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-042484.html" data-kcal="307.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">直火焼ソーセージおむすび</div>
   <div class="price">税込221.4円（税抜205円）<span class="kcal">307kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -214,7 +253,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-043651.html" data-kcal="774.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">肉乗せ炒飯＆焼きそば弁当</div>
   <div class="price">税込645.84円（税抜598円）<span class="kcal">774kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -222,7 +261,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044082.html" data-kcal="215.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">味付海苔おにぎり具たっぷりめんたいマヨ</div>
   <div class="price">税込213.84円（税抜198円）<span class="kcal">215kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -230,7 +269,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044455.html" data-kcal="593.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">ガーリックオニオンのグリルチキン弁当</div>
   <div class="price">税込699.84円（税抜648円）<span class="kcal">593kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -238,7 +277,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044492.html" data-kcal="380.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　海老マヨネーズ</div>
   <div class="price">税込289.44円（税抜268円）<span class="kcal">380kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -246,7 +285,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044530.html" data-kcal="173.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">ごま油香る　ピーマンとツナのおむすび</div>
   <div class="price">税込170.64円（税抜158円）<span class="kcal">173kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -254,7 +293,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044531.html" data-kcal="173.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">三陸産切昆布と鮭の混ぜめしおむすび</div>
   <div class="price">税込149.04円（税抜138円）<span class="kcal">173kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -262,7 +301,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044533.html" data-kcal="398.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">鶏そぼろご飯</div>
   <div class="price">税込429.84円（税抜398円）<span class="kcal">398kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -270,7 +309,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044536.html" data-kcal="550.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">舞茸御飯幕の内　さつまいもかき揚げ</div>
   <div class="price">税込645.84円（税抜598円）<span class="kcal">550kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -278,7 +317,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044586.html" data-kcal="572.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">鶏ガラだしのコク　麻婆丼</div>
   <div class="price">税込537.84円（税抜498円）<span class="kcal">572kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -286,7 +325,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044656.html" data-kcal="176.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">会津産コシヒカリおむすび　はちみつ梅おかか</div>
   <div class="price">税込237.6円（税抜220円）<span class="kcal">176kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -294,7 +333,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044659.html" data-kcal="176.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">山形県産つや姫おむすび　はちみつ梅おかか</div>
   <div class="price">税込237.6円（税抜220円）<span class="kcal">176kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -302,7 +341,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044660.html" data-kcal="234.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">山形県産つや姫おむすび　炭火焼さば</div>
   <div class="price">税込267.84円（税抜248円）<span class="kcal">234kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -310,7 +349,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044661.html" data-kcal="753.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">熟成ダレの牛カルビ弁当</div>
   <div class="price">税込669.6円（税抜620円）<span class="kcal">753kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -318,7 +357,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044663.html" data-kcal="728.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">熟成ダレの牛カルビ弁当</div>
   <div class="price">税込669.6円（税抜620円）<span class="kcal">728kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -326,7 +365,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044668.html" data-kcal="560.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">旨塩ダレのねぎ塩豚カルビ弁当（もち麦）</div>
   <div class="price">税込570.24円（税抜528円）<span class="kcal">560kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -334,7 +373,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044669.html" data-kcal="646.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">旨塩ダレのねぎ塩豚カルビ弁当（もち麦）</div>
   <div class="price">税込570.24円（税抜528円）<span class="kcal">646kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -342,7 +381,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044677.html" data-kcal="190.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">直巻おむすび　具たっぷりとり五目</div>
   <div class="price">税込203.04円（税抜188円）<span class="kcal">190kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -350,7 +389,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044678.html" data-kcal="189.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">直巻もち麦おむすび　ツナ明太マヨネーズ</div>
   <div class="price">税込170.64円（税抜158円）<span class="kcal">189kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -358,7 +397,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044692.html" data-kcal="190.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">枝豆ごはんおむすび（だし飯）</div>
   <div class="price">税込170.64円（税抜158円）<span class="kcal">190kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -366,7 +405,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044702.html" data-kcal="368.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　昆布ご飯とツナマヨ</div>
   <div class="price">税込246.24円（税抜228円）<span class="kcal">368kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -374,7 +413,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044713.html" data-kcal="191.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">韓国風手巻おにぎり　　鶏そぼろ卵黄</div>
   <div class="price">税込199.8円（税抜185円）<span class="kcal">191kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -382,7 +421,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044721.html" data-kcal="234.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">北海道産ゆめぴりかおむすび　炭火焼さば</div>
   <div class="price">税込267.84円（税抜248円）<span class="kcal">234kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -390,7 +429,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044722.html" data-kcal="495.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">アジフライ御飯</div>
   <div class="price">税込464.4円（税抜430円）<span class="kcal">495kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -398,7 +437,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044723.html" data-kcal="176.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">北海道産ゆめぴりかおむすび　炙りたらこ</div>
   <div class="price">税込267.84円（税抜248円）<span class="kcal">176kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -406,7 +445,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044725.html" data-kcal="409.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">直火焼つくねおむすび</div>
   <div class="price">税込286.2円（税抜265円）<span class="kcal">409kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -414,7 +453,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044727.html" data-kcal="200.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">わさび味噌おむすび</div>
   <div class="price">税込170.64円（税抜158円）<span class="kcal">200kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -422,7 +461,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044731.html" data-kcal="279.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　秋鮭バター醤油　押麦入り</div>
   <div class="price">税込246.24円（税抜228円）<span class="kcal">279kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -430,7 +469,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044732.html" data-kcal="205.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">新潟県産コシヒカリおむすび　佐渡産サーモン</div>
   <div class="price">税込257.04円（税抜238円）<span class="kcal">205kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -438,7 +477,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044735.html" data-kcal="334.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">おかかだしごはんで食べる高菜弁当</div>
   <div class="price">税込464.4円（税抜430円）<span class="kcal">334kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -446,7 +485,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044736.html" data-kcal="234.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">長野県産コシヒカリおむすび　炭火焼さば</div>
   <div class="price">税込267.84円（税抜248円）<span class="kcal">234kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -454,7 +493,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044737.html" data-kcal="394.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">おでかけ　おにぎりランチ</div>
   <div class="price">税込464.4円（税抜430円）<span class="kcal">394kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -462,7 +501,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-091681.html" data-kcal="757.0"
    data-date="2026-09-22" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">中華蕎麦とみ田監修　冷し辛豚まぜ麺</div>
   <div class="price">税込699.84円（税抜648円）<span class="kcal">757kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
@@ -1096,11 +1135,11 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 
 <h2>来週の新商品 (126件)</h2>
 <section class="chain-group" data-chain="seven">
-<h3>セブン-イレブン (33件)</h3>
+<h3>セブンイレブン (33件)</h3>
 <div class="grid">
 <a class="item" href="items/seven-044587.html" data-kcal="524.0"
    data-date="2026-10-01" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">野菜の旨みがつまったポークカレー</div>
   <div class="price">税込537.84円（税抜498円）<span class="kcal">524kcal</span></div>
   <div class="meta">2026-10-01 発売</div>
@@ -1108,7 +1147,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-103369.html" data-kcal="247.0"
    data-date="2026-10-01" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">辛味噌もつ煮込み鍋　道産ホルモン使用</div>
   <div class="price">税込559.44円（税抜518円）<span class="kcal">247kcal</span></div>
   <div class="meta">2026-10-01 発売</div>
@@ -1116,7 +1155,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044763.html" data-kcal="199.0"
    data-date="2026-09-30" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">手巻おにぎり　鶏そぼろ</div>
   <div class="price">税込213.84円（税抜198円）<span class="kcal">199kcal</span></div>
   <div class="meta">2026-09-30 発売</div>
@@ -1124,7 +1163,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-053810.html" data-kcal="230.0"
    data-date="2026-09-30" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">バゲット　パストラミ＆クリームチーズ</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">230kcal</span></div>
   <div class="meta">2026-09-30 発売</div>
@@ -1132,7 +1171,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-054002.html" data-kcal="263.0"
    data-date="2026-09-30" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">ラップデリ　スパイシータコスミート</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">263kcal</span></div>
   <div class="meta">2026-09-30 発売</div>
@@ -1140,7 +1179,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-054011.html" data-kcal="323.0"
    data-date="2026-09-30" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">ミニロール　ハムたまご＆コロッケ</div>
   <div class="price">税込289.44円（税抜268円）<span class="kcal">323kcal</span></div>
   <div class="meta">2026-09-30 発売</div>
@@ -1148,7 +1187,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-054020.html" data-kcal="336.0"
    data-date="2026-09-30" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">ソーセージエッグマフィン</div>
   <div class="price">税込311.04円（税抜288円）<span class="kcal">336kcal</span></div>
   <div class="meta">2026-09-30 発売</div>
@@ -1156,7 +1195,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-091775.html" data-kcal="461.0"
    data-date="2026-09-30" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">チーズとデミグラスソースのオムライスドリア</div>
   <div class="price">税込537.84円（税抜498円）<span class="kcal">461kcal</span></div>
   <div class="meta">2026-09-30 発売</div>
@@ -1164,7 +1203,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-040442.html" data-kcal="221.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">黒舞茸ご飯おむすび</div>
   <div class="price">税込159.84円（税抜148円）<span class="kcal">221kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1172,7 +1211,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-042083.html" data-kcal="231.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">阿部商店監修　いかめしおむすび</div>
   <div class="price">税込246.24円（税抜228円）<span class="kcal">231kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1180,7 +1219,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-042086.html" data-kcal="461.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">５種おかずのミニ明太海苔弁当（もち麦）</div>
   <div class="price">税込464.4円（税抜430円）<span class="kcal">461kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1188,7 +1227,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-042535.html" data-kcal="194.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">高菜チャーハンおむすび</div>
   <div class="price">税込203.04円（税抜188円）<span class="kcal">194kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1196,7 +1235,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-042536.html" data-kcal="204.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">醤油の香り引き立つ　香ばし焼おにぎり</div>
   <div class="price">税込181.44円（税抜168円）<span class="kcal">204kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1204,7 +1243,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-043823.html" data-kcal="664.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">ガーリックトマトのグリルチキン弁当</div>
   <div class="price">税込699.84円（税抜648円）<span class="kcal">664kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1212,7 +1251,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044573.html" data-kcal="177.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">いぶりがっこ昆布おむすび</div>
   <div class="price">税込181.44円（税抜168円）<span class="kcal">177kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1220,7 +1259,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044655.html" data-kcal="177.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">いぶりがっこ昆布おむすび</div>
   <div class="price">税込181.44円（税抜168円）<span class="kcal">177kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1228,7 +1267,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044673.html" data-kcal="660.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">ぶたはげ監修　炭火焼き豚丼</div>
   <div class="price">税込753.84円（税抜698円）<span class="kcal">660kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1236,7 +1275,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044743.html" data-kcal="264.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">大船渡港水揚げさんまの蒲焼きおむすび</div>
   <div class="price">税込257.04円（税抜238円）<span class="kcal">264kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1244,7 +1283,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044744.html" data-kcal="555.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">豚ロース生姜焼き弁当</div>
   <div class="price">税込537.84円（税抜498円）<span class="kcal">555kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1252,7 +1291,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044745.html" data-kcal="218.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">味付のりおにぎり　チキン南蛮</div>
   <div class="price">税込213.84円（税抜198円）<span class="kcal">218kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1260,7 +1299,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044765.html" data-kcal="821.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">ソーセージ＆チキンカツ弁当（鶏むね肉）</div>
   <div class="price">税込753.84円（税抜698円）<span class="kcal">821kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1268,7 +1307,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044769.html" data-kcal="510.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">鉄鍋炒めのコク旨野菜炒め丼</div>
   <div class="price">税込537.84円（税抜498円）<span class="kcal">510kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1276,7 +1315,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044772.html" data-kcal="485.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">海苔コロ弁当（麦飯）</div>
   <div class="price">税込429.84円（税抜398円）<span class="kcal">485kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1284,7 +1323,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044773.html" data-kcal="204.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">とり五目おむすび</div>
   <div class="price">税込159.84円（税抜148円）<span class="kcal">204kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1292,7 +1331,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044775.html" data-kcal="593.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">炭火焼き鳥丼</div>
   <div class="price">税込699.84円（税抜648円）<span class="kcal">593kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1300,7 +1339,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044777.html" data-kcal="432.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">サラダ巻５巻</div>
   <div class="price">税込570.24円（税抜528円）<span class="kcal">432kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1308,7 +1347,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044778.html" data-kcal="293.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">サンドおむすび　旨辛鶏唐揚</div>
   <div class="price">税込280.8円（税抜260円）<span class="kcal">293kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1316,7 +1355,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044780.html" data-kcal="810.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">広島菜炒飯　チキン南蛮＆豚焼肉弁当</div>
   <div class="price">税込753.84円（税抜698円）<span class="kcal">810kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1324,7 +1363,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044781.html" data-kcal="731.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">６種おかずの明太のり弁当</div>
   <div class="price">税込645.84円（税抜598円）<span class="kcal">731kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1332,7 +1371,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044782.html" data-kcal="508.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">俵むすび幕の内</div>
   <div class="price">税込699.84円（税抜648円）<span class="kcal">508kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1340,7 +1379,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044784.html" data-kcal="269.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">佐賀県産さがびよりおむすび　鮭ハラスの西京焼</div>
   <div class="price">税込300.24円（税抜278円）<span class="kcal">269kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1348,7 +1387,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-044787.html" data-kcal="427.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">親子めし（御飯）</div>
   <div class="price">税込464.4円（税抜430円）<span class="kcal">427kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -1356,7 +1395,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </a>
 <a class="item" href="items/seven-091759.html" data-kcal="567.0"
    data-date="2026-09-29" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
+  <div class="badge">セブンイレブン</div>
   <div class="t">札幌すみれ監修　濃厚しおラーメン</div>
   <div class="price">税込626.4円（税抜580円）<span class="kcal">567kcal</span></div>
   <div class="meta">2026-09-29 発売</div>
@@ -2128,47 +2167,8 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <li><a href="https://netaful.jp/seven-eleven/0209552.html" target="_blank">【セブン】「7プレミアム トムヤム担々麺」213円！トムヤムクン×担々麺は思ったほど激突しなかった</a><span class="meta"> 2026-09-19</span></li>
 <li><a href="https://netaful.jp/seven-eleven/0209460.html" target="_blank">【セブン】「CAFE BOX スパイス香るキーマカレー」ハズレのないシリーズの最新作はやはり旨い！</a><span class="meta"> 2026-09-17</span></li>
 </ul>
-<h2>社別に見る</h2>
-<div class="chainlist">
-<a href="/chains/seven/">セブン-イレブン</a>
-<a href="/chains/familymart/">ファミリーマート</a>
-<a href="/chains/lawson/">ローソン</a>
-</div>
-<h2>商品名で検索</h2>
-<div class="searchbox"><input id="search-input" type="search"
-placeholder="商品名で検索（例: おむすび、チョコ）"></div>
-<div class="grid" id="search-results"></div>
-
-<script>
-(function () {
-  var box = document.getElementById('search-input');
-  var results = document.getElementById('search-results');
-  if (!box || !results) return;
-  var index = null;
-  box.addEventListener('input', function () {
-    var q = box.value.trim();
-    if (!q) { results.innerHTML = ''; return; }
-    function render() {
-      var lower = q.toLowerCase();
-      var hits = index.filter(function (it) {
-        return it.n.toLowerCase().indexOf(lower) !== -1;
-      }).slice(0, 50);
-      results.innerHTML = hits.map(function (it) {
-        return '<a class="item" data-chain="' + it.c + '" href="' + it.u + '">' +
-          '<div class="badge">' + it.cn + '</div><div class="t">' + it.n +
-          '</div><div class="meta">' + (it.d || '') + '</div></a>';
-      }).join('');
-    }
-    if (index) { render(); return; }
-    fetch('/search-index.json').then(function (r) { return r.json(); }).then(function (data) {
-      index = data; render();
-    });
-  });
-})();
-</script>
-
 <section class="about"><h2>コンビニポチについて</h2>
-<p>コンビニ3社（セブン-イレブン・ファミリーマート・ローソン）の公式サイトを1日1回チェックし、新商品の情報を記録し続けているアーカイブです。各社の公式サイトは販売終了した商品のページを削除してしまうため、「いつ・何が・いくらで発売されたか」を後から調べられることを目的にしています。</p>
+<p>コンビニ3社（セブンイレブン・ファミリーマート・ローソン）の公式サイトを1日1回チェックし、新商品の情報を記録し続けているアーカイブです。各社の公式サイトは販売終了した商品のページを削除してしまうため、「いつ・何が・いくらで発売されたか」を後から調べられることを目的にしています。</p>
 <p>商品説明・価格・栄養成分などは各社公式サイトの内容を出典を明記して引用しています。商品画像は掲載していません（イメージ画像を追加する構想はありますが、公式画像の転載は行いません）。</p>
 <p>価格・販売状況は取得時点のものです。最新の状況は必ず各社の公式サイトでご確認ください。当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン各社とは関係のない非公式サイトです。運営はブログ「ネタフル」のコグレです。姉妹サイトに電書ポチ・家電ポチ・林檎ポチ・漫画ポチがあります。</p>
 </section>
