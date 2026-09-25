@@ -503,8 +503,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
         next_section = f"""<h2>来週の新商品 ({len(next_items)}件)</h2>
 {render_grouped(next_items, sortable=False)}"""
 
-    body = f"""<h2>社別に見る</h2>
-<div class="chainlist">
+    body = f"""<div class="chainlist">
 {chain_links}
 </div>
 <h2>商品名で検索</h2>
@@ -547,8 +546,8 @@ def render_weeks_index(items: list[dict]) -> str:
 
 def render_chains_top() -> str:
     links = "\n".join(f'<a href="/chains/{c["slug"]}/">{esc(c["name"])}</a>' for c in CHAINS)
-    body = f'<h2>社別一覧</h2><div class="chainlist">{links}</div>'
-    return page_shell("社別一覧", "セブンイレブン・ファミリーマート・ローソンの商品一覧", body,
+    body = f'<h2>コンビニ一覧</h2><div class="chainlist">{links}</div>'
+    return page_shell("コンビニ一覧", "セブンイレブン・ファミリーマート・ローソンの商品一覧", body,
                        CONFIG.get("site_url", "") + "chains/")
 
 
