@@ -35,6 +35,16 @@ JST = datetime.timezone(datetime.timedelta(hours=9))
 UA = CONFIG.get("user_agent", "ConbiniPochi/1.0")
 INTERVALS = CONFIG.get("request_interval_seconds", {})
 
+# 食品以外(キャラクターくじ・雑貨、コスメ、アパレル等)は取得も掲載もしない方針。
+# カテゴリ情報があるのはファミマのみなので、ファミマの一覧パース直後(詳細ページを
+# 取得する前)にこのカテゴリと一致する商品を弾く。セブン・ローソンは新商品一覧が
+# 実質食品のみなので対象外。
+FAMILYMART_EXCLUDE_CATEGORIES = set(CONFIG.get("familymart_exclude_categories", []))
+
+
+def is_familymart_excluded(category: str | None) -> bool:
+    return bool(category) and category in FAMILYMART_EXCLUDE_CATEGORIES
+
 
 def now_iso() -> str:
     return datetime.datetime.now(JST).isoformat(timespec="seconds")
@@ -236,7 +246,7 @@ def crawl_familymart(pending: dict, stats: dict) -> None:
     chain = "familymart"
     pending.setdefault(chain, {})
     stats.setdefault(chain, {"list_requests": 0, "detail_requests": 0, "new_products": 0,
-                              "failed": 0, "blocked": False})
+                              "failed": 0, "blocked": False, "excluded_category": 0})
 
     all_entries: list[dict] = []
     list_week_by_source: dict[str, str | None] = {}
@@ -267,6 +277,11 @@ def crawl_familymart(pending: dict, stats: dict) -> None:
         if pid in seen:
             continue
         seen.add(pid)
+        if is_familymart_excluded(e.get("category")):
+            # 食品以外は詳細ページを取得せずスキップ(リクエスト節約)
+            stats[chain]["excluded_category"] += 1
+            pending[chain].pop(pid, None)
+            continue
         if load_product(chain, pid) is not None:
             continue  # 既存商品は再取得しない(アーカイブなので初回取得が正)
 
@@ -454,10 +469,12 @@ def main() -> int:
 
     print("=== クロール結果 ===")
     for chain, s in stats.items():
+        excluded = s.get("excluded_category", 0)
+        excluded_text = f" / 対象外カテゴリ除外{excluded}件" if excluded else ""
         print(
             f"{chain}: 一覧{s.get('list_requests', 0)}件 / 詳細{s.get('detail_requests', 0)}件 "
             f"/ 新規{s.get('new_products', 0)}件 / 失敗{s.get('failed', 0)}件 "
-            f"/ ブロック={'あり' if s.get('blocked') else 'なし'}"
+            f"/ ブロック={'あり' if s.get('blocked') else 'なし'}{excluded_text}"
         )
     return 0
 

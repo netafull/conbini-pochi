@@ -15,6 +15,12 @@
     "lawson": 3
   },
   "user_agent": "ConbiniPochi/1.0 (+https://conbini.netaful.jp/)",
+  "familymart_exclude_categories": [
+    "キャラクターくじ・エンタメ雑貨など",
+    "スキンケア・コスメ",
+    "コンビニエンスウェア",
+    "ファミマオンライン"
+  ],
   "related_sites": [
     {"name": "電書ポチ", "desc": "Kindle本セール", "url": "https://book.netaful.jp/"},
     {"name": "家電ポチ", "desc": "ガジェット・家電セール", "url": "https://kaden.netaful.jp/"},

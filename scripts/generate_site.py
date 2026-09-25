@@ -10,6 +10,7 @@ from __future__ import annotations
 import datetime
 import html
 import json
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -696,6 +697,16 @@ def main() -> int:
         )
         (wdir / "index.html").write_text(page, encoding="utf-8")
 
+    # 商品削除(対象外カテゴリの掃除等)で商品が0件になった週は、既存のディレクトリが
+    # 残ったままにならないよう削除する
+    stale_weeks = 0
+    if (DOCS / "weeks").is_dir():
+        current_weeks = set(weeks)
+        for wdir in (DOCS / "weeks").iterdir():
+            if wdir.is_dir() and wdir.name not in current_weeks:
+                shutil.rmtree(wdir)
+                stale_weeks += 1
+
     (DOCS / "chains").mkdir(parents=True, exist_ok=True)
     (DOCS / "chains" / "index.html").write_text(render_chains_top(), encoding="utf-8")
     for c in CHAINS:
@@ -716,6 +727,14 @@ def main() -> int:
     for it in items:
         (DOCS / item_url(it)).write_text(render_item_page(it), encoding="utf-8")
 
+    # 商品削除で不要になった旧itemページ(オーファン)を掃除する
+    valid_item_files = {(DOCS / item_url(it)).name for it in items}
+    stale_items = 0
+    for f in (DOCS / "items").glob("*.html"):
+        if f.name not in valid_item_files:
+            f.unlink()
+            stale_items += 1
+
     (DOCS / "search-index.json").write_text(
         json.dumps(build_search_index(items), ensure_ascii=False), encoding="utf-8"
     )
@@ -733,6 +752,8 @@ def main() -> int:
     print(
         f"generated: index.html, {len(weeks)} weeks, {len(CHAINS)} chain pages, "
         f"{len(items)} item pages, rss.xml, sitemap.xml, search-index.json"
+        + (f" / removed {stale_items} stale item pages" if stale_items else "")
+        + (f" / removed {stale_weeks} stale week dirs" if stale_weeks else "")
     )
     return 0
 
