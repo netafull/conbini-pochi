@@ -11,6 +11,7 @@ import datetime
 import html
 import json
 import shutil
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -64,18 +65,98 @@ def latest_reviews(chain: str | None, limit: int) -> list[dict]:
     return sorted(arts, key=lambda a: a.get("date") or "", reverse=True)[:limit]
 
 
-def render_reviews_section(title: str, articles: list[dict]) -> str:
+def render_review_card(a: dict) -> str:
+    thumb = a.get("thumb") or {}
+    img_html = ""
+    if thumb.get("url"):
+        w, h = thumb.get("width"), thumb.get("height")
+        wh_attr = f' width="{int(w)}" height="{int(h)}"' if w and h else ""
+        img_html = (
+            f'<img src="{esc(thumb["url"])}" alt="{esc(a.get("title") or "")}" '
+            f'loading="lazy"{wh_attr}>'
+        )
+    return f"""<a class="review-card" href="{esc(a.get('link') or '')}" target="_blank" rel="noopener">
+{img_html}
+<div class="rc-body">
+<div class="rc-t">{esc(a.get('title') or '')}</div>
+<div class="rc-date">{esc((a.get('date') or '')[:10])}</div>
+</div>
+</a>"""
+
+
+def render_review_cards(title: str, articles: list[dict]) -> str:
+    """ネタフルのレビュー記事を画像付きカードのグリッドで表示する。"""
     if not articles:
         return ""
-    rows = "\n".join(
-        f'<li><a href="{esc(a["link"])}" target="_blank">{esc(a["title"])}</a>'
-        f'<span class="meta"> {esc((a.get("date") or "")[:10])}</span></li>'
-        for a in articles
-    )
+    cards = "\n".join(render_review_card(a) for a in articles)
     return f"""<h2>{esc(title)}</h2>
-<ul class="reviewlist">
-{rows}
-</ul>"""
+<div class="review-grid">
+{cards}
+</div>"""
+
+
+def nfkc(s: str | None) -> str:
+    return unicodedata.normalize("NFKC", s or "")
+
+
+RELATED_KEYWORDS: list[dict] = CONFIG.get("related_keywords") or []
+
+
+def match_keyword_for_name(name: str, keywords: list[dict] | None = None) -> dict | None:
+    """商品名にマッチする関連キーワードのうち、一致した語が最も長い(具体的な)
+    ものを返す。excludeに指定された語を含む場合、その語による一致は無視する。
+    複数のキーワードが同じ長さで一致した場合はkeywordsに書かれた順を優先する。"""
+    keywords = RELATED_KEYWORDS if keywords is None else keywords
+    name_n = nfkc(name)
+    best_kw = None
+    best_len = -1
+    for kw in keywords:
+        excludes = kw.get("exclude") or []
+        for w in kw.get("words") or []:
+            if w not in name_n:
+                continue
+            if any(ex in name_n for ex in excludes):
+                continue
+            if len(w) > best_len:
+                best_len = len(w)
+                best_kw = kw
+            break  # このキーワード内では最初にマッチした語で十分(長さはword単位)
+    return best_kw
+
+
+def articles_for_keyword(keyword: dict, articles: list[dict]) -> list[dict]:
+    """記事タイトルにキーワードのいずれかの語を含む記事(除外語を含むものは除く)。"""
+    words = keyword.get("words") or []
+    excludes = keyword.get("exclude") or []
+    result = []
+    for a in articles:
+        title_n = nfkc(a.get("title"))
+        if any(ex in title_n for ex in excludes):
+            continue
+        if any(w in title_n for w in words):
+            result.append(a)
+    return result
+
+
+def select_related_articles(
+    item: dict, articles_by_id: dict[int, dict], keywords: list[dict] | None = None,
+    limit: int = 4,
+) -> tuple[str, list[dict]] | None:
+    """商品名から関連キーワードを判定し、そのキーワードに該当する記事(直接ひも
+    付いたレビュー記事を除く)を、同じコンビニ優先・新しい順に最大limit件返す。
+    該当キーワードが無い、または記事が1件も無ければNoneを返す。"""
+    kw = match_keyword_for_name(item.get("name", ""), keywords)
+    if not kw:
+        return None
+    candidates = articles_for_keyword(kw, list(articles_by_id.values()))
+    linked_ids = {a["id"] for a in item_reviews(item)}
+    candidates = [a for a in candidates if a["id"] not in linked_ids]
+    if not candidates:
+        return None
+    # 日付の新しい順に並べた後、同じコンビニのものを優先する安定ソート
+    candidates.sort(key=lambda a: a.get("date") or "", reverse=True)
+    candidates.sort(key=lambda a: a.get("chain") != item.get("chain"))
+    return kw["label"], candidates[:limit]
 
 
 def esc(s) -> str:
@@ -247,12 +328,20 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
 .item .review-badge { display: inline-block; margin-top: 4px; font-size: 10px; color: var(--accent);
   border: 1px solid var(--accent); border-radius: 4px; padding: 0 5px; }
-.reviewlist { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-.reviewlist li { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
-  padding: 8px 12px; font-size: 13px; }
-.reviewlist a { text-decoration: none; color: var(--accent); }
-.reviewlist .meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
-.detail .reviewlist { margin-top: 4px; }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px; margin-top: 8px; }
+.review-card { display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; }
+.review-card:hover { border-color: var(--accent); }
+.review-card img { width: 100%; height: 110px; object-fit: cover; display: block; background: var(--line); }
+.review-card .rc-body { padding: 8px 10px; }
+.review-card .rc-t { font-size: 12.5px; font-weight: 600; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4; }
+.review-card .rc-date { color: var(--muted); font-size: 11px; margin-top: 4px; }
+.detail .review-grid { margin-top: 4px; }
+@media (max-width: 480px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
 """
 
 
@@ -434,7 +523,7 @@ def build_search_index(items: list[dict]) -> list[dict]:
 
 def render_grid_page(title: str, description: str, items: list[dict], canonical: str,
                       show_filters: bool = True, review_chain: str | None = None) -> str:
-    reviews_section = render_reviews_section("ネタフルの最新レビュー", latest_reviews(review_chain, 5))
+    reviews_section = render_review_cards("ネタフルの最新レビュー", latest_reviews(review_chain, 5))
     if not items:
         body = f"<h2>{esc(title)}</h2><p class='empty'>商品がありません。</p>\n{reviews_section}"
         return page_shell(title, description, body, canonical)
@@ -509,6 +598,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 <h2>商品名で検索</h2>
 {search_html}
 {SEARCH_JS}
+{render_review_cards("ネタフルの最新レビュー", latest_reviews(None, 6))}
 <h2>{esc(current_label)} ({len(current_items)}件)</h2>
 <div class="sort-bar">
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
@@ -521,7 +611,6 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 {SORT_JS}
 {next_section}
 {weeks_link}
-{render_reviews_section("ネタフルの最新レビュー", latest_reviews(None, 6))}
 {about_html}"""
     return page_shell(CONFIG["site_title"], CONFIG["site_description"], body, site_url)
 
@@ -617,15 +706,19 @@ def render_item_page(item: dict) -> str:
     reviews_html = ""
     reviews = item_reviews(item)
     if reviews:
-        rows = "\n".join(
-            f'<li><a href="{esc(a["link"])}" target="_blank">{esc(a["title"])}</a>'
-            f'<span class="meta"> {esc((a.get("date") or "")[:10])}</span></li>'
-            for a in reviews
-        )
         reviews_html = f"""<h3 style='margin-top:16px;font-size:14px'>ネタフルのレビュー</h3>
-<ul class="reviewlist">
-{rows}
-</ul>"""
+<div class="review-grid">
+{chr(10).join(render_review_card(a) for a in reviews)}
+</div>"""
+
+    related_html = ""
+    related = select_related_articles(item, ARTICLES_BY_ID)
+    if related:
+        label, related_articles_list = related
+        related_html = f"""<h3 style='margin-top:16px;font-size:14px'>関連するネタフルの記事（{esc(label)}）</h3>
+<div class="review-grid">
+{chr(10).join(render_review_card(a) for a in related_articles_list)}
+</div>"""
 
     body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
 <div class="detail">
@@ -641,6 +734,7 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
 {allergen_html}
 {variants_html}
 {reviews_html}
+{related_html}
 </div>"""
     return page_shell(title, item.get("description") or CONFIG["site_description"], body, canonical)
 

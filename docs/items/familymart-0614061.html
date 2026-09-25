@@ -100,12 +100,20 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
 .item .review-badge { display: inline-block; margin-top: 4px; font-size: 10px; color: var(--accent);
   border: 1px solid var(--accent); border-radius: 4px; padding: 0 5px; }
-.reviewlist { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-.reviewlist li { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
-  padding: 8px 12px; font-size: 13px; }
-.reviewlist a { text-decoration: none; color: var(--accent); }
-.reviewlist .meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
-.detail .reviewlist { margin-top: 4px; }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px; margin-top: 8px; }
+.review-card { display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; }
+.review-card:hover { border-color: var(--accent); }
+.review-card img { width: 100%; height: 110px; object-fit: cover; display: block; background: var(--line); }
+.review-card .rc-body { padding: 8px 10px; }
+.review-card .rc-t { font-size: 12.5px; font-weight: 600; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4; }
+.review-card .rc-date { color: var(--muted); font-size: 11px; margin-top: 4px; }
+.detail .review-grid { margin-top: 4px; }
+@media (max-width: 480px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
 </style>
 
 </head>
@@ -138,6 +146,37 @@ border-radius:4px;padding:2px 8px;background:var(--familymart)">ファミリー�
 <p class='tags'><strong>アレルゲン：</strong>小麦、卵、乳成分、大豆、鶏肉、豚肉、ゼラチン</p>
 
 
+<h3 style='margin-top:16px;font-size:14px'>関連するネタフルの記事（丼）</h3>
+<div class="review-grid">
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0197201.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/04/famima-tantan-mabo-005-485x364.jpeg" alt="【ファミマ】「担担まぜ麺と麻婆豆腐丼セット」これで646円は強い！麺も丼も一度に！" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「担担まぜ麺と麻婆豆腐丼セット」これで646円は強い！麺も丼も一度に！</div>
+<div class="rc-date">2026-04-10</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0183352.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2025/10/famima-haitoku-bentou-004-485x364.jpg" alt="【ファミマ】「ニンニク背脂が決め手のから揚げ＆豚焼肉月見丼」月見背徳メシが登場！" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「ニンニク背脂が決め手のから揚げ＆豚焼肉月見丼」月見背徳メシが登場！</div>
+<div class="rc-date">2025-10-02</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/037898.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2011/06/ika_natto_6593-1-300x223.jpg" alt="ファミリーマート「いか納豆のねばねば麦とろ丼」（6月16日は麦とろの日）" loading="lazy" width="300" height="223">
+<div class="rc-body">
+<div class="rc-t">ファミリーマート「いか納豆のねばねば麦とろ丼」（6月16日は麦とろの日）</div>
+<div class="rc-date">2011-06-16</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/seven-eleven/0206813.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/07/711-rebanira-011-485x364.jpeg" alt="【セブン】「北海道産豚レバー使用 レバニラ丼」537円とは思えない！分厚いレバーがゴロゴロ" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【セブン】「北海道産豚レバー使用 レバニラ丼」537円とは思えない！分厚いレバーがゴロゴロ</div>
+<div class="rc-date">2026-07-19</div>
+</div>
+</a>
+</div>
 </div>
 </main>
 <footer>

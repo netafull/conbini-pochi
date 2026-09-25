@@ -100,12 +100,20 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
 .item .review-badge { display: inline-block; margin-top: 4px; font-size: 10px; color: var(--accent);
   border: 1px solid var(--accent); border-radius: 4px; padding: 0 5px; }
-.reviewlist { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-.reviewlist li { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
-  padding: 8px 12px; font-size: 13px; }
-.reviewlist a { text-decoration: none; color: var(--accent); }
-.reviewlist .meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
-.detail .reviewlist { margin-top: 4px; }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px; margin-top: 8px; }
+.review-card { display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; }
+.review-card:hover { border-color: var(--accent); }
+.review-card img { width: 100%; height: 110px; object-fit: cover; display: block; background: var(--line); }
+.review-card .rc-body { padding: 8px 10px; }
+.review-card .rc-t { font-size: 12.5px; font-weight: 600; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4; }
+.review-card .rc-date { color: var(--muted); font-size: 11px; margin-top: 4px; }
+.detail .review-grid { margin-top: 4px; }
+@media (max-width: 480px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
 </style>
 
 </head>
@@ -138,6 +146,37 @@ border-radius:4px;padding:2px 8px;background:var(--lawson)">ローソン</div>
 <p class='tags'><strong>アレルゲン：</strong>小麦、卵、乳成分、大豆、鶏肉</p>
 
 
+<h3 style='margin-top:16px;font-size:14px'>関連するネタフルの記事（チキン）</h3>
+<div class="review-grid">
+<a class="review-card" href="https://netaful.jp/lawson/0206615.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/07/lawson-nan-curry-pan-005-485x364.jpeg" alt="【ローソン】「バターチキンカレーのナン」 カレーパンじゃなくてカレーナン！？もちもちナンが美味しい" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ローソン】「バターチキンカレーのナン」 カレーパンじゃなくてカレーナン！？もちもちナンが美味しい</div>
+<div class="rc-date">2026-07-14</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/lawson/0205267.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/06/lawson-teriyaki-51-003-485x364.jpeg" alt="【ローソン】「盛りすぎ！照焼チキンたまごサンド」51%増量の照焼チキンが主役！玉子もたっぷり" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ローソン】「盛りすぎ！照焼チキンたまごサンド」51%増量の照焼チキンが主役！玉子もたっぷり</div>
+<div class="rc-date">2026-06-12</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/lawson/0190052.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/02/lawson-teriyaki-chicken-50-005-485x364.jpeg" alt="【ローソン】50%増量「盛りすぎ！照焼チキンたまごサンド」チキン好き歓喜のサンドイッチ！" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ローソン】50%増量「盛りすぎ！照焼チキンたまごサンド」チキン好き歓喜のサンドイッチ！</div>
+<div class="rc-date">2026-02-11</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/lawson/0183961.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2025/10/lawson-aubergine-curry-003-485x364.jpg" alt="【ローソン】「オーベルジーヌ監修 欧風チキンカレー」ロケ弁で人気のカレーをレトルトカレーとして食べる" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ローソン】「オーベルジーヌ監修 欧風チキンカレー」ロケ弁で人気のカレーをレトルトカレーとして食べる</div>
+<div class="rc-date">2025-10-14</div>
+</div>
+</a>
+</div>
 </div>
 </main>
 <footer>

@@ -100,12 +100,20 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
 .item .review-badge { display: inline-block; margin-top: 4px; font-size: 10px; color: var(--accent);
   border: 1px solid var(--accent); border-radius: 4px; padding: 0 5px; }
-.reviewlist { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-.reviewlist li { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
-  padding: 8px 12px; font-size: 13px; }
-.reviewlist a { text-decoration: none; color: var(--accent); }
-.reviewlist .meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
-.detail .reviewlist { margin-top: 4px; }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px; margin-top: 8px; }
+.review-card { display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; }
+.review-card:hover { border-color: var(--accent); }
+.review-card img { width: 100%; height: 110px; object-fit: cover; display: block; background: var(--line); }
+.review-card .rc-body { padding: 8px 10px; }
+.review-card .rc-t { font-size: 12.5px; font-weight: 600; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4; }
+.review-card .rc-date { color: var(--muted); font-size: 11px; margin-top: 4px; }
+.detail .review-grid { margin-top: 4px; }
+@media (max-width: 480px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
 </style>
 
 </head>
@@ -139,6 +147,37 @@ border-radius:4px;padding:2px 8px;background:var(--familymart)">ファミリー�
 
 
 
+<h3 style='margin-top:16px;font-size:14px'>関連するネタフルの記事（焼きそば）</h3>
+<div class="review-grid">
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0187213.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2025/12/famima-mabo-yakisoba-004-485x364.jpeg" alt="【ファミマ】「菰田欣也シェフ監修 四川風麻婆焼そば」ライスも必要に！？焼きそばで楽しむ本格麻婆！" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「菰田欣也シェフ監修 四川風麻婆焼そば」ライスも必要に！？焼きそばで楽しむ本格麻婆！</div>
+<div class="rc-date">2025-12-21</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0183190.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2025/09/famima-marbo-yakisoba-005-485x364.jpg" alt="【ファミマ】「隠し味にラー油をかけて 四川風麻婆焼そば」隠し味ラー油が決め手の辛旨体験" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「隠し味にラー油をかけて 四川風麻婆焼そば」隠し味ラー油が決め手の辛旨体験</div>
+<div class="rc-date">2025-09-29</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0182110.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2025/09/ufo-yakisobapan-002-485x364.jpg" alt="【ファミマ】「U.F.O.ぶっ濃い濃厚大盛焼そばパン」背徳感のある焼きそばパンを食べてみた" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「U.F.O.ぶっ濃い濃厚大盛焼そばパン」背徳感のある焼きそばパンを食べてみた</div>
+<div class="rc-date">2025-09-07</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0174637.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2025/04/famima-namacoppe-shioyakisoba-003-485x364.jpg" alt="【ファミマ】「生コッペパン（塩焼きそば）」うむむむ？‥‥と考えさせられる焼きそばパン" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「生コッペパン（塩焼きそば）」うむむむ？‥‥と考えさせられる焼きそばパン</div>
+<div class="rc-date">2025-04-09</div>
+</div>
+</a>
+</div>
 </div>
 </main>
 <footer>

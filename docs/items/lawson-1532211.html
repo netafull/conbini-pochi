@@ -100,12 +100,20 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
 .item .review-badge { display: inline-block; margin-top: 4px; font-size: 10px; color: var(--accent);
   border: 1px solid var(--accent); border-radius: 4px; padding: 0 5px; }
-.reviewlist { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-.reviewlist li { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
-  padding: 8px 12px; font-size: 13px; }
-.reviewlist a { text-decoration: none; color: var(--accent); }
-.reviewlist .meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
-.detail .reviewlist { margin-top: 4px; }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px; margin-top: 8px; }
+.review-card { display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; }
+.review-card:hover { border-color: var(--accent); }
+.review-card img { width: 100%; height: 110px; object-fit: cover; display: block; background: var(--line); }
+.review-card .rc-body { padding: 8px 10px; }
+.review-card .rc-t { font-size: 12.5px; font-weight: 600; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4; }
+.review-card .rc-date { color: var(--muted); font-size: 11px; margin-top: 4px; }
+.detail .review-grid { margin-top: 4px; }
+@media (max-width: 480px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
 </style>
 
 </head>
@@ -138,6 +146,37 @@ border-radius:4px;padding:2px 8px;background:var(--lawson)">ローソン</div>
 <p class='tags'><strong>アレルゲン：</strong>小麦、卵、大豆、鶏肉、豚肉</p>
 
 
+<h3 style='margin-top:16px;font-size:14px'>関連するネタフルの記事（ソーセージ）</h3>
+<div class="review-grid">
+<a class="review-card" href="https://netaful.jp/lawson/0206594.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/07/lawson-bolonia-pan-004-485x364.jpeg" alt="【ローソン】「チーズとカレーのボロニアソーセージパン」カレー×チーズ×極太ソーセージが相性抜群！" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ローソン】「チーズとカレーのボロニアソーセージパン」カレー×チーズ×極太ソーセージが相性抜群！</div>
+<div class="rc-date">2026-07-13</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/lawson/0178425.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2025/06/lawson-arabiki-50-010-485x364.jpg" alt="【ローソン】「盛りすぎ！あらびきチョリソーパン」ソーセージが50%増量してしまう！" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ローソン】「盛りすぎ！あらびきチョリソーパン」ソーセージが50%増量してしまう！</div>
+<div class="rc-date">2025-06-24</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/lawson/062312.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2020/02/slproImg_202002041454220-1-300x225.jpg" alt="【ローソン】全長20cmソーセージ「GOOODOG（グーードッグ） トマトオニオン」パリッとしたソーセージにピリッとしたハラペーニョが美味い！（追記：とろけるコク旨チーズ）" loading="lazy" width="300" height="225">
+<div class="rc-body">
+<div class="rc-t">【ローソン】全長20cmソーセージ「GOOODOG（グーードッグ） トマトオニオン」パリッとしたソーセージにピリッとしたハラペーニョが美味い！（追記：とろけるコク旨チーズ）</div>
+<div class="rc-date">2020-02-04</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/seven-eleven/0204592.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/05/711-maffin-50-005-485x364.jpeg" alt="【セブン】「ソーセージエッグマフィン」50%増量でボリューム倍増！？573kcalの満足系マフィン" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【セブン】「ソーセージエッグマフィン」50%増量でボリューム倍増！？573kcalの満足系マフィン</div>
+<div class="rc-date">2026-05-22</div>
+</div>
+</a>
+</div>
 </div>
 </main>
 <footer>

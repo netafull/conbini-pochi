@@ -17,10 +17,14 @@
   {
     "fetched_at": "...",
     "articles": {"seven": [{"id":.., "date":.., "link":.., "title":..,
-                             "product_name":..}], "familymart": [...], "lawson": [...]},
+                             "product_name":.., "thumb": {"url":.., "width":.., "height":..} | null}],
+                 "familymart": [...], "lawson": [...]},
     "matches": {"seven-044723": [209819, ...], ...},
     "errors": ["..."]
   }
+
+アイキャッチ画像(thumb)は `_embed=wp:featuredmedia` でWP REST APIから取得する。
+記事にはネタフル(運営者自身)の画像なので、直リンクで表示してよい。
 """
 
 from __future__ import annotations
@@ -54,6 +58,11 @@ TAGS = {
 
 TITLE_NAME_RE = re.compile(r"「(.*?)」")
 
+# カード表示に使うアイキャッチ画像サイズの優先順(幅300〜700px程度を狙う)
+THUMB_SIZE_ORDER = ("medium_large", "medium", "large", "thumbnail")
+THUMB_WIDTH_MIN = 300
+THUMB_WIDTH_MAX = 700
+
 # 正規化で除去する記号・空白類(全角/半角の中黒・括弧・句読点等)
 _STRIP_RE = re.compile(
     r"[\s　・:：/／,、。.!！?？\-—―~〜()（）\[\]【】「」『』\"'’”×%!]+"
@@ -75,11 +84,45 @@ def http_get(url: str) -> tuple[bytes, dict]:
 
 
 def fetch_tag_page(tag_id: int, page: int, per_page: int) -> tuple[list[dict], int]:
-    url = f"{API_BASE}?tags={tag_id}&per_page={per_page}&page={page}&_fields=id,date,link,title"
+    url = (
+        f"{API_BASE}?tags={tag_id}&per_page={per_page}&page={page}"
+        "&_embed=wp:featuredmedia&_fields=id,date,link,title,_links,_embedded"
+    )
     body, headers = http_get(url)
     total_pages = int(headers.get("X-WP-TotalPages") or headers.get("x-wp-totalpages") or 1)
     posts = json.loads(body.decode("utf-8"))
     return posts, total_pages
+
+
+def extract_thumb(post: dict) -> dict | None:
+    """`_embed=wp:featuredmedia` で埋め込まれたアイキャッチ画像から、カード表示に
+    適したサイズ(幅300〜700px程度)のURLを選ぶ。無ければNone。"""
+    media_list = (post.get("_embedded") or {}).get("wp:featuredmedia") or []
+    if not media_list:
+        return None
+    media = media_list[0]
+    if not isinstance(media, dict) or media.get("code"):
+        # 埋め込み失敗時はエラーオブジェクト({"code": "rest_forbidden", ...})が入る
+        return None
+    sizes = ((media.get("media_details") or {}).get("sizes")) or {}
+
+    for key in THUMB_SIZE_ORDER:
+        s = sizes.get(key)
+        w = s.get("width") if s else None
+        if s and s.get("source_url") and w and THUMB_WIDTH_MIN <= w <= THUMB_WIDTH_MAX:
+            return {"url": s["source_url"], "width": w, "height": s.get("height")}
+
+    # 好みの範囲に収まるサイズが無ければ、幅300px以上の中で一番小さいものを使う
+    candidates = [s for s in sizes.values() if s.get("source_url") and (s.get("width") or 0) >= THUMB_WIDTH_MIN]
+    if candidates:
+        best = min(candidates, key=lambda s: s["width"])
+        return {"url": best["source_url"], "width": best.get("width"), "height": best.get("height")}
+
+    src = media.get("source_url")
+    if src:
+        details = media.get("media_details") or {}
+        return {"url": src, "width": details.get("width"), "height": details.get("height")}
+    return None
 
 
 def extract_article(post: dict) -> dict:
@@ -92,6 +135,7 @@ def extract_article(post: dict) -> dict:
         "link": post.get("link"),
         "title": raw_title,
         "product_name": product_name,
+        "thumb": extract_thumb(post),
     }
 
 

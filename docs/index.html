@@ -100,12 +100,20 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
 .item .review-badge { display: inline-block; margin-top: 4px; font-size: 10px; color: var(--accent);
   border: 1px solid var(--accent); border-radius: 4px; padding: 0 5px; }
-.reviewlist { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-.reviewlist li { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
-  padding: 8px 12px; font-size: 13px; }
-.reviewlist a { text-decoration: none; color: var(--accent); }
-.reviewlist .meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
-.detail .reviewlist { margin-top: 4px; }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px; margin-top: 8px; }
+.review-card { display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; }
+.review-card:hover { border-color: var(--accent); }
+.review-card img { width: 100%; height: 110px; object-fit: cover; display: block; background: var(--line); }
+.review-card .rc-body { padding: 8px 10px; }
+.review-card .rc-t { font-size: 12.5px; font-weight: 600; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4; }
+.review-card .rc-date { color: var(--muted); font-size: 11px; margin-top: 4px; }
+.detail .review-grid { margin-top: 4px; }
+@media (max-width: 480px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
 </style>
 
 </head>
@@ -159,6 +167,51 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 })();
 </script>
 
+<h2>ネタフルの最新レビュー</h2>
+<div class="review-grid">
+<a class="review-card" href="https://netaful.jp/seven-eleven/0209819.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/09/711-yakisaba-onigiri-002-485x364.jpeg" alt="【セブン】「高菜で巻いた 焼き鯖の寿司」思っていたより鯖がたっぷりで驚いた" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【セブン】「高菜で巻いた 焼き鯖の寿司」思っていたより鯖がたっぷりで驚いた</div>
+<div class="rc-date">2026-09-25</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/seven-eleven/0209743.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/09/711-kiwami-cheese-burger-001-485x364.jpeg" alt="【セブン】「極み ちぃずバーガー」肉々しいパティとチーズが旨い！埼玉県限定バーガー" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【セブン】「極み ちぃずバーガー」肉々しいパティとチーズが旨い！埼玉県限定バーガー</div>
+<div class="rc-date">2026-09-24</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/lawson/0209684.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/09/lawson-ninniku-shio-yakisoba-004-485x364.jpeg" alt="【ローソン】「月見にんにく塩焼そば」415g！ニンニクたっぷりの大盛焼きそばがジャンクで旨い" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ローソン】「月見にんにく塩焼そば」415g！ニンニクたっぷりの大盛焼きそばがジャンクで旨い</div>
+<div class="rc-date">2026-09-23</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/seven-eleven/0209648.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/09/711-gabu-omusubi-ebimayo-001-485x364.jpeg" alt="【セブン】「おおきなおむすび 海老マヨネーズ」289円！手巻おにぎりの約1.6倍のご飯量" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【セブン】「おおきなおむすび 海老マヨネーズ」289円！手巻おにぎりの約1.6倍のご飯量</div>
+<div class="rc-date">2026-09-22</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/seven-eleven/0209552.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/09/711-tomuyam-tantanmen-004-485x364.jpeg" alt="【セブン】「7プレミアム トムヤム担々麺」213円！トムヤムクン×担々麺は思ったほど激突しなかった" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【セブン】「7プレミアム トムヤム担々麺」213円！トムヤムクン×担々麺は思ったほど激突しなかった</div>
+<div class="rc-date">2026-09-19</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/seven-eleven/0209460.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/09/711-cafebox-kima-003-485x364.jpeg" alt="【セブン】「CAFE BOX スパイス香るキーマカレー」ハズレのないシリーズの最新作はやはり旨い！" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【セブン】「CAFE BOX スパイス香るキーマカレー」ハズレのないシリーズの最新作はやはり旨い！</div>
+<div class="rc-date">2026-09-17</div>
+</div>
+</a>
+</div>
 <h2>2026-09-21 の週の新商品 (115件)</h2>
 <div class="sort-bar">
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
@@ -2157,15 +2210,6 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 </div>
 </section>
 <p><a href="/weeks/">週別アーカイブ一覧（全5週）を見る →</a></p>
-<h2>ネタフルの最新レビュー</h2>
-<ul class="reviewlist">
-<li><a href="https://netaful.jp/seven-eleven/0209819.html" target="_blank">【セブン】「高菜で巻いた 焼き鯖の寿司」思っていたより鯖がたっぷりで驚いた</a><span class="meta"> 2026-09-25</span></li>
-<li><a href="https://netaful.jp/seven-eleven/0209743.html" target="_blank">【セブン】「極み ちぃずバーガー」肉々しいパティとチーズが旨い！埼玉県限定バーガー</a><span class="meta"> 2026-09-24</span></li>
-<li><a href="https://netaful.jp/lawson/0209684.html" target="_blank">【ローソン】「月見にんにく塩焼そば」415g！ニンニクたっぷりの大盛焼きそばがジャンクで旨い</a><span class="meta"> 2026-09-23</span></li>
-<li><a href="https://netaful.jp/seven-eleven/0209648.html" target="_blank">【セブン】「おおきなおむすび 海老マヨネーズ」289円！手巻おにぎりの約1.6倍のご飯量</a><span class="meta"> 2026-09-22</span></li>
-<li><a href="https://netaful.jp/seven-eleven/0209552.html" target="_blank">【セブン】「7プレミアム トムヤム担々麺」213円！トムヤムクン×担々麺は思ったほど激突しなかった</a><span class="meta"> 2026-09-19</span></li>
-<li><a href="https://netaful.jp/seven-eleven/0209460.html" target="_blank">【セブン】「CAFE BOX スパイス香るキーマカレー」ハズレのないシリーズの最新作はやはり旨い！</a><span class="meta"> 2026-09-17</span></li>
-</ul>
 <section class="about"><h2>コンビニポチについて</h2>
 <p>コンビニ3社（セブンイレブン・ファミリーマート・ローソン）の公式サイトを1日1回チェックし、新商品の情報を記録し続けているアーカイブです。各社の公式サイトは販売終了した商品のページを削除してしまうため、「いつ・何が・いくらで発売されたか」を後から調べられることを目的にしています。</p>
 <p>商品説明・価格・栄養成分などは各社公式サイトの内容を出典を明記して引用しています。商品画像は掲載していません（イメージ画像を追加する構想はありますが、公式画像の転載は行いません）。</p>

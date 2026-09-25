@@ -100,12 +100,20 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .empty { color: var(--muted); font-size: 14px; padding: 12px 0; }
 .item .review-badge { display: inline-block; margin-top: 4px; font-size: 10px; color: var(--accent);
   border: 1px solid var(--accent); border-radius: 4px; padding: 0 5px; }
-.reviewlist { list-style: none; margin-top: 8px; display: flex; flex-direction: column; gap: 6px; }
-.reviewlist li { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
-  padding: 8px 12px; font-size: 13px; }
-.reviewlist a { text-decoration: none; color: var(--accent); }
-.reviewlist .meta { color: var(--muted); font-size: 11px; margin-left: 6px; }
-.detail .reviewlist { margin-top: 4px; }
+.review-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px; margin-top: 8px; }
+.review-card { display: block; background: var(--card); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden; text-decoration: none; color: inherit; }
+.review-card:hover { border-color: var(--accent); }
+.review-card img { width: 100%; height: 110px; object-fit: cover; display: block; background: var(--line); }
+.review-card .rc-body { padding: 8px 10px; }
+.review-card .rc-t { font-size: 12.5px; font-weight: 600; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4; }
+.review-card .rc-date { color: var(--muted); font-size: 11px; margin-top: 4px; }
+.detail .review-grid { margin-top: 4px; }
+@media (max-width: 480px) {
+  .review-grid { grid-template-columns: repeat(2, 1fr); }
+}
 </style>
 
 </head>
@@ -1197,13 +1205,43 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 </script>
 
 <h2>ネタフルの最新レビュー</h2>
-<ul class="reviewlist">
-<li><a href="https://netaful.jp/conbini-meshi/0208087.html" target="_blank">【ファミマ】「極細麺で味わうレモン塩ラーメン」213円！レモン×タンメンが想像以上に旨い</a><span class="meta"> 2026-08-22</span></li>
-<li><a href="https://netaful.jp/conbini-meshi/0207794.html" target="_blank">【ファミマ】「だし香る！大盛とろーりたこ焼き」45%増量で10個→15個！</a><span class="meta"> 2026-08-14</span></li>
-<li><a href="https://netaful.jp/conbini-meshi/0207535.html" target="_blank">【ファミマ】「キャベツミックス」126gで野菜たっぷり！勘違いして買った結果</a><span class="meta"> 2026-08-08</span></li>
-<li><a href="https://netaful.jp/conbini-meshi/0207525.html" target="_blank">【ファミマ】「たっぷりハムサンド」45%増量で2個→3個！ハム好きにはたまらない</a><span class="meta"> 2026-08-08</span></li>
-<li><a href="https://netaful.jp/conbini-meshi/0207046.html" target="_blank">【ファミマ】「6種の野菜を使用 旨辛味噌 激辛」238円でこの辛さ！蒙古タンメン中本級？</a><span class="meta"> 2026-07-26</span></li>
-</ul>
+<div class="review-grid">
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0208087.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/08/famima-lemon-ramen-005-485x364.jpeg" alt="【ファミマ】「極細麺で味わうレモン塩ラーメン」213円！レモン×タンメンが想像以上に旨い" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「極細麺で味わうレモン塩ラーメン」213円！レモン×タンメンが想像以上に旨い</div>
+<div class="rc-date">2026-08-22</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0207794.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/08/famima-takoyaki-003-485x364.jpeg" alt="【ファミマ】「だし香る！大盛とろーりたこ焼き」45%増量で10個→15個！" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「だし香る！大盛とろーりたこ焼き」45%増量で10個→15個！</div>
+<div class="rc-date">2026-08-14</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0207535.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/08/famima-cabe-mix-006-485x364.jpeg" alt="【ファミマ】「キャベツミックス」126gで野菜たっぷり！勘違いして買った結果" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「キャベツミックス」126gで野菜たっぷり！勘違いして買った結果</div>
+<div class="rc-date">2026-08-08</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0207525.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/08/famima-tappuriham-45-004-485x364.jpeg" alt="【ファミマ】「たっぷりハムサンド」45%増量で2個→3個！ハム好きにはたまらない" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「たっぷりハムサンド」45%増量で2個→3個！ハム好きにはたまらない</div>
+<div class="rc-date">2026-08-08</div>
+</div>
+</a>
+<a class="review-card" href="https://netaful.jp/conbini-meshi/0207046.html" target="_blank" rel="noopener">
+<img src="https://netaful.jp/wp-content/uploads/2026/07/famima-umakara-miso-002-485x364.jpeg" alt="【ファミマ】「6種の野菜を使用 旨辛味噌 激辛」238円でこの辛さ！蒙古タンメン中本級？" loading="lazy" width="485" height="364">
+<div class="rc-body">
+<div class="rc-t">【ファミマ】「6種の野菜を使用 旨辛味噌 激辛」238円でこの辛さ！蒙古タンメン中本級？</div>
+<div class="rc-date">2026-07-26</div>
+</div>
+</a>
+</div>
 </main>
 <footer>
 価格・発売日・在庫は取得時点のものです。最新の状況は各社公式サイトでご確認ください。
