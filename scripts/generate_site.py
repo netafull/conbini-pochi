@@ -22,6 +22,12 @@ JST = datetime.timezone(datetime.timedelta(hours=9))
 
 CHAINS = CONFIG["chains"]
 CHAIN_NAME = {c["slug"]: c["name"] for c in CHAINS}
+# セブンの地域別ページのURL名 → 表示名
+SEVEN_AREA_NAMES = {
+    "hokkaido": "北海道", "tohoku": "東北", "kanto": "関東", "koshinetsu": "甲信越",
+    "hokuriku": "北陸", "tokai": "東海", "kinki": "近畿", "chugoku": "中国",
+    "shikoku": "四国", "kyushu": "九州", "okinawa": "沖縄",
+}
 
 REVIEWS_PATH = DATA / "netaful_reviews.json"
 
@@ -574,20 +580,27 @@ def render_item_page(item: dict) -> str:
 
     spec_html = f"<p><strong>規格：</strong>{esc(item['spec'])}</p>" if item.get("spec") else ""
     region_html = ""
-    if item.get("regions"):
-        region_html = f"<p><strong>販売地域：</strong>{esc('・'.join(item['regions']))}</p>"
+    # セブンは地域別ページごとに販売地域の書き方が少し違う(後から九州が加わる等)ので和集合をとる
+    all_regions = list(item.get("regions") or [])
+    for v in (item.get("variants") or {}).values():
+        for r in v.get("regions") or []:
+            if r not in all_regions:
+                all_regions.append(r)
+    if all_regions:
+        region_html = f"<p><strong>販売地域：</strong>{esc('・'.join(all_regions))}</p>"
     elif item.get("region_text"):
         region_html = f"<p><strong>販売地域：</strong>{esc(item['region_text'])}</p>"
 
+    # セブンは同じ商品が地域別ページ(URLの /hokkaido/ 等)に重複して載る。
+    # 価格が地域で違うときだけ、地域名つきで価格を並べる
     variants_html = ""
-    if item.get("variants"):
+    variants = item.get("variants") or {}
+    if len({v.get("price_incl_tax") for v in variants.values()}) > 1:
         rows = []
-        for key, v in item["variants"].items():
-            price = ""
-            if v.get("price_incl_tax") is not None:
-                price = f"税込{v['price_incl_tax']:g}円"
-            rows.append(f"<tr><th>{esc(key)}</th><td>{esc(v.get('region_text') or '')} {price}</td></tr>")
-        variants_html = f"<h3 style='margin-top:16px;font-size:14px'>地域別価格・販売地域</h3><table>{''.join(rows)}</table>"
+        for key, v in variants.items():
+            price = f"税込{v['price_incl_tax']:g}円" if v.get("price_incl_tax") is not None else ""
+            rows.append(f"<tr><th>{esc(SEVEN_AREA_NAMES.get(key, key))}</th><td>{price}</td></tr>")
+        variants_html = f"<h3 style='margin-top:16px;font-size:14px'>地域別の価格</h3><table>{''.join(rows)}</table>"
 
     official_url = item.get("official_url") or (item.get("official_urls") or [None])[0]
     quote_html = ""
