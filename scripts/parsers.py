@@ -289,7 +289,16 @@ def parse_familymart_detail(html: str) -> dict | None:
     # 囲まれている(例: 406円<span>（税込</span>438円<span>）</span>)。
     # 外側spanの閉じ(</span></span>と連続する箇所)まで取ってからタグを除去する
     price_m = re.search(r'ly-kakaku-usual">(.*?)</span>\s*</span>', html, re.S)
-    spec_lis = re.findall(r'ly-goods-spec">.*?</ul>', html, re.S)
+    # ly-goods-spec の <li> は今のところ「発売日：…」だけ。発売日は launch_text で
+    # 別に持つので、それ以外の <li> があるときだけ規格として残す
+    spec_ul = re.search(r'ly-goods-spec">(.*?)</ul>', html, re.S)
+    spec_lis = [
+        t for t in (
+            _unescape(_strip_tags(li)).strip()
+            for li in re.findall(r"<li[^>]*>(.*?)</li>", spec_ul.group(1) if spec_ul else "", re.S)
+        )
+        if t and not t.startswith("発売日")
+    ]
     launch_m = re.search(r"発売日[：:]\s*(\d{4}年\d{1,2}月\d{1,2}日)", html)
 
     if not lead_m:
@@ -334,7 +343,7 @@ def parse_familymart_detail(html: str) -> dict | None:
         "price_text": _unescape(_strip_tags(price_m.group(1))) if price_m else "",
         "launch_text": launch_m.group(1) if launch_m else "",
         "regions": regions,
-        "spec_text": _unescape(_strip_tags(spec_lis[0])) if spec_lis else "",
+        "spec_text": " / ".join(spec_lis),
         "nutrition": nutrition,
         "allergens": allergens,
     }

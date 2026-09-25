@@ -84,6 +84,13 @@ class TestFamilyMart(unittest.TestCase):
         self.assertEqual(excl, 406)
         self.assertEqual(incl, 438)
 
+    def test_detail_spec_excludes_launch_date_and_markup(self):
+        # ly-goods-spec の中身は発売日だけなので、規格としては空になる
+        # (以前は 'ly-goods-spec">' と発売日がそのまま規格に入っていた)
+        d = parsers.parse_familymart_detail(read("familymart/item_0920018.html"))
+        self.assertEqual(d["spec_text"], "")
+        self.assertEqual(d["launch_text"], "2026年9月22日")
+
     def test_list_week_start_extracted_from_heading(self):
         w = parsers.parse_familymart_list_week_start(
             read("familymart/newgoods.html"), datetime.date(2026, 9, 25)
