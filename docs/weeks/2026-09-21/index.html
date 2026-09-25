@@ -20,7 +20,7 @@
 :root {
   --bg: #fafaf7; --card: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
   --accent: #0071e3; --line: #e5e2dc;
-  --seven: #ee2f36; --familymart: #00a650; --lawson: #0058a3;
+  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #14151a; --card: #1e2027; --text: #e8e8e6; --muted: #9a9a96;
@@ -48,6 +48,10 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .sort-bar { display: flex; gap: 8px; margin: 8px 0 16px; flex-wrap: wrap; align-items: center; }
 .sort-bar select, .sort-bar input { font-size: 13px; padding: 5px 8px; border-radius: 6px;
   border: 1px solid var(--line); background: var(--card); color: var(--text); font-family: inherit; }
+.chain-group h3 { font-size: 15px; margin: 18px 0 8px; padding-left: 8px; border-left: 4px solid var(--line); }
+.chain-group[data-chain="seven"] h3 { border-color: var(--seven); }
+.chain-group[data-chain="familymart"] h3 { border-color: var(--familymart); }
+.chain-group[data-chain="lawson"] h3 { border-color: var(--lawson); }
 .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .item { display: block; background: var(--card); border: 1px solid var(--line);
   border-radius: 10px; padding: 12px; text-decoration: none; }
@@ -125,7 +129,33 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <option value="seven">セブン-イレブン</option><option value="familymart">ファミリーマート</option>
 <option value="lawson">ローソン</option></select></label>
 </div>
+<section class="chain-group" data-chain="seven">
+<h3>セブン-イレブン (42件)</h3>
 <div class="grid" data-sortable>
+<a class="item" href="items/seven-100032.html" data-kcal="391.0"
+   data-date="2026-09-24" data-chain="seven">
+  <div class="badge">セブン-イレブン</div>
+  <div class="t">炭火焼き鳥　もも３本・皮２本入り</div>
+  <div class="price">税込626.4円（税抜580円）<span class="kcal">391kcal</span></div>
+  <div class="meta">2026-09-24 発売</div>
+  
+</a>
+<a class="item" href="items/seven-044494.html" data-kcal="392.0"
+   data-date="2026-09-23" data-chain="seven">
+  <div class="badge">セブン-イレブン</div>
+  <div class="t">おおきなおむすび　唐揚げマヨネーズ</div>
+  <div class="price">税込289.44円（税抜268円）<span class="kcal">392kcal</span></div>
+  <div class="meta">2026-09-23 発売</div>
+  
+</a>
+<a class="item" href="items/seven-044507.html" data-kcal="505.0"
+   data-date="2026-09-23" data-chain="seven">
+  <div class="badge">セブン-イレブン</div>
+  <div class="t">香ばし野菜のあんかけ中華丼</div>
+  <div class="price">税込645.84円（税抜598円）<span class="kcal">505kcal</span></div>
+  <div class="meta">2026-09-23 発売</div>
+  
+</a>
 <a class="item" href="items/seven-040443.html" data-kcal="166.0"
    data-date="2026-09-22" data-chain="seven">
   <div class="badge">セブン-イレブン</div>
@@ -213,22 +243,6 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   <div class="price">税込289.44円（税抜268円）<span class="kcal">380kcal</span></div>
   <div class="meta">2026-09-22 発売</div>
   <div class="review-badge">レビューあり</div>
-</a>
-<a class="item" href="items/seven-044494.html" data-kcal="392.0"
-   data-date="2026-09-23" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
-  <div class="t">おおきなおむすび　唐揚げマヨネーズ</div>
-  <div class="price">税込289.44円（税抜268円）<span class="kcal">392kcal</span></div>
-  <div class="meta">2026-09-23 発売</div>
-  
-</a>
-<a class="item" href="items/seven-044507.html" data-kcal="505.0"
-   data-date="2026-09-23" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
-  <div class="t">香ばし野菜のあんかけ中華丼</div>
-  <div class="price">税込645.84円（税抜598円）<span class="kcal">505kcal</span></div>
-  <div class="meta">2026-09-23 発売</div>
-  
 </a>
 <a class="item" href="items/seven-044530.html" data-kcal="173.0"
    data-date="2026-09-22" data-chain="seven">
@@ -454,14 +468,11 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   <div class="meta">2026-09-22 発売</div>
   
 </a>
-<a class="item" href="items/seven-100032.html" data-kcal="391.0"
-   data-date="2026-09-24" data-chain="seven">
-  <div class="badge">セブン-イレブン</div>
-  <div class="t">炭火焼き鳥　もも３本・皮２本入り</div>
-  <div class="price">税込626.4円（税抜580円）<span class="kcal">391kcal</span></div>
-  <div class="meta">2026-09-24 発売</div>
-  
-</a>
+</div>
+</section>
+<section class="chain-group" data-chain="familymart">
+<h3>ファミリーマート (35件)</h3>
+<div class="grid" data-sortable>
 <a class="item" href="items/familymart-0251778.html" data-kcal="99.1"
    data-date="2026-09-22" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
@@ -742,6 +753,11 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   <div class="meta">2026-09-22 発売・お酒</div>
   
 </a>
+</div>
+</section>
+<section class="chain-group" data-chain="lawson">
+<h3>ローソン (38件)</h3>
+<div class="grid" data-sortable>
 <a class="item" href="items/lawson-1532189.html" data-kcal="152.0"
    data-date="2026-09-23" data-chain="lawson">
   <div class="badge">ローソン</div>
@@ -886,22 +902,6 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   <div class="meta">2026-09-22 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532212.html" data-kcal="588.0"
-   data-date="2026-09-21" data-chain="lawson">
-  <div class="badge">ローソン</div>
-  <div class="t">贅沢すぎ！海鮮づくし上海風焼そば</div>
-  <div class="price">税込797円<span class="kcal">588kcal</span></div>
-  <div class="meta">2026-09-21 発売</div>
-  
-</a>
-<a class="item" href="items/lawson-1532213.html" data-kcal="643.0"
-   data-date="2026-09-21" data-chain="lawson">
-  <div class="badge">ローソン</div>
-  <div class="t">贅沢すぎ！肉づくし冷し中華</div>
-  <div class="price">税込797円<span class="kcal">643kcal</span></div>
-  <div class="meta">2026-09-21 発売</div>
-  
-</a>
 <a class="item" href="items/lawson-1532214.html" data-kcal="106.0"
    data-date="2026-09-22" data-chain="lawson">
   <div class="badge">ローソン</div>
@@ -1038,6 +1038,22 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   <div class="meta">2026-09-22 発売</div>
   
 </a>
+<a class="item" href="items/lawson-1532212.html" data-kcal="588.0"
+   data-date="2026-09-21" data-chain="lawson">
+  <div class="badge">ローソン</div>
+  <div class="t">贅沢すぎ！海鮮づくし上海風焼そば</div>
+  <div class="price">税込797円<span class="kcal">588kcal</span></div>
+  <div class="meta">2026-09-21 発売</div>
+  
+</a>
+<a class="item" href="items/lawson-1532213.html" data-kcal="643.0"
+   data-date="2026-09-21" data-chain="lawson">
+  <div class="badge">ローソン</div>
+  <div class="t">贅沢すぎ！肉づくし冷し中華</div>
+  <div class="price">税込797円<span class="kcal">643kcal</span></div>
+  <div class="meta">2026-09-21 発売</div>
+  
+</a>
 <a class="item" href="items/lawson-1532239.html" data-kcal="717.0"
    data-date="2026-09-21" data-chain="lawson">
   <div class="badge">ローソン</div>
@@ -1047,29 +1063,30 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   
 </a>
 </div>
+</section>
 
 <script>
 (function () {
-  var grid = document.querySelector('[data-sortable]');
-  if (!grid) return;
+  // 社ごとのグループ(.chain-group)内でだけ並び替える。絞り込みはグループ単位で隠す
+  var grids = Array.prototype.slice.call(document.querySelectorAll('[data-sortable]'));
+  if (!grids.length) return;
   var select = document.getElementById('sort-select');
   var chainSel = document.getElementById('chain-filter');
   function apply() {
-    var items = Array.prototype.slice.call(grid.querySelectorAll('.item'));
     var mode = select ? select.value : 'date';
     var chain = chainSel ? chainSel.value : 'all';
-    items.forEach(function (el) {
-      el.style.display = (chain === 'all' || el.dataset.chain === chain) ? '' : 'none';
+    grids.forEach(function (grid) {
+      var group = grid.closest('.chain-group');
+      if (group) group.style.display = (chain === 'all' || group.dataset.chain === chain) ? '' : 'none';
+      var items = Array.prototype.slice.call(grid.querySelectorAll('.item'));
+      items.sort(function (a, b) {
+        if (mode === 'kcal') {
+          return parseFloat(b.dataset.kcal || '-1') - parseFloat(a.dataset.kcal || '-1');
+        }
+        return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+      });
+      items.forEach(function (el) { grid.appendChild(el); });
     });
-    items.sort(function (a, b) {
-      if (mode === 'kcal') {
-        var ka = parseFloat(a.dataset.kcal || '-1');
-        var kb = parseFloat(b.dataset.kcal || '-1');
-        return kb - ka;
-      }
-      return (b.dataset.date || '').localeCompare(a.dataset.date || '');
-    });
-    items.forEach(function (el) { grid.appendChild(el); });
   }
   if (select) select.addEventListener('change', apply);
   if (chainSel) chainSel.addEventListener('change', apply);

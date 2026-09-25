@@ -161,7 +161,7 @@ CSS = """
 :root {
   --bg: #fafaf7; --card: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
   --accent: #0071e3; --line: #e5e2dc;
-  --seven: #ee2f36; --familymart: #00a650; --lawson: #0058a3;
+  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #14151a; --card: #1e2027; --text: #e8e8e6; --muted: #9a9a96;
@@ -189,6 +189,10 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .sort-bar { display: flex; gap: 8px; margin: 8px 0 16px; flex-wrap: wrap; align-items: center; }
 .sort-bar select, .sort-bar input { font-size: 13px; padding: 5px 8px; border-radius: 6px;
   border: 1px solid var(--line); background: var(--card); color: var(--text); font-family: inherit; }
+.chain-group h3 { font-size: 15px; margin: 18px 0 8px; padding-left: 8px; border-left: 4px solid var(--line); }
+.chain-group[data-chain="seven"] h3 { border-color: var(--seven); }
+.chain-group[data-chain="familymart"] h3 { border-color: var(--familymart); }
+.chain-group[data-chain="lawson"] h3 { border-color: var(--lawson); }
 .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .item { display: block; background: var(--card); border: 1px solid var(--line);
   border-radius: 10px; padding: 12px; text-decoration: none; }
@@ -331,26 +335,26 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 SORT_JS = """
 <script>
 (function () {
-  var grid = document.querySelector('[data-sortable]');
-  if (!grid) return;
+  // 社ごとのグループ(.chain-group)内でだけ並び替える。絞り込みはグループ単位で隠す
+  var grids = Array.prototype.slice.call(document.querySelectorAll('[data-sortable]'));
+  if (!grids.length) return;
   var select = document.getElementById('sort-select');
   var chainSel = document.getElementById('chain-filter');
   function apply() {
-    var items = Array.prototype.slice.call(grid.querySelectorAll('.item'));
     var mode = select ? select.value : 'date';
     var chain = chainSel ? chainSel.value : 'all';
-    items.forEach(function (el) {
-      el.style.display = (chain === 'all' || el.dataset.chain === chain) ? '' : 'none';
+    grids.forEach(function (grid) {
+      var group = grid.closest('.chain-group');
+      if (group) group.style.display = (chain === 'all' || group.dataset.chain === chain) ? '' : 'none';
+      var items = Array.prototype.slice.call(grid.querySelectorAll('.item'));
+      items.sort(function (a, b) {
+        if (mode === 'kcal') {
+          return parseFloat(b.dataset.kcal || '-1') - parseFloat(a.dataset.kcal || '-1');
+        }
+        return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+      });
+      items.forEach(function (el) { grid.appendChild(el); });
     });
-    items.sort(function (a, b) {
-      if (mode === 'kcal') {
-        var ka = parseFloat(a.dataset.kcal || '-1');
-        var kb = parseFloat(b.dataset.kcal || '-1');
-        return kb - ka;
-      }
-      return (b.dataset.date || '').localeCompare(a.dataset.date || '');
-    });
-    items.forEach(function (el) { grid.appendChild(el); });
   }
   if (select) select.addEventListener('change', apply);
   if (chainSel) chainSel.addEventListener('change', apply);
@@ -358,6 +362,25 @@ SORT_JS = """
 })();
 </script>
 """
+
+
+def render_grouped(items: list[dict], sortable: bool = True) -> str:
+    """商品を社ごと(config.jsonのchains順)にまとめ、各社の中は発売日の新しい順に並べる。"""
+    attr = " data-sortable" if sortable else ""
+    sections = []
+    for c in CHAINS:
+        group = [it for it in items if it["chain"] == c["slug"]]
+        if not group:
+            continue
+        group.sort(key=lambda it: effective_date(it) or "", reverse=True)
+        cards = "\n".join(render_card(it) for it in group)
+        sections.append(
+            f'<section class="chain-group" data-chain="{esc(c["slug"])}">\n'
+            f'<h3>{esc(c["name"])} ({len(group)}件)</h3>\n'
+            f'<div class="grid"{attr}>\n{cards}\n</div>\n</section>'
+        )
+    return "\n".join(sections)
+
 
 SEARCH_JS = """
 <script>
@@ -409,7 +432,6 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
     if not items:
         body = f"<h2>{esc(title)}</h2><p class='empty'>商品がありません。</p>\n{reviews_section}"
         return page_shell(title, description, body, canonical)
-    cards = "\n".join(render_card(it) for it in items)
     filters = ""
     if show_filters:
         filters = """<div class="sort-bar">
@@ -421,9 +443,7 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
 </div>"""
     body = f"""<h2>{esc(title)} ({len(items)}件)</h2>
 {filters}
-<div class="grid" data-sortable>
-{cards}
-</div>
+{render_grouped(items)}
 {SORT_JS if show_filters else ""}
 {reviews_section}"""
     return page_shell(title, description, body, canonical)
@@ -475,9 +495,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
     next_section = ""
     if next_items:
         next_section = f"""<h2>来週の新商品 ({len(next_items)}件)</h2>
-<div class="grid">
-{chr(10).join(render_card(it) for it in next_items)}
-</div>"""
+{render_grouped(next_items, sortable=False)}"""
 
     body = f"""<h2>{esc(current_label)} ({len(current_items)}件)</h2>
 <div class="sort-bar">
@@ -487,9 +505,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 <option value="seven">セブン-イレブン</option><option value="familymart">ファミリーマート</option>
 <option value="lawson">ローソン</option></select></label>
 </div>
-<div class="grid" data-sortable>
-{chr(10).join(render_card(it) for it in current_items)}
-</div>
+{render_grouped(current_items)}
 {SORT_JS}
 {next_section}
 {weeks_link}

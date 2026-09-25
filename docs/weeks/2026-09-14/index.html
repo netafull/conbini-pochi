@@ -20,7 +20,7 @@
 :root {
   --bg: #fafaf7; --card: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
   --accent: #0071e3; --line: #e5e2dc;
-  --seven: #ee2f36; --familymart: #00a650; --lawson: #0058a3;
+  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #14151a; --card: #1e2027; --text: #e8e8e6; --muted: #9a9a96;
@@ -48,6 +48,10 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .sort-bar { display: flex; gap: 8px; margin: 8px 0 16px; flex-wrap: wrap; align-items: center; }
 .sort-bar select, .sort-bar input { font-size: 13px; padding: 5px 8px; border-radius: 6px;
   border: 1px solid var(--line); background: var(--card); color: var(--text); font-family: inherit; }
+.chain-group h3 { font-size: 15px; margin: 18px 0 8px; padding-left: 8px; border-left: 4px solid var(--line); }
+.chain-group[data-chain="seven"] h3 { border-color: var(--seven); }
+.chain-group[data-chain="familymart"] h3 { border-color: var(--familymart); }
+.chain-group[data-chain="lawson"] h3 { border-color: var(--lawson); }
 .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .item { display: block; background: var(--card); border: 1px solid var(--line);
   border-radius: 10px; padding: 12px; text-decoration: none; }
@@ -125,6 +129,8 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <option value="seven">セブン-イレブン</option><option value="familymart">ファミリーマート</option>
 <option value="lawson">ローソン</option></select></label>
 </div>
+<section class="chain-group" data-chain="familymart">
+<h3>ファミリーマート (49件)</h3>
 <div class="grid" data-sortable>
 <a class="item" href="items/familymart-0412001.html" data-kcal="284.0"
    data-date="2026-09-15" data-chain="familymart">
@@ -518,6 +524,11 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   <div class="meta">2026-09-15 発売・お酒</div>
   
 </a>
+</div>
+</section>
+<section class="chain-group" data-chain="lawson">
+<h3>ローソン (25件)</h3>
+<div class="grid" data-sortable>
 <a class="item" href="items/lawson-1532015.html" data-kcal="239.0"
    data-date="2026-09-15" data-chain="lawson">
   <div class="badge">ローソン</div>
@@ -719,29 +730,30 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   
 </a>
 </div>
+</section>
 
 <script>
 (function () {
-  var grid = document.querySelector('[data-sortable]');
-  if (!grid) return;
+  // 社ごとのグループ(.chain-group)内でだけ並び替える。絞り込みはグループ単位で隠す
+  var grids = Array.prototype.slice.call(document.querySelectorAll('[data-sortable]'));
+  if (!grids.length) return;
   var select = document.getElementById('sort-select');
   var chainSel = document.getElementById('chain-filter');
   function apply() {
-    var items = Array.prototype.slice.call(grid.querySelectorAll('.item'));
     var mode = select ? select.value : 'date';
     var chain = chainSel ? chainSel.value : 'all';
-    items.forEach(function (el) {
-      el.style.display = (chain === 'all' || el.dataset.chain === chain) ? '' : 'none';
+    grids.forEach(function (grid) {
+      var group = grid.closest('.chain-group');
+      if (group) group.style.display = (chain === 'all' || group.dataset.chain === chain) ? '' : 'none';
+      var items = Array.prototype.slice.call(grid.querySelectorAll('.item'));
+      items.sort(function (a, b) {
+        if (mode === 'kcal') {
+          return parseFloat(b.dataset.kcal || '-1') - parseFloat(a.dataset.kcal || '-1');
+        }
+        return (b.dataset.date || '').localeCompare(a.dataset.date || '');
+      });
+      items.forEach(function (el) { grid.appendChild(el); });
     });
-    items.sort(function (a, b) {
-      if (mode === 'kcal') {
-        var ka = parseFloat(a.dataset.kcal || '-1');
-        var kb = parseFloat(b.dataset.kcal || '-1');
-        return kb - ka;
-      }
-      return (b.dataset.date || '').localeCompare(a.dataset.date || '');
-    });
-    items.forEach(function (el) { grid.appendChild(el); });
   }
   if (select) select.addEventListener('change', apply);
   if (chainSel) chainSel.addEventListener('change', apply);
