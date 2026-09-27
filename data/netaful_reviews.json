@@ -2,6 +2,18 @@
  "articles": {
   "familymart": [
    {
+    "date": "2026-09-27T17:00:00",
+    "id": 209948,
+    "link": "https://netaful.jp/conbini-meshi/0209948.html",
+    "product_name": "もーっちり食感キーマカレーパン",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/09/famima-mocchiri-curry-001-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ファミマ】「もーっちり食感キーマカレーパン」普通のカレーパンに見えて、食べたら本当にもーっちり！"
+   },
+   {
     "date": "2026-08-22T16:30:00",
     "id": 208087,
     "link": "https://netaful.jp/conbini-meshi/0208087.html",
@@ -2687,6 +2699,18 @@
    }
   ],
   "lawson": [
+   {
+    "date": "2026-09-27T10:00:00",
+    "id": 209936,
+    "link": "https://netaful.jp/lawson/0209936.html",
+    "product_name": "とろける月見パンケーキ",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/09/lawson-torokeru-tsukimi-pancake-002-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ローソン】「とろける月見パンケーキ」目玉焼きのような見た目でお月見気分！"
+   },
    {
     "date": "2026-09-23T09:00:00",
     "id": 209684,
@@ -11800,8 +11824,14 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-09-27T07:00:58+09:00",
+ "fetched_at": "2026-09-28T07:02:13+09:00",
  "matches": {
+  "familymart-1522617": [
+   209948
+  ],
+  "lawson-1531764": [
+   209936
+  ],
   "seven-044492": [
    209648
   ]

@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "044517",
+ "name": "彩り野菜と海鮮の中華丼",
+ "category": null,
+ "price_excl_tax": 550,
+ "price_incl_tax": 594,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "シャキシャキ食感の野菜と海鮮の旨味が引き立つ、黒酢を効かせた餡が特徴の中華丼です。",
+ "nutrition": {
+  "kcal": 461.0,
+  "protein_g": 12.7,
+  "fat_g": 5.9,
+  "carbs_g": 90.9,
+  "sugar_g": 87.7,
+  "fiber_g": 3.2,
+  "salt_g": 2.9,
+  "raw": "熱量：461kcal、たんぱく質：12.7g、脂質：5.9g、炭水化物：90.9g（糖質：87.7g、食物繊維：3.2g）、食塩相当量：2.9g"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "えび",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北",
+   "regions": [
+    "東北"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/044517/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044517/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044517/tohoku/"
+ ],
+ "first_seen_at": "2026-09-28T07:00:55+09:00",
+ "fetched_at": "2026-09-28T07:00:55+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044518",
+ "name": "東北限定　炭火焼鳥とふわとろ卵の親子丼",
+ "category": null,
+ "price_excl_tax": 540,
+ "price_incl_tax": 583.2,
+ "launch_date": "2026-09-22",
+ "launch_text": "2026年09月22日（火）以降順次発売",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "岩手県産菜彩鶏肉を使用したふわとろに仕上げた玉子の親子丼です。塩分量を抑え、出汁の旨味が引き立つ優しい味わいに仕上げました。",
+ "nutrition": {
+  "kcal": 539.0,
+  "protein_g": 21.8,
+  "fat_g": 9.2,
+  "carbs_g": 93.4,
+  "sugar_g": 91.1,
+  "fiber_g": 2.3,
+  "salt_g": 2.4,
+  "raw": "熱量：539kcal、たんぱく質：21.8g、脂質：9.2g、炭水化物：93.4g（糖質：91.1g、食物繊維：2.3g）、食塩相当量：2.4g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北",
+   "regions": [
+    "東北"
+   ],
+   "price_excl_tax": 540,
+   "price_incl_tax": 583.2,
+   "url": "https://www.sej.co.jp/products/a/item/044518/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044518/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044518/tohoku/"
+ ],
+ "first_seen_at": "2026-09-28T07:00:49+09:00",
+ "fetched_at": "2026-09-28T07:00:49+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

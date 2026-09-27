@@ -1,0 +1,75 @@
+{
+ "chain": "seven",
+ "product_id": "101160",
+ "name": "１／３日分の野菜がとれるコールスローサラダ",
+ "category": null,
+ "price_excl_tax": 238,
+ "price_incl_tax": 257.04,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "北海道、東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+ "description": "シャキシャキとしたキャベツの食感を楽しめるコールスローサラダです。",
+ "nutrition": {
+  "kcal": 119.0,
+  "protein_g": 2.8,
+  "fat_g": 7.6,
+  "carbs_g": 11.5,
+  "sugar_g": 8.3,
+  "fiber_g": 3.2,
+  "salt_g": 1.9,
+  "raw": "熱量：119kcal、たんぱく質：2.8g、脂質：7.6g、炭水化物：11.5g（糖質：8.3g、食物繊維：3.2g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "北海道",
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 238,
+   "price_incl_tax": 257.04,
+   "url": "https://www.sej.co.jp/products/a/item/101160/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/101160/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/101160/hokkaido/"
+ ],
+ "first_seen_at": "2026-09-28T07:01:07+09:00",
+ "fetched_at": "2026-09-28T07:01:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

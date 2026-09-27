@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044657",
+ "name": "鉄鍋炒めの肉あんかけ炒飯　地養豚使用",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "鉄鍋で炒めた本格チャーハンに、青森県産の地養豚とたけのこ，中華あんを盛り付けた肉あんかけチャーハンです。",
+ "nutrition": {
+  "kcal": 521.0,
+  "protein_g": 13.5,
+  "fat_g": 17.7,
+  "carbs_g": 77.8,
+  "sugar_g": 75.9,
+  "fiber_g": 1.9,
+  "salt_g": 4.6,
+  "raw": "熱量：521kcal、たんぱく質：13.5g、脂質：17.7g、炭水化物：77.8g（糖質：75.9g、食物繊維：1.9g）、食塩相当量：4.6g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北",
+   "regions": [
+    "東北"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044657/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044657/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044657/tohoku/"
+ ],
+ "first_seen_at": "2026-09-28T07:01:25+09:00",
+ "fetched_at": "2026-09-28T07:01:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

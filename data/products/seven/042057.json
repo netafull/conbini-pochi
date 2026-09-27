@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "042057",
+ "name": "甘辛タレの唐揚げ丼",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年09月29日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "幅広い客層に人気の鶏唐揚げ丼の品揃え。甘辛いタレの染みた唐揚げで食べ進みの良い味付け。",
+ "nutrition": {
+  "kcal": 814.0,
+  "protein_g": 36.1,
+  "fat_g": 29.8,
+  "carbs_g": 101.6,
+  "sugar_g": 99.0,
+  "fiber_g": 2.6,
+  "salt_g": 4.4,
+  "raw": "熱量：814kcal、たんぱく質：36.1g、脂質：29.8g、炭水化物：101.6g（糖質：99.0g、食物繊維：2.6g）、食塩相当量：4.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/042057/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042057/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042057/tokai/"
+ ],
+ "first_seen_at": "2026-09-28T07:01:31+09:00",
+ "fetched_at": "2026-09-28T07:01:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

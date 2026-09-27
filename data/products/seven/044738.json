@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044738",
+ "name": "イカフライおかか御飯（麦飯）",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-09-23",
+ "launch_text": "2026年09月23日（水）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "麦ごはんにイカフライ、タルタルソース、きんぴらごぼう、漬物を盛り付けた、買い合わせしやすい小容量の御飯です。",
+ "nutrition": {
+  "kcal": 461.0,
+  "protein_g": 12.7,
+  "fat_g": 13.6,
+  "carbs_g": 74.3,
+  "sugar_g": 69.4,
+  "fiber_g": 4.9,
+  "salt_g": 3.0,
+  "raw": "熱量：461kcal、たんぱく質：12.7g、脂質：13.6g、炭水化物：74.3g（糖質：69.4g、食物繊維：4.9g）、食塩相当量：3g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/044738/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044738/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044738/tokai/"
+ ],
+ "first_seen_at": "2026-09-28T07:01:01+09:00",
+ "fetched_at": "2026-09-28T07:01:01+09:00",
+ "source_list": "thisweek",
+ "image": null
+}
