@@ -1,0 +1,46 @@
+{
+ "chain": "seven",
+ "product_id": "040316",
+ "name": "手巻おにぎり　熟成仕立て紀州南高梅",
+ "category": null,
+ "price_excl_tax": 182,
+ "price_incl_tax": 196.56,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "梅の香りと旨みを感じる紀州南高梅を中具にした、パリッとした海苔を巻いて食べる手巻きおにぎりです。",
+ "nutrition": {
+  "kcal": 166.0,
+  "protein_g": 2.9,
+  "fat_g": 0.8,
+  "carbs_g": 37.8,
+  "sugar_g": 35.8,
+  "fiber_g": 2.0,
+  "salt_g": 1.6,
+  "raw": "熱量：166kcal、たんぱく質：2.9g、脂質：0.8g、炭水化物：37.8g（糖質：35.8g、食物繊維：2.0g）、食塩相当量：1.6g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 182,
+   "price_incl_tax": 196.56,
+   "url": "https://www.sej.co.jp/products/a/item/040316/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040316/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040316/hokkaido/"
+ ],
+ "first_seen_at": "2026-09-29T07:01:09+09:00",
+ "fetched_at": "2026-09-29T07:01:09+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

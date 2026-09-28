@@ -1,0 +1,46 @@
+{
+ "chain": "seven",
+ "product_id": "044791",
+ "name": "手巻おにぎり　具たっぷり辛子明太子",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "７日間熟成させた旨みと粒感のある辛子明太子を中具にした、パリッとした海苔を巻いて食べる手巻おにぎりです。",
+ "nutrition": {
+  "kcal": 173.0,
+  "protein_g": 5.1,
+  "fat_g": 0.8,
+  "carbs_g": 37.2,
+  "sugar_g": 35.3,
+  "fiber_g": 1.9,
+  "salt_g": 1.5,
+  "raw": "熱量：173kcal、たんぱく質：5.1g、脂質：0.8g、炭水化物：37.2g（糖質：35.3g、食物繊維：1.9g）、食塩相当量：1.5g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/044791/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044791/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044791/hokkaido/"
+ ],
+ "first_seen_at": "2026-09-29T07:01:04+09:00",
+ "fetched_at": "2026-09-29T07:01:04+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044797",
+ "name": "鉄鍋炒めの肉やきめし",
+ "category": null,
+ "price_excl_tax": 460,
+ "price_incl_tax": 496.8,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "鉄鍋で香ばしく炒めたやきめしに、豚焼肉を盛り付けました。",
+ "nutrition": {
+  "kcal": 647.0,
+  "protein_g": 17.1,
+  "fat_g": 25.2,
+  "carbs_g": 89.1,
+  "sugar_g": 87.0,
+  "fiber_g": 2.1,
+  "salt_g": 3.9,
+  "raw": "熱量：647kcal、たんぱく質：17.1g、脂質：25.2g、炭水化物：89.1g（糖質：87.0g、食物繊維：2.1g）、食塩相当量：3.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "九州",
+   "regions": [
+    "九州"
+   ],
+   "price_excl_tax": 460,
+   "price_incl_tax": 496.8,
+   "url": "https://www.sej.co.jp/products/a/item/044797/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044797/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044797/kyushu/"
+ ],
+ "first_seen_at": "2026-09-29T07:06:21+09:00",
+ "fetched_at": "2026-09-29T07:06:21+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

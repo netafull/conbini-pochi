@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "040114",
+ "name": "おむすび＆おかず　焼鮭・和風ツナマヨネーズ",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "人気具材の鮭と和風ツナマヨネーズを中具にしたおむすびとおかずを詰め合わせました。東海地区限定で秋の紅葉デザインパッケージです。",
+ "nutrition": {
+  "kcal": 556.0,
+  "protein_g": 16.2,
+  "fat_g": 20.4,
+  "carbs_g": 78.5,
+  "sugar_g": 75.2,
+  "fiber_g": 3.3,
+  "salt_g": 3.6,
+  "raw": "熱量：556kcal、たんぱく質：16.2g、脂質：20.4g、炭水化物：78.5g（糖質：75.2g、食物繊維：3.3g）、食塩相当量：3.6g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/040114/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040114/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040114/tokai/"
+ ],
+ "first_seen_at": "2026-09-29T07:05:33+09:00",
+ "fetched_at": "2026-09-29T07:05:33+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

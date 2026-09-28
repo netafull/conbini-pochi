@@ -48,15 +48,27 @@
    "price_excl_tax": 648,
    "price_incl_tax": 699.84,
    "url": "https://www.sej.co.jp/products/a/item/044775/hokuriku/"
+  },
+  "tohoku": {
+   "region_text": "東北、甲信越、北陸",
+   "regions": [
+    "東北",
+    "甲信越",
+    "北陸"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044775/tohoku/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/044775/koshinetsu/",
  "official_urls": [
   "https://www.sej.co.jp/products/a/item/044775/hokuriku/",
-  "https://www.sej.co.jp/products/a/item/044775/koshinetsu/"
+  "https://www.sej.co.jp/products/a/item/044775/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/044775/tohoku/"
  ],
  "first_seen_at": "2026-09-25T20:47:06+09:00",
- "fetched_at": "2026-09-25T20:47:06+09:00",
+ "fetched_at": "2026-09-29T07:00:51+09:00",
  "source_list": "nextweek",
  "image": null
 }

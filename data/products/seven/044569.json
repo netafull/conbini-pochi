@@ -1,0 +1,61 @@
+{
+ "chain": "seven",
+ "product_id": "044569",
+ "name": "鶏だしの旨み　ふわっとろ親子丼",
+ "category": null,
+ "price_excl_tax": 550,
+ "price_incl_tax": 594,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "関東",
+  "山梨県",
+  "長野県",
+  "中国",
+  "四国",
+  "沖縄"
+ ],
+ "region_text": "北海道、関東、山梨県、長野県、中国、四国、沖縄",
+ "description": "鶏だしを効かせたコク深い割り下の旨みが広がる、ふわっとろ玉子の親子丼です。",
+ "nutrition": {
+  "kcal": 517.0,
+  "protein_g": 19.9,
+  "fat_g": 9.6,
+  "carbs_g": 89.1,
+  "sugar_g": 86.6,
+  "fiber_g": 2.5,
+  "salt_g": 2.1,
+  "raw": "熱量：517kcal、たんぱく質：19.9g、脂質：9.6g、炭水化物：89.1g（糖質：86.6g、食物繊維：2.5g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "北海道、関東、山梨県、長野県、中国、四国、沖縄",
+   "regions": [
+    "北海道",
+    "関東",
+    "山梨県",
+    "長野県",
+    "中国",
+    "四国",
+    "沖縄"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/044569/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044569/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044569/okinawa/"
+ ],
+ "first_seen_at": "2026-09-29T07:06:50+09:00",
+ "fetched_at": "2026-09-29T07:06:50+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

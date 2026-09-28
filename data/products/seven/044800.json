@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044800",
+ "name": "ポーク玉子おむすび　ツナマヨネーズ",
+ "category": null,
+ "price_excl_tax": 350,
+ "price_incl_tax": 378,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "沖縄の定番おかず「ポーク玉子」とツナマヨネーズを挟んだおむすびです。",
+ "nutrition": {
+  "kcal": 448.0,
+  "protein_g": 12.2,
+  "fat_g": 24.0,
+  "carbs_g": 47.0,
+  "sugar_g": 44.7,
+  "fiber_g": 2.3,
+  "salt_g": 1.9,
+  "raw": "熱量：448kcal、たんぱく質：12.2g、脂質：24.0g、炭水化物：47.0g（糖質：44.7g、食物繊維：2.3g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "url": "https://www.sej.co.jp/products/a/item/044800/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044800/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044800/okinawa/"
+ ],
+ "first_seen_at": "2026-09-29T07:06:39+09:00",
+ "fetched_at": "2026-09-29T07:06:39+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

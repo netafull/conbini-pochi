@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "040122",
+ "name": "焼つくねおむすび",
+ "category": null,
+ "price_excl_tax": 208,
+ "price_incl_tax": 224.64,
+ "launch_date": "2026-10-07",
+ "launch_text": "2026年10月07日（水）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "つくねに甘辛いタレと一味マヨネーズを組み合わせた食べ進みの良いおむすびです。",
+ "nutrition": {
+  "kcal": 261.0,
+  "protein_g": 7.4,
+  "fat_g": 11.8,
+  "carbs_g": 32.0,
+  "sugar_g": 30.6,
+  "fiber_g": 1.4,
+  "salt_g": 1.0,
+  "raw": "熱量：261kcal、たんぱく質：7.4g、脂質：11.8g、炭水化物：32.0g（糖質：30.6g、食物繊維：1.4g）、食塩相当量：1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 208,
+   "price_incl_tax": 224.64,
+   "url": "https://www.sej.co.jp/products/a/item/040122/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040122/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040122/kinki/"
+ ],
+ "first_seen_at": "2026-09-29T07:05:46+09:00",
+ "fetched_at": "2026-09-29T07:05:46+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

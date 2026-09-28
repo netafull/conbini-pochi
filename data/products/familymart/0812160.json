@@ -1,0 +1,47 @@
+{
+ "chain": "familymart",
+ "product_id": "0812160",
+ "name": "鶏と魚介の旨み　中華そば（醤油味）",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 370,
+ "price_incl_tax": 399,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "コシと弾力のある麺と、鶏と魚介の旨みがきいた醤油スープを組み合わせたラーメンです。具材としてわかめ、もやしをトッピングしております。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": {
+  "kcal": 334.0,
+  "protein_g": 16.7,
+  "fat_g": 4.5,
+  "carbs_g": 58.3,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 4.7,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">334.00</td>\r\n                          <td class=\"con_nut\">16.70</td>\r\n                          <td class=\"con_nut\">4.50</td>\r\n                          <td class=\"con_nut\">58.30</td>\r\n                          <td class=\"con_nut\">4.70</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "さば",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0812160.html",
+ "first_seen_at": "2026-09-29T07:07:14+09:00",
+ "fetched_at": "2026-09-29T07:07:14+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-09-29",
+ "image": null
+}

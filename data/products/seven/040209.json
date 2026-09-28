@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "040209",
+ "name": "ロースとんかつ弁当",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "中国"
+ ],
+ "region_text": "中国",
+ "description": "豚ロース肉を使用したとんかつ弁当です。",
+ "nutrition": {
+  "kcal": 866.0,
+  "protein_g": 25.0,
+  "fat_g": 31.5,
+  "carbs_g": 121.4,
+  "sugar_g": 119.9,
+  "fiber_g": 1.5,
+  "salt_g": 3.6,
+  "raw": "熱量：866kcal、たんぱく質：25.0g、脂質：31.5g、炭水化物：121.4g（糖質：119.9g、食物繊維：1.5g）、食塩相当量：3.6g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "中国",
+   "regions": [
+    "中国"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/040209/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040209/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040209/chugoku/"
+ ],
+ "first_seen_at": "2026-09-29T07:05:58+09:00",
+ "fetched_at": "2026-09-29T07:05:58+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,43 @@
+{
+ "chain": "familymart",
+ "product_id": "0922715",
+ "name": "たんぱく質が摂れる　国産鶏むね肉のメキシカンサラダラップ",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 462,
+ "price_incl_tax": 498,
+ "launch_date": "2026-09-29",
+ "launch_text": "2026年9月29日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "東京都の一部・神奈川県の一部",
+ "description": "メキシカンチキン、原木から削った風味豊かなチェダーチーズ、クリームチーズソース、雑穀、野菜（キャベツ・人参・リーフ）をトルティーヤで巻いたサラダラップです。※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区） 、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。",
+ "nutrition": {
+  "kcal": 303.0,
+  "protein_g": 16.4,
+  "fat_g": 15.5,
+  "carbs_g": 26.1,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 2.0,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">303.00</td>\r\n                          <td class=\"con_nut\">16.40</td>\r\n                          <td class=\"con_nut\">15.50</td>\r\n                          <td class=\"con_nut\">26.10</td>\r\n                          <td class=\"con_nut\">2.00</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0922715.html",
+ "first_seen_at": "2026-09-29T07:07:11+09:00",
+ "fetched_at": "2026-09-29T07:07:11+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-09-29",
+ "image": null
+}

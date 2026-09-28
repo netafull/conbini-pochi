@@ -43,14 +43,98 @@
    "price_excl_tax": 398,
    "price_incl_tax": 429.84,
    "url": "https://www.sej.co.jp/products/a/item/044772/kanto/"
+  },
+  "tohoku": {
+   "region_text": "北海道、東北、茨城県、栃木県、群馬県、埼玉県、甲信越、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/044772/tohoku/"
+  },
+  "hokuriku": {
+   "region_text": "北海道、東北、茨城県、栃木県、群馬県、埼玉県、甲信越、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/044772/hokuriku/"
+  },
+  "kinki": {
+   "region_text": "北海道、東北、茨城県、栃木県、群馬県、埼玉県、甲信越、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/044772/kinki/"
+  },
+  "shikoku": {
+   "region_text": "北海道、東北、茨城県、栃木県、群馬県、埼玉県、甲信越、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/044772/shikoku/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/044772/kanto/",
  "official_urls": [
-  "https://www.sej.co.jp/products/a/item/044772/kanto/"
+  "https://www.sej.co.jp/products/a/item/044772/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044772/kanto/",
+  "https://www.sej.co.jp/products/a/item/044772/kinki/",
+  "https://www.sej.co.jp/products/a/item/044772/shikoku/",
+  "https://www.sej.co.jp/products/a/item/044772/tohoku/"
  ],
  "first_seen_at": "2026-09-25T20:46:47+09:00",
- "fetched_at": "2026-09-25T20:46:47+09:00",
+ "fetched_at": "2026-09-29T07:00:46+09:00",
  "source_list": "nextweek",
  "image": null
 }

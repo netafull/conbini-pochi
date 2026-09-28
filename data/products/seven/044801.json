@@ -1,0 +1,229 @@
+{
+ "chain": "seven",
+ "product_id": "044801",
+ "name": "しゃけバターおむすび　北海道産秋鮭使用",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "島根県",
+  "広島県",
+  "山口県",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+ "description": "鮭と昆布のだしで炊いた御飯に、ほぐした北海道産の秋鮭とバター風味の醤油タレを混ぜ込んだ風味豊かな味わいのおむすびです。",
+ "nutrition": {
+  "kcal": 188.0,
+  "protein_g": 5.6,
+  "fat_g": 2.8,
+  "carbs_g": 35.7,
+  "sugar_g": 34.3,
+  "fiber_g": 1.4,
+  "salt_g": 2.3,
+  "raw": "熱量：188kcal、たんぱく質：5.6g、脂質：2.8g、炭水化物：35.7g（糖質：34.3g、食物繊維：1.4g）、食塩相当量：2.3g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/tohoku/"
+  },
+  "kanto": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/hokuriku/"
+  },
+  "tokai": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/tokai/"
+  },
+  "kinki": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/kinki/"
+  },
+  "chugoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/chugoku/"
+  },
+  "kyushu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/kyushu/"
+  },
+  "okinawa": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、島根県、広島県、山口県、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "島根県",
+    "広島県",
+    "山口県",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/044801/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044801/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044801/chugoku/",
+  "https://www.sej.co.jp/products/a/item/044801/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044801/kanto/",
+  "https://www.sej.co.jp/products/a/item/044801/kinki/",
+  "https://www.sej.co.jp/products/a/item/044801/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/044801/kyushu/",
+  "https://www.sej.co.jp/products/a/item/044801/okinawa/",
+  "https://www.sej.co.jp/products/a/item/044801/tohoku/",
+  "https://www.sej.co.jp/products/a/item/044801/tokai/"
+ ],
+ "first_seen_at": "2026-09-29T07:03:15+09:00",
+ "fetched_at": "2026-09-29T07:03:15+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

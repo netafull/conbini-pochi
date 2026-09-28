@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044741",
+ "name": "はらこめしおむすび",
+ "category": null,
+ "price_excl_tax": 298,
+ "price_incl_tax": 321.84,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "宮城県",
+  "山形県"
+ ],
+ "region_text": "宮城県、山形県",
+ "description": "鮭といくらの味わいが楽しめるはらこめしを、手軽に食べられるおにぎり。亘理町観光協会にご協力いただき、地域で親しまれている味付けに仕上げました。",
+ "nutrition": {
+  "kcal": 213.0,
+  "protein_g": 8.3,
+  "fat_g": 2.7,
+  "carbs_g": 39.1,
+  "sugar_g": 38.5,
+  "fiber_g": 0.6,
+  "salt_g": 1.3,
+  "raw": "熱量：213kcal、たんぱく質：8.3g、脂質：2.7g、炭水化物：39.1g（糖質：38.5g、食物繊維：0.6g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "宮城県、山形県",
+   "regions": [
+    "宮城県",
+    "山形県"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/044741/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044741/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044741/tohoku/"
+ ],
+ "first_seen_at": "2026-09-29T07:03:20+09:00",
+ "fetched_at": "2026-09-29T07:03:20+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -41,14 +41,25 @@
    "price_excl_tax": 598,
    "price_incl_tax": 645.84,
    "url": "https://www.sej.co.jp/products/a/item/044781/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "中国、四国",
+   "regions": [
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044781/shikoku/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/044781/chugoku/",
  "official_urls": [
-  "https://www.sej.co.jp/products/a/item/044781/chugoku/"
+  "https://www.sej.co.jp/products/a/item/044781/chugoku/",
+  "https://www.sej.co.jp/products/a/item/044781/shikoku/"
  ],
  "first_seen_at": "2026-09-25T20:48:18+09:00",
- "fetched_at": "2026-09-25T20:48:18+09:00",
+ "fetched_at": "2026-09-29T07:00:56+09:00",
  "source_list": "nextweek",
  "image": null
 }

@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "042810",
+ "name": "お好みおかず弁当",
+ "category": null,
+ "price_excl_tax": 498,
+ "price_incl_tax": 537.84,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "甲信越",
+  "北陸",
+  "沖縄"
+ ],
+ "region_text": "甲信越、北陸、沖縄",
+ "description": "人気のおかずを盛り付けた定番の幕の内弁当です。",
+ "nutrition": {
+  "kcal": 611.0,
+  "protein_g": 20.6,
+  "fat_g": 18.6,
+  "carbs_g": 92.7,
+  "sugar_g": 87.8,
+  "fiber_g": 4.9,
+  "salt_g": 3.2,
+  "raw": "熱量：611kcal、たんぱく質：20.6g、脂質：18.6g、炭水化物：92.7g（糖質：87.8g、食物繊維：4.9g）、食塩相当量：3.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "甲信越、北陸、沖縄",
+   "regions": [
+    "甲信越",
+    "北陸",
+    "沖縄"
+   ],
+   "price_excl_tax": 498,
+   "price_incl_tax": 537.84,
+   "url": "https://www.sej.co.jp/products/a/item/042810/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042810/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042810/okinawa/"
+ ],
+ "first_seen_at": "2026-09-29T07:06:46+09:00",
+ "fetched_at": "2026-09-29T07:06:46+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

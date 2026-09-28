@@ -1,0 +1,72 @@
+{
+ "chain": "seven",
+ "product_id": "040093",
+ "name": "ＣＡＦＥ　ＢＯＸ　チキンオーバーライス",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "関東",
+  "甲信越",
+  "北陸",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国",
+  "九州"
+ ],
+ "region_text": "関東、甲信越、北陸、岐阜県、愛知県、三重県、鳥取県、島根県、岡山県、広島県、四国、九州",
+ "description": "スパイスの香りを効かせて焼いた鶏むね肉に、ピリ辛のサルサソースとさっぱりとしたヨーグルトソースを合わせました。",
+ "nutrition": {
+  "kcal": 595.0,
+  "protein_g": 35.3,
+  "fat_g": 10.6,
+  "carbs_g": 92.7,
+  "sugar_g": 86.3,
+  "fiber_g": 6.4,
+  "salt_g": 3.2,
+  "raw": "熱量：595kcal、たんぱく質：35.3g、脂質：10.6g、炭水化物：92.7g（糖質：86.3g、食物繊維：6.4g）、食塩相当量：3.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "関東、甲信越、北陸、岐阜県、愛知県、三重県、鳥取県、島根県、岡山県、広島県、四国、九州",
+   "regions": [
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/040093/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040093/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040093/kyushu/"
+ ],
+ "first_seen_at": "2026-09-29T07:06:27+09:00",
+ "fetched_at": "2026-09-29T07:06:27+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

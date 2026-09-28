@@ -1,0 +1,55 @@
+{
+ "chain": "seven",
+ "product_id": "044770",
+ "name": "おかかだしごはんで食べる高菜弁当",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県"
+ ],
+ "region_text": "茨城県、栃木県、群馬県、埼玉県",
+ "description": "高菜炒めや豚生姜炒めなどを彩りよく盛り付けた、ミニサイズのお弁当です。",
+ "nutrition": {
+  "kcal": 321.0,
+  "protein_g": 9.5,
+  "fat_g": 5.2,
+  "carbs_g": 60.1,
+  "sugar_g": 58.1,
+  "fiber_g": 2.0,
+  "salt_g": 2.6,
+  "raw": "熱量：321kcal、たんぱく質：9.5g、脂質：5.2g、炭水化物：60.1g（糖質：58.1g、食物繊維：2.0g）、食塩相当量：2.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県、栃木県、群馬県、埼玉県",
+   "regions": [
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044770/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044770/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044770/kanto/"
+ ],
+ "first_seen_at": "2026-09-29T07:05:09+09:00",
+ "fetched_at": "2026-09-29T07:05:09+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

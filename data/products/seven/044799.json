@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044799",
+ "name": "ポーク玉子おむすび",
+ "category": null,
+ "price_excl_tax": 315,
+ "price_incl_tax": 340.2,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "沖縄の定番おかず「ポーク玉子」を挟んだおむすびです。",
+ "nutrition": {
+  "kcal": 385.0,
+  "protein_g": 10.7,
+  "fat_g": 17.8,
+  "carbs_g": 46.5,
+  "sugar_g": 44.3,
+  "fiber_g": 2.2,
+  "salt_g": 1.5,
+  "raw": "熱量：385kcal、たんぱく質：10.7g、脂質：17.8g、炭水化物：46.5g（糖質：44.3g、食物繊維：2.2g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 315,
+   "price_incl_tax": 340.2,
+   "url": "https://www.sej.co.jp/products/a/item/044799/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044799/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044799/okinawa/"
+ ],
+ "first_seen_at": "2026-09-29T07:06:34+09:00",
+ "fetched_at": "2026-09-29T07:06:34+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

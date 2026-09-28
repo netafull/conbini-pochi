@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "041337",
+ "name": "味付のりおにぎり　海老マヨネーズ",
+ "category": null,
+ "price_excl_tax": 208,
+ "price_incl_tax": 224.64,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "人気のある海老マヨネーズを具材にしたおにぎりです。",
+ "nutrition": {
+  "kcal": 214.0,
+  "protein_g": 4.3,
+  "fat_g": 5.9,
+  "carbs_g": 36.7,
+  "sugar_g": 34.9,
+  "fiber_g": 1.8,
+  "salt_g": 1.0,
+  "raw": "熱量：214kcal、たんぱく質：4.3g、脂質：5.9g、炭水化物：36.7g（糖質：34.9g、食物繊維：1.8g）、食塩相当量：1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦",
+  "えび"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "九州",
+   "regions": [
+    "九州"
+   ],
+   "price_excl_tax": 208,
+   "price_incl_tax": 224.64,
+   "url": "https://www.sej.co.jp/products/a/item/041337/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041337/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041337/kyushu/"
+ ],
+ "first_seen_at": "2026-09-29T07:06:16+09:00",
+ "fetched_at": "2026-09-29T07:06:16+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
