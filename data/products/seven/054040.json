@@ -1,0 +1,80 @@
+{
+ "chain": "seven",
+ "product_id": "054040",
+ "name": "ジューシーハムサンド",
+ "category": null,
+ "price_excl_tax": 347,
+ "price_incl_tax": 374.76,
+ "launch_date": "2026-10-07",
+ "launch_text": "2026年10月07日（水）以降順次発売",
+ "regions": [
+  "青森県",
+  "岩手県",
+  "宮城県",
+  "秋田県",
+  "山形県",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "青森県、岩手県、宮城県、秋田県、山形県、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "辛みのあるからしマヨネーズがアクセントの胡瓜サラダとポークハムを挟みました。",
+ "nutrition": {
+  "kcal": 362.0,
+  "protein_g": 12.0,
+  "fat_g": 21.1,
+  "carbs_g": 31.9,
+  "sugar_g": 30.3,
+  "fiber_g": 1.6,
+  "salt_g": 2.2,
+  "raw": "熱量：362kcal、たんぱく質：12.0g、脂質：21.1g、炭水化物：31.9g（糖質：30.3g、食物繊維：1.6g）、食塩相当量：2.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 347,
+   "price_incl_tax": 374.76,
+   "url": "https://www.sej.co.jp/products/a/item/054040/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054040/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054040/kyushu/"
+ ],
+ "first_seen_at": "2026-09-30T07:00:24+09:00",
+ "fetched_at": "2026-09-30T07:00:24+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
