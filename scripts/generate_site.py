@@ -729,6 +729,17 @@ def render_item_page(item: dict) -> str:
 {chr(10).join(render_review_card(a) for a in related_articles_list)}
 </div>"""
 
+    # 直接のレビューもキーワードの関連記事も無い商品には、そのコンビニの最新レビューを出す。
+    # 商品名の完全一致にこだわらず、どの商品ページからもネタフルへ行けるようにする
+    # (レビュー数がそれほど増えないため。2026-09-29 コグレ判断)
+    if not reviews and not related:
+        recent = latest_reviews(item["chain"], 4)
+        if recent:
+            related_html = f"""<h3 style='margin-top:16px;font-size:14px'>{esc(chain_name)}のネタフル最新レビュー</h3>
+<div class="review-grid">
+{chr(10).join(render_review_card(a) for a in recent)}
+</div>"""
+
     body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
 <div class="detail">
 <div class="badge" style="display:inline-block;font-size:11px;font-weight:700;color:#fff;
