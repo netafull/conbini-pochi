@@ -31,7 +31,7 @@ from pathlib import Path
 
 SITE_NAME = "コンビニポチ"
 ROOT = Path(__file__).resolve().parent.parent
-PRODUCTS = ROOT / "data" / "products"
+RUN_SUMMARY = ROOT / "data" / "run_summary.json"
 
 
 def send(topic: str, title: str, message: str, click: str = "") -> None:
@@ -55,29 +55,13 @@ def _run_click() -> str:
     return f"{server}/{repo}/actions/runs/{run_id}" if repo and run_id else ""
 
 
-def count_new_today() -> dict[str, int]:
-    """今回のcrawl.py実行でfetched_atが今日の日付になっている商品を数える。
-
-    crawl.py自体は「今回いくつ新規取得したか」を標準出力にしか出さないため、
-    通知はfetched_atの日付で近似する(1日1回実行なので誤差は無視できる)。
-    """
-    import datetime
-
-    today = datetime.date.today().isoformat()
-    counts: dict[str, int] = {}
-    for chain_dir in PRODUCTS.iterdir() if PRODUCTS.is_dir() else []:
-        if not chain_dir.is_dir():
-            continue
-        n = 0
-        for f in chain_dir.glob("*.json"):
-            try:
-                data = json.loads(f.read_text(encoding="utf-8"))
-            except json.JSONDecodeError:
-                continue
-            if (data.get("fetched_at") or "")[:10] == today:
-                n += 1
-        counts[chain_dir.name] = n
-    return counts
+def count_new_this_run() -> dict[str, int]:
+    """直前の crawl.py 実行で新規に記録した商品数(data/run_summary.json)を読む。"""
+    try:
+        data = json.loads(RUN_SUMMARY.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    return {k: int(v) for k, v in data.items()}
 
 
 def main() -> int:
@@ -88,7 +72,7 @@ def main() -> int:
         return 0
 
     if "--summary" in args:
-        counts = count_new_today()
+        counts = count_new_this_run()
         total = sum(counts.values())
         if total == 0:
             print("新規0件のため通知はスキップします")
@@ -96,7 +80,7 @@ def main() -> int:
         detail = " / ".join(f"{k} {v}件" for k, v in counts.items() if v)
         try:
             send(topic, f"{SITE_NAME}: 新商品 {total}件",
-                 f"本日の巡回で新しく記録した商品: {detail}", _run_click())
+                 f"今回の巡回で新しく記録した商品: {detail}", _run_click())
             print(f"要約を通知しました({total}件)")
         except (urllib.error.URLError, OSError) as e:
             print(f"[warn] ntfy通知に失敗しました: {e}", file=sys.stderr)

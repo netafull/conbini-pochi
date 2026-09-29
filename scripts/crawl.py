@@ -455,6 +455,20 @@ def crawl_lawson(pending: dict, stats: dict) -> None:
         pending[chain].pop(pid, None)
 
 
+RUN_SUMMARY = ROOT / "data" / "run_summary.json"
+
+
+def save_run_summary(stats: dict[str, dict]) -> None:
+    """この実行で新規に記録した商品数を書き出す。notify.py が読む。
+
+    以前は notify.py が fetched_at の「今日」を数えていたが、実行環境のUTCと
+    データの日本時間が1日ずれ、朝の実行で通知が出ない・手動実行で二重に通知が出る
+    不具合があった(2026-09-29)。実行ごとに上書きされる一時ファイルで、gitには入れない。
+    """
+    counts = {chain: s.get("new_products", 0) for chain, s in stats.items()}
+    RUN_SUMMARY.write_text(json.dumps(counts, ensure_ascii=False), encoding="utf-8")
+
+
 def main() -> int:
     pending = load_pending()
     stats: dict[str, dict] = {}
@@ -466,6 +480,7 @@ def main() -> int:
             print(f"[error] {fn.__name__} で例外: {e}", file=sys.stderr)
 
     save_pending(pending)
+    save_run_summary(stats)
 
     print("=== クロール結果 ===")
     for chain, s in stats.items():
