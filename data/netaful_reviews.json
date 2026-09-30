@@ -2712,6 +2712,18 @@
   ],
   "lawson": [
    {
+    "date": "2026-09-30T12:30:00",
+    "id": 210119,
+    "link": "https://netaful.jp/lawson/0210119.html",
+    "product_name": "贅沢すぎ！肉づくし満腹濃厚豚ラーメン",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/09/lawson-buta-ramen-002-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ローソン】「贅沢すぎ！肉づくし満腹濃厚豚ラーメン」が二郎系チルドで最高峰かも！？肉もニンニクもマシマシ"
+   },
+   {
     "date": "2026-09-27T10:00:00",
     "id": 209936,
     "link": "https://netaful.jp/lawson/0209936.html",
@@ -11836,13 +11848,16 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-09-30T07:01:02+09:00",
+ "fetched_at": "2026-10-01T07:01:20+09:00",
  "matches": {
   "familymart-1522617": [
    209948
   ],
   "lawson-1531764": [
    209936
+  ],
+  "lawson-1532644": [
+   210119
   ],
   "seven-044492": [
    209648

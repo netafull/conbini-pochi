@@ -1,0 +1,82 @@
+{
+ "chain": "seven",
+ "product_id": "054038",
+ "name": "ハムとたまごのサンド",
+ "category": null,
+ "price_excl_tax": 347,
+ "price_incl_tax": 374.76,
+ "launch_date": "2026-10-07",
+ "launch_text": "2026年10月07日（水）以降順次発売",
+ "regions": [
+  "青森県",
+  "岩手県",
+  "宮城県",
+  "秋田県",
+  "山形県",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "青森県、岩手県、宮城県、秋田県、山形県、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+ "description": "定番具材のハムとたまごを挟んだサンドイッチです。",
+ "nutrition": {
+  "kcal": 332.0,
+  "protein_g": 11.9,
+  "fat_g": 18.2,
+  "carbs_g": 30.9,
+  "sugar_g": 29.2,
+  "fiber_g": 1.7,
+  "salt_g": 1.7,
+  "raw": "熱量：332kcal、たんぱく質：11.9g、脂質：18.2g、炭水化物：30.9g（糖質：29.2g、食物繊維：1.7g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 347,
+   "price_incl_tax": 374.76,
+   "url": "https://www.sej.co.jp/products/a/item/054038/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054038/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054038/kyushu/"
+ ],
+ "first_seen_at": "2026-10-01T07:00:42+09:00",
+ "fetched_at": "2026-10-01T07:00:42+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

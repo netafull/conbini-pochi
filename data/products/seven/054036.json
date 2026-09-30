@@ -1,0 +1,82 @@
+{
+ "chain": "seven",
+ "product_id": "054036",
+ "name": "照焼チキンとたまごサンド",
+ "category": null,
+ "price_excl_tax": 357,
+ "price_incl_tax": 385.56,
+ "launch_date": "2026-10-07",
+ "launch_text": "2026年10月07日（水）以降順次発売",
+ "regions": [
+  "青森県",
+  "岩手県",
+  "宮城県",
+  "秋田県",
+  "山形県",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "青森県、岩手県、宮城県、秋田県、山形県、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+ "description": "ジューシーな鶏モモ肉に照焼ソースを合わせ、茹で玉子とたまごサラダをはさみました。",
+ "nutrition": {
+  "kcal": 309.0,
+  "protein_g": 15.0,
+  "fat_g": 16.2,
+  "carbs_g": 26.4,
+  "sugar_g": 25.1,
+  "fiber_g": 1.3,
+  "salt_g": 2.1,
+  "raw": "熱量：309kcal、たんぱく質：15.0g、脂質：16.2g、炭水化物：26.4g（糖質：25.1g、食物繊維：1.3g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 357,
+   "price_incl_tax": 385.56,
+   "url": "https://www.sej.co.jp/products/a/item/054036/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054036/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054036/kyushu/"
+ ],
+ "first_seen_at": "2026-10-01T07:00:36+09:00",
+ "fetched_at": "2026-10-01T07:00:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

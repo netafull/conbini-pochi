@@ -1,0 +1,69 @@
+{
+ "chain": "seven",
+ "product_id": "044768",
+ "name": "やみつきカルボ飯",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-01",
+ "launch_text": "2026年10月01日（木）以降順次発売",
+ "regions": [
+  "北海道",
+  "東京都",
+  "大阪府",
+  "和歌山県"
+ ],
+ "region_text": "北海道、東京都、大阪府、和歌山県",
+ "description": "シャウエッセン夜味をカルボナーラソース，卵と一緒に食べるカルボナーラ御飯です。",
+ "nutrition": {
+  "kcal": 713.0,
+  "protein_g": 20.1,
+  "fat_g": 34.1,
+  "carbs_g": 82.7,
+  "sugar_g": 79.9,
+  "fiber_g": 2.8,
+  "salt_g": 3.0,
+  "raw": "熱量：713kcal、たんぱく質：20.1g、脂質：34.1g、炭水化物：82.7g（糖質：79.9g、食物繊維：2.8g）、食塩相当量：3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、東京都、大阪府、和歌山県",
+   "regions": [
+    "北海道",
+    "東京都",
+    "大阪府",
+    "和歌山県"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044768/hokkaido/"
+  },
+  "kinki": {
+   "region_text": "北海道、東京都、大阪府、和歌山県",
+   "regions": [
+    "北海道",
+    "東京都",
+    "大阪府",
+    "和歌山県"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044768/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044768/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044768/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/044768/kinki/"
+ ],
+ "first_seen_at": "2026-10-01T07:00:29+09:00",
+ "fetched_at": "2026-10-01T07:00:29+09:00",
+ "source_list": "thisweek",
+ "image": null
+}
