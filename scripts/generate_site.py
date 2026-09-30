@@ -756,7 +756,21 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
 {reviews_html}
 {related_html}
 </div>"""
-    return page_shell(title, item.get("description") or CONFIG["site_description"], body, canonical)
+    # 検索では「セブン ○○ カロリー」のようにコンビニ名や栄養成分も一緒に入力されやすいので、
+    # タイトルと説明文にコンビニ名・カロリー・価格を入れる(2026-09-30)。
+    # カロリーが載っていない商品(ファミマのパン等)は「カロリー」を名乗らない
+    nut = item.get("nutrition") or {}
+    facts = "カロリー・価格・栄養成分" if nut.get("kcal") is not None else "価格・発売日"
+    seo_title = f"{chain_name}「{title}」の{facts}"
+    bits = [f"{chain_name}の新商品「{title}」"]
+    if nut.get("kcal") is not None:
+        bits.append(f"{nut['kcal']:g}kcal")
+    if item.get("price_incl_tax") is not None:
+        bits.append(f"税込{item['price_incl_tax']:g}円")
+    if date:
+        bits.append(f"{date}発売")
+    seo_desc = "、".join(bits) + "。" + (item.get("description") or "")
+    return page_shell(seo_title, seo_desc[:200], body, canonical)
 
 
 # AIの学習データ集め専用のクローラーは断る。商品説明は各社公式サイトからの引用なので、
