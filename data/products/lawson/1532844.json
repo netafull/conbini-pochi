@@ -1,0 +1,36 @@
+{
+ "chain": "lawson",
+ "product_id": "1532844",
+ "name": "三陸産わかめごはんおにぎり",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 171,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026.10.06",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。※東北・近畿・中四国(一部)地域では商品仕様が異なります。",
+ "description": "茎と葉の2種類の三陸産わかめと白ごまを、こだわりのだしを入れて炊いたごはんに混ぜ込みました。",
+ "nutrition": {
+  "kcal": 177.0,
+  "protein_g": 3.5,
+  "fat_g": 1.4,
+  "carbs_g": 38.2,
+  "sugar_g": 36.9,
+  "fiber_g": 1.3,
+  "salt_g": 0.98,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>177kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>3.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>1.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>38.2g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>36.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.98g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "ごま",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532844_1996.html",
+ "first_seen_at": "2026-10-03T07:04:04+09:00",
+ "fetched_at": "2026-10-03T07:04:04+09:00",
+ "source_list": "/recommend/new/list/1532849_5162.html",
+ "image": null
+}

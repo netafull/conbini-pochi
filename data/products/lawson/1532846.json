@@ -1,0 +1,35 @@
+{
+ "chain": "lawson",
+ "product_id": "1532846",
+ "name": "だしおにぎり　しそ昆布",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 149,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026.10.06",
+ "regions": null,
+ "region_text": null,
+ "description": "だしの旨みを存分に楽しめるだしおにぎり。すっきり爽やかなしそ昆布とだしの旨みが良く合います。",
+ "nutrition": {
+  "kcal": 181.0,
+  "protein_g": 3.6,
+  "fat_g": 0.8,
+  "carbs_g": 40.6,
+  "sugar_g": 39.3,
+  "fiber_g": 1.3,
+  "salt_g": 1.31,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>181kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>3.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>40.6g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>39.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.31g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532846_1996.html",
+ "first_seen_at": "2026-10-03T07:03:58+09:00",
+ "fetched_at": "2026-10-03T07:03:58+09:00",
+ "source_list": "/recommend/new/list/1532849_5162.html",
+ "image": null
+}

@@ -1,0 +1,28 @@
+{
+ "chain": "familymart",
+ "product_id": "1210835",
+ "name": "海老マヨのサラダ",
+ "category": "サラダ",
+ "price_excl_tax": 434,
+ "price_incl_tax": 468,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月6日",
+ "regions": [
+  "関東",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "レタス、サニーレタス、キャベツ、大根のサラダに海老マヨ、彩り野菜ミックス、クラッシュしたゆでたまご、マカロニをトッピングしました。和風ドレッシング付きです。※静岡県の一部、宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/salad/1210835.html",
+ "first_seen_at": "2026-10-03T07:01:15+09:00",
+ "fetched_at": "2026-10-03T07:01:15+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-06",
+ "image": null
+}

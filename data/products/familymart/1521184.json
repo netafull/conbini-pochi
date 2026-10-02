@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1521184",
+ "name": "塩バターたまごサンド",
+ "category": "パン",
+ "price_excl_tax": 172,
+ "price_incl_tax": 185,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月6日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "フランスパン生地とデニッシュ生地を貼り合わせ、発酵バター入り塩マーガリンを包み焼き上げ、たまごサラダをサンドした惣菜パンです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1521184.html",
+ "first_seen_at": "2026-10-03T07:01:03+09:00",
+ "fetched_at": "2026-10-03T07:01:03+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-06",
+ "image": null
+}

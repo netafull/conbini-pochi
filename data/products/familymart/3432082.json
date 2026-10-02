@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "3432082",
+ "name": "ハーゲンダッツ　パパパパンプキンタルト",
+ "category": "アイス",
+ "price_excl_tax": 370,
+ "price_incl_tax": 399,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月6日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "秋の味覚「かぼちゃ」を味わうパンプキンタルト味のプレミアムカップアイスクリームです。やさしい甘みとコクを感じられるパンプキンアイスクリームにパンプキンソースを混ぜ込み、2種類のクッキーをトッピングしました。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/ice/3432082.html",
+ "first_seen_at": "2026-10-03T07:02:06+09:00",
+ "fetched_at": "2026-10-03T07:02:06+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-06",
+ "image": null
+}

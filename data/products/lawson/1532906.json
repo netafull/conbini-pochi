@@ -1,0 +1,37 @@
+{
+ "chain": "lawson",
+ "product_id": "1532906",
+ "name": "タルタルフィッシュバーガー",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 397,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026.10.06",
+ "regions": null,
+ "region_text": "※熱量は参照値となります。※沖縄地域のローソンではお取り扱いしておりません。",
+ "description": "お店で揚げたふっくら食感の白身魚フライと具沢山のタルタルソースが絶妙の組み合わせ！軽く食べられるフィッシュバーガーです。",
+ "nutrition": {
+  "kcal": 445.0,
+  "protein_g": 13.6,
+  "fat_g": 25.2,
+  "carbs_g": 42.3,
+  "sugar_g": 39.7,
+  "fiber_g": 2.6,
+  "salt_g": 2.0,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>445kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>13.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>25.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>42.3g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>39.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>2.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>2.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆",
+  "りんご"
+ ],
+ "spec": "規格（内容量）: 1包装",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532906_1996.html",
+ "first_seen_at": "2026-10-03T07:03:46+09:00",
+ "fetched_at": "2026-10-03T07:03:46+09:00",
+ "source_list": "/recommend/new/list/1532849_5162.html",
+ "image": null
+}

@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "0411998",
+ "name": "ぼんご監修　大きなおむすび　まぐろたくあんと卵黄醤油だれ",
+ "category": "おむすび",
+ "price_excl_tax": 298,
+ "price_incl_tax": 321,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月6日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "定番手巻の1.5倍※の重量のおにぎり専門店「ぼんご」監修の「大きなおむすび」商品です。隠し味のマヨネーズと、わさびの辛みは活かしつつ、たくあんで食感をプラスしたぼんご流の「まぐろたくあん」に仕上げました。合わせるのは、ぼんごで人気の「卵黄醤油漬け」をヒントに、醤油の旨みと卵黄のコクを感じる「卵黄醤油だれ」に仕上げた一品です。ふっくらごはんとの相性抜群の大きなおむすびです。※定番手巻おむすび5品の規格重量との比較です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0411998.html",
+ "first_seen_at": "2026-10-03T07:00:27+09:00",
+ "fetched_at": "2026-10-03T07:00:27+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-06",
+ "image": null
+}

@@ -1,0 +1,33 @@
+{
+ "chain": "lawson",
+ "product_id": "1532900",
+ "name": "サントリー　ボス　コーヒーファーム　カフェラテ　ホット",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 159,
+ "launch_date": "2026-10-07",
+ "launch_text": "2026.10.07",
+ "regions": null,
+ "region_text": null,
+ "description": "契約農園厳選豆使用のカフェラテです。",
+ "nutrition": {
+  "kcal": 32.0,
+  "protein_g": 1.5,
+  "fat_g": 1.0,
+  "carbs_g": 6.6,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 0.13,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【100ml当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>32kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>0〜1.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0〜1.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>6.6g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.13g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "乳成分"
+ ],
+ "spec": "規格（内容量）: 440ml",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532900_1996.html",
+ "first_seen_at": "2026-10-03T07:02:40+09:00",
+ "fetched_at": "2026-10-03T07:02:40+09:00",
+ "source_list": "/recommend/new/list/1532850_5162.html",
+ "image": null
+}

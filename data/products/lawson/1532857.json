@@ -1,0 +1,36 @@
+{
+ "chain": "lawson",
+ "product_id": "1532857",
+ "name": "グーコロ男爵",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 160,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026.10.06",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。",
+ "description": "製法にこだわり、北海道産男爵いものおいしさを引き出したコロッケです。",
+ "nutrition": {
+  "kcal": 308.0,
+  "protein_g": 4.1,
+  "fat_g": 22.8,
+  "carbs_g": 22.2,
+  "sugar_g": 21.2,
+  "fiber_g": 1.0,
+  "salt_g": 0.8,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1個当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>308kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>4.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>22.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>22.2g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>21.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "乳成分",
+  "牛肉",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 1個",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1532857_1996.html",
+ "first_seen_at": "2026-10-03T07:03:27+09:00",
+ "fetched_at": "2026-10-03T07:03:27+09:00",
+ "source_list": "/recommend/new/list/1532849_5162.html",
+ "image": null
+}

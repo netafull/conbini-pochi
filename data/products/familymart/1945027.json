@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1945027",
+ "name": "窯出しとろけるプリン",
+ "category": "デザート",
+ "price_excl_tax": 213,
+ "price_incl_tax": 230,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "北海道牛乳などを加えたミルク感とたまごの旨みと、コクのあるカラメルを味わう、とろける食感のプリンです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1945027.html",
+ "first_seen_at": "2026-10-03T07:02:09+09:00",
+ "fetched_at": "2026-10-03T07:02:09+09:00",
+ "source_list": "lastweek",
+ "list_week_start": "2026-09-22",
+ "image": null
+}

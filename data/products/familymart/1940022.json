@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1940022",
+ "name": "かじる濃厚ガトーショコラ",
+ "category": "デザート",
+ "price_excl_tax": 221,
+ "price_incl_tax": 238,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月6日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "しっとりとした口どけでコクのある生地になめらかなチョコソースを流し込んだ、片手で食べられる濃厚なガトーショコラです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1940022.html",
+ "first_seen_at": "2026-10-03T07:01:27+09:00",
+ "fetched_at": "2026-10-03T07:01:27+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-06",
+ "image": null
+}
