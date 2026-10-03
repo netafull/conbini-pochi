@@ -2,6 +2,18 @@
  "articles": {
   "familymart": [
    {
+    "date": "2026-10-02T09:00:00",
+    "id": 210197,
+    "link": "https://netaful.jp/conbini-meshi/0210197.html",
+    "product_name": "SUSURU TV.監修 北ノ醤油チーホー北ノ醤油ラーメン",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/famima-susuru-003-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ファミマ】「SUSURU TV.監修 北ノ醤油チーホー北ノ醤油ラーメン」698円！背脂とひき肉炒めのコクが溶け込んだ濃いめ醤油スープが旨い"
+   },
+   {
     "date": "2026-09-29T09:00:00",
     "id": 210013,
     "link": "https://netaful.jp/conbini-meshi/0210013.html",
@@ -11864,8 +11876,11 @@
   "familymart tag=910 page=1: JSON解析失敗 Expecting value: line 1 column 1 (char 0)",
   "lawson tag=921 page=1: JSON解析失敗 Expecting value: line 1 column 1 (char 0)"
  ],
- "fetched_at": "2026-10-03T07:04:29+09:00",
+ "fetched_at": "2026-10-04T07:00:56+09:00",
  "matches": {
+  "familymart-0810043": [
+   210197
+  ],
   "familymart-1522617": [
    209948
   ],
