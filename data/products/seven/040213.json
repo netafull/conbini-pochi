@@ -1,0 +1,57 @@
+{
+ "chain": "seven",
+ "product_id": "040213",
+ "name": "温玉とりそぼろ丼",
+ "category": null,
+ "price_excl_tax": 498,
+ "price_incl_tax": 537.84,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国"
+ ],
+ "region_text": "鳥取県、島根県、岡山県、広島県、四国",
+ "description": "温玉と鶏肉のそぼろを組み合わせた丼です。",
+ "nutrition": {
+  "kcal": 445.0,
+  "protein_g": 18.1,
+  "fat_g": 9.2,
+  "carbs_g": 72.8,
+  "sugar_g": 71.9,
+  "fiber_g": 0.9,
+  "salt_g": 2.7,
+  "raw": "熱量：445kcal、たんぱく質：18.1g、脂質：9.2g、炭水化物：72.8g（糖質：71.9g、食物繊維：0.9g）、食塩相当量：2.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 498,
+   "price_incl_tax": 537.84,
+   "url": "https://www.sej.co.jp/products/a/item/040213/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040213/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040213/shikoku/"
+ ],
+ "first_seen_at": "2026-10-05T07:00:49+09:00",
+ "fetched_at": "2026-10-05T07:00:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

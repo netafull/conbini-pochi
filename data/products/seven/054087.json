@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054087",
+ "name": "ジューシーハムサンド",
+ "category": null,
+ "price_excl_tax": 347,
+ "price_incl_tax": 374.76,
+ "launch_date": "2026-10-07",
+ "launch_text": "2026年10月07日（水）以降順次発売",
+ "regions": [
+  "福島県"
+ ],
+ "region_text": "福島県",
+ "description": "ピリッと辛いからしマヨネーズがアクセントの胡瓜サラダとハムを挟んだサンドイッチです。",
+ "nutrition": {
+  "kcal": 358.0,
+  "protein_g": 11.9,
+  "fat_g": 20.4,
+  "carbs_g": 32.5,
+  "sugar_g": 30.9,
+  "fiber_g": 1.6,
+  "salt_g": 1.9,
+  "raw": "熱量：358kcal、たんぱく質：11.9g、脂質：20.4g、炭水化物：32.5g（糖質：30.9g、食物繊維：1.6g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "福島県",
+   "regions": [
+    "福島県"
+   ],
+   "price_excl_tax": 347,
+   "price_incl_tax": 374.76,
+   "url": "https://www.sej.co.jp/products/a/item/054087/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054087/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054087/tohoku/"
+ ],
+ "first_seen_at": "2026-10-05T07:00:37+09:00",
+ "fetched_at": "2026-10-05T07:00:37+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
