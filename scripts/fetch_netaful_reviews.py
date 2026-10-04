@@ -90,7 +90,16 @@ def fetch_tag_page(tag_id: int, page: int, per_page: int) -> tuple[list[dict], i
     )
     body, headers = http_get(url)
     total_pages = int(headers.get("X-WP-TotalPages") or headers.get("x-wp-totalpages") or 1)
-    posts = json.loads(body.decode("utf-8"))
+    try:
+        posts = json.loads(body.decode("utf-8"))
+    except json.JSONDecodeError as e:
+        # 2026-10-03から、GitHub Actions上でだけ「JSONではない応答」が返るようになった
+        # (ローカルでは正常)。原因を特定できるよう、応答の先頭と種類をエラーに残す
+        ctype = headers.get("Content-Type") or headers.get("content-type") or "?"
+        head = body[:120].decode("utf-8", "replace").replace("\n", " ")
+        raise json.JSONDecodeError(
+            f"{e.msg} [{len(body)}バイト, {ctype}, 先頭: {head!r}]", e.doc, e.pos
+        ) from e
     return posts, total_pages
 
 
