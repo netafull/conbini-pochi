@@ -2,6 +2,18 @@
  "articles": {
   "familymart": [
    {
+    "date": "2026-10-04T11:00:00",
+    "id": 210317,
+    "link": "https://netaful.jp/conbini-meshi/0210317.html",
+    "product_name": "クレープシフォンケーキ",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/famima-crape-siphon-003-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ファミマ】「クレープシフォンケーキ」見た目はクレープ、食べたらふわふわシフォンだった！"
+   },
+   {
     "date": "2026-10-02T09:00:00",
     "id": 210197,
     "link": "https://netaful.jp/conbini-meshi/0210197.html",
@@ -5493,6 +5505,18 @@
    }
   ],
   "seven": [
+   {
+    "date": "2026-10-04T12:10:00",
+    "id": 210336,
+    "link": "https://netaful.jp/seven-eleven/0210336.html",
+    "product_name": "麻婆豆腐焼そば",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/711-mabo-yakisoba-003-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【セブン】「麻婆豆腐焼そば」麻婆豆腐を白米ではなく焼きそばで！シビ辛がたまらない"
+   },
    {
     "date": "2026-10-01T12:10:00",
     "id": 210140,
@@ -11876,13 +11900,16 @@
   "familymart tag=910 page=1: JSON解析失敗 Expecting value: line 1 column 1 (char 0)",
   "lawson tag=921 page=1: JSON解析失敗 Expecting value: line 1 column 1 (char 0)"
  ],
- "fetched_at": "2026-10-04T07:00:56+09:00",
+ "fetched_at": "2026-10-04T15:34:33+09:00",
  "matches": {
   "familymart-0810043": [
    210197
   ],
   "familymart-1522617": [
    209948
+  ],
+  "familymart-1537505": [
+   210317
   ],
   "lawson-1531764": [
    209936
