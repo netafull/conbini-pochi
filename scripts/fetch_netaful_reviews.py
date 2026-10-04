@@ -103,6 +103,22 @@ def fetch_tag_page(tag_id: int, page: int, per_page: int) -> tuple[list[dict], i
     return posts, total_pages
 
 
+RETRY_WAITS = (30, 90)  # 失敗時に待つ秒数。最大3回試す
+
+
+def fetch_tag_page_with_retry(tag_id: int, page: int, per_page: int) -> tuple[list[dict], int]:
+    """毎朝7時台(日本時間)の実行でだけ、ネタフル側が空・非JSONの応答を返す日が
+    あった(2026-10-03, 10-04。同日の昼に再実行すると成功)。サーバーが一時的に
+    重いと見て、待って再試行する。"""
+    for wait in RETRY_WAITS:
+        try:
+            return fetch_tag_page(tag_id, page, per_page)
+        except (json.JSONDecodeError, urllib.error.URLError, TimeoutError, OSError) as e:
+            print(f"[retry] tag={tag_id} page={page}: {e} → {wait}秒後に再試行", file=sys.stderr)
+            time.sleep(wait)
+    return fetch_tag_page(tag_id, page, per_page)
+
+
 def extract_thumb(post: dict) -> dict | None:
     """`_embed=wp:featuredmedia` で埋め込まれたアイキャッチ画像から、カード表示に
     適したサイズ(幅300〜700px程度)のURLを選ぶ。無ければNone。"""
@@ -176,7 +192,7 @@ def fetch_articles_for_chain(chain: str, backfill: bool, errors: list[str]) -> l
             time.sleep(REQUEST_INTERVAL)
         first = False
         try:
-            posts, total_pages = fetch_tag_page(tag_id, page, per_page)
+            posts, total_pages = fetch_tag_page_with_retry(tag_id, page, per_page)
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, OSError) as e:
             errors.append(f"{chain} tag={tag_id} page={page}: {e}")
             break
@@ -293,7 +309,7 @@ def _common_prefix(a: str, b: str) -> str:
 def main() -> int:
     backfill = "--backfill" in sys.argv[1:] or not CACHE_PATH.exists()
     cache = load_cache()
-    errors: list[str] = list(cache.get("errors") or [])
+    errors: list[str] = []  # 今回の実行で起きた失敗だけ。前回分は引き継がない
 
     for chain in TAGS:
         new_articles = fetch_articles_for_chain(chain, backfill, errors)
