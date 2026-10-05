@@ -2,6 +2,18 @@
  "articles": {
   "familymart": [
    {
+    "date": "2026-10-05T17:30:00",
+    "id": 210378,
+    "link": "https://netaful.jp/conbini-meshi/0210378.html",
+    "product_name": "ぱくっと寿司 とろたく",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/famima-torotaku-001-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ファミマ】「ぱくっと寿司 とろたく」268円！約17.5cmのワンハンド細巻はたくあんが満遍なく入って旨い"
+   },
+   {
     "date": "2026-10-04T11:00:00",
     "id": 210317,
     "link": "https://netaful.jp/conbini-meshi/0210317.html",
@@ -11896,8 +11908,11 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-05T07:01:28+09:00",
+ "fetched_at": "2026-10-06T07:07:58+09:00",
  "matches": {
+  "familymart-0510967": [
+   210378
+  ],
   "familymart-0810043": [
    210197
   ],

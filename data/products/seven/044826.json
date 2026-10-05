@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044826",
+ "name": "明太海苔弁当",
+ "category": null,
+ "price_excl_tax": 550,
+ "price_incl_tax": 594,
+ "launch_date": "2026-10-14",
+ "launch_text": "2026年10月14日（水）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "ちくわの磯辺揚げや白身フライなど定番のおかずを盛りつけた海苔弁当です。",
+ "nutrition": {
+  "kcal": 672.0,
+  "protein_g": 16.2,
+  "fat_g": 21.5,
+  "carbs_g": 105.6,
+  "sugar_g": 101.0,
+  "fiber_g": 4.6,
+  "salt_g": 3.0,
+  "raw": "熱量：672kcal、たんぱく質：16.2g、脂質：21.5g、炭水化物：105.6g（糖質：101.0g、食物繊維：4.6g）、食塩相当量：3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/044826/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044826/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044826/kinki/"
+ ],
+ "first_seen_at": "2026-10-06T07:05:32+09:00",
+ "fetched_at": "2026-10-06T07:05:32+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

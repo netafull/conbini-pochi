@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1063387",
+ "name": "増量　太麺使用　広島お好み焼",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 598,
+ "price_incl_tax": 645,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月6日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "10月10日（土）のお好み焼の日に合わせて、10月6日（火）から10月12日（月）の1週間限定で麺量を50％を増量します（※）。太麺を使用した広島お好み焼にソースとあおさ粉をトッピングしました。※9月15日（火）発売「太麺使用　広島お好み焼」対比。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1063387.html",
+ "first_seen_at": "2026-10-06T07:07:24+09:00",
+ "fetched_at": "2026-10-06T07:07:24+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-06",
+ "image": null
+}

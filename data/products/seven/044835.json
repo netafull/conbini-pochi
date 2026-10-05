@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "044835",
+ "name": "山賊むすび",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "島根県、広島県、山口県",
+ "description": "定番３種類の具、鮭，昆布，梅が一度に楽しめる大きなおむすびです。",
+ "nutrition": {
+  "kcal": 347.0,
+  "protein_g": 7.6,
+  "fat_g": 2.2,
+  "carbs_g": 76.5,
+  "sugar_g": 72.1,
+  "fiber_g": 4.4,
+  "salt_g": 3.3,
+  "raw": "熱量：347kcal、たんぱく質：7.6g、脂質：2.2g、炭水化物：76.5g（糖質：72.1g、食物繊維：4.4g）、食塩相当量：3.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "島根県、広島県、山口県",
+   "regions": [
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/044835/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044835/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044835/chugoku/"
+ ],
+ "first_seen_at": "2026-10-06T07:05:38+09:00",
+ "fetched_at": "2026-10-06T07:05:38+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "043717",
+ "name": "ラーメン屋さんの味　焼きめしおむすび",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "地域で馴染みのある、ラードで香ばしく炒めた具材感のある焼きめしおむすびです。",
+ "nutrition": {
+  "kcal": 225.0,
+  "protein_g": 5.9,
+  "fat_g": 8.9,
+  "carbs_g": 30.9,
+  "sugar_g": 29.6,
+  "fiber_g": 1.3,
+  "salt_g": 1.8,
+  "raw": "熱量：225kcal、たんぱく質：5.9g、脂質：8.9g、炭水化物：30.9g（糖質：29.6g、食物繊維：1.3g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "九州",
+   "regions": [
+    "九州"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/043717/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/043717/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/043717/kyushu/"
+ ],
+ "first_seen_at": "2026-10-06T07:06:21+09:00",
+ "fetched_at": "2026-10-06T07:06:21+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

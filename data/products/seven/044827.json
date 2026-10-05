@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044827",
+ "name": "若鶏の唐揚げ弁当",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-14",
+ "launch_text": "2026年10月14日（水）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "原材料高騰により、価格を６３８円（税抜）から６４８円に変更します。鶏もも肉のジューシーな唐揚げ弁当です。",
+ "nutrition": {
+  "kcal": 669.0,
+  "protein_g": 33.5,
+  "fat_g": 17.7,
+  "carbs_g": 95.8,
+  "sugar_g": 91.8,
+  "fiber_g": 4.0,
+  "salt_g": 3.2,
+  "raw": "熱量：669kcal、たんぱく質：33.5g、脂質：17.7g、炭水化物：95.8g（糖質：91.8g、食物繊維：4.0g）、食塩相当量：3.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044827/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044827/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044827/kinki/"
+ ],
+ "first_seen_at": "2026-10-06T07:05:27+09:00",
+ "fetched_at": "2026-10-06T07:05:27+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

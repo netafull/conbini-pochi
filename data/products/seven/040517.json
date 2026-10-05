@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "040517",
+ "name": "鶏そぼろ御飯　静岡県産鶏肉使用",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "静岡県産鶏肉のそぼろと玉子そぼろを盛りつけたお弁当です。",
+ "nutrition": {
+  "kcal": 414.0,
+  "protein_g": 26.4,
+  "fat_g": 7.9,
+  "carbs_g": 60.1,
+  "sugar_g": 58.5,
+  "fiber_g": 1.6,
+  "salt_g": 1.6,
+  "raw": "熱量：414kcal、たんぱく質：26.4g、脂質：7.9g、炭水化物：60.1g（糖質：58.5g、食物繊維：1.6g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/040517/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040517/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040517/tokai/"
+ ],
+ "first_seen_at": "2026-10-06T07:05:14+09:00",
+ "fetched_at": "2026-10-06T07:05:14+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

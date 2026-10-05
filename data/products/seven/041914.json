@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "041914",
+ "name": "旨さ相盛おむすび　高菜と明太子",
+ "category": null,
+ "price_excl_tax": 268,
+ "price_incl_tax": 289.44,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "中具だけではなく、おにぎりのてっぺんにも具を盛付けた、一口目から具材が味わえるおむすびです。具材は人気の「高菜」と「明太子」を組み合わせました。",
+ "nutrition": {
+  "kcal": 257.0,
+  "protein_g": 6.2,
+  "fat_g": 1.9,
+  "carbs_g": 55.4,
+  "sugar_g": 52.1,
+  "fiber_g": 3.3,
+  "salt_g": 2.0,
+  "raw": "熱量：257kcal、たんぱく質：6.2g、脂質：1.9g、炭水化物：55.4g（糖質：52.1g、食物繊維：3.3g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/041914/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041914/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041914/okinawa/"
+ ],
+ "first_seen_at": "2026-10-06T07:06:39+09:00",
+ "fetched_at": "2026-10-06T07:06:39+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

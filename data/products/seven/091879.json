@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "091879",
+ "name": "やみつきガーリック山盛ペペロンチーノ",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-14",
+ "launch_text": "2026年10月14日（水）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "麺を増量し山盛に盛り付けた大盛タイプのペペロンチーノです。やみつきになるにんにくの風味と唐辛子の辛みに加えて旨味や味の濃さを上げた、食べ応えのある仕立てです。",
+ "nutrition": {
+  "kcal": 863.0,
+  "protein_g": 36.2,
+  "fat_g": 33.6,
+  "carbs_g": 108.7,
+  "sugar_g": 99.2,
+  "fiber_g": 9.5,
+  "salt_g": 6.8,
+  "raw": "熱量：863kcal、たんぱく質：36.2g、脂質：33.6g、炭水化物：108.7g（糖質：99.2g、食物繊維：9.5g）、食塩相当量：6.8g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/091879/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/091879/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/091879/okinawa/"
+ ],
+ "first_seen_at": "2026-10-06T07:06:56+09:00",
+ "fetched_at": "2026-10-06T07:06:56+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

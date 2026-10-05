@@ -1,0 +1,72 @@
+{
+ "chain": "seven",
+ "product_id": "044495",
+ "name": "ＣＡＦＥ　ＢＯＸ　スパイス香るキーマカレー",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "新潟県",
+  "北陸",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国",
+  "沖縄"
+ ],
+ "region_text": "埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、鳥取県、島根県、岡山県、広島県、四国、沖縄",
+ "description": "野菜と肉の旨味が詰まったカレーソースと半熟玉子，チーズを一緒に味わうキーマカレーです。",
+ "nutrition": {
+  "kcal": 610.0,
+  "protein_g": 24.0,
+  "fat_g": 19.1,
+  "carbs_g": 88.8,
+  "sugar_g": 82.3,
+  "fiber_g": 6.5,
+  "salt_g": 3.1,
+  "raw": "熱量：610kcal、たんぱく質：24.0g、脂質：19.1g、炭水化物：88.8g（糖質：82.3g、食物繊維：6.5g）、食塩相当量：3.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、鳥取県、島根県、岡山県、広島県、四国、沖縄",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国",
+    "沖縄"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/044495/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044495/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044495/okinawa/"
+ ],
+ "first_seen_at": "2026-10-06T07:06:44+09:00",
+ "fetched_at": "2026-10-06T07:06:44+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

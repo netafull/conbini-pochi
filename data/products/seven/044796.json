@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "044796",
+ "name": "なめこなめ茸のだしむすび福島県産なめこ使用",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "福島県"
+ ],
+ "region_text": "福島県",
+ "description": "福島県産のなめこを使用したおむすびです。御飯はなめ茸と相性のよいおかかを混ぜ込んだタレを混ぜ、なめことえのきを使用したなめ茸を中具にしています。",
+ "nutrition": {
+  "kcal": 192.0,
+  "protein_g": 3.8,
+  "fat_g": 0.8,
+  "carbs_g": 43.4,
+  "sugar_g": 41.2,
+  "fiber_g": 2.2,
+  "salt_g": 1.3,
+  "raw": "熱量：192kcal、たんぱく質：3.8g、脂質：0.8g、炭水化物：43.4g（糖質：41.2g、食物繊維：2.2g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "福島県",
+   "regions": [
+    "福島県"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/044796/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044796/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044796/tohoku/"
+ ],
+ "first_seen_at": "2026-10-06T07:03:09+09:00",
+ "fetched_at": "2026-10-06T07:03:09+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

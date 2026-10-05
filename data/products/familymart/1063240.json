@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1063240",
+ "name": "増量　鉄板手焼きの豚玉お好み焼",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月6日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "10月10日（土）のお好み焼の日に合わせて、10月6日（火）から10月12日（月）の1週間限定で豚肉を30％増量します（※）。ふんわり食感のお好み焼にソース、マヨソースなどをトッピングしました。※9月1日（火）発売「鉄板手焼きの豚玉お好み焼」対比。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1063240.html",
+ "first_seen_at": "2026-10-06T07:07:27+09:00",
+ "fetched_at": "2026-10-06T07:07:27+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-06",
+ "image": null
+}

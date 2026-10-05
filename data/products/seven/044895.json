@@ -1,0 +1,95 @@
+{
+ "chain": "seven",
+ "product_id": "044895",
+ "name": "お好みおかず弁当",
+ "category": null,
+ "price_excl_tax": 498,
+ "price_incl_tax": 537.84,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "関東",
+  "近畿",
+  "中国",
+  "九州"
+ ],
+ "region_text": "関東、近畿、中国、九州",
+ "description": "人気のおかずを盛り付けた定番の幕の内弁当です。",
+ "nutrition": {
+  "kcal": 645.0,
+  "protein_g": 16.6,
+  "fat_g": 20.1,
+  "carbs_g": 101.7,
+  "sugar_g": 97.3,
+  "fiber_g": 4.4,
+  "salt_g": 2.7,
+  "raw": "熱量：645kcal、たんぱく質：16.6g、脂質：20.1g、炭水化物：101.7g（糖質：97.3g、食物繊維：4.4g）、食塩相当量：2.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "関東、近畿、中国、九州",
+   "regions": [
+    "関東",
+    "近畿",
+    "中国",
+    "九州"
+   ],
+   "price_excl_tax": 498,
+   "price_incl_tax": 537.84,
+   "url": "https://www.sej.co.jp/products/a/item/044895/kanto/"
+  },
+  "kinki": {
+   "region_text": "関東、近畿、中国、九州",
+   "regions": [
+    "関東",
+    "近畿",
+    "中国",
+    "九州"
+   ],
+   "price_excl_tax": 498,
+   "price_incl_tax": 537.84,
+   "url": "https://www.sej.co.jp/products/a/item/044895/kinki/"
+  },
+  "chugoku": {
+   "region_text": "関東、近畿、中国、九州",
+   "regions": [
+    "関東",
+    "近畿",
+    "中国",
+    "九州"
+   ],
+   "price_excl_tax": 498,
+   "price_incl_tax": 537.84,
+   "url": "https://www.sej.co.jp/products/a/item/044895/chugoku/"
+  },
+  "kyushu": {
+   "region_text": "関東、近畿、中国、九州",
+   "regions": [
+    "関東",
+    "近畿",
+    "中国",
+    "九州"
+   ],
+   "price_excl_tax": 498,
+   "price_incl_tax": 537.84,
+   "url": "https://www.sej.co.jp/products/a/item/044895/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044895/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044895/chugoku/",
+  "https://www.sej.co.jp/products/a/item/044895/kanto/",
+  "https://www.sej.co.jp/products/a/item/044895/kinki/",
+  "https://www.sej.co.jp/products/a/item/044895/kyushu/"
+ ],
+ "first_seen_at": "2026-10-06T07:03:58+09:00",
+ "fetched_at": "2026-10-06T07:03:58+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

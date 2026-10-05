@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044821",
+ "name": "プチ和風カレー",
+ "category": null,
+ "price_excl_tax": 328,
+ "price_incl_tax": 354.24,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "だしの旨味が感じられるカレーをプチサイズにしました。",
+ "nutrition": {
+  "kcal": 372.0,
+  "protein_g": 8.2,
+  "fat_g": 6.4,
+  "carbs_g": 70.9,
+  "sugar_g": 70.1,
+  "fiber_g": 0.8,
+  "salt_g": 1.8,
+  "raw": "熱量：372kcal、たんぱく質：8.2g、脂質：6.4g、炭水化物：70.9g（糖質：70.1g、食物繊維：0.8g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 328,
+   "price_incl_tax": 354.24,
+   "url": "https://www.sej.co.jp/products/a/item/044821/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044821/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044821/hokuriku/"
+ ],
+ "first_seen_at": "2026-10-06T07:04:57+09:00",
+ "fetched_at": "2026-10-06T07:04:57+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

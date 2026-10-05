@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "044911",
+ "name": "山梨の味　押麦入りまぜごはんおむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "山梨県"
+ ],
+ "region_text": "山梨県",
+ "description": "鶏肉（ムネ肉），きざみ揚げ，人参，椎茸，ごぼうを甘濃く煮た具材と、食感の良い押麦が入った御飯を混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 220.0,
+  "protein_g": 5.5,
+  "fat_g": 1.7,
+  "carbs_g": 47.1,
+  "sugar_g": 44.2,
+  "fiber_g": 2.9,
+  "salt_g": 1.0,
+  "raw": "熱量：220kcal、たんぱく質：5.5g、脂質：1.7g、炭水化物：47.1g（糖質：44.2g、食物繊維：2.9g）、食塩相当量：1g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県",
+   "regions": [
+    "山梨県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/044911/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044911/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044911/koshinetsu/"
+ ],
+ "first_seen_at": "2026-10-06T07:04:26+09:00",
+ "fetched_at": "2026-10-06T07:04:26+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

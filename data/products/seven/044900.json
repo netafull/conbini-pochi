@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "044900",
+ "name": "あごだし醤油のジューシー鶏唐揚げ弁当",
+ "category": null,
+ "price_excl_tax": 658,
+ "price_incl_tax": 710.64,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "福岡県",
+  "佐賀県",
+  "熊本県"
+ ],
+ "region_text": "福岡県、佐賀県、熊本県",
+ "description": "あごだしと九州醤油の旨み・香りが際立つ、鶏もも肉のジューシーな唐揚げ弁当です。",
+ "nutrition": {
+  "kcal": 709.0,
+  "protein_g": 31.2,
+  "fat_g": 21.0,
+  "carbs_g": 100.5,
+  "sugar_g": 97.3,
+  "fiber_g": 3.2,
+  "salt_g": 3.1,
+  "raw": "熱量：709kcal、たんぱく質：31.2g、脂質：21.0g、炭水化物：100.5g（糖質：97.3g、食物繊維：3.2g）、食塩相当量：3.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "福岡県、佐賀県、熊本県",
+   "regions": [
+    "福岡県",
+    "佐賀県",
+    "熊本県"
+   ],
+   "price_excl_tax": 658,
+   "price_incl_tax": 710.64,
+   "url": "https://www.sej.co.jp/products/a/item/044900/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044900/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044900/kyushu/"
+ ],
+ "first_seen_at": "2026-10-06T07:06:26+09:00",
+ "fetched_at": "2026-10-06T07:06:26+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

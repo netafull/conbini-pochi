@@ -1,0 +1,53 @@
+{
+ "chain": "seven",
+ "product_id": "044851",
+ "name": "牛焼肉めし（もち麦）",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "ぷちぷちとした食感のもち麦を混ぜた御飯の上に、果実の甘さを感じられる醤油ベースのさらっとしたタレで味付けした牛焼肉と相性の良い玉ねぎ炒めを盛り付けました。",
+ "nutrition": {
+  "kcal": 429.0,
+  "protein_g": 12.5,
+  "fat_g": 12.9,
+  "carbs_g": 68.1,
+  "sugar_g": 63.1,
+  "fiber_g": 5.0,
+  "salt_g": 1.8,
+  "raw": "熱量：429kcal、たんぱく質：12.5g、脂質：12.9g、炭水化物：68.1g（糖質：63.1g、食物繊維：5.0g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044851/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044851/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044851/tokai/"
+ ],
+ "first_seen_at": "2026-10-06T07:05:09+09:00",
+ "fetched_at": "2026-10-06T07:05:09+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

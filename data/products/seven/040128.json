@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "040128",
+ "name": "五目おこわおむすび　群馬県産舞茸使用",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県"
+ ],
+ "region_text": "茨城県、栃木県、群馬県、埼玉県",
+ "description": "群馬県産舞茸を使用し、きのこの風味と鶏肉の旨味が感じられるおこわおむすびです。",
+ "nutrition": {
+  "kcal": 192.0,
+  "protein_g": 5.1,
+  "fat_g": 3.0,
+  "carbs_g": 36.8,
+  "sugar_g": 35.4,
+  "fiber_g": 1.4,
+  "salt_g": 1.8,
+  "raw": "熱量：192kcal、たんぱく質：5.1g、脂質：3.0g、炭水化物：36.8g（糖質：35.4g、食物繊維：1.4g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県、栃木県、群馬県、埼玉県",
+   "regions": [
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/040128/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040128/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040128/kanto/"
+ ],
+ "first_seen_at": "2026-10-06T07:03:32+09:00",
+ "fetched_at": "2026-10-06T07:03:32+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

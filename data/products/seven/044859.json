@@ -1,0 +1,209 @@
+{
+ "chain": "seven",
+ "product_id": "044859",
+ "name": "おおきなおむすび　チャーシューマヨネーズ",
+ "category": null,
+ "price_excl_tax": 268,
+ "price_incl_tax": 289.44,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "食べ応えのあるおおきな直巻おむすびです。中具には甘辛い醤油だれの、チャーシューマヨネーズを使用しています。",
+ "nutrition": {
+  "kcal": 368.0,
+  "protein_g": 8.3,
+  "fat_g": 8.8,
+  "carbs_g": 65.5,
+  "sugar_g": 62.4,
+  "fiber_g": 3.1,
+  "salt_g": 1.7,
+  "raw": "熱量：368kcal、たんぱく質：8.3g、脂質：8.8g、炭水化物：65.5g（糖質：62.4g、食物繊維：3.1g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/tohoku/"
+  },
+  "kanto": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/hokuriku/"
+  },
+  "tokai": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/tokai/"
+  },
+  "kinki": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/kinki/"
+  },
+  "chugoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/044859/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044859/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044859/chugoku/",
+  "https://www.sej.co.jp/products/a/item/044859/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044859/kanto/",
+  "https://www.sej.co.jp/products/a/item/044859/kinki/",
+  "https://www.sej.co.jp/products/a/item/044859/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/044859/kyushu/",
+  "https://www.sej.co.jp/products/a/item/044859/shikoku/",
+  "https://www.sej.co.jp/products/a/item/044859/tohoku/",
+  "https://www.sej.co.jp/products/a/item/044859/tokai/"
+ ],
+ "first_seen_at": "2026-10-06T07:02:15+09:00",
+ "fetched_at": "2026-10-06T07:02:15+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
