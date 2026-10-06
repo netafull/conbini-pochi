@@ -2,6 +2,18 @@
  "articles": {
   "familymart": [
    {
+    "date": "2026-10-06T12:15:00",
+    "id": 210419,
+    "link": "https://netaful.jp/conbini-meshi/0210419.html",
+    "product_name": "味千拉麺監修 大盛 焼ラーメン",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/famima-yaki-ramen-004-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ファミマ】「味千拉麺監修 大盛 焼ラーメン」大盛394gが500円台で食べられる！熊本復興応援の焼きラーメン"
+   },
+   {
     "date": "2026-10-05T17:30:00",
     "id": 210378,
     "link": "https://netaful.jp/conbini-meshi/0210378.html",
@@ -11908,13 +11920,16 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-06T07:07:58+09:00",
+ "fetched_at": "2026-10-07T07:00:54+09:00",
  "matches": {
   "familymart-0510967": [
    210378
   ],
   "familymart-0810043": [
    210197
+  ],
+  "familymart-0827065": [
+   210419
   ],
   "familymart-1522617": [
    209948
