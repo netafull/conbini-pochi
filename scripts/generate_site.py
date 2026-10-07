@@ -10,6 +10,7 @@ from __future__ import annotations
 import datetime
 import html
 import json
+import re
 import shutil
 import unicodedata
 from pathlib import Path
@@ -345,10 +346,42 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 @media (max-width: 480px) {
   .review-grid { grid-template-columns: repeat(2, 1fr); }
 }
+/* 手動のAdSense広告枠(Auto adsは使わない)。
+   width:100%指定必須: グリッドやflexの中で幅が0に潰れるとAdSenseが配信に失敗する。
+   overflow:hiddenは付けない(広告の一部が隠れるとポリシー違反になりうる)。
+   既定でdisplay:noneにもしない(幅0だと配信自体が失敗する)。未充填だけ畳む */
+.ad-slot { width: 100%; max-width: 960px; margin: 16px auto; background: var(--card);
+  border: 1px solid var(--line); border-radius: 10px; padding: 12px; text-align: center; }
+.ad-slot:has(ins[data-ad-status="unfilled"]) { display: none; }
 """
 
 
-def page_shell(title: str, description: str, body: str, canonical: str, extra_head: str = "") -> str:
+def render_ad_slot() -> str:
+    """手動設置のディスプレイ広告ユニット。
+
+    adsense_client_id / adsense_ad_slot のどちらかが未設定なら何も出さない。
+    置く場所は [data-sortable] のグリッドの外だけ(SORT_JSが並び替えで枠を壊すため)。
+    コンビニポチにはタブ切替が無く隠れる枠も作らないので、電書ポチと同じく
+    枠ごとのインラインpushでよい(display:noneの中には置かないこと)。
+    data-ad-formatはrectangle(autoだと縦長の広告が来る)
+    """
+    ad_slot = CONFIG.get("adsense_ad_slot", "")
+    adsense_id = CONFIG.get("adsense_client_id", "")
+    if not ad_slot or not adsense_id:
+        return ""
+    return f"""<div class="ad-slot">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="{esc(adsense_id)}"
+     data-ad-slot="{esc(ad_slot)}"
+     data-ad-format="rectangle"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({{}});</script>
+</div>"""
+
+
+def page_shell(title: str, description: str, body: str, canonical: str, extra_head: str = "",
+               header_ad: bool = False) -> str:
     site_url = CONFIG.get("site_url", "")
     page_title = f'{esc(title)}｜{esc(CONFIG["site_title"])}' if title != CONFIG["site_title"] else esc(title)
 
@@ -360,6 +393,16 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
             "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
             f"gtag('js',new Date());gtag('config','{esc(ga_id)}');</script>"
         )
+
+    # AdSenseの広告コード。ads.txtはルートドメイン(netaful.jp)のものがサブドメインにも
+    # 適用されるため、このサイトでは置かない
+    adsense_id = CONFIG.get("adsense_client_id", "")
+    adsense_tag = (
+        '<script async src="https://pagead2.googlesyndication.com/pagead/js/'
+        f'adsbygoogle.js?client={esc(adsense_id)}" crossorigin="anonymous"></script>'
+        if adsense_id else ""
+    )
+    header_ad_html = render_ad_slot() if header_ad else ""
 
     # 見出しの左に置くポチシリーズ共通のアイコン。ファビコン等と同じく、
     # 画像が置かれていなければ何も出さない
@@ -397,7 +440,7 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
         f'｜ <a href="{esc(policy_url)}">メディアポリシー</a>\n' if policy_url else ""
     )
 
-    return f"""<!DOCTYPE html>
+    out = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="utf-8">
@@ -406,6 +449,7 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 <meta name="description" content="{esc(description)}">
 <link rel="canonical" href="{esc(canonical)}">
 {ga_tag}
+{adsense_tag}
 {chr(10).join(icon_tags)}
 <meta property="og:type" content="website">
 <meta property="og:title" content="{page_title}">
@@ -424,6 +468,7 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 <p>{esc(CONFIG["site_description"])}</p>
 {related_html}
 </header>
+{header_ad_html}
 <main>
 {body}
 </main>
@@ -436,6 +481,12 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 </body>
 </html>
 """
+    if adsense_id:
+        # AdSenseダッシュボードではvignette(全画面)広告をサブドメイン単位で無効化
+        # できないため、リンクごとにdata-google-vignette="false"を付ける
+        # (SEARCH_JSが組み立てるリンクも同じ正規表現で拾う)
+        out = re.sub(r'<a (?![^>]*data-google-vignette)', '<a data-google-vignette="false" ', out)
+    return out
 
 
 SORT_JS = """
@@ -470,20 +521,24 @@ SORT_JS = """
 """
 
 
-def render_grouped(items: list[dict], sortable: bool = True) -> str:
+def render_grouped(items: list[dict], sortable: bool = True, ads: bool = False) -> str:
     """商品を社ごと(config.jsonのchains順)にまとめ、各社の中は発売日の新しい順に並べる。"""
     attr = " data-sortable" if sortable else ""
+    ad_html = render_ad_slot() if ads else ""
     sections = []
-    for c in CHAINS:
+    active = [c for c in CHAINS if any(it["chain"] == c["slug"] for it in items)]
+    for c in active:
         group = [it for it in items if it["chain"] == c["slug"]]
-        if not group:
-            continue
         group.sort(key=lambda it: effective_date(it) or "", reverse=True)
         cards = "\n".join(render_card(it) for it in group)
         sections.append(
             f'<section class="chain-group" data-chain="{esc(c["slug"])}">\n'
             f'<h3>{esc(c["name"])} ({len(group)}件)</h3>\n'
-            f'<div class="grid"{attr}>\n{cards}\n</div>\n</section>'
+            f'<div class="grid"{attr}>\n{cards}\n</div>\n'
+            # 広告は社グループの間(最後のグループの後ろには置かない)。
+            # [data-sortable]のグリッドの外、グループ(.chain-group)の内側に置くので、
+            # 並び替えで位置が壊れず、社の絞り込みでグループごと隠れる
+            f'{ad_html if ads and c is not active[-1] else ""}\n</section>'
         )
     return "\n".join(sections)
 
@@ -549,10 +604,10 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
 </div>"""
     body = f"""<h2>{esc(title)} ({len(items)}件)</h2>
 {filters}
-{render_grouped(items)}
+{render_grouped(items, ads=True)}
 {SORT_JS if show_filters else ""}
 {reviews_section}"""
-    return page_shell(title, description, body, canonical)
+    return page_shell(title, description, body, canonical, header_ad=True)
 
 
 def render_top(items: list[dict]) -> str:
@@ -618,7 +673,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 <option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option>
 <option value="lawson">ローソン</option></select></label>
 </div>
-{render_grouped(current_items)}
+{render_grouped(current_items, ads=True)}
 {SORT_JS}
 {next_section}
 {weeks_link}
@@ -636,6 +691,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
     return page_shell(
         CONFIG["site_title"], CONFIG["site_description"], body, site_url,
         extra_head=f'<script type="application/ld+json">{site_name_ld}</script>',
+        header_ad=True,
     )
 
 
@@ -755,6 +811,11 @@ def render_item_page(item: dict) -> str:
 {chr(10).join(render_review_card(a) for a in recent)}
 </div>"""
 
+    # 広告は栄養成分・アレルゲン・地域別価格の下、ネタフルのレビュー欄の上。公式説明文の
+    # 引用ブロック(出典・注意書き含む)のすぐ隣には置かない。間に置く内容が何も無い
+    # 商品では引用の直後になってしまうので、本文中の枠は出さない(ヘッダー直下の1枠のみ)
+    mid_ad = render_ad_slot() if (nut_rows or allergen_html or variants_html) else ""
+
     body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
 <div class="detail">
 <div class="badge" style="display:inline-block;font-size:11px;font-weight:700;color:#fff;
@@ -768,6 +829,7 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
 {nut_rows}
 {allergen_html}
 {variants_html}
+{mid_ad}
 {reviews_html}
 {related_html}
 </div>"""
@@ -785,7 +847,7 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
     if date:
         bits.append(f"{date}発売")
     seo_desc = "、".join(bits) + "。" + (item.get("description") or "")
-    return page_shell(seo_title, seo_desc[:200], body, canonical)
+    return page_shell(seo_title, seo_desc[:200], body, canonical, header_ad=True)
 
 
 # AIの学習データ集め専用のクローラーは断る。商品説明は各社公式サイトからの引用なので、

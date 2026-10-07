@@ -8,6 +8,7 @@
 <link rel="canonical" href="https://conbini.netaful.jp/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-832CBEYG4T"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-832CBEYG4T');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2195959398357532" crossorigin="anonymous"></script>
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
@@ -122,25 +123,41 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 @media (max-width: 480px) {
   .review-grid { grid-template-columns: repeat(2, 1fr); }
 }
+/* 手動のAdSense広告枠(Auto adsは使わない)。
+   width:100%指定必須: グリッドやflexの中で幅が0に潰れるとAdSenseが配信に失敗する。
+   overflow:hiddenは付けない(広告の一部が隠れるとポリシー違反になりうる)。
+   既定でdisplay:noneにもしない(幅0だと配信自体が失敗する)。未充填だけ畳む */
+.ad-slot { width: 100%; max-width: 960px; margin: 16px auto; background: var(--card);
+  border: 1px solid var(--line); border-radius: 10px; padding: 12px; text-align: center; }
+.ad-slot:has(ins[data-ad-status="unfilled"]) { display: none; }
 </style>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "コンビニポチ", "alternateName": ["Conbini Pochi"], "url": "https://conbini.netaful.jp/"}</script>
 </head>
 <body>
 <header>
-<h1><a href="/"><img src="/assets/logo.png" alt="" width="32" height="32">コンビニポチ</a></h1>
+<h1><a data-google-vignette="false" href="/"><img src="/assets/logo.png" alt="" width="32" height="32">コンビニポチ</a></h1>
 <p>セブンイレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています</p>
 <nav class="sites"><span class="lbl">関連サイト</span>
-<a href="https://book.netaful.jp/">電書ポチ<span class="lbl"> Kindle本セール</span></a>
-<a href="https://kaden.netaful.jp/">家電ポチ<span class="lbl"> ガジェット・家電セール</span></a>
-<a href="https://apple.netaful.jp/">林檎ポチ<span class="lbl"> Apple整備済製品</span></a>
-<a href="https://manga.netaful.jp/">漫画ポチ<span class="lbl"> Webマンガ横断検索</span></a>
+<a data-google-vignette="false" href="https://book.netaful.jp/">電書ポチ<span class="lbl"> Kindle本セール</span></a>
+<a data-google-vignette="false" href="https://kaden.netaful.jp/">家電ポチ<span class="lbl"> ガジェット・家電セール</span></a>
+<a data-google-vignette="false" href="https://apple.netaful.jp/">林檎ポチ<span class="lbl"> Apple整備済製品</span></a>
+<a data-google-vignette="false" href="https://manga.netaful.jp/">漫画ポチ<span class="lbl"> Webマンガ横断検索</span></a>
 </nav>
 </header>
+<div class="ad-slot">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2195959398357532"
+     data-ad-slot="1215675017"
+     data-ad-format="rectangle"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 <main>
 <div class="chainlist">
-<a href="/chains/seven/">セブンイレブン</a>
-<a href="/chains/familymart/">ファミリーマート</a>
-<a href="/chains/lawson/">ローソン</a>
+<a data-google-vignette="false" href="/chains/seven/">セブンイレブン</a>
+<a data-google-vignette="false" href="/chains/familymart/">ファミリーマート</a>
+<a data-google-vignette="false" href="/chains/lawson/">ローソン</a>
 </div>
 <h2>商品名で検索</h2>
 <div class="searchbox"><input id="search-input" type="search"
@@ -162,7 +179,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
         return it.n.toLowerCase().indexOf(lower) !== -1;
       }).slice(0, 50);
       results.innerHTML = hits.map(function (it) {
-        return '<a class="item" data-chain="' + it.c + '" href="' + it.u + '">' +
+        return '<a data-google-vignette="false" class="item" data-chain="' + it.c + '" href="' + it.u + '">' +
           '<div class="badge">' + it.cn + '</div><div class="t">' + it.n +
           '</div><div class="meta">' + (it.d || '') + '</div></a>';
       }).join('');
@@ -177,42 +194,42 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 
 <h2>ネタフルの最新レビュー</h2>
 <div class="review-grid">
-<a class="review-card" href="https://netaful.jp/conbini-meshi/0210419.html" target="_blank" rel="noopener">
+<a data-google-vignette="false" class="review-card" href="https://netaful.jp/conbini-meshi/0210419.html" target="_blank" rel="noopener">
 <img src="https://netaful.jp/wp-content/uploads/2026/10/famima-yaki-ramen-004-485x364.jpeg" alt="【ファミマ】「味千拉麺監修 大盛 焼ラーメン」大盛394gが500円台で食べられる！熊本復興応援の焼きラーメン" loading="lazy" width="485" height="364">
 <div class="rc-body">
 <div class="rc-t">【ファミマ】「味千拉麺監修 大盛 焼ラーメン」大盛394gが500円台で食べられる！熊本復興応援の焼きラーメン</div>
 <div class="rc-date">2026-10-06</div>
 </div>
 </a>
-<a class="review-card" href="https://netaful.jp/conbini-meshi/0210378.html" target="_blank" rel="noopener">
+<a data-google-vignette="false" class="review-card" href="https://netaful.jp/conbini-meshi/0210378.html" target="_blank" rel="noopener">
 <img src="https://netaful.jp/wp-content/uploads/2026/10/famima-torotaku-001-485x364.jpeg" alt="【ファミマ】「ぱくっと寿司 とろたく」268円！約17.5cmのワンハンド細巻はたくあんが満遍なく入って旨い" loading="lazy" width="485" height="364">
 <div class="rc-body">
 <div class="rc-t">【ファミマ】「ぱくっと寿司 とろたく」268円！約17.5cmのワンハンド細巻はたくあんが満遍なく入って旨い</div>
 <div class="rc-date">2026-10-05</div>
 </div>
 </a>
-<a class="review-card" href="https://netaful.jp/seven-eleven/0210336.html" target="_blank" rel="noopener">
+<a data-google-vignette="false" class="review-card" href="https://netaful.jp/seven-eleven/0210336.html" target="_blank" rel="noopener">
 <img src="https://netaful.jp/wp-content/uploads/2026/10/711-mabo-yakisoba-003-485x364.jpeg" alt="【セブン】「麻婆豆腐焼そば」麻婆豆腐を白米ではなく焼きそばで！シビ辛がたまらない" loading="lazy" width="485" height="364">
 <div class="rc-body">
 <div class="rc-t">【セブン】「麻婆豆腐焼そば」麻婆豆腐を白米ではなく焼きそばで！シビ辛がたまらない</div>
 <div class="rc-date">2026-10-04</div>
 </div>
 </a>
-<a class="review-card" href="https://netaful.jp/conbini-meshi/0210317.html" target="_blank" rel="noopener">
+<a data-google-vignette="false" class="review-card" href="https://netaful.jp/conbini-meshi/0210317.html" target="_blank" rel="noopener">
 <img src="https://netaful.jp/wp-content/uploads/2026/10/famima-crape-siphon-003-485x364.jpeg" alt="【ファミマ】「クレープシフォンケーキ」見た目はクレープ、食べたらふわふわシフォンだった！" loading="lazy" width="485" height="364">
 <div class="rc-body">
 <div class="rc-t">【ファミマ】「クレープシフォンケーキ」見た目はクレープ、食べたらふわふわシフォンだった！</div>
 <div class="rc-date">2026-10-04</div>
 </div>
 </a>
-<a class="review-card" href="https://netaful.jp/conbini-meshi/0210197.html" target="_blank" rel="noopener">
+<a data-google-vignette="false" class="review-card" href="https://netaful.jp/conbini-meshi/0210197.html" target="_blank" rel="noopener">
 <img src="https://netaful.jp/wp-content/uploads/2026/10/famima-susuru-003-485x364.jpeg" alt="【ファミマ】「SUSURU TV.監修 北ノ醤油チーホー北ノ醤油ラーメン」698円！背脂とひき肉炒めのコクが溶け込んだ濃いめ醤油スープが旨い" loading="lazy" width="485" height="364">
 <div class="rc-body">
 <div class="rc-t">【ファミマ】「SUSURU TV.監修 北ノ醤油チーホー北ノ醤油ラーメン」698円！背脂とひき肉炒めのコクが溶け込んだ濃いめ醤油スープが旨い</div>
 <div class="rc-date">2026-10-02</div>
 </div>
 </a>
-<a class="review-card" href="https://netaful.jp/seven-eleven/0210140.html" target="_blank" rel="noopener">
+<a data-google-vignette="false" class="review-card" href="https://netaful.jp/seven-eleven/0210140.html" target="_blank" rel="noopener">
 <img src="https://netaful.jp/wp-content/uploads/2026/09/711-mara-chahan-omusubi-001-485x364.jpeg" alt="【セブン】「麻辣チャーハンおむすび」は美味しい？ パラっとした食感のシビ辛チャーハンをおむすびで食べてみた" loading="lazy" width="485" height="364">
 <div class="rc-body">
 <div class="rc-t">【セブン】「麻辣チャーハンおむすび」は美味しい？ パラっとした食感のシビ辛チャーハンをおむすびで食べてみた</div>
@@ -231,7 +248,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 <section class="chain-group" data-chain="seven">
 <h3>セブンイレブン (37件)</h3>
 <div class="grid" data-sortable>
-<a class="item" href="items/seven-044857.html" data-kcal="179.0"
+<a data-google-vignette="false" class="item" href="items/seven-044857.html" data-kcal="179.0"
    data-date="2026-10-08" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">銀しゃりむすび　ねぎ味噌</div>
@@ -239,7 +256,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-08 発売</div>
   
 </a>
-<a class="item" href="items/seven-044858.html" data-kcal="192.0"
+<a data-google-vignette="false" class="item" href="items/seven-044858.html" data-kcal="192.0"
    data-date="2026-10-08" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">銀しゃりむすび　鶏そぼろ</div>
@@ -247,7 +264,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-08 発売</div>
   
 </a>
-<a class="item" href="items/seven-040122.html" data-kcal="261.0"
+<a data-google-vignette="false" class="item" href="items/seven-040122.html" data-kcal="261.0"
    data-date="2026-10-07" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">焼つくねおむすび</div>
@@ -255,7 +272,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/seven-054036.html" data-kcal="309.0"
+<a data-google-vignette="false" class="item" href="items/seven-054036.html" data-kcal="309.0"
    data-date="2026-10-07" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">照焼チキンとたまごサンド</div>
@@ -263,7 +280,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/seven-054038.html" data-kcal="332.0"
+<a data-google-vignette="false" class="item" href="items/seven-054038.html" data-kcal="332.0"
    data-date="2026-10-07" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ハムとたまごのサンド</div>
@@ -271,7 +288,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/seven-054040.html" data-kcal="362.0"
+<a data-google-vignette="false" class="item" href="items/seven-054040.html" data-kcal="362.0"
    data-date="2026-10-07" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ジューシーハムサンド</div>
@@ -279,7 +296,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/seven-054087.html" data-kcal="358.0"
+<a data-google-vignette="false" class="item" href="items/seven-054087.html" data-kcal="358.0"
    data-date="2026-10-07" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ジューシーハムサンド</div>
@@ -287,7 +304,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/seven-040061.html" data-kcal="279.0"
+<a data-google-vignette="false" class="item" href="items/seven-040061.html" data-kcal="279.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">みりん醤油仕立てのあじほぐし御飯（もち麦）</div>
@@ -295,7 +312,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040093.html" data-kcal="595.0"
+<a data-google-vignette="false" class="item" href="items/seven-040093.html" data-kcal="595.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ＣＡＦＥ　ＢＯＸ　チキンオーバーライス</div>
@@ -303,7 +320,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040114.html" data-kcal="556.0"
+<a data-google-vignette="false" class="item" href="items/seven-040114.html" data-kcal="556.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">おむすび＆おかず　焼鮭・和風ツナマヨネーズ</div>
@@ -311,7 +328,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040151.html" data-kcal="199.0"
+<a data-google-vignette="false" class="item" href="items/seven-040151.html" data-kcal="199.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">味付海苔おにぎり　たまご醤油</div>
@@ -319,7 +336,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040202.html" data-kcal="415.0"
+<a data-google-vignette="false" class="item" href="items/seven-040202.html" data-kcal="415.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">もち麦おむすびセット　しそわかめ・鶏めし</div>
@@ -327,7 +344,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040204.html" data-kcal="866.0"
+<a data-google-vignette="false" class="item" href="items/seven-040204.html" data-kcal="866.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ロースとんかつ弁当</div>
@@ -335,7 +352,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040209.html" data-kcal="866.0"
+<a data-google-vignette="false" class="item" href="items/seven-040209.html" data-kcal="866.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ロースとんかつ弁当</div>
@@ -343,7 +360,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040210.html" data-kcal="739.0"
+<a data-google-vignette="false" class="item" href="items/seven-040210.html" data-kcal="739.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">醤油唐揚げ＆ヒレカツ弁当</div>
@@ -351,7 +368,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040213.html" data-kcal="445.0"
+<a data-google-vignette="false" class="item" href="items/seven-040213.html" data-kcal="445.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">温玉とりそぼろ丼</div>
@@ -359,7 +376,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040302.html" data-kcal="174.0"
+<a data-google-vignette="false" class="item" href="items/seven-040302.html" data-kcal="174.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">手巻おにぎり　炭火焼紅しゃけ</div>
@@ -367,7 +384,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040312.html" data-kcal="232.0"
+<a data-google-vignette="false" class="item" href="items/seven-040312.html" data-kcal="232.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">手巻おにぎり　海老マヨネーズ</div>
@@ -375,7 +392,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040313.html" data-kcal="258.0"
+<a data-google-vignette="false" class="item" href="items/seven-040313.html" data-kcal="258.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">手巻おにぎり　ツナマヨネーズ</div>
@@ -383,7 +400,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040315.html" data-kcal="171.0"
+<a data-google-vignette="false" class="item" href="items/seven-040315.html" data-kcal="171.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">手巻おにぎり　北海道産昆布</div>
@@ -391,7 +408,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-040316.html" data-kcal="166.0"
+<a data-google-vignette="false" class="item" href="items/seven-040316.html" data-kcal="166.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">手巻おにぎり　熟成仕立て紀州南高梅</div>
@@ -399,7 +416,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-041337.html" data-kcal="214.0"
+<a data-google-vignette="false" class="item" href="items/seven-041337.html" data-kcal="214.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">味付のりおにぎり　海老マヨネーズ</div>
@@ -407,7 +424,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-042810.html" data-kcal="611.0"
+<a data-google-vignette="false" class="item" href="items/seven-042810.html" data-kcal="611.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">お好みおかず弁当</div>
@@ -415,7 +432,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-043925.html" data-kcal="763.0"
+<a data-google-vignette="false" class="item" href="items/seven-043925.html" data-kcal="763.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">チキン南蛮＆生姜焼き弁当</div>
@@ -423,7 +440,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044569.html" data-kcal="517.0"
+<a data-google-vignette="false" class="item" href="items/seven-044569.html" data-kcal="517.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">鶏だしの旨み　ふわっとろ親子丼</div>
@@ -431,7 +448,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044741.html" data-kcal="213.0"
+<a data-google-vignette="false" class="item" href="items/seven-044741.html" data-kcal="213.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">はらこめしおむすび</div>
@@ -439,7 +456,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044742.html" data-kcal="797.0"
+<a data-google-vignette="false" class="item" href="items/seven-044742.html" data-kcal="797.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ばらかき揚げ＆白身フライ弁当</div>
@@ -447,7 +464,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044770.html" data-kcal="321.0"
+<a data-google-vignette="false" class="item" href="items/seven-044770.html" data-kcal="321.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">おかかだしごはんで食べる高菜弁当</div>
@@ -455,7 +472,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044785.html" data-kcal="267.0"
+<a data-google-vignette="false" class="item" href="items/seven-044785.html" data-kcal="267.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">真あじ一夜干し御飯（もち麦）</div>
@@ -463,7 +480,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044786.html" data-kcal="848.0"
+<a data-google-vignette="false" class="item" href="items/seven-044786.html" data-kcal="848.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ねぎ塩豚とろ弁当</div>
@@ -471,7 +488,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044791.html" data-kcal="173.0"
+<a data-google-vignette="false" class="item" href="items/seven-044791.html" data-kcal="173.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">手巻おにぎり　具たっぷり辛子明太子</div>
@@ -479,7 +496,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044797.html" data-kcal="647.0"
+<a data-google-vignette="false" class="item" href="items/seven-044797.html" data-kcal="647.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">鉄鍋炒めの肉やきめし</div>
@@ -487,7 +504,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044799.html" data-kcal="385.0"
+<a data-google-vignette="false" class="item" href="items/seven-044799.html" data-kcal="385.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ポーク玉子おむすび</div>
@@ -495,7 +512,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044800.html" data-kcal="448.0"
+<a data-google-vignette="false" class="item" href="items/seven-044800.html" data-kcal="448.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ポーク玉子おむすび　ツナマヨネーズ</div>
@@ -503,7 +520,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044801.html" data-kcal="188.0"
+<a data-google-vignette="false" class="item" href="items/seven-044801.html" data-kcal="188.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">しゃけバターおむすび　北海道産秋鮭使用</div>
@@ -511,7 +528,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044802.html" data-kcal="223.0"
+<a data-google-vignette="false" class="item" href="items/seven-044802.html" data-kcal="223.0"
    data-date="2026-10-06" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">室蘭風やきとりおむすび</div>
@@ -519,7 +536,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/seven-044774.html" data-kcal="480.0"
+<a data-google-vignette="false" class="item" href="items/seven-044774.html" data-kcal="480.0"
    data-date="2026-10-05" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">Ｓｕａｇｅ監修チキンと野菜のスープカレー</div>
@@ -528,11 +545,20 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   
 </a>
 </div>
+<div class="ad-slot">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2195959398357532"
+     data-ad-slot="1215675017"
+     data-ad-format="rectangle"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 </section>
 <section class="chain-group" data-chain="familymart">
 <h3>ファミリーマート (42件)</h3>
 <div class="grid" data-sortable>
-<a class="item" href="items/familymart-0252508.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0252508.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ファミチキ（ごま山椒味）</div>
@@ -540,7 +566,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・ホットスナック・惣菜</div>
   
 </a>
-<a class="item" href="items/familymart-0411998.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0411998.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ぼんご監修　大きなおむすび　まぐろたくあんと卵黄醤油だれ</div>
@@ -548,7 +574,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・おむすび</div>
   
 </a>
-<a class="item" href="items/familymart-0412032.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0412032.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">具だくさん！だし玉子焼と明太子</div>
@@ -556,7 +582,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・おむすび</div>
   
 </a>
-<a class="item" href="items/familymart-0414166.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0414166.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">佐々長味噌　青じそ味噌</div>
@@ -564,7 +590,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・おむすび</div>
   
 </a>
-<a class="item" href="items/familymart-0415804.html" data-kcal="199.0"
+<a data-google-vignette="false" class="item" href="items/familymart-0415804.html" data-kcal="199.0"
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">なす味噌おむすび</div>
@@ -572,7 +598,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・おむすび</div>
   
 </a>
-<a class="item" href="items/familymart-0510318.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0510318.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">手巻寿司　サーモンたくあん（青まぜ）</div>
@@ -580,7 +606,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お寿司</div>
   
 </a>
-<a class="item" href="items/familymart-0510493.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0510493.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ぱくっと寿司　ツナマヨカニカマ</div>
@@ -588,7 +614,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お寿司</div>
   
 </a>
-<a class="item" href="items/familymart-0616461.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0616461.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ファミマ・ザ・海苔弁当</div>
@@ -596,7 +622,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お弁当</div>
   
 </a>
-<a class="item" href="items/familymart-0815116.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0815116.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">焼津産鰹節使用　まぜそば</div>
@@ -604,7 +630,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・そば・うどん・中華めん</div>
   
 </a>
-<a class="item" href="items/familymart-0822718.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0822718.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">生パスタ　3種チーズと野菜たっぷりミートのダブルソース仕立て</div>
@@ -612,7 +638,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・パスタ</div>
   
 </a>
-<a class="item" href="items/familymart-0910293.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0910293.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">手仕込み　ヒレカツサンド</div>
@@ -620,7 +646,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・サンドイッチ・ロールパン・バーガー</div>
   
 </a>
-<a class="item" href="items/familymart-0916493.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0916493.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">チキンカツとたまごサンド</div>
@@ -628,7 +654,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・サンドイッチ・ロールパン・バーガー</div>
   
 </a>
-<a class="item" href="items/familymart-0927178.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0927178.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ホットサンド　焦がしチーズとベーコンのパニーニ</div>
@@ -636,7 +662,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・サンドイッチ・ロールパン・バーガー</div>
   
 </a>
-<a class="item" href="items/familymart-0927208.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0927208.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ホットサンド　はみだしドッグ（白身魚フライ）</div>
@@ -644,7 +670,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・サンドイッチ・ロールパン・バーガー</div>
   
 </a>
-<a class="item" href="items/familymart-0970181.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-0970181.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">トルティーヤ　ケバブチキン</div>
@@ -652,7 +678,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・サンドイッチ・ロールパン・バーガー</div>
   
 </a>
-<a class="item" href="items/familymart-1022186.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1022186.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ロールキャベツと彩り野菜のコンソメスープ</div>
@@ -660,7 +686,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・スープ・グラタン・お好み焼き</div>
   
 </a>
-<a class="item" href="items/familymart-1063240.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1063240.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">増量　鉄板手焼きの豚玉お好み焼</div>
@@ -668,7 +694,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・スープ・グラタン・お好み焼き</div>
   
 </a>
-<a class="item" href="items/familymart-1063387.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1063387.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">増量　太麺使用　広島お好み焼</div>
@@ -676,7 +702,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・スープ・グラタン・お好み焼き</div>
   
 </a>
-<a class="item" href="items/familymart-1132847.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1132847.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">カニカマとブロッコリーのマヨ和えサラダ</div>
@@ -684,7 +710,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・チルド惣菜</div>
   
 </a>
-<a class="item" href="items/familymart-1132939.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1132939.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">中華風春雨サラダ</div>
@@ -692,7 +718,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・チルド惣菜</div>
   
 </a>
-<a class="item" href="items/familymart-1132984.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1132984.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">冷たいまま食べる油淋鶏</div>
@@ -700,7 +726,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・チルド惣菜</div>
   
 </a>
-<a class="item" href="items/familymart-1134209.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1134209.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">キャベツと食べる　親鶏炭火焼ペッパー風味</div>
@@ -708,7 +734,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・チルド惣菜</div>
   
 </a>
-<a class="item" href="items/familymart-1210835.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1210835.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">海老マヨのサラダ</div>
@@ -716,7 +742,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・サラダ</div>
   
 </a>
-<a class="item" href="items/familymart-1222388.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1222388.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ごま香る！担担風パスタサラダ</div>
@@ -724,7 +750,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・サラダ</div>
   
 </a>
-<a class="item" href="items/familymart-1512311.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1512311.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ハムチーズパニーニ3個入</div>
@@ -732,7 +758,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・パン</div>
   
 </a>
-<a class="item" href="items/familymart-1521184.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1521184.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">塩バターたまごサンド</div>
@@ -740,7 +766,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・パン</div>
   
 </a>
-<a class="item" href="items/familymart-1536515.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1536515.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">どかっとホイップメロンパン</div>
@@ -748,7 +774,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・パン</div>
   
 </a>
-<a class="item" href="items/familymart-1537369.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1537369.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">どかっとツイストサンド（カスタード&amp;ホイップ）</div>
@@ -756,7 +782,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・パン</div>
   
 </a>
-<a class="item" href="items/familymart-1940022.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1940022.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">かじる濃厚ガトーショコラ</div>
@@ -764,7 +790,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・デザート</div>
   
 </a>
-<a class="item" href="items/familymart-1952766.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1952766.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ラブポーションサーティワン風タルト</div>
@@ -772,7 +798,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・デザート</div>
   
 </a>
-<a class="item" href="items/familymart-1954340.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-1954340.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">とろ生おいもチーズケーキ</div>
@@ -780,7 +806,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・デザート</div>
   
 </a>
-<a class="item" href="items/familymart-3432082.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-3432082.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ハーゲンダッツ　パパパパンプキンタルト</div>
@@ -788,7 +814,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・アイス</div>
   
 </a>
-<a class="item" href="items/familymart-4231301.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-4231301.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">Afternoon Tea監修　ミックスベリー香るルイボスティー　600ml</div>
@@ -796,7 +822,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・飲料</div>
   
 </a>
-<a class="item" href="items/familymart-4431404.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-4431404.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">オレンジサイダー　500ml</div>
@@ -804,7 +830,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・飲料</div>
   
 </a>
-<a class="item" href="items/familymart-4726852.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-4726852.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">ドルチェ　とろむに　白桃味</div>
@@ -812,7 +838,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お菓子</div>
   
 </a>
-<a class="item" href="items/familymart-4916161.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-4916161.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">カルビー　ポテトチップス　ファミチキレッド味</div>
@@ -820,7 +846,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お菓子</div>
   
 </a>
-<a class="item" href="items/familymart-4916178.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-4916178.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">カルビー　ポテトチップス　ファミチキ味</div>
@@ -828,7 +854,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お菓子</div>
   
 </a>
-<a class="item" href="items/familymart-4922155.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-4922155.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">おやつカンパニー　ベビースタードデカイラーメンQ監修　醤油らぁ麺味</div>
@@ -836,7 +862,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お菓子</div>
   
 </a>
-<a class="item" href="items/familymart-5810796.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-5810796.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">タヴェルネッロオルガニコ　プリミティーヴォプーリア　1L</div>
@@ -844,7 +870,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お酒</div>
   
 </a>
-<a class="item" href="items/familymart-5810833.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-5810833.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">タヴェルネッロオルガニコ　テッレシチリアーネビアンコ　1L</div>
@@ -852,7 +878,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お酒</div>
   
 </a>
-<a class="item" href="items/familymart-5810932.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-5810932.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">タヴェルネッロオルガニコ　プリミティーヴォプーリア　250ml</div>
@@ -860,7 +886,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売・お酒</div>
   
 </a>
-<a class="item" href="items/familymart-5811014.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/familymart-5811014.html" data-kcal=""
    data-date="2026-10-06" data-chain="familymart">
   <div class="badge">ファミリーマート</div>
   <div class="t">タヴェルネッロオルガニコ　テッレシチリアーネビアンコ　250ml</div>
@@ -869,11 +895,20 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   
 </a>
 </div>
+<div class="ad-slot">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2195959398357532"
+     data-ad-slot="1215675017"
+     data-ad-format="rectangle"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
 </section>
 <section class="chain-group" data-chain="lawson">
 <h3>ローソン (39件)</h3>
 <div class="grid" data-sortable>
-<a class="item" href="items/lawson-1532836.html" data-kcal="131.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532836.html" data-kcal="131.0"
    data-date="2026-10-07" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">ひじきと5種野菜のさつま揚げ</div>
@@ -881,7 +916,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532837.html" data-kcal="226.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532837.html" data-kcal="226.0"
    data-date="2026-10-07" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">ウィンナー巻</div>
@@ -889,7 +924,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532900.html" data-kcal="32.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532900.html" data-kcal="32.0"
    data-date="2026-10-07" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">サントリー　ボス　コーヒーファーム　カフェラテ　ホット</div>
@@ -897,7 +932,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532901.html" data-kcal="0.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532901.html" data-kcal="0.0"
    data-date="2026-10-07" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">サントリー　ボス　コーヒーファーム　ブラック　ホット</div>
@@ -905,7 +940,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532902.html" data-kcal="38.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532902.html" data-kcal="38.0"
    data-date="2026-10-07" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">サントリー　ボス　コーヒーファーム　カフェモカ　ホット</div>
@@ -913,7 +948,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-07 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532838.html" data-kcal="126.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532838.html" data-kcal="126.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">ほうじ茶ラテ　茶葉2倍</div>
@@ -921,7 +956,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532839.html" data-kcal="714.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532839.html" data-kcal="714.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">麺大盛り　たらこ味焼そば</div>
@@ -929,7 +964,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532841.html" data-kcal="124.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532841.html" data-kcal="124.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">ほうじ茶ラテ</div>
@@ -937,7 +972,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532842.html" data-kcal="258.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532842.html" data-kcal="258.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">大きなおにぎり　青しそと茎わかめ(国産もち麦入り)</div>
@@ -945,7 +980,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532843.html" data-kcal="185.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532843.html" data-kcal="185.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">胡麻さけおにぎり</div>
@@ -953,7 +988,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532844.html" data-kcal="177.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532844.html" data-kcal="177.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">三陸産わかめごはんおにぎり</div>
@@ -961,7 +996,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532845.html" data-kcal="162.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532845.html" data-kcal="162.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">塩昆布と沢庵おにぎり(国産もち麦入り)</div>
@@ -969,7 +1004,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532846.html" data-kcal="181.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532846.html" data-kcal="181.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">だしおにぎり　しそ昆布</div>
@@ -977,7 +1012,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532847.html" data-kcal="495.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532847.html" data-kcal="495.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">海老と舞茸かき揚げの天丼</div>
@@ -985,7 +1020,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532848.html" data-kcal="367.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532848.html" data-kcal="367.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">きのこごはん弁当</div>
@@ -993,7 +1028,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532853.html" data-kcal=""
+<a data-google-vignette="false" class="item" href="items/lawson-1532853.html" data-kcal=""
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">徳島産業　みたらしわらび餅</div>
@@ -1001,7 +1036,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532854.html" data-kcal="169.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532854.html" data-kcal="169.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">ミルクたっぷり　ロイヤルミルクティー</div>
@@ -1009,7 +1044,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532855.html" data-kcal="84.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532855.html" data-kcal="84.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">濃厚ごまだれの棒棒鶏</div>
@@ -1017,7 +1052,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532856.html" data-kcal="185.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532856.html" data-kcal="185.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">炭火焼チキン　骨なし</div>
@@ -1025,7 +1060,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532857.html" data-kcal="308.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532857.html" data-kcal="308.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">グーコロ男爵</div>
@@ -1033,7 +1068,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532858.html" data-kcal="728.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532858.html" data-kcal="728.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">具たっぷり！大盛　照焼チキンマヨネーズ</div>
@@ -1041,7 +1076,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532859.html" data-kcal="677.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532859.html" data-kcal="677.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">具たっぷり！大盛　バター醤油仕立ての和風ツナ</div>
@@ -1049,7 +1084,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532860.html" data-kcal="73.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532860.html" data-kcal="73.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">紅芋サーターアンダギー　10個入</div>
@@ -1057,7 +1092,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532861.html" data-kcal="274.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532861.html" data-kcal="274.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">つぶあん＆カスタードデニッシュ　2個入</div>
@@ -1065,7 +1100,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532862.html" data-kcal="342.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532862.html" data-kcal="342.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">もっちドーナツ　こしあん</div>
@@ -1073,7 +1108,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532863.html" data-kcal="360.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532863.html" data-kcal="360.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">いかメンチカツロール　粒マスタードソース</div>
@@ -1081,7 +1116,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532864.html" data-kcal="377.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532864.html" data-kcal="377.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">えびカツロール　タルタルソース</div>
@@ -1089,7 +1124,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532865.html" data-kcal="282.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532865.html" data-kcal="282.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">マルゲリータフォカッチャ</div>
@@ -1097,7 +1132,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532866.html" data-kcal="323.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532866.html" data-kcal="323.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">ゴロチョコ！フォカッチャ</div>
@@ -1105,7 +1140,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532903.html" data-kcal="185.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532903.html" data-kcal="185.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">おいなりさん　きのこ(もち米入り)</div>
@@ -1113,7 +1148,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532904.html" data-kcal="791.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532904.html" data-kcal="791.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">ごはん大盛！鶏と野菜の甘酢弁当</div>
@@ -1121,7 +1156,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532905.html" data-kcal="564.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532905.html" data-kcal="564.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">鶏と野菜の甘酢弁当</div>
@@ -1129,7 +1164,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532906.html" data-kcal="445.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532906.html" data-kcal="445.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">タルタルフィッシュバーガー</div>
@@ -1137,7 +1172,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532907.html" data-kcal="181.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532907.html" data-kcal="181.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">サラダROLL　タコス</div>
@@ -1145,7 +1180,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532908.html" data-kcal="196.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532908.html" data-kcal="196.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">生ベイクドチーズケーキ</div>
@@ -1153,7 +1188,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532909.html" data-kcal="245.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532909.html" data-kcal="245.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">Uchi Café×Milk　МILKどらもっち</div>
@@ -1161,7 +1196,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532910.html" data-kcal="220.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532910.html" data-kcal="220.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">Uchi Café×Milk　MILKロールケーキ</div>
@@ -1169,7 +1204,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532913.html" data-kcal="190.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532913.html" data-kcal="190.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">大きな　焼おにぎり</div>
@@ -1177,7 +1212,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-06 発売</div>
   
 </a>
-<a class="item" href="items/lawson-1532914.html" data-kcal="172.0"
+<a data-google-vignette="false" class="item" href="items/lawson-1532914.html" data-kcal="172.0"
    data-date="2026-10-06" data-chain="lawson">
   <div class="badge">ローソン</div>
   <div class="t">大きな　鶏めしおにぎり</div>
@@ -1186,6 +1221,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   
 </a>
 </div>
+
 </section>
 
 <script>
@@ -1221,7 +1257,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 <section class="chain-group" data-chain="seven">
 <h3>セブンイレブン (38件)</h3>
 <div class="grid">
-<a class="item" href="items/seven-044826.html" data-kcal="672.0"
+<a data-google-vignette="false" class="item" href="items/seven-044826.html" data-kcal="672.0"
    data-date="2026-10-14" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">明太海苔弁当</div>
@@ -1229,7 +1265,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-14 発売</div>
   
 </a>
-<a class="item" href="items/seven-044827.html" data-kcal="669.0"
+<a data-google-vignette="false" class="item" href="items/seven-044827.html" data-kcal="669.0"
    data-date="2026-10-14" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">若鶏の唐揚げ弁当</div>
@@ -1237,7 +1273,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-14 発売</div>
   
 </a>
-<a class="item" href="items/seven-054081.html" data-kcal="449.0"
+<a data-google-vignette="false" class="item" href="items/seven-054081.html" data-kcal="449.0"
    data-date="2026-10-14" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">トーストサンド　タコミ―ト</div>
@@ -1245,7 +1281,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-14 発売</div>
   
 </a>
-<a class="item" href="items/seven-091879.html" data-kcal="863.0"
+<a data-google-vignette="false" class="item" href="items/seven-091879.html" data-kcal="863.0"
    data-date="2026-10-14" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">やみつきガーリック山盛ペペロンチーノ</div>
@@ -1253,7 +1289,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-14 発売</div>
   
 </a>
-<a class="item" href="items/seven-040128.html" data-kcal="192.0"
+<a data-google-vignette="false" class="item" href="items/seven-040128.html" data-kcal="192.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">五目おこわおむすび　群馬県産舞茸使用</div>
@@ -1261,7 +1297,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040216.html" data-kcal="269.0"
+<a data-google-vignette="false" class="item" href="items/seven-040216.html" data-kcal="269.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">山形県産つや姫おむすび鮭ハラスの西京焼</div>
@@ -1269,7 +1305,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040473.html" data-kcal="238.0"
+<a data-google-vignette="false" class="item" href="items/seven-040473.html" data-kcal="238.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">山形県産つや姫おむすび　近江牛すき焼き</div>
@@ -1277,7 +1313,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040517.html" data-kcal="414.0"
+<a data-google-vignette="false" class="item" href="items/seven-040517.html" data-kcal="414.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">鶏そぼろ御飯　静岡県産鶏肉使用</div>
@@ -1285,7 +1321,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040751.html" data-kcal="178.0"
+<a data-google-vignette="false" class="item" href="items/seven-040751.html" data-kcal="178.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">銀しゃりむすび　ねぎ味噌</div>
@@ -1293,7 +1329,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040754.html" data-kcal="192.0"
+<a data-google-vignette="false" class="item" href="items/seven-040754.html" data-kcal="192.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">銀しゃりむすび　鶏そぼろ</div>
@@ -1301,7 +1337,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040769.html" data-kcal="232.0"
+<a data-google-vignette="false" class="item" href="items/seven-040769.html" data-kcal="232.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">濃厚豚骨醤油ご飯　半熟煮玉子おむすび</div>
@@ -1309,7 +1345,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040780.html" data-kcal="273.0"
+<a data-google-vignette="false" class="item" href="items/seven-040780.html" data-kcal="273.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　道産きのこの炊き込みご飯</div>
@@ -1317,7 +1353,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040788.html" data-kcal="222.0"
+<a data-google-vignette="false" class="item" href="items/seven-040788.html" data-kcal="222.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">舞茸ご飯おむすび</div>
@@ -1325,7 +1361,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-040795.html" data-kcal="634.0"
+<a data-google-vignette="false" class="item" href="items/seven-040795.html" data-kcal="634.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ＣＡＦＥ　ＢＯＸ　デミトマロコモコ</div>
@@ -1333,7 +1369,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-041914.html" data-kcal="257.0"
+<a data-google-vignette="false" class="item" href="items/seven-041914.html" data-kcal="257.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">旨さ相盛おむすび　高菜と明太子</div>
@@ -1341,7 +1377,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-042742.html" data-kcal="269.0"
+<a data-google-vignette="false" class="item" href="items/seven-042742.html" data-kcal="269.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">オムライスおむすび　海老トマトクリームソース</div>
@@ -1349,7 +1385,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-043717.html" data-kcal="225.0"
+<a data-google-vignette="false" class="item" href="items/seven-043717.html" data-kcal="225.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ラーメン屋さんの味　焼きめしおむすび</div>
@@ -1357,7 +1393,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044495.html" data-kcal="610.0"
+<a data-google-vignette="false" class="item" href="items/seven-044495.html" data-kcal="610.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ＣＡＦＥ　ＢＯＸ　スパイス香るキーマカレー</div>
@@ -1365,7 +1401,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044793.html" data-kcal="204.0"
+<a data-google-vignette="false" class="item" href="items/seven-044793.html" data-kcal="204.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ケチャップライスおむすび</div>
@@ -1373,7 +1409,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044794.html" data-kcal="204.0"
+<a data-google-vignette="false" class="item" href="items/seven-044794.html" data-kcal="204.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ケチャップライスおむすび</div>
@@ -1381,7 +1417,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044795.html" data-kcal="234.0"
+<a data-google-vignette="false" class="item" href="items/seven-044795.html" data-kcal="234.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">会津産コシヒカリおむすび　炭火焼さば</div>
@@ -1389,7 +1425,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044796.html" data-kcal="192.0"
+<a data-google-vignette="false" class="item" href="items/seven-044796.html" data-kcal="192.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">なめこなめ茸のだしむすび福島県産なめこ使用</div>
@@ -1397,7 +1433,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044804.html" data-kcal="224.0"
+<a data-google-vignette="false" class="item" href="items/seven-044804.html" data-kcal="224.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">香ばし醤油タレ　コク旨チャーハンおむすび</div>
@@ -1405,7 +1441,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044816.html" data-kcal="230.0"
+<a data-google-vignette="false" class="item" href="items/seven-044816.html" data-kcal="230.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">味付海苔おにぎり海老マヨネーズ</div>
@@ -1413,7 +1449,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044820.html" data-kcal="207.0"
+<a data-google-vignette="false" class="item" href="items/seven-044820.html" data-kcal="207.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">舞茸入り五目おこわ　　おむすび</div>
@@ -1421,7 +1457,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044821.html" data-kcal="372.0"
+<a data-google-vignette="false" class="item" href="items/seven-044821.html" data-kcal="372.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">プチ和風カレー</div>
@@ -1429,7 +1465,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044829.html" data-kcal="613.0"
+<a data-google-vignette="false" class="item" href="items/seven-044829.html" data-kcal="613.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">ラーメン屋さんのやみつきやきめし</div>
@@ -1437,7 +1473,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044833.html" data-kcal="684.0"
+<a data-google-vignette="false" class="item" href="items/seven-044833.html" data-kcal="684.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">コク旨だれの炭火焼き牛カルビ弁当</div>
@@ -1445,7 +1481,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044835.html" data-kcal="347.0"
+<a data-google-vignette="false" class="item" href="items/seven-044835.html" data-kcal="347.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">山賊むすび</div>
@@ -1453,7 +1489,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044851.html" data-kcal="429.0"
+<a data-google-vignette="false" class="item" href="items/seven-044851.html" data-kcal="429.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">牛焼肉めし（もち麦）</div>
@@ -1461,7 +1497,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044859.html" data-kcal="368.0"
+<a data-google-vignette="false" class="item" href="items/seven-044859.html" data-kcal="368.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　チャーシューマヨネーズ</div>
@@ -1469,7 +1505,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044866.html" data-kcal="232.0"
+<a data-google-vignette="false" class="item" href="items/seven-044866.html" data-kcal="232.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">濃厚豚骨醤油ご飯　半熟煮玉子おむすび</div>
@@ -1477,7 +1513,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044888.html" data-kcal="716.0"
+<a data-google-vignette="false" class="item" href="items/seven-044888.html" data-kcal="716.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">海苔弁当</div>
@@ -1485,7 +1521,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044895.html" data-kcal="645.0"
+<a data-google-vignette="false" class="item" href="items/seven-044895.html" data-kcal="645.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">お好みおかず弁当</div>
@@ -1493,7 +1529,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044899.html" data-kcal="709.0"
+<a data-google-vignette="false" class="item" href="items/seven-044899.html" data-kcal="709.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">あごだし醤油のジューシー鶏唐揚げ弁当</div>
@@ -1501,7 +1537,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044900.html" data-kcal="709.0"
+<a data-google-vignette="false" class="item" href="items/seven-044900.html" data-kcal="709.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">あごだし醤油のジューシー鶏唐揚げ弁当</div>
@@ -1509,7 +1545,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044903.html" data-kcal="689.0"
+<a data-google-vignette="false" class="item" href="items/seven-044903.html" data-kcal="689.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">塩麹仕立てのムネ唐揚げ弁当</div>
@@ -1517,7 +1553,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a class="item" href="items/seven-044911.html" data-kcal="220.0"
+<a data-google-vignette="false" class="item" href="items/seven-044911.html" data-kcal="220.0"
    data-date="2026-10-13" data-chain="seven">
   <div class="badge">セブンイレブン</div>
   <div class="t">山梨の味　押麦入りまぜごはんおむすび</div>
@@ -1526,24 +1562,26 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   
 </a>
 </div>
+
 </section>
-<p><a href="/weeks/">週別アーカイブ一覧（全6週）を見る →</a></p>
+<p><a data-google-vignette="false" href="/weeks/">週別アーカイブ一覧（全6週）を見る →</a></p>
 <section class="about"><h2>コンビニポチについて</h2>
 <p>コンビニ3社（セブンイレブン・ファミリーマート・ローソン）の公式サイトを1日1回チェックし、新商品の情報を記録し続けているアーカイブです。各社の公式サイトは販売終了した商品のページを削除してしまうため、「いつ・何が・いくらで発売されたか」を後から調べられることを目的にしています。</p>
 <p>商品説明・価格・栄養成分などは各社公式サイトの内容を出典を明記して引用しています。商品画像は掲載していません（イメージ画像を追加する構想はありますが、公式画像の転載は行いません）。</p>
 <p>価格・販売状況は取得時点のものです。最新の状況は必ず各社の公式サイトでご確認ください。当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン各社とは関係のない非公式サイトです。運営はブログ「ネタフル」のコグレです。姉妹サイトに電書ポチ・家電ポチ・林檎ポチ・漫画ポチがあります。</p>
+<p>当サイトにはGoogle AdSenseによる広告が表示されます。広告の配信や効果測定のために、Googleなどの第三者がCookie等を使用することがあります。詳しくはメディアポリシーをご覧ください。</p>
 </section>
 </main>
 <footer>
 価格・発売日・在庫は取得時点のものです。最新の状況は各社公式サイトでご確認ください。
 当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン各社とは関係のない非公式サイトです。
-｜ <a href="https://netaful.jp/policy.html">メディアポリシー</a>
-｜ <a href="/rss.xml">RSS</a> ｜ <a href="/weeks/">週別アーカイブ</a>
+｜ <a data-google-vignette="false" href="https://netaful.jp/policy.html">メディアポリシー</a>
+｜ <a data-google-vignette="false" href="/rss.xml">RSS</a> ｜ <a data-google-vignette="false" href="/weeks/">週別アーカイブ</a>
 <nav class="sites"><span class="lbl">関連サイト</span>
-<a href="https://book.netaful.jp/">電書ポチ<span class="lbl"> Kindle本セール</span></a>
-<a href="https://kaden.netaful.jp/">家電ポチ<span class="lbl"> ガジェット・家電セール</span></a>
-<a href="https://apple.netaful.jp/">林檎ポチ<span class="lbl"> Apple整備済製品</span></a>
-<a href="https://manga.netaful.jp/">漫画ポチ<span class="lbl"> Webマンガ横断検索</span></a>
+<a data-google-vignette="false" href="https://book.netaful.jp/">電書ポチ<span class="lbl"> Kindle本セール</span></a>
+<a data-google-vignette="false" href="https://kaden.netaful.jp/">家電ポチ<span class="lbl"> ガジェット・家電セール</span></a>
+<a data-google-vignette="false" href="https://apple.netaful.jp/">林檎ポチ<span class="lbl"> Apple整備済製品</span></a>
+<a data-google-vignette="false" href="https://manga.netaful.jp/">漫画ポチ<span class="lbl"> Webマンガ横断検索</span></a>
 </nav>
 </footer>
 </body>

@@ -145,5 +145,94 @@ class TestReviewCardRendering(unittest.TestCase):
         self.assertEqual(gs.render_review_cards("タイトル", []), "")
 
 
+MAX_ADS = 5
+
+
+def make_item(chain, pid, with_nutrition=True, with_desc=True):
+    it = {"chain": chain, "product_id": pid, "name": f"テスト商品{pid}",
+          "price_incl_tax": 198, "release_date": "2026-10-06", "fetched_at": "2026-10-07T00:00:00+09:00",
+          "official_url": "https://example.com/x", "allergens": ["卵"]}
+    if with_desc:
+        it["description"] = "公式の説明文です。"
+    if with_nutrition:
+        it["nutrition"] = {"kcal": 300}
+    return it
+
+
+class TestAdSlots(unittest.TestCase):
+    def setUp(self):
+        self._orig = dict(gs.CONFIG)
+        self.addCleanup(lambda: (gs.CONFIG.clear(), gs.CONFIG.update(self._orig)))
+        gs.CONFIG["adsense_client_id"] = "ca-pub-1"
+        gs.CONFIG["adsense_ad_slot"] = "2"
+        self.items = [make_item(c, f"{i}{c[:2]}") for c in ("seven", "familymart", "lawson") for i in range(3)]
+
+    def pages(self):
+        return {
+            "grid": gs.render_grid_page("週", "d", self.items, "https://x/"),
+            "top": gs.render_top(self.items),
+            "item": gs.render_item_page(self.items[0]),
+        }
+
+    def test_empty_config_outputs_nothing(self):
+        # どちらか片方でも空なら枠は出ない。両方空なら広告関連が一切出ない
+        for key in ("adsense_client_id", "adsense_ad_slot"):
+            saved = gs.CONFIG[key]
+            gs.CONFIG[key] = ""
+            for name, h in self.pages().items():
+                self.assertNotIn('<div class="ad-slot">', h, name)
+            gs.CONFIG[key] = saved
+        gs.CONFIG["adsense_client_id"] = ""
+        gs.CONFIG["adsense_ad_slot"] = ""
+        for name, h in self.pages().items():
+            self.assertNotIn("adsbygoogle", h.replace(gs.CSS, ""), name)
+            self.assertNotIn("data-google-vignette", h, name)
+
+    def test_head_script_present(self):
+        for name, h in self.pages().items():
+            head = h.split("</head>")[0]
+            self.assertIn("adsbygoogle.js?client=ca-pub-1", head, name)
+            self.assertIn("crossorigin", head, name)
+
+    def test_no_ad_inside_sortable_grid(self):
+        import re
+        for name, h in self.pages().items():
+            for m in re.finditer(r'<div class="grid" data-sortable>(.*?)\n</div>\n', h, re.S):
+                self.assertNotIn("ad-slot", m.group(1), name)
+
+    def test_ad_count_within_limit_and_between_groups(self):
+        for name, h in self.pages().items():
+            body = h.split("<body>")[1]
+            self.assertLessEqual(body.count('<div class="ad-slot">'), MAX_ADS, name)
+        self.assertEqual(self.pages()["top"].count('<div class="ad-slot">'), 3)
+
+    def test_item_page_ad_not_adjacent_to_quote(self):
+        import re
+        h = self.pages()["item"]
+        self.assertEqual(h.count('<div class="ad-slot">'), 2)
+        for m in re.finditer(r'<div class="ad-slot">', h):
+            before = h[:m.start()].rstrip()
+            self.assertFalse(before.endswith("</blockquote>") or before.endswith("削除されている、または内容が変更されている場合があります。</p>"))
+        i_ad = h.rfind('<div class="ad-slot">')
+        self.assertGreater(i_ad, h.index("</blockquote>"))
+        self.assertLess(i_ad, h.index("ネタフル") if "ネタフルのレビュー" in h[i_ad:] else len(h))
+
+    def test_item_without_extras_has_only_header_ad(self):
+        it = make_item("seven", "9", with_nutrition=False)
+        it["allergens"] = None
+        h = gs.render_item_page(it)
+        self.assertEqual(h.count('<div class="ad-slot">'), 1)
+
+    def test_no_ads_on_empty_pages(self):
+        self.assertNotIn('class="ad-slot"', gs.render_chains_top())
+        self.assertNotIn('class="ad-slot"', gs.render_weeks_index(self.items))
+        self.assertNotIn('class="ad-slot"', gs.render_grid_page("週", "d", [], "https://x/"))
+
+    def test_links_opt_out_of_vignette(self):
+        h = self.pages()["top"]
+        self.assertNotIn("<a href", h)
+        self.assertNotIn("<a class", h)
+
+
 if __name__ == "__main__":
     unittest.main()
