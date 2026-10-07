@@ -369,7 +369,9 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
     )
     icon_tags = []
     if has_asset("favicon.png"):
-        icon_tags.append('<link rel="icon" type="image/png" href="/assets/favicon.png">')
+        # Googleの検索結果に出るファビコンは48pxの倍数が必要(32pxだと地球儀になる)。
+        # favicon.png は96px(2026-10-07)。sizes を明示してGoogleに伝える
+        icon_tags.append('<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon.png">')
     if has_asset("apple-touch-icon.png"):
         icon_tags.append('<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">')
     ogp_tags = []
@@ -621,7 +623,20 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 {next_section}
 {weeks_link}
 {about_html}"""
-    return page_shell(CONFIG["site_title"], CONFIG["site_description"], body, site_url)
+    # 検索結果のサイト名。サブドメイン(conbini.netaful.jp)は何も指定しないと親ドメインの
+    # 「ネタフル」と表示されるので、トップページに WebSite 構造化データでサイト名を伝える
+    # (2026-10-07)。反映までは数日〜数週間かかる
+    site_name_ld = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": CONFIG["site_title"],
+        "alternateName": ["Conbini Pochi"],
+        "url": site_url,
+    }, ensure_ascii=False)
+    return page_shell(
+        CONFIG["site_title"], CONFIG["site_description"], body, site_url,
+        extra_head=f'<script type="application/ld+json">{site_name_ld}</script>',
+    )
 
 
 def render_weeks_index(items: list[dict]) -> str:
