@@ -811,10 +811,13 @@ def render_item_page(item: dict) -> str:
 {chr(10).join(render_review_card(a) for a in recent)}
 </div>"""
 
-    # 広告は栄養成分・アレルゲン・地域別価格の下、ネタフルのレビュー欄の上。公式説明文の
-    # 引用ブロック(出典・注意書き含む)のすぐ隣には置かない。間に置く内容が何も無い
-    # 商品では引用の直後になってしまうので、本文中の枠は出さない(ヘッダー直下の1枠のみ)
-    mid_ad = render_ad_slot() if (nut_rows or allergen_html or variants_html) else ""
+    # 商品ページの広告は1枠だけ(2026-10-07)。ページ上部の枠は、スマホで最初の画面が広告で
+    # 埋まり商品名が下に押し出されるため置かない。栄養成分・アレルゲン・地域別価格がある商品は
+    # その下(ネタフルのレビュー欄の上)、無い商品はページ末尾に置く。どちらも公式説明文の
+    # 引用ブロック(出典・注意書き含む)のすぐ隣にはならない
+    has_extras = bool(nut_rows or allergen_html or variants_html)
+    mid_ad = render_ad_slot() if has_extras else ""
+    bottom_ad = "" if has_extras else render_ad_slot()
 
     body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
 <div class="detail">
@@ -832,6 +835,7 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
 {mid_ad}
 {reviews_html}
 {related_html}
+{bottom_ad}
 </div>"""
     # 検索では「セブン ○○ カロリー」のようにコンビニ名や栄養成分も一緒に入力されやすいので、
     # タイトルと説明文にコンビニ名・カロリー・価格を入れる(2026-09-30)。
@@ -847,7 +851,7 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
     if date:
         bits.append(f"{date}発売")
     seo_desc = "、".join(bits) + "。" + (item.get("description") or "")
-    return page_shell(seo_title, seo_desc[:200], body, canonical, header_ad=True)
+    return page_shell(seo_title, seo_desc[:200], body, canonical)
 
 
 # AIの学習データ集め専用のクローラーは断る。商品説明は各社公式サイトからの引用なので、

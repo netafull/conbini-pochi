@@ -209,7 +209,7 @@ class TestAdSlots(unittest.TestCase):
     def test_item_page_ad_not_adjacent_to_quote(self):
         import re
         h = self.pages()["item"]
-        self.assertEqual(h.count('<div class="ad-slot">'), 2)
+        self.assertEqual(h.count('<div class="ad-slot">'), 1)
         for m in re.finditer(r'<div class="ad-slot">', h):
             before = h[:m.start()].rstrip()
             self.assertFalse(before.endswith("</blockquote>") or before.endswith("削除されている、または内容が変更されている場合があります。</p>"))
@@ -217,11 +217,13 @@ class TestAdSlots(unittest.TestCase):
         self.assertGreater(i_ad, h.index("</blockquote>"))
         self.assertLess(i_ad, h.index("ネタフル") if "ネタフルのレビュー" in h[i_ad:] else len(h))
 
-    def test_item_without_extras_has_only_header_ad(self):
+    def test_item_without_extras_has_one_ad_at_the_bottom(self):
         it = make_item("seven", "9", with_nutrition=False)
         it["allergens"] = None
         h = gs.render_item_page(it)
         self.assertEqual(h.count('<div class="ad-slot">'), 1)
+        # 上部には置かない(スマホで最初の画面が広告で埋まるため)。引用の直後でもない
+        self.assertGreater(h.index('<div class="ad-slot">'), h.index("</blockquote>") + 300)
 
     def test_no_ads_on_empty_pages(self):
         self.assertNotIn('class="ad-slot"', gs.render_chains_top())
