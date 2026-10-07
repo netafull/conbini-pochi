@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "040157",
+ "name": "海上自衛隊てんりゅう　呉海自カレー牛すじ入り",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日（火）以降順次発売",
+ "regions": [
+  "中国",
+  "四国"
+ ],
+ "region_text": "中国、四国",
+ "description": "呉市名物「呉海自カレー」。先に甘さを感じ、後から辛さを感じる「てんりゅう」の特長を再現したカレーです。",
+ "nutrition": {
+  "kcal": 630.0,
+  "protein_g": 13.1,
+  "fat_g": 18.1,
+  "carbs_g": 105.1,
+  "sugar_g": 102.4,
+  "fiber_g": 2.7,
+  "salt_g": 3.1,
+  "raw": "熱量：630kcal、たんぱく質：13.1g、脂質：18.1g、炭水化物：105.1g（糖質：102.4g、食物繊維：2.7g）、食塩相当量：3.1g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "中国、四国",
+   "regions": [
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/040157/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040157/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040157/shikoku/"
+ ],
+ "first_seen_at": "2026-10-08T07:00:29+09:00",
+ "fetched_at": "2026-10-08T07:00:29+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
