@@ -2,6 +2,18 @@
  "articles": {
   "familymart": [
    {
+    "date": "2026-10-08T09:00:00",
+    "id": 210488,
+    "link": "https://netaful.jp/conbini-meshi/0210488.html",
+    "product_name": "高菜たくあんおむすび",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/711-takana-takuan-006-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ファミマ】「高菜たくあんおむすび」は意外な厚み！たくあんのコリコリ食感と高菜の旨みが広がる"
+   },
+   {
     "date": "2026-10-06T12:15:00",
     "id": 210419,
     "link": "https://netaful.jp/conbini-meshi/0210419.html",
@@ -11919,13 +11931,12 @@
    }
   ]
  },
- "errors": [
-  "seven tag=911 page=1: JSON解析失敗 Expecting value [12151バイト, text/html, 先頭: '<!DOCTYPE html> <html lang=\"en\"> <head>   <meta charset=\"utf8\">   <meta name=\"viewport\" content=\"width=device-width,init']: line 1 column 1 (char 0)",
-  "familymart tag=910 page=1: JSON解析失敗 Expecting value [12067バイト, text/html, 先頭: '<!DOCTYPE html> <html lang=\"en\"> <head>   <meta charset=\"utf8\">   <meta name=\"viewport\" content=\"width=device-width,init']: line 1 column 1 (char 0)",
-  "lawson tag=921 page=1: JSON解析失敗 Expecting value [12188バイト, text/html, 先頭: '<!DOCTYPE html> <html lang=\"en\"> <head>   <meta charset=\"utf8\">   <meta name=\"viewport\" content=\"width=device-width,init']: line 1 column 1 (char 0)"
- ],
- "fetched_at": "2026-10-08T07:06:58+09:00",
+ "errors": [],
+ "fetched_at": "2026-10-09T07:00:54+09:00",
  "matches": {
+  "familymart-0412018": [
+   210488
+  ],
   "familymart-0510967": [
    210378
   ],
