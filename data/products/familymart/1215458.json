@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1215458",
+ "name": "福井県産とみつ金時　おいもチップス",
+ "category": "サラダ",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "東海",
+  "北陸"
+ ],
+ "region_text": "東海・北陸",
+ "description": "福井県産さつまいもの「とみつ金時」を使用しました。薄切りにしたとみつ金時を油で揚げ、鳴門の塩を一振りしました。素材そのものの味わいを楽しめる、おやつ感覚のさつまいもチップスです。※岐阜県、三重県、愛知県の一部、静岡県(東部)では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/salad/1215458.html",
+ "first_seen_at": "2026-10-10T07:02:22+09:00",
+ "fetched_at": "2026-10-10T07:02:22+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

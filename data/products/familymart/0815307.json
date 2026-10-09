@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0815307",
+ "name": "中華そば一力監修　中華そば",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 584,
+ "price_incl_tax": 630,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "北陸"
+ ],
+ "region_text": "北陸",
+ "description": "福井県敦賀市にある名店「中華そば 一力」監修商品です。豚肉や鶏肉の旨みがきいた醤油ベースのスープに、ブラックペッパーが味わいのアクセントです。トッピングには、チャーシュー、メンマ、ねぎ、紅しょうがを合わせました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0815307.html",
+ "first_seen_at": "2026-10-10T07:02:17+09:00",
+ "fetched_at": "2026-10-10T07:02:17+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

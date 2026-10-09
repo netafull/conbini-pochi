@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1535211",
+ "name": "塩バターメロンパン",
+ "category": "パン",
+ "price_excl_tax": 167,
+ "price_incl_tax": 180,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "発酵バター入りの塩マーガリンを包んで焼き上げたデニッシュメロンパンです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1535211.html",
+ "first_seen_at": "2026-10-10T07:01:44+09:00",
+ "fetched_at": "2026-10-10T07:01:44+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

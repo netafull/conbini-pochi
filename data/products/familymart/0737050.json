@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0737050",
+ "name": "九州産華味鳥のチキンカツカレー",
+ "category": "お弁当",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "おろしりんごや玉ねぎを加えて野菜と果物の甘みのあるカレーに、九州産「華味鳥」を使用したチキンカツをトッピングしました。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0737050.html",
+ "first_seen_at": "2026-10-10T07:01:20+09:00",
+ "fetched_at": "2026-10-10T07:01:20+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

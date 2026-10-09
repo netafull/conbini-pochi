@@ -1,0 +1,33 @@
+{
+ "chain": "lawson",
+ "product_id": "1533092",
+ "name": "皮付き鮭とば",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 548,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026.10.13",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いのない場合もございます。",
+ "description": "鮭をじっくり乾燥し、素材のおいしさを凝縮しました。",
+ "nutrition": {
+  "kcal": 79.0,
+  "protein_g": 15.5,
+  "fat_g": 1.7,
+  "carbs_g": 0.7,
+  "sugar_g": 0.3,
+  "fiber_g": 0.4,
+  "salt_g": 1.3,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装(26g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>79kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>15.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>1.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>0.7g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>0.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "さけ"
+ ],
+ "spec": "規格（内容量）: 26g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533092_1996.html",
+ "first_seen_at": "2026-10-10T07:05:11+09:00",
+ "fetched_at": "2026-10-10T07:05:11+09:00",
+ "source_list": "/recommend/new/list/1533085_5162.html",
+ "image": null
+}

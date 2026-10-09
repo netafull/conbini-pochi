@@ -1,0 +1,36 @@
+{
+ "chain": "lawson",
+ "product_id": "1533118",
+ "name": "ピザロール　マルゲリータ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 289,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026.10.13",
+ "regions": null,
+ "region_text": null,
+ "description": "もちもちとしたピザ生地に、高リコピントマトを使用したトマトのソースとバジルソース、とろけるモッツァレラチーズを包みました。",
+ "nutrition": {
+  "kcal": 196.0,
+  "protein_g": 10.0,
+  "fat_g": 6.3,
+  "carbs_g": 25.6,
+  "sugar_g": 23.9,
+  "fiber_g": 1.7,
+  "salt_g": 1.4,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>196kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>10.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>6.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>25.6g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>23.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533118_1996.html",
+ "first_seen_at": "2026-10-10T07:04:26+09:00",
+ "fetched_at": "2026-10-10T07:04:26+09:00",
+ "source_list": "/recommend/new/list/1533085_5162.html",
+ "image": null
+}

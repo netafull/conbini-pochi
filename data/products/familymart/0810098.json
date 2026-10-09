@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0810098",
+ "name": "らぁ麺Q監修　至高の一杯冷し煮干し醤油らぁ麺",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 610,
+ "price_incl_tax": 658,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "関東",
+ "description": "コシと弾力のある専用麺と、醤油の旨みとキレに煮干しの風味が感じられるスープです。チャーシュー、ゆでたまご、ねぎ、メンマ、レモンのジュレなどをトッピングしました。※静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0810098.html",
+ "first_seen_at": "2026-10-10T07:02:13+09:00",
+ "fetched_at": "2026-10-10T07:02:13+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

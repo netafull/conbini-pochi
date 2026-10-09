@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0916134",
+ "name": "海老フライとたまごのサンド",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "関西"
+ ],
+ "region_text": "関西",
+ "description": "FM802「BRIGHT MORNING」コラボ商品です。海老フライサンドとたまごサンドの2層を合わせたサンドイッチです。海老フライの層にはまろやかな味わいのオーロラソースを合わせ、海老のおいしさを引き立てる仕立てにしました。※和歌山県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0916134.html",
+ "first_seen_at": "2026-10-10T07:01:38+09:00",
+ "fetched_at": "2026-10-10T07:01:38+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

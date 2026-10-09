@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1533087",
+ "name": "スジャータ　グレープ　100％",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 230,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026.10.13",
+ "regions": null,
+ "region_text": null,
+ "description": "すっきりとした甘さと、ほどよい酸味のバランスがとれたグレープジュース。",
+ "nutrition": {
+  "kcal": 50.0,
+  "protein_g": 0.0,
+  "fat_g": 0.0,
+  "carbs_g": 12.4,
+  "sugar_g": 12.4,
+  "fiber_g": 0.0,
+  "salt_g": 0.02,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【100ml当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>50kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>12.4g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>12.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.02g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 450ml",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533087_1996.html",
+ "first_seen_at": "2026-10-10T07:05:29+09:00",
+ "fetched_at": "2026-10-10T07:05:29+09:00",
+ "source_list": "/recommend/new/list/1533085_5162.html",
+ "image": null
+}

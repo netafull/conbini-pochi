@@ -1,0 +1,29 @@
+{
+ "chain": "familymart",
+ "product_id": "0812214",
+ "name": "黒胡椒香る　コク旨醤油だれの油そば",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 510,
+ "price_incl_tax": 550,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国"
+ ],
+ "region_text": null,
+ "description": "タレが良く絡む太麺に、醤油ベースのタレを合わせた油そばです。具材としてチャーシュー・青ねぎ・もやしをのせ、味のアクセントにフライドオニオンや黒コショウをトッピングしております。※山梨県、静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0812214.html",
+ "first_seen_at": "2026-10-10T07:02:07+09:00",
+ "fetched_at": "2026-10-10T07:02:07+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

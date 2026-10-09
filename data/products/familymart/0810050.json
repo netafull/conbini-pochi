@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0810050",
+ "name": "勝浦タンタンメン企業組合監修　勝浦タンタンメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "関東",
+ "description": "「千葉テレビ」とのタイアップ商品です。ラー油の辛みの中に醤油の旨みを感じられるスープにひき肉と玉ねぎを合わせた勝浦タンタンメンです。※静岡県の一部の店舗では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0810050.html",
+ "first_seen_at": "2026-10-10T07:02:11+09:00",
+ "fetched_at": "2026-10-10T07:02:11+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

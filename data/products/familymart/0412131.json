@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "0412131",
+ "name": "ばくだんおむすび（唐揚げマヨネーズ）",
+ "category": "おむすび",
+ "price_excl_tax": 350,
+ "price_incl_tax": 378,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "定番手巻の2倍※のごはん重量の「ばくだんおむすび」です。カットしたから揚げと、醤油タレで味付けしたマヨソースを包んだおむすびです。※定番手巻おむすび5品のごはん規格重量との比較です。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0412131.html",
+ "first_seen_at": "2026-10-10T07:00:40+09:00",
+ "fetched_at": "2026-10-10T07:00:40+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1512359",
+ "name": "スイートクリームパン4個入（プリン風味クリーム）",
+ "category": "パン",
+ "price_excl_tax": 186,
+ "price_incl_tax": 200,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "プリン風味クリームを包みケーキ生地を表面にトッピングした、クリームパン4個入りです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1512359.html",
+ "first_seen_at": "2026-10-10T07:01:55+09:00",
+ "fetched_at": "2026-10-10T07:01:55+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

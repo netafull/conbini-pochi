@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "4730996",
+ "name": "ノースカラーズ　琥珀糖魔法のイエロー　マンゴー味&もも味",
+ "category": "お菓子",
+ "price_excl_tax": 200,
+ "price_incl_tax": 216,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "マンゴー味ともも味の2つの味と食感が楽しめる琥珀糖です。外はシャリッと中はぷるっとした食感が楽しめます。［ファミリーマート先行発売・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/snack/4730996.html",
+ "first_seen_at": "2026-10-10T07:03:17+09:00",
+ "fetched_at": "2026-10-10T07:03:17+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

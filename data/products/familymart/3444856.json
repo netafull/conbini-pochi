@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "3444856",
+ "name": "セリアロイル　チロルチョコ　きなこもちアイスバー",
+ "category": "アイス",
+ "price_excl_tax": 180,
+ "price_incl_tax": 194,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "大人気「チロルチョコきなこもち」をバーアイスで表現しました。アイスの中にチロルチョコきなこもちの特徴である「もちグミ」をイメージしたもちソースを入れ、やわらかいもち食感をお楽しみいただけます。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/ice/3444856.html",
+ "first_seen_at": "2026-10-10T07:03:34+09:00",
+ "fetched_at": "2026-10-10T07:03:34+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

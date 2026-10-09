@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "0411745",
+ "name": "ごちむすび　いか明太子おむすび",
+ "category": "おむすび",
+ "price_excl_tax": 249,
+ "price_incl_tax": 268,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "イカを明太子と和えました。魚介の旨みと、イカの食感、明太子の辛み、さわやかなゆずの風味が楽しめるおむすびです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0411745.html",
+ "first_seen_at": "2026-10-10T07:00:47+09:00",
+ "fetched_at": "2026-10-10T07:00:47+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

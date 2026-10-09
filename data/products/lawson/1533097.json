@@ -1,0 +1,39 @@
+{
+ "chain": "lawson",
+ "product_id": "1533097",
+ "name": "1食分の野菜が摂れる　五目具材の中華丼",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 697,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026.10.13",
+ "regions": null,
+ "region_text": "※沖縄地域のローソン、ナチュラルローソンではお取り扱いしておりません。",
+ "description": "※1食分の野菜が摂れる中華丼です。定番の五目具材に醤油と鶏ガラの旨味を感じる餡を絡めたホッと温まるメニューです。※1日当たりの摂取量の目標350g以上(厚生労働省「健康日本21」＜第三次＞より)",
+ "nutrition": {
+  "kcal": 430.0,
+  "protein_g": 11.7,
+  "fat_g": 8.7,
+  "carbs_g": 78.2,
+  "sugar_g": 74.1,
+  "fiber_g": 4.1,
+  "salt_g": 3.41,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>430kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>11.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>8.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>78.2g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>74.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>4.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>3.41g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533097_1996.html",
+ "first_seen_at": "2026-10-10T07:04:53+09:00",
+ "fetched_at": "2026-10-10T07:04:53+09:00",
+ "source_list": "/recommend/new/list/1533085_5162.html",
+ "image": null
+}

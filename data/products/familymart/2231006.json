@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "2231006",
+ "name": "笠原将弘シェフ監修　つくねと野菜の和風甘酢あん",
+ "category": "チルド惣菜",
+ "price_excl_tax": 397,
+ "price_incl_tax": 428,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "「賛否両論」店主・笠原将弘シェフ監修の商品です。削りかつお節を使用した和風の甘酢あんを、ふんわり食感の大粒の鶏つくねと野菜（人参、れんこん）に絡めました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/2231006.html",
+ "first_seen_at": "2026-10-10T07:02:32+09:00",
+ "fetched_at": "2026-10-10T07:02:32+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

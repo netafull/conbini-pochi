@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1940510",
+ "name": "つるもちみたらし団子　４個入",
+ "category": "デザート",
+ "price_excl_tax": 165,
+ "price_incl_tax": 178,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月6日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "つるもち食感の団子にだしが香るみたらしダレをトッピングしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1940510.html",
+ "first_seen_at": "2026-10-10T07:00:35+09:00",
+ "fetched_at": "2026-10-10T07:00:35+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-06",
+ "image": null
+}

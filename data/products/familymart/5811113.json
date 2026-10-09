@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "5811113",
+ "name": "シャンテール　マスカット　280ml",
+ "category": "お酒",
+ "price_excl_tax": 317,
+ "price_incl_tax": 348,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "手軽で飲みやすいボトル缶スパークリングワインです。マスカットのさわやかな香りと優しい甘みが特徴です。【アルコール度数：8.5%】［数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/alcohol/5811113.html",
+ "first_seen_at": "2026-10-10T07:03:29+09:00",
+ "fetched_at": "2026-10-10T07:03:29+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

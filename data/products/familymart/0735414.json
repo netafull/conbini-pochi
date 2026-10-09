@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0735414",
+ "name": "キッチンユキ監修　ハントンベーキライス",
+ "category": "お弁当",
+ "price_excl_tax": 647,
+ "price_incl_tax": 698,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "北陸"
+ ],
+ "region_text": "北陸",
+ "description": "石川県金沢市にある人気の老舗洋食店「キッチンユキ」監修商品です。ベーコンや玉ねぎの旨みがきいた「ベーキライス（醤油ベースの焼めし）」に、しっとりとしたたまごシートにケチャップ、白身魚フライ、タルタルソースを合わせました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0735414.html",
+ "first_seen_at": "2026-10-10T07:01:23+09:00",
+ "fetched_at": "2026-10-10T07:01:23+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

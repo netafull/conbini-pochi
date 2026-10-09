@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1132922",
+ "name": "梅おかかで食べる蒸し鶏ときゅうりの梅和え",
+ "category": "チルド惣菜",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "しその風味がある梅おかかをトッピングした蒸し鶏ときゅうりの梅和えです。※北海道地方では仕様が異なります。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1132922.html",
+ "first_seen_at": "2026-10-10T07:02:44+09:00",
+ "fetched_at": "2026-10-10T07:02:44+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

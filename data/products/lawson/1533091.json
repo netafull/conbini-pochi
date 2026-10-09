@@ -1,0 +1,36 @@
+{
+ "chain": "lawson",
+ "product_id": "1533091",
+ "name": "ヨード卵・光使用　しっとりバウムクーヘン",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 318,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026.10.13",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いのない場合もございます。",
+ "description": "こだわりの卵と北海道産牛乳を使用したバウムクーヘンです。",
+ "nutrition": {
+  "kcal": 89.0,
+  "protein_g": 1.2,
+  "fat_g": 3.9,
+  "carbs_g": 12.4,
+  "sugar_g": 12.2,
+  "fiber_g": 0.2,
+  "salt_g": 0.09,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1個(約23g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>89kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>1.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>3.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>12.4g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>12.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.09g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": "規格（内容量）: 9個",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533091_1996.html",
+ "first_seen_at": "2026-10-10T07:05:14+09:00",
+ "fetched_at": "2026-10-10T07:05:14+09:00",
+ "source_list": "/recommend/new/list/1533085_5162.html",
+ "image": null
+}

@@ -1,0 +1,42 @@
+{
+ "chain": "lawson",
+ "product_id": "1533090",
+ "name": "背脂醤油ラーメン　BIG",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 210,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026.10.13",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。",
+ "description": "鶏と豚の旨みをベースに、背脂のまろやかなコクとペッパーのキレを効かせた醤油ラーメンです。",
+ "nutrition": {
+  "kcal": 455.0,
+  "protein_g": 11.1,
+  "fat_g": 19.3,
+  "carbs_g": 60.3,
+  "sugar_g": 58.0,
+  "fiber_g": 2.3,
+  "salt_g": 5.7,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1食(100g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>455kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>11.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>19.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>60.3g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>58.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>2.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>5.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "えび",
+  "小麦",
+  "卵",
+  "乳成分",
+  "牛肉",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 100g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533090_1996.html",
+ "first_seen_at": "2026-10-10T07:05:20+09:00",
+ "fetched_at": "2026-10-10T07:05:20+09:00",
+ "source_list": "/recommend/new/list/1533085_5162.html",
+ "image": null
+}

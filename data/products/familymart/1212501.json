@@ -1,0 +1,28 @@
+{
+ "chain": "familymart",
+ "product_id": "1212501",
+ "name": "沖縄県産もずく入り春雨サラダ",
+ "category": "サラダ",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "関東",
+  "東海",
+  "北陸",
+  "関西"
+ ],
+ "region_text": null,
+ "description": "沖縄県産もずく、はるさめ、きゅうり、人参を混ぜたサラダに、蒸し鶏、オクラ、水菜、大根、わかめをトッピングしました。かつおだしのきいたぽん酢が入っているため、よく混ぜてお召し上がりください。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/salad/1212501.html",
+ "first_seen_at": "2026-10-10T07:02:20+09:00",
+ "fetched_at": "2026-10-10T07:02:20+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

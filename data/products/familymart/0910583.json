@@ -1,0 +1,27 @@
+{
+ "chain": "familymart",
+ "product_id": "0910583",
+ "name": "具っとサンド　厚切りカツ",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "関東",
+  "東海",
+  "関西"
+ ],
+ "region_text": "関東・東海・関西",
+ "description": "厚切りのロースカツとキャベツマヨソース和えを挟んだ、具材を楽しむ仕立てのサンドイッチです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0910583.html",
+ "first_seen_at": "2026-10-10T07:01:25+09:00",
+ "fetched_at": "2026-10-10T07:01:25+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}

@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "5021758",
+ "name": "味源　アヒージョカシューナッツ&クルトン",
+ "category": "お菓子",
+ "price_excl_tax": 295,
+ "price_incl_tax": 318,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "カリっと香ばしいカシューナッツと、ベーコンペッパー味のクルトンをミックスしました。ガーリックとオイルの旨みが広がる、ぜいたくなおつまみスナックです。［ファミリーマート先行発売・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/snack/5021758.html",
+ "first_seen_at": "2026-10-10T07:03:13+09:00",
+ "fetched_at": "2026-10-10T07:03:13+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-13",
+ "image": null
+}
