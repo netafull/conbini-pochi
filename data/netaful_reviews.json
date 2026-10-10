@@ -5542,6 +5542,18 @@
   ],
   "seven": [
    {
+    "date": "2026-10-10T15:00:00",
+    "id": 210658,
+    "link": "https://netaful.jp/seven-eleven/0210658.html",
+    "product_name": "人生餃子監修 皿台湾 大盛り汁なし台湾ラーメン",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/711-sara-taiwan-005-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【セブン】「人生餃子監修 皿台湾 大盛り汁なし台湾ラーメン」ニンニクがガツン！意外な辛さにも驚いた"
+   },
+   {
     "date": "2026-10-04T12:10:00",
     "id": 210336,
     "link": "https://netaful.jp/seven-eleven/0210336.html",
@@ -11932,7 +11944,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-10T07:05:45+09:00",
+ "fetched_at": "2026-10-11T07:00:52+09:00",
  "matches": {
   "familymart-0412018": [
    210488
