@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "040154",
+ "name": "沖縄県産もずく使用　もずく丼（もち麦）",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-15",
+ "launch_text": "2026年10月15日（木）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "沖縄の学校給食の人気メニュー「もずく丼」を再現しました。上具はもずく，ピーマン，コーン，にんじん，玉ねぎ，豚ひき肉を組み合わせ、ご飯と相性良く仕上げました。",
+ "nutrition": {
+  "kcal": 290.0,
+  "protein_g": 7.7,
+  "fat_g": 4.3,
+  "carbs_g": 57.4,
+  "sugar_g": 52.8,
+  "fiber_g": 4.6,
+  "salt_g": 1.8,
+  "raw": "熱量：290kcal、たんぱく質：7.7g、脂質：4.3g、炭水化物：57.4g（糖質：52.8g、食物繊維：4.6g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/040154/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040154/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040154/okinawa/"
+ ],
+ "first_seen_at": "2026-10-12T07:02:05+09:00",
+ "fetched_at": "2026-10-12T07:02:05+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

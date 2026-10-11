@@ -39,14 +39,26 @@
    "price_excl_tax": 430,
    "price_incl_tax": 464.4,
    "url": "https://www.sej.co.jp/products/a/item/044785/koshinetsu/"
+  },
+  "tokai": {
+   "region_text": "山梨県、長野県、静岡県",
+   "regions": [
+    "山梨県",
+    "長野県",
+    "静岡県"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044785/tokai/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/044785/koshinetsu/",
  "official_urls": [
-  "https://www.sej.co.jp/products/a/item/044785/koshinetsu/"
+  "https://www.sej.co.jp/products/a/item/044785/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/044785/tokai/"
  ],
  "first_seen_at": "2026-09-29T07:05:27+09:00",
- "fetched_at": "2026-09-29T07:05:27+09:00",
+ "fetched_at": "2026-10-12T07:00:49+09:00",
  "source_list": "nextweek",
  "image": null
 }

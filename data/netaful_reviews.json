@@ -5542,6 +5542,18 @@
   ],
   "seven": [
    {
+    "date": "2026-10-11T17:30:00",
+    "id": 210725,
+    "link": "https://netaful.jp/seven-eleven/0210725.html",
+    "product_name": "ふんわりコロッケパンこだわり甘口ソース",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/711-crocket-004-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【セブン】「ふんわりコロッケパンこだわり甘口ソース」はコロッケがはみ出す！142gのずっしり惣菜パン"
+   },
+   {
     "date": "2026-10-10T15:00:00",
     "id": 210658,
     "link": "https://netaful.jp/seven-eleven/0210658.html",
@@ -11944,7 +11956,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-11T07:00:52+09:00",
+ "fetched_at": "2026-10-12T07:02:41+09:00",
  "matches": {
   "familymart-0412018": [
    210488

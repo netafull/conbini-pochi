@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "040116",
+ "name": "みりん醤油仕立てのあじほぐし御飯（もち麦）",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-06",
+ "launch_text": "2026年10月06日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "もち麦入りのご飯に、あじのみりん干しと小松菜炒め，昆布煮を盛りつけたお弁当です。",
+ "nutrition": {
+  "kcal": 307.0,
+  "protein_g": 12.5,
+  "fat_g": 4.2,
+  "carbs_g": 56.7,
+  "sugar_g": 52.8,
+  "fiber_g": 3.9,
+  "salt_g": 1.2,
+  "raw": "熱量：307kcal、たんぱく質：12.5g、脂質：4.2g、炭水化物：56.7g（糖質：52.8g、食物繊維：3.9g）、食塩相当量：1.2g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/040116/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040116/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040116/tokai/"
+ ],
+ "first_seen_at": "2026-10-12T07:01:19+09:00",
+ "fetched_at": "2026-10-12T07:01:19+09:00",
+ "source_list": "thisweek",
+ "image": null
+}
