@@ -13,6 +13,11 @@ import parsers  # noqa: E402
 
 FIX = ROOT / "tests" / "fixtures"
 
+# 公式ページのスナップショットはリポジトリに入れていない(規約対策。tests/fixtures_manifest.txt 参照)。
+# 手元に無い環境では、このモジュールのテストは丸ごとスキップする。
+if not (FIX.is_dir() and any(FIX.iterdir())):
+    raise unittest.SkipTest("公式ページのスナップショット(tests/fixtures/)が無い。リポジトリには入れていない")
+
 
 def read(path: str) -> str:
     return (FIX / path).read_text(encoding="utf-8")

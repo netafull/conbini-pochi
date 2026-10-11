@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .DS_Store
 data/run_summary.json
+# 公式ページのスナップショット(規約対策でリポジトリに入れない。tests/fixtures_manifest.txt 参照)
+tests/fixtures/
