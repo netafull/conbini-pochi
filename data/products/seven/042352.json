@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "042352",
+ "name": "豚ロースとんかつ弁当",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸",
+  "沖縄"
+ ],
+ "region_text": "新潟県、北陸、沖縄",
+ "description": "厚く切った豚ロース肉を使用したとんかつ弁当です。",
+ "nutrition": {
+  "kcal": 941.0,
+  "protein_g": 28.2,
+  "fat_g": 37.4,
+  "carbs_g": 124.4,
+  "sugar_g": 121.6,
+  "fiber_g": 2.8,
+  "salt_g": 4.5,
+  "raw": "熱量：941kcal、たんぱく質：28.2g、脂質：37.4g、炭水化物：124.4g（糖質：121.6g、食物繊維：2.8g）、食塩相当量：4.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "新潟県、北陸、沖縄",
+   "regions": [
+    "新潟県",
+    "北陸",
+    "沖縄"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/042352/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042352/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042352/hokuriku/"
+ ],
+ "first_seen_at": "2026-10-13T07:03:31+09:00",
+ "fetched_at": "2026-10-13T07:03:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

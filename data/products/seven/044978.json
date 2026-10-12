@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044978",
+ "name": "おおきなおむすび　ザンギマヨネーズ",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "醤油や生姜で下味をつけたジューシーなザンギと相性の良いマヨネーズを組み合わせた食べ応えのあるおむすびです",
+ "nutrition": {
+  "kcal": 327.0,
+  "protein_g": 6.1,
+  "fat_g": 7.0,
+  "carbs_g": 61.2,
+  "sugar_g": 58.8,
+  "fiber_g": 2.4,
+  "salt_g": 1.8,
+  "raw": "熱量：327kcal、たんぱく質：6.1g、脂質：7.0g、炭水化物：61.2g（糖質：58.8g、食物繊維：2.4g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/044978/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044978/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044978/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-13T07:01:18+09:00",
+ "fetched_at": "2026-10-13T07:01:18+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

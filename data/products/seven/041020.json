@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "041020",
+ "name": "長崎ＷＯＷ！コラボ　味しみ豚角煮おむすび",
+ "category": null,
+ "price_excl_tax": 250,
+ "price_incl_tax": 270,
+ "launch_date": "2026-10-23",
+ "launch_text": "2026年10月23日（金）以降順次発売",
+ "regions": [
+  "長崎県"
+ ],
+ "region_text": "長崎県",
+ "description": "長崎名物の豚角煮を手軽に食べることができるおむすびです。",
+ "nutrition": {
+  "kcal": 249.0,
+  "protein_g": 5.6,
+  "fat_g": 7.3,
+  "carbs_g": 41.1,
+  "sugar_g": 39.5,
+  "fiber_g": 1.6,
+  "salt_g": 1.3,
+  "raw": "熱量：249kcal、たんぱく質：5.6g、脂質：7.3g、炭水化物：41.1g（糖質：39.5g、食物繊維：1.6g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "長崎県",
+   "regions": [
+    "長崎県"
+   ],
+   "price_excl_tax": 250,
+   "price_incl_tax": 270,
+   "url": "https://www.sej.co.jp/products/a/item/041020/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041020/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041020/kyushu/"
+ ],
+ "first_seen_at": "2026-10-13T07:06:18+09:00",
+ "fetched_at": "2026-10-13T07:06:18+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

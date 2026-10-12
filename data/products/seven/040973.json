@@ -1,0 +1,125 @@
+{
+ "chain": "seven",
+ "product_id": "040973",
+ "name": "おにぎりランチ",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "山梨県",
+  "長野県",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、中国、四国、九州",
+ "description": "３種類のおにぎり（さつまいも・舞茸・明太子）と、コロッケ，玉子焼き，ウインナーなど、複数のおかずが楽しめるミニ弁当です。",
+ "nutrition": {
+  "kcal": 412.0,
+  "protein_g": 10.6,
+  "fat_g": 13.7,
+  "carbs_g": 63.4,
+  "sugar_g": 59.9,
+  "fiber_g": 3.5,
+  "salt_g": 2.5,
+  "raw": "熱量：412kcal、たんぱく質：10.6g、脂質：13.7g、炭水化物：63.4g（糖質：59.9g、食物繊維：3.5g）、食塩相当量：2.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/040973/kinki/"
+  },
+  "chugoku": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/040973/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/040973/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/040973/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040973/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040973/chugoku/",
+  "https://www.sej.co.jp/products/a/item/040973/kinki/",
+  "https://www.sej.co.jp/products/a/item/040973/kyushu/",
+  "https://www.sej.co.jp/products/a/item/040973/shikoku/"
+ ],
+ "first_seen_at": "2026-10-13T07:05:06+09:00",
+ "fetched_at": "2026-10-13T07:05:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

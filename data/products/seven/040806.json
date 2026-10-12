@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "040806",
+ "name": "唐揚げおむすびセット（梅しそ・とりめし）",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "中国"
+ ],
+ "region_text": "中国",
+ "description": "おむすびと唐揚げをメインにした、定番の組み合わせです。",
+ "nutrition": {
+  "kcal": 697.0,
+  "protein_g": 26.3,
+  "fat_g": 30.0,
+  "carbs_g": 82.5,
+  "sugar_g": 78.6,
+  "fiber_g": 3.9,
+  "salt_g": 5.7,
+  "raw": "熱量：697kcal、たんぱく質：26.3g、脂質：30.0g、炭水化物：82.5g（糖質：78.6g、食物繊維：3.9g）、食塩相当量：5.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "中国",
+   "regions": [
+    "中国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/040806/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040806/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040806/chugoku/"
+ ],
+ "first_seen_at": "2026-10-13T07:05:18+09:00",
+ "fetched_at": "2026-10-13T07:05:18+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,56 @@
+{
+ "chain": "seven",
+ "product_id": "044902",
+ "name": "やみつきにんにく醤油唐揚げ弁当",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "福島県",
+  "埼玉県",
+  "千葉県",
+  "東京都"
+ ],
+ "region_text": "福島県、埼玉県、千葉県、東京都",
+ "description": "にんにくの風味と醤油の旨みで御飯が進む唐揚げ弁当です。",
+ "nutrition": {
+  "kcal": 707.0,
+  "protein_g": 33.5,
+  "fat_g": 22.3,
+  "carbs_g": 95.1,
+  "sugar_g": 91.1,
+  "fiber_g": 4.0,
+  "salt_g": 2.9,
+  "raw": "熱量：707kcal、たんぱく質：33.5g、脂質：22.3g、炭水化物：95.1g（糖質：91.1g、食物繊維：4.0g）、食塩相当量：2.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "福島県、埼玉県、千葉県、東京都",
+   "regions": [
+    "福島県",
+    "埼玉県",
+    "千葉県",
+    "東京都"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044902/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044902/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044902/tohoku/"
+ ],
+ "first_seen_at": "2026-10-13T07:02:25+09:00",
+ "fetched_at": "2026-10-13T07:02:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

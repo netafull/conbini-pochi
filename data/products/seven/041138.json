@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041138",
+ "name": "国産鶏むね肉の唐揚げ弁当",
+ "category": null,
+ "price_excl_tax": 690,
+ "price_incl_tax": 745.2,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "鶏むね肉を塩麹や醤油，にんにくなどに漬け込んだ旨味がありジューシーな唐揚げのお弁当です。別添の小袋マヨネーズ付きです。",
+ "nutrition": {
+  "kcal": 676.0,
+  "protein_g": 38.3,
+  "fat_g": 21.6,
+  "carbs_g": 83.9,
+  "sugar_g": 80.4,
+  "fiber_g": 3.5,
+  "salt_g": 3.4,
+  "raw": "熱量：676kcal、たんぱく質：38.3g、脂質：21.6g、炭水化物：83.9g（糖質：80.4g、食物繊維：3.5g）、食塩相当量：3.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 690,
+   "price_incl_tax": 745.2,
+   "url": "https://www.sej.co.jp/products/a/item/041138/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041138/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041138/tokai/"
+ ],
+ "first_seen_at": "2026-10-13T07:04:06+09:00",
+ "fetched_at": "2026-10-13T07:04:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

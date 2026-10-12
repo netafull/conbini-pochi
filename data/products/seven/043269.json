@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "043269",
+ "name": "２種盛りチーズチキンカツ弁当",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県"
+ ],
+ "region_text": "山梨県、長野県",
+ "description": "あらびきマスタードをかけたささみチーズカツと、大葉を巻いたチーズチキンカツの２種類の味わいを楽しめる、ボリュームのあるお弁当です。",
+ "nutrition": {
+  "kcal": 685.0,
+  "protein_g": 22.1,
+  "fat_g": 17.1,
+  "carbs_g": 112.0,
+  "sugar_g": 109.5,
+  "fiber_g": 2.5,
+  "salt_g": 2.6,
+  "raw": "熱量：685kcal、たんぱく質：22.1g、脂質：17.1g、炭水化物：112.0g（糖質：109.5g、食物繊維：2.5g）、食塩相当量：2.6g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県、長野県",
+   "regions": [
+    "山梨県",
+    "長野県"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/043269/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/043269/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/043269/koshinetsu/"
+ ],
+ "first_seen_at": "2026-10-13T07:03:24+09:00",
+ "fetched_at": "2026-10-13T07:03:24+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

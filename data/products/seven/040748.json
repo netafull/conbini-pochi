@@ -1,0 +1,55 @@
+{
+ "chain": "seven",
+ "product_id": "040748",
+ "name": "山形県産つや姫おむすび広島名物国産牛コウネ",
+ "category": null,
+ "price_excl_tax": 298,
+ "price_incl_tax": 321.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "鳥取県",
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "鳥取県、島根県、広島県、山口県",
+ "description": "国産牛コウネを中具にしたおむすびです。",
+ "nutrition": {
+  "kcal": 251.0,
+  "protein_g": 4.7,
+  "fat_g": 8.3,
+  "carbs_g": 40.0,
+  "sugar_g": 38.5,
+  "fiber_g": 1.5,
+  "salt_g": 1.2,
+  "raw": "熱量：251kcal、たんぱく質：4.7g、脂質：8.3g、炭水化物：40.0g（糖質：38.5g、食物繊維：1.5g）、食塩相当量：1.2g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "鳥取県、島根県、広島県、山口県",
+   "regions": [
+    "鳥取県",
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/040748/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040748/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040748/chugoku/"
+ ],
+ "first_seen_at": "2026-10-13T07:05:49+09:00",
+ "fetched_at": "2026-10-13T07:05:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

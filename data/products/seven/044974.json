@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "044974",
+ "name": "直巻昆布おむすび　山わさびおかか",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "爽やかな辛味の山わさびを合わせたおかかを具材に入れ、海苔の代わりに道南産真昆布を使用した昆布シートを巻いた風味豊かなおむすびです",
+ "nutrition": {
+  "kcal": 182.0,
+  "protein_g": 3.5,
+  "fat_g": 0.8,
+  "carbs_g": 41.3,
+  "sugar_g": 39.2,
+  "fiber_g": 2.1,
+  "salt_g": 1.3,
+  "raw": "熱量：182kcal、たんぱく質：3.5g、脂質：0.8g、炭水化物：41.3g（糖質：39.2g、食物繊維：2.1g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/044974/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044974/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044974/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-13T07:01:00+09:00",
+ "fetched_at": "2026-10-13T07:01:00+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

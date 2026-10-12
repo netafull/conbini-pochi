@@ -1,0 +1,46 @@
+{
+ "chain": "seven",
+ "product_id": "044842",
+ "name": "いぶりがっこと青葱の混ぜご飯おむすび",
+ "category": null,
+ "price_excl_tax": 168,
+ "price_incl_tax": 181.44,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "刻んだいぶりがっことごま油で炒めた青葱をご飯に混ぜ込んだ、いぶりがっこの食感と青葱，ごま油の風味を感じられるおむすびです。",
+ "nutrition": {
+  "kcal": 171.0,
+  "protein_g": 2.8,
+  "fat_g": 2.4,
+  "carbs_g": 35.7,
+  "sugar_g": 33.5,
+  "fiber_g": 2.2,
+  "salt_g": 1.5,
+  "raw": "熱量：171kcal、たんぱく質：2.8g、脂質：2.4g、炭水化物：35.7g（糖質：33.5g、食物繊維：2.2g）、食塩相当量：1.5g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北",
+   "regions": [
+    "東北"
+   ],
+   "price_excl_tax": 168,
+   "price_incl_tax": 181.44,
+   "url": "https://www.sej.co.jp/products/a/item/044842/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044842/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044842/tohoku/"
+ ],
+ "first_seen_at": "2026-10-13T07:02:12+09:00",
+ "fetched_at": "2026-10-13T07:02:12+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "040853",
+ "name": "手巻おにぎり　鶏唐揚げマヨネーズ",
+ "category": null,
+ "price_excl_tax": 188,
+ "price_incl_tax": 203.04,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "ジューシーな唐揚げとマヨネーズを中具に使用した手巻おにぎりです。",
+ "nutrition": {
+  "kcal": 237.0,
+  "protein_g": 4.3,
+  "fat_g": 7.9,
+  "carbs_g": 38.1,
+  "sugar_g": 36.2,
+  "fiber_g": 1.9,
+  "salt_g": 1.3,
+  "raw": "熱量：237kcal、たんぱく質：4.3g、脂質：7.9g、炭水化物：38.1g（糖質：36.2g、食物繊維：1.9g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/040853/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040853/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040853/tokai/"
+ ],
+ "first_seen_at": "2026-10-13T07:03:50+09:00",
+ "fetched_at": "2026-10-13T07:03:50+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "041142",
+ "name": "味付海苔おにぎり　鶏の柚子胡椒マヨネーズ",
+ "category": null,
+ "price_excl_tax": 208,
+ "price_incl_tax": 224.64,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県"
+ ],
+ "region_text": "山梨県、長野県",
+ "description": "山梨県富士川町産の香り高いゆずを使用したおにぎり。香ばしく焼いた鶏肉に柚子胡椒とマヨネーズを合わせ、香り良く仕上げました。",
+ "nutrition": {
+  "kcal": 200.0,
+  "protein_g": 5.7,
+  "fat_g": 3.0,
+  "carbs_g": 38.6,
+  "sugar_g": 36.6,
+  "fiber_g": 2.0,
+  "salt_g": 1.4,
+  "raw": "熱量：200kcal、たんぱく質：5.7g、脂質：3.0g、炭水化物：38.6g（糖質：36.6g、食物繊維：2.0g）、食塩相当量：1.4g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県、長野県",
+   "regions": [
+    "山梨県",
+    "長野県"
+   ],
+   "price_excl_tax": 208,
+   "price_incl_tax": 224.64,
+   "url": "https://www.sej.co.jp/products/a/item/041142/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041142/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041142/koshinetsu/"
+ ],
+ "first_seen_at": "2026-10-13T07:03:06+09:00",
+ "fetched_at": "2026-10-13T07:03:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

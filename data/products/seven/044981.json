@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044981",
+ "name": "おおきなおむすび　チャーシュー山わさびマヨネーズ",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "柔らかく煮込んだチャーシューに、爽やかな辛みの山わさび風味マヨネーズを組み合わせた食べ応えのあるおむすびです",
+ "nutrition": {
+  "kcal": 289.0,
+  "protein_g": 6.1,
+  "fat_g": 3.5,
+  "carbs_g": 59.5,
+  "sugar_g": 57.1,
+  "fiber_g": 2.4,
+  "salt_g": 2.0,
+  "raw": "熱量：289kcal、たんぱく質：6.1g、脂質：3.5g、炭水化物：59.5g（糖質：57.1g、食物繊維：2.4g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/044981/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044981/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044981/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-13T07:01:07+09:00",
+ "fetched_at": "2026-10-13T07:01:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

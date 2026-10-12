@@ -1,0 +1,66 @@
+{
+ "chain": "seven",
+ "product_id": "054098",
+ "name": "ごろっとみかんサンド",
+ "category": null,
+ "price_excl_tax": 440,
+ "price_incl_tax": 475.2,
+ "launch_date": "2026-10-21",
+ "launch_text": "2026年10月21日（水）以降順次発売",
+ "regions": [
+  "甲信越",
+  "北陸",
+  "東海",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国",
+  "九州"
+ ],
+ "region_text": "甲信越、北陸、東海、鳥取県、島根県、岡山県、広島県、四国、九州",
+ "description": "フレッシュなみかんがごろっと入ったフルーツサンドです。マスカルポーネ入りクリームで食べ進みの良い仕立てです。",
+ "nutrition": {
+  "kcal": 240.0,
+  "protein_g": 4.7,
+  "fat_g": 10.1,
+  "carbs_g": 33.4,
+  "sugar_g": 31.8,
+  "fiber_g": 1.6,
+  "salt_g": 0.45,
+  "raw": "熱量：240kcal、たんぱく質：4.7g、脂質：10.1g、炭水化物：33.4g（糖質：31.8g、食物繊維：1.6g）、食塩相当量：0.45g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "甲信越、北陸、東海、鳥取県、島根県、岡山県、広島県、四国、九州",
+   "regions": [
+    "甲信越",
+    "北陸",
+    "東海",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 440,
+   "price_incl_tax": 475.2,
+   "url": "https://www.sej.co.jp/products/a/item/054098/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054098/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054098/shikoku/"
+ ],
+ "first_seen_at": "2026-10-13T07:06:06+09:00",
+ "fetched_at": "2026-10-13T07:06:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

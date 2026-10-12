@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044839",
+ "name": "鶏めしおむすび　房総ハーブ鶏使用",
+ "category": null,
+ "price_excl_tax": 168,
+ "price_incl_tax": 181.44,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "千葉県"
+ ],
+ "region_text": "千葉県",
+ "description": "千葉県内で飼養された房総ハーブ鶏を使用した、炊き込みご飯のおむすびです。",
+ "nutrition": {
+  "kcal": 187.0,
+  "protein_g": 6.0,
+  "fat_g": 1.6,
+  "carbs_g": 38.2,
+  "sugar_g": 36.3,
+  "fiber_g": 1.9,
+  "salt_g": 1.7,
+  "raw": "熱量：187kcal、たんぱく質：6.0g、脂質：1.6g、炭水化物：38.2g（糖質：36.3g、食物繊維：1.9g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "千葉県",
+   "regions": [
+    "千葉県"
+   ],
+   "price_excl_tax": 168,
+   "price_incl_tax": 181.44,
+   "url": "https://www.sej.co.jp/products/a/item/044839/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044839/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044839/kanto/"
+ ],
+ "first_seen_at": "2026-10-13T07:02:49+09:00",
+ "fetched_at": "2026-10-13T07:02:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

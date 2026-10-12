@@ -1,0 +1,61 @@
+{
+ "chain": "seven",
+ "product_id": "041007",
+ "name": "炭火で焼いた焼おにぎり",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "醤油ベースのタレを漬け、炭火で香ばしく焼き上げたおにぎりです。",
+ "nutrition": {
+  "kcal": 188.0,
+  "protein_g": 4.0,
+  "fat_g": 0.9,
+  "carbs_g": 41.9,
+  "sugar_g": 40.2,
+  "fiber_g": 1.7,
+  "salt_g": 2.4,
+  "raw": "熱量：188kcal、たんぱく質：4.0g、脂質：0.9g、炭水化物：41.9g（糖質：40.2g、食物繊維：1.7g）、食塩相当量：2.4g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/041007/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/041007/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041007/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041007/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/041007/koshinetsu/"
+ ],
+ "first_seen_at": "2026-10-13T07:03:18+09:00",
+ "fetched_at": "2026-10-13T07:03:18+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

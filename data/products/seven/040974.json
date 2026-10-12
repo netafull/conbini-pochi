@@ -1,0 +1,67 @@
+{
+ "chain": "seven",
+ "product_id": "040974",
+ "name": "旨さ相盛おむすび　紅しゃけと明太子",
+ "category": null,
+ "price_excl_tax": 298,
+ "price_incl_tax": 321.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "関東",
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "関東、島根県、広島県、山口県",
+ "description": "中具だけでなく、おにぎりのてっぺんにも具を盛り付けた、一口目から具材を味わえるおむすびです。具材は人気の紅しゃけと明太子を組み合わせました。",
+ "nutrition": {
+  "kcal": 261.0,
+  "protein_g": 7.7,
+  "fat_g": 2.0,
+  "carbs_g": 54.4,
+  "sugar_g": 51.7,
+  "fiber_g": 2.7,
+  "salt_g": 1.9,
+  "raw": "熱量：261kcal、たんぱく質：7.7g、脂質：2.0g、炭水化物：54.4g（糖質：51.7g、食物繊維：2.7g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "関東、島根県、広島県、山口県",
+   "regions": [
+    "関東",
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/040974/kanto/"
+  },
+  "chugoku": {
+   "region_text": "関東、島根県、広島県、山口県",
+   "regions": [
+    "関東",
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/040974/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040974/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040974/chugoku/",
+  "https://www.sej.co.jp/products/a/item/040974/kanto/"
+ ],
+ "first_seen_at": "2026-10-13T07:02:36+09:00",
+ "fetched_at": "2026-10-13T07:02:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

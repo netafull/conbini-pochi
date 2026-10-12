@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "043270",
+ "name": "ＣＡＦＥ　ＢＯＸ　テジプルコギ（もち麦）",
+ "category": null,
+ "price_excl_tax": 678,
+ "price_incl_tax": 732.24,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "旨みのあるお肉に、彩りのよい副菜を合わせたテジプルコギです。",
+ "nutrition": {
+  "kcal": 485.0,
+  "protein_g": 17.5,
+  "fat_g": 14.6,
+  "carbs_g": 75.0,
+  "sugar_g": 66.8,
+  "fiber_g": 8.2,
+  "salt_g": 3.3,
+  "raw": "熱量：485kcal、たんぱく質：17.5g、脂質：14.6g、炭水化物：75.0g（糖質：66.8g、食物繊維：8.2g）、食塩相当量：3.3g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 678,
+   "price_incl_tax": 732.24,
+   "url": "https://www.sej.co.jp/products/a/item/043270/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/043270/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/043270/kinki/"
+ ],
+ "first_seen_at": "2026-10-13T07:05:12+09:00",
+ "fetched_at": "2026-10-13T07:05:12+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

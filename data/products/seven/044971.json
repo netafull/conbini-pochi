@@ -1,0 +1,56 @@
+{
+ "chain": "seven",
+ "product_id": "044971",
+ "name": "長崎名物　トルコライス",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "福岡県",
+  "佐賀県",
+  "長崎県",
+  "熊本県"
+ ],
+ "region_text": "福岡県、佐賀県、長崎県、熊本県",
+ "description": "長崎県のご当地メニュー、トルコライスです。ターメリックライス，とんかつ，カレーソース，ナポリタンの組み合わせです。",
+ "nutrition": {
+  "kcal": 778.0,
+  "protein_g": 22.4,
+  "fat_g": 24.6,
+  "carbs_g": 118.8,
+  "sugar_g": 114.8,
+  "fiber_g": 4.0,
+  "salt_g": 6.9,
+  "raw": "熱量：778kcal、たんぱく質：22.4g、脂質：24.6g、炭水化物：118.8g（糖質：114.8g、食物繊維：4.0g）、食塩相当量：6.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "福岡県、佐賀県、長崎県、熊本県",
+   "regions": [
+    "福岡県",
+    "佐賀県",
+    "長崎県",
+    "熊本県"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044971/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044971/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044971/kyushu/"
+ ],
+ "first_seen_at": "2026-10-13T07:06:30+09:00",
+ "fetched_at": "2026-10-13T07:06:30+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "040891",
+ "name": "おおきなおむすび　愛知県産れんこんと鶏そぼろ",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "愛知県産れんこんを使用し、食感と具材感のあるおむすびです。",
+ "nutrition": {
+  "kcal": 291.0,
+  "protein_g": 6.3,
+  "fat_g": 3.0,
+  "carbs_g": 60.9,
+  "sugar_g": 58.4,
+  "fiber_g": 2.5,
+  "salt_g": 2.0,
+  "raw": "熱量：291kcal、たんぱく質：6.3g、脂質：3.0g、炭水化物：60.9g（糖質：58.4g、食物繊維：2.5g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/040891/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040891/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040891/tokai/"
+ ],
+ "first_seen_at": "2026-10-13T07:03:55+09:00",
+ "fetched_at": "2026-10-13T07:03:55+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

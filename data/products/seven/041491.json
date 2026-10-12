@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "041491",
+ "name": "豚骨醤油御飯と半熟煮玉子おむすび",
+ "category": null,
+ "price_excl_tax": 208,
+ "price_incl_tax": 224.64,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "甘めの豚骨醤油ベースのたれを混ぜ込んだ御飯に半熟煮玉子半分をトッピングしたおむすびです。",
+ "nutrition": {
+  "kcal": 218.0,
+  "protein_g": 6.2,
+  "fat_g": 6.1,
+  "carbs_g": 35.3,
+  "sugar_g": 33.7,
+  "fiber_g": 1.6,
+  "salt_g": 1.4,
+  "raw": "熱量：218kcal、たんぱく質：6.2g、脂質：6.1g、炭水化物：35.3g（糖質：33.7g、食物繊維：1.6g）、食塩相当量：1.4g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "九州",
+   "regions": [
+    "九州"
+   ],
+   "price_excl_tax": 208,
+   "price_incl_tax": 224.64,
+   "url": "https://www.sej.co.jp/products/a/item/041491/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041491/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041491/kyushu/"
+ ],
+ "first_seen_at": "2026-10-13T07:06:14+09:00",
+ "fetched_at": "2026-10-13T07:06:14+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

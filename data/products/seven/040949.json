@@ -1,0 +1,98 @@
+{
+ "chain": "seven",
+ "product_id": "040949",
+ "name": "ハンバーグ＆唐揚げ弁当",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "東海",
+  "近畿",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "埼玉県、千葉県、東京都、神奈川県、東海、近畿、九州、沖縄",
+ "description": "ハンバーグと唐揚げを組み合わせた食べ応えのあるお弁当です。",
+ "nutrition": {
+  "kcal": 698.0,
+  "protein_g": 29.2,
+  "fat_g": 19.2,
+  "carbs_g": 104.5,
+  "sugar_g": 99.7,
+  "fiber_g": 4.8,
+  "salt_g": 3.6,
+  "raw": "熱量：698kcal、たんぱく質：29.2g、脂質：19.2g、炭水化物：104.5g（糖質：99.7g、食物繊維：4.8g）、食塩相当量：3.6g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、東海、近畿、九州、沖縄",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "東海",
+    "近畿",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/040949/kinki/"
+  },
+  "kyushu": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、東海、近畿、九州、沖縄",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "東海",
+    "近畿",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/040949/kyushu/"
+  },
+  "okinawa": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、東海、近畿、九州、沖縄",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "東海",
+    "近畿",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/040949/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040949/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040949/kinki/",
+  "https://www.sej.co.jp/products/a/item/040949/kyushu/",
+  "https://www.sej.co.jp/products/a/item/040949/okinawa/"
+ ],
+ "first_seen_at": "2026-10-13T07:04:43+09:00",
+ "fetched_at": "2026-10-13T07:04:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
