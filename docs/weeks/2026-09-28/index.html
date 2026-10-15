@@ -132,6 +132,8 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 .ad-slot { width: 100%; max-width: 960px; margin: 16px auto; background: var(--card);
   border: 1px solid var(--line); border-radius: 10px; padding: 12px; text-align: center; }
 .ad-slot:has(ins[data-ad-status="unfilled"]) { display: none; }
+/* カード一覧(.grid)の中に差し込まれる枠は、全列をまたいで1行を使う */
+.grid > .ad-slot { grid-column: 1 / -1; max-width: none; margin: 4px 0; }
 </style>
 
 </head>
@@ -154,7 +156,6 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
      data-ad-slot="1215675017"
      data-ad-format="rectangle"
      data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 <main>
 <h2>2026-09-28 の週の新商品 (156件)</h2>
@@ -471,15 +472,6 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   <div class="meta">2026-09-29 発売</div>
   
 </a>
-</div>
-<div class="ad-slot">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2195959398357532"
-     data-ad-slot="1215675017"
-     data-ad-format="rectangle"
-     data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 </div>
 </section>
 <section class="chain-group" data-chain="familymart">
@@ -886,15 +878,6 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   
 </a>
 </div>
-<div class="ad-slot">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2195959398357532"
-     data-ad-slot="1215675017"
-     data-ad-format="rectangle"
-     data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 </section>
 <section class="chain-group" data-chain="lawson">
 <h3>ローソン (48件)</h3>
@@ -1284,15 +1267,6 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   
 </a>
 </div>
-<div class="ad-slot">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-2195959398357532"
-     data-ad-slot="1215675017"
-     data-ad-format="rectangle"
-     data-full-width-responsive="true"></ins>
-<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-</div>
 </section>
 <section class="chain-group" data-chain="dailyyamazaki">
 <h3>デイリーヤマザキ (20件)</h3>
@@ -1458,8 +1432,15 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   
 </a>
 </div>
-
 </section>
+<template id="ad-template"><div class="ad-slot">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2195959398357532"
+     data-ad-slot="1215675017"
+     data-ad-format="rectangle"
+     data-full-width-responsive="true"></ins>
+</div></template>
 
 <script>
 (function () {
@@ -1468,6 +1449,32 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
   if (!grids.length) return;
   var select = document.getElementById('sort-select');
   var chainSel = document.getElementById('chain-filter');
+  // 広告枠。サーバー側はグリッドに枠を置かず、並び替え・絞り込みのたびにここで差し込み直す。
+  // 雛形(#ad-template)が無ければ(広告未設定・非対応ブラウザ)何もしない
+  var AD_EVERY = 12;
+  var AD_MAX = 3;
+  var adTpl = document.getElementById('ad-template');
+  function placeAds() {
+    // 既存の枠は全部捨てる(pushした<ins>は再利用できないので、毎回新しく作る)
+    grids.forEach(function (grid) {
+      Array.prototype.slice.call(grid.querySelectorAll('.ad-slot')).forEach(function (a) {
+        a.parentNode.removeChild(a);
+      });
+    });
+    var proto = adTpl && adTpl.content && adTpl.content.firstElementChild;
+    if (!proto) return;
+    // 見えているグリッドだけ。見えているカードのAD_EVERY件おきに、ページ全体でAD_MAX枠まで。
+    // i < items.length なので先頭にも末尾にも置かず、枠が連続することもない
+    var left = AD_MAX;
+    grids.forEach(function (grid) {
+      if (left <= 0 || grid.offsetParent === null) return;
+      var items = grid.querySelectorAll('.item');
+      for (var i = AD_EVERY; i < items.length && left > 0; i += AD_EVERY) {
+        grid.insertBefore(proto.cloneNode(true), items[i]);
+        left--;
+      }
+    });
+  }
   function apply() {
     var mode = select ? select.value : 'date';
     var chain = chainSel ? chainSel.value : 'all';
@@ -1483,6 +1490,9 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
       });
       items.forEach(function (el) { grid.appendChild(el); });
     });
+    placeAds();
+    // 初回はページ末尾のAD_JSがpushするので、まだ無ければ何もしない
+    if (window.syncAds) window.syncAds();
   }
   if (select) select.addEventListener('change', apply);
   if (chainSel) chainSel.addEventListener('change', apply);
@@ -1542,5 +1552,22 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <a data-google-vignette="false" href="https://fastfood.netaful.jp/">ファストフードポチ<span class="lbl"> マクド・モスの限定メニュー</span></a>
 </nav>
 </footer>
+
+<script>
+function syncAds() {
+  document.querySelectorAll("ins[data-ad-slot]").forEach(function (ins) {
+    if (ins.dataset.pushed) return;
+    if (ins.offsetParent === null) {
+      ins.classList.remove("adsbygoogle");
+      return;
+    }
+    ins.classList.add("adsbygoogle");
+    ins.dataset.pushed = "1";
+    (window.adsbygoogle = window.adsbygoogle || []).push({});
+  });
+}
+syncAds();
+</script>
+
 </body>
 </html>

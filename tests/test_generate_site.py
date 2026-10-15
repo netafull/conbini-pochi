@@ -194,17 +194,71 @@ class TestAdSlots(unittest.TestCase):
             self.assertIn("adsbygoogle.js?client=ca-pub-1", head, name)
             self.assertIn("crossorigin", head, name)
 
-    def test_no_ad_inside_sortable_grid(self):
+    def test_no_ad_inside_sortable_grid_on_server_side(self):
+        # グリッド内の枠はSORT_JSが差し込む。サーバー側のHTMLには残さない
         import re
         for name, h in self.pages().items():
             for m in re.finditer(r'<div class="grid" data-sortable>(.*?)\n</div>\n', h, re.S):
                 self.assertNotIn("ad-slot", m.group(1), name)
+                self.assertNotIn("adsbygoogle", m.group(1), name)
 
-    def test_ad_count_within_limit_and_between_groups(self):
-        for name, h in self.pages().items():
+    def test_grid_pages_have_ad_js_template_and_constants(self):
+        # (a) 広告用のJS・定数・雛形がHTMLに入る
+        for name in ("grid", "top"):
+            h = self.pages()[name]
+            self.assertIn("function syncAds()", h, name)
+            self.assertIn(f"var AD_EVERY = {gs.ADS_EVERY};", h, name)
+            self.assertIn(f"var AD_MAX = {gs.ADS_MAX_PER_GRID};", h, name)
+            self.assertEqual(h.count('<template id="ad-template">'), 1, name)
+            self.assertNotIn("__ADS_", h, name)
+            # 初回のsyncAds()はSORT_JSより後ろ(ページ末尾)にある
+            self.assertGreater(h.rindex("syncAds();"), h.index("var AD_EVERY"), name)
+
+    def test_server_side_slot_count(self):
+        # ヘッダー下1枠 + 雛形(<template>)1つ。実際の差し込みはJSで、上限は
+        # ADS_MAX_PER_GRID(ページ全体の合計)
+        self.assertEqual(gs.ADS_MAX_PER_GRID, 3)
+        self.assertEqual(gs.ADS_EVERY, 12)
+        for name in ("grid", "top"):
+            h = self.pages()[name]
             body = h.split("<body>")[1]
+            tpl = body[body.index("<template"):body.index("</template>")]
+            self.assertEqual(body.count('<ins class="adsbygoogle"'), 2, name)
+            self.assertEqual(tpl.count('<ins class="adsbygoogle"'), 1, name)
             self.assertLessEqual(body.count('<div class="ad-slot">'), MAX_ADS, name)
-        self.assertEqual(self.pages()["top"].count('<div class="ad-slot">'), 3)
+
+    def test_item_page_has_one_ad_and_no_grid_js(self):
+        h = self.pages()["item"]
+        self.assertEqual(h.split("<body>")[1].count('<ins class="adsbygoogle"'), 1)
+        self.assertNotIn("<template", h)
+        self.assertNotIn("AD_EVERY", h)
+        self.assertIn("function syncAds()", h)
+        # 枠ごとのインラインpushはしない(syncAdsに一本化)
+        self.assertEqual(h.count("adsbygoogle || []).push"), 1)
+
+    def test_ad_js_only_when_configured(self):
+        gs.CONFIG["adsense_client_id"] = ""
+        gs.CONFIG["adsense_ad_slot"] = ""
+        for name, h in self.pages().items():
+            self.assertNotIn("function syncAds", h, name)
+            self.assertNotIn("<template", h, name)
+            self.assertNotIn('class="ad-slot"', h, name)
+
+    def test_sort_js_script_is_valid_javascript(self):
+        # nodeがあれば構文チェックする(無ければ飛ばす)
+        import re, shutil, subprocess, tempfile, os
+        node = shutil.which("node") or "/opt/homebrew/opt/node@22/bin/node"
+        if not os.path.exists(node):
+            self.skipTest("node がない")
+        h = self.pages()["top"]
+        for i, m in enumerate(re.finditer(r"<script>(.*?)</script>", h, re.S)):
+            with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False, encoding="utf-8") as f:
+                f.write(m.group(1))
+            try:
+                r = subprocess.run([node, "--check", f.name], capture_output=True, text=True)
+                self.assertEqual(r.returncode, 0, r.stderr)
+            finally:
+                os.unlink(f.name)
 
     def test_item_page_ad_not_adjacent_to_quote(self):
         import re
