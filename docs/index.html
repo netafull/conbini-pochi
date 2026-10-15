@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>コンビニポチ</title>
-<meta name="description" content="セブンイレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
+<meta name="description" content="セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
 <link rel="canonical" href="https://conbini.netaful.jp/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-832CBEYG4T"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-832CBEYG4T');</script>
@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="コンビニポチ">
-<meta property="og:description" content="セブンイレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
+<meta property="og:description" content="セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
 <meta property="og:url" content="https://conbini.netaful.jp/">
 <meta property="og:site_name" content="コンビニポチ">
 <meta property="og:locale" content="ja_JP">
@@ -26,7 +26,7 @@
 :root {
   --bg: #fafaf7; --card: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
   --accent: #0071e3; --line: #e5e2dc;
-  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3;
+  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3; --dailyyamazaki: #c62839;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #14151a; --card: #1e2027; --text: #e8e8e6; --muted: #9a9a96;
@@ -61,6 +61,7 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .chain-group[data-chain="seven"] h3 { border-color: var(--seven); }
 .chain-group[data-chain="familymart"] h3 { border-color: var(--familymart); }
 .chain-group[data-chain="lawson"] h3 { border-color: var(--lawson); }
+.chain-group[data-chain="dailyyamazaki"] h3 { border-color: var(--dailyyamazaki); }
 .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .item { display: block; background: var(--card); border: 1px solid var(--line);
   border-radius: 10px; padding: 12px; text-decoration: none; }
@@ -70,6 +71,7 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .item[data-chain="seven"] .badge { background: var(--seven); }
 .item[data-chain="familymart"] .badge { background: var(--familymart); }
 .item[data-chain="lawson"] .badge { background: var(--lawson); }
+.item[data-chain="dailyyamazaki"] .badge { background: var(--dailyyamazaki); }
 .item .t { font-size: 14px; font-weight: 600; display: -webkit-box;
   -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em; }
 .item .price { margin-top: 6px; font-size: 13px; }
@@ -136,7 +138,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <body>
 <header>
 <h1><a data-google-vignette="false" href="/"><img src="/assets/logo.png" alt="" width="32" height="32">コンビニポチ</a></h1>
-<p>セブンイレブン・ファミリーマート・ローソンの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています ｜ 最終更新: 2026年10月16日 07:00</p>
+<p>セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています ｜ 最終更新: 2026年10月16日 07:27</p>
 <nav class="sites"><span class="lbl">関連サイト</span>
 <a data-google-vignette="false" href="https://book.netaful.jp/">電書ポチ<span class="lbl"> Kindle本セール</span></a>
 <a data-google-vignette="false" href="https://kaden.netaful.jp/">家電ポチ<span class="lbl"> ガジェット・家電セール</span></a>
@@ -159,6 +161,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <a data-google-vignette="false" href="/chains/seven/">セブンイレブン</a>
 <a data-google-vignette="false" href="/chains/familymart/">ファミリーマート</a>
 <a data-google-vignette="false" href="/chains/lawson/">ローソン</a>
+<a data-google-vignette="false" href="/chains/dailyyamazaki/">デイリーヤマザキ</a>
 </div>
 <h2>商品名で検索</h2>
 <div class="searchbox"><input id="search-input" type="search"
@@ -238,13 +241,12 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 </div>
 </a>
 </div>
-<h2>2026-10-12 の週の新商品 (141件)</h2>
+<h2>2026-10-12 の週の新商品 (152件)</h2>
 <div class="sort-bar">
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
 <option value="kcal">カロリー順</option></select></label>
 <label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
-<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option>
-<option value="lawson">ローソン</option></select></label>
+<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option><option value="lawson">ローソン</option><option value="dailyyamazaki">デイリーヤマザキ</option></select></label>
 </div>
 <section class="chain-group" data-chain="seven">
 <h3>セブンイレブン (42件)</h3>
@@ -1406,6 +1408,108 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
   
 </a>
 </div>
+<div class="ad-slot">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2195959398357532"
+     data-ad-slot="1215675017"
+     data-ad-format="rectangle"
+     data-full-width-responsive="true"></ins>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+</div>
+</section>
+<section class="chain-group" data-chain="dailyyamazaki">
+<h3>デイリーヤマザキ (11件)</h3>
+<div class="grid" data-sortable>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129547.html" data-kcal="214.0"
+   data-date="2026-10-15" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">もちもち食感チョコｉｎチュロス</div>
+  <div class="price">税込198円（税抜184円）<span class="kcal">214kcal</span></div>
+  <div class="meta">2026-10-15 発売・パン</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130426.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">ランチパック極厚キャラメル板チョコ＆キャラメルクリーム</div>
+  <div class="price">税込318円（税抜295円）</div>
+  <div class="meta">2026-10-13 発売・パン</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130451.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">花椒香る汁なし担々麺</div>
+  <div class="price">税込498円（税抜462円）</div>
+  <div class="meta">2026-10-13 発売・麺</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130466.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">大きなサンド　ハムチーズたまご</div>
+  <div class="price">税込398円（税抜369円）</div>
+  <div class="meta">2026-10-13 発売・サンド</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130481.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">チキン南蛮弁当</div>
+  <div class="price">税込698円（税抜647円）</div>
+  <div class="meta">2026-10-13 発売・お弁当</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130511.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">海老二本！海老とかき揚げの天丼</div>
+  <div class="price">税込615円（税抜570円）</div>
+  <div class="meta">2026-10-13 発売・お弁当</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130526.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">きのこご飯おにぎり（もち麦入）</div>
+  <div class="price">税込158円（税抜147円）</div>
+  <div class="meta">2026-10-13 発売・おにぎり</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130548.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">クリームたっぷりミルクツインシュー（濃厚ミルク）</div>
+  <div class="price">税込178円（税抜165円）</div>
+  <div class="meta">2026-10-13 発売・スイーツ</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130570.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">クリームたっぷりツインシュー（ホイップ＆カスタード）</div>
+  <div class="price">税込178円（税抜165円）</div>
+  <div class="meta">2026-10-13 発売・スイーツ</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130585.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">胡椒餅風味肉まん</div>
+  <div class="price">税込185円（税抜172円）</div>
+  <div class="meta">2026-10-13 発売</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130607.html" data-kcal=""
+   data-date="2026-10-13" data-chain="dailyyamazaki">
+  <div class="badge">デイリーヤマザキ</div>
+  <div class="t">たっぷりあんバターフランスパン</div>
+  <div class="price">税込178円（税抜165円）</div>
+  <div class="meta">2026-10-13 発売・パン</div>
+  
+</a>
+</div>
 
 </section>
 
@@ -1789,17 +1893,17 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 </div>
 
 </section>
-<p><a data-google-vignette="false" href="/weeks/">週別アーカイブ一覧（全7週）を見る →</a></p>
+<p><a data-google-vignette="false" href="/weeks/">週別アーカイブ一覧（全8週）を見る →</a></p>
 <section class="about"><h2>コンビニポチについて</h2>
-<p>コンビニ3社（セブンイレブン・ファミリーマート・ローソン）の公式サイトを1日1回チェックし、新商品の情報を記録し続けているアーカイブです。各社の公式サイトは販売終了した商品のページを削除してしまうため、「いつ・何が・いくらで発売されたか」を後から調べられることを目的にしています。</p>
+<p>コンビニ4社（セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ）の公式サイトを1日1回チェックし、新商品の情報を記録し続けているアーカイブです。各社の公式サイトは販売終了した商品のページを削除してしまうため、「いつ・何が・いくらで発売されたか」を後から調べられることを目的にしています。</p>
 <p>商品説明・価格・栄養成分などは各社公式サイトの内容を出典を明記して引用しています。商品画像は掲載していません（イメージ画像を追加する構想はありますが、公式画像の転載は行いません）。</p>
-<p>価格・販売状況は取得時点のものです。最新の状況は必ず各社の公式サイトでご確認ください。当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン各社とは関係のない非公式サイトです。運営はブログ「ネタフル」のコグレです。姉妹サイトに電書ポチ・家電ポチ・林檎ポチ・漫画ポチがあります。</p>
+<p>価格・販売状況は取得時点のものです。最新の状況は必ず各社の公式サイトでご確認ください。当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ各社とは関係のない非公式サイトです。運営はブログ「ネタフル」のコグレです。姉妹サイトに電書ポチ・家電ポチ・林檎ポチ・漫画ポチがあります。</p>
 <p>当サイトにはGoogle AdSenseによる広告が表示されます。広告の配信や効果測定のために、Googleなどの第三者がCookie等を使用することがあります。詳しくはメディアポリシーをご覧ください。</p>
 </section>
 </main>
 <footer>
 価格・発売日・在庫は取得時点のものです。最新の状況は各社公式サイトでご確認ください。
-当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン各社とは関係のない非公式サイトです。
+当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ各社とは関係のない非公式サイトです。
 ｜ <a data-google-vignette="false" href="https://netaful.jp/policy.html">メディアポリシー</a>
 ｜ <a data-google-vignette="false" href="/rss.xml">RSS</a> ｜ <a data-google-vignette="false" href="/weeks/">週別アーカイブ</a>
 <nav class="sites"><span class="lbl">関連サイト</span>
