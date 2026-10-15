@@ -251,5 +251,18 @@ class TestUpdatedLabel(unittest.TestCase):
         self.assertNotIn("最終更新", shell)  # 全ページに入れると毎日すべてのファイルが変わる
 
 
+class TestCardLinksAreRootAbsolute(unittest.TestCase):
+    """カードのリンクが /items/… になっている(階層のあるページ /chains/x/ などで404にならない)。"""
+
+    def test_card_href_starts_with_slash(self):
+        card = gs.render_card(make_item("seven", "1se"))
+        self.assertIn('href="/items/', card)
+        self.assertNotIn('href="items/', card)
+
+    def test_grid_page_has_no_relative_item_links(self):
+        html = gs.render_grid_page("週", "d", [make_item("seven", "1se")], "https://x/")
+        self.assertNotIn('href="items/', html)
+
+
 if __name__ == "__main__":
     unittest.main()

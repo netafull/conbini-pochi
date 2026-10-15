@@ -210,6 +210,9 @@ def effective_date(item: dict) -> str | None:
     )
 
 
+# 注意: item_url はサイトルートからの相対パス(先頭に / が無い)。**カードのhrefに使うときは先頭に "/" を付ける**。
+# 付け忘れると、/chains/xxx/ や /weeks/xxx/ のような階層のあるページで /chains/xxx/items/… を指して404になる
+# (2026-10-15に、ファストフードポチのチェーンページとコンビニポチのチェーン・週別ページで発覚)。
 def item_url(item: dict) -> str:
     return f"items/{item['chain']}-{item['product_id']}.html"
 
@@ -235,7 +238,7 @@ def render_card(item: dict) -> str:
     kcal = (item.get("nutrition") or {}).get("kcal")
     kcal_html = f'<span class="kcal">{kcal:g}kcal</span>' if kcal is not None else ""
     review_html = '<div class="review-badge">レビューあり</div>' if item_reviews(item) else ""
-    return f"""<a class="item" href="{esc(item_url(item))}" data-kcal="{kcal if kcal is not None else ''}"
+    return f"""<a class="item" href="/{esc(item_url(item))}" data-kcal="{kcal if kcal is not None else ''}"
    data-date="{esc(date)}" data-chain="{esc(item['chain'])}">
   <div class="badge">{esc(chain_name)}</div>
   <div class="t">{esc(item['name'])}</div>
