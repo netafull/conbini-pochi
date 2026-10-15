@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""3社（セブンイレブン・ファミリーマート・ローソン）のHTMLから商品情報を
+"""4社（セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ）のHTMLから商品情報を
 取り出す純粋関数群。ネットワークには一切触れない（テストからfixtureを渡して
 呼べるようにするため）。html.parserは使わず正規表現で十分な程度に構造が
 単純なので正規表現で抜き出す。
@@ -480,3 +480,131 @@ def parse_lawson_detail(html: str) -> dict | None:
         "nutrition": nutrition,
         "allergens": allergens,
     }
+
+
+# ---------------------------------------------------------------------------
+# デイリーヤマザキ
+# ---------------------------------------------------------------------------
+# 商品詳細は別ページではなく、/new/ 1枚の中のモーダル(<div id="product130607"
+# class="c-products-modal">)。idの数字はWordPressの投稿IDで、日付や連番を含まず安定。
+# 発売日はモーダルには無く、一覧側の見出し(「10月13日（火）発売の新商品」)と、
+# その下に並ぶ商品リンク(<a href="#product130607">)の位置関係から決める。
+
+DAILYYAMAZAKI_MODAL_RE = re.compile(r'<div id="product(\d+)" class="c-products-modal">')
+DAILYYAMAZAKI_HEADING_RE = re.compile(r'<h3 class="c-title03">(.*?)</h3>', re.S)
+DAILYYAMAZAKI_LINK_RE = re.compile(r'<a href="#product(\d+)"')
+
+
+def resolve_month_day(month: int, day: int, reference_date: datetime.date) -> str | None:
+    """年の無い「月/日」を、reference_date(クロール実行日)に最も近い年で補ってISO日付にする。
+    年またぎ(12月に1月発売分が載る等)でも、近い方の年を選べば正しく解決できる。"""
+    best: datetime.date | None = None
+    best_diff: int | None = None
+    for year in (reference_date.year - 1, reference_date.year, reference_date.year + 1):
+        try:
+            candidate = datetime.date(year, month, day)
+        except ValueError:
+            continue
+        diff = abs((candidate - reference_date).days)
+        if best_diff is None or diff < best_diff:
+            best_diff = diff
+            best = candidate
+    return best.isoformat() if best else None
+
+
+def parse_dailyyamazaki_launch_dates(html: str, today: datetime.date) -> dict[str, tuple[str, str | None]]:
+    """一覧部分(最初のモーダルより前)の見出しと商品リンクから、
+    {商品ID: (見出しの原文, 発売日ISO)} を作る。
+
+    見出しは「10月13日（火）発売の新商品」「10月度(10月15日(木)発売)のデイリーホット新商品」
+    の2種類があり、どちらも最初に現れる「M月D日」が発売日。商品リンクは、直前の見出しの
+    ものとみなす。
+    """
+    first_modal = DAILYYAMAZAKI_MODAL_RE.search(html)
+    listing = html[: first_modal.start()] if first_modal else html
+    events: list[tuple[int, str, str]] = []
+    for m in DAILYYAMAZAKI_HEADING_RE.finditer(listing):
+        events.append((m.start(), "heading", _unescape(_strip_tags(m.group(1)))))
+    for m in DAILYYAMAZAKI_LINK_RE.finditer(listing):
+        events.append((m.start(), "link", m.group(1)))
+    events.sort()
+
+    result: dict[str, tuple[str, str | None]] = {}
+    heading_text = ""
+    heading_date: str | None = None
+    for _pos, kind, value in events:
+        if kind == "heading":
+            heading_text = value
+            md = re.search(r"(\d{1,2})月(\d{1,2})日", value)
+            heading_date = resolve_month_day(int(md.group(1)), int(md.group(2)), today) if md else None
+        elif heading_text and value not in result:
+            result[value] = (heading_text, heading_date)
+    return result
+
+
+def parse_dailyyamazaki_list(html: str, today: datetime.date) -> list[dict]:
+    """/new/ のモーダルを1件ずつ取り出す。todayは発売日の年を補うための基準日(JST)。
+
+    栄養成分は「熱量：214kcal」だけが載る商品がある(無い商品も多い)。たんぱく質等の
+    項目はページに存在しないので、熱量のみ持つ。アレルゲンは画像のalt(卵・小麦・乳成分等)
+    と、画像にならない品目の文字列(<li class="other">)の両方から集める。
+    """
+    launch_by_id = parse_dailyyamazaki_launch_dates(html, today)
+    starts = list(DAILYYAMAZAKI_MODAL_RE.finditer(html))
+    items: list[dict] = []
+    for i, m in enumerate(starts):
+        end = starts[i + 1].start() if i + 1 < len(starts) else len(html)
+        block = html[m.end():end]
+        pid = m.group(1)
+
+        name_m = re.search(r'<h3 class="ttl"[^>]*>(.*?)</h3>', block, re.S)
+        if not name_m:
+            continue
+        num_m = re.search(r'<span class="num">\s*([\d,]+(?:\.\d+)?)\s*</span>', block)
+        tax_m = re.search(r'<span class="tax">(.*?)</span>', block, re.S)
+        txt_m = re.search(r'<p class="txt01">(.*?)</p>', block, re.S)
+        kcal_m = re.search(r'<p class="kcal">\s*熱量[：:]\s*([\d.]+)\s*kcal', block)
+        cate_alts = re.findall(
+            r'<ul class="cate">(.*?)</ul>', block, re.S
+        )
+        categories = re.findall(r'alt="([^"]+)"', cate_alts[0]) if cate_alts else []
+        categories = [c for c in categories if c != "DailyHot"]  # 販売形態のバッジで、食品カテゴリではない
+
+        price_text = ""
+        if num_m:
+            price_text = num_m.group(1) + "円" + (_unescape(_strip_tags(tax_m.group(1))) if tax_m else "")
+
+        allergens = None
+        alg_m = re.search(r'<section class="allergen">(.*?)</section>', block, re.S)
+        if alg_m:
+            allergens = [_unescape(a) for a in re.findall(r'<li><img[^>]*alt="([^"]+)"', alg_m.group(1))]
+            for other in re.findall(r'<li class="other">(.*?)</li>', alg_m.group(1), re.S):
+                text = _unescape(_strip_tags(other)) or ""
+                text = text.replace("※その他", "").replace("を含む。", "")
+                for name in re.split(r"[、,・「」\s　]+", text):
+                    if name and name not in allergens:
+                        allergens.append(name)
+
+        launch_text, launch_date = launch_by_id.get(pid, ("", None))
+        items.append(
+            {
+                "product_id": pid,
+                "name": _unescape(_strip_tags(name_m.group(1))),
+                "category": categories[0] if categories else None,
+                "price_text": price_text,
+                "description": _unescape(_strip_tags(txt_m.group(1))) if txt_m else None,
+                "nutrition": (
+                    {
+                        "kcal": float(kcal_m.group(1)),
+                        "protein_g": None, "fat_g": None, "carbs_g": None,
+                        "sugar_g": None, "fiber_g": None, "salt_g": None,
+                        "raw": f"熱量：{kcal_m.group(1)}kcal",
+                    }
+                    if kcal_m else None
+                ),
+                "allergens": allergens,
+                "launch_text": launch_text,
+                "launch_date": launch_date,
+            }
+        )
+    return items

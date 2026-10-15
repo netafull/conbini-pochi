@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""3社の新商品を巡回し、data/products/{chain}/{id}.json に1商品1ファイルで
+"""4社の新商品を巡回し、data/products/{chain}/{id}.json に1商品1ファイルで
 蓄積する。公式サイトは販売終了した商品ページを消してしまうため、
 「いつ何が出たか」を後から引ける記録を残すことが目的。
 
@@ -455,6 +455,88 @@ def crawl_lawson(pending: dict, stats: dict) -> None:
         pending[chain].pop(pid, None)
 
 
+# ---------------------------------------------------------------------------
+# デイリーヤマザキ
+# ---------------------------------------------------------------------------
+
+def crawl_dailyyamazaki(pending: dict, stats: dict) -> None:
+    """/new/ 1ページに全商品の詳細(モーダル)が載っているので、リクエストは1回だけ。
+    詳細ページの取得ループは無い。
+
+    公式は2026-09-01より前の分を載せておらず(ページ送りも無い)、掲載から消えた商品の
+    ページも残らない。そのため、一覧から消えても保存済みの商品は絶対に削除しない
+    (このクローラーは商品ファイルを消す処理を一切持たない)。既存商品は上書きしない。
+    """
+    base = "https://www.daily-yamazaki.jp"
+    chain = "dailyyamazaki"
+    pending.setdefault(chain, {})
+    stats.setdefault(chain, {"list_requests": 0, "detail_requests": 0, "new_products": 0,
+                              "failed": 0, "blocked": False})
+
+    list_url = base + "/new/"
+    try:
+        html = get(chain, list_url)
+        stats[chain]["list_requests"] += 1
+    except BlockedError as e:
+        stats[chain]["blocked"] = True
+        print(f"[blocked] dailyyamazaki list: {e}", file=sys.stderr)
+        return
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] dailyyamazaki list 取得失敗: {e}", file=sys.stderr)
+        stats[chain]["failed"] += 1
+        pending[chain]["list"] = {
+            "url": list_url, "reason": f"fetch_error: {e}", "checked_at": now_iso(),
+        }
+        return
+
+    entries = parsers.parse_dailyyamazaki_list(html, datetime.datetime.now(JST).date())
+    if not entries:
+        # サイトの作り変えで1件も取れなくなった場合。既存データには触れない
+        print("[warn] dailyyamazaki 一覧から商品を1件も取り出せませんでした", file=sys.stderr)
+        stats[chain]["failed"] += 1
+        pending[chain]["list"] = {
+            "url": list_url, "reason": "empty_list", "checked_at": now_iso(),
+        }
+        return
+    pending[chain].pop("list", None)
+
+    seen: set[str] = set()
+    for e in entries:
+        pid = e["product_id"]
+        if pid in seen:
+            continue
+        seen.add(pid)
+        if load_product(chain, pid) is not None:
+            continue  # 既存商品は上書きしない(アーカイブなので初回取得が正)
+
+        excl, incl = parsers.parse_price_pair(e["price_text"])
+        product = {
+            "chain": chain,
+            "product_id": pid,
+            "name": e["name"],
+            "category": e["category"],
+            "price_excl_tax": excl,
+            "price_incl_tax": incl,
+            "launch_date": e["launch_date"],
+            "launch_text": e["launch_text"],
+            "regions": None,
+            # 販売地域の専用項目は無い(説明文中の「※青森での販売はありません」等のみ)
+            "region_text": None,
+            "description": e["description"],
+            "nutrition": e["nutrition"],
+            "allergens": e["allergens"],
+            "spec": None,
+            "variants": None,
+            "official_url": list_url,
+            "first_seen_at": now_iso(),
+            "fetched_at": now_iso(),
+            "source_list": "new",
+            "image": None,
+        }
+        save_product(chain, product)
+        stats[chain]["new_products"] += 1
+
+
 RUN_SUMMARY = ROOT / "data" / "run_summary.json"
 
 
@@ -473,7 +555,21 @@ def main() -> int:
     pending = load_pending()
     stats: dict[str, dict] = {}
 
-    for fn in (crawl_seven, crawl_familymart, crawl_lawson):
+    # 引数に社名(seven, familymart, lawson, dailyyamazaki)を渡すと、その社だけ巡回する
+    # (動作確認用。他社のサーバーに余計なリクエストを送らないため)
+    only = set(sys.argv[1:])
+    crawlers = {
+        "seven": crawl_seven, "familymart": crawl_familymart,
+        "lawson": crawl_lawson, "dailyyamazaki": crawl_dailyyamazaki,
+    }
+    unknown = only - set(crawlers)
+    if unknown:
+        print(f"unknown chain: {', '.join(sorted(unknown))}", file=sys.stderr)
+        return 1
+
+    for name, fn in crawlers.items():
+        if only and name not in only:
+            continue
         try:
             fn(pending, stats)
         except Exception as e:  # noqa: BLE001

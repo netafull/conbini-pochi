@@ -1,0 +1,38 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "129472",
+ "name": "三元豚ロースかつ丼",
+ "category": "お弁当",
+ "price_excl_tax": 648,
+ "price_incl_tax": 699,
+ "launch_date": "2026-10-01",
+ "launch_text": "10月度(10月1日(木)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "ロースとんかつに玉ねぎスライス・かつ丼のたれ・卵を組み合わせたかつ丼です。※ロースとんかつはエビやカニ、小麦、卵、乳成分を含む原料を使用した設備で生産しています。",
+ "nutrition": {
+  "kcal": 848.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：848kcal"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "大豆",
+  "豚肉",
+  "りんご"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}

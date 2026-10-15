@@ -1,0 +1,30 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "130585",
+ "name": "胡椒餅風味肉まん",
+ "category": null,
+ "price_excl_tax": 172,
+ "price_incl_tax": 185,
+ "launch_date": "2026-10-13",
+ "launch_text": "10月13日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "台湾の人気屋台B級グルメ「胡椒餅」をイメージし、豚肉、玉ねぎ、青ネギ、ニラ等のシンプルな具材に胡椒餅の特徴である『黒胡椒』と『五香粉』で味付けしました。ピリッとスパイシーでクセになる味わいです。",
+ "nutrition": null,
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "ごま",
+  "大豆",
+  "とり肉",
+  "豚肉"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}

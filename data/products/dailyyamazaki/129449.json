@@ -1,0 +1,38 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "129449",
+ "name": "豚丼",
+ "category": "お弁当",
+ "price_excl_tax": 693,
+ "price_incl_tax": 748,
+ "launch_date": "2026-10-01",
+ "launch_text": "10月度(10月1日(木)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "ご飯にフライパンで焼いた豚肉を乗せ、たれで味付けした豚丼です。",
+ "nutrition": {
+  "kcal": 440.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：440kcal"
+ },
+ "allergens": [
+  "小麦",
+  "大豆",
+  "豚肉",
+  "鶏肉",
+  "ごま",
+  "りんご"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}

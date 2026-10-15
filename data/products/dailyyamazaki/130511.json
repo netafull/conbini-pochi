@@ -1,0 +1,22 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "130511",
+ "name": "海老二本！海老とかき揚げの天丼",
+ "category": "お弁当",
+ "price_excl_tax": 570,
+ "price_incl_tax": 615,
+ "launch_date": "2026-10-13",
+ "launch_text": "10月13日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "華やかな見た目の海老天を2本メインに、枝豆コーンのかき揚げ、茄子の天ぷらをトッピングした天丼です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}

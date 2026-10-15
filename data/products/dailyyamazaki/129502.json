@@ -1,0 +1,41 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "129502",
+ "name": "クリームコロッケパン",
+ "category": "パン",
+ "price_excl_tax": 249,
+ "price_incl_tax": 268,
+ "launch_date": "2026-10-01",
+ "launch_text": "10月度(10月1日(木)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "ふんわりとした食感の生地で、クリーミーな味わいのコロッケとデミグラスソースを包み、表面にマヨネーズとシュレッドチーズをトッピングして焼き上げました。※パン粉は卵、乳成分、大豆を含む製品と同じラインで製造しています。",
+ "nutrition": {
+  "kcal": 330.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：330kcal"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "牛肉",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}

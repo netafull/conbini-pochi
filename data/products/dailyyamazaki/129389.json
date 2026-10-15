@@ -1,0 +1,36 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "129389",
+ "name": "ばくだんおむすび（明太高菜）",
+ "category": "おにぎり",
+ "price_excl_tax": 277,
+ "price_incl_tax": 299,
+ "launch_date": "2026-10-01",
+ "launch_text": "10月度(10月1日(木)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "明太子とザーサイ高菜を組み合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 263.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：263kcal"
+ },
+ "allergens": [
+  "小麦",
+  "大豆",
+  "ごま",
+  "魚醤（魚介類）"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}

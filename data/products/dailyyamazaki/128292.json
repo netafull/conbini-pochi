@@ -1,0 +1,27 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "128292",
+ "name": "スイートポテトタルト",
+ "category": "スイーツ",
+ "price_excl_tax": 220,
+ "price_incl_tax": 237,
+ "launch_date": "2026-09-22",
+ "launch_text": "9月22日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "マドレーヌ生地にさつまいもペーストを絞り、表面をブリュレ風に仕上げた秋向けのタルトです。",
+ "nutrition": null,
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}

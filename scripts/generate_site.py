@@ -252,7 +252,7 @@ CSS = """
 :root {
   --bg: #fafaf7; --card: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
   --accent: #0071e3; --line: #e5e2dc;
-  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3;
+  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3; --dailyyamazaki: #c62839;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #14151a; --card: #1e2027; --text: #e8e8e6; --muted: #9a9a96;
@@ -287,6 +287,7 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .chain-group[data-chain="seven"] h3 { border-color: var(--seven); }
 .chain-group[data-chain="familymart"] h3 { border-color: var(--familymart); }
 .chain-group[data-chain="lawson"] h3 { border-color: var(--lawson); }
+.chain-group[data-chain="dailyyamazaki"] h3 { border-color: var(--dailyyamazaki); }
 .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .item { display: block; background: var(--card); border: 1px solid var(--line);
   border-radius: 10px; padding: 12px; text-decoration: none; }
@@ -296,6 +297,7 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .item[data-chain="seven"] .badge { background: var(--seven); }
 .item[data-chain="familymart"] .badge { background: var(--familymart); }
 .item[data-chain="lawson"] .badge { background: var(--lawson); }
+.item[data-chain="dailyyamazaki"] .badge { background: var(--dailyyamazaki); }
 .item .t { font-size: 14px; font-weight: 600; display: -webkit-box;
   -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em; }
 .item .price { margin-top: 6px; font-size: 13px; }
@@ -484,7 +486,7 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 </main>
 <footer>
 価格・発売日・在庫は取得時点のものです。最新の状況は各社公式サイトでご確認ください。
-当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン各社とは関係のない非公式サイトです。
+当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ各社とは関係のない非公式サイトです。
 {policy_link}｜ <a href="/rss.xml">RSS</a> ｜ <a href="/weeks/">週別アーカイブ</a>
 {related_html}
 </footer>
@@ -597,6 +599,11 @@ def build_search_index(items: list[dict]) -> list[dict]:
     ]
 
 
+def chain_options() -> str:
+    """社別絞り込みの<option>。config.jsonのchains順で、社が増えても自動で並ぶ。"""
+    return "".join(f'<option value="{esc(c["slug"])}">{esc(c["name"])}</option>' for c in CHAINS)
+
+
 def render_grid_page(title: str, description: str, items: list[dict], canonical: str,
                       show_filters: bool = True, review_chain: str | None = None) -> str:
     reviews_section = render_review_cards("ネタフルの最新レビュー", latest_reviews(review_chain, 5))
@@ -605,12 +612,11 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
         return page_shell(title, description, body, canonical)
     filters = ""
     if show_filters:
-        filters = """<div class="sort-bar">
+        filters = f"""<div class="sort-bar">
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
 <option value="kcal">カロリー順</option></select></label>
 <label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
-<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option>
-<option value="lawson">ローソン</option></select></label>
+{chain_options()}</select></label>
 </div>"""
     body = f"""<h2>{esc(title)} ({len(items)}件)</h2>
 {filters}
@@ -680,8 +686,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
 <option value="kcal">カロリー順</option></select></label>
 <label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
-<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option>
-<option value="lawson">ローソン</option></select></label>
+{chain_options()}</select></label>
 </div>
 {render_grouped(current_items, ads=True)}
 {SORT_JS}
@@ -727,7 +732,7 @@ def render_weeks_index(items: list[dict]) -> str:
 def render_chains_top() -> str:
     links = "\n".join(f'<a href="/chains/{c["slug"]}/">{esc(c["name"])}</a>' for c in CHAINS)
     body = f'<h2>コンビニ一覧</h2><div class="chainlist">{links}</div>'
-    return page_shell("コンビニ一覧", "セブンイレブン・ファミリーマート・ローソンの商品一覧", body,
+    return page_shell("コンビニ一覧", "・".join(c["name"] for c in CHAINS) + "の商品一覧", body,
                        CONFIG.get("site_url", "") + "chains/")
 
 

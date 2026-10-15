@@ -1,0 +1,34 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "125933",
+ "name": "ばくだんおむすび秋鮭焼きほぐし（北海道産秋鮭）",
+ "category": "おにぎり",
+ "price_excl_tax": 299,
+ "price_incl_tax": 277,
+ "launch_date": "2026-09-01",
+ "launch_text": "9月度(9月1日(火)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "北海道産の秋鮭のあらほぐしを具にしたおむすびです。",
+ "nutrition": {
+  "kcal": 263.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：263kcal"
+ },
+ "allergens": [
+  "さけ",
+  "大豆"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}

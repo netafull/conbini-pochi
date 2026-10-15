@@ -1,0 +1,38 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "129374",
+ "name": "厚切りハムカツサンド",
+ "category": "サンド",
+ "price_excl_tax": 303,
+ "price_incl_tax": 327,
+ "launch_date": "2026-10-01",
+ "launch_text": "10月度(10月1日(木)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "厚みのあるポーク100%のハムカツを使用したサンドイッチです。※ハムカツの製造工場では、鶏肉を含む製品を製造しています。※ソースにははちみつが含まれますので、1歳未満の乳児には与えない様ご注意下さい。",
+ "nutrition": {
+  "kcal": 282.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：282kcal"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "大豆",
+  "豚肉",
+  "りんご"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-16T07:22:32+09:00",
+ "fetched_at": "2026-10-16T07:22:32+09:00",
+ "source_list": "new",
+ "image": null
+}
