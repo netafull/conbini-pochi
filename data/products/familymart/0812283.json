@@ -1,0 +1,30 @@
+{
+ "chain": "familymart",
+ "product_id": "0812283",
+ "name": "こだわりだしのかき揚げうどん",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 462,
+ "price_incl_tax": 498,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国"
+ ],
+ "region_text": null,
+ "description": "コシと弾力のあるうどんに、だしのきいたつゆを合わせたかき揚げうどんです。かき揚げには玉ねぎ・人参・小松菜を使用して香ばしく揚げました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0812283.html",
+ "first_seen_at": "2026-10-17T07:01:01+09:00",
+ "fetched_at": "2026-10-17T07:01:01+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

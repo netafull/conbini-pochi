@@ -1,0 +1,40 @@
+{
+ "chain": "lawson",
+ "product_id": "1533285",
+ "name": "1食分の野菜あんかけラーメン",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 599,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026.10.20",
+ "regions": null,
+ "region_text": "※関東(新潟除く)・静岡・九州・沖縄地域のローソン、ナチュラルローソンではお取り扱いしておりません。※近畿地域は12/15(火)発売となります。",
+ "description": "5種類の野菜で※1食分の野菜が摂れる身体が温まるあんかけラーメン。※1日当たりの摂取量の目標350g以上(厚生労働省「健康日本21」＜第三次＞より)",
+ "nutrition": {
+  "kcal": 415.0,
+  "protein_g": 25.2,
+  "fat_g": 7.8,
+  "carbs_g": 65.0,
+  "sugar_g": 57.2,
+  "fiber_g": 7.8,
+  "salt_g": 6.97,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>415kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>25.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>7.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>65.0g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>57.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>7.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>6.97g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533285_1996.html",
+ "first_seen_at": "2026-10-17T07:03:14+09:00",
+ "fetched_at": "2026-10-17T07:03:14+09:00",
+ "source_list": "/recommend/new/list/1533304_5162.html",
+ "image": null
+}

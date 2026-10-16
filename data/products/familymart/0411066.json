@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0411066",
+ "name": "豚そぼろおむすび",
+ "category": "おむすび",
+ "price_excl_tax": 184,
+ "price_incl_tax": 198,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "関東の一部",
+ "description": "かつお風味の割り下ご飯に、再仕込み醤油で甘辛く煮た豚そぼろを混ぜ合わせました。醤油感と甘みが際立つ骨太な味ごはんです。※茨城県、栃木県、群馬県、埼玉県、千葉県、東京都（一部除く）店舗での取り扱いです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0411066.html",
+ "first_seen_at": "2026-10-17T07:00:34+09:00",
+ "fetched_at": "2026-10-17T07:00:34+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0814720",
+ "name": "相馬産あおさ入りかき揚げそば",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 398,
+ "price_incl_tax": 429,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "相馬産あおさと玉ねぎ・人参・小松菜・小海老が入ったかき揚げをのせた、お手頃価格のミニそばです。※新潟県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0814720.html",
+ "first_seen_at": "2026-10-17T07:01:10+09:00",
+ "fetched_at": "2026-10-17T07:01:10+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

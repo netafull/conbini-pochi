@@ -5542,6 +5542,18 @@
   ],
   "seven": [
    {
+    "date": "2026-10-16T10:00:00",
+    "id": 210970,
+    "link": "https://netaful.jp/seven-eleven/0210970.html",
+    "product_name": "CAFE BOX デミトマロコモコ",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/711-locomoco-005-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【セブン】「CAFE BOX デミトマロコモコ」デミ・トマト・チーズの3種ソース！441gの食べごたえ、やっぱりCAFE BOXは当たり"
+   },
+   {
     "date": "2026-10-11T17:30:00",
     "id": 210725,
     "link": "https://netaful.jp/seven-eleven/0210725.html",
@@ -11960,7 +11972,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-16T07:00:54+09:00",
+ "fetched_at": "2026-10-17T07:04:19+09:00",
  "matches": {
   "familymart-0412018": [
    210488
@@ -11985,6 +11997,9 @@
   ],
   "lawson-1532644": [
    210119
+  ],
+  "seven-040795": [
+   210970
   ],
   "seven-044492": [
    209648

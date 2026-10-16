@@ -1,0 +1,27 @@
+{
+ "chain": "familymart",
+ "product_id": "0920117",
+ "name": "牛カルビとチーズのロール",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 369,
+ "price_incl_tax": 398,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "関東",
+  "東海",
+  "関西"
+ ],
+ "region_text": "関東・東海・関西",
+ "description": "ブラックペッパーなどで味付けした薄切りの牛カルビに、玉ねぎ炒め、チーズソースを組み合わせた、食べ進みが良く満足感のあるロールサンドです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0920117.html",
+ "first_seen_at": "2026-10-17T07:00:51+09:00",
+ "fetched_at": "2026-10-17T07:00:51+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "0812344",
+ "name": "豚骨の旨み広がる　背脂醤油ラーメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 536,
+ "price_incl_tax": 578,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "北海道",
+  "東北",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "コシと弾力のある麺に、濃厚な豚骨と醤油ベースのスープを組み合わせた背脂醤油ラーメンです。具材としてチャーシュー、メンマ、もやし、青ねぎを使用しております。※静岡県の一部、宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0812344.html",
+ "first_seen_at": "2026-10-17T07:01:04+09:00",
+ "fetched_at": "2026-10-17T07:01:04+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

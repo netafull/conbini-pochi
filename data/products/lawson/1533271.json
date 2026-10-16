@@ -1,0 +1,38 @@
+{
+ "chain": "lawson",
+ "product_id": "1533271",
+ "name": "エアリアル　トムヤムクン味",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 178,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026.10.20",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いのない場合もございます。",
+ "description": "爽やかな酸味にピリッとした辛みが後を引くおいしさです。",
+ "nutrition": {
+  "kcal": 315.0,
+  "protein_g": 1.7,
+  "fat_g": 20.8,
+  "carbs_g": 30.6,
+  "sugar_g": 29.7,
+  "fiber_g": 0.9,
+  "salt_g": 1.1,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装(55g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>315kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>1.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>20.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>30.6g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>29.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "えび",
+  "小麦",
+  "乳成分",
+  "ごま",
+  "大豆",
+  "鶏肉"
+ ],
+ "spec": "規格（内容量）: 55g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533271_1996.html",
+ "first_seen_at": "2026-10-17T07:03:29+09:00",
+ "fetched_at": "2026-10-17T07:03:29+09:00",
+ "source_list": "/recommend/new/list/1533304_5162.html",
+ "image": null
+}

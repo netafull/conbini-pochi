@@ -1,0 +1,39 @@
+{
+ "chain": "lawson",
+ "product_id": "1533266",
+ "name": "サンヨー食品　サッポロ一番　彩華ラーメン監修　スタミナ醤油味",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 288,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026.10.20",
+ "regions": null,
+ "region_text": null,
+ "description": "毎年大好評の彩華ラーメン4年目の発売です。スープのニンニク感と醤油感が強くなったことで本店の味わいに近づきました。",
+ "nutrition": {
+  "kcal": 419.0,
+  "protein_g": 8.2,
+  "fat_g": 18.1,
+  "carbs_g": 55.7,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 7.4,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1食(94g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>419kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>8.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>18.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>55.7g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>7.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉"
+ ],
+ "spec": "規格（内容量）: 94g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533266_1996.html",
+ "first_seen_at": "2026-10-17T07:03:44+09:00",
+ "fetched_at": "2026-10-17T07:03:44+09:00",
+ "source_list": "/recommend/new/list/1533304_5162.html",
+ "image": null
+}

@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1022254",
+ "name": "生姜香る具だくさん中華スープ",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 426,
+ "price_incl_tax": 460,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "関東",
+  "東海"
+ ],
+ "region_text": "関東・東海",
+ "description": "1/3日分の野菜を使用した中華スープです。しょうがの風味をきかせた鶏がらベースのスープで、具材には野菜、蒸し鶏、春雨などを使用しています。※山梨県の一部、長野県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1022254.html",
+ "first_seen_at": "2026-10-17T07:01:22+09:00",
+ "fetched_at": "2026-10-17T07:01:22+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

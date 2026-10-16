@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0736008",
+ "name": "だし巻き玉子&そぼろ重",
+ "category": "お弁当",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "関西"
+ ],
+ "region_text": "関西",
+ "description": "昆布とかつおのだしをきかせ、ふんわり焼きあげただし巻きたまごと、醤油で甘辛く炒めた鶏そぼろに紅しょうがをのせたお弁当です。※和歌山県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0736008.html",
+ "first_seen_at": "2026-10-17T07:00:49+09:00",
+ "fetched_at": "2026-10-17T07:00:49+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

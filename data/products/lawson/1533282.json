@@ -1,0 +1,38 @@
+{
+ "chain": "lawson",
+ "product_id": "1533282",
+ "name": "きまぐれクック監修　まぐろユッケ風サラダ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 397,
+ "launch_date": "2026-10-19",
+ "launch_text": "2026.10.19",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。",
+ "description": "きまぐれクック監修ユッケ風に味付けしたまぐろのサラダ。オクラ・長芋・たくあんでいろいろな食感を楽しめます。",
+ "nutrition": {
+  "kcal": 53.0,
+  "protein_g": 6.0,
+  "fat_g": 0.8,
+  "carbs_g": 6.3,
+  "sugar_g": 4.5,
+  "fiber_g": 1.8,
+  "salt_g": 2.24,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>53kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>6.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>6.3g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>4.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>1.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>2.24g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "やまいも"
+ ],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533282_1996.html",
+ "first_seen_at": "2026-10-17T07:03:58+09:00",
+ "fetched_at": "2026-10-17T07:03:58+09:00",
+ "source_list": "/recommend/new/list/1533305_5162.html",
+ "image": null
+}
