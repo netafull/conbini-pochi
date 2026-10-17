@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>コンビニポチ</title>
-<meta name="description" content="セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
+<meta name="description" content="セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
 <link rel="canonical" href="https://conbini.netaful.jp/">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-832CBEYG4T"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-832CBEYG4T');</script>
@@ -13,7 +13,7 @@
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="コンビニポチ">
-<meta property="og:description" content="セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
+<meta property="og:description" content="セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています">
 <meta property="og:url" content="https://conbini.netaful.jp/">
 <meta property="og:site_name" content="コンビニポチ">
 <meta property="og:locale" content="ja_JP">
@@ -26,7 +26,7 @@
 :root {
   --bg: #fafaf7; --card: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
   --accent: #0071e3; --line: #e5e2dc;
-  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3; --dailyyamazaki: #c62839;
+  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3; --dailyyamazaki: #c62839; --ministop: #7b3fa0;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #14151a; --card: #1e2027; --text: #e8e8e6; --muted: #9a9a96;
@@ -62,6 +62,7 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .chain-group[data-chain="familymart"] h3 { border-color: var(--familymart); }
 .chain-group[data-chain="lawson"] h3 { border-color: var(--lawson); }
 .chain-group[data-chain="dailyyamazaki"] h3 { border-color: var(--dailyyamazaki); }
+.chain-group[data-chain="ministop"] h3 { border-color: var(--ministop); }
 .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .item { display: block; background: var(--card); border: 1px solid var(--line);
   border-radius: 10px; padding: 12px; text-decoration: none; }
@@ -72,6 +73,7 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .item[data-chain="familymart"] .badge { background: var(--familymart); }
 .item[data-chain="lawson"] .badge { background: var(--lawson); }
 .item[data-chain="dailyyamazaki"] .badge { background: var(--dailyyamazaki); }
+.item[data-chain="ministop"] .badge { background: var(--ministop); }
 .item .t { font-size: 14px; font-weight: 600; display: -webkit-box;
   -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em; }
 .item .price { margin-top: 6px; font-size: 13px; }
@@ -140,7 +142,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <body>
 <header>
 <h1><a data-google-vignette="false" href="/"><img src="/assets/logo.png" alt="" width="32" height="32">コンビニポチ</a></h1>
-<p>セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています ｜ 最終更新: 2026年10月17日 07:04</p>
+<p>セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています ｜ 最終更新: 2026年10月17日 15:13</p>
 <nav class="sites"><span class="lbl">関連サイト</span>
 <a data-google-vignette="false" href="https://book.netaful.jp/">電書ポチ<span class="lbl"> Kindle本セール</span></a>
 <a data-google-vignette="false" href="https://kaden.netaful.jp/">家電ポチ<span class="lbl"> ガジェット・家電セール</span></a>
@@ -163,6 +165,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <a data-google-vignette="false" href="/chains/familymart/">ファミリーマート</a>
 <a data-google-vignette="false" href="/chains/lawson/">ローソン</a>
 <a data-google-vignette="false" href="/chains/dailyyamazaki/">デイリーヤマザキ</a>
+<a data-google-vignette="false" href="/chains/ministop/">ミニストップ</a>
 </div>
 <h2>商品名で検索</h2>
 <div class="searchbox"><input id="search-input" type="search"
@@ -242,12 +245,12 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 </div>
 </a>
 </div>
-<h2>2026-10-12 の週の新商品 (152件)</h2>
+<h2>2026-10-12 の週の新商品 (162件)</h2>
 <div class="sort-bar">
 <label>並び替え: <select id="sort-select"><option value="date">発売日順</option>
 <option value="kcal">カロリー順</option></select></label>
 <label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
-<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option><option value="lawson">ローソン</option><option value="dailyyamazaki">デイリーヤマザキ</option></select></label>
+<option value="seven">セブンイレブン</option><option value="familymart">ファミリーマート</option><option value="lawson">ローソン</option><option value="dailyyamazaki">デイリーヤマザキ</option><option value="ministop">ミニストップ</option></select></label>
 </div>
 <section class="chain-group" data-chain="seven">
 <h3>セブンイレブン (42件)</h3>
@@ -1485,6 +1488,91 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 </a>
 </div>
 </section>
+<section class="chain-group" data-chain="ministop">
+<h3>ミニストップ (10件)</h3>
+<div class="grid" data-sortable>
+<a data-google-vignette="false" class="item" href="/items/ministop-053749.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">ふんわり玉子のデミオムライス</div>
+  <div class="price">税込699.84円（税抜648円）</div>
+  <div class="meta">2026-10-13 発売・お弁当</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053750.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">彩り3色丼</div>
+  <div class="price">税込645.84円（税抜598円）</div>
+  <div class="meta">2026-10-13 発売・お寿司</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053751.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">手巻寿司 明太納豆巻</div>
+  <div class="price">税込213.84円（税抜198円）</div>
+  <div class="meta">2026-10-13 発売・お寿司</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053752.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">まる寿司 サーモンポキ風</div>
+  <div class="price">税込213.84円（税抜198円）</div>
+  <div class="meta">2026-10-13 発売・お寿司</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053753.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">秋の彩りちらし寿司</div>
+  <div class="price">税込321.84円（税抜298円）</div>
+  <div class="meta">2026-10-13 発売・お寿司</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053754.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">舞茸ごはん</div>
+  <div class="price">税込116.64円（税抜108円）</div>
+  <div class="meta">2026-10-13 発売・おにぎり</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053755.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">ダークココアティラミス</div>
+  <div class="price">税込375.84円（税抜348円）</div>
+  <div class="meta">2026-10-13 発売・デザート</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053756.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">スイートパンプキンプリン</div>
+  <div class="price">税込375.84円（税抜348円）</div>
+  <div class="meta">2026-10-13 発売・デザート</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053757.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">もっちり食感のミートパン</div>
+  <div class="price">税込203.04円（税抜188円）</div>
+  <div class="meta">2026-10-13 発売・パン</div>
+  
+</a>
+<a data-google-vignette="false" class="item" href="/items/ministop-053758.html" data-kcal=""
+   data-date="2026-10-13" data-chain="ministop">
+  <div class="badge">ミニストップ</div>
+  <div class="t">ふんわり三角サンド(コーヒークリーム)</div>
+  <div class="price">税込181.44円（税抜168円）</div>
+  <div class="meta">2026-10-13 発売・パン</div>
+  
+</a>
+</div>
+</section>
 <template id="ad-template"><div class="ad-slot">
 <ins class="adsbygoogle"
      style="display:block"
@@ -1515,15 +1603,23 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
     });
     var proto = adTpl && adTpl.content && adTpl.content.firstElementChild;
     if (!proto) return;
-    // 見えているグリッドだけ。見えているカードのAD_EVERY件おきに、ページ全体でAD_MAX枠まで。
-    // i < items.length なので先頭にも末尾にも置かず、枠が連続することもない
-    // 見えているグリッドが複数あるときは、先頭の社に偏らないよう1グリッドあたりの上限を割り振る
-    var visible = grids.filter(function (g) { return g.offsetParent !== null; }).length || 1;
-    var perGrid = Math.max(1, Math.floor(AD_MAX / visible));
+    // AD_EVERY件おきに、ページ全体でAD_MAX枠まで。先頭にも末尾にも置かず、枠が連続もしない。
+    // 広告を置けるのは、見えていてAD_EVERY件を超えるグリッドだけ。
+    // 置ける社がAD_MAXより多いときは、先頭に偏らないよう等間隔に選ぶ
+    // 選んだ社の数でAD_MAXを割り、1グリッドあたりの上限にする
+    var getItems = function (g) { return g.querySelectorAll('.item'); };
+    var eligible = grids.filter(function (g) {
+      return g.offsetParent !== null && getItems(g).length > AD_EVERY;
+    });
+    var chosen = eligible;
+    if (eligible.length > AD_MAX) {
+      chosen = [];
+      for (var k = 0; k < AD_MAX; k++) chosen.push(eligible[Math.floor(k * eligible.length / AD_MAX)]);
+    }
+    var perGrid = Math.max(1, Math.floor(AD_MAX / (chosen.length || 1)));
     var left = AD_MAX;
-    grids.forEach(function (grid) {
-      if (left <= 0 || grid.offsetParent === null) return;
-      var items = grid.querySelectorAll('.item');
+    chosen.forEach(function (grid) {
+      var items = getItems(grid);
       var placed = 0;
       for (var i = AD_EVERY; i < items.length && left > 0 && placed < perGrid; i += AD_EVERY) {
         grid.insertBefore(proto.cloneNode(true), items[i]);
@@ -2455,15 +2551,15 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
 </section>
 <p><a data-google-vignette="false" href="/weeks/">週別アーカイブ一覧（全8週）を見る →</a></p>
 <section class="about"><h2>コンビニポチについて</h2>
-<p>コンビニ4社（セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ）の公式サイトを1日1回チェックし、新商品の情報を記録し続けているアーカイブです。各社の公式サイトは販売終了した商品のページを削除してしまうため、「いつ・何が・いくらで発売されたか」を後から調べられることを目的にしています。</p>
+<p>コンビニ5社（セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ）の公式サイトを1日1回チェックし、新商品の情報を記録し続けているアーカイブです。各社の公式サイトは販売終了した商品のページを削除してしまうため、「いつ・何が・いくらで発売されたか」を後から調べられることを目的にしています。</p>
 <p>商品説明・価格・栄養成分などは各社公式サイトの内容を出典を明記して引用しています。商品画像は掲載していません（イメージ画像を追加する構想はありますが、公式画像の転載は行いません）。</p>
-<p>価格・販売状況は取得時点のものです。最新の状況は必ず各社の公式サイトでご確認ください。当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ各社とは関係のない非公式サイトです。運営はブログ「ネタフル」のコグレです。姉妹サイトに電書ポチ・家電ポチ・林檎ポチ・漫画ポチがあります。</p>
+<p>価格・販売状況は取得時点のものです。最新の状況は必ず各社の公式サイトでご確認ください。当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ、ミニストップ各社とは関係のない非公式サイトです。運営はブログ「ネタフル」のコグレです。姉妹サイトに電書ポチ・家電ポチ・林檎ポチ・漫画ポチがあります。</p>
 <p>当サイトにはGoogle AdSenseによる広告が表示されます。広告の配信や効果測定のために、Googleなどの第三者がCookie等を使用することがあります。詳しくはメディアポリシーをご覧ください。</p>
 </section>
 </main>
 <footer>
 価格・発売日・在庫は取得時点のものです。最新の状況は各社公式サイトでご確認ください。
-当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ各社とは関係のない非公式サイトです。
+当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ、ミニストップ各社とは関係のない非公式サイトです。
 ｜ <a data-google-vignette="false" href="https://netaful.jp/policy.html">メディアポリシー</a>
 ｜ <a data-google-vignette="false" href="/rss.xml">RSS</a> ｜ <a data-google-vignette="false" href="/weeks/">週別アーカイブ</a>
 <nav class="sites"><span class="lbl">関連サイト</span>
