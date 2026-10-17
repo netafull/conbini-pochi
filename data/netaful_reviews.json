@@ -5540,6 +5540,32 @@
     "title": "【ローソン】博多あまおう使用「プレミアムあまおう苺のロールケーキ」"
    }
   ],
+  "ministop": [
+   {
+    "date": "2026-03-02T10:30:00",
+    "id": 192447,
+    "link": "https://netaful.jp/conbini-meshi/0192447.html",
+    "product_name": "3種のミックスサンド 増量",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/03/ministop-mixsand-50-005-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ミニストップ】お値段そのままツナサンド増量！「3種のミックスサンド 増量」3月2日は“ミニストップの日”感謝祭でデカストップ仕様に"
+   },
+   {
+    "date": "2026-03-02T10:00:00",
+    "id": 192422,
+    "link": "https://netaful.jp/conbini-meshi/0192422.html",
+    "product_name": "得々にぎり12貫+6貫",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/03/ministop-sushi-50-003-485x364.jpeg",
+     "width": 485
+    },
+    "title": "【ミニストップ】寿司50％増量！「得々にぎり12貫+6貫」3月2日は“ミニストップの日”感謝祭でデカストップ仕様に"
+   }
+  ],
   "seven": [
    {
     "date": "2026-10-16T10:00:00",
@@ -11972,7 +11998,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-17T07:04:19+09:00",
+ "fetched_at": "2026-10-18T07:00:57+09:00",
  "matches": {
   "familymart-0412018": [
    210488
