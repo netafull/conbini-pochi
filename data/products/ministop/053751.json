@@ -1,0 +1,26 @@
+{
+ "chain": "ministop",
+ "product_id": "053751",
+ "name": "手巻寿司 明太納豆巻",
+ "category": "お寿司",
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "東北",
+  "関東",
+  "九州"
+ ],
+ "region_text": "東北、関東、九州",
+ "description": "納豆と辛子明太子を合わせた手巻寿司です。ピリッとした辛旨い味わいがお楽しみいただけます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail053751.html",
+ "first_seen_at": "2026-10-17T15:03:41+09:00",
+ "fetched_at": "2026-10-17T15:03:41+09:00",
+ "source_list": "recommend",
+ "image": null
+}

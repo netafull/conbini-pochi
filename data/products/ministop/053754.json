@@ -1,0 +1,28 @@
+{
+ "chain": "ministop",
+ "product_id": "053754",
+ "name": "舞茸ごはん",
+ "category": "おにぎり",
+ "price_excl_tax": 108,
+ "price_incl_tax": 116.64,
+ "launch_date": "2026-10-13",
+ "launch_text": "2026年10月13日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "近畿",
+  "四国"
+ ],
+ "region_text": "東北、関東、東海、近畿、四国",
+ "description": "舞茸と人参、油揚げを牡蠣だしつゆで炒め、ごはんと一緒に炊き上げた舞茸ごはんのおにぎりです。かつおだしがきいた、やさしい甘みのある味わいがお楽しみいただけます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail053754.html",
+ "first_seen_at": "2026-10-17T15:03:32+09:00",
+ "fetched_at": "2026-10-17T15:03:32+09:00",
+ "source_list": "recommend",
+ "image": null
+}

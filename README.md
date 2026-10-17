@@ -1,6 +1,6 @@
 # コンビニポチ
 
-セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキの新商品を1日1回巡回し、
+セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの新商品を1日1回巡回し、
 商品情報をアーカイブとして蓄積し続けるサイト（公開予定 https://conbini.netaful.jp/ ）。
 各社の公式サイトは販売終了した商品のページを削除してしまうため、
 「いつ・何が・いくらで発売されたか」を後から引けることが価値の中心。
@@ -11,7 +11,7 @@ pip依存なし(Python標準ライブラリのみ、HTML解析は正規表現)�
 
 ## 方針
 
-**食品以外の商品は取得も掲載もしない。** カテゴリ情報があるのはファミマ(と、全件が食品のデイリーヤマザキ)のみ
+**食品以外の商品は取得も掲載もしない。** カテゴリ情報があるのはファミマ・ミニストップ(と、全件が食品のデイリーヤマザキ)のみ
 (セブン・ローソンの新商品一覧は実質食品のみなので対象外)。ファミマの一覧に
 `config.json`の`familymart_exclude_categories`と一致するカテゴリ(キャラクター
 くじ・エンタメ雑貨、スキンケア・コスメ、コンビニエンスウェア、ファミマオンライン)
@@ -21,8 +21,8 @@ pip依存なし(Python標準ライブラリのみ、HTML解析は正規表現)�
 ## 使い方
 
 ```bash
-python3 scripts/crawl.py                    # 4社の新商品を取得して data/products/ に蓄積
-python3 scripts/crawl.py dailyyamazaki      # 社名を渡すと、その社だけ巡回(動作確認用)
+python3 scripts/crawl.py                    # 5社の新商品を取得して data/products/ に蓄積
+python3 scripts/crawl.py ministop           # 社名(seven/familymart/lawson/dailyyamazaki/ministop)を渡すと、その社だけ巡回(動作確認用)
 python3 scripts/fetch_netaful_reviews.py    # ネタフルのレビュー記事を取得・商品とひも付け
 python3 scripts/generate_site.py            # docs/ 一式(index.html, 商品ページ, RSS等)を生成
 python3 -m unittest discover tests -v       # tests/fixtures/ を相手にしたパーサのテスト
@@ -35,12 +35,12 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 ## サイトの構成
 
 - **トップ** — 「商品名で検索」の直後に「ネタフルの最新レビュー」(画像付き
-  カード6件)、その後に「今日(Asia/Tokyo)を含む週」の新商品を4社まとめて表示。
+  カード6件)、その後に「今日(Asia/Tokyo)を含む週」の新商品を5社まとめて表示。
   並び替え(発売日順/カロリー順)・社別絞り込みのJS付き。今週が0件なら直近の
   過去週を表示し、来週発売分があれば別セクション「来週の新商品」を下に出す
   (未着手週が最大の週になっていてもトップには出さない)
 - **週別アーカイブ**(`/weeks/YYYY-MM-DD/`) — 月曜始まりの週ごとに新商品を蓄積
-- **社別一覧**(`/chains/{seven|familymart|lawson|dailyyamazaki}/`) — その社のネタフル最新レビュー
+- **社別一覧**(`/chains/{seven|familymart|lawson|dailyyamazaki|ministop}/`) — その社のネタフル最新レビュー
   5件も表示
 - **商品ページ**(`/items/{chain}-{product_id}.html`) — 価格・発売日・販売地域・
   栄養成分・アレルゲンを表示。説明文は `<blockquote cite="公式URL">` で引用し、
@@ -58,7 +58,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 
 ## クロールのマナー
 
-- リクエスト間隔: セブン6秒以上、ファミリーマート・ローソン・デイリーヤマザキ3秒以上
+- リクエスト間隔: セブン6秒以上、ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ3秒以上
   （`config.json` の `request_interval_seconds`、`scripts/fetch.py` のThrottleクラス
   が実際の待ち時間を管理する）
 - タイムアウト20秒、リトライ1回まで(`scripts/fetch.py`)
@@ -70,7 +70,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 
 ## データ構造
 
-`data/products/{seven|familymart|lawson|dailyyamazaki}/{product_id}.json` に1商品1ファイル
+`data/products/{seven|familymart|lawson|dailyyamazaki|ministop}/{product_id}.json` に1商品1ファイル
 (gitの差分を小さくするため)。主なフィールド:
 
 ```jsonc
@@ -78,9 +78,10 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
   "chain": "seven",
   "product_id": "044723",          // セブンは6桁コード、ファミマはURL末尾7桁、
                                     // ローソンはURLの"_"前の数字、
-                                    // デイリーヤマザキはWordPress投稿ID(モーダルのid="product130607")
+                                    // デイリーヤマザキはWordPress投稿ID(モーダルのid="product130607")、
+                                    // ミニストップは詳細ページURLのdetail053758の数字6桁
   "name": "...",
-  "category": null,                 // カテゴリがあるのはファミマとデイリーヤマザキ
+  "category": null,                 // カテゴリがあるのはファミマ・デイリーヤマザキ・ミニストップ
   "price_excl_tax": 248,            // 無ければnull(ローソンは税込のみ表示のため常にnull)
   "price_incl_tax": 267.84,
   "launch_date": "2026-09-22",      // ISO日付。パース失敗時はnull
@@ -110,7 +111,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 取得失敗(通信エラー・想定外の構造・セブンのblacklist状態)は
 `data/pending.json` に社ごとに隔離して記録し、次回`crawl.py`実行時に
 そのURLだけ再試行する。1社の失敗が他社の処理を止めないよう、
-`crawl.py`の4社分の処理は互いに独立した例外境界を持つ。
+`crawl.py`の5社分の処理は互いに独立した例外境界を持つ。
 
 既存ファイルは上書きしない(アーカイブなので初回取得が正)。
 唯一の例外はセブンの`variants`で、一覧に新しい地域URLが出てきたときだけ追記する。
@@ -162,6 +163,27 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
   `empty_list`と記録し、既存データには触れない
 - ネタフルにデイリーヤマザキのタグが無い(2026-10-16確認)ので、レビュー記事のひも付けは対象外。
   商品ページの「ネタフルのレビュー」「そのコンビニの最新レビュー」欄は出ない(キーワード関連記事は出る)
+
+### ミニストップ
+新商品一覧は**JSON**(`https://www.ministop.co.jp/syohin/js/recommend.json`、約2週間ぶん・十数件、
+2026-10-17時点で19件)。各要素は `price`(「本体価格168円<br>(税込181.44円)」)・`release`(「2026年10月13日」)・
+`region`・`title`・`link`(`/syohin/products/detail053758.html`)・`image`・`new`。画像は保存も表示もしない。
+商品IDは`link`の`detail`の後の数字(6桁、日付等を含まない。同名の地域別商品は別コード)。
+
+- 未保存の商品だけ詳細ページ(静的HTML)を取得する(1日の新規は十数件。リクエスト間隔3秒)。詳細には価格・
+  発売地域・発売日・商品特徴(説明文。出典つき引用)がある。**カテゴリ**はパンくず(Home > 商品情報 > お寿司 > 商品名)の3番目
+  (2026-10-17の19件すべてで取れた)
+- 発売日は一覧JSONの値を正とする(詳細ページにもあるが、一覧と一致を確認済み)
+- **栄養成分・アレルゲンは新商品の詳細ページに載っていない**(19件すべて確認)。ヘッダー/フッターの「アレルゲン・栄養成分」
+  (`/syohin/nutrition/`)は店内加工品の検索ページで、新商品パッケージは対象外。よって`nutrition`・`allergens`は
+  常にnull(不明)で、推測で埋めない。商品ページは栄養表・アレルゲン欄を出さない(ファミマの栄養なし商品と同じ)
+- 発売地域は「全国」「東北、関東、九州」「全国※エリアにより発売日が異なります。」など。「全国」始まり以外は
+  `regions`に地域名のリストとして持ち、「全国」始まりは`regions`がnullで`region_text`(原文)を表示する
+- `/syohin/` はrobots.txtで許可されている(禁止は綴り違いの`Disallaw`で`/syohin/nutrition/pdf/`のみ、無関係)
+- 一覧から消えても保存済みの商品は削除しない。既存商品は上書きしない。一覧が空・JSON不正のときは
+  `pending.json`の`ministop.list`に`empty_list`/`invalid_json`と記録し、既存データには触れない。詳細ページの取得失敗は
+  `ministop.{商品ID}`に記録
+- ネタフルのタグ「ミニストップ」(ID 1064、2026-10-17時点で記事2件)を`fetch_netaful_reviews.py`のTAGSに追加済み
 
 ### カテゴリ(セブン・ローソンがnullの理由)
 セブン・ローソンは`category`が全件null。一覧・詳細のHTMLを確認したが、
@@ -250,7 +272,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 
 ## テストのフィクスチャ（公式ページのコピーはリポジトリに入れない）
 
-`tests/fixtures/` には、セブン-イレブン・ファミリーマート・ローソン・デイリーヤマザキの公式サイトから取得したページの
+`tests/fixtures/` には、セブン-イレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの公式サイトから取得したページの
 スナップショットを置いて、パーサのテストに使う。**各社の規約が複製・転載を禁じているため、これらは
 リポジトリに入れていない**（`.gitignore` で除外。2026-10-11に追跡から外した。それ以前のコミットには残っている）。
 ファイルの一覧は `tests/fixtures_manifest.txt`。手元に無い環境（新しく clone した場合など）では、
@@ -259,3 +281,6 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 
 デイリーヤマザキは、fixtureに依存しない合成HTMLのテスト(`tests/test_dailyyamazaki.py`)を中心にしてあり、
 実HTML(`dailyyamazaki/new.html`)を使うテスト1件だけがfixtureの有無でスキップされる。
+
+ミニストップも同様に、fixtureに依存しない合成データのテスト(`tests/test_ministop.py`)を中心にしてあり、
+実データ(`ministop/recommend.json`と詳細ページ19件)を使うテスト1件だけがfixtureの有無でスキップされる。

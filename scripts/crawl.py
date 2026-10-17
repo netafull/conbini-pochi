@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""4社の新商品を巡回し、data/products/{chain}/{id}.json に1商品1ファイルで
+"""5社の新商品を巡回し、data/products/{chain}/{id}.json に1商品1ファイルで
 蓄積する。公式サイトは販売終了した商品ページを消してしまうため、
 「いつ何が出たか」を後から引ける記録を残すことが目的。
 
@@ -537,6 +537,120 @@ def crawl_dailyyamazaki(pending: dict, stats: dict) -> None:
         stats[chain]["new_products"] += 1
 
 
+# ---------------------------------------------------------------------------
+# ミニストップ
+# ---------------------------------------------------------------------------
+
+def crawl_ministop(pending: dict, stats: dict) -> None:
+    """新商品一覧のJSON(/syohin/js/recommend.json、約2週間ぶん・十数件)を1回取得し、
+    未保存の商品だけ詳細ページ(静的HTML)を取得する。
+
+    公式は一覧から外れた商品の扱いが不明で、アーカイブ価値は「消える前の記録」にある。
+    一覧から消えても保存済みの商品は絶対に削除しない(このクローラーは商品ファイルを消す
+    処理を一切持たない)。既存商品は上書きしない。
+    栄養成分・アレルゲンは新商品の詳細ページに載っていないので、nullのまま保存する。
+    """
+    base = "https://www.ministop.co.jp"
+    chain = "ministop"
+    pending.setdefault(chain, {})
+    stats.setdefault(chain, {"list_requests": 0, "detail_requests": 0, "new_products": 0,
+                              "failed": 0, "blocked": False})
+
+    list_url = base + "/syohin/js/recommend.json"
+    try:
+        body = get(chain, list_url)
+        stats[chain]["list_requests"] += 1
+    except BlockedError as e:
+        stats[chain]["blocked"] = True
+        print(f"[blocked] ministop list: {e}", file=sys.stderr)
+        return
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] ministop list 取得失敗: {e}", file=sys.stderr)
+        stats[chain]["failed"] += 1
+        pending[chain]["list"] = {
+            "url": list_url, "reason": f"fetch_error: {e}", "checked_at": now_iso(),
+        }
+        return
+
+    try:
+        entries = parsers.parse_ministop_recommend(body)
+        reason = "empty_list"
+    except ValueError as e:
+        entries = []
+        reason = "invalid_json"
+        print(f"[warn] ministop 一覧のJSONが壊れています: {e}", file=sys.stderr)
+    if not entries:
+        # JSONが壊れた・0件になった場合(サイトの作り変え等)。既存データには触れない
+        print("[warn] ministop 一覧から商品を1件も取り出せませんでした", file=sys.stderr)
+        stats[chain]["failed"] += 1
+        pending[chain]["list"] = {"url": list_url, "reason": reason, "checked_at": now_iso()}
+        return
+    pending[chain].pop("list", None)
+
+    seen: set[str] = set()
+    for e in entries:
+        pid = e["product_id"]
+        if pid in seen:
+            continue
+        seen.add(pid)
+        if load_product(chain, pid) is not None:
+            continue  # 既存商品は上書きしない(アーカイブなので初回取得が正)
+
+        detail_url = base + e["detail_url"]
+        try:
+            html = get(chain, detail_url)
+            stats[chain]["detail_requests"] += 1
+        except BlockedError as ex:
+            stats[chain]["blocked"] = True
+            print(f"[blocked] ministop detail {e['detail_url']}: {ex}", file=sys.stderr)
+            return
+        except Exception as ex:  # noqa: BLE001
+            stats[chain]["failed"] += 1
+            pending[chain][pid] = {
+                "url": e["detail_url"], "reason": f"fetch_error: {ex}",
+                "checked_at": now_iso(),
+            }
+            continue
+
+        detail = parsers.parse_ministop_detail(html)
+        if detail is None:
+            stats[chain]["failed"] += 1
+            pending[chain][pid] = {
+                "url": e["detail_url"], "reason": "empty_detail",
+                "checked_at": now_iso(),
+            }
+            continue
+
+        region_text = detail["region_text"] or e["region_text"]
+        excl, incl = parsers.parse_price_pair(detail["price_text"] or e["price_text"])
+        product = {
+            "chain": chain,
+            "product_id": pid,
+            "name": e["name"],
+            "category": detail["category"],
+            "price_excl_tax": excl,
+            "price_incl_tax": incl,
+            # 発売日は一覧(recommend.json)の値を正とし、無ければ詳細ページの値
+            "launch_date": e["launch_date"] or detail["launch_date"],
+            "launch_text": e["launch_text"] or detail["launch_text"] or "",
+            "regions": parsers.ministop_regions(region_text),
+            "region_text": region_text,
+            "description": detail["description"],
+            "nutrition": None,
+            "allergens": None,
+            "spec": None,
+            "variants": None,
+            "official_url": detail_url,
+            "first_seen_at": now_iso(),
+            "fetched_at": now_iso(),
+            "source_list": "recommend",
+            "image": None,
+        }
+        save_product(chain, product)
+        stats[chain]["new_products"] += 1
+        pending[chain].pop(pid, None)
+
+
 RUN_SUMMARY = ROOT / "data" / "run_summary.json"
 
 
@@ -555,12 +669,13 @@ def main() -> int:
     pending = load_pending()
     stats: dict[str, dict] = {}
 
-    # 引数に社名(seven, familymart, lawson, dailyyamazaki)を渡すと、その社だけ巡回する
+    # 引数に社名(seven, familymart, lawson, dailyyamazaki, ministop)を渡すと、その社だけ巡回する
     # (動作確認用。他社のサーバーに余計なリクエストを送らないため)
     only = set(sys.argv[1:])
     crawlers = {
         "seven": crawl_seven, "familymart": crawl_familymart,
         "lawson": crawl_lawson, "dailyyamazaki": crawl_dailyyamazaki,
+        "ministop": crawl_ministop,
     }
     unknown = only - set(crawlers)
     if unknown:

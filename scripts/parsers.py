@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""4社（セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ）のHTMLから商品情報を
+"""5社（セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ）のHTMLから商品情報を
 取り出す純粋関数群。ネットワークには一切触れない（テストからfixtureを渡して
 呼べるようにするため）。html.parserは使わず正規表現で十分な程度に構造が
 単純なので正規表現で抜き出す。
@@ -608,3 +608,113 @@ def parse_dailyyamazaki_list(html: str, today: datetime.date) -> list[dict]:
             }
         )
     return items
+
+
+# ---------------------------------------------------------------------------
+# ミニストップ
+# ---------------------------------------------------------------------------
+# 一覧は JSON(/syohin/js/recommend.json)。要素は {price, release, region, title, link,
+# image, new} で、priceは「本体価格168円<br>(税込181.44円)」、releaseは「2026年10月13日」、
+# linkは「/syohin/products/detail053758.html」。商品IDはlinkの数字(日付等を含まない。
+# 同名の地域別商品は別コード)。詳細ページ(静的HTML)に価格・発売地域・発売日・商品特徴
+# (説明文)があり、カテゴリはパンくず(Home > 商品情報 > お寿司 > 商品名)の3番目。
+# 栄養成分・アレルゲンは新商品の詳細ページに載っていない(店内加工品の検索ページは別物)ので、
+# nutrition / allergens は取らない(=呼び出し側でnull)。
+
+MINISTOP_DETAIL_ID_RE = re.compile(r"detail(\d+)\.html")
+
+
+def ministop_price_text(raw: str | None) -> str:
+    """「本体価格168円<br>(税込181.44円)」を parse_price_pair が読める
+    「168円(税込181.44円)」にする。「本体価格」の接頭辞が無ければそのまま。"""
+    text = _unescape(_strip_tags(raw or "")) or ""
+    text = re.sub(r"\s+", "", text)
+    return text.replace("本体価格", "", 1)
+
+
+def ministop_regions(region_text: str | None) -> list[str] | None:
+    """「東北、関東、東海」→ ["東北", "関東", "東海"]。「全国」始まり(「全国※エリアにより
+    発売日が異なります。」を含む)は地域の絞り込みが無いのでNone(表示はregion_textを使う)。"""
+    text = (region_text or "").strip()
+    if not text or text.startswith("全国"):
+        return None
+    text = text.split("※")[0]
+    regions = [r.strip() for r in re.split(r"[、,・]", text) if r.strip()]
+    return regions or None
+
+
+def parse_ministop_recommend(json_text: str) -> list[dict]:
+    """recommend.json を {product_id, name, price_text, launch_text, launch_date,
+    region_text, detail_url} のリストにする。JSONが壊れていれば ValueError。
+    配列でない・商品IDやタイトルが取れない要素は読み飛ばす(結果が空なら呼び出し側が
+    「一覧が空」として扱う)。画像は保存も表示もしないので読まない。"""
+    import json
+
+    try:
+        data = json.loads(json_text)
+    except (ValueError, TypeError) as e:
+        raise ValueError(f"invalid json: {e}") from e
+    if not isinstance(data, list):
+        return []
+    items: list[dict] = []
+    for row in data:
+        if not isinstance(row, dict):
+            continue
+        link = str(row.get("link") or "")
+        id_m = MINISTOP_DETAIL_ID_RE.search(link)
+        name = _unescape(_strip_tags(str(row.get("title") or "")))
+        if not id_m or not name:
+            continue
+        launch_text = _unescape(str(row.get("release") or "")) or ""
+        items.append(
+            {
+                "product_id": id_m.group(1),
+                "name": name,
+                "price_text": ministop_price_text(row.get("price")),
+                "launch_text": launch_text,
+                "launch_date": parse_launch_date_iso(launch_text),
+                "region_text": _unescape(_strip_tags(str(row.get("region") or ""))) or None,
+                "detail_url": link,
+            }
+        )
+    return items
+
+
+def parse_ministop_detail(html: str) -> dict | None:
+    """商品詳細ページから価格・発売地域・発売日・商品特徴・カテゴリを取り出す。
+    価格・発売地域・発売日・商品特徴の表(<div class="detailBlock">)が無ければNone。"""
+    block_m = re.search(r'<div class="detailBlock">(.*?)</div>', html, re.S)
+    if not block_m:
+        return None
+    fields: dict[str, str] = {}
+    for dt, dd in re.findall(r"<dt>(.*?)</dt>\s*<dd[^>]*>(.*?)</dd>", block_m.group(1), re.S):
+        fields[_unescape(_strip_tags(dt)) or ""] = dd
+
+    def text_of(key: str) -> str | None:
+        dd = fields.get(key)
+        if dd is None:
+            return None
+        return _unescape(_strip_tags(dd)) or None
+
+    name_m = re.search(r'<h1 class="title01"><span class="headTx1">(.*?)</span>', html, re.S)
+    # パンくず: Home > 商品情報 > カテゴリ > 商品名(最後だけリンクではない)
+    category = None
+    nav_m = re.search(r'<div class="topicNav">(.*?)</div>', html, re.S)
+    if nav_m:
+        crumbs = [
+            _unescape(_strip_tags(c)) or ""
+            for c in re.findall(r"<li><a [^>]*>(.*?)</a></li>", nav_m.group(1), re.S)
+        ]
+        crumbs = [c for c in crumbs if c not in ("Home", "商品情報")]
+        category = crumbs[0] if crumbs else None
+    launch_text = text_of("発売日")
+    price_dd = fields.get("価格")
+    return {
+        "name": _unescape(_strip_tags(name_m.group(1))) if name_m else None,
+        "price_text": ministop_price_text(price_dd) if price_dd is not None else "",
+        "region_text": text_of("発売地域"),
+        "launch_text": launch_text,
+        "launch_date": parse_launch_date_iso(launch_text or ""),
+        "description": text_of("商品特徴"),
+        "category": category,
+    }

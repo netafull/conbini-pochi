@@ -1,11 +1,12 @@
 # tests/fixtures/ に置く、公式ページのスナップショットの一覧(ファイル名のみ)。
 #
-# これらは各社の公式サイト(セブン-イレブン・ファミリーマート・ローソン・デイリーヤマザキ)から取得したページの
+# これらは各社の公式サイト(セブン-イレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ)から取得したページの
 # コピーなので、**リポジトリには入れていない**(.gitignore で除外。各社の規約が複製・転載を禁じて
 # いるため。2026-10-11に追跡から外した。それ以前のコミットには残っている)。
 # 手元にこのファイルが無い環境では、フィクスチャを使うテストは自動でスキップされる。
 # 手元でテストを動かすときは、下の名前で公式のページを自分で取得して置く。公式サイトへの取得は、
 # 間隔3秒以上・必要最小限にすること(セブンは6秒以上)。デイリーヤマザキは https://www.daily-yamazaki.jp/new/ 1ページ。
+# ミニストップは https://www.ministop.co.jp/syohin/js/recommend.json と、その各 link の詳細ページ。
 #
 dailyyamazaki/new.html
 familymart/item_0415613.html
@@ -16,5 +17,25 @@ familymart/newgoods.html
 lawson/item_1532627.html
 lawson/list_1532630_5162.html
 lawson/new_redirect.html
+ministop/recommend.json
+ministop/detail053676.html
+ministop/detail053677.html
+ministop/detail053678.html
+ministop/detail053679.html
+ministop/detail053680.html
+ministop/detail053681.html
+ministop/detail053682.html
+ministop/detail053683.html
+ministop/detail053684.html
+ministop/detail053749.html
+ministop/detail053750.html
+ministop/detail053751.html
+ministop/detail053752.html
+ministop/detail053753.html
+ministop/detail053754.html
+ministop/detail053755.html
+ministop/detail053756.html
+ministop/detail053757.html
+ministop/detail053758.html
 seven/item_044723_hokkaido.html
 seven/thisweek.html
