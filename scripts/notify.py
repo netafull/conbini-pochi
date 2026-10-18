@@ -13,7 +13,8 @@
 (公開リポジトリなので、トピック名が漏れると誰でも通知を送りつけられる)。
 
 使い方:
-  python3 scripts/notify.py --summary   新規取得件数の要約を送る(0件なら送らない)
+  python3 scripts/notify.py --summary   新規取得件数と、巡回の問題(ブロック・一覧取得失敗・例外)を送る
+                                        (新規0件で問題も無ければ送らない)
   python3 scripts/notify.py --failure   更新が失敗したことを知らせる
 
 必要な環境変数:
@@ -32,12 +33,15 @@ from pathlib import Path
 SITE_NAME = "コンビニポチ"
 ROOT = Path(__file__).resolve().parent.parent
 RUN_SUMMARY = ROOT / "data" / "run_summary.json"
+CONFIG = ROOT / "config.json"
 
 
-def send(topic: str, title: str, message: str, click: str = "") -> None:
-    payload: dict[str, str] = {"topic": topic, "title": title, "message": message}
+def send(topic: str, title: str, message: str, click: str = "", priority: int = 0) -> None:
+    payload: dict = {"topic": topic, "title": title, "message": message}
     if click:
         payload["click"] = click
+    if priority:
+        payload["priority"] = priority
     req = urllib.request.Request(
         "https://ntfy.sh/",
         data=json.dumps(payload).encode("utf-8"),
@@ -55,13 +59,90 @@ def _run_click() -> str:
     return f"{server}/{repo}/actions/runs/{run_id}" if repo and run_id else ""
 
 
-def count_new_this_run() -> dict[str, int]:
-    """直前の crawl.py 実行で新規に記録した商品数(data/run_summary.json)を読む。"""
+def load_chain_names() -> dict[str, str]:
+    try:
+        cfg = json.loads(CONFIG.read_text(encoding="utf-8"))
+        return {c["slug"]: c["name"] for c in cfg.get("chains", [])}
+    except (OSError, json.JSONDecodeError, KeyError):
+        return {}
+
+
+def load_run_summary() -> dict:
+    """直前の crawl.py 実行の結果(data/run_summary.json)を読み、新旧どちらの形式でも
+    {"new", "blocked", "list_failed", "errors", "streaks", "detail_failed"} に揃えて返す。
+    古い形式は {社: 新規件数} だけの平たい辞書。"""
+    empty = {"new": {}, "blocked": [], "list_failed": [], "errors": [],
+             "streaks": {}, "detail_failed": {}}
     try:
         data = json.loads(RUN_SUMMARY.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
-        return {}
-    return {k: int(v) for k, v in data.items()}
+        return empty
+    if not isinstance(data, dict):
+        return empty
+    try:
+        if isinstance(data.get("new"), dict):
+            return {
+                "new": {k: int(v) for k, v in data["new"].items()},
+                "blocked": list(data.get("blocked") or []),
+                "list_failed": list(data.get("list_failed") or []),
+                "errors": list(data.get("errors") or []),
+                "streaks": {k: int(v) for k, v in (data.get("streaks") or {}).items()},
+                "detail_failed": {k: int(v) for k, v in (data.get("detail_failed") or {}).items()},
+            }
+        return {**empty, "new": {k: int(v) for k, v in data.items()}}
+    except (TypeError, ValueError):
+        return empty
+
+
+def count_new_this_run() -> dict[str, int]:
+    """直前の crawl.py 実行で新規に記録した商品数を読む。"""
+    return load_run_summary()["new"]
+
+
+PROBLEM_LABELS = (("blocked", "ブロックされた"), ("list_failed", "一覧の取得に失敗"),
+                  ("errors", "例外で停止"))
+
+
+def problem_lines(summary: dict, names: dict[str, str]) -> tuple[list[str], list[str]]:
+    """問題のあった社の(表示名リスト, 本文の行リスト)。同じ社に複数の種別があれば1行にまとめる。"""
+    kinds: dict[str, list[str]] = {}
+    for key, label in PROBLEM_LABELS:
+        for chain in summary[key]:
+            kinds.setdefault(chain, []).append(label)
+    shown, lines = [], []
+    for chain, labels in kinds.items():
+        name = names.get(chain, chain)
+        days = summary["streaks"].get(chain, 0)
+        streak = f"({days}日連続)" if days >= 2 else ""
+        shown.append(name)
+        lines.append(f"{name}: {'・'.join(labels)}{streak}")
+    return shown, lines
+
+
+def build_summary_message(summary: dict, names: dict[str, str]) -> tuple[str, str, int] | None:
+    """(タイトル, 本文, 優先度)を返す。新規0件で問題も無ければ None。"""
+    counts = summary["new"]
+    total = sum(counts.values())
+    shown, lines = problem_lines(summary, names)
+    if total == 0 and not shown:
+        return None
+    parts = []
+    if total:
+        detail = " / ".join(f"{names.get(k, k)} {v}件" for k, v in counts.items() if v)
+        parts.append(f"今回の巡回で新しく記録した商品: {detail}")
+    if shown:
+        parts.append("巡回の問題:\n" + "\n".join(lines)
+                     + "\n公式サイトの一覧は入れ替わるため、続くと記録が失われます。実行ログを確認してください。")
+        df = sum(n for c, n in summary["detail_failed"].items())
+        if df:
+            parts.append(f"(詳細ページの取得失敗 {df}件は翌日に自動で再試行します)")
+    if total:
+        title = f"{SITE_NAME}: 新商品 {total}件"
+        if shown:
+            title += f"(問題あり: {'・'.join(shown)})"
+    else:
+        title = f"{SITE_NAME}: 巡回に問題({'・'.join(shown)})"
+    return title, "\n\n".join(parts), 4 if shown else 0
 
 
 def main() -> int:
@@ -72,16 +153,14 @@ def main() -> int:
         return 0
 
     if "--summary" in args:
-        counts = count_new_this_run()
-        total = sum(counts.values())
-        if total == 0:
-            print("新規0件のため通知はスキップします")
+        msg = build_summary_message(load_run_summary(), load_chain_names())
+        if msg is None:
+            print("新規0件で問題も無いため通知はスキップします")
             return 0
-        detail = " / ".join(f"{k} {v}件" for k, v in counts.items() if v)
+        title, body, priority = msg
         try:
-            send(topic, f"{SITE_NAME}: 新商品 {total}件",
-                 f"今回の巡回で新しく記録した商品: {detail}", _run_click())
-            print(f"要約を通知しました({total}件)")
+            send(topic, title, body, _run_click(), priority)
+            print(f"要約を通知しました: {title}")
         except (urllib.error.URLError, OSError) as e:
             print(f"[warn] ntfy通知に失敗しました: {e}", file=sys.stderr)
         return 0

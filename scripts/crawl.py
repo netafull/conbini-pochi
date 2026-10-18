@@ -65,6 +65,12 @@ def save_pending(pending: dict) -> None:
     )
 
 
+def mark_list_failed(stats: dict, chain: str, reason: str) -> None:
+    """一覧の取得・解析に失敗したことを記録する(通知用)。最初の理由を残す。
+    詳細ページ単発の失敗(stats["failed"])とは別扱いで、こちらだけが通知対象になる。"""
+    stats[chain].setdefault("list_failed", reason)
+
+
 def product_path(chain: str, product_id: str) -> Path:
     return PRODUCTS / chain / f"{product_id}.json"
 
@@ -135,10 +141,16 @@ def crawl_seven(pending: dict, stats: dict) -> None:
             return
         except Exception as e:  # noqa: BLE001
             print(f"[warn] seven list {list_path} 取得失敗: {e}", file=sys.stderr)
+            mark_list_failed(stats, chain, f"fetch_error: {list_path}")
             continue
         for entry in parsers.parse_seven_list(html):
             entry["source_list"] = source_list
             all_entries.append(entry)
+
+    if not all_entries and stats[chain]["list_requests"] and not stats[chain]["blocked"]:
+        # 一覧は取れたのに1件も解析できない(サイトの作り変え)。既存データには触れない
+        print("[warn] seven 一覧から商品を1件も取り出せませんでした", file=sys.stderr)
+        mark_list_failed(stats, chain, "empty_list")
 
     by_code: dict[str, list[dict]] = {}
     for e in all_entries:
@@ -265,11 +277,16 @@ def crawl_familymart(pending: dict, stats: dict) -> None:
             return
         except Exception as e:  # noqa: BLE001
             print(f"[warn] familymart list {list_path} 取得失敗: {e}", file=sys.stderr)
+            mark_list_failed(stats, chain, f"fetch_error: {list_path}")
             continue
         list_week_by_source[source_list] = parsers.parse_familymart_list_week_start(html, today)
         for entry in parsers.parse_familymart_list(html):
             entry["source_list"] = source_list
             all_entries.append(entry)
+
+    if not all_entries and stats[chain]["list_requests"]:
+        print("[warn] familymart 一覧から商品を1件も取り出せませんでした", file=sys.stderr)
+        mark_list_failed(stats, chain, "empty_list")
 
     seen: set[str] = set()
     for e in all_entries:
@@ -360,11 +377,13 @@ def crawl_lawson(pending: dict, stats: dict) -> None:
         return
     except Exception as e:  # noqa: BLE001
         print(f"[warn] lawson 起点ページ取得失敗: {e}", file=sys.stderr)
+        mark_list_failed(stats, chain, "fetch_error: redirect")
         return
 
     target = parsers.parse_meta_refresh(redirect_html)
     if not target:
         print("[warn] lawson meta refresh が見つかりません", file=sys.stderr)
+        mark_list_failed(stats, chain, "no_meta_refresh")
         return
 
     to_visit = [target]
@@ -385,6 +404,7 @@ def crawl_lawson(pending: dict, stats: dict) -> None:
             return
         except Exception as e:  # noqa: BLE001
             print(f"[warn] lawson list {path} 取得失敗: {e}", file=sys.stderr)
+            mark_list_failed(stats, chain, f"fetch_error: {path}")
             continue
         for entry in parsers.parse_lawson_list(html):
             entry["source_list"] = path
@@ -392,6 +412,10 @@ def crawl_lawson(pending: dict, stats: dict) -> None:
         for nav_url in parsers.parse_lawson_nav_urls(html):
             if nav_url not in visited:
                 to_visit.append(nav_url)
+
+    if not all_entries and stats[chain]["list_requests"]:
+        print("[warn] lawson 一覧から商品を1件も取り出せませんでした", file=sys.stderr)
+        mark_list_failed(stats, chain, "empty_list")
 
     seen: set[str] = set()
     for e in all_entries:
@@ -484,6 +508,7 @@ def crawl_dailyyamazaki(pending: dict, stats: dict) -> None:
     except Exception as e:  # noqa: BLE001
         print(f"[warn] dailyyamazaki list 取得失敗: {e}", file=sys.stderr)
         stats[chain]["failed"] += 1
+        mark_list_failed(stats, chain, "fetch_error")
         pending[chain]["list"] = {
             "url": list_url, "reason": f"fetch_error: {e}", "checked_at": now_iso(),
         }
@@ -494,6 +519,7 @@ def crawl_dailyyamazaki(pending: dict, stats: dict) -> None:
         # サイトの作り変えで1件も取れなくなった場合。既存データには触れない
         print("[warn] dailyyamazaki 一覧から商品を1件も取り出せませんでした", file=sys.stderr)
         stats[chain]["failed"] += 1
+        mark_list_failed(stats, chain, "empty_list")
         pending[chain]["list"] = {
             "url": list_url, "reason": "empty_list", "checked_at": now_iso(),
         }
@@ -567,6 +593,7 @@ def crawl_ministop(pending: dict, stats: dict) -> None:
     except Exception as e:  # noqa: BLE001
         print(f"[warn] ministop list 取得失敗: {e}", file=sys.stderr)
         stats[chain]["failed"] += 1
+        mark_list_failed(stats, chain, "fetch_error")
         pending[chain]["list"] = {
             "url": list_url, "reason": f"fetch_error: {e}", "checked_at": now_iso(),
         }
@@ -583,6 +610,7 @@ def crawl_ministop(pending: dict, stats: dict) -> None:
         # JSONが壊れた・0件になった場合(サイトの作り変え等)。既存データには触れない
         print("[warn] ministop 一覧から商品を1件も取り出せませんでした", file=sys.stderr)
         stats[chain]["failed"] += 1
+        mark_list_failed(stats, chain, reason)
         pending[chain]["list"] = {"url": list_url, "reason": reason, "checked_at": now_iso()}
         return
     pending[chain].pop("list", None)
@@ -654,15 +682,59 @@ def crawl_ministop(pending: dict, stats: dict) -> None:
 RUN_SUMMARY = ROOT / "data" / "run_summary.json"
 
 
-def save_run_summary(stats: dict[str, dict]) -> None:
-    """この実行で新規に記録した商品数を書き出す。notify.py が読む。
+def collect_problems(stats: dict[str, dict]) -> dict[str, list[str]]:
+    """この実行で問題があった社を種別ごとに集める(通知用)。
+    詳細ページ単発の失敗(stats["failed"])は一時的なことが多く翌日自動で再試行されるので、
+    ここには含めない。"""
+    return {
+        "blocked": [c for c, s in stats.items() if s.get("blocked")],
+        "list_failed": [c for c, s in stats.items() if s.get("list_failed")],
+        "errors": [c for c, s in stats.items() if s.get("error")],
+    }
+
+
+def update_health(pending: dict, stats: dict[str, dict], today: datetime.date) -> dict[str, int]:
+    """社ごとの「連続で問題が出ている日数」を pending["_health"] に持ち、
+    今回問題があった社の日数を返す。日付で数えるので同じ日の再実行では増えない。
+    今回巡回しなかった社(社名指定の実行)は触らない。"""
+    health = pending.setdefault("_health", {})
+    problems = collect_problems(stats)
+    bad = {c for names in problems.values() for c in names}
+    streaks: dict[str, int] = {}
+    for chain in stats:
+        if chain not in bad:
+            health.pop(chain, None)
+            continue
+        prev = health.get(chain) or {}
+        last = prev.get("last_date")
+        n = int(prev.get("days", 0))
+        if last != today.isoformat():
+            yesterday = (today - datetime.timedelta(days=1)).isoformat()
+            n = n + 1 if last == yesterday else 1
+        health[chain] = {"days": n, "last_date": today.isoformat()}
+        streaks[chain] = n
+    if not health:
+        pending.pop("_health", None)
+    return streaks
+
+
+def save_run_summary(stats: dict[str, dict], streaks: dict[str, int] | None = None) -> None:
+    """この実行の結果を書き出す。notify.py が読む。
 
     以前は notify.py が fetched_at の「今日」を数えていたが、実行環境のUTCと
     データの日本時間が1日ずれ、朝の実行で通知が出ない・手動実行で二重に通知が出る
     不具合があった(2026-09-29)。実行ごとに上書きされる一時ファイルで、gitには入れない。
+
+    形式: {"new": {社: 新規件数}, "blocked": [社], "list_failed": [社], "errors": [社],
+           "streaks": {社: 連続日数}, "detail_failed": {社: 詳細取得失敗件数}}
+    (以前は {社: 新規件数} だけの平たい形式。notify.py は両方読める)
     """
-    counts = {chain: s.get("new_products", 0) for chain, s in stats.items()}
-    RUN_SUMMARY.write_text(json.dumps(counts, ensure_ascii=False), encoding="utf-8")
+    summary = {"new": {chain: s.get("new_products", 0) for chain, s in stats.items()}}
+    summary.update(collect_problems(stats))
+    summary["streaks"] = streaks or {}
+    summary["detail_failed"] = {c: s["failed"] for c, s in stats.items()
+                                if s.get("failed") and not s.get("list_failed")}
+    RUN_SUMMARY.write_text(json.dumps(summary, ensure_ascii=False), encoding="utf-8")
 
 
 def main() -> int:
@@ -689,9 +761,11 @@ def main() -> int:
             fn(pending, stats)
         except Exception as e:  # noqa: BLE001
             print(f"[error] {fn.__name__} で例外: {e}", file=sys.stderr)
+            stats.setdefault(name, {})["error"] = f"{type(e).__name__}: {e}"
 
+    streaks = update_health(pending, stats, datetime.datetime.now(JST).date())
     save_pending(pending)
-    save_run_summary(stats)
+    save_run_summary(stats, streaks)
 
     print("=== クロール結果 ===")
     for chain, s in stats.items():
@@ -701,6 +775,8 @@ def main() -> int:
             f"{chain}: 一覧{s.get('list_requests', 0)}件 / 詳細{s.get('detail_requests', 0)}件 "
             f"/ 新規{s.get('new_products', 0)}件 / 失敗{s.get('failed', 0)}件 "
             f"/ ブロック={'あり' if s.get('blocked') else 'なし'}{excluded_text}"
+            + (f" / 一覧失敗={s['list_failed']}" if s.get("list_failed") else "")
+            + (f" / 例外={s['error']}" if s.get("error") else "")
         )
     return 0
 
