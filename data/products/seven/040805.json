@@ -1,0 +1,55 @@
+{
+ "chain": "seven",
+ "product_id": "040805",
+ "name": "肉玉のっけそばめし",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "鳥取県",
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "鳥取県、島根県、広島県、山口県",
+ "description": "鉄板で焼いたそばめしの上に、キャベツ、玉子、豚肉、天かすを焼いた肉玉をのせました。お好みソースとマヨでジャンキーな味わいを楽しめます。",
+ "nutrition": {
+  "kcal": 743.0,
+  "protein_g": 20.7,
+  "fat_g": 31.5,
+  "carbs_g": 97.2,
+  "sugar_g": 91.3,
+  "fiber_g": 5.9,
+  "salt_g": 7.1,
+  "raw": "熱量：743kcal、たんぱく質：20.7g、脂質：31.5g、炭水化物：97.2g（糖質：91.3g、食物繊維：5.9g）、食塩相当量：7.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "鳥取県、島根県、広島県、山口県",
+   "regions": [
+    "鳥取県",
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/040805/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040805/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040805/chugoku/"
+ ],
+ "first_seen_at": "2026-10-19T07:00:42+09:00",
+ "fetched_at": "2026-10-19T07:00:42+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

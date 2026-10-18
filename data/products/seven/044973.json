@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044973",
+ "name": "ザンギ弁当（鶏ムネ肉使用）",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "にんにくや生姜等を使用しジューシーに仕上げた醤油味のザンギをおかずにした食べ応えのあるお弁当です",
+ "nutrition": {
+  "kcal": 679.0,
+  "protein_g": 41.9,
+  "fat_g": 14.3,
+  "carbs_g": 95.9,
+  "sugar_g": 95.2,
+  "fiber_g": 0.7,
+  "salt_g": 2.8,
+  "raw": "熱量：679kcal、たんぱく質：41.9g、脂質：14.3g、炭水化物：95.9g（糖質：95.2g、食物繊維：0.7g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/044973/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044973/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044973/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-19T07:00:29+09:00",
+ "fetched_at": "2026-10-19T07:00:29+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

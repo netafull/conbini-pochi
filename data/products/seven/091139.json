@@ -1,0 +1,75 @@
+{
+ "chain": "seven",
+ "product_id": "091139",
+ "name": "中華蕎麦とみ田監修　デカ豚ラーメン",
+ "category": null,
+ "price_excl_tax": 680,
+ "price_incl_tax": 734.4,
+ "launch_date": "2026-10-21",
+ "launch_text": "2026年10月21日（水）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "東京都",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "北海道、東北、茨城県、栃木県、群馬県、埼玉県、東京都、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "「中華蕎麦とみ田」監修の豚骨醤油ラーメン。醤油のキレとパンチが効いたクセになるスープと、ワシワシ食感の極太麺が特長です。",
+ "nutrition": {
+  "kcal": 986.0,
+  "protein_g": 39.3,
+  "fat_g": 49.8,
+  "carbs_g": 100.4,
+  "sugar_g": 89.9,
+  "fiber_g": 10.5,
+  "salt_g": 7.7,
+  "raw": "熱量：986kcal、たんぱく質：39.3g、脂質：49.8g、炭水化物：100.4g（糖質：89.9g、食物繊維：10.5g）、食塩相当量：7.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "北海道、東北、茨城県、栃木県、群馬県、埼玉県、東京都、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "東京都",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 680,
+   "price_incl_tax": 734.4,
+   "url": "https://www.sej.co.jp/products/a/item/091139/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/091139/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/091139/shikoku/"
+ ],
+ "first_seen_at": "2026-10-19T07:01:05+09:00",
+ "fetched_at": "2026-10-19T07:01:05+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

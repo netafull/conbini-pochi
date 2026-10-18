@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044961",
+ "name": "ぶたはげ監修　炭火焼き豚丼風おむすび",
+ "category": null,
+ "price_excl_tax": 248,
+ "price_incl_tax": 267.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "帯広の名店「ぶたはげ」監修商品。甘みとコクのあるタレで味付けした炭火焼き豚丼を手軽に味わえるおむすびに仕立てました。",
+ "nutrition": {
+  "kcal": 240.0,
+  "protein_g": 6.6,
+  "fat_g": 5.6,
+  "carbs_g": 41.7,
+  "sugar_g": 39.9,
+  "fiber_g": 1.8,
+  "salt_g": 1.4,
+  "raw": "熱量：240kcal、たんぱく質：6.6g、脂質：5.6g、炭水化物：41.7g（糖質：39.9g、食物繊維：1.8g）、食塩相当量：1.4g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/044961/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044961/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044961/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-19T07:00:25+09:00",
+ "fetched_at": "2026-10-19T07:00:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044798",
+ "name": "じゅーしーおむすび",
+ "category": null,
+ "price_excl_tax": 135,
+ "price_incl_tax": 145.8,
+ "launch_date": "2026-10-22",
+ "launch_text": "2026年10月22日（木）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "沖縄県で馴染みのある炊き込みごはん「じゅーしー」のおむすびです。複数種類のだしを使い、しいたけの旨みも感じられるように仕上げました。",
+ "nutrition": {
+  "kcal": 175.0,
+  "protein_g": 3.6,
+  "fat_g": 1.8,
+  "carbs_g": 37.0,
+  "sugar_g": 35.0,
+  "fiber_g": 2.0,
+  "salt_g": 1.7,
+  "raw": "熱量：175kcal、たんぱく質：3.6g、脂質：1.8g、炭水化物：37.0g（糖質：35.0g、食物繊維：2.0g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 135,
+   "price_incl_tax": 145.8,
+   "url": "https://www.sej.co.jp/products/a/item/044798/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044798/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044798/okinawa/"
+ ],
+ "first_seen_at": "2026-10-19T07:01:13+09:00",
+ "fetched_at": "2026-10-19T07:01:13+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

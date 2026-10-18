@@ -1,0 +1,66 @@
+{
+ "chain": "seven",
+ "product_id": "054100",
+ "name": "ブロッコリーサラダロール",
+ "category": null,
+ "price_excl_tax": 138,
+ "price_incl_tax": 149.04,
+ "launch_date": "2026-10-21",
+ "launch_text": "2026年10月21日（水）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "コッペパンに、ペッパーマヨネーズで和えたブロッコリーと蒸し鶏，玉葱を挟みました。",
+ "nutrition": {
+  "kcal": 197.0,
+  "protein_g": 6.3,
+  "fat_g": 8.3,
+  "carbs_g": 25.5,
+  "sugar_g": 22.9,
+  "fiber_g": 2.6,
+  "salt_g": 1.3,
+  "raw": "熱量：197kcal、たんぱく質：6.3g、脂質：8.3g、炭水化物：25.5g（糖質：22.9g、食物繊維：2.6g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 138,
+   "price_incl_tax": 149.04,
+   "url": "https://www.sej.co.jp/products/a/item/054100/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054100/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054100/shikoku/"
+ ],
+ "first_seen_at": "2026-10-19T07:00:54+09:00",
+ "fetched_at": "2026-10-19T07:00:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
