@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "040935",
+ "name": "鶏ごぼうおむすび　　　紫峰使用",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "茨城県"
+ ],
+ "region_text": "茨城県",
+ "description": "紫峰醤油で炊いたもち米入り御飯に、味が染み込んだ鶏ひき肉、ごぼう、人参、刻み揚げを混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 206.0,
+  "protein_g": 5.5,
+  "fat_g": 2.0,
+  "carbs_g": 42.0,
+  "sugar_g": 41.2,
+  "fiber_g": 0.8,
+  "salt_g": 1.6,
+  "raw": "熱量：206kcal、たんぱく質：5.5g、脂質：2.0g、炭水化物：42.0g（糖質：41.2g、食物繊維：0.8g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県",
+   "regions": [
+    "茨城県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/040935/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040935/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040935/kanto/"
+ ],
+ "first_seen_at": "2026-10-20T07:04:24+09:00",
+ "fetched_at": "2026-10-20T07:04:24+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

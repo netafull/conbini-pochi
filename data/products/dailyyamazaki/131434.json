@@ -1,0 +1,22 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "131434",
+ "name": "手巻おにぎり　おかか",
+ "category": "おにぎり",
+ "price_excl_tax": 162,
+ "price_incl_tax": 174,
+ "launch_date": "2026-10-20",
+ "launch_text": "10月20日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "鰹削り節を醤油・砂糖などで甘辛く煮込んだ「にんべん」のおかかを使用。口の中で広がるかつおの旨みと味わいが特徴です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-20T07:07:48+09:00",
+ "fetched_at": "2026-10-20T07:07:48+09:00",
+ "source_list": "new",
+ "image": null
+}

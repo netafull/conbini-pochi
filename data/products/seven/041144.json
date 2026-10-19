@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "041144",
+ "name": "新潟県産コシヒカリお　むすびしらす大葉たらこ",
+ "category": null,
+ "price_excl_tax": 248,
+ "price_incl_tax": 267.84,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "大葉と炊いた風味豊かなしらすと炙りたらこを組み合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 178.0,
+  "protein_g": 4.6,
+  "fat_g": 1.2,
+  "carbs_g": 37.9,
+  "sugar_g": 36.3,
+  "fiber_g": 1.6,
+  "salt_g": 1.1,
+  "raw": "熱量：178kcal、たんぱく質：4.6g、脂質：1.2g、炭水化物：37.9g（糖質：36.3g、食物繊維：1.6g）、食塩相当量：1.1g"
+ },
+ "allergens": [
+  "小麦",
+  "えび",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/041144/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041144/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041144/tokai/"
+ ],
+ "first_seen_at": "2026-10-20T07:05:00+09:00",
+ "fetched_at": "2026-10-20T07:05:00+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

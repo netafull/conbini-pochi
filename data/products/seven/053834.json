@@ -1,0 +1,110 @@
+{
+ "chain": "seven",
+ "product_id": "053834",
+ "name": "ブリトーウインナー２本入り濃厚ボロネーゼ",
+ "category": null,
+ "price_excl_tax": 288,
+ "price_incl_tax": 311.04,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "新潟県",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "北海道、東北、関東、新潟県、北陸、東海、近畿、中国、四国、九州、沖縄",
+ "description": "粗挽き肉と赤ワイン使用のボロネーゼソースにウインナーとチーズを合わせてもちもち生地で包みました。",
+ "nutrition": {
+  "kcal": 326.0,
+  "protein_g": 11.4,
+  "fat_g": 16.4,
+  "carbs_g": 33.9,
+  "sugar_g": 32.5,
+  "fiber_g": 1.4,
+  "salt_g": 1.7,
+  "raw": "熱量：326kcal、たんぱく質：11.4g、脂質：16.4g、炭水化物：33.9g（糖質：32.5g、食物繊維：1.4g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "北海道、東北、関東、新潟県、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 288,
+   "price_incl_tax": 311.04,
+   "url": "https://www.sej.co.jp/products/a/item/053834/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "北海道、東北、関東、新潟県、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 288,
+   "price_incl_tax": 311.04,
+   "url": "https://www.sej.co.jp/products/a/item/053834/kyushu/"
+  },
+  "okinawa": {
+   "region_text": "北海道、東北、関東、新潟県、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 288,
+   "price_incl_tax": 311.04,
+   "url": "https://www.sej.co.jp/products/a/item/053834/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/053834/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/053834/kyushu/",
+  "https://www.sej.co.jp/products/a/item/053834/okinawa/",
+  "https://www.sej.co.jp/products/a/item/053834/shikoku/"
+ ],
+ "first_seen_at": "2026-10-20T07:06:13+09:00",
+ "fetched_at": "2026-10-20T07:06:13+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

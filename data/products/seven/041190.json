@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "041190",
+ "name": "ピリ辛チキン＆鶏そぼろ弁当",
+ "category": null,
+ "price_excl_tax": 650,
+ "price_incl_tax": 702,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "スパイシーなピリ辛タレを鶏唐揚げに和えた食べ進みの良いお弁当",
+ "nutrition": {
+  "kcal": 706.0,
+  "protein_g": 32.6,
+  "fat_g": 14.1,
+  "carbs_g": 113.4,
+  "sugar_g": 110.7,
+  "fiber_g": 2.7,
+  "salt_g": 3.8,
+  "raw": "熱量：706kcal、たんぱく質：32.6g、脂質：14.1g、炭水化物：113.4g（糖質：110.7g、食物繊維：2.7g）、食塩相当量：3.8g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 650,
+   "price_incl_tax": 702,
+   "url": "https://www.sej.co.jp/products/a/item/041190/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041190/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041190/tokai/"
+ ],
+ "first_seen_at": "2026-10-20T07:05:06+09:00",
+ "fetched_at": "2026-10-20T07:05:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

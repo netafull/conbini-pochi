@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041201",
+ "name": "天ぷらあら木監修　天まき",
+ "category": null,
+ "price_excl_tax": 350,
+ "price_incl_tax": 378,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "札幌の名店「天ぷら　あら木」監修商品。２本の海老天をかつお出汁やごま油などを合わせた特製のタレで味付けした、食べ応えのあるおむすびです。",
+ "nutrition": {
+  "kcal": 244.0,
+  "protein_g": 8.0,
+  "fat_g": 4.8,
+  "carbs_g": 43.1,
+  "sugar_g": 41.3,
+  "fiber_g": 1.8,
+  "salt_g": 1.7,
+  "raw": "熱量：244kcal、たんぱく質：8.0g、脂質：4.8g、炭水化物：43.1g（糖質：41.3g、食物繊維：1.8g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "えび"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "url": "https://www.sej.co.jp/products/a/item/041201/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041201/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041201/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-20T07:00:48+09:00",
+ "fetched_at": "2026-10-20T07:00:48+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

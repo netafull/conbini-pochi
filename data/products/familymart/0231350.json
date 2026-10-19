@@ -1,0 +1,41 @@
+{
+ "chain": "familymart",
+ "product_id": "0231350",
+ "name": "やきいも",
+ "category": "ホットスナック・惣菜",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "厳選された国産さつまいもを使用し、アルミホイルで包み2時間じっくり焼き上げる新製法で、今までにない甘みとねっとりとした食感を楽しめる、とろあまな焼きいもです。",
+ "nutrition": {
+  "kcal": 151.2,
+  "protein_g": 1.4,
+  "fat_g": 0.2,
+  "carbs_g": 39.0,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 0.04,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">151.2</td>\r\n                          <td class=\"con_nut\">1.4</td>\r\n                          <td class=\"con_nut\">0.2</td>\r\n                          <td class=\"con_nut\">39.0</td>\r\n                          <td class=\"con_nut\">0.04</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/friedfoods/0231350.html",
+ "first_seen_at": "2026-10-20T07:07:16+09:00",
+ "fetched_at": "2026-10-20T07:07:16+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

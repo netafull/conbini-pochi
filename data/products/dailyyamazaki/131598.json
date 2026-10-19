@@ -1,0 +1,27 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "131598",
+ "name": "濃厚ダブルチョコシュー(ベルギーチョコ)",
+ "category": "スイーツ",
+ "price_excl_tax": 175,
+ "price_incl_tax": 189,
+ "launch_date": "2026-10-20",
+ "launch_text": "10月20日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "ベルギーチョコ使用の濃厚なチョコクリームと口どけなめらかなチョコホイップの２つの味が楽しめる季節限定シュークリームです。",
+ "nutrition": null,
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-20T07:07:48+09:00",
+ "fetched_at": "2026-10-20T07:07:48+09:00",
+ "source_list": "new",
+ "image": null
+}

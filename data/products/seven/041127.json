@@ -1,0 +1,59 @@
+{
+ "chain": "seven",
+ "product_id": "041127",
+ "name": "町中華のあんだく天津飯",
+ "category": null,
+ "price_excl_tax": 498,
+ "price_incl_tax": 537.84,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "近畿",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国"
+ ],
+ "region_text": "近畿、鳥取県、島根県、岡山県、広島県、四国",
+ "description": "たっぷりの餡とふんわりとした玉子で食べ進みのよい天津飯です。",
+ "nutrition": {
+  "kcal": 537.0,
+  "protein_g": 22.1,
+  "fat_g": 19.1,
+  "carbs_g": 70.6,
+  "sugar_g": 67.7,
+  "fiber_g": 2.9,
+  "salt_g": 4.0,
+  "raw": "熱量：537kcal、たんぱく質：22.1g、脂質：19.1g、炭水化物：70.6g（糖質：67.7g、食物繊維：2.9g）、食塩相当量：4g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "近畿、鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "近畿",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 498,
+   "price_incl_tax": 537.84,
+   "url": "https://www.sej.co.jp/products/a/item/041127/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041127/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041127/shikoku/"
+ ],
+ "first_seen_at": "2026-10-20T07:05:54+09:00",
+ "fetched_at": "2026-10-20T07:05:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

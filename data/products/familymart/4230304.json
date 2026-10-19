@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "4230304",
+ "name": "Afternoon Tea監修　ホット　黒豆香るルイボスティー　480ml",
+ "category": "飲料",
+ "price_excl_tax": 130,
+ "price_incl_tax": 140,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "南アフリカ産茶葉を100%使用した「Afternoon Tea」監修の本格的なホット黒豆ルイボスティーです。黒豆の甘い香りとルイボス茶葉のやさしい味わいを楽しめます。ノンカフェイン・無糖です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/drink/4230304.html",
+ "first_seen_at": "2026-10-20T07:07:28+09:00",
+ "fetched_at": "2026-10-20T07:07:28+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

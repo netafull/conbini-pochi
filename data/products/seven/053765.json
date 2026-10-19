@@ -1,0 +1,56 @@
+{
+ "chain": "seven",
+ "product_id": "053765",
+ "name": "ブリトーウインナー２本入りＢＢＱソース",
+ "category": null,
+ "price_excl_tax": 288,
+ "price_incl_tax": 311.04,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県",
+  "近畿",
+  "九州"
+ ],
+ "region_text": "山梨県、長野県、近畿、九州",
+ "description": "スモーク香るＢＢＱソースとウィンナーを組み合わせたブリトーです。",
+ "nutrition": {
+  "kcal": 315.0,
+  "protein_g": 10.9,
+  "fat_g": 16.1,
+  "carbs_g": 32.3,
+  "sugar_g": 30.8,
+  "fiber_g": 1.5,
+  "salt_g": 1.9,
+  "raw": "熱量：315kcal、たんぱく質：10.9g、脂質：16.1g、炭水化物：32.3g（糖質：30.8g、食物繊維：1.5g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "山梨県、長野県、近畿、九州",
+   "regions": [
+    "山梨県",
+    "長野県",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 288,
+   "price_incl_tax": 311.04,
+   "url": "https://www.sej.co.jp/products/a/item/053765/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/053765/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/053765/kyushu/"
+ ],
+ "first_seen_at": "2026-10-20T07:06:25+09:00",
+ "fetched_at": "2026-10-20T07:06:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

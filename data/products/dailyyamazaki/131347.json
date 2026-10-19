@@ -1,0 +1,22 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "131347",
+ "name": "カレーうどん",
+ "category": "麺",
+ "price_excl_tax": 500,
+ "price_incl_tax": 540,
+ "launch_date": "2026-10-20",
+ "launch_text": "10月20日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "スパイスの効いたカレーと風味豊かな和風だしを合わせた、お蕎麦屋さん風のカレーうどんです。　※九州での販売はありません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-20T07:07:48+09:00",
+ "fetched_at": "2026-10-20T07:07:48+09:00",
+ "source_list": "new",
+ "image": null
+}

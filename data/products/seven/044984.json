@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "044984",
+ "name": "３種具材の混ぜご飯おむすび",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "埼玉県"
+ ],
+ "region_text": "埼玉県",
+ "description": "埼玉県産小松菜を使用したおむすびです。和風だしのきいた小松菜、人参、油揚げをご飯に混ぜ込み、相性のよいツナマヨネーズを中具に組み合わせました。",
+ "nutrition": {
+  "kcal": 198.0,
+  "protein_g": 3.9,
+  "fat_g": 5.3,
+  "carbs_g": 34.5,
+  "sugar_g": 32.8,
+  "fiber_g": 1.7,
+  "salt_g": 1.6,
+  "raw": "熱量：198kcal、たんぱく質：3.9g、脂質：5.3g、炭水化物：34.5g（糖質：32.8g、食物繊維：1.7g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "埼玉県",
+   "regions": [
+    "埼玉県"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/044984/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044984/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044984/kanto/"
+ ],
+ "first_seen_at": "2026-10-20T07:04:18+09:00",
+ "fetched_at": "2026-10-20T07:04:18+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

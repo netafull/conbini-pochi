@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054117",
+ "name": "耳付きハムカツたまごサンド",
+ "category": null,
+ "price_excl_tax": 390,
+ "price_incl_tax": 421.2,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "耳までやわらかな食パンで濃厚なソースが染みたお肉の旨味を感じられるハムカツと相性の良いたまごサラダ、千切りキャベツを挟んだ食べ応えのあるサンドイッチです",
+ "nutrition": {
+  "kcal": 762.0,
+  "protein_g": 20.6,
+  "fat_g": 39.5,
+  "carbs_g": 82.9,
+  "sugar_g": 79.3,
+  "fiber_g": 3.6,
+  "salt_g": 4.4,
+  "raw": "熱量：762kcal、たんぱく質：20.6g、脂質：39.5g、炭水化物：82.9g（糖質：79.3g、食物繊維：3.6g）、食塩相当量：4.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 390,
+   "price_incl_tax": 421.2,
+   "url": "https://www.sej.co.jp/products/a/item/054117/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054117/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054117/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-20T07:03:36+09:00",
+ "fetched_at": "2026-10-20T07:03:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

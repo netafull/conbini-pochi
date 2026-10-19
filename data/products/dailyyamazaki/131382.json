@@ -1,0 +1,22 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "131382",
+ "name": "野菜タンメン",
+ "category": "麺",
+ "price_excl_tax": 510,
+ "price_incl_tax": 550,
+ "launch_date": "2026-10-20",
+ "launch_text": "10月20日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "もやし・人参を香ばしく炒め、シャキシャキ感のある生キャベツをたっぷりと盛付けたタンメンです。　※九州・東北での販売はありません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-20T07:07:48+09:00",
+ "fetched_at": "2026-10-20T07:07:48+09:00",
+ "source_list": "new",
+ "image": null
+}

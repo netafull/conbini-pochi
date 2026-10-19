@@ -1,0 +1,27 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "131583",
+ "name": "クリームたっぷりエクレア（ホイップ＆カスタード）",
+ "category": "スイーツ",
+ "price_excl_tax": 172,
+ "price_incl_tax": 185,
+ "launch_date": "2026-10-20",
+ "launch_text": "10月20日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "ホイップとカスタードをたっぷり注入した満足感のあるエクレアです。カスタードクリームの中に北海道産生クリームを配合し、より美味しく仕上げました。",
+ "nutrition": null,
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "大豆"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-20T07:07:48+09:00",
+ "fetched_at": "2026-10-20T07:07:48+09:00",
+ "source_list": "new",
+ "image": null
+}

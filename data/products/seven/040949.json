@@ -100,17 +100,59 @@
    "price_excl_tax": 698,
    "price_incl_tax": 753.84,
    "url": "https://www.sej.co.jp/products/a/item/040949/kanto/"
+  },
+  "tohoku": {
+   "region_text": "北海道、東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、東海、近畿、九州、沖縄",
+   "regions": [
+    "北海道",
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/040949/tohoku/"
+  },
+  "koshinetsu": {
+   "region_text": "北海道、東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、東海、近畿、九州、沖縄",
+   "regions": [
+    "北海道",
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/040949/koshinetsu/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/040949/kinki/",
  "official_urls": [
   "https://www.sej.co.jp/products/a/item/040949/kanto/",
   "https://www.sej.co.jp/products/a/item/040949/kinki/",
+  "https://www.sej.co.jp/products/a/item/040949/koshinetsu/",
   "https://www.sej.co.jp/products/a/item/040949/kyushu/",
-  "https://www.sej.co.jp/products/a/item/040949/okinawa/"
+  "https://www.sej.co.jp/products/a/item/040949/okinawa/",
+  "https://www.sej.co.jp/products/a/item/040949/tohoku/"
  ],
  "first_seen_at": "2026-10-13T07:04:43+09:00",
- "fetched_at": "2026-10-19T07:00:35+09:00",
+ "fetched_at": "2026-10-20T07:00:43+09:00",
  "source_list": "nextweek",
  "image": null
 }

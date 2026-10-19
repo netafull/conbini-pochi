@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "043604",
+ "name": "豚焼肉弁当（唐辛子マヨネーズ）",
+ "category": null,
+ "price_excl_tax": 618,
+ "price_incl_tax": 667.44,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "四国"
+ ],
+ "region_text": "四国",
+ "description": "甘辛いタレを絡めた豚焼肉と玉ねぎ炒めにピリ辛の唐辛子マヨネーズをかけ、トマトソース和えスパゲティを組み合わせた食べ応えのあるお弁当です。",
+ "nutrition": {
+  "kcal": 611.0,
+  "protein_g": 26.5,
+  "fat_g": 11.9,
+  "carbs_g": 100.7,
+  "sugar_g": 98.0,
+  "fiber_g": 2.7,
+  "salt_g": 3.7,
+  "raw": "熱量：611kcal、たんぱく質：26.5g、脂質：11.9g、炭水化物：100.7g（糖質：98.0g、食物繊維：2.7g）、食塩相当量：3.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "四国",
+   "regions": [
+    "四国"
+   ],
+   "price_excl_tax": 618,
+   "price_incl_tax": 667.44,
+   "url": "https://www.sej.co.jp/products/a/item/043604/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/043604/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/043604/shikoku/"
+ ],
+ "first_seen_at": "2026-10-20T07:05:43+09:00",
+ "fetched_at": "2026-10-20T07:05:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

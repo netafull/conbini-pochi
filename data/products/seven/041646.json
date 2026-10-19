@@ -1,0 +1,56 @@
+{
+ "chain": "seven",
+ "product_id": "041646",
+ "name": "寿司おむすび梅しそたくあん",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "沖縄"
+ ],
+ "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、沖縄",
+ "description": "カリカリ梅とたくあんを混ぜ込んだ、彩りと食感を楽しめる寿司おむすびです。",
+ "nutrition": {
+  "kcal": 185.0,
+  "protein_g": 2.8,
+  "fat_g": 1.0,
+  "carbs_g": 42.1,
+  "sugar_g": 40.2,
+  "fiber_g": 1.9,
+  "salt_g": 2.5,
+  "raw": "熱量：185kcal、たんぱく質：2.8g、脂質：1.0g、炭水化物：42.1g（糖質：40.2g、食物繊維：1.9g）、食塩相当量：2.5g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、沖縄",
+   "regions": [
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/041646/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041646/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041646/tohoku/"
+ ],
+ "first_seen_at": "2026-10-20T07:04:06+09:00",
+ "fetched_at": "2026-10-20T07:04:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

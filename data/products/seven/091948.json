@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "091948",
+ "name": "ふんわり玉子が出汁にとけこむ　かき玉うどん",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "ふんわり優しい口どけのかき玉あんで食べる温かいうどんです。",
+ "nutrition": {
+  "kcal": 433.0,
+  "protein_g": 19.9,
+  "fat_g": 4.4,
+  "carbs_g": 79.5,
+  "sugar_g": 77.3,
+  "fiber_g": 2.2,
+  "salt_g": 5.6,
+  "raw": "熱量：433kcal、たんぱく質：19.9g、脂質：4.4g、炭水化物：79.5g（糖質：77.3g、食物繊維：2.2g）、食塩相当量：5.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/091948/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/091948/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/091948/okinawa/"
+ ],
+ "first_seen_at": "2026-10-20T07:06:49+09:00",
+ "fetched_at": "2026-10-20T07:06:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

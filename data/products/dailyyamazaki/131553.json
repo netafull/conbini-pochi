@@ -1,0 +1,22 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "131553",
+ "name": "おむすび　焼鮭",
+ "category": "おにぎり",
+ "price_excl_tax": 165,
+ "price_incl_tax": 178,
+ "launch_date": "2026-10-20",
+ "launch_text": "10月20日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "シンプルな海苔なしのおにぎりです。程よく塩気を効かせてご飯が進む美味しさに仕上げた焼鮭を、中に入れました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-20T07:07:48+09:00",
+ "fetched_at": "2026-10-20T07:07:48+09:00",
+ "source_list": "new",
+ "image": null
+}

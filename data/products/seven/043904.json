@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "043904",
+ "name": "オムライスおむすび　完熟トマトソース",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "バターで炒めたケチャップライスにトマトソースを合わせ、ふんわりと焼き上げたオムレツを組み合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 263.0,
+  "protein_g": 7.8,
+  "fat_g": 11.7,
+  "carbs_g": 32.5,
+  "sugar_g": 30.8,
+  "fiber_g": 1.7,
+  "salt_g": 2.9,
+  "raw": "熱量：263kcal、たんぱく質：7.8g、脂質：11.7g、炭水化物：32.5g（糖質：30.8g、食物繊維：1.7g）、食塩相当量：2.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/043904/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/043904/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/043904/okinawa/"
+ ],
+ "first_seen_at": "2026-10-20T07:06:31+09:00",
+ "fetched_at": "2026-10-20T07:06:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

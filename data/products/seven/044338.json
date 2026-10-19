@@ -1,0 +1,67 @@
+{
+ "chain": "seven",
+ "product_id": "044338",
+ "name": "香ばし醤油炒め　コク旨チャーハンおむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "福島県",
+  "関東",
+  "新潟県",
+  "北陸",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "近畿",
+  "中国",
+  "沖縄"
+ ],
+ "region_text": "福島県、関東、新潟県、北陸、岐阜県、愛知県、三重県、近畿、中国、沖縄",
+ "description": "ご飯に玉子，チャーシュー，長ねぎを加えてラードで香ばしく炒めた、パラっとした口当たりのチャーハンおむすびです。",
+ "nutrition": {
+  "kcal": 208.0,
+  "protein_g": 4.8,
+  "fat_g": 4.8,
+  "carbs_g": 37.2,
+  "sugar_g": 35.7,
+  "fiber_g": 1.5,
+  "salt_g": 2.0,
+  "raw": "熱量：208kcal、たんぱく質：4.8g、脂質：4.8g、炭水化物：37.2g（糖質：35.7g、食物繊維：1.5g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "福島県、関東、新潟県、北陸、岐阜県、愛知県、三重県、近畿、中国、沖縄",
+   "regions": [
+    "福島県",
+    "関東",
+    "新潟県",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "沖縄"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/044338/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044338/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044338/kinki/"
+ ],
+ "first_seen_at": "2026-10-20T07:05:18+09:00",
+ "fetched_at": "2026-10-20T07:05:18+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

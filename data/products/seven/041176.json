@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "041176",
+ "name": "舞茸おこわおむすび静岡県産舞茸使用",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "静岡県産舞茸を使用し、きのこの風味と旨味が感じられるおこわおむすびです。",
+ "nutrition": {
+  "kcal": 212.0,
+  "protein_g": 4.6,
+  "fat_g": 1.4,
+  "carbs_g": 45.8,
+  "sugar_g": 44.9,
+  "fiber_g": 0.9,
+  "salt_g": 1.6,
+  "raw": "熱量：212kcal、たんぱく質：4.6g、脂質：1.4g、炭水化物：45.8g（糖質：44.9g、食物繊維：0.9g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/041176/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041176/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041176/tokai/"
+ ],
+ "first_seen_at": "2026-10-20T07:04:54+09:00",
+ "fetched_at": "2026-10-20T07:04:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

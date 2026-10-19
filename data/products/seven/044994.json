@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044994",
+ "name": "豚焼肉弁当　唐辛子マヨ",
+ "category": null,
+ "price_excl_tax": 460,
+ "price_incl_tax": 496.8,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "香ばしく焼き上げた豚焼肉に甘辛い焼肉ダレを絡め、唐辛子マヨネーズを合わせました。コクとピリ辛感が食欲をそそる、ご飯が進む味わいのお弁当です。",
+ "nutrition": {
+  "kcal": 576.0,
+  "protein_g": 16.6,
+  "fat_g": 16.6,
+  "carbs_g": 90.8,
+  "sugar_g": 89.2,
+  "fiber_g": 1.6,
+  "salt_g": 2.1,
+  "raw": "熱量：576kcal、たんぱく質：16.6g、脂質：16.6g、炭水化物：90.8g（糖質：89.2g、食物繊維：1.6g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 460,
+   "price_incl_tax": 496.8,
+   "url": "https://www.sej.co.jp/products/a/item/044994/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044994/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044994/okinawa/"
+ ],
+ "first_seen_at": "2026-10-20T07:06:36+09:00",
+ "fetched_at": "2026-10-20T07:06:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
