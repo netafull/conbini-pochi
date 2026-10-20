@@ -1,0 +1,22 @@
+{
+ "chain": "ministop",
+ "product_id": "053824",
+ "name": "海老と野菜の天重(大麦入り)",
+ "category": "お弁当",
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": null,
+ "region_text": "全国",
+ "description": "海老天や竹輪磯辺天、かき揚げなど、具材が盛りだくさんな天重です。かき揚げは大根葉・人参・えのきと、かぼちゃ・ごぼうを組み合わせたものをそれぞれ1個づつのせました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail053824.html",
+ "first_seen_at": "2026-10-21T07:01:20+09:00",
+ "fetched_at": "2026-10-21T07:01:20+09:00",
+ "source_list": "recommend",
+ "image": null
+}

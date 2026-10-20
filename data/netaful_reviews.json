@@ -5568,6 +5568,18 @@
   ],
   "seven": [
    {
+    "date": "2026-10-20T09:00:00",
+    "id": 211184,
+    "link": "https://netaful.jp/seven-eleven/0211184.html",
+    "product_name": "もっちもち生パスタ 濃厚ボロネーゼ",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/711-nama-pasta-003-485x364.jpg",
+     "width": 485
+    },
+    "title": "【セブン】「もっちもち生パスタ 濃厚ボロネーゼ」は平打ちパスタにソースがしっかりからむ！ボロネーゼ好きに食べてほしい"
+   },
+   {
     "date": "2026-10-16T10:00:00",
     "id": 210970,
     "link": "https://netaful.jp/seven-eleven/0210970.html",
@@ -11998,7 +12010,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-20T07:08:00+09:00",
+ "fetched_at": "2026-10-21T07:01:36+09:00",
  "matches": {
   "familymart-0412018": [
    210488

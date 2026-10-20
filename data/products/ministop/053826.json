@@ -1,0 +1,28 @@
+{
+ "chain": "ministop",
+ "product_id": "053826",
+ "name": "かしわめし",
+ "category": "おにぎり",
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "近畿",
+  "四国"
+ ],
+ "region_text": "東北、関東、東海、近畿、四国",
+ "description": "九州の人気郷土料理のかしわめしおにぎりです。鶏肉の脂と出汁の旨みが広がるよう仕上げました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail053826.html",
+ "first_seen_at": "2026-10-21T07:01:14+09:00",
+ "fetched_at": "2026-10-21T07:01:14+09:00",
+ "source_list": "recommend",
+ "image": null
+}

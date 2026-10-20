@@ -1,0 +1,22 @@
+{
+ "chain": "ministop",
+ "product_id": "053823",
+ "name": "タルタルチキン南蛮弁当",
+ "category": "お弁当",
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日",
+ "regions": null,
+ "region_text": "全国",
+ "description": "程よく柔らかく、肉の旨味を引き立たせる下味をつけたチキン南蛮です。タルタルに生姜を加えてスッキリとした味付けに仕上げました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail053823.html",
+ "first_seen_at": "2026-10-21T07:01:23+09:00",
+ "fetched_at": "2026-10-21T07:01:23+09:00",
+ "source_list": "recommend",
+ "image": null
+}

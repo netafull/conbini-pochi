@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "041119",
+ "name": "町中華の肉の旨み広がる麻婆丼",
+ "category": null,
+ "price_excl_tax": 578,
+ "price_incl_tax": 624.24,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "豚肉の旨みに八丁味噌や赤味噌などをきかせた麻婆丼です。",
+ "nutrition": {
+  "kcal": 687.0,
+  "protein_g": 29.5,
+  "fat_g": 23.0,
+  "carbs_g": 91.5,
+  "sugar_g": 89.5,
+  "fiber_g": 2.0,
+  "salt_g": 6.4,
+  "raw": "熱量：687kcal、たんぱく質：29.5g、脂質：23.0g、炭水化物：91.5g（糖質：89.5g、食物繊維：2.0g）、食塩相当量：6.4g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 578,
+   "price_incl_tax": 624.24,
+   "url": "https://www.sej.co.jp/products/a/item/041119/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041119/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041119/kinki/"
+ ],
+ "first_seen_at": "2026-10-21T07:00:29+09:00",
+ "fetched_at": "2026-10-21T07:00:29+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
