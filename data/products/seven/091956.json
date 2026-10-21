@@ -1,0 +1,66 @@
+{
+ "chain": "seven",
+ "product_id": "091956",
+ "name": "ラーメンＷａｌｋｅｒ監修　博多豚骨×札幌味噌ラーメン",
+ "category": null,
+ "price_excl_tax": 580,
+ "price_incl_tax": 626.4,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "人気のご当地ラーメン「博多豚骨」と「札幌味噌」を合体させたラーメンＷａｌｋｅｒ監修商品。",
+ "nutrition": {
+  "kcal": 566.0,
+  "protein_g": 33.2,
+  "fat_g": 22.9,
+  "carbs_g": 60.0,
+  "sugar_g": 53.5,
+  "fiber_g": 6.5,
+  "salt_g": 6.3,
+  "raw": "熱量：566kcal、たんぱく質：33.2g、脂質：22.9g、炭水化物：60.0g（糖質：53.5g、食物繊維：6.5g）、食塩相当量：6.3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 580,
+   "price_incl_tax": 626.4,
+   "url": "https://www.sej.co.jp/products/a/item/091956/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/091956/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/091956/kyushu/"
+ ],
+ "first_seen_at": "2026-10-22T07:00:48+09:00",
+ "fetched_at": "2026-10-22T07:00:48+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

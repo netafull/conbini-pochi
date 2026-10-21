@@ -1,0 +1,66 @@
+{
+ "chain": "seven",
+ "product_id": "091987",
+ "name": "飯田商店監修　飯田将太のチャーシュー麺",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "「飯田商店」監修の、醤油のキレと節の風味が効いた醤油スープが特徴のチャーシュー麺です。",
+ "nutrition": {
+  "kcal": 475.0,
+  "protein_g": 29.8,
+  "fat_g": 9.4,
+  "carbs_g": 69.9,
+  "sugar_g": 65.7,
+  "fiber_g": 4.2,
+  "salt_g": 5.6,
+  "raw": "熱量：475kcal、たんぱく質：29.8g、脂質：9.4g、炭水化物：69.9g（糖質：65.7g、食物繊維：4.2g）、食塩相当量：5.6g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/091987/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/091987/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/091987/kyushu/"
+ ],
+ "first_seen_at": "2026-10-22T07:00:42+09:00",
+ "fetched_at": "2026-10-22T07:00:42+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
