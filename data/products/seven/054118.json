@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054118",
+ "name": "耳付き３種ミックスサンド",
+ "category": null,
+ "price_excl_tax": 380,
+ "price_incl_tax": 410.4,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "耳までやわらかな食パンで焼きそばとたまごサラダ、ベーコンなどを入れた食感の良いポテトサラダを挟んだ食べ応えのあるサンドイッチです",
+ "nutrition": {
+  "kcal": 761.0,
+  "protein_g": 19.6,
+  "fat_g": 37.8,
+  "carbs_g": 87.9,
+  "sugar_g": 83.5,
+  "fiber_g": 4.4,
+  "salt_g": 4.3,
+  "raw": "熱量：761kcal、たんぱく質：19.6g、脂質：37.8g、炭水化物：87.9g（糖質：83.5g、食物繊維：4.4g）、食塩相当量：4.3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 380,
+   "price_incl_tax": 410.4,
+   "url": "https://www.sej.co.jp/products/a/item/054118/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054118/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054118/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-23T07:00:26+09:00",
+ "fetched_at": "2026-10-23T07:00:26+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
