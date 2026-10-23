@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1533630",
+ "name": "だしポン酢仕立て　オクラとめかぶのネバネバご飯(もち麦入りご飯)",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 697,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026.10.27",
+ "regions": null,
+ "region_text": null,
+ "description": "オクラ、めかぶ、とろろが入ったネバネバご飯です。だし入りのポン酢で野菜をさっぱり味わえます。ご飯のみを温め、冷たい具材を乗せ、混ぜて食べる商品です。",
+ "nutrition": {
+  "kcal": 295.0,
+  "protein_g": 10.8,
+  "fat_g": 1.9,
+  "carbs_g": 62.3,
+  "sugar_g": 55.1,
+  "fiber_g": 7.2,
+  "salt_g": 3.48,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>295kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>10.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>1.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>62.3g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>55.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>7.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>3.48g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533630_1996.html",
+ "first_seen_at": "2026-10-24T07:03:40+09:00",
+ "fetched_at": "2026-10-24T07:03:40+09:00",
+ "source_list": "/recommend/new/list/1533634_5162.html",
+ "image": null
+}

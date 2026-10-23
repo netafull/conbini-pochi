@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "0812320",
+ "name": "まろやかなクリームで味わう　明太クリームうどん",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 536,
+ "price_incl_tax": 578,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "関東",
+  "九州"
+ ],
+ "region_text": "関東・九州",
+ "description": "コシのあるうどんに明太クリームと明太子を組み合わせたうどんです。明太クリームは牛乳、バターなどが入ったまろやかな味わいに仕立てております。※静岡県の一部では取り扱いがございません。※九州地方は宮崎県、鹿児島県での取り扱いです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0812320.html",
+ "first_seen_at": "2026-10-24T07:01:16+09:00",
+ "fetched_at": "2026-10-24T07:01:16+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

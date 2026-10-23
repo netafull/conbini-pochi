@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "1750447",
+ "name": "のむフルーチェ　イチゴ",
+ "category": "飲料",
+ "price_excl_tax": 267,
+ "price_incl_tax": 288,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "ハウス食品「フルーチェ　イチゴ」をイメージしたチルド飲料です。ゴロゴロいちご果肉入りで、とろっとした食感といちごのフルーティーな味わいを楽しめます。※「フルーチェ」は、ハウス食品グループ本社㈱の商標です。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/drink/1750447.html",
+ "first_seen_at": "2026-10-24T07:02:03+09:00",
+ "fetched_at": "2026-10-24T07:02:03+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

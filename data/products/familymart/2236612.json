@@ -1,0 +1,27 @@
+{
+ "chain": "familymart",
+ "product_id": "2236612",
+ "name": "たんぱく質22.3g　国産鶏サラダチキン　3種ハーブ&スパイス",
+ "category": "チルド惣菜",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東"
+ ],
+ "region_text": "北海道・東北・関東",
+ "description": "国産鶏肉をバジル・パセリ・ローズマリーで味付けした、さわやかな風味が特徴のサラダチキンです。たんぱく質22.3g、糖質0gです。※糖質は食品表示基準に基づき100gあたり0.5g未満を0としています。※静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/2236612.html",
+ "first_seen_at": "2026-10-24T07:01:25+09:00",
+ "fetched_at": "2026-10-24T07:01:25+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

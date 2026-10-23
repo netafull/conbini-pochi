@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1533660",
+ "name": "カルビー　ポテトチップス　ヤンニョムケジャンマヨ味",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 208,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026.10.27",
+ "regions": null,
+ "region_text": null,
+ "description": "やみつき必至のこってり甘辛な味わいを楽しめます！",
+ "nutrition": {
+  "kcal": 315.0,
+  "protein_g": 3.3,
+  "fat_g": 19.8,
+  "carbs_g": 30.8,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 0.9,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1袋(57g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>315kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>3.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>19.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>30.8g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 57g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533660_1996.html",
+ "first_seen_at": "2026-10-24T07:02:46+09:00",
+ "fetched_at": "2026-10-24T07:02:46+09:00",
+ "source_list": "/recommend/new/list/1533634_5162.html",
+ "image": null
+}

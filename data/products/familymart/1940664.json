@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1940664",
+ "name": "ガトーショコラ　6個入",
+ "category": "デザート",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "しっとり食感のガトーショコラ6個入りです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1940664.html",
+ "first_seen_at": "2026-10-24T07:01:40+09:00",
+ "fetched_at": "2026-10-24T07:01:40+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

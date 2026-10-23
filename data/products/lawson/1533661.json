@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1533661",
+ "name": "日清食品　きまぐれクック監修　鯛だし醤油らぁ麺",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 288,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026.10.27",
+ "regions": null,
+ "region_text": null,
+ "description": "きまぐれクックが本気で考える力強い鯛の旨みが凝縮した鯛だし醤油らぁ麺です。",
+ "nutrition": {
+  "kcal": 334.0,
+  "protein_g": 8.6,
+  "fat_g": 5.9,
+  "carbs_g": 61.6,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 5.8,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1食(90g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>334kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>8.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>5.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>61.6g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>5.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533661_1996.html",
+ "first_seen_at": "2026-10-24T07:02:40+09:00",
+ "fetched_at": "2026-10-24T07:02:40+09:00",
+ "source_list": "/recommend/new/list/1533634_5162.html",
+ "image": null
+}

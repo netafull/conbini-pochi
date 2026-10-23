@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1943146",
+ "name": "加賀棒ほうじ茶　大きなエクレア",
+ "category": "デザート",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "東海",
+  "北陸"
+ ],
+ "region_text": "東海・北陸",
+ "description": "加賀棒ほうじ茶を使用したカスタードクリームをたっぷり入れ、見た目の大きさにもこだわったエクレアです。※三重県の一部、静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/dessert/1943146.html",
+ "first_seen_at": "2026-10-24T07:01:37+09:00",
+ "fetched_at": "2026-10-24T07:01:37+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}
