@@ -1,0 +1,58 @@
+{
+ "chain": "seven",
+ "product_id": "054110",
+ "name": "たんぱく質が摂れるチキンロール",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "宮城県",
+  "山形県",
+  "福島県",
+  "関東",
+  "東海"
+ ],
+ "region_text": "宮城県、山形県、福島県、関東、東海",
+ "description": "セミハードロールに食感の良い玉葱を混ぜ合わせたサラダチキンを挟み、ぷちぷち食感のマスタードソースがアクセントの食べ応えのある仕立てです。",
+ "nutrition": {
+  "kcal": 248.0,
+  "protein_g": 29.4,
+  "fat_g": 4.6,
+  "carbs_g": 23.7,
+  "sugar_g": 21.0,
+  "fiber_g": 2.7,
+  "salt_g": 2.3,
+  "raw": "熱量：248kcal、たんぱく質：29.4g、脂質：4.6g、炭水化物：23.7g（糖質：21.0g、食物繊維：2.7g）、食塩相当量：2.3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "宮城県、山形県、福島県、関東、東海",
+   "regions": [
+    "宮城県",
+    "山形県",
+    "福島県",
+    "関東",
+    "東海"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/054110/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054110/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054110/tohoku/"
+ ],
+ "first_seen_at": "2026-10-26T07:00:36+09:00",
+ "fetched_at": "2026-10-26T07:00:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,58 @@
+{
+ "chain": "seven",
+ "product_id": "054109",
+ "name": "ダブルソーセージエッグマフィン",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海",
+ "description": "ソーセージを２枚使用したボリューム感のある、エッグマフィンです。",
+ "nutrition": {
+  "kcal": 547.0,
+  "protein_g": 20.0,
+  "fat_g": 30.5,
+  "carbs_g": 49.1,
+  "sugar_g": 47.0,
+  "fiber_g": 2.1,
+  "salt_g": 3.1,
+  "raw": "熱量：547kcal、たんぱく質：20.0g、脂質：30.5g、炭水化物：49.1g（糖質：47.0g、食物繊維：2.1g）、食塩相当量：3.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/054109/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054109/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054109/tohoku/"
+ ],
+ "first_seen_at": "2026-10-26T07:00:43+09:00",
+ "fetched_at": "2026-10-26T07:00:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

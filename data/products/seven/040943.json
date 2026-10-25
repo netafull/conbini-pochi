@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "040943",
+ "name": "五目いなり",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-10-20",
+ "launch_text": "2026年10月20日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "人参、かんぴょう、油揚げ、たけのこ、椎茸、ごぼうを混ぜ込んだ五目酢飯を、いなり皮で包んだワンハンドタイプのいなり寿司です。",
+ "nutrition": {
+  "kcal": 173.0,
+  "protein_g": 5.3,
+  "fat_g": 3.5,
+  "carbs_g": 30.7,
+  "sugar_g": 29.3,
+  "fiber_g": 1.4,
+  "salt_g": 1.6,
+  "raw": "熱量：173kcal、たんぱく質：5.3g、脂質：3.5g、炭水化物：30.7g（糖質：29.3g、食物繊維：1.4g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/040943/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040943/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040943/kinki/"
+ ],
+ "first_seen_at": "2026-10-26T07:00:24+09:00",
+ "fetched_at": "2026-10-26T07:00:24+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

@@ -1,0 +1,56 @@
+{
+ "chain": "seven",
+ "product_id": "054111",
+ "name": "たんぱく質が摂れるチキン＆チリ",
+ "category": null,
+ "price_excl_tax": 420,
+ "price_incl_tax": 453.6,
+ "launch_date": "2026-10-28",
+ "launch_text": "2026年10月28日（水）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "静岡県"
+ ],
+ "region_text": "東北、関東、甲信越、静岡県",
+ "description": "ローストチキンと半熟ゆで玉子、チリソイミートを組み合わせた食べ応えのあるロールパンです。価格を税抜３９８円から４２０円に変更します。",
+ "nutrition": {
+  "kcal": 235.0,
+  "protein_g": 22.2,
+  "fat_g": 6.9,
+  "carbs_g": 22.8,
+  "sugar_g": 19.0,
+  "fiber_g": 3.8,
+  "salt_g": 2.1,
+  "raw": "熱量：235kcal、たんぱく質：22.2g、脂質：6.9g、炭水化物：22.8g（糖質：19.0g、食物繊維：3.8g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北、関東、甲信越、静岡県",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "静岡県"
+   ],
+   "price_excl_tax": 420,
+   "price_incl_tax": 453.6,
+   "url": "https://www.sej.co.jp/products/a/item/054111/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054111/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054111/tohoku/"
+ ],
+ "first_seen_at": "2026-10-26T07:00:30+09:00",
+ "fetched_at": "2026-10-26T07:00:30+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
