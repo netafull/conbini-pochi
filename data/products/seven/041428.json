@@ -1,0 +1,138 @@
+{
+ "chain": "seven",
+ "product_id": "041428",
+ "name": "手巻寿司　まぐろたたきわさび醤油巻",
+ "category": null,
+ "price_excl_tax": 258,
+ "price_incl_tax": 278.64,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+ "description": "定番のまぐろたたきにわさび醤油を組み合わせた、パリッとした海苔を巻いて食べる手巻寿司です。",
+ "nutrition": {
+  "kcal": 168.0,
+  "protein_g": 5.1,
+  "fat_g": 1.6,
+  "carbs_g": 34.1,
+  "sugar_g": 32.5,
+  "fiber_g": 1.6,
+  "salt_g": 1.6,
+  "raw": "熱量：168kcal、たんぱく質：5.1g、脂質：1.6g、炭水化物：34.1g（糖質：32.5g、食物繊維：1.6g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 258,
+   "price_incl_tax": 278.64,
+   "url": "https://www.sej.co.jp/products/a/item/041428/hokuriku/"
+  },
+  "shikoku": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 258,
+   "price_incl_tax": 278.64,
+   "url": "https://www.sej.co.jp/products/a/item/041428/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 258,
+   "price_incl_tax": 278.64,
+   "url": "https://www.sej.co.jp/products/a/item/041428/kyushu/"
+  },
+  "okinawa": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 258,
+   "price_incl_tax": 278.64,
+   "url": "https://www.sej.co.jp/products/a/item/041428/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041428/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041428/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/041428/kyushu/",
+  "https://www.sej.co.jp/products/a/item/041428/okinawa/",
+  "https://www.sej.co.jp/products/a/item/041428/shikoku/"
+ ],
+ "first_seen_at": "2026-10-27T07:04:54+09:00",
+ "fetched_at": "2026-10-27T07:04:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

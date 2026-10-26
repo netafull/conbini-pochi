@@ -1,0 +1,22 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "132293",
+ "name": "まるごと１本バナナクレープ",
+ "category": "スイーツ",
+ "price_excl_tax": 298,
+ "price_incl_tax": 321,
+ "launch_date": "2026-10-27",
+ "launch_text": "10月27日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "バナナまるごと１本にチョコソースを絞り、クレープで包みました。もちもちのクレープ生地に変更し、より食べ応えをアップしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-10-27T07:08:02+09:00",
+ "fetched_at": "2026-10-27T07:08:02+09:00",
+ "source_list": "new",
+ "image": null
+}

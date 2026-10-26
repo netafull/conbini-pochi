@@ -1,0 +1,50 @@
+{
+ "chain": "familymart",
+ "product_id": "0821506",
+ "name": "リュウジの至高のレシピ　ガリバタチキンパスタ",
+ "category": "パスタ",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "料理研究家リュウジ氏監修商品です。ガーリックとコク深いバターの香りが食欲をそそるチキンパスタです。具材に鶏むね肉のスライス、きのこを使用し濃厚な味わいながら食べ飽きない一品です。",
+ "nutrition": {
+  "kcal": 467.0,
+  "protein_g": 25.2,
+  "fat_g": 15.7,
+  "carbs_g": 58.9,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 4.8,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">467</td>\r\n                          <td class=\"con_nut\">25.2</td>\r\n                          <td class=\"con_nut\">15.7</td>\r\n                          <td class=\"con_nut\">58.9</td>\r\n                          <td class=\"con_nut\">4.80</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "乳成分",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/pasta/0821506.html",
+ "first_seen_at": "2026-10-27T07:07:12+09:00",
+ "fetched_at": "2026-10-27T07:07:12+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

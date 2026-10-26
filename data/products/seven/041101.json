@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041101",
+ "name": "小松菜と鮭のおむすび　宮城県産銀鮭使用",
+ "category": null,
+ "price_excl_tax": 188,
+ "price_incl_tax": 203.04,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "宮城県",
+  "山形県"
+ ],
+ "region_text": "宮城県、山形県",
+ "description": "小松菜を混ぜ込んだ彩りの良いご飯で香ばしく焼き上げた鮭を包んだおむすびです。",
+ "nutrition": {
+  "kcal": 179.0,
+  "protein_g": 3.8,
+  "fat_g": 2.4,
+  "carbs_g": 36.2,
+  "sugar_g": 35.1,
+  "fiber_g": 1.1,
+  "salt_g": 0.97,
+  "raw": "熱量：179kcal、たんぱく質：3.8g、脂質：2.4g、炭水化物：36.2g（糖質：35.1g、食物繊維：1.1g）、食塩相当量：0.97g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "宮城県、山形県",
+   "regions": [
+    "宮城県",
+    "山形県"
+   ],
+   "price_excl_tax": 188,
+   "price_incl_tax": 203.04,
+   "url": "https://www.sej.co.jp/products/a/item/041101/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041101/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041101/tohoku/"
+ ],
+ "first_seen_at": "2026-10-27T07:02:12+09:00",
+ "fetched_at": "2026-10-27T07:02:12+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

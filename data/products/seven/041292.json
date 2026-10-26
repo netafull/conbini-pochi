@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041292",
+ "name": "温玉ビビンバ丼（もち麦）",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "牛肉炒め煮、ナムル、チャプチェ、コチュジャン、半熟玉子を盛付けた彩りの良いビビンバです。",
+ "nutrition": {
+  "kcal": 569.0,
+  "protein_g": 18.0,
+  "fat_g": 18.4,
+  "carbs_g": 87.2,
+  "sugar_g": 78.7,
+  "fiber_g": 8.5,
+  "salt_g": 3.2,
+  "raw": "熱量：569kcal、たんぱく質：18.0g、脂質：18.4g、炭水化物：87.2g（糖質：78.7g、食物繊維：8.5g）、食塩相当量：3.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "九州",
+   "regions": [
+    "九州"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/041292/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041292/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041292/kyushu/"
+ ],
+ "first_seen_at": "2026-10-27T07:06:41+09:00",
+ "fetched_at": "2026-10-27T07:06:41+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

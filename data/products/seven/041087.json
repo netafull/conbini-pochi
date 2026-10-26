@@ -104,17 +104,36 @@
    "price_excl_tax": 460,
    "price_incl_tax": 496.8,
    "url": "https://www.sej.co.jp/products/a/item/041087/shikoku/"
+  },
+  "okinawa": {
+   "region_text": "東北、関東、甲信越、北陸、岐阜県、愛知県、三重県、中国、四国、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "中国",
+    "四国",
+    "沖縄"
+   ],
+   "price_excl_tax": 460,
+   "price_incl_tax": 496.8,
+   "url": "https://www.sej.co.jp/products/a/item/041087/okinawa/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/041087/tohoku/",
  "official_urls": [
   "https://www.sej.co.jp/products/a/item/041087/chugoku/",
   "https://www.sej.co.jp/products/a/item/041087/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/041087/okinawa/",
   "https://www.sej.co.jp/products/a/item/041087/shikoku/",
   "https://www.sej.co.jp/products/a/item/041087/tohoku/"
  ],
  "first_seen_at": "2026-10-20T07:04:01+09:00",
- "fetched_at": "2026-10-20T07:04:01+09:00",
+ "fetched_at": "2026-10-27T07:00:35+09:00",
  "source_list": "nextweek",
  "image": null
 }

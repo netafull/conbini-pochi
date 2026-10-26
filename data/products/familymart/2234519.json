@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "2234519",
+ "name": "たんぱく質22.4g　国産鶏のサラダチキン　淡路島の藻塩",
+ "category": "チルド惣菜",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "国産鶏肉を国内の工場で加工し、淡路島産の藻塩を使用したプレーンタイプのサラダチキンです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/2234519.html",
+ "first_seen_at": "2026-10-27T07:07:39+09:00",
+ "fetched_at": "2026-10-27T07:07:39+09:00",
+ "source_list": "lastweek",
+ "list_week_start": "2026-10-20",
+ "image": null
+}

@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "041375",
+ "name": "野菜の旨み　うま煮チャーハン",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "野菜の旨みが感じられる醤油ベースのうま煮あんとチャーハンを組み合わせました。",
+ "nutrition": {
+  "kcal": 509.0,
+  "protein_g": 14.9,
+  "fat_g": 11.3,
+  "carbs_g": 88.0,
+  "sugar_g": 86.0,
+  "fiber_g": 2.0,
+  "salt_g": 5.5,
+  "raw": "熱量：509kcal、たんぱく質：14.9g、脂質：11.3g、炭水化物：88.0g（糖質：86.0g、食物繊維：2.0g）、食塩相当量：5.5g"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "えび"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/041375/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041375/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041375/hokuriku/"
+ ],
+ "first_seen_at": "2026-10-27T07:04:17+09:00",
+ "fetched_at": "2026-10-27T07:04:17+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

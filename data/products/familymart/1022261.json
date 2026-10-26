@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "1022261",
+ "name": "リュウジの至高のレシピ　辛旨チゲスープ",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 434,
+ "price_incl_tax": 468,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "料理研究家リュウジ氏監修商品です。キムチとコチュジャンを使用した辛旨仕立てのスープに、和風だしをきかせるのがリュウジ氏のこだわりです。具材には豚肉や野菜に加えてうどんも使用しボリューム満点です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1022261.html",
+ "first_seen_at": "2026-10-27T07:07:29+09:00",
+ "fetched_at": "2026-10-27T07:07:29+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1160932",
+ "name": "旨さ痺れる逸品　四川風麻婆豆腐",
+ "category": "チルド惣菜",
+ "price_excl_tax": 417,
+ "price_incl_tax": 450,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "さわやかな香りと辛みが特徴の花椒を厳選し、本格的な四川風の麻婆豆腐に仕立てました。お肉の旨みとしびれる辛さがクセになる味わいです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1160932.html",
+ "first_seen_at": "2026-10-27T07:07:15+09:00",
+ "fetched_at": "2026-10-27T07:07:15+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

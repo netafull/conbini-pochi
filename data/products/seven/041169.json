@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041169",
+ "name": "ソーセージステーキ＆豚焼肉弁当",
+ "category": null,
+ "price_excl_tax": 628,
+ "price_incl_tax": 678.24,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "茨城県"
+ ],
+ "region_text": "茨城県",
+ "description": "厚切りのソーセージステーキと豚焼肉が入ったお弁当です。",
+ "nutrition": {
+  "kcal": 730.0,
+  "protein_g": 21.5,
+  "fat_g": 27.0,
+  "carbs_g": 101.1,
+  "sugar_g": 99.2,
+  "fiber_g": 1.9,
+  "salt_g": 3.4,
+  "raw": "熱量：730kcal、たんぱく質：21.5g、脂質：27.0g、炭水化物：101.1g（糖質：99.2g、食物繊維：1.9g）、食塩相当量：3.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県",
+   "regions": [
+    "茨城県"
+   ],
+   "price_excl_tax": 628,
+   "price_incl_tax": 678.24,
+   "url": "https://www.sej.co.jp/products/a/item/041169/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041169/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041169/kanto/"
+ ],
+ "first_seen_at": "2026-10-27T07:02:59+09:00",
+ "fetched_at": "2026-10-27T07:02:59+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

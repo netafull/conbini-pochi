@@ -1,0 +1,46 @@
+{
+ "chain": "seven",
+ "product_id": "045011",
+ "name": "新潟県産コシヒカリおむすび　炭火焼紅鮭切り身",
+ "category": null,
+ "price_excl_tax": 278,
+ "price_incl_tax": 300.24,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "炭火で焼いて香りと旨みを閉じ込めたアラスカ産の天然の紅鮭を中具にしたおむすびです。",
+ "nutrition": {
+  "kcal": 186.0,
+  "protein_g": 5.9,
+  "fat_g": 1.7,
+  "carbs_g": 37.6,
+  "sugar_g": 36.1,
+  "fiber_g": 1.5,
+  "salt_g": 1.3,
+  "raw": "熱量：186kcal、たんぱく質：5.9g、脂質：1.7g、炭水化物：37.6g（糖質：36.1g、食物繊維：1.5g）、食塩相当量：1.3g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 278,
+   "price_incl_tax": 300.24,
+   "url": "https://www.sej.co.jp/products/a/item/045011/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045011/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045011/tokai/"
+ ],
+ "first_seen_at": "2026-10-27T07:05:12+09:00",
+ "fetched_at": "2026-10-27T07:05:12+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

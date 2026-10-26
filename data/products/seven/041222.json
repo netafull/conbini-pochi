@@ -1,0 +1,76 @@
+{
+ "chain": "seven",
+ "product_id": "041222",
+ "name": "焼きさば御飯（もち麦）",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東"
+ ],
+ "region_text": "北海道、東北、関東",
+ "description": "焼き上げたさばをほぐして盛り付けたミニサイズのお弁当です。",
+ "nutrition": {
+  "kcal": 317.0,
+  "protein_g": 11.0,
+  "fat_g": 6.5,
+  "carbs_g": 55.9,
+  "sugar_g": 51.4,
+  "fiber_g": 4.5,
+  "salt_g": 1.7,
+  "raw": "熱量：317kcal、たんぱく質：11.0g、脂質：6.5g、炭水化物：55.9g（糖質：51.4g、食物繊維：4.5g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、東北、関東",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/041222/hokkaido/"
+  },
+  "tohoku": {
+   "region_text": "北海道、東北、関東",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/041222/tohoku/"
+  },
+  "kanto": {
+   "region_text": "北海道、東北、関東",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/041222/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041222/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041222/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/041222/kanto/",
+  "https://www.sej.co.jp/products/a/item/041222/tohoku/"
+ ],
+ "first_seen_at": "2026-10-27T07:01:11+09:00",
+ "fetched_at": "2026-10-27T07:01:11+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "1132946",
+ "name": "リュウジの至高のレシピ　ニラだれ鶏",
+ "category": "チルド惣菜",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "料理研究家リュウジ氏監修商品です。香ばしく焼き上げた鶏もも肉に、特製ニラダレを合わせました。醤油とお酢のバランスが良い特製ダレやニラの香りが食欲をそそり、一口食べたら箸が止まらない、おかずにもおつまみにも最適な一品です。※北海道地方では仕様が異なります。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1132946.html",
+ "first_seen_at": "2026-10-27T07:07:27+09:00",
+ "fetched_at": "2026-10-27T07:07:27+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

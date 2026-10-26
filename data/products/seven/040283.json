@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "040283",
+ "name": "道産秋鮭焼ほぐしごはん（もち麦入り）",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "プチプチ食感のもち麦を混ぜた御飯に丁寧にほぐした北海道産の秋鮭と真昆布煮、こんにゃくきんぴら炒めを盛り付けました",
+ "nutrition": {
+  "kcal": 313.0,
+  "protein_g": 11.7,
+  "fat_g": 3.6,
+  "carbs_g": 60.1,
+  "sugar_g": 56.7,
+  "fiber_g": 3.4,
+  "salt_g": 1.9,
+  "raw": "熱量：313kcal、たんぱく質：11.7g、脂質：3.6g、炭水化物：60.1g（糖質：56.7g、食物繊維：3.4g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/040283/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040283/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040283/hokkaido/"
+ ],
+ "first_seen_at": "2026-10-27T07:00:53+09:00",
+ "fetched_at": "2026-10-27T07:00:53+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

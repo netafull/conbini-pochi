@@ -1,0 +1,87 @@
+{
+ "chain": "seven",
+ "product_id": "054121",
+ "name": "ご褒美サンド　厚切りヒレカツ",
+ "category": null,
+ "price_excl_tax": 350,
+ "price_incl_tax": 378,
+ "launch_date": "2026-11-04",
+ "launch_text": "2026年11月04日（水）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+ "description": "1頭からわずかしか取れない豚ヒレを使用し、柔らくてジューシーな厚切りヒレカツが楽しめる1組のサンドイッチです",
+ "nutrition": {
+  "kcal": 351.0,
+  "protein_g": 13.9,
+  "fat_g": 19.6,
+  "carbs_g": 30.7,
+  "sugar_g": 28.8,
+  "fiber_g": 1.9,
+  "salt_g": 2.4,
+  "raw": "熱量：351kcal、たんぱく質：13.9g、脂質：19.6g、炭水化物：30.7g（糖質：28.8g、食物繊維：1.9g）、食塩相当量：2.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "url": "https://www.sej.co.jp/products/a/item/054121/shikoku/"
+  },
+  "okinawa": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "url": "https://www.sej.co.jp/products/a/item/054121/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054121/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054121/okinawa/",
+  "https://www.sej.co.jp/products/a/item/054121/shikoku/"
+ ],
+ "first_seen_at": "2026-10-27T07:06:29+09:00",
+ "fetched_at": "2026-10-27T07:06:29+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

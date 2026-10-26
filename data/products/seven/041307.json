@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "041307",
+ "name": "小松菜と焼鮭の麦飯おむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "新潟県"
+ ],
+ "region_text": "新潟県",
+ "description": "だしを効かせた麦飯に小松菜の炒め煮と焼鮭フレークを混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 178.0,
+  "protein_g": 4.0,
+  "fat_g": 2.0,
+  "carbs_g": 37.1,
+  "sugar_g": 34.8,
+  "fiber_g": 2.3,
+  "salt_g": 1.4,
+  "raw": "熱量：178kcal、たんぱく質：4.0g、脂質：2.0g、炭水化物：37.1g（糖質：34.8g、食物繊維：2.3g）、食塩相当量：1.4g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県",
+   "regions": [
+    "新潟県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/041307/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041307/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041307/koshinetsu/"
+ ],
+ "first_seen_at": "2026-10-27T07:03:30+09:00",
+ "fetched_at": "2026-10-27T07:03:30+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

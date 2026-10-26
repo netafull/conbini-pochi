@@ -1,0 +1,74 @@
+{
+ "chain": "seven",
+ "product_id": "040957",
+ "name": "トマトの旨み広がる　バターチキンカレー",
+ "category": null,
+ "price_excl_tax": 550,
+ "price_incl_tax": 594,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月03日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "九州"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海、九州",
+ "description": "トマトの旨みとスパイスの香りを楽しめるバターチキンカレーです。",
+ "nutrition": {
+  "kcal": 574.0,
+  "protein_g": 20.3,
+  "fat_g": 15.1,
+  "carbs_g": 91.8,
+  "sugar_g": 86.6,
+  "fiber_g": 5.2,
+  "salt_g": 2.8,
+  "raw": "熱量：574kcal、たんぱく質：20.3g、脂質：15.1g、炭水化物：91.8g（糖質：86.6g、食物繊維：5.2g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "九州"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/040957/hokuriku/"
+  },
+  "kyushu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "九州"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/040957/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040957/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040957/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/040957/kyushu/"
+ ],
+ "first_seen_at": "2026-10-27T07:04:29+09:00",
+ "fetched_at": "2026-10-27T07:04:29+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
