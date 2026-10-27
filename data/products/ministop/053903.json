@@ -1,0 +1,22 @@
+{
+ "chain": "ministop",
+ "product_id": "053903",
+ "name": "ジャンバラヤ&ペペロンチーノ",
+ "category": "お弁当",
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日",
+ "regions": null,
+ "region_text": "全国",
+ "description": "スパイスがきいたジャンバラヤと、唐辛子の辛みが感じられるペペロンチーノを組み合わせた商品です。ジャンバラヤの上にはパリッとした食感のソーセージをのせて、ホットチリソースをかけました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail053903.html",
+ "first_seen_at": "2026-10-28T07:01:06+09:00",
+ "fetched_at": "2026-10-28T07:01:06+09:00",
+ "source_list": "recommend",
+ "image": null
+}
