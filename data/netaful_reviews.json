@@ -5568,6 +5568,18 @@
   ],
   "seven": [
    {
+    "date": "2026-10-28T13:00:00",
+    "id": 211653,
+    "link": "https://netaful.jp/seven-eleven/0211653.html",
+    "product_name": "中華蕎麦とみ田監修 炒め野菜盛りつけ麺",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/711-tomita-tashoken-003-485x364.jpg",
+     "width": 485
+    },
+    "title": "【セブン】「中華蕎麦とみ田監修 炒め野菜盛りつけ麺」とみ田の原点・大勝軒の味は上品ですっきり"
+   },
+   {
     "date": "2026-10-23T09:30:00",
     "id": 211336,
     "link": "https://netaful.jp/seven-eleven/0211336.html",
@@ -12022,7 +12034,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-28T07:01:20+09:00",
+ "fetched_at": "2026-10-29T07:00:57+09:00",
  "matches": {
   "familymart-0412018": [
    210488
