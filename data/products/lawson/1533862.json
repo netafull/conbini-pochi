@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1533862",
+ "name": "メロンデニッシュ　4本入",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 214,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026.11.03",
+ "regions": null,
+ "region_text": "※沖縄地域のローソンではお取り扱いしておりません。",
+ "description": "おやつにぴったり！メロンデニッシュ　4本入！",
+ "nutrition": {
+  "kcal": 189.0,
+  "protein_g": 3.2,
+  "fat_g": 9.5,
+  "carbs_g": 23.1,
+  "sugar_g": 22.2,
+  "fiber_g": 0.9,
+  "salt_g": 0.4,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1本当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>189kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>3.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>9.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>23.1g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>22.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 4本",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533862_1996.html",
+ "first_seen_at": "2026-10-31T07:03:36+09:00",
+ "fetched_at": "2026-10-31T07:03:36+09:00",
+ "source_list": "/recommend/new/list/1533836_5162.html",
+ "image": null
+}

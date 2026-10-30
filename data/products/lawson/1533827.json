@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1533827",
+ "name": "炭火香る！豚バラ焼",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 289,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026.11.03",
+ "regions": null,
+ "region_text": null,
+ "description": "温めて炭火の香り広がる！豚バラの甘みと旨みを味わえます。",
+ "nutrition": {
+  "kcal": 211.0,
+  "protein_g": 8.4,
+  "fat_g": 19.2,
+  "carbs_g": 1.3,
+  "sugar_g": 1.2,
+  "fiber_g": 0.1,
+  "salt_g": 1.2,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装(60g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>211kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>8.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>19.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>1.3g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>1.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 60g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533827_1996.html",
+ "first_seen_at": "2026-10-31T07:04:15+09:00",
+ "fetched_at": "2026-10-31T07:04:15+09:00",
+ "source_list": "/recommend/new/list/1533836_5162.html",
+ "image": null
+}

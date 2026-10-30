@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0927055",
+ "name": "ホットサンド　はみだしドッグ（油淋鶏）",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "中国・四国"
+ ],
+ "region_text": "四国",
+ "description": "四国地区限定「ファミマの焼きたてキッチン」の商品です。酸味と甘みのあるタレを和えた油淋鶏をサンドしました。そのままでもおいしく、お店のオーブンで焼き上げるとさらにおいしくお召し上がりいただけます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0927055.html",
+ "first_seen_at": "2026-10-31T07:00:56+09:00",
+ "fetched_at": "2026-10-31T07:00:56+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

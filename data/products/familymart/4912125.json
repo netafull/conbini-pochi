@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "4912125",
+ "name": "カルビー　まるでカリカリチーズのようなポテトチップスブラックペッパー味",
+ "category": "お菓子",
+ "price_excl_tax": 184,
+ "price_incl_tax": 198,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "まるでカリカリに焼いたチーズのような味わいのポテトチップスです。ペッパーがアクセントのおつまみにもぴったりな商品です。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/snack/4912125.html",
+ "first_seen_at": "2026-10-31T07:01:59+09:00",
+ "fetched_at": "2026-10-31T07:01:59+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1135657",
+ "name": "味仙本店監修　旨辛甘酢たれ唐揚げ",
+ "category": "チルド惣菜",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-11-02",
+ "launch_text": "2026年11月2日",
+ "regions": [
+  "関東",
+  "東海"
+ ],
+ "region_text": "関東の一部・東海",
+ "description": "台湾ラーメン発祥の店「味仙本店」監修商品です。唐辛子とにんにくをきかせ、お酢や三温糖で酸味、甘みも加えた、やみつき感のある味わいの冷たいままお召し上がりいただくから揚げです。※関東地方は長野県、山梨県での取り扱いです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1135657.html",
+ "first_seen_at": "2026-10-31T07:00:29+09:00",
+ "fetched_at": "2026-10-31T07:00:29+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-10-27",
+ "image": null
+}

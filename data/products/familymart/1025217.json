@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1025217",
+ "name": "味仙本店監修　台湾はるさめスープ",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 417,
+ "price_incl_tax": 450,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "関東",
+  "東海"
+ ],
+ "region_text": "関東の一部・東海",
+ "description": "台湾ラーメン発祥の店「味仙本店」監修商品です。鶏がらの旨みをきかせた醤油ベースのスープに唐辛子とにんにくが特徴の台湾ミンチをのせた、はるさめスープです。※関東地方は長野県、山梨県での取り扱いです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1025217.html",
+ "first_seen_at": "2026-10-31T07:01:44+09:00",
+ "fetched_at": "2026-10-31T07:01:44+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

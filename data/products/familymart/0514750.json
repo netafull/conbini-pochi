@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "0514750",
+ "name": "チキンカツ巻",
+ "category": "お寿司",
+ "price_excl_tax": 462,
+ "price_incl_tax": 498,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "ソースを絡めたチキンカツとからし風味マヨをトッピングした食べごたえのある巻寿司です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sushi/0514750.html",
+ "first_seen_at": "2026-10-31T07:00:50+09:00",
+ "fetched_at": "2026-10-31T07:00:50+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0816007",
+ "name": "麺屋極鶏監修　鶏だくラーメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 628,
+ "price_incl_tax": 678,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "関西"
+ ],
+ "region_text": "関西",
+ "description": "「麺屋極鶏」監修のラーメンです。濃厚な鶏白湯スープにチャーシュー、白髪ねぎ、メンマを合わせました。※和歌山県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0816007.html",
+ "first_seen_at": "2026-10-31T07:01:20+09:00",
+ "fetched_at": "2026-10-31T07:01:20+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

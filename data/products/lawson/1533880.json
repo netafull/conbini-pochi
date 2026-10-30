@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1533880",
+ "name": "バスチー‐バスク風チーズケーキ‐",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 324,
+ "launch_date": "2026-11-02",
+ "launch_text": "2026.11.02",
+ "regions": null,
+ "region_text": null,
+ "description": "レアでもベイクドでもない、チーズケーキ。",
+ "nutrition": {
+  "kcal": 227.0,
+  "protein_g": 4.6,
+  "fat_g": 14.6,
+  "carbs_g": 19.4,
+  "sugar_g": 19.1,
+  "fiber_g": 0.3,
+  "salt_g": 0.32,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>227kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>4.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>14.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>19.4g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>19.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.32g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1個",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533880_1996.html",
+ "first_seen_at": "2026-10-31T07:04:30+09:00",
+ "fetched_at": "2026-10-31T07:04:30+09:00",
+ "source_list": "/recommend/new/list/1533838_5162.html",
+ "image": null
+}

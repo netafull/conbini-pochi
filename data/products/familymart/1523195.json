@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1523195",
+ "name": "ふわもち食感明太フランス",
+ "category": "パン",
+ "price_excl_tax": 184,
+ "price_incl_tax": 198,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "ふわもち食感の生地に、かねふくの明太を使用したピリ辛で粒感のある明太フィリングを塗って、焼き上げたフランスパンです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/bread/1523195.html",
+ "first_seen_at": "2026-10-31T07:01:08+09:00",
+ "fetched_at": "2026-10-31T07:01:08+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

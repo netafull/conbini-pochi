@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1533854",
+ "name": "バター醤油香る　コク旨焼うどん",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 599,
+ "launch_date": "2026-11-02",
+ "launch_text": "2026.11.02",
+ "regions": null,
+ "region_text": "※沖縄地域のローソン、ナチュラルローソンではお取り扱いしておりません。",
+ "description": "出汁と醤油で炒めた焼うどんにカットバターをトッピングしてコク旨に！",
+ "nutrition": {
+  "kcal": 642.0,
+  "protein_g": 19.4,
+  "fat_g": 18.7,
+  "carbs_g": 101.9,
+  "sugar_g": 96.1,
+  "fiber_g": 5.8,
+  "salt_g": 5.97,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>642kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>19.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>18.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>101.9g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>96.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>5.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>5.97g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1533854_1996.html",
+ "first_seen_at": "2026-10-31T07:04:39+09:00",
+ "fetched_at": "2026-10-31T07:04:39+09:00",
+ "source_list": "/recommend/new/list/1533838_5162.html",
+ "image": null
+}

@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "4230236",
+ "name": "Afternoon Tea監修　レモンマートル香るハーブティー　600ml",
+ "category": "飲料",
+ "price_excl_tax": 120,
+ "price_incl_tax": 129,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "「Afternoon Tea」監修のハーブティーです。オーストラリア産レモンマートル原料を使用した、すっきりとした味わいが特徴です。ノンカフェイン・無糖です。［数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/drink/4230236.html",
+ "first_seen_at": "2026-10-31T07:02:05+09:00",
+ "fetched_at": "2026-10-31T07:02:05+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

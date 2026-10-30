@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "0730105",
+ "name": "大盛！やみつき香ばし炒飯",
+ "category": "お弁当",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "青ねぎやにんにくにお肉のエキスやがらスープの旨みをさらに加えた、やみつきになる味わいの大盛で食べごたえがある炒飯です。鉄鍋で香ばしく炒めました。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0730105.html",
+ "first_seen_at": "2026-10-31T07:00:41+09:00",
+ "fetched_at": "2026-10-31T07:00:41+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

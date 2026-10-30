@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0417075",
+ "name": "ばくだんむすび（チャーシュー・高菜・マヨネーズ）",
+ "category": "おむすび",
+ "price_excl_tax": 350,
+ "price_incl_tax": 378,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "甘めのタレで和えたチャーシューと高菜、マヨネーズを包んだばくだんむすびです。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0417075.html",
+ "first_seen_at": "2026-10-31T07:00:35+09:00",
+ "fetched_at": "2026-10-31T07:00:35+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0817141",
+ "name": "壱番館監修　尾道ラーメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 536,
+ "price_incl_tax": 578,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "中国・四国"
+ ],
+ "region_text": "中国・四国",
+ "description": "尾道ラーメンの人気店「壱番館」監修です。魚介の旨みとバランスの良い醤油仕立てのスープに背脂を合わせました。※山口県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0817141.html",
+ "first_seen_at": "2026-10-31T07:01:23+09:00",
+ "fetched_at": "2026-10-31T07:01:23+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

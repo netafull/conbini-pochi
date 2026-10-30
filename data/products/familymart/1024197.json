@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1024197",
+ "name": "まいたけと春雨の鶏だし醤油スープ",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 369,
+ "price_incl_tax": 398,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "鶏の旨みと醤油の香りがきいたスープに、かきたまご・蒸し鶏・ほうれん草・人参をトッピングした、まいたけ入りの春雨スープです。※新潟県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1024197.html",
+ "first_seen_at": "2026-10-31T07:01:47+09:00",
+ "fetched_at": "2026-10-31T07:01:47+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}
