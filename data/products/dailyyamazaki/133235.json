@@ -1,0 +1,39 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "133235",
+ "name": "もっちり食感のほうれん草とベーコンのパン",
+ "category": "パン",
+ "price_excl_tax": 230,
+ "price_incl_tax": 248,
+ "launch_date": "2026-11-01",
+ "launch_text": "11月度(11月1日(月)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "もっちり食感バンズにガーリックバターソースとマヨネーズで味付けしたほうれん草と4種のきのこ、ベーコンをサンドして焼き上げました。※パンの製造工場では、卵を含む製品も製造しています。※ベーコンは小麦、牛肉、鶏肉、りんご、ゼラチンを含む他の製品と共通の設備で製造しています。",
+ "nutrition": {
+  "kcal": 208.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：208kcal"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "りんご"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-11-01T07:00:47+09:00",
+ "fetched_at": "2026-11-01T07:00:47+09:00",
+ "source_list": "new",
+ "image": null
+}

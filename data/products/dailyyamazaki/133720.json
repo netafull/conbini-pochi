@@ -1,0 +1,32 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "133720",
+ "name": "ちいかまん（ドミグラスハンバーグ）",
+ "category": "パン",
+ "price_excl_tax": 169,
+ "price_incl_tax": 182,
+ "launch_date": "2026-11-01",
+ "launch_text": "11月1日（日）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "ほぐしたハンバーグとドミグラスソースを包み蒸し上げました。「ちいかわ」の焼印入りです。包装デザインは2種類あります。",
+ "nutrition": null,
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "牛肉",
+  "ごま",
+  "大豆",
+  "とり肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-11-01T07:00:47+09:00",
+ "fetched_at": "2026-11-01T07:00:47+09:00",
+ "source_list": "new",
+ "image": null
+}

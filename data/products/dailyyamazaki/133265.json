@@ -1,0 +1,36 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "133265",
+ "name": "カマンベールチーズメルトドッグ（シャウエッセン®使用）",
+ "category": "パン",
+ "price_excl_tax": 341,
+ "price_incl_tax": 368,
+ "launch_date": "2026-11-01",
+ "launch_text": "11月度(11月1日(月)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "セミフランスパンにシャウエッセン®をサンドし、角切りのオニオンとカマンベールチーズソースをトッピングして焼き上げたホットドッグです。※ソーセージの製造工場では、卵、乳成分、小麦を含む製品を製造しています。",
+ "nutrition": {
+  "kcal": 313.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：313kcal"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "豚肉"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-11-01T07:00:47+09:00",
+ "fetched_at": "2026-11-01T07:00:47+09:00",
+ "source_list": "new",
+ "image": null
+}

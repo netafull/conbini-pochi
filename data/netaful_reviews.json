@@ -2772,6 +2772,18 @@
   ],
   "lawson": [
    {
+    "date": "2026-10-31T11:00:00",
+    "id": 211834,
+    "link": "https://netaful.jp/lawson/0211834.html",
+    "product_name": "得パン 驚きのじゃりぱん",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/10/lawson-jaripan-001-485x364.jpg",
+     "width": 485
+    },
+    "title": "【ローソン】「得パン 驚きのじゃりぱん」長さ約30cmの大きなじゃりぱんを食べました"
+   },
+   {
     "date": "2026-09-30T12:30:00",
     "id": 210119,
     "link": "https://netaful.jp/lawson/0210119.html",
@@ -12034,7 +12046,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-10-31T07:05:03+09:00",
+ "fetched_at": "2026-11-01T07:00:57+09:00",
  "matches": {
   "familymart-0412018": [
    210488
@@ -12059,6 +12071,9 @@
   ],
   "lawson-1532644": [
    210119
+  ],
+  "lawson-1533651": [
+   211834
   ],
   "seven-040795": [
    210970

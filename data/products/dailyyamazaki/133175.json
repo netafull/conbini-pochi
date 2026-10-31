@@ -1,0 +1,39 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "133175",
+ "name": "ばくだんおむすび（ヒレカツ）",
+ "category": "おにぎり",
+ "price_excl_tax": 334,
+ "price_incl_tax": 360,
+ "launch_date": "2026-11-01",
+ "launch_text": "11月度(11月1日(月)発売)のデイリーホット新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "ソースとマヨネーズをかけたヒレカツが1個入ったばくだんおむすびです。",
+ "nutrition": {
+  "kcal": 318.0,
+  "protein_g": null,
+  "fat_g": null,
+  "carbs_g": null,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": null,
+  "raw": "熱量：318kcal"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "乳成分",
+  "大豆",
+  "豚肉",
+  "鶏肉",
+  "りんご"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-11-01T07:00:47+09:00",
+ "fetched_at": "2026-11-01T07:00:47+09:00",
+ "source_list": "new",
+ "image": null
+}
