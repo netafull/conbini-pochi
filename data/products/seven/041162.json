@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041162",
+ "name": "まぐろたたきたくあん太巻４巻",
+ "category": null,
+ "price_excl_tax": 518,
+ "price_incl_tax": 559.44,
+ "launch_date": "2026-10-27",
+ "launch_text": "2026年10月27日（火）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県"
+ ],
+ "region_text": "山梨県、長野県",
+ "description": "相性の良いまぐろたたきとたくあんを組み合わせた太巻寿司。醤油とかつお、昆布の出汁を使って、旨みのある味付けに仕立てました。",
+ "nutrition": {
+  "kcal": 287.0,
+  "protein_g": 11.9,
+  "fat_g": 4.3,
+  "carbs_g": 51.5,
+  "sugar_g": 49.0,
+  "fiber_g": 2.5,
+  "salt_g": 3.3,
+  "raw": "熱量：287kcal、たんぱく質：11.9g、脂質：4.3g、炭水化物：51.5g（糖質：49.0g、食物繊維：2.5g）、食塩相当量：3.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県、長野県",
+   "regions": [
+    "山梨県",
+    "長野県"
+   ],
+   "price_excl_tax": 518,
+   "price_incl_tax": 559.44,
+   "url": "https://www.sej.co.jp/products/a/item/041162/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041162/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041162/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-02T07:00:42+09:00",
+ "fetched_at": "2026-11-02T07:00:42+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

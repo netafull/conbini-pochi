@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "091976",
+ "name": "大盛り！濃厚スープの札幌味噌ラーメン",
+ "category": null,
+ "price_excl_tax": 650,
+ "price_incl_tax": 702,
+ "launch_date": "2026-11-04",
+ "launch_text": "2026年11月04日（水）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "濃厚でコクのあるスープに中太ちぢれ麺と挽き肉や野菜炒めを組み合わせた、ずっしりと食べ応えのあるボリュームの大盛り札幌味噌ラーメンです",
+ "nutrition": {
+  "kcal": 943.0,
+  "protein_g": 41.5,
+  "fat_g": 21.9,
+  "carbs_g": 148.6,
+  "sugar_g": 141.1,
+  "fiber_g": 7.5,
+  "salt_g": 10.4,
+  "raw": "熱量：943kcal、たんぱく質：41.5g、脂質：21.9g、炭水化物：148.6g（糖質：141.1g、食物繊維：7.5g）、食塩相当量：10.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 650,
+   "price_incl_tax": 702,
+   "url": "https://www.sej.co.jp/products/a/item/091976/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/091976/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/091976/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-02T07:01:13+09:00",
+ "fetched_at": "2026-11-02T07:01:13+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
