@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "041694",
+ "name": "豚ロースとんかつ弁当",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "豚ロース肉のとんかつを楽しめるお弁当です。",
+ "nutrition": {
+  "kcal": 768.0,
+  "protein_g": 28.3,
+  "fat_g": 28.3,
+  "carbs_g": 102.0,
+  "sugar_g": 97.9,
+  "fiber_g": 4.1,
+  "salt_g": 2.9,
+  "raw": "熱量：768kcal、たんぱく質：28.3g、脂質：28.3g、炭水化物：102.0g（糖質：97.9g、食物繊維：4.1g）、食塩相当量：2.9g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/041694/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041694/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041694/kinki/"
+ ],
+ "first_seen_at": "2026-11-03T07:05:06+09:00",
+ "fetched_at": "2026-11-03T07:05:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

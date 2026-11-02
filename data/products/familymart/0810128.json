@@ -1,0 +1,43 @@
+{
+ "chain": "familymart",
+ "product_id": "0810128",
+ "name": "SUSURU TV.　濃厚とんこつ豚無双濃厚無双ラーメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 647,
+ "price_incl_tax": 698,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東"
+ ],
+ "region_text": "北海道・東北・関東",
+ "description": "ラーメンYouTuberの「SUSURU TV.」監修の「濃厚とんこつ豚無双ラーメン」です。小麦の風味が感じられるよう切り出したちぢれ麺に、豚の旨みがしっかりと感じられる濃厚スープを合わせました。※静岡県の一部では取り扱いがございません。",
+ "nutrition": {
+  "kcal": 678.0,
+  "protein_g": 34.8,
+  "fat_g": 21.7,
+  "carbs_g": 87.7,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 5.9,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">678</td>\r\n                          <td class=\"con_nut\">34.8</td>\r\n                          <td class=\"con_nut\">21.7</td>\r\n                          <td class=\"con_nut\">87.7</td>\r\n                          <td class=\"con_nut\">5.90</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "乳成分",
+  "大豆",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0810128.html",
+ "first_seen_at": "2026-11-03T07:07:22+09:00",
+ "fetched_at": "2026-11-03T07:07:22+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

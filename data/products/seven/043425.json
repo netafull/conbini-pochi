@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "043425",
+ "name": "だしむすび　山安のあじ干物",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県"
+ ],
+ "region_text": "埼玉県、千葉県、東京都、神奈川県",
+ "description": "神奈川県で親しまれている山安の「あじ干物」を使用し、かつおと昆布のだしで炊き上げたおむすびです。",
+ "nutrition": {
+  "kcal": 185.0,
+  "protein_g": 5.2,
+  "fat_g": 1.9,
+  "carbs_g": 37.6,
+  "sugar_g": 36.1,
+  "fiber_g": 1.5,
+  "salt_g": 1.5,
+  "raw": "熱量：185kcal、たんぱく質：5.2g、脂質：1.9g、炭水化物：37.6g（糖質：36.1g、食物繊維：1.5g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/043425/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/043425/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/043425/kanto/"
+ ],
+ "first_seen_at": "2026-11-03T07:03:18+09:00",
+ "fetched_at": "2026-11-03T07:03:18+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

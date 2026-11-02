@@ -1,0 +1,61 @@
+{
+ "chain": "seven",
+ "product_id": "045018",
+ "name": "きのことおいもご飯おむすび　なると金時使用",
+ "category": null,
+ "price_excl_tax": 168,
+ "price_incl_tax": 181.44,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "岡山県",
+  "四国"
+ ],
+ "region_text": "岡山県、四国",
+ "description": "蒸して仕上げた徳島県産のなると金時「里むすめ」と、甘辛く味付けした具材を混ぜ合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 222.0,
+  "protein_g": 3.1,
+  "fat_g": 1.7,
+  "carbs_g": 50.3,
+  "sugar_g": 47.0,
+  "fiber_g": 3.3,
+  "salt_g": 1.7,
+  "raw": "熱量：222kcal、たんぱく質：3.1g、脂質：1.7g、炭水化物：50.3g（糖質：47.0g、食物繊維：3.3g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "岡山県、四国",
+   "regions": [
+    "岡山県",
+    "四国"
+   ],
+   "price_excl_tax": 168,
+   "price_incl_tax": 181.44,
+   "url": "https://www.sej.co.jp/products/a/item/045018/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "岡山県、四国",
+   "regions": [
+    "岡山県",
+    "四国"
+   ],
+   "price_excl_tax": 168,
+   "price_incl_tax": 181.44,
+   "url": "https://www.sej.co.jp/products/a/item/045018/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045018/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045018/chugoku/",
+  "https://www.sej.co.jp/products/a/item/045018/shikoku/"
+ ],
+ "first_seen_at": "2026-11-03T07:05:36+09:00",
+ "fetched_at": "2026-11-03T07:05:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

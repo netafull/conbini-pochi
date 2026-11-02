@@ -1,0 +1,22 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "133504",
+ "name": "ジューシーハムサンド",
+ "category": "サンド",
+ "price_excl_tax": 330,
+ "price_incl_tax": 356,
+ "launch_date": "2026-11-03",
+ "launch_text": "11月3日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "口どけが良くすっきりとした辛みが後味にも残るよう、ソースを改良しました。一口目から口の中にジュワっと広がります。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-11-03T07:08:03+09:00",
+ "fetched_at": "2026-11-03T07:08:03+09:00",
+ "source_list": "new",
+ "image": null
+}

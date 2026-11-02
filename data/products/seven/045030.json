@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "045030",
+ "name": "豚焼肉弁当　唐辛子マヨ",
+ "category": null,
+ "price_excl_tax": 460,
+ "price_incl_tax": 496.8,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "島根県、広島県、山口県",
+ "description": "豚焼肉と唐辛子マヨを組み合わせた、ワンコイン以下で購入いただけるお弁当です。",
+ "nutrition": {
+  "kcal": 564.0,
+  "protein_g": 19.8,
+  "fat_g": 11.4,
+  "carbs_g": 96.2,
+  "sugar_g": 94.9,
+  "fiber_g": 1.3,
+  "salt_g": 2.3,
+  "raw": "熱量：564kcal、たんぱく質：19.8g、脂質：11.4g、炭水化物：96.2g（糖質：94.9g、食物繊維：1.3g）、食塩相当量：2.3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "島根県、広島県、山口県",
+   "regions": [
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 460,
+   "price_incl_tax": 496.8,
+   "url": "https://www.sej.co.jp/products/a/item/045030/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045030/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045030/chugoku/"
+ ],
+ "first_seen_at": "2026-11-03T07:05:54+09:00",
+ "fetched_at": "2026-11-03T07:05:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

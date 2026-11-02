@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "044202",
+ "name": "越前市名物　愛がけボルガライス",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "北陸"
+ ],
+ "region_text": "北陸",
+ "description": "福井県越前市でなじみのある洋食メニュー「ボルガライス」。オムライスの上にとんかつを盛り付け、デミグラスとトマトの２種類のソースで仕上げました。",
+ "nutrition": {
+  "kcal": 696.0,
+  "protein_g": 21.1,
+  "fat_g": 25.1,
+  "carbs_g": 97.9,
+  "sugar_g": 95.1,
+  "fiber_g": 2.8,
+  "salt_g": 4.2,
+  "raw": "熱量：696kcal、たんぱく質：21.1g、脂質：25.1g、炭水化物：97.9g（糖質：95.1g、食物繊維：2.8g）、食塩相当量：4.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "北陸",
+   "regions": [
+    "北陸"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/044202/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044202/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044202/hokuriku/"
+ ],
+ "first_seen_at": "2026-11-03T07:04:26+09:00",
+ "fetched_at": "2026-11-03T07:04:26+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

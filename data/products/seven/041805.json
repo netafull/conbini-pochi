@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "041805",
+ "name": "大葉味噌おむすび　愛知県産大葉使用",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "味噌と大葉を混ぜ込んだご飯に、さらに大葉味噌を中具として入れた風味豊かなおむすびです。",
+ "nutrition": {
+  "kcal": 196.0,
+  "protein_g": 3.7,
+  "fat_g": 2.6,
+  "carbs_g": 40.5,
+  "sugar_g": 38.6,
+  "fiber_g": 1.9,
+  "salt_g": 1.6,
+  "raw": "熱量：196kcal、たんぱく質：3.7g、脂質：2.6g、炭水化物：40.5g（糖質：38.6g、食物繊維：1.9g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/041805/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041805/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041805/tokai/"
+ ],
+ "first_seen_at": "2026-11-03T07:04:49+09:00",
+ "fetched_at": "2026-11-03T07:04:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

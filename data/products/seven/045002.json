@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "045002",
+ "name": "噛んでぷっちもち！　　もち麦鮭と舞茸",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県"
+ ],
+ "region_text": "山梨県、長野県",
+ "description": "北杜市立白州小学校と取り組んだ商品です。プチプチとしたもち麦の食感と、バター醤油たれで味付けした鮭，舞茸は噛めば噛むほど旨味あふれる味わいを楽しめます。",
+ "nutrition": {
+  "kcal": 218.0,
+  "protein_g": 5.8,
+  "fat_g": 3.8,
+  "carbs_g": 42.4,
+  "sugar_g": 37.8,
+  "fiber_g": 4.6,
+  "salt_g": 1.7,
+  "raw": "熱量：218kcal、たんぱく質：5.8g、脂質：3.8g、炭水化物：42.4g（糖質：37.8g、食物繊維：4.6g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県、長野県",
+   "regions": [
+    "山梨県",
+    "長野県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/045002/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045002/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045002/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-03T07:03:36+09:00",
+ "fetched_at": "2026-11-03T07:03:36+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "045017",
+ "name": "金武町監修タコライス",
+ "category": null,
+ "price_excl_tax": 658,
+ "price_incl_tax": 710.64,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "タコライス発祥の地、沖縄県金武町に監修いただいたタコライスです。タコミートのスパイスの香りとサルサソースの適度な辛味で食べ進みの良い味わいに仕上げました。",
+ "nutrition": {
+  "kcal": 570.0,
+  "protein_g": 17.4,
+  "fat_g": 14.9,
+  "carbs_g": 93.4,
+  "sugar_g": 89.8,
+  "fiber_g": 3.6,
+  "salt_g": 2.9,
+  "raw": "熱量：570kcal、たんぱく質：17.4g、脂質：14.9g、炭水化物：93.4g（糖質：89.8g、食物繊維：3.6g）、食塩相当量：2.9g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 658,
+   "price_incl_tax": 710.64,
+   "url": "https://www.sej.co.jp/products/a/item/045017/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045017/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045017/okinawa/"
+ ],
+ "first_seen_at": "2026-11-03T07:06:42+09:00",
+ "fetched_at": "2026-11-03T07:06:42+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

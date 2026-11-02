@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "045008",
+ "name": "ごてあらポー！！あらびきソーセージおむすび",
+ "category": null,
+ "price_excl_tax": 210,
+ "price_incl_tax": 226.8,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "「御殿場高原あらびきポーク」を使用した厚みのあるソーセージに、照り焼きタレとマヨネーズを合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 321.0,
+  "protein_g": 6.5,
+  "fat_g": 17.7,
+  "carbs_g": 34.7,
+  "sugar_g": 33.2,
+  "fiber_g": 1.5,
+  "salt_g": 2.0,
+  "raw": "熱量：321kcal、たんぱく質：6.5g、脂質：17.7g、炭水化物：34.7g（糖質：33.2g、食物繊維：1.5g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 210,
+   "price_incl_tax": 226.8,
+   "url": "https://www.sej.co.jp/products/a/item/045008/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045008/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045008/tokai/"
+ ],
+ "first_seen_at": "2026-11-03T07:04:30+09:00",
+ "fetched_at": "2026-11-03T07:04:30+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

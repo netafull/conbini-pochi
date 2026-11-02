@@ -1,0 +1,206 @@
+{
+ "chain": "seven",
+ "product_id": "045034",
+ "name": "弁当おむすび　かつ丼",
+ "category": null,
+ "price_excl_tax": 248,
+ "price_incl_tax": 267.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "山梨県",
+  "長野県",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "近畿",
+  "中国",
+  "四国"
+ ],
+ "region_text": "北海道、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、近畿、中国、四国",
+ "description": "醤油やかつお出汁などの旨みを効かせた割り下で煮込んだかつとじを組み合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 315.0,
+  "protein_g": 8.6,
+  "fat_g": 9.8,
+  "carbs_g": 49.2,
+  "sugar_g": 47.1,
+  "fiber_g": 2.1,
+  "salt_g": 2.2,
+  "raw": "熱量：315kcal、たんぱく質：8.6g、脂質：9.8g、炭水化物：49.2g（糖質：47.1g、食物繊維：2.1g）、食塩相当量：2.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/hokkaido/"
+  },
+  "kanto": {
+   "region_text": "北海道、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "北海道、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/koshinetsu/"
+  },
+  "tokai": {
+   "region_text": "北海道、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/tokai/"
+  },
+  "kinki": {
+   "region_text": "北海道、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/kinki/"
+  },
+  "chugoku": {
+   "region_text": "北海道、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "北海道、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、岐阜県、愛知県、三重県、近畿、中国、四国",
+   "regions": [
+    "北海道",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045034/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045034/chugoku/",
+  "https://www.sej.co.jp/products/a/item/045034/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/045034/kanto/",
+  "https://www.sej.co.jp/products/a/item/045034/kinki/",
+  "https://www.sej.co.jp/products/a/item/045034/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/045034/shikoku/",
+  "https://www.sej.co.jp/products/a/item/045034/tokai/"
+ ],
+ "first_seen_at": "2026-11-03T07:01:55+09:00",
+ "fetched_at": "2026-11-03T07:01:55+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

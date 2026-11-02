@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "041225",
+ "name": "プチもち食感　ねぎ塩豚むすび　上州麦豚使用",
+ "category": null,
+ "price_excl_tax": 185,
+ "price_incl_tax": 199.8,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "茨城県",
+  "栃木県",
+  "群馬県"
+ ],
+ "region_text": "茨城県、栃木県、群馬県",
+ "description": "上州麦豚，長ねぎ，れんこんを塩だれで和え、プチもち食感のもち麦入りご飯と合わせたおにぎりです。",
+ "nutrition": {
+  "kcal": 260.0,
+  "protein_g": 6.5,
+  "fat_g": 3.2,
+  "carbs_g": 53.5,
+  "sugar_g": 48.9,
+  "fiber_g": 4.6,
+  "salt_g": 1.9,
+  "raw": "熱量：260kcal、たんぱく質：6.5g、脂質：3.2g、炭水化物：53.5g（糖質：48.9g、食物繊維：4.6g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県、栃木県、群馬県",
+   "regions": [
+    "茨城県",
+    "栃木県",
+    "群馬県"
+   ],
+   "price_excl_tax": 185,
+   "price_incl_tax": 199.8,
+   "url": "https://www.sej.co.jp/products/a/item/041225/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041225/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041225/kanto/"
+ ],
+ "first_seen_at": "2026-11-03T07:03:12+09:00",
+ "fetched_at": "2026-11-03T07:03:12+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

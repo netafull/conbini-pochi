@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "041670",
+ "name": "炭火で焼いた　焼おにぎり　かぐら南蛮味噌",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "新潟県"
+ ],
+ "region_text": "新潟県",
+ "description": "越後味噌と辛みを効かせたかぐら南蛮を組み合わせて、醤油たれを染み込ませた飯に塗り、炭火で香ばしく焼き上げたおにぎりです。",
+ "nutrition": {
+  "kcal": 225.0,
+  "protein_g": 4.3,
+  "fat_g": 2.7,
+  "carbs_g": 47.0,
+  "sugar_g": 44.6,
+  "fiber_g": 2.4,
+  "salt_g": 1.9,
+  "raw": "熱量：225kcal、たんぱく質：4.3g、脂質：2.7g、炭水化物：47.0g（糖質：44.6g、食物繊維：2.4g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県",
+   "regions": [
+    "新潟県"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/041670/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041670/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041670/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-03T07:03:49+09:00",
+ "fetched_at": "2026-11-03T07:03:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

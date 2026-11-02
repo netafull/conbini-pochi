@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "041790",
+ "name": "かにめしおむすび",
+ "category": null,
+ "price_excl_tax": 208,
+ "price_incl_tax": 224.64,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "カニの甲羅と昆布からとった出汁を使用した風味豊かな炊き込み御飯で、北海道産オオズワイガニのほぐし身と甘辛く煮た椎茸やたけのこを包んだおむすびです",
+ "nutrition": {
+  "kcal": 184.0,
+  "protein_g": 4.2,
+  "fat_g": 1.0,
+  "carbs_g": 40.5,
+  "sugar_g": 38.8,
+  "fiber_g": 1.7,
+  "salt_g": 1.4,
+  "raw": "熱量：184kcal、たんぱく質：4.2g、脂質：1.0g、炭水化物：40.5g（糖質：38.8g、食物繊維：1.7g）、食塩相当量：1.4g"
+ },
+ "allergens": [
+  "小麦",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 208,
+   "price_incl_tax": 224.64,
+   "url": "https://www.sej.co.jp/products/a/item/041790/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041790/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041790/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-03T07:02:02+09:00",
+ "fetched_at": "2026-11-03T07:02:02+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

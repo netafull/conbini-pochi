@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "041658",
+ "name": "青森名物　いがめんちおむすび",
+ "category": null,
+ "price_excl_tax": 238,
+ "price_incl_tax": 257.04,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "青森県のソウルフードいがめんちをのせたおむすびです。アクセントに玉ねぎと紅生姜を混ぜたマヨネーズをトッピングしました。",
+ "nutrition": {
+  "kcal": 293.0,
+  "protein_g": 6.5,
+  "fat_g": 11.3,
+  "carbs_g": 42.5,
+  "sugar_g": 40.2,
+  "fiber_g": 2.3,
+  "salt_g": 2.1,
+  "raw": "熱量：293kcal、たんぱく質：6.5g、脂質：11.3g、炭水化物：42.5g（糖質：40.2g、食物繊維：2.3g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北",
+   "regions": [
+    "東北"
+   ],
+   "price_excl_tax": 238,
+   "price_incl_tax": 257.04,
+   "url": "https://www.sej.co.jp/products/a/item/041658/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041658/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041658/tohoku/"
+ ],
+ "first_seen_at": "2026-11-03T07:02:30+09:00",
+ "fetched_at": "2026-11-03T07:02:30+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

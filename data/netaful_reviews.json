@@ -2772,6 +2772,18 @@
   ],
   "lawson": [
    {
+    "date": "2026-11-02T12:30:00",
+    "id": 211913,
+    "link": "https://netaful.jp/lawson/0211913.html",
+    "product_name": "得パン 驚きのフレンチトースト",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/lawson-french-toast-007-485x364.jpg",
+     "width": 485
+    },
+    "title": "【ローソン】「得パン 驚きのフレンチトースト」長さ約21cmの大きなフレンチトーストを食べました"
+   },
+   {
     "date": "2026-10-31T11:00:00",
     "id": 211834,
     "link": "https://netaful.jp/lawson/0211834.html",
@@ -12046,7 +12058,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-02T07:01:54+09:00",
+ "fetched_at": "2026-11-03T07:08:14+09:00",
  "matches": {
   "familymart-0412018": [
    210488
@@ -12074,6 +12086,9 @@
   ],
   "lawson-1533651": [
    211834
+  ],
+  "lawson-1533652": [
+   211913
   ],
   "seven-040795": [
    210970

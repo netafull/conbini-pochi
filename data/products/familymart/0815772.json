@@ -1,0 +1,44 @@
+{
+ "chain": "familymart",
+ "product_id": "0815772",
+ "name": "味仙本店監修　台湾ラーメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 584,
+ "price_incl_tax": 630,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "関東",
+  "東海"
+ ],
+ "region_text": "関東の一部・東海",
+ "description": "台湾ラーメン発祥の店「味仙本店」監修商品です。鶏がらの旨みをきかせた醤油ベースのスープに唐辛子とにんにくが特徴の台湾ミンチをのせました。※関東地方は長野県、山梨県での取り扱いです。",
+ "nutrition": {
+  "kcal": 550.0,
+  "protein_g": 25.2,
+  "fat_g": 17.0,
+  "carbs_g": 76.0,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 7.2,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">550</td>\r\n                          <td class=\"con_nut\">25.2</td>\r\n                          <td class=\"con_nut\">17.0</td>\r\n                          <td class=\"con_nut\">76.0</td>\r\n                          <td class=\"con_nut\">7.20</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "卵",
+  "落花生(ピーナッツ)",
+  "ごま",
+  "大豆",
+  "鶏肉",
+  "豚肉",
+  "ゼラチン"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0815772.html",
+ "first_seen_at": "2026-11-03T07:07:28+09:00",
+ "fetched_at": "2026-11-03T07:07:28+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

@@ -1,0 +1,63 @@
+{
+ "chain": "seven",
+ "product_id": "045021",
+ "name": "ほうれん草玉子飯　唐揚げおむすび（もち麦）",
+ "category": null,
+ "price_excl_tax": 168,
+ "price_incl_tax": 181.44,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "岡山県",
+  "四国"
+ ],
+ "region_text": "岡山県、四国",
+ "description": "ほうれん草と玉子を混ぜ込んだ彩りの良いだし飯に甘いタレと和えた森林どりの唐揚げが中具のおむすびです。",
+ "nutrition": {
+  "kcal": 184.0,
+  "protein_g": 5.5,
+  "fat_g": 2.9,
+  "carbs_g": 35.6,
+  "sugar_g": 32.3,
+  "fiber_g": 3.3,
+  "salt_g": 1.5,
+  "raw": "熱量：184kcal、たんぱく質：5.5g、脂質：2.9g、炭水化物：35.6g（糖質：32.3g、食物繊維：3.3g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "岡山県、四国",
+   "regions": [
+    "岡山県",
+    "四国"
+   ],
+   "price_excl_tax": 168,
+   "price_incl_tax": 181.44,
+   "url": "https://www.sej.co.jp/products/a/item/045021/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "岡山県、四国",
+   "regions": [
+    "岡山県",
+    "四国"
+   ],
+   "price_excl_tax": 168,
+   "price_incl_tax": 181.44,
+   "url": "https://www.sej.co.jp/products/a/item/045021/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045021/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045021/chugoku/",
+  "https://www.sej.co.jp/products/a/item/045021/shikoku/"
+ ],
+ "first_seen_at": "2026-11-03T07:05:25+09:00",
+ "fetched_at": "2026-11-03T07:05:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

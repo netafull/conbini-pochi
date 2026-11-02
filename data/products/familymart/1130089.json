@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1130089",
+ "name": "蒸し鶏と塩昆布のやみつきキャベツ",
+ "category": "チルド惣菜",
+ "price_excl_tax": 230,
+ "price_incl_tax": 248,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "塩昆布の旨みとごま油の香りがくせになるおつまみキャベツです。蒸し鶏・キャベツ・きゅうり・塩昆布を使用し、塩ダレやごまで味付けをしました。※北海道地方では仕様が異なります。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1130089.html",
+ "first_seen_at": "2026-11-03T07:07:31+09:00",
+ "fetched_at": "2026-11-03T07:07:31+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

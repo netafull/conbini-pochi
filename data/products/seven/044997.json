@@ -1,0 +1,105 @@
+{
+ "chain": "seven",
+ "product_id": "044997",
+ "name": "鶏照り焼きとだしごはん（もち麦）",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "九州"
+ ],
+ "region_text": "北海道、関東、甲信越、北陸、東海、鳥取県、島根県、岡山県、広島県、九州",
+ "description": "鶏の照り焼きをメインに、様々なおかずを彩り良く盛り付けたミニ弁当です。",
+ "nutrition": {
+  "kcal": 376.0,
+  "protein_g": 17.2,
+  "fat_g": 9.1,
+  "carbs_g": 58.8,
+  "sugar_g": 53.7,
+  "fiber_g": 5.1,
+  "salt_g": 1.7,
+  "raw": "熱量：376kcal、たんぱく質：17.2g、脂質：9.1g、炭水化物：58.8g（糖質：53.7g、食物繊維：5.1g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、関東、甲信越、北陸、東海、鳥取県、島根県、岡山県、広島県、九州",
+   "regions": [
+    "北海道",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044997/hokkaido/"
+  },
+  "hokuriku": {
+   "region_text": "北海道、関東、甲信越、北陸、東海、鳥取県、島根県、岡山県、広島県、九州",
+   "regions": [
+    "北海道",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044997/hokuriku/"
+  },
+  "kyushu": {
+   "region_text": "北海道、関東、甲信越、北陸、東海、鳥取県、島根県、岡山県、広島県、九州",
+   "regions": [
+    "北海道",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "九州"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044997/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044997/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044997/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/044997/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044997/kyushu/"
+ ],
+ "first_seen_at": "2026-11-03T07:02:24+09:00",
+ "fetched_at": "2026-11-03T07:02:24+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041344",
+ "name": "３種のおにぎりランチ気仙沼港水揚げカツオ使用",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "気仙沼港水揚げのカツオを使用した３種の異なる味わいのおにぎりと６種のおかずを盛り付けたミニ弁当です。",
+ "nutrition": {
+  "kcal": 398.0,
+  "protein_g": 12.6,
+  "fat_g": 13.2,
+  "carbs_g": 58.4,
+  "sugar_g": 55.9,
+  "fiber_g": 2.5,
+  "salt_g": 2.5,
+  "raw": "熱量：398kcal、たんぱく質：12.6g、脂質：13.2g、炭水化物：58.4g（糖質：55.9g、食物繊維：2.5g）、食塩相当量：2.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北",
+   "regions": [
+    "東北"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/041344/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041344/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041344/tohoku/"
+ ],
+ "first_seen_at": "2026-11-03T07:02:49+09:00",
+ "fetched_at": "2026-11-03T07:02:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

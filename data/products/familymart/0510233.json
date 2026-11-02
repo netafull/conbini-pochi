@@ -1,0 +1,43 @@
+{
+ "chain": "familymart",
+ "product_id": "0510233",
+ "name": "増量　手巻寿司　青しそ納豆",
+ "category": "お寿司",
+ "price_excl_tax": 213,
+ "price_incl_tax": 230,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "11月3日（火）から11月9日（月）の1週間限定で具を増量します。ひきわり納豆に青しそペーストを合わせた、さわやかな風味が楽しめる手巻寿司です。",
+ "nutrition": {
+  "kcal": 183.0,
+  "protein_g": 5.6,
+  "fat_g": 2.4,
+  "carbs_g": 35.5,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 1.3,
+  "raw": "\r\n                    <table>\r\n                      <tbody>\r\n                        <tr>\r\n                          <td class=\"tit_nut\">熱量<br>（kcal）</td>\r\n                          <td class=\"tit_nut\">たんぱく質<br>（g）</td>\r\n                          <td class=\"tit_nut\">脂質<br>（g）</td>\r\n                          <td class=\"tit_nut\">炭水化物<br>（g）</td>\r\n                          <td class=\"tit_nut\">食塩相当量<br>（g）</td>\r\n                        </tr>\r\n                        <tr>\r\n                          <td class=\"con_nut\">183</td>\r\n                          <td class=\"con_nut\">5.6</td>\r\n                          <td class=\"con_nut\">2.4</td>\r\n                          <td class=\"con_nut\">35.5</td>\r\n                          <td class=\"con_nut\">1.30</td>\r\n                        </tr>\r\n                      </tbody>\r\n                    </table>\r\n                  "
+ },
+ "allergens": [
+  "小麦",
+  "大豆"
+ ],
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sushi/0510233.html",
+ "first_seen_at": "2026-11-03T07:07:10+09:00",
+ "fetched_at": "2026-11-03T07:07:10+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

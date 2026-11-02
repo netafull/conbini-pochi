@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "045012",
+ "name": "ちりめん山椒おむすび　和歌山県産青実山椒入り",
+ "category": null,
+ "price_excl_tax": 185,
+ "price_incl_tax": 199.8,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "だしの効いたご飯に和歌山県産の青実山椒とちりめんを混ぜ込んだおにぎりです。",
+ "nutrition": {
+  "kcal": 184.0,
+  "protein_g": 4.9,
+  "fat_g": 1.4,
+  "carbs_g": 38.7,
+  "sugar_g": 37.2,
+  "fiber_g": 1.5,
+  "salt_g": 1.7,
+  "raw": "熱量：184kcal、たんぱく質：4.9g、脂質：1.4g、炭水化物：38.7g（糖質：37.2g、食物繊維：1.5g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 185,
+   "price_incl_tax": 199.8,
+   "url": "https://www.sej.co.jp/products/a/item/045012/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045012/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045012/kinki/"
+ ],
+ "first_seen_at": "2026-11-03T07:04:54+09:00",
+ "fetched_at": "2026-11-03T07:04:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

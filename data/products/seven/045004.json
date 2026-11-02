@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "045004",
+ "name": "噛んでぷっちもち！　もち麦キーマカレー",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県"
+ ],
+ "region_text": "山梨県、長野県",
+ "description": "北杜市立白州小学校と取り組んだ商品です。プチプチとしたもち麦の食感を楽しめます。キーマカレーは甘めの味付けで得隠し味に味噌を入れコクと旨味を感字られる商品です。",
+ "nutrition": {
+  "kcal": 237.0,
+  "protein_g": 6.5,
+  "fat_g": 4.6,
+  "carbs_g": 44.9,
+  "sugar_g": 39.9,
+  "fiber_g": 5.0,
+  "salt_g": 0.6,
+  "raw": "熱量：237kcal、たんぱく質：6.5g、脂質：4.6g、炭水化物：44.9g（糖質：39.9g、食物繊維：5.0g）、食塩相当量：0.6g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県、長野県",
+   "regions": [
+    "山梨県",
+    "長野県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/045004/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045004/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045004/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-03T07:03:31+09:00",
+ "fetched_at": "2026-11-03T07:03:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

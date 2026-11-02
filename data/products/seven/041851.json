@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "041851",
+ "name": "伊勢醤油焼おにぎり",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "伊勢醤油ベースのタレを塗って香ばしく焼き上げたおにぎりです。",
+ "nutrition": {
+  "kcal": 210.0,
+  "protein_g": 4.2,
+  "fat_g": 1.9,
+  "carbs_g": 44.9,
+  "sugar_g": 43.1,
+  "fiber_g": 1.8,
+  "salt_g": 2.5,
+  "raw": "熱量：210kcal、たんぱく質：4.2g、脂質：1.9g、炭水化物：44.9g（糖質：43.1g、食物繊維：1.8g）、食塩相当量：2.5g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/041851/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041851/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041851/tokai/"
+ ],
+ "first_seen_at": "2026-11-03T07:04:42+09:00",
+ "fetched_at": "2026-11-03T07:04:42+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041693",
+ "name": "甘辛チキン御飯マヨネーズ付き（もち麦）",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "唐揚げに甘辛醤油ダレを絡めてスライスし、さらに甘辛だれをかけた、ご飯が進む味付けのミニ弁当です。別添のマヨネーズをお好みでかけることで、味の変化も楽しめます。",
+ "nutrition": {
+  "kcal": 427.0,
+  "protein_g": 14.5,
+  "fat_g": 13.8,
+  "carbs_g": 63.4,
+  "sugar_g": 59.0,
+  "fiber_g": 4.4,
+  "salt_g": 2.2,
+  "raw": "熱量：427kcal、たんぱく質：14.5g、脂質：13.8g、炭水化物：63.4g（糖質：59.0g、食物繊維：4.4g）、食塩相当量：2.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/041693/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041693/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041693/kinki/"
+ ],
+ "first_seen_at": "2026-11-03T07:05:12+09:00",
+ "fetched_at": "2026-11-03T07:05:12+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

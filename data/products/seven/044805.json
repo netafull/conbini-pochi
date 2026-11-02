@@ -1,0 +1,77 @@
+{
+ "chain": "seven",
+ "product_id": "044805",
+ "name": "香ばし野菜のコク旨あんかけ中華丼",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "関東",
+  "新潟県",
+  "長野県",
+  "北陸",
+  "東海",
+  "中国",
+  "四国"
+ ],
+ "region_text": "関東、新潟県、長野県、北陸、東海、中国、四国",
+ "description": "香ばしく炒めた野菜などを、畜肉の旨みが詰まったあんと絡めた中華丼です。",
+ "nutrition": {
+  "kcal": 533.0,
+  "protein_g": 13.3,
+  "fat_g": 13.8,
+  "carbs_g": 92.1,
+  "sugar_g": 85.9,
+  "fiber_g": 6.2,
+  "salt_g": 2.8,
+  "raw": "熱量：533kcal、たんぱく質：13.3g、脂質：13.8g、炭水化物：92.1g（糖質：85.9g、食物繊維：6.2g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "小麦",
+  "えび"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "関東、新潟県、長野県、北陸、東海、中国、四国",
+   "regions": [
+    "関東",
+    "新潟県",
+    "長野県",
+    "北陸",
+    "東海",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044805/hokuriku/"
+  },
+  "shikoku": {
+   "region_text": "関東、新潟県、長野県、北陸、東海、中国、四国",
+   "regions": [
+    "関東",
+    "新潟県",
+    "長野県",
+    "北陸",
+    "東海",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044805/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044805/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044805/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044805/shikoku/"
+ ],
+ "first_seen_at": "2026-11-03T07:04:19+09:00",
+ "fetched_at": "2026-11-03T07:04:19+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

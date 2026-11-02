@@ -1,0 +1,55 @@
+{
+ "chain": "seven",
+ "product_id": "043922",
+ "name": "手巻寿司　ツナきゅうり巻",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "九州"
+ ],
+ "region_text": "栃木県、群馬県、埼玉県、九州",
+ "description": "茹でた玉ねぎを加えたツナマヨネーズときゅうりを中具に入れた酢飯に、パリッとした海苔を巻いて食べる手巻寿司です。",
+ "nutrition": {
+  "kcal": 180.0,
+  "protein_g": 4.0,
+  "fat_g": 2.9,
+  "carbs_g": 35.3,
+  "sugar_g": 33.7,
+  "fiber_g": 1.6,
+  "salt_g": 2.0,
+  "raw": "熱量：180kcal、たんぱく質：4.0g、脂質：2.9g、炭水化物：35.3g（糖質：33.7g、食物繊維：1.6g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "栃木県、群馬県、埼玉県、九州",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "九州"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/043922/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/043922/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/043922/kyushu/"
+ ],
+ "first_seen_at": "2026-11-03T07:06:24+09:00",
+ "fetched_at": "2026-11-03T07:06:24+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

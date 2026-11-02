@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054130",
+ "name": "ブリトー背徳チャーシュー",
+ "category": null,
+ "price_excl_tax": 330,
+ "price_incl_tax": 356.4,
+ "launch_date": "2026-11-11",
+ "launch_text": "2026年11月11日（水）以降順次発売",
+ "regions": [
+  "全国"
+ ],
+ "region_text": "全国",
+ "description": "背脂ニンニクとチャーシューを合わせたブリトーです。",
+ "nutrition": {
+  "kcal": 280.0,
+  "protein_g": 9.4,
+  "fat_g": 12.8,
+  "carbs_g": 32.6,
+  "sugar_g": 30.8,
+  "fiber_g": 1.8,
+  "salt_g": 1.7,
+  "raw": "熱量：280kcal、たんぱく質：9.4g、脂質：12.8g、炭水化物：32.6g（糖質：30.8g、食物繊維：1.8g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 330,
+   "price_incl_tax": 356.4,
+   "url": "https://www.sej.co.jp/products/a/item/054130/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054130/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054130/okinawa/"
+ ],
+ "first_seen_at": "2026-11-03T07:06:54+09:00",
+ "fetched_at": "2026-11-03T07:06:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
