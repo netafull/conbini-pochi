@@ -1,0 +1,22 @@
+{
+ "chain": "ministop",
+ "product_id": "054025",
+ "name": "コグマシュークリーム",
+ "category": "デザート",
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": null,
+ "region_text": "全国",
+ "description": "韓国で大人気のコグマパンをイメージしたシュークリームです。もちもちとした食感のシュー生地に、甘みが強くねっとりとした食感の種子島産安納芋あん入りクリームを詰めました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail054025.html",
+ "first_seen_at": "2026-11-04T07:01:01+09:00",
+ "fetched_at": "2026-11-04T07:01:01+09:00",
+ "source_list": "recommend",
+ "image": null
+}

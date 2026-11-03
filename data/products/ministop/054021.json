@@ -1,0 +1,22 @@
+{
+ "chain": "ministop",
+ "product_id": "054021",
+ "name": "チュモッパ(韓国にぎりめし)",
+ "category": "おにぎり",
+ "price_excl_tax": 168,
+ "price_incl_tax": 181.44,
+ "launch_date": "2026-11-03",
+ "launch_text": "2026年11月3日",
+ "regions": null,
+ "region_text": "全国",
+ "description": "韓国の定番家庭料理として人気のあるおにぎりです。ご飯に沢庵と野沢菜、たらこ、のり、白ごまを混ぜ合わせ、食感よく仕上げました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail054021.html",
+ "first_seen_at": "2026-11-04T07:01:13+09:00",
+ "fetched_at": "2026-11-04T07:01:13+09:00",
+ "source_list": "recommend",
+ "image": null
+}
