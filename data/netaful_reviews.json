@@ -5592,6 +5592,18 @@
   ],
   "seven": [
    {
+    "date": "2026-11-05T11:00:00",
+    "id": 212103,
+    "link": "https://netaful.jp/seven-eleven/0212103.html",
+    "product_name": "栗の炊き込みご飯おむすび",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/711-kuri-gohan-003-485x364.jpg",
+     "width": 485
+    },
+    "title": "【セブン】「栗の炊き込みご飯おむすび」食べました｜栗ご飯を初めて美味しいと思いました"
+   },
+   {
     "date": "2026-10-28T13:00:00",
     "id": 211653,
     "link": "https://netaful.jp/seven-eleven/0211653.html",
@@ -12058,7 +12070,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-05T07:01:01+09:00",
+ "fetched_at": "2026-11-05T13:30:36+09:00",
  "matches": {
   "familymart-0412018": [
    210488
@@ -12092,6 +12104,9 @@
   ],
   "seven-040795": [
    210970
+  ],
+  "seven-041438": [
+   212103
   ],
   "seven-044492": [
    209648
