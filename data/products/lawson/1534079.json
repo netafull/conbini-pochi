@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534079",
+ "name": "濃い宇治抹茶ラテ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 400,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026.11.10",
+ "regions": null,
+ "region_text": null,
+ "description": "老舗お茶ブランド「森半」の茶師が選んだ宇治抹茶を使用した、抹茶のほろ苦さとミルクの甘味のバランスが良い抹茶ラテです。",
+ "nutrition": {
+  "kcal": 218.0,
+  "protein_g": 7.8,
+  "fat_g": 8.2,
+  "carbs_g": 31.8,
+  "sugar_g": 29.4,
+  "fiber_g": 2.4,
+  "salt_g": 0.2,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分</h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>218kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>7.8g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>8.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>31.8g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>29.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>2.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1杯",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534079_1996.html",
+ "first_seen_at": "2026-11-07T07:04:20+09:00",
+ "fetched_at": "2026-11-07T07:04:20+09:00",
+ "source_list": "/recommend/new/list/1534090_5162.html",
+ "image": null
+}

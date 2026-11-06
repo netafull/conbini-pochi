@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1130102",
+ "name": "キャベツもやしナムル",
+ "category": "チルド惣菜",
+ "price_excl_tax": 198,
+ "price_incl_tax": 213,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "キャベツ、もやし、人参をごま油やにんにくで味付けし、やみつきになる味わいに仕立てたナムルです。コチュジャンをきかせた甘辛い味わいのそぼろをトッピングしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1130102.html",
+ "first_seen_at": "2026-11-07T07:01:43+09:00",
+ "fetched_at": "2026-11-07T07:01:43+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

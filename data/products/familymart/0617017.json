@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0617017",
+ "name": "銀鮭とたまご焼き　幕の内弁当",
+ "category": "お弁当",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "銀鮭やたまご焼き、あおさ衣の海老天、鶏つくね、煮物に九州産高菜を合わせた幕の内弁当です。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0617017.html",
+ "first_seen_at": "2026-11-07T07:00:37+09:00",
+ "fetched_at": "2026-11-07T07:00:37+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

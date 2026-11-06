@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1150513",
+ "name": "殻までおいしい海老唐揚げ",
+ "category": "チルド惣菜",
+ "price_excl_tax": 269,
+ "price_incl_tax": 290,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "無頭の殻付のえびをさっぱり塩味の唐揚げに仕上げました。おつまみにぴったりのえび唐揚げです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1150513.html",
+ "first_seen_at": "2026-11-07T07:01:28+09:00",
+ "fetched_at": "2026-11-07T07:01:28+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

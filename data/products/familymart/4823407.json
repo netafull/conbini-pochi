@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "4823407",
+ "name": "5種類のおいしさチョコビスケット&チョコクッキーアソート",
+ "category": "お菓子",
+ "price_excl_tax": 341,
+ "price_incl_tax": 368,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "チョコチップクッキーやチョコクッキーなど、チョコビスケット5種類を詰め合わせた、個包装でシェアにも便利なアソート商品です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/snack/4823407.html",
+ "first_seen_at": "2026-11-07T07:02:13+09:00",
+ "fetched_at": "2026-11-07T07:02:13+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

@@ -1,0 +1,28 @@
+{
+ "chain": "familymart",
+ "product_id": "1212600",
+ "name": "塩昆布入りざく切り白菜",
+ "category": "サラダ",
+ "price_excl_tax": 230,
+ "price_incl_tax": 248,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "関東",
+  "東海",
+  "北陸",
+  "関西"
+ ],
+ "region_text": null,
+ "description": "塩昆布をトッピングして白菜を手軽におつまみ感覚で食べられる一品です。甘みが特徴の旨にんにくダレ付きです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/salad/1212600.html",
+ "first_seen_at": "2026-11-07T07:01:25+09:00",
+ "fetched_at": "2026-11-07T07:01:25+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

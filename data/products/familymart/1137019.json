@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1137019",
+ "name": "炙りつくねと味付けたまご",
+ "category": "チルド惣菜",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "香ばしく炙ったしっとり食感のつくねに、醤油ダレを合わせました。味付けたまご付きです。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1137019.html",
+ "first_seen_at": "2026-11-07T07:01:52+09:00",
+ "fetched_at": "2026-11-07T07:01:52+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

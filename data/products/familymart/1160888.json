@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1160888",
+ "name": "1/2日分の野菜と豚肉炒め",
+ "category": "チルド惣菜",
+ "price_excl_tax": 397,
+ "price_incl_tax": 428,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "東海",
+  "北陸"
+ ],
+ "region_text": "東海・北陸",
+ "description": "高温で焼き上げた野菜と、豚肉は醤油や鶏がら、にんにくなどで炒めました。1/2日分の野菜（キャベツ、もやし、人参、チンゲン菜）が摂れる仕立てです。※静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1160888.html",
+ "first_seen_at": "2026-11-07T07:01:31+09:00",
+ "fetched_at": "2026-11-07T07:01:31+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

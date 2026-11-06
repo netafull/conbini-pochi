@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0815468",
+ "name": "ビタミンちくわ　磯辺天うどん",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 462,
+ "price_incl_tax": 498,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "山梨県・長野県・静岡県の一部",
+ "description": "長野県で親しまれている「ビタミンちくわ」を磯辺天にしてトッピングしたうどんです。※長野県、山梨県、静岡県（東部）での取り扱いです。※静岡県（西部）では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0815468.html",
+ "first_seen_at": "2026-11-07T07:01:16+09:00",
+ "fetched_at": "2026-11-07T07:01:16+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "1170948",
+ "name": "やみつき韓国のり風味フライドポテト",
+ "category": "チルド惣菜",
+ "price_excl_tax": 369,
+ "price_incl_tax": 398,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "ごま油がきいた韓国のり風味に仕立てた、やみつきになるフライドポテトです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1170948.html",
+ "first_seen_at": "2026-11-07T07:01:55+09:00",
+ "fetched_at": "2026-11-07T07:01:55+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0910606",
+ "name": "具っとサンド　ソフトサラミのサラダ",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "関東",
+ "description": "薄切りにしたソフトサラミと野菜にクリーミーなソースを合わせて挟んだ、具材を楽しむ仕立てのサンドイッチです。※静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0910606.html",
+ "first_seen_at": "2026-11-07T07:00:46+09:00",
+ "fetched_at": "2026-11-07T07:00:46+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

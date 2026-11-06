@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "1025354",
+ "name": "レタスと豚肉の醤油鍋",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "東海",
+  "北陸"
+ ],
+ "region_text": "東海・北陸",
+ "description": "めんつゆをベースにした醤油味でだしの旨みが感じられる鍋です。具材には豚もも肉と1/2日分の野菜（もやし・レタス・人参・水菜・紅芯大根・青ネギ）を使用しています。※静岡県（東部）では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1025354.html",
+ "first_seen_at": "2026-11-07T07:02:10+09:00",
+ "fetched_at": "2026-11-07T07:02:10+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

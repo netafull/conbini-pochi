@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "1022315",
+ "name": "濃厚クリームのクラムチャウダー",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 426,
+ "price_incl_tax": 460,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "ハインツのホワイトソースを使用したクラムチャウダーです。クリームのコクとあさりの旨みをきかせた濃厚なスープで、具材にはあさり、マカロニ、野菜などを使用しています。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1022315.html",
+ "first_seen_at": "2026-11-07T07:02:06+09:00",
+ "fetched_at": "2026-11-07T07:02:06+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

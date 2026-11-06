@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "3441817",
+ "name": "森永製菓　ぎっしりたっぷりアーモンドバー　黒糖",
+ "category": "アイス",
+ "price_excl_tax": 221,
+ "price_incl_tax": 238,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "沖縄県産黒糖と黒蜜を使用したコク深い黒糖アイスをアーモンド入りチョコレートでコーティングしたバーアイスです。アーモンドをたっぷり使用し黒糖の甘さとアーモンドの香ばしさが楽しめます。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/ice/3441817.html",
+ "first_seen_at": "2026-11-07T07:02:22+09:00",
+ "fetched_at": "2026-11-07T07:02:22+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534102",
+ "name": "海老と根菜かき揚げの天丼",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 559,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026.11.10",
+ "regions": null,
+ "region_text": null,
+ "description": "海老天、ごぼう入りのかき揚げ、かぼちゃ天、れんこん天の入った天ぷら弁当です。鰹・昆布の旨みがきいた甘辛醤油だれを掛け、ごはんがすすむ味わいに仕上げました。",
+ "nutrition": {
+  "kcal": 476.0,
+  "protein_g": 9.2,
+  "fat_g": 15.1,
+  "carbs_g": 77.8,
+  "sugar_g": 73.7,
+  "fiber_g": 4.1,
+  "salt_g": 2.56,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>476kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>9.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>15.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>77.8g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>73.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>4.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>2.56g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534102_1996.html",
+ "first_seen_at": "2026-11-07T07:03:34+09:00",
+ "fetched_at": "2026-11-07T07:03:34+09:00",
+ "source_list": "/recommend/new/list/1534090_5162.html",
+ "image": null
+}
