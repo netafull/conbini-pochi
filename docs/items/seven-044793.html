@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>セブンイレブン「ケチャップライスおむすび」のカロリー・価格・栄養成分｜コンビニポチ</title>
-<meta name="description" content="セブンイレブンの新商品「ケチャップライスおむすび」、204kcal、税込159.84円、2026-10-13発売。鶏肉と玉ねぎを具材にし、トマトケチャップで味付けしたシンプルなケチャップライスです。隠し味にマヨネーズを加え、コクのある味わいに仕上げました。">
+<title>セブンイレブン「ケチャップライスおむすび」（青森県ほか）のカロリー・価格・栄養成分｜コンビニポチ</title>
+<meta name="description" content="セブンイレブンの新商品「ケチャップライスおむすび」（青森県ほか）、204kcal、税込159.84円、2026-10-13発売。鶏肉と玉ねぎを具材にし、トマトケチャップで味付けしたシンプルなケチャップライスです。隠し味にマヨネーズを加え、コクのある味わいに仕上げました。">
 <link rel="canonical" href="https://conbini.netaful.jp/items/seven-044793.html">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-832CBEYG4T"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-832CBEYG4T');</script>
@@ -12,8 +12,8 @@
 <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="セブンイレブン「ケチャップライスおむすび」のカロリー・価格・栄養成分｜コンビニポチ">
-<meta property="og:description" content="セブンイレブンの新商品「ケチャップライスおむすび」、204kcal、税込159.84円、2026-10-13発売。鶏肉と玉ねぎを具材にし、トマトケチャップで味付けしたシンプルなケチャップライスです。隠し味にマヨネーズを加え、コクのある味わいに仕上げました。">
+<meta property="og:title" content="セブンイレブン「ケチャップライスおむすび」（青森県ほか）のカロリー・価格・栄養成分｜コンビニポチ">
+<meta property="og:description" content="セブンイレブンの新商品「ケチャップライスおむすび」（青森県ほか）、204kcal、税込159.84円、2026-10-13発売。鶏肉と玉ねぎを具材にし、トマトケチャップで味付けしたシンプルなケチャップライスです。隠し味にマヨネーズを加え、コクのある味わいに仕上げました。">
 <meta property="og:url" content="https://conbini.netaful.jp/items/seven-044793.html">
 <meta property="og:site_name" content="コンビニポチ">
 <meta property="og:locale" content="ja_JP">
@@ -37,10 +37,12 @@ body { background: var(--bg); color: var(--text);
   font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.6; }
 a { color: inherit; }
 header { padding: 24px 16px 12px; max-width: 980px; margin: 0 auto; }
-header h1 a { text-decoration: none; font-size: 22px;
+/* サイト名はトップだけh1、他のページではdiv.site-name(見た目はh1と同じ。h1は各ページの見出しに譲る) */
+header .site-name { font-size: 2em; font-weight: bold; }
+header h1 a, header .site-name a { text-decoration: none; font-size: 22px;
   display: inline-flex; align-items: center; gap: 8px; }
 /* ロゴは文字とほぼ同じ高さに揃える(96px画像を縮小して表示。姉妹サイトと同じ) */
-header h1 img { width: 44px; height: 44px; }
+header h1 img, header .site-name img { width: 44px; height: 44px; }
 header p { color: var(--muted); font-size: 13px; margin-top: 4px; }
 nav.crumbs { font-size: 12px; color: var(--muted); margin-top: 8px; }
 nav.crumbs a { text-decoration: none; color: var(--accent); }
@@ -49,7 +51,7 @@ nav.crumbs a { text-decoration: none; color: var(--accent); }
 .sites a { font-size: 12px; padding: 3px 10px; border-radius: 999px;
   border: 1px solid var(--line); background: var(--card); text-decoration: none; }
 main { max-width: 980px; margin: 0 auto; padding: 8px 16px 48px; }
-h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); margin: 24px 0 12px; }
+h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); margin: 24px 0 12px; }
 .chain-tabs { display: flex; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
 .chain-tabs button { font-size: 13px; padding: 6px 14px; border-radius: 999px;
   border: 1px solid var(--line); background: var(--card); cursor: pointer; font-family: inherit; }
@@ -90,6 +92,12 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .detail { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
   padding: 20px; margin-top: 12px; }
 .detail h1 { font-size: 20px; margin-bottom: 8px; }
+.detail h1 .sub { font-size: 13px; font-weight: 400; color: var(--muted); }
+/* 商品ページの節見出し(h2)。以前のh3と同じ見た目(小さい太字)にそろえる */
+.detail h2 { font-size: 14px; padding: 0; border: 0; margin: 16px 0 0; }
+.detail ul.linklist { list-style: none; margin-top: 6px; font-size: 13px; }
+.detail ul.linklist li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.detail ul.linklist .m { color: var(--muted); font-size: 12px; margin-left: 6px; }
 .detail .price { font-size: 18px; font-weight: 700; margin: 8px 0; }
 .detail table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
 .detail table th, .detail table td { border-bottom: 1px solid var(--line); text-align: left;
@@ -137,11 +145,11 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 /* カード一覧(.grid)の中に差し込まれる枠は、カード1枚ぶんのマス(列幅)を使う */
 .grid > .ad-slot { max-width: none; margin: 0; }
 </style>
-
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "トップ", "item": "https://conbini.netaful.jp/"}, {"@type": "ListItem", "position": 2, "name": "セブンイレブン", "item": "https://conbini.netaful.jp/chains/seven/"}, {"@type": "ListItem", "position": 3, "name": "ケチャップライスおむすび", "item": "https://conbini.netaful.jp/items/seven-044793.html"}]}</script>
 </head>
 <body>
 <header>
-<h1><a data-google-vignette="false" href="/"><img src="/assets/logo.png" alt="" width="44" height="44">コンビニポチ</a></h1>
+<div class="site-name"><a data-google-vignette="false" href="/"><img src="/assets/logo.png" alt="" width="44" height="44">コンビニポチ</a></div>
 <p>セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています</p>
 </header>
 
@@ -150,7 +158,7 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <div class="detail">
 <div class="badge" style="display:inline-block;font-size:11px;font-weight:700;color:#fff;
 border-radius:4px;padding:2px 8px;background:var(--seven)">セブンイレブン</div>
-<h1>ケチャップライスおむすび</h1>
+<h1>ケチャップライスおむすび <span class="sub">（青森県ほか）</span></h1>
 <p class="price">税込159.84円（税抜148円）</p>
 <p><strong>発売日：</strong>2026-10-13（2026年10月13日（火）以降順次発売）</p>
 <p><strong>販売地域：</strong>青森県・岩手県・宮城県・秋田県・山形県</p>
@@ -159,7 +167,7 @@ border-radius:4px;padding:2px 8px;background:var(--seven)">セブンイレブン
 <p class="source">出典：セブンイレブン公式サイト（2026-10-06時点） ・
 <a data-google-vignette="false" href="https://www.sej.co.jp/products/a/item/044793/tohoku/" target="_blank" rel="noopener">公式ページを見る</a></p>
 <p class="warn">※現在は公式ページが削除されている、または内容が変更されている場合があります。</p>
-<h3 style='margin-top:16px;font-size:14px'>栄養成分</h3><table><tr><th>熱量</th><td>204kcal</td></tr><tr><th>たんぱく質</th><td>4.7g</td></tr><tr><th>脂質</th><td>6.3g</td></tr><tr><th>炭水化物</th><td>32.9g</td></tr><tr><th>　糖質</th><td>31.3g</td></tr><tr><th>　食物繊維</th><td>1.6g</td></tr><tr><th>食塩相当量</th><td>2.7g</td></tr></table>
+<h2>栄養成分</h2><table><tr><th>熱量</th><td>204kcal</td></tr><tr><th>たんぱく質</th><td>4.7g</td></tr><tr><th>脂質</th><td>6.3g</td></tr><tr><th>炭水化物</th><td>32.9g</td></tr><tr><th>　糖質</th><td>31.3g</td></tr><tr><th>　食物繊維</th><td>1.6g</td></tr><tr><th>食塩相当量</th><td>2.7g</td></tr></table>
 <p class='tags'><strong>アレルゲン：</strong>卵、乳、小麦</p>
 
 <div class="ad-slot">
@@ -171,7 +179,7 @@ border-radius:4px;padding:2px 8px;background:var(--seven)">セブンイレブン
      data-full-width-responsive="true"></ins>
 </div>
 
-<h3 style='margin-top:16px;font-size:14px'>関連するネタフルの記事（おむすび・おにぎり）</h3>
+<h2>関連するネタフルの記事（おむすび・おにぎり）</h2>
 <div class="review-grid">
 <a data-google-vignette="false" class="review-card" href="https://netaful.jp/seven-eleven/0212241.html" target="_blank" rel="noopener">
 <img src="https://netaful.jp/wp-content/uploads/2026/11/711-seabura-chashu-007-485x364.jpg" alt="【セブン】「背脂チャーシューおむすび」味が濃いめでスープが欲しくなる！ラーメンフェアの思い切ったお供" loading="lazy" width="485" height="364">
@@ -202,6 +210,19 @@ border-radius:4px;padding:2px 8px;background:var(--seven)">セブンイレブン
 </div>
 </a>
 </div>
+<h2>同じ名前の商品（他に1件）</h2>
+<ul class="linklist">
+<li><a data-google-vignette="false" href="/items/seven-044794.html">ケチャップライスおむすび（福島県）</a><span class="m">税込159.84円（税抜148円）・204kcal・2026-10-13発売</span></li>
+</ul>
+<h2>同じ時期のセブンイレブンの商品</h2>
+<ul class="linklist">
+<li><a data-google-vignette="false" href="/items/seven-040128.html">五目おこわおむすび　群馬県産舞茸使用</a><span class="m">税込213.84円（税抜198円）・192kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-044866.html">濃厚豚骨醤油ご飯　半熟煮玉子おむすび</a><span class="m">税込224.64円（税抜208円）・232kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-040769.html">濃厚豚骨醤油ご飯　半熟煮玉子おむすび</a><span class="m">税込224.64円（税抜208円）・232kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-043717.html">ラーメン屋さんの味　焼きめしおむすび</a><span class="m">税込170.64円（税抜158円）・225kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-040473.html">山形県産つや姫おむすび　近江牛すき焼き</a><span class="m">税込321.84円（税抜298円）・238kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-044911.html">山梨の味　押麦入りまぜごはんおむすび</a><span class="m">税込159.84円（税抜148円）・220kcal</span></li>
+</ul>
 
 </div>
 </main>

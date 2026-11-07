@@ -37,10 +37,12 @@ body { background: var(--bg); color: var(--text);
   font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.6; }
 a { color: inherit; }
 header { padding: 24px 16px 12px; max-width: 980px; margin: 0 auto; }
-header h1 a { text-decoration: none; font-size: 22px;
+/* サイト名はトップだけh1、他のページではdiv.site-name(見た目はh1と同じ。h1は各ページの見出しに譲る) */
+header .site-name { font-size: 2em; font-weight: bold; }
+header h1 a, header .site-name a { text-decoration: none; font-size: 22px;
   display: inline-flex; align-items: center; gap: 8px; }
 /* ロゴは文字とほぼ同じ高さに揃える(96px画像を縮小して表示。姉妹サイトと同じ) */
-header h1 img { width: 44px; height: 44px; }
+header h1 img, header .site-name img { width: 44px; height: 44px; }
 header p { color: var(--muted); font-size: 13px; margin-top: 4px; }
 nav.crumbs { font-size: 12px; color: var(--muted); margin-top: 8px; }
 nav.crumbs a { text-decoration: none; color: var(--accent); }
@@ -49,7 +51,7 @@ nav.crumbs a { text-decoration: none; color: var(--accent); }
 .sites a { font-size: 12px; padding: 3px 10px; border-radius: 999px;
   border: 1px solid var(--line); background: var(--card); text-decoration: none; }
 main { max-width: 980px; margin: 0 auto; padding: 8px 16px 48px; }
-h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); margin: 24px 0 12px; }
+h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); margin: 24px 0 12px; }
 .chain-tabs { display: flex; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
 .chain-tabs button { font-size: 13px; padding: 6px 14px; border-radius: 999px;
   border: 1px solid var(--line); background: var(--card); cursor: pointer; font-family: inherit; }
@@ -90,6 +92,12 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .detail { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
   padding: 20px; margin-top: 12px; }
 .detail h1 { font-size: 20px; margin-bottom: 8px; }
+.detail h1 .sub { font-size: 13px; font-weight: 400; color: var(--muted); }
+/* 商品ページの節見出し(h2)。以前のh3と同じ見た目(小さい太字)にそろえる */
+.detail h2 { font-size: 14px; padding: 0; border: 0; margin: 16px 0 0; }
+.detail ul.linklist { list-style: none; margin-top: 6px; font-size: 13px; }
+.detail ul.linklist li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.detail ul.linklist .m { color: var(--muted); font-size: 12px; margin-left: 6px; }
 .detail .price { font-size: 18px; font-weight: 700; margin: 8px 0; }
 .detail table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
 .detail table th, .detail table td { border-bottom: 1px solid var(--line); text-align: left;
@@ -137,11 +145,11 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 /* カード一覧(.grid)の中に差し込まれる枠は、カード1枚ぶんのマス(列幅)を使う */
 .grid > .ad-slot { max-width: none; margin: 0; }
 </style>
-
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "トップ", "item": "https://conbini.netaful.jp/"}, {"@type": "ListItem", "position": 2, "name": "セブンイレブン", "item": "https://conbini.netaful.jp/chains/seven/"}, {"@type": "ListItem", "position": 3, "name": "鶏ごぼうおむすび　　　紫峰使用", "item": "https://conbini.netaful.jp/items/seven-040935.html"}]}</script>
 </head>
 <body>
 <header>
-<h1><a data-google-vignette="false" href="/"><img src="/assets/logo.png" alt="" width="44" height="44">コンビニポチ</a></h1>
+<div class="site-name"><a data-google-vignette="false" href="/"><img src="/assets/logo.png" alt="" width="44" height="44">コンビニポチ</a></div>
 <p>セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの新商品を毎日記録し、いつ何が出たかを後から引けるアーカイブにしています</p>
 </header>
 
@@ -159,7 +167,7 @@ border-radius:4px;padding:2px 8px;background:var(--seven)">セブンイレブン
 <p class="source">出典：セブンイレブン公式サイト（2026-10-20時点） ・
 <a data-google-vignette="false" href="https://www.sej.co.jp/products/a/item/040935/kanto/" target="_blank" rel="noopener">公式ページを見る</a></p>
 <p class="warn">※現在は公式ページが削除されている、または内容が変更されている場合があります。</p>
-<h3 style='margin-top:16px;font-size:14px'>栄養成分</h3><table><tr><th>熱量</th><td>206kcal</td></tr><tr><th>たんぱく質</th><td>5.5g</td></tr><tr><th>脂質</th><td>2g</td></tr><tr><th>炭水化物</th><td>42g</td></tr><tr><th>　糖質</th><td>41.2g</td></tr><tr><th>　食物繊維</th><td>0.8g</td></tr><tr><th>食塩相当量</th><td>1.6g</td></tr></table>
+<h2>栄養成分</h2><table><tr><th>熱量</th><td>206kcal</td></tr><tr><th>たんぱく質</th><td>5.5g</td></tr><tr><th>脂質</th><td>2g</td></tr><tr><th>炭水化物</th><td>42g</td></tr><tr><th>　糖質</th><td>41.2g</td></tr><tr><th>　食物繊維</th><td>0.8g</td></tr><tr><th>食塩相当量</th><td>1.6g</td></tr></table>
 <p class='tags'><strong>アレルゲン：</strong>小麦</p>
 
 <div class="ad-slot">
@@ -171,7 +179,7 @@ border-radius:4px;padding:2px 8px;background:var(--seven)">セブンイレブン
      data-full-width-responsive="true"></ins>
 </div>
 
-<h3 style='margin-top:16px;font-size:14px'>関連するネタフルの記事（おむすび・おにぎり）</h3>
+<h2>関連するネタフルの記事（おむすび・おにぎり）</h2>
 <div class="review-grid">
 <a data-google-vignette="false" class="review-card" href="https://netaful.jp/seven-eleven/0212241.html" target="_blank" rel="noopener">
 <img src="https://netaful.jp/wp-content/uploads/2026/11/711-seabura-chashu-007-485x364.jpg" alt="【セブン】「背脂チャーシューおむすび」味が濃いめでスープが欲しくなる！ラーメンフェアの思い切ったお供" loading="lazy" width="485" height="364">
@@ -202,6 +210,16 @@ border-radius:4px;padding:2px 8px;background:var(--seven)">セブンイレブン
 </div>
 </a>
 </div>
+
+<h2>同じ時期のセブンイレブンの商品</h2>
+<ul class="linklist">
+<li><a data-google-vignette="false" href="/items/seven-041032.html">鶏めし御飯幕の内</a><span class="m">税込645.84円（税抜598円）・588kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-041190.html">ピリ辛チキン＆鶏そぼろ弁当</a><span class="m">税込702円（税抜650円）・706kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-041201.html">天ぷらあら木監修　天まき</a><span class="m">税込378円（税抜350円）・244kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-044986.html">豚焼肉弁当（唐辛子マヨネーズ）</a><span class="m">税込667.44円（税抜618円）・611kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-041155.html">豚ロースとんかつ弁当</a><span class="m">税込689.04円（税抜638円）・815kcal</span></li>
+<li><a data-google-vignette="false" href="/items/seven-043604.html">豚焼肉弁当（唐辛子マヨネーズ）</a><span class="m">税込667.44円（税抜618円）・611kcal</span></li>
+</ul>
 
 </div>
 </main>
