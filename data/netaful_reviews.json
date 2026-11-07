@@ -5592,6 +5592,18 @@
   ],
   "seven": [
    {
+    "date": "2026-11-07T17:00:00",
+    "id": 212241,
+    "link": "https://netaful.jp/seven-eleven/0212241.html",
+    "product_name": "背脂チャーシューおむすび",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/711-seabura-chashu-007-485x364.jpg",
+     "width": 485
+    },
+    "title": "【セブン】「背脂チャーシューおむすび」味が濃いめでスープが欲しくなる！ラーメンフェアの思い切ったお供"
+   },
+   {
     "date": "2026-11-05T11:00:00",
     "id": 212103,
     "link": "https://netaful.jp/seven-eleven/0212103.html",
@@ -12070,7 +12082,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-07T07:04:35+09:00",
+ "fetched_at": "2026-11-08T07:00:59+09:00",
  "matches": {
   "familymart-0412018": [
    210488
@@ -12113,6 +12125,9 @@
   ],
   "seven-044802": [
    211336
+  ],
+  "seven-044992": [
+   212241
   ]
  }
 }
