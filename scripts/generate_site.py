@@ -263,10 +263,12 @@ body { background: var(--bg); color: var(--text);
   font-family: "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.6; }
 a { color: inherit; }
 header { padding: 24px 16px 12px; max-width: 980px; margin: 0 auto; }
-header h1 a { text-decoration: none; font-size: 22px;
+/* サイト名はトップだけh1、他のページではdiv.site-name(見た目はh1と同じ。h1は各ページの見出しに譲る) */
+header .site-name { font-size: 2em; font-weight: bold; }
+header h1 a, header .site-name a { text-decoration: none; font-size: 22px;
   display: inline-flex; align-items: center; gap: 8px; }
 /* ロゴは文字とほぼ同じ高さに揃える(96px画像を縮小して表示。姉妹サイトと同じ) */
-header h1 img { width: 44px; height: 44px; }
+header h1 img, header .site-name img { width: 44px; height: 44px; }
 header p { color: var(--muted); font-size: 13px; margin-top: 4px; }
 nav.crumbs { font-size: 12px; color: var(--muted); margin-top: 8px; }
 nav.crumbs a { text-decoration: none; color: var(--accent); }
@@ -275,7 +277,7 @@ nav.crumbs a { text-decoration: none; color: var(--accent); }
 .sites a { font-size: 12px; padding: 3px 10px; border-radius: 999px;
   border: 1px solid var(--line); background: var(--card); text-decoration: none; }
 main { max-width: 980px; margin: 0 auto; padding: 8px 16px 48px; }
-h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); margin: 24px 0 12px; }
+h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); margin: 24px 0 12px; }
 .chain-tabs { display: flex; gap: 8px; margin: 16px 0; flex-wrap: wrap; }
 .chain-tabs button { font-size: 13px; padding: 6px 14px; border-radius: 999px;
   border: 1px solid var(--line); background: var(--card); cursor: pointer; font-family: inherit; }
@@ -316,6 +318,12 @@ h2 { font-size: 18px; padding-left: 10px; border-left: 4px solid var(--accent); 
 .detail { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
   padding: 20px; margin-top: 12px; }
 .detail h1 { font-size: 20px; margin-bottom: 8px; }
+.detail h1 .sub { font-size: 13px; font-weight: 400; color: var(--muted); }
+/* 商品ページの節見出し(h2)。以前のh3と同じ見た目(小さい太字)にそろえる */
+.detail h2 { font-size: 14px; padding: 0; border: 0; margin: 16px 0 0; }
+.detail ul.linklist { list-style: none; margin-top: 6px; font-size: 13px; }
+.detail ul.linklist li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.detail ul.linklist .m { color: var(--muted); font-size: 12px; margin-left: 6px; }
 .detail .price { font-size: 18px; font-weight: 700; margin: 8px 0; }
 .detail table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 13px; }
 .detail table th, .detail table td { border-bottom: 1px solid var(--line); text-align: left;
@@ -435,7 +443,7 @@ def updated_label(now: datetime.datetime | None = None) -> str:
 
 
 def page_shell(title: str, description: str, body: str, canonical: str, extra_head: str = "",
-               header_ad: bool = False, header_note: str = "") -> str:
+               header_ad: bool = False, header_note: str = "", is_top: bool = False) -> str:
     site_url = CONFIG.get("site_url", "")
     # トップページのtitleは、サイト名のあとに説明を添える(姉妹サイトと同じ「名前｜説明」の形)
     page_title = (f'{esc(title)}｜{esc(CONFIG["site_title"])}' if title != CONFIG["site_title"]
@@ -497,6 +505,12 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
         f'｜ <a href="{esc(policy_url)}">メディアポリシー</a>\n' if policy_url else ""
     )
 
+    # h1は1ページに1つ。トップだけサイト名をh1にし、他のページは各ページの見出しがh1になる
+    site_name_tag = (
+        f'<h1><a href="/">{logo_img}{esc(CONFIG["site_title"])}</a></h1>'
+        if is_top
+        else f'<div class="site-name"><a href="/">{logo_img}{esc(CONFIG["site_title"])}</a></div>'
+    )
     out = f"""<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -521,7 +535,7 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 </head>
 <body>
 <header>
-<h1><a href="/">{logo_img}{esc(CONFIG["site_title"])}</a></h1>
+{site_name_tag}
 <p>{esc(CONFIG["site_description"])}{(" ｜ " + esc(header_note)) if header_note else ""}</p>
 </header>
 {header_ad_html}
@@ -725,11 +739,18 @@ def chain_options() -> str:
 
 
 def render_grid_page(title: str, description: str, items: list[dict], canonical: str,
-                      show_filters: bool = True, review_chain: str | None = None) -> str:
+                      show_filters: bool = True, review_chain: str | None = None,
+                      heading: str | None = None,
+                      crumbs: list[tuple[str, str]] | None = None) -> str:
+    """heading: ページ見出し(h1)。省略時はtitleと同じ。titleは検索結果に出る<title>用で、
+    チェーン別ページのように見出しと変えたいときに分ける。crumbs: パンくずの(名前, URL)の並び。"""
+    heading = heading or title
+    ld = breadcrumb_ld(crumbs) if crumbs else ""
     reviews_section = render_review_cards("ネタフルの最新レビュー", latest_reviews(review_chain, 5))
     if not items:
-        body = f"<h2>{esc(title)}</h2><p class='empty'>商品がありません。</p>\n{reviews_section}"
-        return page_shell(title, description, body, canonical)
+        body = (f"<h1 class='page-title'>{esc(heading)}</h1><p class='empty'>商品がありません。</p>\n"
+                f"{reviews_section}")
+        return page_shell(title, description, body, canonical, extra_head=ld)
     filters = ""
     if show_filters:
         filters = f"""<div class="sort-bar">
@@ -738,13 +759,13 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
 <label>絞り込み: <select id="chain-filter"><option value="all">すべて</option>
 {chain_options()}</select></label>
 </div>"""
-    body = f"""<h2>{esc(title)} ({len(items)}件)</h2>
+    body = f"""<h1 class="page-title">{esc(heading)} ({len(items)}件)</h1>
 {filters}
 {render_grouped(items)}
 {render_ad_template() if show_filters else ""}
 {SORT_JS if show_filters else ""}
 {reviews_section}"""
-    return page_shell(title, description, body, canonical, header_ad=True)
+    return page_shell(title, description, body, canonical, extra_head=ld, header_ad=True)
 
 
 def render_top(items: list[dict]) -> str:
@@ -830,6 +851,7 @@ placeholder="商品名で検索（例: おむすび、チョコ）"></div>
         extra_head=f'<script type="application/ld+json">{site_name_ld}</script>',
         header_ad=True,
         header_note=updated_label(),
+        is_top=True,
     )
 
 
@@ -843,7 +865,7 @@ def render_weeks_index(items: list[dict]) -> str:
         f'<a href="/weeks/{w}/">{w} の週<span class="n">{n}件</span></a>'
         for w, n in sorted(by_week.items(), reverse=True)
     )
-    body = f"""<h2>週別アーカイブ ({len(by_week)}週)</h2>
+    body = f"""<h1 class="page-title">週別アーカイブ ({len(by_week)}週)</h1>
 <div class="weeklist">
 {rows}
 </div>"""
@@ -853,12 +875,266 @@ def render_weeks_index(items: list[dict]) -> str:
 
 def render_chains_top() -> str:
     links = "\n".join(f'<a href="/chains/{c["slug"]}/">{esc(c["name"])}</a>' for c in CHAINS)
-    body = f'<h2>コンビニ一覧</h2><div class="chainlist">{links}</div>'
+    body = f'<h1 class="page-title">コンビニ一覧</h1><div class="chainlist">{links}</div>'
     return page_shell("コンビニ一覧", "・".join(c["name"] for c in CHAINS) + "の商品一覧", body,
                        CONFIG.get("site_url", "") + "chains/")
 
 
-def render_item_page(item: dict) -> str:
+# ---------------------------------------------------------------------------
+# SEO: パンくず・同名商品の書き分け・関連商品・チェーン別ページの説明文
+# ---------------------------------------------------------------------------
+
+def breadcrumb_ld(crumbs: list[tuple[str, str]]) -> str:
+    """BreadcrumbList の JSON-LD(<script>タグ)。crumbsは(名前, 絶対URL)をトップから順に並べたもの。"""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": i, "name": name, "item": url}
+            for i, (name, url) in enumerate(crumbs, 1)
+        ],
+    }
+    return f'<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
+
+
+def item_regions(item: dict) -> list[str]:
+    """商品ページの「販売地域」に出す地域のリスト。
+    セブンは地域別ページごとに書き方が少し違う(後から九州が加わる等)ので和集合をとる。"""
+    all_regions = list(item.get("regions") or [])
+    for v in (item.get("variants") or {}).values():
+        for r in v.get("regions") or []:
+            if r not in all_regions:
+                all_regions.append(r)
+    return all_regions
+
+
+# ローソンの region_text は「※中部地域のローソンのみのお取り扱いとなります。」のような注記。
+# この2つの定型文だけ地域名を取り出す(それ以外の注記は地域として使わない)
+LAWSON_ONLY_RE = re.compile(r"^※(.+?)(?:地域)?のローソンのみのお取り扱いとなります。$")
+LAWSON_EXCEPT_RE = re.compile(r"^※(.+?)(?:地域)?のローソンではお取り扱いしておりません。$")
+
+REGION_SHORT_MAX = 10   # 地域名をそのまま補足に使う長さの上限(これを超えたら「先頭＋ほか」)
+REGION_FULL_MAX = 20    # 「先頭＋ほか」でも区別できないとき、全地域を出してよい長さの上限
+
+
+def region_label(item: dict) -> tuple[str, str]:
+    """同名商品の補足に使う販売地域を(短い形, 全部の形)で返す。地域が分からなければ空文字。
+    短い形は、長いときだけ「北海道ほか」のように先頭＋ほかにする。"""
+    regions = item_regions(item)
+    if regions:
+        full = "・".join(regions)
+        short = full if len(full) <= REGION_SHORT_MAX else regions[0] + "ほか"
+        return short, full
+    text = item.get("region_text") or ""
+    m = LAWSON_ONLY_RE.match(text)
+    if m:
+        label = f"{m.group(1)}のみ"
+        return label, label
+    m = LAWSON_EXCEPT_RE.match(text)
+    if m:
+        label = f"{m.group(1)}を除く"
+        return label, label
+    if text and len(text) <= REGION_SHORT_MAX and "※" not in text:
+        return text, text
+    return "", ""
+
+
+def launch_labels(item: dict) -> tuple[str, str]:
+    """発売日の補足を(「2026年10月発売」, 「2026年10月20日発売」)で返す。launch_dateが無ければ空文字。
+    effective_date(週開始日や初検出日の代替)は発売日ではないので使わない。"""
+    try:
+        d = datetime.date.fromisoformat(item.get("launch_date") or "")
+    except ValueError:
+        return "", ""
+    return f"{d.year}年{d.month}月発売", f"{d.year}年{d.month}月{d.day}日発売"
+
+
+def price_label(item: dict) -> str:
+    incl = item.get("price_incl_tax")
+    return f"税込{incl:g}円" if incl is not None else ""
+
+
+def name_key(name: str | None) -> str:
+    """同名判定用の商品名。NFKCにして空白を除く。"""
+    return re.sub(r"\s+", "", nfkc(name))
+
+
+def disambiguation_labels(group: list[dict]) -> dict[str, str] | None:
+    """同じチェーンで同名の商品群に、互いを区別できる短い補足(product_id→補足)を付ける。
+    販売地域 → 地域＋発売月 → 地域＋発売日 → 地域＋発売日＋価格 の順に詳しくしていき、
+    全員の補足が空でなく、かつ重ならない最初の段階を使う(群の中は同じ段階でそろえる)。
+    どの段階でも区別できなければNone(無理に作らない)。"""
+    def parts(item: dict) -> dict[str, str]:
+        short, full = region_label(item)
+        month, day = launch_labels(item)
+        return {"short": short, "full": full if len(full) <= REGION_FULL_MAX else "",
+                "month": month, "day": day, "price": price_label(item)}
+
+    levels = [
+        ["short"], ["full"], ["short", "month"], ["short", "day"],
+        ["full", "day"], ["short", "day", "price"], ["full", "day", "price"],
+        ["day"], ["day", "price"], ["price"],
+    ]
+    infos = {it["product_id"]: parts(it) for it in group}
+    for keys in levels:
+        labels = {pid: "・".join(info[k] for k in keys if info[k]) for pid, info in infos.items()}
+        # その段階で材料が足りない商品(補足が空)がいれば、その段階は使えない
+        if all(labels.values()) and len(set(labels.values())) == len(labels):
+            return labels
+    return None
+
+
+def build_context(items: list[dict]) -> dict:
+    """商品ページに必要な、サイト全体を見ないと決まらない情報(同名商品・関連商品の材料)を作る。"""
+    groups: dict[tuple[str, str], list[dict]] = {}
+    for it in items:
+        groups.setdefault((it["chain"], name_key(it["name"])), []).append(it)
+    same_name: dict[tuple[str, str], list[dict]] = {}
+    labels: dict[tuple[str, str], str] = {}
+    for group in groups.values():
+        if len(group) < 2:
+            continue
+        group = sorted(group, key=lambda it: it["product_id"])
+        found = disambiguation_labels(group)
+        for it in group:
+            key = (it["chain"], it["product_id"])
+            same_name[key] = group
+            if found:
+                labels[key] = found[it["product_id"]]
+    by_chain: dict[str, list[dict]] = {}
+    for it in items:
+        by_chain.setdefault(it["chain"], []).append(it)
+    return {"same_name": same_name, "labels": labels, "by_chain": by_chain}
+
+
+RELATED_LIMIT = 6
+
+
+def related_items(item: dict, ctx: dict, limit: int = RELATED_LIMIT) -> tuple[str, list[dict]]:
+    """同じチェーンの他の商品を最大limit件。(見出しの種類, 商品)を返す。
+    同じカテゴリを先に、足りなければチェーン内から補う。どちらも基準日(effective_date)が
+    近い順で、同名商品と自分自身は除く。同じ日の中は(自分,相手)の組から決まるハッシュ順で、
+    毎回同じ結果になる。基準日が離れた商品は新商品が増えても入れ替わらない。"""
+    import hashlib
+    me = (item["chain"], item["product_id"])
+    same = {it["product_id"] for it in ctx["same_name"].get(me, [])}
+    my_key = name_key(item["name"])
+    base = effective_date(item)
+    try:
+        base_day = datetime.date.fromisoformat(base) if base else None
+    except ValueError:
+        base_day = None
+
+    def distance(other: dict) -> tuple:
+        od = effective_date(other)
+        try:
+            gap = abs((datetime.date.fromisoformat(od) - base_day).days) if od and base_day else 10**6
+        except ValueError:
+            gap = 10**6
+        tie = hashlib.md5(f"{item['product_id']}|{other['product_id']}".encode()).hexdigest()
+        return (gap, tie)
+
+    pool = [
+        it for it in ctx["by_chain"].get(item["chain"], [])
+        if it["product_id"] != item["product_id"] and it["product_id"] not in same
+        and name_key(it["name"]) != my_key
+    ]
+    category = item.get("category")
+    in_cat = sorted([it for it in pool if category and it.get("category") == category], key=distance)[:limit]
+    picked = list(in_cat)
+    kind = "category"
+    if len(picked) < limit:
+        taken = {it["product_id"] for it in picked}
+        rest = sorted([it for it in pool if it["product_id"] not in taken], key=distance)
+        picked += rest[: limit - len(picked)]
+        kind = "chain" if not in_cat else "mixed"
+    return kind, picked
+
+
+def render_link_list(items: list[dict], labels: dict[tuple[str, str], str] | None = None,
+                     with_date: bool = False) -> str:
+    """商品名リンク＋価格・kcal(・発売日)の小さなリスト。リンクは普通の<a href>(カードと同じ「/」始まり)。"""
+    rows = []
+    for it in items:
+        label = (labels or {}).get((it["chain"], it["product_id"]))
+        shown = it["name"] + (f"（{label}）" if label else "")
+        meta = []
+        price = price_html(it)
+        if price:
+            meta.append(price)
+        kcal = (it.get("nutrition") or {}).get("kcal")
+        if kcal is not None:
+            meta.append(f"{kcal:g}kcal")
+        if with_date and it.get("launch_date"):
+            meta.append(f"{it['launch_date']}発売")
+        meta_html = f'<span class="m">{esc("・".join(meta))}</span>' if meta else ""
+        rows.append(f'<li><a href="/{esc(item_url(it))}">{esc(shown)}</a>{meta_html}</li>')
+    return '<ul class="linklist">\n' + "\n".join(rows) + "\n</ul>"
+
+
+def render_same_name_block(item: dict, ctx: dict) -> str:
+    """同じチェーンで同名の他の商品へのリンク。補足が作れなかった組は商品番号で見分けられるようにする。"""
+    group = ctx["same_name"].get((item["chain"], item["product_id"]))
+    if not group:
+        return ""
+    others = [it for it in group if it["product_id"] != item["product_id"]]
+    shown = {}
+    for it in others:
+        key = (it["chain"], it["product_id"])
+        shown[key] = ctx["labels"].get(key) or f"商品番号{it['product_id']}"
+    return (f'<h2>同じ名前の商品（他に{len(others)}件）</h2>\n'
+            f'{render_link_list(others, shown, with_date=True)}')
+
+
+def render_related_block(item: dict, ctx: dict, chain_name: str) -> str:
+    kind, picked = related_items(item, ctx)
+    if not picked:
+        return ""
+    if kind == "category":
+        heading = f"{chain_name}の同じカテゴリ（{item['category']}）の商品"
+    elif kind == "chain":
+        heading = f"同じ時期の{chain_name}の商品"
+    else:
+        heading = f"{chain_name}の関連商品"
+    return f'<h2>{esc(heading)}</h2>\n{render_link_list(picked)}'
+
+
+def chain_page_title(chain_name: str) -> str:
+    return f"{chain_name}の新商品一覧（発売日順）"
+
+
+def chain_page_description(chain_name: str, items: list[dict]) -> str:
+    """チェーン別ページの説明文。件数と、いちばん新しい商品名(最大3件)の事実の組み立てだけ。
+    載せていない項目(ミニストップのカロリー等)は名乗らない。長くなるときは商品名を減らす。"""
+    ranked = sorted(items, key=lambda it: (effective_date(it) or "", it.get("first_seen_at") or "",
+                                           it["product_id"]), reverse=True)
+    names: list[str] = []
+    for it in ranked:
+        if it["name"] not in names:
+            names.append(it["name"])
+        if len(names) == 3:
+            break
+    has_kcal = any((it.get("nutrition") or {}).get("kcal") is not None for it in items)
+    facts = "カロリー・価格・栄養成分" if has_kcal else "価格・発売日"
+    desc = ""
+    for n in (3, 2, 1, 0):
+        recent = f"最近の新商品は{'・'.join('「' + x + '」' for x in names[:n])}など。" if n else ""
+        desc = f"{chain_name}の新商品{len(items)}件を発売日順に記録。{recent}{facts}を掲載。"
+        if len(desc) <= 120:
+            break
+    return desc
+
+
+def item_lastmod(item: dict) -> str | None:
+    """商品ページのlastmod(日付)。初検出日と取得日のうち新しいほう。
+    fetched_atは、セブンでは新しい地域ページを取り込んだとき、他社では新規保存のときだけ
+    書き換わる(毎回の巡回では更新されない)ので、「データが実際に変わった日」として使える。"""
+    days = [(item.get(k) or "")[:10] for k in ("first_seen_at", "fetched_at")]
+    days = [d for d in days if re.fullmatch(r"\d{4}-\d{2}-\d{2}", d)]
+    return max(days) if days else None
+
+
+def render_item_page(item: dict, ctx: dict | None = None) -> str:
     chain_name = CHAIN_NAME.get(item["chain"], item["chain"])
     nutrition = item.get("nutrition")
     nut_rows = ""
@@ -876,7 +1152,7 @@ def render_item_page(item: dict) -> str:
                 continue
             trs.append(f"<tr><th>{esc(label)}</th><td>{v:g}{unit}</td></tr>")
         if trs:
-            nut_rows = f"<h3 style='margin-top:16px;font-size:14px'>栄養成分</h3><table>{''.join(trs)}</table>"
+            nut_rows = f"<h2>栄養成分</h2><table>{''.join(trs)}</table>"
 
     allergen_html = ""
     allergens = item.get("allergens")
@@ -887,11 +1163,7 @@ def render_item_page(item: dict) -> str:
     spec_html = f"<p><strong>規格：</strong>{esc(item['spec'])}</p>" if item.get("spec") else ""
     region_html = ""
     # セブンは地域別ページごとに販売地域の書き方が少し違う(後から九州が加わる等)ので和集合をとる
-    all_regions = list(item.get("regions") or [])
-    for v in (item.get("variants") or {}).values():
-        for r in v.get("regions") or []:
-            if r not in all_regions:
-                all_regions.append(r)
+    all_regions = item_regions(item)
     if all_regions:
         region_html = f"<p><strong>販売地域：</strong>{esc('・'.join(all_regions))}</p>"
     elif item.get("region_text"):
@@ -906,7 +1178,7 @@ def render_item_page(item: dict) -> str:
         for key, v in variants.items():
             price = f"税込{v['price_incl_tax']:g}円" if v.get("price_incl_tax") is not None else ""
             rows.append(f"<tr><th>{esc(SEVEN_AREA_NAMES.get(key, key))}</th><td>{price}</td></tr>")
-        variants_html = f"<h3 style='margin-top:16px;font-size:14px'>地域別の価格</h3><table>{''.join(rows)}</table>"
+        variants_html = f"<h2>地域別の価格</h2><table>{''.join(rows)}</table>"
 
     official_url = item.get("official_url") or (item.get("official_urls") or [None])[0]
     quote_html = ""
@@ -924,7 +1196,7 @@ def render_item_page(item: dict) -> str:
     reviews_html = ""
     reviews = item_reviews(item)
     if reviews:
-        reviews_html = f"""<h3 style='margin-top:16px;font-size:14px'>ネタフルのレビュー</h3>
+        reviews_html = f"""<h2>ネタフルのレビュー</h2>
 <div class="review-grid">
 {chr(10).join(render_review_card(a) for a in reviews)}
 </div>"""
@@ -933,7 +1205,7 @@ def render_item_page(item: dict) -> str:
     related = select_related_articles(item, ARTICLES_BY_ID)
     if related:
         label, related_articles_list = related
-        related_html = f"""<h3 style='margin-top:16px;font-size:14px'>関連するネタフルの記事（{esc(label)}）</h3>
+        related_html = f"""<h2>関連するネタフルの記事（{esc(label)}）</h2>
 <div class="review-grid">
 {chr(10).join(render_review_card(a) for a in related_articles_list)}
 </div>"""
@@ -944,7 +1216,7 @@ def render_item_page(item: dict) -> str:
     if not reviews and not related:
         recent = latest_reviews(item["chain"], 4)
         if recent:
-            related_html = f"""<h3 style='margin-top:16px;font-size:14px'>{esc(chain_name)}のネタフル最新レビュー</h3>
+            related_html = f"""<h2>{esc(chain_name)}のネタフル最新レビュー</h2>
 <div class="review-grid">
 {chr(10).join(render_review_card(a) for a in recent)}
 </div>"""
@@ -957,11 +1229,24 @@ def render_item_page(item: dict) -> str:
     mid_ad = render_ad_slot() if has_extras else ""
     bottom_ad = "" if has_extras else render_ad_slot()
 
+    # 同名商品の補足(販売地域・発売月など)と、同名商品・関連商品のリンク。
+    # ctxが無い(単体で描画する)ときは何も足さない
+    dup_label = (ctx or {}).get("labels", {}).get((item["chain"], item["product_id"]), "")
+    dup_html = render_same_name_block(item, ctx) if ctx else ""
+    more_html = render_related_block(item, ctx, chain_name) if ctx else ""
+    h1_sub = f' <span class="sub">（{esc(dup_label)}）</span>' if dup_label else ""
+    site_url = CONFIG.get("site_url", "")
+    ld = breadcrumb_ld([
+        ("トップ", site_url),
+        (chain_name, f"{site_url}chains/{item['chain']}/"),
+        (item["name"], canonical),
+    ])
+
     body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
 <div class="detail">
 <div class="badge" style="display:inline-block;font-size:11px;font-weight:700;color:#fff;
 border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(chain_name)}</div>
-<h1>{esc(item['name'])}</h1>
+<h1>{esc(item['name'])}{h1_sub}</h1>
 <p class="price">{price_html(item)}</p>
 <p><strong>発売日：</strong>{esc(date)}{('（' + esc(item.get('launch_text','')) + '）') if item.get('launch_text') else ''}</p>
 {region_html}
@@ -973,6 +1258,8 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
 {mid_ad}
 {reviews_html}
 {related_html}
+{dup_html}
+{more_html}
 {bottom_ad}
 </div>"""
     # 検索では「セブン ○○ カロリー」のようにコンビニ名や栄養成分も一緒に入力されやすいので、
@@ -980,8 +1267,10 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
     # カロリーが載っていない商品(ファミマのパン等)は「カロリー」を名乗らない
     nut = item.get("nutrition") or {}
     facts = "カロリー・価格・栄養成分" if nut.get("kcal") is not None else "価格・発売日"
-    seo_title = f"{chain_name}「{title}」の{facts}"
-    bits = [f"{chain_name}の新商品「{title}」"]
+    # 同名商品だけ、「」の直後に全角かっこで補足を入れる(同名でない商品の title・説明文は変えない)
+    dup_paren = f"（{dup_label}）" if dup_label else ""
+    seo_title = f"{chain_name}「{title}」{dup_paren}の{facts}"
+    bits = [f"{chain_name}の新商品「{title}」{dup_paren}"]
     if nut.get("kcal") is not None:
         bits.append(f"{nut['kcal']:g}kcal")
     if item.get("price_incl_tax") is not None:
@@ -989,7 +1278,7 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
     if date:
         bits.append(f"{date}発売")
     seo_desc = "、".join(bits) + "。" + (item.get("description") or "")
-    return page_shell(seo_title, seo_desc[:200], body, canonical)
+    return page_shell(seo_title, seo_desc[:200], body, canonical, extra_head=ld)
 
 
 # AIの学習データ集め専用のクローラーは断る。商品説明は各社公式サイトからの引用なので、
@@ -1054,17 +1343,27 @@ def generate_rss(items: list[dict]) -> str:
 
 
 def generate_sitemap(items: list[dict], weeks: list[str]) -> str:
+    """lastmodは、商品ページはその商品のデータが変わった日(item_lastmod)、
+    一覧ページ(トップ・チェーン別・週別・アーカイブ)はそこに載る商品の最大値。
+    以前は全URLを生成日にしていたが、毎日変わる値はGoogleに無視される。"""
     site_url = CONFIG.get("site_url", "")
-    today = datetime.date.today().isoformat()
-    urls = [site_url, site_url + "weeks/", site_url + "chains/"]
+
+    def newest(group: list[dict]) -> str | None:
+        days = [d for d in map(item_lastmod, group) if d]
+        return max(days) if days else None
+
+    entries: list[tuple[str, str | None]] = [
+        (site_url, newest(items)), (site_url + "weeks/", newest(items)), (site_url + "chains/", newest(items)),
+    ]
     for c in CHAINS:
-        urls.append(f"{site_url}chains/{c['slug']}/")
+        entries.append((f"{site_url}chains/{c['slug']}/", newest([it for it in items if it["chain"] == c["slug"]])))
     for w in weeks:
-        urls.append(f"{site_url}weeks/{w}/")
+        entries.append((f"{site_url}weeks/{w}/", newest([it for it in items if week_start(effective_date(it)) == w])))
     for it in items:
-        urls.append(site_url + item_url(it))
+        entries.append((site_url + item_url(it), item_lastmod(it)))
     body = "\n".join(
-        f"<url><loc>{esc(u)}</loc><lastmod>{today}</lastmod></url>" for u in urls
+        f"<url><loc>{esc(u)}</loc>" + (f"<lastmod>{d}</lastmod>" if d else "") + "</url>"
+        for u, d in entries
     )
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -1111,16 +1410,18 @@ def main() -> int:
             [it for it in items if it["chain"] == c["slug"]],
             key=lambda it: effective_date(it) or "", reverse=True,
         )
+        canonical = CONFIG.get("site_url", "") + f"chains/{c['slug']}/"
         page = render_grid_page(
-            c["name"], f"{c['name']}の新商品一覧", chain_items,
-            CONFIG.get("site_url", "") + f"chains/{c['slug']}/",
-            review_chain=c["slug"],
+            chain_page_title(c["name"]), chain_page_description(c["name"], chain_items), chain_items,
+            canonical, review_chain=c["slug"], heading=c["name"],
+            crumbs=[("トップ", CONFIG.get("site_url", "")), (c["name"], canonical)],
         )
         (cdir / "index.html").write_text(page, encoding="utf-8")
 
     (DOCS / "items").mkdir(parents=True, exist_ok=True)
+    ctx = build_context(items)
     for it in items:
-        (DOCS / item_url(it)).write_text(render_item_page(it), encoding="utf-8")
+        (DOCS / item_url(it)).write_text(render_item_page(it, ctx), encoding="utf-8")
 
     # 商品削除で不要になった旧itemページ(オーファン)を掃除する
     valid_item_files = {(DOCS / item_url(it)).name for it in items}

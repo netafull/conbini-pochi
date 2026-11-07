@@ -2,6 +2,7 @@
 """generate_site.py のうち、ネタフル記事のキーワード照合・関連記事選定・
 カード描画ロジックのユニットテスト。本番へは一切アクセスしない。"""
 
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -363,6 +364,187 @@ class TestCardLinksAreRootAbsolute(unittest.TestCase):
     def test_grid_page_has_no_relative_item_links(self):
         html = gs.render_grid_page("週", "d", [make_item("seven", "1se")], "https://x/")
         self.assertNotIn('href="items/', html)
+
+
+class TestRegionAndDisambiguation(unittest.TestCase):
+    """同名商品の補足(販売地域→発売月→発売日→価格の順)。同名でない商品は変えない。"""
+
+    def it(self, pid, name="炭火焼き鳥丼", regions=None, launch="2026-09-29", price=699.84, **kw):
+        d = {"chain": "seven", "product_id": pid, "name": name, "regions": regions,
+             "region_text": "、".join(regions) if regions else None, "launch_date": launch,
+             "price_incl_tax": price, "variants": {}, "first_seen_at": "2026-09-29T07:00:00+09:00",
+             "fetched_at": "2026-09-29T07:00:00+09:00"}
+        d.update(kw)
+        return d
+
+    def test_region_label_short_and_full(self):
+        short, full = gs.region_label(self.it("1", regions=["北海道"]))
+        self.assertEqual((short, full), ("北海道", "北海道"))
+        short, full = gs.region_label(self.it("1", regions=["関東", "甲信越", "北陸", "東海"]))
+        self.assertEqual(short, "関東ほか")
+        self.assertEqual(full, "関東・甲信越・北陸・東海")
+
+    def test_region_label_uses_variants_union(self):
+        item = self.it("1", regions=["北海道"], variants={"a": {"regions": ["北海道", "東北"]}})
+        self.assertEqual(gs.region_label(item)[1], "北海道・東北")
+
+    def test_region_label_lawson_notes_only_for_known_phrases(self):
+        only = self.it("1", region_text="※中部地域のローソンのみのお取り扱いとなります。")
+        self.assertEqual(gs.region_label(only), ("中部のみ", "中部のみ"))
+        exc = self.it("1", region_text="※中部地域のローソンではお取り扱いしておりません。")
+        self.assertEqual(gs.region_label(exc), ("中部を除く", "中部を除く"))
+        other = self.it("1", region_text="※熱量は参照値となります。")
+        self.assertEqual(gs.region_label(other), ("", ""))
+
+    def test_labels_use_region_when_it_differs(self):
+        g = [self.it("1", regions=["北海道"]), self.it("2", regions=["近畿"])]
+        self.assertEqual(gs.disambiguation_labels(g), {"1": "北海道", "2": "近畿"})
+
+    def test_same_region_falls_back_to_launch_month_then_day(self):
+        g = [self.it("1", regions=["近畿"], launch="2026-10-20"), self.it("2", regions=["近畿"], launch="2026-11-10")]
+        self.assertEqual(gs.disambiguation_labels(g), {"1": "近畿・2026年10月発売", "2": "近畿・2026年11月発売"})
+        g = [self.it("1", regions=["近畿"], launch="2026-10-06"), self.it("2", regions=["近畿"], launch="2026-10-20")]
+        self.assertEqual(gs.disambiguation_labels(g)["2"], "近畿・2026年10月20日発売")
+
+    def test_price_is_last_resort_and_indistinguishable_returns_none(self):
+        g = [self.it("1", regions=["近畿"], price=300), self.it("2", regions=["近畿"], price=350)]
+        self.assertEqual(gs.disambiguation_labels(g), {"1": "近畿・2026年9月29日発売・税込300円",
+                                                      "2": "近畿・2026年9月29日発売・税込350円"})
+        same = [self.it("1", regions=["千葉県"]), self.it("2", regions=["千葉県"])]
+        self.assertIsNone(gs.disambiguation_labels(same))
+
+    def test_name_key_ignores_width_and_spaces(self):
+        self.assertEqual(gs.name_key("おむすび＆おかず　焼鮭"), gs.name_key("おむすび&おかず 焼鮭"))
+
+    def test_only_same_name_items_get_label_in_title_and_h1(self):
+        items = [self.it("1", regions=["北海道"]), self.it("2", regions=["近畿"]),
+                 self.it("3", name="別の商品", regions=["北海道"])]
+        ctx = gs.build_context(items)
+        h = gs.render_item_page(items[0], ctx)
+        self.assertIn("セブンイレブン「炭火焼き鳥丼」（北海道）の価格・発売日｜コンビニポチ", h)
+        self.assertIn('<h1>炭火焼き鳥丼 <span class="sub">（北海道）</span></h1>', h)
+        self.assertIn('href="/items/seven-2.html">炭火焼き鳥丼（近畿）</a>', h)
+        self.assertIn('rel="canonical" href="https://conbini.netaful.jp/items/seven-1.html"', h)
+        plain = gs.render_item_page(items[2], ctx)
+        self.assertIn("セブンイレブン「別の商品」の価格・発売日｜コンビニポチ", plain)
+        self.assertIn("<h1>別の商品</h1>", plain)
+        self.assertNotIn("同じ名前の商品", plain)
+
+    def test_other_chain_same_name_is_not_a_duplicate(self):
+        a = self.it("1", regions=["北海道"])
+        b = dict(self.it("2", regions=["近畿"]), chain="lawson")
+        self.assertEqual(gs.build_context([a, b])["same_name"], {})
+
+
+class TestRelatedItems(unittest.TestCase):
+    def it(self, pid, date, category=None, chain="seven", name=None):
+        return {"chain": chain, "product_id": pid, "name": name or f"商品{pid}", "category": category,
+                "launch_date": date, "price_incl_tax": 100}
+
+    def test_nearest_dates_excluding_self_other_chains_and_same_name(self):
+        items = [self.it("0", "2026-10-10"), self.it("1", "2026-10-11"), self.it("2", "2026-10-09"),
+                 self.it("3", "2026-10-20"), self.it("4", "2026-10-10", name="商品0"),
+                 self.it("5", "2026-10-10", chain="lawson")]
+        ctx = gs.build_context(items)
+        kind, picked = gs.related_items(items[0], ctx, limit=2)
+        self.assertEqual(kind, "chain")
+        self.assertEqual({p["product_id"] for p in picked}, {"1", "2"})
+
+    def test_same_category_comes_first_then_fills_from_chain(self):
+        items = [self.it("0", "2026-10-10", "パン"), self.it("1", "2026-12-01", "パン"),
+                 self.it("2", "2026-10-10", "お弁当")]
+        ctx = gs.build_context(items)
+        kind, picked = gs.related_items(items[0], ctx, limit=2)
+        self.assertEqual(kind, "mixed")
+        self.assertEqual([p["product_id"] for p in picked], ["1", "2"])
+
+    def test_deterministic_and_stable_when_far_items_are_added(self):
+        base = [self.it(str(i), f"2026-10-{i + 1:02d}") for i in range(20)]
+        first = [p["product_id"] for p in gs.related_items(base[10], gs.build_context(base))[1]]
+        again = [p["product_id"] for p in gs.related_items(base[10], gs.build_context(list(reversed(base))))[1]]
+        self.assertEqual(first, again)
+        extra = base + [self.it("99", "2027-03-01")]
+        self.assertEqual(first, [p["product_id"] for p in gs.related_items(base[10], gs.build_context(extra))[1]])
+
+    def test_links_are_plain_root_absolute_anchors(self):
+        items = [self.it(str(i), "2026-10-10") for i in range(3)]
+        h = gs.render_item_page(items[0], gs.build_context(items))
+        self.assertIn('href="/items/seven-1.html">商品1</a>', h)
+        self.assertIn("<h2>同じ時期のセブンイレブンの商品</h2>", h)
+
+
+class TestSeoPages(unittest.TestCase):
+    def test_chain_page_title_and_description(self):
+        self.assertEqual(gs.chain_page_title("ローソン"), "ローソンの新商品一覧（発売日順）")
+        items = [{"chain": "lawson", "product_id": str(i), "name": f"商品{i}", "launch_date": f"2026-10-{i + 1:02d}",
+                  "nutrition": {"kcal": 100}} for i in range(5)]
+        d = gs.chain_page_description("ローソン", items)
+        self.assertEqual(d, "ローソンの新商品5件を発売日順に記録。最近の新商品は「商品4」・「商品3」・「商品2」など。"
+                            "カロリー・価格・栄養成分を掲載。")
+        self.assertLessEqual(len(d), 120)
+
+    def test_chain_description_does_not_claim_calories_without_data(self):
+        items = [{"chain": "ministop", "product_id": "1", "name": "A", "launch_date": "2026-10-01"}]
+        self.assertIn("価格・発売日を掲載", gs.chain_page_description("ミニストップ", items))
+        self.assertNotIn("カロリー", gs.chain_page_description("ミニストップ", items))
+
+    def test_chain_description_shortens_long_names(self):
+        items = [{"chain": "seven", "product_id": str(i), "name": ("とても長い商品名" * 5) + str(i),
+                  "launch_date": f"2026-10-0{i + 1}"} for i in range(3)]
+        self.assertLessEqual(len(gs.chain_page_description("セブンイレブン", items)), 120)
+
+    def test_one_h1_per_page_and_top_keeps_site_name_h1(self):
+        items = [make_item("seven", "1se")]
+        top = gs.render_top(items)
+        self.assertEqual(top.count("<h1"), 1)
+        self.assertIn("<h1><a", top)
+        for h in (gs.render_grid_page("週", "d", items, "https://x/"),
+                  gs.render_grid_page("週", "d", [], "https://x/"),
+                  gs.render_item_page(items[0], gs.build_context(items)),
+                  gs.render_weeks_index(items), gs.render_chains_top()):
+            self.assertEqual(h.count("<h1"), 1)
+            self.assertIn('<div class="site-name">', h)
+
+    def test_item_section_headings_are_h2(self):
+        h = gs.render_item_page(make_item("seven", "1se"))
+        self.assertIn("<h2>栄養成分</h2>", h)
+        # アレルゲンは節見出しではなく、行頭のラベル(今の見た目のまま)
+        self.assertIn("<strong>アレルゲン：</strong>", h)
+        self.assertNotIn("<h3", h)
+
+    def test_breadcrumb_json_ld(self):
+        import json
+        items = [make_item("seven", "1se")]
+        h = gs.render_item_page(items[0], gs.build_context(items))
+        ld = [json.loads(m) for m in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h)]
+        self.assertEqual(len(ld), 1)
+        self.assertEqual([e["name"] for e in ld[0]["itemListElement"]], ["トップ", "セブンイレブン", "テスト商品1se"])
+        self.assertEqual(ld[0]["itemListElement"][1]["item"], "https://conbini.netaful.jp/chains/seven/")
+        chain = gs.render_grid_page("t", "d", items, "https://x/", crumbs=[("トップ", "https://a/"), ("c", "https://b/")])
+        self.assertIn('"@type": "BreadcrumbList"', chain)
+        self.assertNotIn("Product", h)
+
+
+class TestSitemapLastmod(unittest.TestCase):
+    def it(self, chain, pid, seen, fetched, launch="2026-10-01"):
+        return {"chain": chain, "product_id": pid, "name": pid, "launch_date": launch,
+                "first_seen_at": f"{seen}T07:00:00+09:00", "fetched_at": f"{fetched}T07:00:00+09:00"}
+
+    def test_item_lastmod_is_newer_of_first_seen_and_fetched(self):
+        self.assertEqual(gs.item_lastmod(self.it("seven", "1", "2026-10-01", "2026-10-05")), "2026-10-05")
+        self.assertEqual(gs.item_lastmod({"first_seen_at": "2026-10-01T07:00:00+09:00"}), "2026-10-01")
+        self.assertIsNone(gs.item_lastmod({}))
+
+    def test_sitemap_lastmod_does_not_use_today_and_lists_use_max(self):
+        items = [self.it("seven", "1", "2026-10-01", "2026-10-02"), self.it("lawson", "2", "2026-10-03", "2026-10-09")]
+        xml = gs.generate_sitemap(items, ["2026-09-28"])
+        self.assertIn("<loc>https://conbini.netaful.jp/items/seven-1.html</loc><lastmod>2026-10-02</lastmod>", xml)
+        self.assertIn("<loc>https://conbini.netaful.jp/chains/seven/</loc><lastmod>2026-10-02</lastmod>", xml)
+        self.assertIn("<loc>https://conbini.netaful.jp/chains/lawson/</loc><lastmod>2026-10-09</lastmod>", xml)
+        self.assertIn("<loc>https://conbini.netaful.jp/</loc><lastmod>2026-10-09</lastmod>", xml)
+        self.assertIn("<loc>https://conbini.netaful.jp/weeks/2026-09-28/</loc><lastmod>2026-10-09</lastmod>", xml)
+        import datetime
+        self.assertNotIn(datetime.date.today().isoformat(), xml)
 
 
 if __name__ == "__main__":
