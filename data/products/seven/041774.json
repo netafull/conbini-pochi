@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041774",
+ "name": "ガタタンご飯　道産オオズワイガニほぐし身使用",
+ "category": null,
+ "price_excl_tax": 678,
+ "price_incl_tax": 732.24,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "芦別のご当地グルメ「ガタタン」をご飯と組み合わせた、鶏ガラや魚介の旨味を感じられるボリューム感のあるお弁当です",
+ "nutrition": {
+  "kcal": 567.0,
+  "protein_g": 14.8,
+  "fat_g": 8.2,
+  "carbs_g": 110.1,
+  "sugar_g": 107.0,
+  "fiber_g": 3.1,
+  "salt_g": 4.7,
+  "raw": "熱量：567kcal、たんぱく質：14.8g、脂質：8.2g、炭水化物：110.1g（糖質：107.0g、食物繊維：3.1g）、食塩相当量：4.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 678,
+   "price_incl_tax": 732.24,
+   "url": "https://www.sej.co.jp/products/a/item/041774/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041774/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041774/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-09T07:01:06+09:00",
+ "fetched_at": "2026-11-09T07:01:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

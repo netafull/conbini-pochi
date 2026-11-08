@@ -1,0 +1,84 @@
+{
+ "chain": "seven",
+ "product_id": "054131",
+ "name": "ラップデリ　蒸し鶏の胡麻だれサラダ",
+ "category": null,
+ "price_excl_tax": 298,
+ "price_incl_tax": 321.84,
+ "launch_date": "2026-11-11",
+ "launch_text": "2026年11月11日（水）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "新潟県",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "北海道、東北、新潟県、北陸、東海、近畿、中国、四国、九州",
+ "description": "蒸し鶏と根菜を組み合わせ、いりごまとねりごまを使用した胡麻だれとともにトルティーヤで包みました。",
+ "nutrition": {
+  "kcal": 295.0,
+  "protein_g": 9.8,
+  "fat_g": 16.3,
+  "carbs_g": 28.9,
+  "sugar_g": 25.7,
+  "fiber_g": 3.2,
+  "salt_g": 1.9,
+  "raw": "熱量：295kcal、たんぱく質：9.8g、脂質：16.3g、炭水化物：28.9g（糖質：25.7g、食物繊維：3.2g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、東北、新潟県、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/054131/hokkaido/"
+  },
+  "tohoku": {
+   "region_text": "北海道、東北、新潟県、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/054131/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054131/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054131/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/054131/tohoku/"
+ ],
+ "first_seen_at": "2026-11-09T07:01:25+09:00",
+ "fetched_at": "2026-11-09T07:01:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

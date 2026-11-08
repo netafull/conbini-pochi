@@ -73,15 +73,53 @@
    "price_excl_tax": 350,
    "price_incl_tax": 378,
    "url": "https://www.sej.co.jp/products/a/item/054121/okinawa/"
+  },
+  "kinki": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "url": "https://www.sej.co.jp/products/a/item/054121/kinki/"
+  },
+  "kyushu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "url": "https://www.sej.co.jp/products/a/item/054121/kyushu/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/054121/shikoku/",
  "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054121/kinki/",
+  "https://www.sej.co.jp/products/a/item/054121/kyushu/",
   "https://www.sej.co.jp/products/a/item/054121/okinawa/",
   "https://www.sej.co.jp/products/a/item/054121/shikoku/"
  ],
  "first_seen_at": "2026-10-27T07:06:29+09:00",
- "fetched_at": "2026-10-27T07:06:29+09:00",
+ "fetched_at": "2026-11-09T07:00:49+09:00",
  "source_list": "nextweek",
  "image": null
 }

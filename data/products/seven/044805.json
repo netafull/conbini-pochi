@@ -63,15 +63,31 @@
    "price_excl_tax": 598,
    "price_incl_tax": 645.84,
    "url": "https://www.sej.co.jp/products/a/item/044805/shikoku/"
+  },
+  "kanto": {
+   "region_text": "関東、新潟県、長野県、北陸、東海、中国、四国",
+   "regions": [
+    "関東",
+    "新潟県",
+    "長野県",
+    "北陸",
+    "東海",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/044805/kanto/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/044805/hokuriku/",
  "official_urls": [
   "https://www.sej.co.jp/products/a/item/044805/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/044805/kanto/",
   "https://www.sej.co.jp/products/a/item/044805/shikoku/"
  ],
  "first_seen_at": "2026-11-03T07:04:19+09:00",
- "fetched_at": "2026-11-03T07:04:19+09:00",
+ "fetched_at": "2026-11-09T07:01:43+09:00",
  "source_list": "nextweek",
  "image": null
 }
