@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "042176",
+ "name": "ドライブイン鳥監修　鳥めしおむすび",
+ "category": null,
+ "price_excl_tax": 218,
+ "price_incl_tax": 235.44,
+ "launch_date": "2026-11-18",
+ "launch_text": "2026年11月18日（水）以降順次発売",
+ "regions": [
+  "福岡県",
+  "佐賀県"
+ ],
+ "region_text": "福岡県、佐賀県",
+ "description": "佐賀県の有名店ドライブイン鳥監修の鳥めしおむすびです。",
+ "nutrition": {
+  "kcal": 307.0,
+  "protein_g": 6.1,
+  "fat_g": 14.5,
+  "carbs_g": 38.7,
+  "sugar_g": 37.1,
+  "fiber_g": 1.6,
+  "salt_g": 1.7,
+  "raw": "熱量：307kcal、たんぱく質：6.1g、脂質：14.5g、炭水化物：38.7g（糖質：37.1g、食物繊維：1.6g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "福岡県、佐賀県",
+   "regions": [
+    "福岡県",
+    "佐賀県"
+   ],
+   "price_excl_tax": 218,
+   "price_incl_tax": 235.44,
+   "url": "https://www.sej.co.jp/products/a/item/042176/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042176/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042176/kyushu/"
+ ],
+ "first_seen_at": "2026-11-10T07:06:13+09:00",
+ "fetched_at": "2026-11-10T07:06:13+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

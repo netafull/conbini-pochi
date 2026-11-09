@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "041873",
+ "name": "寿司おむすび梅しそたくあん",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県"
+ ],
+ "region_text": "茨城県、栃木県、群馬県、埼玉県",
+ "description": "群馬県産の梅を使用したカリカリ梅とたくあんを混ぜ込んだ、彩りと食感が楽しめる寿司おむすびです。",
+ "nutrition": {
+  "kcal": 187.0,
+  "protein_g": 2.8,
+  "fat_g": 1.0,
+  "carbs_g": 42.7,
+  "sugar_g": 40.7,
+  "fiber_g": 2.0,
+  "salt_g": 2.9,
+  "raw": "熱量：187kcal、たんぱく質：2.8g、脂質：1.0g、炭水化物：42.7g（糖質：40.7g、食物繊維：2.0g）、食塩相当量：2.9g"
+ },
+ "allergens": [],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県、栃木県、群馬県、埼玉県",
+   "regions": [
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/041873/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041873/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041873/kanto/"
+ ],
+ "first_seen_at": "2026-11-10T07:04:01+09:00",
+ "fetched_at": "2026-11-10T07:04:01+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054150",
+ "name": "スモークサーモン＆クリームチーズサンド",
+ "category": null,
+ "price_excl_tax": 460,
+ "price_incl_tax": 496.8,
+ "launch_date": "2026-11-18",
+ "launch_text": "2026年11月18日（水）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "スモークサーモン、クリームチーズ、レタスを組合せた彩りの良いサンドイッチです。",
+ "nutrition": {
+  "kcal": 267.0,
+  "protein_g": 11.5,
+  "fat_g": 14.4,
+  "carbs_g": 23.7,
+  "sugar_g": 22.2,
+  "fiber_g": 1.5,
+  "salt_g": 1.2,
+  "raw": "熱量：267kcal、たんぱく質：11.5g、脂質：14.4g、炭水化物：23.7g（糖質：22.2g、食物繊維：1.5g）、食塩相当量：1.2g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 460,
+   "price_incl_tax": 496.8,
+   "url": "https://www.sej.co.jp/products/a/item/054150/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054150/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054150/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-10T07:01:37+09:00",
+ "fetched_at": "2026-11-10T07:01:37+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

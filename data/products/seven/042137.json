@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "042137",
+ "name": "具材で占う　おは朝おむすび",
+ "category": null,
+ "price_excl_tax": 268,
+ "price_incl_tax": 289.44,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "鶏唐揚げ、ウインナー、玉子焼きの３種の具材が入っており、おにぎりによって１口目の具材が変わります。一口目の具材で本日の運勢を占えます。",
+ "nutrition": {
+  "kcal": 337.0,
+  "protein_g": 7.8,
+  "fat_g": 11.0,
+  "carbs_g": 53.0,
+  "sugar_g": 50.4,
+  "fiber_g": 2.6,
+  "salt_g": 2.9,
+  "raw": "熱量：337kcal、たんぱく質：7.8g、脂質：11.0g、炭水化物：53.0g（糖質：50.4g、食物繊維：2.6g）、食塩相当量：2.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/042137/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042137/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042137/kinki/"
+ ],
+ "first_seen_at": "2026-11-10T07:05:13+09:00",
+ "fetched_at": "2026-11-10T07:05:13+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

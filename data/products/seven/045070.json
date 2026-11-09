@@ -1,0 +1,62 @@
+{
+ "chain": "seven",
+ "product_id": "045070",
+ "name": "長州どりのたれかつ丼　むね肉使用　温玉入り",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "中国",
+  "四国"
+ ],
+ "region_text": "中国、四国",
+ "description": "ボリュームあるチキンカツを温玉と甘辛タレが染みこんだ衣で食べる御飯が進む商品です。",
+ "nutrition": {
+  "kcal": 764.0,
+  "protein_g": 21.3,
+  "fat_g": 27.4,
+  "carbs_g": 109.2,
+  "sugar_g": 106.7,
+  "fiber_g": 2.5,
+  "salt_g": 3.6,
+  "raw": "熱量：764kcal、たんぱく質：21.3g、脂質：27.4g、炭水化物：109.2g（糖質：106.7g、食物繊維：2.5g）、食塩相当量：3.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "中国、四国",
+   "regions": [
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/045070/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "中国、四国",
+   "regions": [
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/045070/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045070/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045070/chugoku/",
+  "https://www.sej.co.jp/products/a/item/045070/shikoku/"
+ ],
+ "first_seen_at": "2026-11-10T07:05:49+09:00",
+ "fetched_at": "2026-11-10T07:05:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

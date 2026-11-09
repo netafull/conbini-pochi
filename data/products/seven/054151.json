@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054151",
+ "name": "北海道産きたあかり使用　ハムポテトロール",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-18",
+ "launch_text": "2026年11月18日（水）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "ホクホクとした食感が特長の北海道産じゃがいも「きたあかり」にハムや人参、玉ねぎを組み合わせたポテトサラダを挟んだロールパンです",
+ "nutrition": {
+  "kcal": 213.0,
+  "protein_g": 6.0,
+  "fat_g": 8.8,
+  "carbs_g": 28.3,
+  "sugar_g": 26.4,
+  "fiber_g": 1.9,
+  "salt_g": 1.4,
+  "raw": "熱量：213kcal、たんぱく質：6.0g、脂質：8.8g、炭水化物：28.3g（糖質：26.4g、食物繊維：1.9g）、食塩相当量：1.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/054151/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054151/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054151/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-10T07:01:43+09:00",
+ "fetched_at": "2026-11-10T07:01:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

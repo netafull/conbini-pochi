@@ -1,0 +1,113 @@
+{
+ "chain": "seven",
+ "product_id": "045061",
+ "name": "天タレまぶしおむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "山梨県",
+  "長野県",
+  "九州"
+ ],
+ "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、九州",
+ "description": "甘じょっぱいタレが染みた天かすを混ぜ込んだおむすびです。鰹だしが香るやみつき感のある味付けです。",
+ "nutrition": {
+  "kcal": 304.0,
+  "protein_g": 4.3,
+  "fat_g": 8.3,
+  "carbs_g": 54.9,
+  "sugar_g": 51.2,
+  "fiber_g": 3.7,
+  "salt_g": 2.8,
+  "raw": "熱量：304kcal、たんぱく質：4.3g、脂質：8.3g、炭水化物：54.9g（糖質：51.2g、食物繊維：3.7g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "九州"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/045061/tohoku/"
+  },
+  "kanto": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "九州"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/045061/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "九州"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/045061/koshinetsu/"
+  },
+  "kyushu": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "九州"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/045061/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045061/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045061/kanto/",
+  "https://www.sej.co.jp/products/a/item/045061/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/045061/kyushu/",
+  "https://www.sej.co.jp/products/a/item/045061/tohoku/"
+ ],
+ "first_seen_at": "2026-11-10T07:02:17+09:00",
+ "fetched_at": "2026-11-10T07:02:17+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

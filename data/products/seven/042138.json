@@ -1,0 +1,132 @@
+{
+ "chain": "seven",
+ "product_id": "042138",
+ "name": "チキン南蛮＆スタミナ豚焼肉弁当",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "山梨県",
+  "長野県",
+  "東海",
+  "近畿",
+  "九州"
+ ],
+ "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、九州",
+ "description": "濃厚なチキン南蛮とパンチのあるスタミナ豚焼肉を組み合わせた、食べ応えのある弁当です。",
+ "nutrition": {
+  "kcal": 848.0,
+  "protein_g": 34.2,
+  "fat_g": 24.3,
+  "carbs_g": 126.1,
+  "sugar_g": 120.2,
+  "fiber_g": 5.9,
+  "salt_g": 5.9,
+  "raw": "熱量：848kcal、たんぱく質：34.2g、脂質：24.3g、炭水化物：126.1g（糖質：120.2g、食物繊維：5.9g）、食塩相当量：5.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/042138/hokkaido/"
+  },
+  "tohoku": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/042138/tohoku/"
+  },
+  "kanto": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/042138/kanto/"
+  },
+  "tokai": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/042138/tokai/"
+  },
+  "kinki": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、九州",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/042138/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042138/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042138/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/042138/kanto/",
+  "https://www.sej.co.jp/products/a/item/042138/kinki/",
+  "https://www.sej.co.jp/products/a/item/042138/tohoku/",
+  "https://www.sej.co.jp/products/a/item/042138/tokai/"
+ ],
+ "first_seen_at": "2026-11-10T07:01:25+09:00",
+ "fetched_at": "2026-11-10T07:01:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

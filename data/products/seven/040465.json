@@ -1,0 +1,53 @@
+{
+ "chain": "seven",
+ "product_id": "040465",
+ "name": "おおきなおむすび　辛子明太ツナマヨネーズ",
+ "category": null,
+ "price_excl_tax": 238,
+ "price_incl_tax": 257.04,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "東海仕立ての出汁で炊いた御飯にツナと明太子を混ぜ込み、中具にはツナマヨネーズと明太子を組み合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 313.0,
+  "protein_g": 7.1,
+  "fat_g": 7.0,
+  "carbs_g": 57.1,
+  "sugar_g": 53.7,
+  "fiber_g": 3.4,
+  "salt_g": 1.5,
+  "raw": "熱量：313kcal、たんぱく質：7.1g、脂質：7.0g、炭水化物：57.1g（糖質：53.7g、食物繊維：3.4g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 238,
+   "price_incl_tax": 257.04,
+   "url": "https://www.sej.co.jp/products/a/item/040465/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040465/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040465/tokai/"
+ ],
+ "first_seen_at": "2026-11-10T07:05:02+09:00",
+ "fetched_at": "2026-11-10T07:05:02+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

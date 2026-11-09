@@ -1,0 +1,84 @@
+{
+ "chain": "seven",
+ "product_id": "054147",
+ "name": "バゲット　パストラミ＆カマンベール",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-11-18",
+ "launch_text": "2026年11月18日（水）以降順次発売",
+ "regions": [
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "東海",
+  "中国",
+  "四国"
+ ],
+ "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、東海、中国、四国",
+ "description": "パストラミポークとカマンベールを組み合わせた食べ進みの良いバゲットサンドです。",
+ "nutrition": {
+  "kcal": 311.0,
+  "protein_g": 13.6,
+  "fat_g": 16.1,
+  "carbs_g": 28.7,
+  "sugar_g": 27.1,
+  "fiber_g": 1.6,
+  "salt_g": 1.6,
+  "raw": "熱量：311kcal、たんぱく質：13.6g、脂質：16.1g、炭水化物：28.7g（糖質：27.1g、食物繊維：1.6g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、東海、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "東海",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/054147/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、東海、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "東海",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/054147/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054147/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054147/chugoku/",
+  "https://www.sej.co.jp/products/a/item/054147/shikoku/"
+ ],
+ "first_seen_at": "2026-11-10T07:06:01+09:00",
+ "fetched_at": "2026-11-10T07:06:01+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

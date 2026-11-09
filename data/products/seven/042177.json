@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "042177",
+ "name": "おはようパーソナリティ古川昌希です　番組応援　相盛おむすび",
+ "category": null,
+ "price_excl_tax": 278,
+ "price_incl_tax": 300.24,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "豚生姜焼きとツナマヨネーズを組み合わせたおにぎりです。",
+ "nutrition": {
+  "kcal": 316.0,
+  "protein_g": 7.6,
+  "fat_g": 7.5,
+  "carbs_g": 56.0,
+  "sugar_g": 53.2,
+  "fiber_g": 2.8,
+  "salt_g": 1.5,
+  "raw": "熱量：316kcal、たんぱく質：7.6g、脂質：7.5g、炭水化物：56.0g（糖質：53.2g、食物繊維：2.8g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 278,
+   "price_incl_tax": 300.24,
+   "url": "https://www.sej.co.jp/products/a/item/042177/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042177/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042177/kinki/"
+ ],
+ "first_seen_at": "2026-11-10T07:05:07+09:00",
+ "fetched_at": "2026-11-10T07:05:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

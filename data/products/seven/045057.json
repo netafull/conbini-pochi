@@ -1,0 +1,150 @@
+{
+ "chain": "seven",
+ "product_id": "045057",
+ "name": "のり弁おむすび",
+ "category": null,
+ "price_excl_tax": 230,
+ "price_incl_tax": 248.4,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "山梨県",
+  "長野県",
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "九州"
+ ],
+ "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、山梨県、長野県、岐阜県、愛知県、三重県、九州",
+ "description": "白身フライ，ちくわの礒部揚げ，おかか入りきんぴらごぼう，タルタルソースを組み合わせたおむすびです。",
+ "nutrition": {
+  "kcal": 338.0,
+  "protein_g": 7.0,
+  "fat_g": 11.5,
+  "carbs_g": 52.8,
+  "sugar_g": 50.2,
+  "fiber_g": 2.6,
+  "salt_g": 1.5,
+  "raw": "熱量：338kcal、たんぱく質：7.0g、脂質：11.5g、炭水化物：52.8g（糖質：50.2g、食物繊維：2.6g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、山梨県、長野県、岐阜県、愛知県、三重県、九州",
+   "regions": [
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "九州"
+   ],
+   "price_excl_tax": 230,
+   "price_incl_tax": 248.4,
+   "url": "https://www.sej.co.jp/products/a/item/045057/tohoku/"
+  },
+  "kanto": {
+   "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、山梨県、長野県、岐阜県、愛知県、三重県、九州",
+   "regions": [
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "九州"
+   ],
+   "price_excl_tax": 230,
+   "price_incl_tax": 248.4,
+   "url": "https://www.sej.co.jp/products/a/item/045057/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、山梨県、長野県、岐阜県、愛知県、三重県、九州",
+   "regions": [
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "九州"
+   ],
+   "price_excl_tax": 230,
+   "price_incl_tax": 248.4,
+   "url": "https://www.sej.co.jp/products/a/item/045057/koshinetsu/"
+  },
+  "tokai": {
+   "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、山梨県、長野県、岐阜県、愛知県、三重県、九州",
+   "regions": [
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "九州"
+   ],
+   "price_excl_tax": 230,
+   "price_incl_tax": 248.4,
+   "url": "https://www.sej.co.jp/products/a/item/045057/tokai/"
+  },
+  "kyushu": {
+   "region_text": "東北、茨城県、栃木県、群馬県、埼玉県、山梨県、長野県、岐阜県、愛知県、三重県、九州",
+   "regions": [
+    "東北",
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "山梨県",
+    "長野県",
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "九州"
+   ],
+   "price_excl_tax": 230,
+   "price_incl_tax": 248.4,
+   "url": "https://www.sej.co.jp/products/a/item/045057/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045057/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045057/kanto/",
+  "https://www.sej.co.jp/products/a/item/045057/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/045057/kyushu/",
+  "https://www.sej.co.jp/products/a/item/045057/tohoku/",
+  "https://www.sej.co.jp/products/a/item/045057/tokai/"
+ ],
+ "first_seen_at": "2026-11-10T07:02:43+09:00",
+ "fetched_at": "2026-11-10T07:02:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

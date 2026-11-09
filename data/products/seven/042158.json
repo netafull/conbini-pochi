@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "042158",
+ "name": "大きなおむすび　ツナマヨネーズおかか藤五郎梅",
+ "category": null,
+ "price_excl_tax": 298,
+ "price_incl_tax": 321.84,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "新潟県"
+ ],
+ "region_text": "新潟県",
+ "description": "ツナマヨネーズ，おかか，藤五郎梅と３種類の具材を楽しめる大きなおむすびです。",
+ "nutrition": {
+  "kcal": 335.0,
+  "protein_g": 7.3,
+  "fat_g": 6.2,
+  "carbs_g": 64.2,
+  "sugar_g": 61.0,
+  "fiber_g": 3.2,
+  "salt_g": 2.8,
+  "raw": "熱量：335kcal、たんぱく質：7.3g、脂質：6.2g、炭水化物：64.2g（糖質：61.0g、食物繊維：3.2g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県",
+   "regions": [
+    "新潟県"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/042158/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042158/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042158/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-10T07:04:07+09:00",
+ "fetched_at": "2026-11-10T07:04:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

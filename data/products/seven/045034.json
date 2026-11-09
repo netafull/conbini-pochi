@@ -187,20 +187,54 @@
    "price_excl_tax": 248,
    "price_incl_tax": 267.84,
    "url": "https://www.sej.co.jp/products/a/item/045034/shikoku/"
+  },
+  "hokuriku": {
+   "region_text": "関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/hokuriku/"
+  },
+  "kyushu": {
+   "region_text": "関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/045034/kyushu/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/045034/hokkaido/",
  "official_urls": [
   "https://www.sej.co.jp/products/a/item/045034/chugoku/",
   "https://www.sej.co.jp/products/a/item/045034/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/045034/hokuriku/",
   "https://www.sej.co.jp/products/a/item/045034/kanto/",
   "https://www.sej.co.jp/products/a/item/045034/kinki/",
   "https://www.sej.co.jp/products/a/item/045034/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/045034/kyushu/",
   "https://www.sej.co.jp/products/a/item/045034/shikoku/",
   "https://www.sej.co.jp/products/a/item/045034/tokai/"
  ],
  "first_seen_at": "2026-11-03T07:01:55+09:00",
- "fetched_at": "2026-11-03T07:01:55+09:00",
+ "fetched_at": "2026-11-10T07:00:43+09:00",
  "source_list": "nextweek",
  "image": null
 }

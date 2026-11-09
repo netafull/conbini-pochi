@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "042793",
+ "name": "ふんわり玉子のとん玉丼（甘辛醤油仕立て）",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "玉ねぎやにんにくの旨味を効かせた醤油タレで味付けた豚焼肉と、ふんわり玉子を組み合わせた丼ぶりです。",
+ "nutrition": {
+  "kcal": 633.0,
+  "protein_g": 25.7,
+  "fat_g": 18.7,
+  "carbs_g": 91.0,
+  "sugar_g": 89.8,
+  "fiber_g": 1.2,
+  "salt_g": 3.5,
+  "raw": "熱量：633kcal、たんぱく質：25.7g、脂質：18.7g、炭水化物：91.0g（糖質：89.8g、食物繊維：1.2g）、食塩相当量：3.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/042793/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042793/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042793/hokuriku/"
+ ],
+ "first_seen_at": "2026-11-10T07:04:56+09:00",
+ "fetched_at": "2026-11-10T07:04:56+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

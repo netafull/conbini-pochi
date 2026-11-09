@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "042189",
+ "name": "ぷちもち食感！もち麦おむすび　梅わかめ",
+ "category": null,
+ "price_excl_tax": 138,
+ "price_incl_tax": 149.04,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "プチプチした食感のもち麦を合わせかつおだし等で炊いたご飯に、三陸産わかめと梅を混ぜ込んだおむすびです",
+ "nutrition": {
+  "kcal": 148.0,
+  "protein_g": 4.0,
+  "fat_g": 0.8,
+  "carbs_g": 32.6,
+  "sugar_g": 29.9,
+  "fiber_g": 2.7,
+  "salt_g": 1.7,
+  "raw": "熱量：148kcal、たんぱく質：4.0g、脂質：0.8g、炭水化物：32.6g（糖質：29.9g、食物繊維：2.7g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 138,
+   "price_incl_tax": 149.04,
+   "url": "https://www.sej.co.jp/products/a/item/042189/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042189/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042189/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-10T07:00:56+09:00",
+ "fetched_at": "2026-11-10T07:00:56+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

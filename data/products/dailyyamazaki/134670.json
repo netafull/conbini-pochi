@@ -1,0 +1,22 @@
+{
+ "chain": "dailyyamazaki",
+ "product_id": "134670",
+ "name": "鶏天弁当",
+ "category": "お弁当",
+ "price_excl_tax": 647,
+ "price_incl_tax": 698,
+ "launch_date": "2026-11-10",
+ "launch_text": "11月10日（火）発売の新商品",
+ "regions": null,
+ "region_text": null,
+ "description": "甘辛たれをかけた柔らか鶏天弁当。ピリ辛高菜とさっぱり紅生姜が美味しさを引き立てます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.daily-yamazaki.jp/new/",
+ "first_seen_at": "2026-11-10T07:07:31+09:00",
+ "fetched_at": "2026-11-10T07:07:31+09:00",
+ "source_list": "new",
+ "image": null
+}

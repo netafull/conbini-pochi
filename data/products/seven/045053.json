@@ -1,0 +1,137 @@
+{
+ "chain": "seven",
+ "product_id": "045053",
+ "name": "おおきなおむすび　枝豆としゃけ",
+ "category": null,
+ "price_excl_tax": 220,
+ "price_incl_tax": 237.6,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "山梨県",
+  "長野県",
+  "北陸",
+  "近畿",
+  "九州"
+ ],
+ "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、北陸、近畿、九州",
+ "description": "食べ応えのあるおおきなおむすびです。枝豆とほぐしたしゃけをご飯に混ぜ込み、彩り良く仕上げました。",
+ "nutrition": {
+  "kcal": 253.0,
+  "protein_g": 6.0,
+  "fat_g": 2.6,
+  "carbs_g": 52.8,
+  "sugar_g": 50.1,
+  "fiber_g": 2.7,
+  "salt_g": 2.7,
+  "raw": "熱量：253kcal、たんぱく質：6.0g、脂質：2.6g、炭水化物：52.8g（糖質：50.1g、食物繊維：2.7g）、食塩相当量：2.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、北陸、近畿、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "北陸",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 220,
+   "price_incl_tax": 237.6,
+   "url": "https://www.sej.co.jp/products/a/item/045053/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、北陸、近畿、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "北陸",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 220,
+   "price_incl_tax": 237.6,
+   "url": "https://www.sej.co.jp/products/a/item/045053/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、北陸、近畿、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "北陸",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 220,
+   "price_incl_tax": 237.6,
+   "url": "https://www.sej.co.jp/products/a/item/045053/hokuriku/"
+  },
+  "kinki": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、北陸、近畿、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "北陸",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 220,
+   "price_incl_tax": 237.6,
+   "url": "https://www.sej.co.jp/products/a/item/045053/kinki/"
+  },
+  "kyushu": {
+   "region_text": "埼玉県、千葉県、東京都、神奈川県、山梨県、長野県、北陸、近畿、九州",
+   "regions": [
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "山梨県",
+    "長野県",
+    "北陸",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 220,
+   "price_incl_tax": 237.6,
+   "url": "https://www.sej.co.jp/products/a/item/045053/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045053/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045053/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/045053/kanto/",
+  "https://www.sej.co.jp/products/a/item/045053/kinki/",
+  "https://www.sej.co.jp/products/a/item/045053/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/045053/kyushu/"
+ ],
+ "first_seen_at": "2026-11-10T07:03:49+09:00",
+ "fetched_at": "2026-11-10T07:03:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

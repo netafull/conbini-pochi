@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "045073",
+ "name": "手巻おにぎり　おかか",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "旨味の効いた出汁と醤油で炊き上げたしっとりおかかを中具にした手巻おにぎりです。",
+ "nutrition": {
+  "kcal": 174.0,
+  "protein_g": 4.0,
+  "fat_g": 0.9,
+  "carbs_g": 38.6,
+  "sugar_g": 36.5,
+  "fiber_g": 2.1,
+  "salt_g": 1.3,
+  "raw": "熱量：174kcal、たんぱく質：4.0g、脂質：0.9g、炭水化物：38.6g（糖質：36.5g、食物繊維：2.1g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/045073/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045073/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045073/okinawa/"
+ ],
+ "first_seen_at": "2026-11-10T07:06:49+09:00",
+ "fetched_at": "2026-11-10T07:06:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

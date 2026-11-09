@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "045072",
+ "name": "広島菜とちりめんの天タレおむすび",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "鳥取県",
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "鳥取県、島根県、広島県、山口県",
+ "description": "かき醤油とだしを加えて炊いた「だしご飯」に広島菜漬、ちりめん煮、天かす煮を加えた混ぜご飯のおむすびです。",
+ "nutrition": {
+  "kcal": 176.0,
+  "protein_g": 3.7,
+  "fat_g": 1.5,
+  "carbs_g": 37.7,
+  "sugar_g": 36.2,
+  "fiber_g": 1.5,
+  "salt_g": 2.1,
+  "raw": "熱量：176kcal、たんぱく質：3.7g、脂質：1.5g、炭水化物：37.7g（糖質：36.2g、食物繊維：1.5g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "鳥取県、島根県、広島県、山口県",
+   "regions": [
+    "鳥取県",
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/045072/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045072/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045072/chugoku/"
+ ],
+ "first_seen_at": "2026-11-10T07:05:25+09:00",
+ "fetched_at": "2026-11-10T07:05:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

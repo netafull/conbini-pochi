@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "045050",
+ "name": "ガラスープの旨み　肉あんかけチャーハン",
+ "category": null,
+ "price_excl_tax": 618,
+ "price_incl_tax": 667.44,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "高温で炒めた香ばしい玉子チャーハンに鶏ガラの旨みを効かせたあんと豚肉を組み合わせたボリューム感のあるお弁当です",
+ "nutrition": {
+  "kcal": 733.0,
+  "protein_g": 31.8,
+  "fat_g": 28.1,
+  "carbs_g": 90.0,
+  "sugar_g": 86.4,
+  "fiber_g": 3.6,
+  "salt_g": 5.1,
+  "raw": "熱量：733kcal、たんぱく質：31.8g、脂質：28.1g、炭水化物：90.0g（糖質：86.4g、食物繊維：3.6g）、食塩相当量：5.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 618,
+   "price_incl_tax": 667.44,
+   "url": "https://www.sej.co.jp/products/a/item/045050/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045050/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045050/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-10T07:01:31+09:00",
+ "fetched_at": "2026-11-10T07:01:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
