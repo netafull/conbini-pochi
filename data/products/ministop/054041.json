@@ -1,0 +1,22 @@
+{
+ "chain": "ministop",
+ "product_id": "054041",
+ "name": "ダブルチョコロールパン",
+ "category": "パン",
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": null,
+ "region_text": "全国",
+ "description": "ふんわりとした白生地のロールパンにパフ入りチョコクリームとチョコホイップをサンドしました。パフ入りチョコクリームのサクサクとした食感がお楽しみいただけます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail054041.html",
+ "first_seen_at": "2026-11-11T07:00:57+09:00",
+ "fetched_at": "2026-11-11T07:00:57+09:00",
+ "source_list": "recommend",
+ "image": null
+}

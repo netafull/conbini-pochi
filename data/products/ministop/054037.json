@@ -1,0 +1,28 @@
+{
+ "chain": "ministop",
+ "product_id": "054037",
+ "name": "辛ねぎ味噌ラーメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 560,
+ "price_incl_tax": 604.8,
+ "launch_date": "2026-11-10",
+ "launch_text": "2026年11月10日",
+ "regions": [
+  "関東",
+  "東海",
+  "近畿",
+  "四国",
+  "九州"
+ ],
+ "region_text": "関東、東海、近畿、四国、九州",
+ "description": "赤味噌と白味噌、にんにく、生姜、香辛料をブレンドした濃厚な味噌スープに、豆板醤を加えて旨辛く仕上げたラーメンです。野菜炒めと、ラー油で和えた白髪ねぎをトッピングしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail054037.html",
+ "first_seen_at": "2026-11-11T07:01:09+09:00",
+ "fetched_at": "2026-11-11T07:01:09+09:00",
+ "source_list": "recommend",
+ "image": null
+}
