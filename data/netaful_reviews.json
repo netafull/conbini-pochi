@@ -2772,6 +2772,18 @@
   ],
   "lawson": [
    {
+    "date": "2026-11-12T11:30:00",
+    "id": 212549,
+    "link": "https://netaful.jp/lawson/0212549.html",
+    "product_name": "名店 若武者 特濃旨辛 鶏台湾",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/lawson-tokuuma-tori-004-485x364.jpg",
+     "width": 485
+    },
+    "title": "【ローソン】「名店 若武者 特濃旨辛 鶏台湾」濃厚こってりの鶏白湯にピリ辛が相性抜群"
+   },
+   {
     "date": "2026-11-02T12:30:00",
     "id": 211913,
     "link": "https://netaful.jp/lawson/0211913.html",
@@ -12082,7 +12094,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-12T07:01:01+09:00",
+ "fetched_at": "2026-11-13T07:01:01+09:00",
  "matches": {
   "familymart-0412018": [
    210488
