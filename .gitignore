@@ -4,3 +4,8 @@ __pycache__/
 data/run_summary.json
 # 公式ページのスナップショット(規約対策でリポジトリに入れない。tests/fixtures_manifest.txt 参照)
 tests/fixtures/
+
+# 秘密情報（2026-11-13監査対応で追加）
+.env
+.env.*
+!.env.example
