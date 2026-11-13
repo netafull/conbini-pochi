@@ -366,6 +366,25 @@ class TestCardLinksAreRootAbsolute(unittest.TestCase):
         self.assertNotIn('href="items/', html)
 
 
+class TestVisibleBreadcrumbs(unittest.TestCase):
+    """見えるパンくず（タイトルの下）。crumbs を渡したグリッドページだけに出す（2026-11-13追加）。"""
+
+    TRAIL = [("トップ", "https://conbini.netaful.jp/"),
+             ("セブン-イレブン", "https://conbini.netaful.jp/chains/seven/")]
+
+    def test_grid_page_with_crumbs_shows_nav_under_title(self):
+        html = gs.render_grid_page("セブン-イレブン", "d", [make_item("seven", "1se")],
+                                   "https://conbini.netaful.jp/chains/seven/", crumbs=self.TRAIL)
+        nav = ('<nav class="crumbs" aria-label="パンくずリスト"><a data-google-vignette="false" href="/">トップ</a>'
+               ' &gt; <span aria-current="page">セブン-イレブン</span></nav>')
+        self.assertIn(nav, html)
+        self.assertLess(html.index('<h1 class="page-title">'), html.index(nav))
+
+    def test_grid_page_without_crumbs_has_no_nav(self):
+        html = gs.render_grid_page("週", "d", [make_item("seven", "1se")], "https://x/")
+        self.assertNotIn('aria-label="パンくずリスト"', html)
+
+
 class TestRegionAndDisambiguation(unittest.TestCase):
     """同名商品の補足(販売地域→発売月→発売日→価格の順)。同名でない商品は変えない。"""
 

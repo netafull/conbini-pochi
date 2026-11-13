@@ -746,9 +746,11 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
     チェーン別ページのように見出しと変えたいときに分ける。crumbs: パンくずの(名前, URL)の並び。"""
     heading = heading or title
     ld = breadcrumb_ld(crumbs) if crumbs else ""
+    nav = breadcrumb_nav(crumbs) if crumbs else ""
+    navline = (nav + "\n") if nav else ""   # パンくずが無いページでは空白行も出さない（従来の出力と完全一致させる）
     reviews_section = render_review_cards("ネタフルの最新レビュー", latest_reviews(review_chain, 5))
     if not items:
-        body = (f"<h1 class='page-title'>{esc(heading)}</h1><p class='empty'>商品がありません。</p>\n"
+        body = (f"<h1 class='page-title'>{esc(heading)}</h1>{nav}<p class='empty'>商品がありません。</p>\n"
                 f"{reviews_section}")
         return page_shell(title, description, body, canonical, extra_head=ld)
     filters = ""
@@ -760,7 +762,7 @@ def render_grid_page(title: str, description: str, items: list[dict], canonical:
 {chain_options()}</select></label>
 </div>"""
     body = f"""<h1 class="page-title">{esc(heading)} ({len(items)}件)</h1>
-{filters}
+{navline}{filters}
 {render_grouped(items)}
 {render_ad_template() if show_filters else ""}
 {SORT_JS if show_filters else ""}
@@ -895,6 +897,19 @@ def breadcrumb_ld(crumbs: list[tuple[str, str]]) -> str:
         ],
     }
     return f'<script type="application/ld+json">{json.dumps(data, ensure_ascii=False)}</script>'
+
+
+def breadcrumb_nav(crumbs: list[tuple[str, str]]) -> str:
+    """見えるパンくず（タイトルの下）。JSON-LD と同じ crumbs を渡し、末尾（現在のページ）はリンクにしない。
+    href はサイト内パスにする（商品ページの既存の nav.crumbs と同じ書き方）。"""
+    site_url = CONFIG.get("site_url", "")
+    parts = []
+    for name, url in crumbs[:-1]:
+        href = url[len(site_url):] if site_url and url.startswith(site_url) else url
+        parts.append(f'<a href="/{esc(href.lstrip("/"))}">{esc(name)}</a>')
+    if crumbs:
+        parts.append(f'<span aria-current="page">{esc(crumbs[-1][0])}</span>')
+    return '<nav class="crumbs" aria-label="パンくずリスト">' + " &gt; ".join(parts) + "</nav>"
 
 
 def item_regions(item: dict) -> list[str]:
