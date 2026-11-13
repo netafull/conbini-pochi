@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534274",
+ "name": "国産さつま芋使用　さつま芋けんぴ　50％増量",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 130,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026.11.17",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いのない場合もございます。",
+ "description": "芋本来の風味を楽しめる、ほんのりとした甘味の芋けんぴです。",
+ "nutrition": {
+  "kcal": 496.0,
+  "protein_g": 1.5,
+  "fat_g": 23.0,
+  "carbs_g": 72.0,
+  "sugar_g": 69.1,
+  "fiber_g": 2.9,
+  "salt_g": 0.1,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装(101g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>496kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>1.5g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>23.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>72.0g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>69.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>2.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 101g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534274_1996.html",
+ "first_seen_at": "2026-11-14T07:02:37+09:00",
+ "fetched_at": "2026-11-14T07:02:37+09:00",
+ "source_list": "/recommend/new/list/1534243_5162.html",
+ "image": null
+}

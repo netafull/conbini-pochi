@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "1751819",
+ "name": "Afternoon Tea監修　チャイティーラテ",
+ "category": "飲料",
+ "price_excl_tax": 208,
+ "price_incl_tax": 224,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "「Afternoon Tea」監修のチャイティーラテです。生乳を50％使用したコクのあるミルクの味わいが特徴です。アッサム茶葉と複数のスパイスの香りで冬の時期に飲みたくなる仕立てです。※沖縄では税込263円です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/drink/1751819.html",
+ "first_seen_at": "2026-11-14T07:01:43+09:00",
+ "fetched_at": "2026-11-14T07:01:43+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-17",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "0515801",
+ "name": "五目いなり寿司",
+ "category": "お寿司",
+ "price_excl_tax": 202,
+ "price_incl_tax": 218,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "五目具材（たけのこ・ごぼう・人参・しいたけ・れんこん）を酢飯に混ぜ込み、甘みのあるお揚げと合わせたいなり寿司です。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sushi/0515801.html",
+ "first_seen_at": "2026-11-14T07:02:00+09:00",
+ "fetched_at": "2026-11-14T07:02:00+09:00",
+ "source_list": "lastweek",
+ "list_week_start": "2026-11-03",
+ "image": null
+}

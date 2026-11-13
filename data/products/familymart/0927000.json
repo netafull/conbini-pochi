@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0927000",
+ "name": "ホットサンド　ベーコンのパニーニ",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日",
+ "regions": [
+  "中国・四国"
+ ],
+ "region_text": "四国",
+ "description": "四国限定「ファミマの焼きたてキッチン」の商品です。焼き色が特徴のパニーニに、ベーコン・マスタード・チーズソースをサンドしました。お店のオーブンで焼き上げると、さらにおいしくお召し上がりいただけます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0927000.html",
+ "first_seen_at": "2026-11-14T07:00:52+09:00",
+ "fetched_at": "2026-11-14T07:00:52+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-17",
+ "image": null
+}

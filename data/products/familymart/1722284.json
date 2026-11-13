@@ -1,0 +1,27 @@
+{
+ "chain": "familymart",
+ "product_id": "1722284",
+ "name": "ピーチミルク",
+ "category": "飲料",
+ "price_excl_tax": 269,
+ "price_incl_tax": 290,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東"
+ ],
+ "region_text": "北海道・東北・関東",
+ "description": "黄桃と白桃果肉が入った飲みごたえのあるデザート飲料です。2種類の桃の味わいとミルクのまろやかさがバランス良く味わえる仕立てです。［ファミリーマート限定・数量限定］※静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/drink/1722284.html",
+ "first_seen_at": "2026-11-14T07:01:40+09:00",
+ "fetched_at": "2026-11-14T07:01:40+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-17",
+ "image": null
+}

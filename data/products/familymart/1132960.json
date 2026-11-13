@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "1132960",
+ "name": "たんぱく質12.2gねぎ塩チキン&キャベツ",
+ "category": "チルド惣菜",
+ "price_excl_tax": 323,
+ "price_incl_tax": 348,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "たんぱく質が摂れるおつまみ惣菜です。鶏むね肉に、レモンとブラックペッパーが決め手のねぎ塩ダレと、キャベツ、きゅうり、もやしを合わせました。※北海道地方では仕様が異なります。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/1132960.html",
+ "first_seen_at": "2026-11-14T07:01:16+09:00",
+ "fetched_at": "2026-11-14T07:01:16+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-17",
+ "image": null
+}

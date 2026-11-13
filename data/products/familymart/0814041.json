@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0814041",
+ "name": "函館あじさい監修　塩ラーメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "函館で人気の「函館麺厨房あじさい」が監修した塩ラーメンです。昆布のうまみを引き出し、コクのあるスープに背脂を加えました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0814041.html",
+ "first_seen_at": "2026-11-14T07:01:00+09:00",
+ "fetched_at": "2026-11-14T07:01:00+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-17",
+ "image": null
+}

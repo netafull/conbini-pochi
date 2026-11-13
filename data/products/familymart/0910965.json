@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0910965",
+ "name": "全粒粉サンド　サーモン&パストラミポーク",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 378,
+ "price_incl_tax": 408,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "関東",
+ "description": "サーモンとパストラミポークの2種類の具材が楽しめる全粒粉パンのサンドイッチです。※静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0910965.html",
+ "first_seen_at": "2026-11-14T07:00:39+09:00",
+ "fetched_at": "2026-11-14T07:00:39+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-17",
+ "image": null
+}

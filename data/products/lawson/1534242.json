@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534242",
+ "name": "盛りすぎ！プレミアムロールケーキ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 214,
+ "launch_date": "2026-11-16",
+ "launch_text": "2026.11.16",
+ "regions": null,
+ "region_text": null,
+ "description": "人気のプレミアムロールケーキの総重量が50％増量となって期間限定で登場！",
+ "nutrition": {
+  "kcal": 390.0,
+  "protein_g": 3.1,
+  "fat_g": 31.0,
+  "carbs_g": 24.7,
+  "sugar_g": 24.4,
+  "fiber_g": 0.3,
+  "salt_g": 0.1,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>390kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>3.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>31.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>24.7g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>24.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>0.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.10g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1個",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534242_1996.html",
+ "first_seen_at": "2026-11-14T07:04:22+09:00",
+ "fetched_at": "2026-11-14T07:04:22+09:00",
+ "source_list": "/recommend/new/list/1534244_5162.html",
+ "image": null
+}

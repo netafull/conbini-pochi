@@ -1,0 +1,26 @@
+{
+ "chain": "familymart",
+ "product_id": "0910941",
+ "name": "全粒粉サンド　チキン&きんぴらごぼう",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 378,
+ "price_incl_tax": 408,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日",
+ "regions": [
+  "東北",
+  "関東"
+ ],
+ "region_text": "東北の一部・関東",
+ "description": "甘辛いきんぴらごぼうとテリヤキチキンに、たまご、野菜、ピリ辛ごまマヨソースなどを合わせて全粒粉パンで挟みました。※東北地方の一部、静岡県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0910941.html",
+ "first_seen_at": "2026-11-14T07:00:46+09:00",
+ "fetched_at": "2026-11-14T07:00:46+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-17",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534287",
+ "name": "濃すぎ　飲むおだし",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 218,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026.11.17",
+ "regions": null,
+ "region_text": null,
+ "description": "かつお節、しいたけ、ホタテ、昆布、煮干し、焼きあごの6種の素材の旨みが楽しめる、ストローで飲むおだし。お酒の割材や料理にも活用できます。",
+ "nutrition": {
+  "kcal": 13.0,
+  "protein_g": 1.1,
+  "fat_g": 0.0,
+  "carbs_g": 2.2,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 2.4,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1本(270g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>13kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>1.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>2.2g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>2.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 270g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534287_1996.html",
+ "first_seen_at": "2026-11-14T07:02:46+09:00",
+ "fetched_at": "2026-11-14T07:02:46+09:00",
+ "source_list": "/recommend/new/list/1534243_5162.html",
+ "image": null
+}
