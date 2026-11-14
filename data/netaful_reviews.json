@@ -5604,6 +5604,18 @@
   ],
   "seven": [
    {
+    "date": "2026-11-14T15:30:00",
+    "id": 212705,
+    "link": "https://netaful.jp/seven-eleven/0212705.html",
+    "product_name": "CAFE BOX チキンケバブライス",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/711-chicken-kebab-006-485x364.jpg",
+     "width": 485
+    },
+    "title": "【セブン】「CAFE BOX チキンケバブライス」スパイスの効いた特製ソースでパンチあり！384gの食べごたえ"
+   },
+   {
     "date": "2026-11-07T17:00:00",
     "id": 212241,
     "link": "https://netaful.jp/seven-eleven/0212241.html",
@@ -12094,7 +12106,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-14T07:04:40+09:00",
+ "fetched_at": "2026-11-15T07:01:02+09:00",
  "matches": {
   "familymart-0412018": [
    210488
@@ -12134,6 +12146,9 @@
   ],
   "seven-044492": [
    209648
+  ],
+  "seven-044706": [
+   212705
   ],
   "seven-044802": [
    211336
