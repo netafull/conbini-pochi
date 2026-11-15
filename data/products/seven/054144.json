@@ -1,0 +1,72 @@
+{
+ "chain": "seven",
+ "product_id": "054144",
+ "name": "北海道産きたあかり使用ハムポテトロール",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-18",
+ "launch_text": "2026年11月18日（水）以降順次発売",
+ "regions": [
+  "東北",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "北海道産きたあかりを使用したハムポテトサラダをコッペパンに挟みました。",
+ "nutrition": {
+  "kcal": 213.0,
+  "protein_g": 6.0,
+  "fat_g": 8.8,
+  "carbs_g": 28.3,
+  "sugar_g": 26.4,
+  "fiber_g": 1.9,
+  "salt_g": 1.5,
+  "raw": "熱量：213kcal、たんぱく質：6.0g、脂質：8.8g、炭水化物：28.3g（糖質：26.4g、食物繊維：1.9g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/054144/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054144/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054144/shikoku/"
+ ],
+ "first_seen_at": "2026-11-16T07:01:02+09:00",
+ "fetched_at": "2026-11-16T07:01:02+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

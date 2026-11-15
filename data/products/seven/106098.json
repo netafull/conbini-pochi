@@ -1,0 +1,68 @@
+{
+ "chain": "seven",
+ "product_id": "106098",
+ "name": "手包みロールキャベツ入りポトフ",
+ "category": null,
+ "price_excl_tax": 458,
+ "price_incl_tax": 494.64,
+ "launch_date": "2026-11-19",
+ "launch_text": "2026年11月19日（木）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "新潟県",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "北海道、東北、関東、新潟県、北陸、東海、近畿、中国、九州、沖縄",
+ "description": "１／３日分の野菜がとれ、ウインナーやベーコンが入った食べ応えのあるポトフです。",
+ "nutrition": {
+  "kcal": 152.0,
+  "protein_g": 11.2,
+  "fat_g": 6.3,
+  "carbs_g": 14.4,
+  "sugar_g": 10.9,
+  "fiber_g": 3.5,
+  "salt_g": 3.0,
+  "raw": "熱量：152kcal、たんぱく質：11.2g、脂質：6.3g、炭水化物：14.4g（糖質：10.9g、食物繊維：3.5g）、食塩相当量：3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、東北、関東、新潟県、北陸、東海、近畿、中国、九州、沖縄",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 458,
+   "price_incl_tax": 494.64,
+   "url": "https://www.sej.co.jp/products/a/item/106098/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/106098/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/106098/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-16T07:00:43+09:00",
+ "fetched_at": "2026-11-16T07:00:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

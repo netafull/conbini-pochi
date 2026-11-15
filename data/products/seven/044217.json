@@ -1,0 +1,53 @@
+{
+ "chain": "seven",
+ "product_id": "044217",
+ "name": "ＣＡＦＥ　ＢＯＸ　サムギョプサル丼（麦飯）",
+ "category": null,
+ "price_excl_tax": 680,
+ "price_incl_tax": 734.4,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "彩り豊かなナムルと食べ応えのある豚肉を組み合わせたお弁当です。お好みでサムジャンを付けてお召し上がりください。",
+ "nutrition": {
+  "kcal": 652.0,
+  "protein_g": 22.3,
+  "fat_g": 29.9,
+  "carbs_g": 76.3,
+  "sugar_g": 70.5,
+  "fiber_g": 5.8,
+  "salt_g": 3.6,
+  "raw": "熱量：652kcal、たんぱく質：22.3g、脂質：29.9g、炭水化物：76.3g（糖質：70.5g、食物繊維：5.8g）、食塩相当量：3.6g"
+ },
+ "allergens": [
+  "小麦",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 680,
+   "price_incl_tax": 734.4,
+   "url": "https://www.sej.co.jp/products/a/item/044217/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044217/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044217/tokai/"
+ ],
+ "first_seen_at": "2026-11-16T07:00:50+09:00",
+ "fetched_at": "2026-11-16T07:00:50+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
