@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "042201",
+ "name": "脂とろける焼豚御飯（もち麦）　道産豚肉使用",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "もち麦を混ぜた御飯に豚トロを使用した焼豚や豚そぼろ、たまごそぼろと漬物を盛り付けました",
+ "nutrition": {
+  "kcal": 455.0,
+  "protein_g": 14.0,
+  "fat_g": 17.9,
+  "carbs_g": 62.2,
+  "sugar_g": 56.8,
+  "fiber_g": 5.4,
+  "salt_g": 1.7,
+  "raw": "熱量：455kcal、たんぱく質：14.0g、脂質：17.9g、炭水化物：62.2g（糖質：56.8g、食物繊維：5.4g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/042201/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042201/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042201/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-17T07:01:11+09:00",
+ "fetched_at": "2026-11-17T07:01:11+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

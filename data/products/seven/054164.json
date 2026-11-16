@@ -1,0 +1,58 @@
+{
+ "chain": "seven",
+ "product_id": "054164",
+ "name": "愛媛県産温州みかんサンド",
+ "category": null,
+ "price_excl_tax": 468,
+ "price_incl_tax": 505.44,
+ "launch_date": "2026-11-25",
+ "launch_text": "2026年11月25日（水）以降順次発売",
+ "regions": [
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国"
+ ],
+ "region_text": "鳥取県、島根県、岡山県、広島県、四国",
+ "description": "フレッシュな愛媛県産温州みかんがごろっと入ったフルーツサンドです。マスカルポーネ入りクリームで食べ進みの良い仕立てです。",
+ "nutrition": {
+  "kcal": 246.0,
+  "protein_g": 4.8,
+  "fat_g": 8.6,
+  "carbs_g": 38.1,
+  "sugar_g": 36.8,
+  "fiber_g": 1.3,
+  "salt_g": 0.5,
+  "raw": "熱量：246kcal、たんぱく質：4.8g、脂質：8.6g、炭水化物：38.1g（糖質：36.8g、食物繊維：1.3g）、食塩相当量：0.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 468,
+   "price_incl_tax": 505.44,
+   "url": "https://www.sej.co.jp/products/a/item/054164/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054164/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054164/shikoku/"
+ ],
+ "first_seen_at": "2026-11-17T07:05:53+09:00",
+ "fetched_at": "2026-11-17T07:05:53+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

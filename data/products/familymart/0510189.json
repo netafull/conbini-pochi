@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "0510189",
+ "name": "手巻寿司　シーチキン®マヨネーズ",
+ "category": "お寿司",
+ "price_excl_tax": 184,
+ "price_incl_tax": 198,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "かつお節やさば節を加えた旨みのあるだし醤油入りのタレを使用した、こだわりのシーチキンマヨネーズが味わえる手巻寿司です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sushi/0510189.html",
+ "first_seen_at": "2026-11-17T07:07:12+09:00",
+ "fetched_at": "2026-11-17T07:07:12+09:00",
+ "source_list": "lastweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

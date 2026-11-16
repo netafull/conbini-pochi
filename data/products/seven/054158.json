@@ -1,0 +1,84 @@
+{
+ "chain": "seven",
+ "product_id": "054158",
+ "name": "コク旨たまごサラダロール",
+ "category": null,
+ "price_excl_tax": 138,
+ "price_incl_tax": 149.04,
+ "launch_date": "2026-11-28",
+ "launch_text": "2026年11月28日（土）以降順次発売",
+ "regions": [
+  "東北",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国",
+  "九州"
+ ],
+ "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+ "description": "定番商品であるたまごサラダを挟んだロールパンです。コクを上げたたまごサラダをトッピングしました。",
+ "nutrition": {
+  "kcal": 280.0,
+  "protein_g": 6.8,
+  "fat_g": 19.0,
+  "carbs_g": 21.1,
+  "sugar_g": 19.9,
+  "fiber_g": 1.2,
+  "salt_g": 1.0,
+  "raw": "熱量：280kcal、たんぱく質：6.8g、脂質：19.0g、炭水化物：21.1g（糖質：19.9g、食物繊維：1.2g）、食塩相当量：1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 138,
+   "price_incl_tax": 149.04,
+   "url": "https://www.sej.co.jp/products/a/item/054158/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "東北、関東、甲信越、北陸、東海、近畿、中国、四国、九州",
+   "regions": [
+    "東北",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州"
+   ],
+   "price_excl_tax": 138,
+   "price_incl_tax": 149.04,
+   "url": "https://www.sej.co.jp/products/a/item/054158/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054158/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054158/kyushu/",
+  "https://www.sej.co.jp/products/a/item/054158/shikoku/"
+ ],
+ "first_seen_at": "2026-11-17T07:06:05+09:00",
+ "fetched_at": "2026-11-17T07:06:05+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

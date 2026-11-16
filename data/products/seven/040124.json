@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "040124",
+ "name": "ソーセージステーキ＆豚焼肉弁当",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "香ばしく焼いたソーセージステーキと甘辛いタレで味付けした豚焼肉を組み合わせた食べ応えのあるお弁当です",
+ "nutrition": {
+  "kcal": 734.0,
+  "protein_g": 23.5,
+  "fat_g": 25.0,
+  "carbs_g": 104.7,
+  "sugar_g": 102.9,
+  "fiber_g": 1.8,
+  "salt_g": 4.4,
+  "raw": "熱量：734kcal、たんぱく質：23.5g、脂質：25.0g、炭水化物：104.7g（糖質：102.9g、食物繊維：1.8g）、食塩相当量：4.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/040124/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040124/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040124/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-17T07:01:06+09:00",
+ "fetched_at": "2026-11-17T07:01:06+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

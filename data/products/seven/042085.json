@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "042085",
+ "name": "味噌たっぷり　味噌おにぎり",
+ "category": null,
+ "price_excl_tax": 158,
+ "price_incl_tax": 170.64,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "群馬県",
+  "埼玉県"
+ ],
+ "region_text": "群馬県、埼玉県",
+ "description": "原材料高騰の為、商品価格を変更しております。群馬県で馴染みのある、味噌を塗ったおにぎりです。",
+ "nutrition": {
+  "kcal": 198.0,
+  "protein_g": 4.1,
+  "fat_g": 1.8,
+  "carbs_g": 42.3,
+  "sugar_g": 40.2,
+  "fiber_g": 2.1,
+  "salt_g": 2.2,
+  "raw": "熱量：198kcal、たんぱく質：4.1g、脂質：1.8g、炭水化物：42.3g（糖質：40.2g、食物繊維：2.1g）、食塩相当量：2.2g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "群馬県、埼玉県",
+   "regions": [
+    "群馬県",
+    "埼玉県"
+   ],
+   "price_excl_tax": 158,
+   "price_incl_tax": 170.64,
+   "url": "https://www.sej.co.jp/products/a/item/042085/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042085/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042085/kanto/"
+ ],
+ "first_seen_at": "2026-11-17T07:02:41+09:00",
+ "fetched_at": "2026-11-17T07:02:41+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

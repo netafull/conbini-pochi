@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "042260",
+ "name": "山形県産つや姫おむすび　鮭ハラスの照焼",
+ "category": null,
+ "price_excl_tax": 268,
+ "price_incl_tax": 289.44,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "脂のりが良い鮭のお腹部分の身、ハラスを照焼タレで和えて中具にしたおむすびです。",
+ "nutrition": {
+  "kcal": 230.0,
+  "protein_g": 4.9,
+  "fat_g": 6.2,
+  "carbs_g": 39.4,
+  "sugar_g": 37.9,
+  "fiber_g": 1.5,
+  "salt_g": 1.6,
+  "raw": "熱量：230kcal、たんぱく質：4.9g、脂質：6.2g、炭水化物：39.4g（糖質：37.9g、食物繊維：1.5g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 268,
+   "price_incl_tax": 289.44,
+   "url": "https://www.sej.co.jp/products/a/item/042260/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042260/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042260/kinki/"
+ ],
+ "first_seen_at": "2026-11-17T07:05:05+09:00",
+ "fetched_at": "2026-11-17T07:05:05+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

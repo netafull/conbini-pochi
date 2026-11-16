@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "040043",
+ "name": "天タレまぶしおむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "甘じょっぱいタレが染みた天かすを混ぜ込んだおむすびです。鰹だしが香るやみつき感のある味付けです。",
+ "nutrition": {
+  "kcal": 304.0,
+  "protein_g": 4.3,
+  "fat_g": 8.3,
+  "carbs_g": 54.9,
+  "sugar_g": 51.2,
+  "fiber_g": 3.7,
+  "salt_g": 2.8,
+  "raw": "熱量：304kcal、たんぱく質：4.3g、脂質：8.3g、炭水化物：54.9g（糖質：51.2g、食物繊維：3.7g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/040043/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040043/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040043/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-17T07:00:53+09:00",
+ "fetched_at": "2026-11-17T07:00:53+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

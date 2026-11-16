@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "042211",
+ "name": "とり五目ごはんおむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "新潟県"
+ ],
+ "region_text": "新潟県",
+ "description": "鶏ひき肉・人参・ごぼう・椎茸・油揚げをだしを効かせた調味液で煮込み、ごはんに混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 191.0,
+  "protein_g": 4.4,
+  "fat_g": 2.5,
+  "carbs_g": 38.4,
+  "sugar_g": 36.8,
+  "fiber_g": 1.6,
+  "salt_g": 1.5,
+  "raw": "熱量：191kcal、たんぱく質：4.4g、脂質：2.5g、炭水化物：38.4g（糖質：36.8g、食物繊維：1.6g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県",
+   "regions": [
+    "新潟県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/042211/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042211/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042211/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-17T07:03:17+09:00",
+ "fetched_at": "2026-11-17T07:03:17+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

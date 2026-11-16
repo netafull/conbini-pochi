@@ -1,0 +1,162 @@
+{
+ "chain": "seven",
+ "product_id": "054155",
+ "name": "アメリカンクラブハウスサンド",
+ "category": null,
+ "price_excl_tax": 490,
+ "price_incl_tax": 529.2,
+ "launch_date": "2026-11-25",
+ "launch_text": "2026年11月25日（水）以降順次発売",
+ "regions": [
+  "青森県",
+  "岩手県",
+  "宮城県",
+  "秋田県",
+  "山形県",
+  "関東",
+  "甲信越",
+  "北陸",
+  "東海",
+  "中国",
+  "四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "青森県、岩手県、宮城県、秋田県、山形県、関東、甲信越、北陸、東海、中国、四国、九州、沖縄",
+ "description": "トマト，レタス，ベーコン，チキン，茹で玉子を組み合わせ、１組にトーストした食パン３枚を使用したボリューム感と食べ応えのあるサンドイッチです。",
+ "nutrition": {
+  "kcal": 374.0,
+  "protein_g": 13.7,
+  "fat_g": 22.1,
+  "carbs_g": 31.2,
+  "sugar_g": 29.0,
+  "fiber_g": 2.2,
+  "salt_g": 1.9,
+  "raw": "熱量：374kcal、たんぱく質：13.7g、脂質：22.1g、炭水化物：31.2g（糖質：29.0g、食物繊維：2.2g）、食塩相当量：1.9g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、関東、甲信越、北陸、東海、中国、四国、九州、沖縄",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 490,
+   "price_incl_tax": 529.2,
+   "url": "https://www.sej.co.jp/products/a/item/054155/hokuriku/"
+  },
+  "chugoku": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、関東、甲信越、北陸、東海、中国、四国、九州、沖縄",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 490,
+   "price_incl_tax": 529.2,
+   "url": "https://www.sej.co.jp/products/a/item/054155/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、関東、甲信越、北陸、東海、中国、四国、九州、沖縄",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 490,
+   "price_incl_tax": 529.2,
+   "url": "https://www.sej.co.jp/products/a/item/054155/shikoku/"
+  },
+  "kyushu": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、関東、甲信越、北陸、東海、中国、四国、九州、沖縄",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 490,
+   "price_incl_tax": 529.2,
+   "url": "https://www.sej.co.jp/products/a/item/054155/kyushu/"
+  },
+  "okinawa": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、関東、甲信越、北陸、東海、中国、四国、九州、沖縄",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 490,
+   "price_incl_tax": 529.2,
+   "url": "https://www.sej.co.jp/products/a/item/054155/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054155/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054155/chugoku/",
+  "https://www.sej.co.jp/products/a/item/054155/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/054155/kyushu/",
+  "https://www.sej.co.jp/products/a/item/054155/okinawa/",
+  "https://www.sej.co.jp/products/a/item/054155/shikoku/"
+ ],
+ "first_seen_at": "2026-11-17T07:04:29+09:00",
+ "fetched_at": "2026-11-17T07:04:29+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

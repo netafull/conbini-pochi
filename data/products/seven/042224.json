@@ -1,0 +1,63 @@
+{
+ "chain": "seven",
+ "product_id": "042224",
+ "name": "とり五目おむすびセット",
+ "category": null,
+ "price_excl_tax": 328,
+ "price_incl_tax": 354.24,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "昆布・かつおだしの旨み広がるとり五目おむすびに、唐揚げとたくあんを組み合わせたおむすびパックです。",
+ "nutrition": {
+  "kcal": 380.0,
+  "protein_g": 10.9,
+  "fat_g": 9.7,
+  "carbs_g": 63.6,
+  "sugar_g": 60.8,
+  "fiber_g": 2.8,
+  "salt_g": 3.0,
+  "raw": "熱量：380kcal、たんぱく質：10.9g、脂質：9.7g、炭水化物：63.6g（糖質：60.8g、食物繊維：2.8g）、食塩相当量：3g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 328,
+   "price_incl_tax": 354.24,
+   "url": "https://www.sej.co.jp/products/a/item/042224/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 328,
+   "price_incl_tax": 354.24,
+   "url": "https://www.sej.co.jp/products/a/item/042224/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042224/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042224/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042224/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-17T07:03:11+09:00",
+ "fetched_at": "2026-11-17T07:03:11+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

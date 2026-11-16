@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "042202",
+ "name": "だしむすび　たまご醤油",
+ "category": null,
+ "price_excl_tax": 168,
+ "price_incl_tax": 181.44,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "濃厚な卵黄ソースと醤油ダレを組み合わせた、たまごかけごはん風のおむすびです。",
+ "nutrition": {
+  "kcal": 206.0,
+  "protein_g": 4.8,
+  "fat_g": 4.0,
+  "carbs_g": 38.6,
+  "sugar_g": 37.0,
+  "fiber_g": 1.6,
+  "salt_g": 1.7,
+  "raw": "熱量：206kcal、たんぱく質：4.8g、脂質：4.0g、炭水化物：38.6g（糖質：37.0g、食物繊維：1.6g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 168,
+   "price_incl_tax": 181.44,
+   "url": "https://www.sej.co.jp/products/a/item/042202/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042202/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042202/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-17T07:00:47+09:00",
+ "fetched_at": "2026-11-17T07:00:47+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "041985",
+ "name": "和風ツナマヨネーズおむすび",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "茨城県"
+ ],
+ "region_text": "茨城県",
+ "description": "ご飯を醤油やだしの旨味があるたれと混ぜ、人気具材のツナマヨネーズを中具に入れたおむすびです。",
+ "nutrition": {
+  "kcal": 251.0,
+  "protein_g": 4.8,
+  "fat_g": 7.0,
+  "carbs_g": 42.9,
+  "sugar_g": 41.3,
+  "fiber_g": 1.6,
+  "salt_g": 1.6,
+  "raw": "熱量：251kcal、たんぱく質：4.8g、脂質：7.0g、炭水化物：42.9g（糖質：41.3g、食物繊維：1.6g）、食塩相当量：1.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県",
+   "regions": [
+    "茨城県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/041985/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041985/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041985/kanto/"
+ ],
+ "first_seen_at": "2026-11-17T07:02:53+09:00",
+ "fetched_at": "2026-11-17T07:02:53+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

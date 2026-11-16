@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "042259",
+ "name": "マヨネーズと食べる　肉胡椒ごはん",
+ "category": null,
+ "price_excl_tax": 430,
+ "price_incl_tax": 464.4,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県"
+ ],
+ "region_text": "山梨県、長野県",
+ "description": "「長野山梨ラーメンフェス」対象商品。醤油をベースに煮込んだ甘みのあるチャーシューと、チャーシューの煮汁を混ぜたタレをかけたご飯を合わせました。",
+ "nutrition": {
+  "kcal": 377.0,
+  "protein_g": 12.1,
+  "fat_g": 8.3,
+  "carbs_g": 64.1,
+  "sugar_g": 62.7,
+  "fiber_g": 1.4,
+  "salt_g": 2.8,
+  "raw": "熱量：377kcal、たんぱく質：12.1g、脂質：8.3g、炭水化物：64.1g（糖質：62.7g、食物繊維：1.4g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県、長野県",
+   "regions": [
+    "山梨県",
+    "長野県"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/042259/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042259/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042259/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-17T07:03:35+09:00",
+ "fetched_at": "2026-11-17T07:03:35+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

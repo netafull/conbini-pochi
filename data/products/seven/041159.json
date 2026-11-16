@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "041159",
+ "name": "手巻おにぎり　明太子マヨネーズ",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "定番具材の辛子明太子とマヨネーズを組み合わせたおにぎりです。",
+ "nutrition": {
+  "kcal": 205.0,
+  "protein_g": 3.9,
+  "fat_g": 5.0,
+  "carbs_g": 37.0,
+  "sugar_g": 35.1,
+  "fiber_g": 1.9,
+  "salt_g": 1.2,
+  "raw": "熱量：205kcal、たんぱく質：3.9g、脂質：5.0g、炭水化物：37.0g（糖質：35.1g、食物繊維：1.9g）、食塩相当量：1.2g"
+ },
+ "allergens": [
+  "卵"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/041159/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041159/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041159/kinki/"
+ ],
+ "first_seen_at": "2026-11-17T07:04:59+09:00",
+ "fetched_at": "2026-11-17T07:04:59+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

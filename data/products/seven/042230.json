@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "042230",
+ "name": "阿蘇高菜めしおむすび",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "福岡県",
+  "佐賀県",
+  "熊本県"
+ ],
+ "region_text": "福岡県、佐賀県、熊本県",
+ "description": "熊本県の特産品である阿蘇高菜を使用しました。甘みのある阿蘇高菜をご飯に混ぜ込んだ、熊本の郷土料理「高菜飯」を手軽に楽しめるおにぎりです。",
+ "nutrition": {
+  "kcal": 184.0,
+  "protein_g": 3.8,
+  "fat_g": 2.0,
+  "carbs_g": 38.8,
+  "sugar_g": 36.7,
+  "fiber_g": 2.1,
+  "salt_g": 3.2,
+  "raw": "熱量：184kcal、たんぱく質：3.8g、脂質：2.0g、炭水化物：38.8g（糖質：36.7g、食物繊維：2.1g）、食塩相当量：3.2g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "福岡県、佐賀県、熊本県",
+   "regions": [
+    "福岡県",
+    "佐賀県",
+    "熊本県"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/042230/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042230/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042230/kyushu/"
+ ],
+ "first_seen_at": "2026-11-17T07:06:17+09:00",
+ "fetched_at": "2026-11-17T07:06:17+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

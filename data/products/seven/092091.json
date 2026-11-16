@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "092091",
+ "name": "たっぷりソースのミートドリア",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-11-25",
+ "launch_text": "2026年11月25日（水）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "デミグラスソースのコクを感じられるミートソースと、ホワイトソースの2種類のソースを使用したドリアです。",
+ "nutrition": {
+  "kcal": 460.0,
+  "protein_g": 12.7,
+  "fat_g": 13.7,
+  "carbs_g": 73.6,
+  "sugar_g": 69.5,
+  "fiber_g": 4.1,
+  "salt_g": 2.8,
+  "raw": "熱量：460kcal、たんぱく質：12.7g、脂質：13.7g、炭水化物：73.6g（糖質：69.5g、食物繊維：4.1g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/092091/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/092091/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/092091/okinawa/"
+ ],
+ "first_seen_at": "2026-11-17T07:07:00+09:00",
+ "fetched_at": "2026-11-17T07:07:00+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

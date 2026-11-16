@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "042208",
+ "name": "五目いなり　舞茸入り",
+ "category": null,
+ "price_excl_tax": 208,
+ "price_incl_tax": 224.64,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "舞茸，人参，たけのこ，れんこん，ごま，油揚げ，椎茸を混ぜ込んだ五目酢飯をいなり皮でふんわりと包んだワンハンドタイプのいなり寿司です。",
+ "nutrition": {
+  "kcal": 204.0,
+  "protein_g": 6.1,
+  "fat_g": 4.1,
+  "carbs_g": 36.7,
+  "sugar_g": 34.6,
+  "fiber_g": 2.1,
+  "salt_g": 2.1,
+  "raw": "熱量：204kcal、たんぱく質：6.1g、脂質：4.1g、炭水化物：36.7g（糖質：34.6g、食物繊維：2.1g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 208,
+   "price_incl_tax": 224.64,
+   "url": "https://www.sej.co.jp/products/a/item/042208/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042208/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042208/hokuriku/"
+ ],
+ "first_seen_at": "2026-11-17T07:03:59+09:00",
+ "fetched_at": "2026-11-17T07:03:59+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

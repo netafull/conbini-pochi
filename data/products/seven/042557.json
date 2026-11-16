@@ -1,0 +1,53 @@
+{
+ "chain": "seven",
+ "product_id": "042557",
+ "name": "麦飯あじほぐし御飯",
+ "category": null,
+ "price_excl_tax": 450,
+ "price_incl_tax": 486,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "岐阜県、愛知県、三重県",
+ "description": "香ばしく焼き上げたあじを食べやすくほぐし、小松菜炒めと海苔佃煮を盛りつけた小容量のお弁当です。",
+ "nutrition": {
+  "kcal": 420.0,
+  "protein_g": 18.6,
+  "fat_g": 7.3,
+  "carbs_g": 72.1,
+  "sugar_g": 67.9,
+  "fiber_g": 4.2,
+  "salt_g": 1.7,
+  "raw": "熱量：420kcal、たんぱく質：18.6g、脂質：7.3g、炭水化物：72.1g（糖質：67.9g、食物繊維：4.2g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "岐阜県、愛知県、三重県",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 450,
+   "price_incl_tax": 486,
+   "url": "https://www.sej.co.jp/products/a/item/042557/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042557/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042557/tokai/"
+ ],
+ "first_seen_at": "2026-11-17T07:04:53+09:00",
+ "fetched_at": "2026-11-17T07:04:53+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
