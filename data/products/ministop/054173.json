@@ -1,0 +1,22 @@
+{
+ "chain": "ministop",
+ "product_id": "054173",
+ "name": "大きなブラックメロンパン(チョコホイップ)",
+ "category": "パン",
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日",
+ "regions": null,
+ "region_text": "全国※九州は11月18日発売",
+ "description": "食べ応えのある、ココア風味のメロンパンです。ブラックココアを配合した生地にココアメロン皮を被せ、チョコホイップをサンドしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail054173.html",
+ "first_seen_at": "2026-11-18T07:01:01+09:00",
+ "fetched_at": "2026-11-18T07:01:01+09:00",
+ "source_list": "recommend",
+ "image": null
+}
