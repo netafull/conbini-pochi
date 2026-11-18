@@ -1,0 +1,178 @@
+{
+ "chain": "seven",
+ "product_id": "042495",
+ "name": "さつまいも御飯幕の内",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "山梨県",
+  "長野県",
+  "東海",
+  "近畿",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "四国"
+ ],
+ "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、鳥取県、島根県、岡山県、広島県、四国",
+ "description": "さつまいも御飯に、鶏むね肉の焼き鳥，煮物，かにかま入りかき揚げ，だし巻き玉子などを組み合わせた幕の内弁当です。",
+ "nutrition": {
+  "kcal": 507.0,
+  "protein_g": 19.7,
+  "fat_g": 10.5,
+  "carbs_g": 86.0,
+  "sugar_g": 80.9,
+  "fiber_g": 5.1,
+  "salt_g": 4.4,
+  "raw": "熱量：507kcal、たんぱく質：19.7g、脂質：10.5g、炭水化物：86.0g（糖質：80.9g、食物繊維：5.1g）、食塩相当量：4.4g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/042495/hokkaido/"
+  },
+  "tohoku": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/042495/tohoku/"
+  },
+  "koshinetsu": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/042495/koshinetsu/"
+  },
+  "tokai": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/042495/tokai/"
+  },
+  "chugoku": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/042495/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "北海道、東北、関東、山梨県、長野県、東海、近畿、鳥取県、島根県、岡山県、広島県、四国",
+   "regions": [
+    "北海道",
+    "東北",
+    "関東",
+    "山梨県",
+    "長野県",
+    "東海",
+    "近畿",
+    "鳥取県",
+    "島根県",
+    "岡山県",
+    "広島県",
+    "四国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/042495/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042495/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042495/chugoku/",
+  "https://www.sej.co.jp/products/a/item/042495/hokkaido/",
+  "https://www.sej.co.jp/products/a/item/042495/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/042495/shikoku/",
+  "https://www.sej.co.jp/products/a/item/042495/tohoku/",
+  "https://www.sej.co.jp/products/a/item/042495/tokai/"
+ ],
+ "first_seen_at": "2026-11-19T07:00:54+09:00",
+ "fetched_at": "2026-11-19T07:00:54+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
