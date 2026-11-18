@@ -81,6 +81,13 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .item .price { margin-top: 6px; font-size: 13px; }
 .item .price .kcal { margin-left: 8px; color: var(--muted); }
 .item .meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+/* カードのカテゴリアイコン（ドット絵32px。倍数で出すと点がそろう） */
+.cat-icon { width: 48px; height: 48px; flex-shrink: 0; image-rendering: pixelated; }
+@media (min-width: 700px) { .cat-icon { width: 64px; height: 64px; } }
+.item.has-icon { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 10px; align-items: start; }
+.item.has-icon > .cat-icon { grid-column: 1; grid-row: 1 / span 5; }
+.item.has-icon > :not(.cat-icon) { grid-column: 2; min-width: 0; }
+.item.has-icon .badge { justify-self: start; }
 .weeklist { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
 .weeklist a { text-decoration: none; padding: 10px 14px; background: var(--card);
   border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
@@ -172,1096 +179,1233 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <section class="chain-group" data-chain="dailyyamazaki">
 <h3>デイリーヤマザキ (137件)</h3>
 <div class="grid" data-sortable>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135288.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135288.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">釜玉風うどん</div>
   <div class="price">税込498円（税抜462円）</div>
   <div class="meta">2026-11-17 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135319.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135319.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">レタスハムサンド</div>
   <div class="price">税込348円（税抜323円）</div>
   <div class="meta">2026-11-17 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135334.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135334.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ダブル洋食弁当</div>
   <div class="price">税込598円（税抜554円）</div>
   <div class="meta">2026-11-17 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135349.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135349.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">チキンカツ弁当</div>
   <div class="price">税込645円（税抜598円）</div>
   <div class="meta">2026-11-17 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135364.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135364.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きな焼おむすび　明太子マヨネーズ</div>
   <div class="price">税込298円（税抜276円）</div>
   <div class="meta">2026-11-17 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135379.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135379.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きなおむすび　炭火焼牛カルビマヨネーズ</div>
   <div class="price">税込320円（税抜297円）</div>
   <div class="meta">2026-11-17 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135394.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135394.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きなおむすび　たまごかけご飯風</div>
   <div class="price">税込275円（税抜255円）</div>
   <div class="meta">2026-11-17 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135409.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135409.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きな塩おむすび　矢堅目の塩</div>
   <div class="price">税込198円（税抜184円）</div>
   <div class="meta">2026-11-17 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135424.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135424.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きなおむすび　鮭マヨネーズ</div>
   <div class="price">税込275円（税抜255円）</div>
   <div class="meta">2026-11-17 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135454.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135454.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/drink.svg" width="32" height="32" alt="飲料" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ラグカフェ　贅沢仕立てのホワイトモカ</div>
   <div class="price">税込241円（税抜224円）</div>
   <div class="meta">2026-11-17 発売・飲料</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135469.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135469.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">もっちチョコクレープ</div>
   <div class="price">税込258円（税抜239円）</div>
   <div class="meta">2026-11-17 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135484.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135484.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">バニラモンブラン</div>
   <div class="price">税込321円（税抜298円）</div>
   <div class="meta">2026-11-17 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135499.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135499.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/chukaman.svg" width="32" height="32" alt="中華まん" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">あんまん（つぶあん）</div>
   <div class="price">税込168円（税抜156円）</div>
   <div class="meta">2026-11-17 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135530.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135530.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">三角ハムチーズデニッシュ</div>
   <div class="price">税込169円（税抜157円）</div>
   <div class="meta">2026-11-17 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-135552.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-135552.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">はちみつブールパン</div>
   <div class="price">税込159円（税抜148円）</div>
   <div class="meta">2026-11-17 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-136398.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-136398.html" data-kcal=""
    data-date="2026-11-17" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ランチパック　たまごとハム＆マヨネーズ</div>
   <div class="price">税込257円（税抜238円）</div>
   <div class="meta">2026-11-17 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134612.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134612.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">1/3日分の野菜が摂れる焼うどん</div>
   <div class="price">税込498円（税抜462円）</div>
   <div class="meta">2026-11-10 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134638.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134638.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">塩パンサンド(ハム＆オニオン)</div>
   <div class="price">税込238円（税抜221円）</div>
   <div class="meta">2026-11-10 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134654.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134654.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">こだわりの四川麻婆豆腐丼</div>
   <div class="price">税込698円（税抜647円）</div>
   <div class="meta">2026-11-10 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134670.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134670.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">鶏天弁当</div>
   <div class="price">税込698円（税抜647円）</div>
   <div class="meta">2026-11-10 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134686.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134686.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きな焼おむすび　明太子マヨネーズ（博多辛子明太子使用）</div>
   <div class="price">税込298円（税抜276円）</div>
   <div class="meta">2026-11-10 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134702.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134702.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">チョコづくしの濃厚チョコタルト</div>
   <div class="price">税込321円（税抜298円）</div>
   <div class="meta">2026-11-10 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134718.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134718.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="和菓子" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">いもまんじゅうつぶあん</div>
   <div class="price">税込140円（税抜130円）</div>
   <div class="meta">2026-11-10 発売・和菓子</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134734.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134734.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ハム＆マヨフランスパン</div>
   <div class="price">税込178円（税抜165円）</div>
   <div class="meta">2026-11-10 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134750.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134750.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">じゃりじゃりシュガーの練乳クリームパン</div>
   <div class="price">税込137円（税抜127円）</div>
   <div class="meta">2026-11-10 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-134766.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-134766.html" data-kcal=""
    data-date="2026-11-10" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">もち食感チョコデニッシュ</div>
   <div class="price">税込158円（税抜147円）</div>
   <div class="meta">2026-11-10 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133624.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133624.html" data-kcal=""
    data-date="2026-11-04" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="和菓子" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">豆いっぱい芋大福（紅はるかのいもあん）</div>
   <div class="price">税込198円（税抜184円）</div>
   <div class="meta">2026-11-04 発売・和菓子</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133399.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133399.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">冷しぶっかけうどん</div>
   <div class="price">税込429円（税抜398円）</div>
   <div class="meta">2026-11-03 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133439.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133439.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">三氣白とんこつラーメン</div>
   <div class="price">税込540円（税抜500円）</div>
   <div class="meta">2026-11-03 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133455.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133455.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">味噌煮込み風ほうとう</div>
   <div class="price">税込615円（税抜570円）</div>
   <div class="meta">2026-11-03 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133471.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133471.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">【NOROMA】監修スタミナ味噌ラーメン</div>
   <div class="price">税込599円（税抜555円）</div>
   <div class="meta">2026-11-03 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133488.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133488.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">超大盛ソース焼そば</div>
   <div class="price">税込599円（税抜555円）</div>
   <div class="meta">2026-11-03 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133504.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133504.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ジューシーハムサンド</div>
   <div class="price">税込356円（税抜330円）</div>
   <div class="meta">2026-11-03 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133528.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133528.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">洋食屋風オムライス</div>
   <div class="price">税込734円（税抜680円）</div>
   <div class="meta">2026-11-03 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133544.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133544.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ひれかつ弁当（からし付）</div>
   <div class="price">税込698円（税抜647円）</div>
   <div class="meta">2026-11-03 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133560.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133560.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きなおむすび　鮭マヨネーズ</div>
   <div class="price">税込275円（税抜255円）</div>
   <div class="meta">2026-11-03 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133576.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133576.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きなおむすび　シーチキンマヨネーズ</div>
   <div class="price">税込275円（税抜255円）</div>
   <div class="meta">2026-11-03 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133592.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133592.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/ice.svg" width="32" height="32" alt="アイス" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">サーティワン　ローストピーナッツ＆チョコレート</div>
   <div class="price">税込382円（税抜354円）</div>
   <div class="meta">2026-11-03 発売・アイス</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133608.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133608.html" data-kcal=""
    data-date="2026-11-03" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">焼きチーズスフレ（クリーム1.5倍）</div>
   <div class="price">税込168円（税抜156円）</div>
   <div class="meta">2026-11-03 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133135.html" data-kcal="334.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133135.html" data-kcal="334.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">チーズの壺</div>
   <div class="price">税込298円（税抜276円）<span class="kcal">334kcal</span></div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133160.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133160.html" data-kcal=""
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">チキンカツサンド</div>
   <div class="price">税込295円（税抜274円）</div>
   <div class="meta">2026-11-01 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133175.html" data-kcal="318.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133175.html" data-kcal="318.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ばくだんおむすび（ヒレカツ）</div>
   <div class="price">税込360円（税抜334円）<span class="kcal">318kcal</span></div>
   <div class="meta">2026-11-01 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133190.html" data-kcal="388.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133190.html" data-kcal="388.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">麻婆豆腐丼</div>
   <div class="price">税込648円（税抜600円）<span class="kcal">388kcal</span></div>
   <div class="meta">2026-11-01 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133205.html" data-kcal="616.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133205.html" data-kcal="616.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">唐揚げ丼（マヨネーズ掛け）</div>
   <div class="price">税込578円（税抜536円）<span class="kcal">616kcal</span></div>
   <div class="meta">2026-11-01 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133220.html" data-kcal="347.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133220.html" data-kcal="347.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">スイートロール</div>
   <div class="price">税込218円（税抜202円）<span class="kcal">347kcal</span></div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133235.html" data-kcal="208.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133235.html" data-kcal="208.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">もっちり食感のほうれん草とベーコンのパン</div>
   <div class="price">税込248円（税抜230円）<span class="kcal">208kcal</span></div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133250.html" data-kcal="341.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133250.html" data-kcal="341.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ビーフシチュートーストサンド</div>
   <div class="price">税込298円（税抜276円）<span class="kcal">341kcal</span></div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133265.html" data-kcal="313.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133265.html" data-kcal="313.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">カマンベールチーズメルトドッグ（シャウエッセン®使用）</div>
   <div class="price">税込368円（税抜341円）<span class="kcal">313kcal</span></div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133280.html" data-kcal="230.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133280.html" data-kcal="230.0"
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">バスクチーズケーキ風パン</div>
   <div class="price">税込265円（税抜246円）<span class="kcal">230kcal</span></div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133640.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133640.html" data-kcal=""
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">あらびきポークのホットドッグ</div>
   <div class="price">税込168円（税抜156円）</div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133662.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133662.html" data-kcal=""
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">GODIVA監修　濃厚ショコラフランスパン</div>
   <div class="price">税込198円（税抜184円）</div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-133720.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-133720.html" data-kcal=""
    data-date="2026-11-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ちいかまん（ドミグラスハンバーグ）</div>
   <div class="price">税込182円（税抜169円）</div>
   <div class="meta">2026-11-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132161.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132161.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">アレンジで旨い！油そば</div>
   <div class="price">税込498円（税抜462円）</div>
   <div class="meta">2026-10-27 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132187.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132187.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ハンバーグ＆ナポリタンサンド</div>
   <div class="price">税込295円（税抜274円）</div>
   <div class="meta">2026-10-27 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132202.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132202.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">旨みたっぷりつゆだく牛丼</div>
   <div class="price">税込599円（税抜555円）</div>
   <div class="meta">2026-10-27 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132256.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132256.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">おかずいろいろ弁当</div>
   <div class="price">税込743円（税抜688円）</div>
   <div class="meta">2026-10-27 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132271.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132271.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">枝豆と塩昆布のおにぎり（もち麦入）</div>
   <div class="price">税込170円（税抜158円）</div>
   <div class="meta">2026-10-27 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132293.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132293.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">まるごと１本バナナクレープ</div>
   <div class="price">税込321円（税抜298円）</div>
   <div class="meta">2026-10-27 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132308.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132308.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">クリームを味わうたっぷりクリームパン</div>
   <div class="price">税込198円（税抜184円）</div>
   <div class="meta">2026-10-27 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132323.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132323.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">グラタンコロッケバーガー</div>
   <div class="price">税込321円（税抜298円）</div>
   <div class="meta">2026-10-27 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132345.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132345.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ザクザクチョコドーナツ(カスタード）</div>
   <div class="price">税込169円（税抜157円）</div>
   <div class="meta">2026-10-27 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-132367.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-132367.html" data-kcal=""
    data-date="2026-10-27" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ザクザクごろっとチョコデニッシュ</div>
   <div class="price">税込185円（税抜172円）</div>
   <div class="meta">2026-10-27 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131347.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131347.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">カレーうどん</div>
   <div class="price">税込540円（税抜500円）</div>
   <div class="meta">2026-10-20 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131382.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131382.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">野菜タンメン</div>
   <div class="price">税込550円（税抜510円）</div>
   <div class="meta">2026-10-20 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131397.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131397.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">濃厚たまごサンド</div>
   <div class="price">税込298円（税抜276円）</div>
   <div class="meta">2026-10-20 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131419.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131419.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">キーマカレー</div>
   <div class="price">税込680円（税抜630円）</div>
   <div class="meta">2026-10-20 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131434.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131434.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">手巻おにぎり　おかか</div>
   <div class="price">税込174円（税抜162円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131449.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131449.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">手巻おにぎり　博多辛子明太子</div>
   <div class="price">税込225円（税抜209円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131471.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131471.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">手巻おにぎり　紀州産南高梅</div>
   <div class="price">税込187円（税抜174円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131486.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131486.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">手巻おにぎり　昆布（深煎り胡麻入り）</div>
   <div class="price">税込187円（税抜174円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131501.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131501.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">手巻おにぎり　炙り熟成紅鮭</div>
   <div class="price">税込225円（税抜209円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131516.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131516.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">手巻おにぎり　まぐろわさび醤油</div>
   <div class="price">税込209円（税抜194円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131531.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131531.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">手巻おにぎり　シーチキンマヨネーズ</div>
   <div class="price">税込186円（税抜173円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131553.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131553.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">おむすび　焼鮭</div>
   <div class="price">税込178円（税抜165円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131568.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131568.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">おむすび　明太マヨネーズ（博多辛子明太子使用）</div>
   <div class="price">税込178円（税抜165円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131583.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131583.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">クリームたっぷりエクレア（ホイップ＆カスタード）</div>
   <div class="price">税込185円（税抜172円）</div>
   <div class="meta">2026-10-20 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131598.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131598.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">濃厚ダブルチョコシュー(ベルギーチョコ)</div>
   <div class="price">税込189円（税抜175円）</div>
   <div class="meta">2026-10-20 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131613.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131613.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="和菓子" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">特撰大玉あん団子（つぶあん）</div>
   <div class="price">税込172円（税抜160円）</div>
   <div class="meta">2026-10-20 発売・和菓子</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131630.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131630.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="和菓子" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">特撰大玉あん団子（こしあん）</div>
   <div class="price">税込172円（税抜160円）</div>
   <div class="meta">2026-10-20 発売・和菓子</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131645.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131645.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">コーンマヨネーズパン</div>
   <div class="price">税込168円（税抜156円）</div>
   <div class="meta">2026-10-20 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131660.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131660.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">シュガーブールパン（マーガリン）</div>
   <div class="price">税込158円（税抜147円）</div>
   <div class="meta">2026-10-20 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-131675.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-131675.html" data-kcal=""
    data-date="2026-10-20" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">デイリーヤマザキブレッド</div>
   <div class="price">税込146円（税抜136円）</div>
   <div class="meta">2026-10-20 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129547.html" data-kcal="214.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129547.html" data-kcal="214.0"
    data-date="2026-10-15" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">もちもち食感チョコｉｎチュロス</div>
   <div class="price">税込198円（税抜184円）<span class="kcal">214kcal</span></div>
   <div class="meta">2026-10-15 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130426.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130426.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ランチパック極厚キャラメル板チョコ＆キャラメルクリーム</div>
   <div class="price">税込318円（税抜295円）</div>
   <div class="meta">2026-10-13 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130451.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130451.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">花椒香る汁なし担々麺</div>
   <div class="price">税込498円（税抜462円）</div>
   <div class="meta">2026-10-13 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130466.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130466.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きなサンド　ハムチーズたまご</div>
   <div class="price">税込398円（税抜369円）</div>
   <div class="meta">2026-10-13 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130481.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130481.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">チキン南蛮弁当</div>
   <div class="price">税込698円（税抜647円）</div>
   <div class="meta">2026-10-13 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130511.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130511.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">海老二本！海老とかき揚げの天丼</div>
   <div class="price">税込615円（税抜570円）</div>
   <div class="meta">2026-10-13 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130526.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130526.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">きのこご飯おにぎり（もち麦入）</div>
   <div class="price">税込158円（税抜147円）</div>
   <div class="meta">2026-10-13 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130548.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130548.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">クリームたっぷりミルクツインシュー（濃厚ミルク）</div>
   <div class="price">税込178円（税抜165円）</div>
   <div class="meta">2026-10-13 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130570.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130570.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">クリームたっぷりツインシュー（ホイップ＆カスタード）</div>
   <div class="price">税込178円（税抜165円）</div>
   <div class="meta">2026-10-13 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130585.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130585.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/chukaman.svg" width="32" height="32" alt="中華まん" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">胡椒餅風味肉まん</div>
   <div class="price">税込185円（税抜172円）</div>
   <div class="meta">2026-10-13 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130607.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130607.html" data-kcal=""
    data-date="2026-10-13" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">たっぷりあんバターフランスパン</div>
   <div class="price">税込178円（税抜165円）</div>
   <div class="meta">2026-10-13 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130204.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130204.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">牛肉うどん</div>
   <div class="price">税込698円（税抜647円）</div>
   <div class="meta">2026-10-06 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130228.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130228.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">濃厚味噌ラーメン</div>
   <div class="price">税込599円（税抜555円）</div>
   <div class="meta">2026-10-06 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130243.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130243.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">カレー風味とんかつ＆玉子ひとくちサンド</div>
   <div class="price">税込398円（税抜369円）</div>
   <div class="meta">2026-10-06 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130258.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130258.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">とろ～りたまごのオムライス</div>
   <div class="price">税込698円（税抜647円）</div>
   <div class="meta">2026-10-06 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130273.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130273.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きなおむすび　炭火焼牛カルビマヨネーズ</div>
   <div class="price">税込320円（税抜297円）</div>
   <div class="meta">2026-10-06 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130295.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130295.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/ice.svg" width="32" height="32" alt="アイス" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">サーティワン　メープルスイートポテト</div>
   <div class="price">税込382円（税抜354円）</div>
   <div class="meta">2026-10-06 発売・アイス</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130310.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130310.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大きなエッグタルト</div>
   <div class="price">税込275円（税抜255円）</div>
   <div class="meta">2026-10-06 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130332.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130332.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">平焼きチーズポテトパン（にんにく醬油風味）</div>
   <div class="price">税込169円（税抜157円）</div>
   <div class="meta">2026-10-06 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-130347.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-130347.html" data-kcal=""
    data-date="2026-10-06" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">しっとり食感のツイストデニッシュ</div>
   <div class="price">税込185円（税抜172円）</div>
   <div class="meta">2026-10-06 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129348.html" data-kcal="326.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129348.html" data-kcal="326.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ごろっとお芋とりんごのパイ</div>
   <div class="price">税込298円（税抜276円）<span class="kcal">326kcal</span></div>
   <div class="meta">2026-10-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129374.html" data-kcal="282.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129374.html" data-kcal="282.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">厚切りハムカツサンド</div>
   <div class="price">税込327円（税抜303円）<span class="kcal">282kcal</span></div>
   <div class="meta">2026-10-01 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129389.html" data-kcal="263.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129389.html" data-kcal="263.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ばくだんおむすび（明太高菜）</div>
   <div class="price">税込299円（税抜277円）<span class="kcal">263kcal</span></div>
   <div class="meta">2026-10-01 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129434.html" data-kcal="657.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129434.html" data-kcal="657.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ミックスフライ弁当</div>
   <div class="price">税込668円（税抜619円）<span class="kcal">657kcal</span></div>
   <div class="meta">2026-10-01 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129449.html" data-kcal="440.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129449.html" data-kcal="440.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">豚丼</div>
   <div class="price">税込748円（税抜693円）<span class="kcal">440kcal</span></div>
   <div class="meta">2026-10-01 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129472.html" data-kcal="848.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129472.html" data-kcal="848.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">三元豚ロースかつ丼</div>
   <div class="price">税込699円（税抜648円）<span class="kcal">848kcal</span></div>
   <div class="meta">2026-10-01 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129487.html" data-kcal="320.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129487.html" data-kcal="320.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ＢＩＧリング台湾ドーナツ</div>
   <div class="price">税込230円（税抜213円）<span class="kcal">320kcal</span></div>
   <div class="meta">2026-10-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129502.html" data-kcal="330.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129502.html" data-kcal="330.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">クリームコロッケパン</div>
   <div class="price">税込268円（税抜249円）<span class="kcal">330kcal</span></div>
   <div class="meta">2026-10-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129517.html" data-kcal="404.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129517.html" data-kcal="404.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">目玉焼きてりやきハンバーグサンド</div>
   <div class="price">税込368円（税抜341円）<span class="kcal">404kcal</span></div>
   <div class="meta">2026-10-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129532.html" data-kcal="343.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129532.html" data-kcal="343.0"
    data-date="2026-10-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">かぼちゃパン</div>
   <div class="price">税込235円（税抜218円）<span class="kcal">343kcal</span></div>
   <div class="meta">2026-10-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129081.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129081.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">国産野菜のちゃんぽん</div>
   <div class="price">税込639円（税抜592円）</div>
   <div class="meta">2026-09-29 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129107.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129107.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">大盛　ペペロンチーノ</div>
   <div class="price">税込699円（税抜648円）</div>
   <div class="meta">2026-09-29 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129122.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129122.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">レタスハムサンド</div>
   <div class="price">税込345円（税抜320円）</div>
   <div class="meta">2026-09-29 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129137.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129137.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">コクと香りのキーマカレー</div>
   <div class="price">税込753円（税抜698円）</div>
   <div class="meta">2026-09-29 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129152.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129152.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">高菜ごはんおにぎり</div>
   <div class="price">税込178円（税抜165円）</div>
   <div class="meta">2026-09-29 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129167.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129167.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/drink.svg" width="32" height="32" alt="飲料" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">贅沢仕立てのキャラメルラテ</div>
   <div class="price">税込241円（税抜224円）</div>
   <div class="meta">2026-09-29 発売・飲料</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129182.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129182.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">濃厚ガトーショコラクレープ</div>
   <div class="price">税込348円（税抜323円）</div>
   <div class="meta">2026-09-29 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129197.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129197.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">コッペパン（ピーナッツクリーム）大盛り</div>
   <div class="price">税込169円（税抜157円）</div>
   <div class="meta">2026-09-29 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129212.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129212.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">コッペパン（つぶあん＆マーガリン）大盛り</div>
   <div class="price">税込169円（税抜157円）</div>
   <div class="meta">2026-09-29 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-129227.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-129227.html" data-kcal=""
    data-date="2026-09-29" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">コッペパン（ジャム＆マーガリン）大盛り</div>
   <div class="price">税込169円（税抜157円）</div>
   <div class="meta">2026-09-29 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-128209.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-128209.html" data-kcal=""
    data-date="2026-09-22" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">昔ながらの味わい中華そば</div>
   <div class="price">税込537円（税抜498円）</div>
   <div class="meta">2026-09-22 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-128232.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-128232.html" data-kcal=""
    data-date="2026-09-22" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">あさりと青ねぎの和風スパゲティ</div>
   <div class="price">税込610円（税抜565円）</div>
   <div class="meta">2026-09-22 発売・麺</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-128247.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-128247.html" data-kcal=""
    data-date="2026-09-22" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンド" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ツナハムチーズサンド</div>
   <div class="price">税込365円（税抜338円）</div>
   <div class="meta">2026-09-22 発売・サンド</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-128262.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-128262.html" data-kcal=""
    data-date="2026-09-22" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">おだしの効いた和風カレー丼</div>
   <div class="price">税込698円（税抜647円）</div>
   <div class="meta">2026-09-22 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-128277.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-128277.html" data-kcal=""
    data-date="2026-09-22" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">二色ごはんのチキンカツのっけ弁当</div>
   <div class="price">税込624円（税抜578円）</div>
   <div class="meta">2026-09-22 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-128292.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-128292.html" data-kcal=""
    data-date="2026-09-22" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">スイートポテトタルト</div>
   <div class="price">税込237円（税抜220円）</div>
   <div class="meta">2026-09-22 発売・スイーツ</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-128307.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-128307.html" data-kcal=""
    data-date="2026-09-22" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">チョリソーソーセージパン（チリタコス＆マスタード）</div>
   <div class="price">税込189円（税抜175円）</div>
   <div class="meta">2026-09-22 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-128322.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-128322.html" data-kcal=""
    data-date="2026-09-22" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">チョコフランスパン</div>
   <div class="price">税込178円（税抜165円）</div>
   <div class="meta">2026-09-22 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-125891.html" data-kcal="326.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-125891.html" data-kcal="326.0"
    data-date="2026-09-15" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ノアールのクロッチ</div>
   <div class="price">税込280円（税抜260円）<span class="kcal">326kcal</span></div>
   <div class="meta">2026-09-15 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-125933.html" data-kcal="263.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-125933.html" data-kcal="263.0"
    data-date="2026-09-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ばくだんおむすび秋鮭焼きほぐし（北海道産秋鮭）</div>
   <div class="price">税込277円（税抜299円）<span class="kcal">263kcal</span></div>
   <div class="meta">2026-09-01 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-125948.html" data-kcal="706.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-125948.html" data-kcal="706.0"
    data-date="2026-09-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">デミグラスソースカツ丼</div>
   <div class="price">税込554円（税抜598円）<span class="kcal">706kcal</span></div>
   <div class="meta">2026-09-01 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-125963.html" data-kcal="523.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-125963.html" data-kcal="523.0"
    data-date="2026-09-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">チキンステーキ弁当</div>
   <div class="price">税込643円（税抜694円）<span class="kcal">523kcal</span></div>
   <div class="meta">2026-09-01 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-125978.html" data-kcal="300.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-125978.html" data-kcal="300.0"
    data-date="2026-09-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">もっちり食感のハムとゴーダチーズのパン</div>
   <div class="price">税込230円（税抜213円）<span class="kcal">300kcal</span></div>
   <div class="meta">2026-09-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-126000.html" data-kcal="305.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-126000.html" data-kcal="305.0"
    data-date="2026-09-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">４種きのこと燻しベーコンのピザ</div>
   <div class="price">税込338円（税抜313円）<span class="kcal">305kcal</span></div>
   <div class="meta">2026-09-01 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/dailyyamazaki-126015.html" data-kcal="384.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/dailyyamazaki-126015.html" data-kcal="384.0"
    data-date="2026-09-01" data-chain="dailyyamazaki">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンドイッチ" loading="lazy" decoding="async">
   <div class="badge">デイリーヤマザキ</div>
   <div class="t">ツナメルトトーストサンド（シーチキン®使用）</div>
   <div class="price">税込298円（税抜276円）<span class="kcal">384kcal</span></div>
@@ -1401,6 +1545,7 @@ function computeAdPlan(counts, every, max) {
 <a data-google-vignette="false" href="https://onsen.netaful.jp/">温泉宿ポチ<span class="lbl"> 温泉地の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://ritou.netaful.jp/">離島宿ポチ<span class="lbl"> 島の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://michinoeki.netaful.jp/">道の駅ポチ<span class="lbl"> 道の駅の駐車場と設備</span></a>
+<a data-google-vignette="false" href="https://shinhatsubai.netaful.jp/">新発売ポチ<span class="lbl"> 新商品を発売日でまとめて</span></a>
 </nav>
 </footer>
 

@@ -81,6 +81,13 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .item .price { margin-top: 6px; font-size: 13px; }
 .item .price .kcal { margin-left: 8px; color: var(--muted); }
 .item .meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+/* カードのカテゴリアイコン（ドット絵32px。倍数で出すと点がそろう） */
+.cat-icon { width: 48px; height: 48px; flex-shrink: 0; image-rendering: pixelated; }
+@media (min-width: 700px) { .cat-icon { width: 64px; height: 64px; } }
+.item.has-icon { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 10px; align-items: start; }
+.item.has-icon > .cat-icon { grid-column: 1; grid-row: 1 / span 5; }
+.item.has-icon > :not(.cat-icon) { grid-column: 2; min-width: 0; }
+.item.has-icon .badge { justify-self: start; }
 .weeklist { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
 .weeklist a { text-decoration: none; padding: 10px 14px; background: var(--card);
   border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
@@ -171,360 +178,405 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <section class="chain-group" data-chain="seven">
 <h3>セブンイレブン (45件)</h3>
 <div class="grid" data-sortable>
-<a data-google-vignette="false" class="item" href="/items/seven-054158.html" data-kcal="280.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-054158.html" data-kcal="280.0"
    data-date="2026-11-28" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンドイッチ" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">コク旨たまごサラダロール</div>
   <div class="price">税込149.04円（税抜138円）<span class="kcal">280kcal</span></div>
   <div class="meta">2026-11-28 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-054143.html" data-kcal="513.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-054143.html" data-kcal="513.0"
    data-date="2026-11-25" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンドイッチ" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">メンチカツサンド</div>
   <div class="price">税込367.2円（税抜340円）<span class="kcal">513kcal</span></div>
   <div class="meta">2026-11-25 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-054155.html" data-kcal="374.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-054155.html" data-kcal="374.0"
    data-date="2026-11-25" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンドイッチ" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">アメリカンクラブハウスサンド</div>
   <div class="price">税込529.2円（税抜490円）<span class="kcal">374kcal</span></div>
   <div class="meta">2026-11-25 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-054164.html" data-kcal="246.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-054164.html" data-kcal="246.0"
    data-date="2026-11-25" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンドイッチ" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">愛媛県産温州みかんサンド</div>
   <div class="price">税込505.44円（税抜468円）<span class="kcal">246kcal</span></div>
   <div class="meta">2026-11-25 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-092091.html" data-kcal="460.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-092091.html" data-kcal="460.0"
    data-date="2026-11-25" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/soup.svg" width="32" height="32" alt="スープ・グラタン" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">たっぷりソースのミートドリア</div>
   <div class="price">税込429.84円（税抜398円）<span class="kcal">460kcal</span></div>
   <div class="meta">2026-11-25 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-092094.html" data-kcal="759.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-092094.html" data-kcal="759.0"
    data-date="2026-11-25" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/pasta.svg" width="32" height="32" alt="パスタ" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">大盛　明太マヨのスパゲティ</div>
   <div class="price">税込518.4円（税抜480円）<span class="kcal">759kcal</span></div>
   <div class="meta">2026-11-25 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-040043.html" data-kcal="304.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-040043.html" data-kcal="304.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">天タレまぶしおむすび</div>
   <div class="price">税込159.84円（税抜148円）<span class="kcal">304kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-040124.html" data-kcal="734.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-040124.html" data-kcal="734.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">ソーセージステーキ＆豚焼肉弁当</div>
   <div class="price">税込645.84円（税抜598円）<span class="kcal">734kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-040127.html" data-kcal="217.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-040127.html" data-kcal="217.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">北海道産ゆめぴりかおむすび　厚切り牛たん</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">217kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-041159.html" data-kcal="205.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-041159.html" data-kcal="205.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">手巻おにぎり　明太子マヨネーズ</div>
   <div class="price">税込213.84円（税抜198円）<span class="kcal">205kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-041709.html" data-kcal="186.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-041709.html" data-kcal="186.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">会津産コシヒカリおむすび　炭火焼紅鮭切り身</div>
   <div class="price">税込300.24円（税抜278円）<span class="kcal">186kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-041711.html" data-kcal="217.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-041711.html" data-kcal="217.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">会津産コシヒカリおむすび　厚切り牛たん</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">217kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-041899.html" data-kcal="199.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-041899.html" data-kcal="199.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">鳥めしおむすび</div>
   <div class="price">税込149.04円（税抜138円）<span class="kcal">199kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-041985.html" data-kcal="251.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-041985.html" data-kcal="251.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">和風ツナマヨネーズおむすび</div>
   <div class="price">税込159.84円（税抜148円）<span class="kcal">251kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042052.html" data-kcal="217.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042052.html" data-kcal="217.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">山形県産つや姫おむすび　厚切り牛たん</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">217kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042067.html" data-kcal="386.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042067.html" data-kcal="386.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび和風ツナマヨネーズ</div>
   <div class="price">税込213.84円（税抜198円）<span class="kcal">386kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042080.html" data-kcal="263.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042080.html" data-kcal="263.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　鶏ごぼう　紫峰使用</div>
   <div class="price">税込192.24円（税抜178円）<span class="kcal">263kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042085.html" data-kcal="198.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042085.html" data-kcal="198.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">味噌たっぷり　味噌おにぎり</div>
   <div class="price">税込170.64円（税抜158円）<span class="kcal">198kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042181.html" data-kcal="295.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042181.html" data-kcal="295.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　たらこバター醤油</div>
   <div class="price">税込289.44円（税抜268円）<span class="kcal">295kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042191.html" data-kcal="217.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042191.html" data-kcal="217.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">新潟県産コシヒカリおむすび　厚切り牛たん</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">217kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042197.html" data-kcal="217.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042197.html" data-kcal="217.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">山形県産つや姫おむすび厚切り牛たん</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">217kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042198.html" data-kcal="884.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042198.html" data-kcal="884.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">どーんと３尾　エビフライ弁当</div>
   <div class="price">税込861.84円（税抜798円）<span class="kcal">884kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042201.html" data-kcal="455.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042201.html" data-kcal="455.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">脂とろける焼豚御飯（もち麦）　道産豚肉使用</div>
   <div class="price">税込429.84円（税抜398円）<span class="kcal">455kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042202.html" data-kcal="206.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042202.html" data-kcal="206.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">だしむすび　たまご醤油</div>
   <div class="price">税込181.44円（税抜168円）<span class="kcal">206kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042203.html" data-kcal="558.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042203.html" data-kcal="558.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">バター香る海老ピラフ</div>
   <div class="price">税込537.84円（税抜498円）<span class="kcal">558kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042208.html" data-kcal="204.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042208.html" data-kcal="204.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="寿司" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">五目いなり　舞茸入り</div>
   <div class="price">税込224.64円（税抜208円）<span class="kcal">204kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042211.html" data-kcal="191.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042211.html" data-kcal="191.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">とり五目ごはんおむすび</div>
   <div class="price">税込159.84円（税抜148円）<span class="kcal">191kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042213.html" data-kcal="217.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042213.html" data-kcal="217.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">新潟県産新之助おむすび　厚切り牛たん</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">217kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042223.html" data-kcal="191.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042223.html" data-kcal="191.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">とり五目ごはんおむすび</div>
   <div class="price">税込159.84円（税抜148円）<span class="kcal">191kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042224.html" data-kcal="380.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042224.html" data-kcal="380.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">とり五目おむすびセット</div>
   <div class="price">税込354.24円（税抜328円）<span class="kcal">380kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042230.html" data-kcal="184.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042230.html" data-kcal="184.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">阿蘇高菜めしおむすび</div>
   <div class="price">税込213.84円（税抜198円）<span class="kcal">184kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042250.html" data-kcal="217.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042250.html" data-kcal="217.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">佐賀県産さがびよりおむすび　厚切り牛たん</div>
   <div class="price">税込321.84円（税抜298円）<span class="kcal">217kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042256.html" data-kcal="848.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042256.html" data-kcal="848.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">チキンカツ弁当</div>
   <div class="price">税込734.4円（税抜680円）<span class="kcal">848kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042258.html" data-kcal="674.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042258.html" data-kcal="674.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">チキンカツ＆コロッケ弁当</div>
   <div class="price">税込645.84円（税抜598円）<span class="kcal">674kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042259.html" data-kcal="377.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042259.html" data-kcal="377.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">マヨネーズと食べる　肉胡椒ごはん</div>
   <div class="price">税込464.4円（税抜430円）<span class="kcal">377kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042260.html" data-kcal="230.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042260.html" data-kcal="230.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">山形県産つや姫おむすび　鮭ハラスの照焼</div>
   <div class="price">税込289.44円（税抜268円）<span class="kcal">230kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042295.html" data-kcal="204.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042295.html" data-kcal="204.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/sozai.svg" width="32" height="32" alt="惣菜・揚げ物" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">味付のり　ピリ辛チキンマヨネーズ</div>
   <div class="price">税込203.04円（税抜188円）<span class="kcal">204kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042557.html" data-kcal="420.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042557.html" data-kcal="420.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">麦飯あじほぐし御飯</div>
   <div class="price">税込486円（税抜450円）<span class="kcal">420kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042859.html" data-kcal="229.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042859.html" data-kcal="229.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">ゴロっとチャーシュー炒飯おむすび</div>
   <div class="price">税込213.84円（税抜198円）<span class="kcal">229kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-042860.html" data-kcal="185.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-042860.html" data-kcal="185.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="寿司" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">寿司おむすび　梅しそたくあん</div>
   <div class="price">税込192.24円（税抜178円）<span class="kcal">185kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-044628.html" data-kcal="176.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-044628.html" data-kcal="176.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">山形県産つや姫おむすび　炙りたらこ</div>
   <div class="price">税込267.84円（税抜248円）<span class="kcal">176kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-045041.html" data-kcal="288.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-045041.html" data-kcal="288.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">おおきなおむすび　たぬき</div>
   <div class="price">税込246.24円（税抜228円）<span class="kcal">288kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-045043.html" data-kcal="600.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-045043.html" data-kcal="600.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">高菜めし＆油淋鶏</div>
   <div class="price">税込645.84円（税抜598円）<span class="kcal">600kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-054167.html" data-kcal="386.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-054167.html" data-kcal="386.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンドイッチ" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">バゲット　ごぼうサラダ＆チキン</div>
   <div class="price">税込375.84円（税抜348円）<span class="kcal">386kcal</span></div>
   <div class="meta">2026-11-24 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/seven-091329.html" data-kcal="491.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/seven-091329.html" data-kcal="491.0"
    data-date="2026-11-24" data-chain="seven">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">セブンイレブン</div>
   <div class="t">にんにく辛口スタミナラーメン</div>
   <div class="price">税込594円（税抜550円）<span class="kcal">491kcal</span></div>
@@ -701,6 +753,7 @@ function computeAdPlan(counts, every, max) {
 <a data-google-vignette="false" href="https://onsen.netaful.jp/">温泉宿ポチ<span class="lbl"> 温泉地の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://ritou.netaful.jp/">離島宿ポチ<span class="lbl"> 島の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://michinoeki.netaful.jp/">道の駅ポチ<span class="lbl"> 道の駅の駐車場と設備</span></a>
+<a data-google-vignette="false" href="https://shinhatsubai.netaful.jp/">新発売ポチ<span class="lbl"> 新商品を発売日でまとめて</span></a>
 </nav>
 </footer>
 

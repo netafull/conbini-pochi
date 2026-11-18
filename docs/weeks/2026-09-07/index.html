@@ -81,6 +81,13 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .item .price { margin-top: 6px; font-size: 13px; }
 .item .price .kcal { margin-left: 8px; color: var(--muted); }
 .item .meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+/* カードのカテゴリアイコン（ドット絵32px。倍数で出すと点がそろう） */
+.cat-icon { width: 48px; height: 48px; flex-shrink: 0; image-rendering: pixelated; }
+@media (min-width: 700px) { .cat-icon { width: 64px; height: 64px; } }
+.item.has-icon { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 10px; align-items: start; }
+.item.has-icon > .cat-icon { grid-column: 1; grid-row: 1 / span 5; }
+.item.has-icon > :not(.cat-icon) { grid-column: 2; min-width: 0; }
+.item.has-icon .badge { justify-self: start; }
 .weeklist { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
 .weeklist a { text-decoration: none; padding: 10px 14px; background: var(--card);
   border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
@@ -171,184 +178,207 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <section class="chain-group" data-chain="lawson">
 <h3>ローソン (23件)</h3>
 <div class="grid" data-sortable>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531745.html" data-kcal="97.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531745.html" data-kcal="97.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/sozai.svg" width="32" height="32" alt="惣菜・揚げ物" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">おつまみタンスティック　チーズ</div>
   <div class="price">税込200円<span class="kcal">97kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531746.html" data-kcal="122.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531746.html" data-kcal="122.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/snack.svg" width="32" height="32" alt="お菓子" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">シビれ麻辣湯スナック</div>
   <div class="price">税込158円<span class="kcal">122kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531747.html" data-kcal="250.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531747.html" data-kcal="250.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">大きなおにぎり　鮭わかめ(国産もち麦入り)</div>
   <div class="price">税込246円<span class="kcal">250kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531748.html" data-kcal="381.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531748.html" data-kcal="381.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/pasta.svg" width="32" height="32" alt="パスタ" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">0秒パスタサラダ　ビビンパ風</div>
   <div class="price">税込397円<span class="kcal">381kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531749.html" data-kcal="88.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531749.html" data-kcal="88.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/snack.svg" width="32" height="32" alt="お菓子" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">チョコチップスナック　6本入</div>
   <div class="price">税込149円<span class="kcal">88kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531750.html" data-kcal="87.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531750.html" data-kcal="87.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/snack.svg" width="32" height="32" alt="お菓子" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">バター香るスナックスティック　6本入</div>
   <div class="price">税込149円<span class="kcal">87kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531751.html" data-kcal="98.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531751.html" data-kcal="98.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">もっちりとしたアップルシナモンパン　4個入</div>
   <div class="price">税込235円<span class="kcal">98kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531752.html" data-kcal="391.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531752.html" data-kcal="391.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">北海道産じゃがいものコロッケパン</div>
   <div class="price">税込203円<span class="kcal">391kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531753.html" data-kcal="232.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531753.html" data-kcal="232.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">コンビーフポテトパン</div>
   <div class="price">税込214円<span class="kcal">232kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531754.html" data-kcal="383.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531754.html" data-kcal="383.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">meiji　白いちぎりパン　ホワイトチョコ入りホイップ</div>
   <div class="price">税込192円<span class="kcal">383kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531755.html" data-kcal="373.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531755.html" data-kcal="373.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">meiji　チョコクロワッサン　チョコ入りホイップ</div>
   <div class="price">税込192円<span class="kcal">373kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531758.html" data-kcal="296.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531758.html" data-kcal="296.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/chukaman.svg" width="32" height="32" alt="中華まん" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">特撰　豚まん(醤油)</div>
   <div class="price">税込270円<span class="kcal">296kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531759.html" data-kcal="317.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531759.html" data-kcal="317.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/chukaman.svg" width="32" height="32" alt="中華まん" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">特撰　豚まん(塩)</div>
   <div class="price">税込270円<span class="kcal">317kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531762.html" data-kcal="572.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531762.html" data-kcal="572.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/pasta.svg" width="32" height="32" alt="パスタ" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">生パスタ　ポルチーニ香るきのこクリーム</div>
   <div class="price">税込646円<span class="kcal">572kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531764.html" data-kcal="252.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531764.html" data-kcal="252.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">とろける月見パンケーキ</div>
   <div class="price">税込292円<span class="kcal">252kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   <div class="review-badge">レビューあり</div>
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531765.html" data-kcal="345.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531765.html" data-kcal="345.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">月見フィナンシェケーキ</div>
   <div class="price">税込257円<span class="kcal">345kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531789.html" data-kcal="435.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531789.html" data-kcal="435.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">麺大盛り　野菜入り塩ラーメン</div>
   <div class="price">税込228円<span class="kcal">435kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531790.html" data-kcal="174.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531790.html" data-kcal="174.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="寿司" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">手巻寿司　チキンてりたま</div>
   <div class="price">税込214円<span class="kcal">174kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531791.html" data-kcal="228.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531791.html" data-kcal="228.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">ほうじ茶ワッフルコーン</div>
   <div class="price">税込354円<span class="kcal">228kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531792.html" data-kcal="156.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531792.html" data-kcal="156.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/drink.svg" width="32" height="32" alt="ドリンク" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">ヨーグルトスムージー　マンゴーミックス</div>
   <div class="price">税込258円<span class="kcal">156kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531793.html" data-kcal="282.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531793.html" data-kcal="282.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="弁当・ごはん" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">食感を楽しむ！ゆずポン酢仕立てのネバネバご飯</div>
   <div class="price">税込697円<span class="kcal">282kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531863.html" data-kcal="539.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531863.html" data-kcal="539.0"
    data-date="2026-09-08" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="麺" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">温・冷　気分で選べる！半熟玉子と磯辺揚げのぶっかけうどん</div>
   <div class="price">税込599円<span class="kcal">539kcal</span></div>
   <div class="meta">2026-09-08 発売</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/lawson-1531763.html" data-kcal="214.0"
+<a data-google-vignette="false" class="item has-icon" href="/items/lawson-1531763.html" data-kcal="214.0"
    data-date="2026-09-07" data-chain="lawson">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="スイーツ" loading="lazy" decoding="async">
   <div class="badge">ローソン</div>
   <div class="t">月見スイートポテトプリン</div>
   <div class="price">税込281円<span class="kcal">214kcal</span></div>
@@ -525,6 +555,7 @@ function computeAdPlan(counts, every, max) {
 <a data-google-vignette="false" href="https://onsen.netaful.jp/">温泉宿ポチ<span class="lbl"> 温泉地の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://ritou.netaful.jp/">離島宿ポチ<span class="lbl"> 島の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://michinoeki.netaful.jp/">道の駅ポチ<span class="lbl"> 道の駅の駐車場と設備</span></a>
+<a data-google-vignette="false" href="https://shinhatsubai.netaful.jp/">新発売ポチ<span class="lbl"> 新商品を発売日でまとめて</span></a>
 </nav>
 </footer>
 

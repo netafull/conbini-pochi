@@ -566,5 +566,45 @@ class TestSitemapLastmod(unittest.TestCase):
         self.assertNotIn(datetime.date.today().isoformat(), xml)
 
 
+class TestCategoryIcon(unittest.TestCase):
+    def test_mapped_category_renders_icon(self):
+        it = make_item("familymart", "1")
+        it["category"] = "おむすび"
+        html_ = gs.render_card(it)
+        self.assertIn('class="cat-icon"', html_)
+        self.assertIn("/assets/icons/cat/onigiri.svg", html_)
+        self.assertIn('class="item has-icon"', html_)
+        self.assertTrue(html_.split('<a class="item has-icon"', 1)[1].lstrip().split(">", 1)[1].lstrip()
+                        .startswith('<img class="cat-icon"'))
+
+    def test_no_category_gets_guessed_icon(self):
+        it = make_item("seven", "2")
+        it["name"] = "鶏からあげ弁当"
+        self.assertIn("/assets/icons/cat/bento.svg", gs.render_card(it))
+
+    def test_unguessable_has_no_icon(self):
+        it = make_item("lawson", "3")
+        it["name"] = "ＺＺＺ"
+        html_ = gs.render_card(it)
+        self.assertNotIn("cat-icon", html_)
+        self.assertNotIn("has-icon", html_)
+
+    def test_unmapped_category_has_no_icon(self):
+        it = make_item("familymart", "4")
+        it["category"] = "未知のカテゴリ"
+        self.assertNotIn("cat-icon", gs.render_card(it))
+
+    def test_category_text_still_shown_in_meta(self):
+        it = make_item("familymart", "5")
+        it["category"] = "パン"
+        self.assertIn("・パン</div>", gs.render_card(it))
+
+    def test_all_icon_files_exist(self):
+        slugs = set(gs.CATEGORY_ICONS.values())
+        for slug in slugs:
+            self.assertTrue((ROOT / "docs" / "assets" / "icons" / "cat" / f"{slug}.svg").is_file(), slug)
+        self.assertTrue(set(gs.ICON_LABELS) >= slugs)
+
+
 if __name__ == "__main__":
     unittest.main()

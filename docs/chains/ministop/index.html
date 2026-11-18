@@ -81,6 +81,13 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .item .price { margin-top: 6px; font-size: 13px; }
 .item .price .kcal { margin-left: 8px; color: var(--muted); }
 .item .meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+/* カードのカテゴリアイコン（ドット絵32px。倍数で出すと点がそろう） */
+.cat-icon { width: 48px; height: 48px; flex-shrink: 0; image-rendering: pixelated; }
+@media (min-width: 700px) { .cat-icon { width: 64px; height: 64px; } }
+.item.has-icon { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 10px; align-items: start; }
+.item.has-icon > .cat-icon { grid-column: 1; grid-row: 1 / span 5; }
+.item.has-icon > :not(.cat-icon) { grid-column: 2; min-width: 0; }
+.item.has-icon .badge { justify-self: start; }
 .weeklist { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
 .weeklist a { text-decoration: none; padding: 10px 14px; background: var(--card);
   border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
@@ -172,528 +179,594 @@ footer { max-width: 980px; margin: 0 auto; padding: 16px; color: var(--muted); f
 <section class="chain-group" data-chain="ministop">
 <h3>ミニストップ (66件)</h3>
 <div class="grid" data-sortable>
-<a data-google-vignette="false" class="item" href="/items/ministop-054164.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054164.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">大きなのりノリ海苔！おにぎり</div>
   <div class="price">税込267.84円（税抜248円）</div>
   <div class="meta">2026-11-17 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054165.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054165.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ベーコンチーズ焼きおにぎり</div>
   <div class="price">税込203.04円（税抜188円）</div>
   <div class="meta">2026-11-17 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054166.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054166.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">鶏照焼きそぼろ重(大麦入り)</div>
   <div class="price">税込537.84円（税抜498円）</div>
   <div class="meta">2026-11-17 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054167.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054167.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">漆黒のスパイス★sparkカレー</div>
   <div class="price">税込753.84円（税抜698円）</div>
   <div class="meta">2026-11-17 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054168.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054168.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">得々にぎり12貫</div>
   <div class="price">税込645.84円（税抜598円）</div>
   <div class="meta">2026-11-17 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054169.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054169.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sandwich.svg" width="32" height="32" alt="サンドイッチ・ロールパン・バーガー" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ニンニク豚醤油サンド</div>
   <div class="price">税込473.04円（税抜438円）</div>
   <div class="meta">2026-11-17 発売・サンドイッチ・ロールパン・バーガー</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054170.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054170.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ベルギーチョコパフェを大きくしてロールケーキ乗せちゃいました！</div>
   <div class="price">税込645.84円（税抜598円）</div>
   <div class="meta">2026-11-17 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054171.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054171.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">しあわせクレープ まるごとプリン</div>
   <div class="price">税込267.84円（税抜248円）</div>
   <div class="meta">2026-11-17 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054172.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054172.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ブラックココアサンド(クッキー&amp;クリーム)</div>
   <div class="price">税込235.44円（税抜218円）</div>
   <div class="meta">2026-11-17 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054173.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054173.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">大きなブラックメロンパン(チョコホイップ)</div>
   <div class="price">税込213.84円（税抜198円）</div>
   <div class="meta">2026-11-17 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054175.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054175.html" data-kcal=""
    data-date="2026-11-17" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/ice.svg" width="32" height="32" alt="アイスクリーム" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ビターチョコモナカ</div>
   <div class="price">税込259.2円（税抜240円）</div>
   <div class="meta">2026-11-17 発売・アイスクリーム</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054032.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054032.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">サンドおむすび ヤンニョムチキン</div>
   <div class="price">税込321.84円（税抜298円）</div>
   <div class="meta">2026-11-10 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054033.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054033.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">若鶏の唐揚弁当</div>
   <div class="price">税込699.84円（税抜648円）</div>
   <div class="meta">2026-11-10 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054034.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054034.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">デジキムチポックム丼(豚キムチ丼)</div>
   <div class="price">税込753.84円（税抜698円）</div>
   <div class="meta">2026-11-10 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054035.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054035.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">シビ辛！麻辣風サラダ太巻5巻</div>
   <div class="price">税込429.84円（税抜398円）</div>
   <div class="meta">2026-11-10 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054036.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054036.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">カンジャンサーモン丼(韓国醤油だれ和えサーモン丼)</div>
   <div class="price">税込753.84円（税抜698円）</div>
   <div class="meta">2026-11-10 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054037.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054037.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/noodles.svg" width="32" height="32" alt="そば・うどん・中華めん" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">辛ねぎ味噌ラーメン</div>
   <div class="price">税込604.8円（税抜560円）</div>
   <div class="meta">2026-11-10 発売・そば・うどん・中華めん</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054038.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054038.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">4種のチーズケーキアソート</div>
   <div class="price">税込494.64円（税抜458円）</div>
   <div class="meta">2026-11-10 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054039.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054039.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">トゥンカロン(太っちょマカロン)</div>
   <div class="price">税込354.24円（税抜328円）</div>
   <div class="meta">2026-11-10 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054040.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054040.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">北海道スフレチーズケーキ キャラメル</div>
   <div class="price">税込267.84円（税抜248円）</div>
   <div class="meta">2026-11-10 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054041.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054041.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ダブルチョコロールパン</div>
   <div class="price">税込192.24円（税抜178円）</div>
   <div class="meta">2026-11-10 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054042.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054042.html" data-kcal=""
    data-date="2026-11-10" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ずっしりデニッシュ(和栗クリーム)</div>
   <div class="price">税込116.64円（税抜108円）</div>
   <div class="meta">2026-11-10 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054020.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054020.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">手巻ピリ辛ビビンバ</div>
   <div class="price">税込213.84円（税抜198円）</div>
   <div class="meta">2026-11-03 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054021.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054021.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">チュモッパ(韓国にぎりめし)</div>
   <div class="price">税込181.44円（税抜168円）</div>
   <div class="meta">2026-11-03 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054022.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054022.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ユブチョバプ(韓国いなり)</div>
   <div class="price">税込537.84円（税抜498円）</div>
   <div class="meta">2026-11-03 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054023.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054023.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">牛プルコギキンパ風太巻5巻</div>
   <div class="price">税込429.84円（税抜398円）</div>
   <div class="meta">2026-11-03 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054024.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054024.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">旨だれデジカルビ重(大麦入り)</div>
   <div class="price">税込537.84円（税抜498円）</div>
   <div class="meta">2026-11-03 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054025.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054025.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">コグマシュークリーム</div>
   <div class="price">税込192.24円（税抜178円）</div>
   <div class="meta">2026-11-03 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054026.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054026.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">もっちりたい焼き カスタード</div>
   <div class="price">税込181.44円（税抜168円）</div>
   <div class="meta">2026-11-03 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054027.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054027.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ハムチーズクロワッサン</div>
   <div class="price">税込116.64円（税抜108円）</div>
   <div class="meta">2026-11-03 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-054028.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-054028.html" data-kcal=""
    data-date="2026-11-03" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">コグマパン</div>
   <div class="price">税込192.24円（税抜178円）</div>
   <div class="meta">2026-11-03 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053902.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053902.html" data-kcal=""
    data-date="2026-10-27" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">手巻寿司 納豆巻</div>
   <div class="price">税込181.44円（税抜168円）</div>
   <div class="meta">2026-10-27 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053903.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053903.html" data-kcal=""
    data-date="2026-10-27" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ジャンバラヤ&amp;ペペロンチーノ</div>
   <div class="price">税込645.84円（税抜598円）</div>
   <div class="meta">2026-10-27 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053904.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053904.html" data-kcal=""
    data-date="2026-10-27" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">茨城県産笠間栗のモンブラン</div>
   <div class="price">税込494.64円（税抜458円）</div>
   <div class="meta">2026-10-27 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053905.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053905.html" data-kcal=""
    data-date="2026-10-27" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">カラフルチョコ大福2個入</div>
   <div class="price">税込246.24円（税抜228円）</div>
   <div class="meta">2026-10-27 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053906.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053906.html" data-kcal=""
    data-date="2026-10-27" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">たまごピザトースト</div>
   <div class="price">税込181.44円（税抜168円）</div>
   <div class="meta">2026-10-27 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053907.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053907.html" data-kcal=""
    data-date="2026-10-27" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">もっち～りドーナツ チョコ</div>
   <div class="price">税込159.84円（税抜148円）</div>
   <div class="meta">2026-10-27 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053908.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053908.html" data-kcal=""
    data-date="2026-10-27" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ベーコンマヨネーズパン</div>
   <div class="price">税込170.64円（税抜158円）</div>
   <div class="meta">2026-10-27 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053823.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053823.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">タルタルチキン南蛮弁当</div>
   <div class="price">税込699.84円（税抜648円）</div>
   <div class="meta">2026-10-20 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053824.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053824.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">海老と野菜の天重(大麦入り)</div>
   <div class="price">税込429.84円（税抜398円）</div>
   <div class="meta">2026-10-20 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053825.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053825.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">手巻寿司 背徳牛カルビ巻</div>
   <div class="price">税込235.44円（税抜218円）</div>
   <div class="meta">2026-10-20 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053826.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053826.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">かしわめし</div>
   <div class="price">税込170.64円（税抜158円）</div>
   <div class="meta">2026-10-20 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053827.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053827.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">丸福珈琲店監修 キャラメルラテパフェ</div>
   <div class="price">税込354.24円（税抜328円）</div>
   <div class="meta">2026-10-20 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053828.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053828.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">丸福珈琲店監修 珈琲シュークリーム</div>
   <div class="price">税込192.24円（税抜178円）</div>
   <div class="meta">2026-10-20 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053829.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053829.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">大きなピザパン(マルゲリータ)</div>
   <div class="price">税込192.24円（税抜178円）</div>
   <div class="meta">2026-10-20 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053830.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053830.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">パンプキンスティックパイ</div>
   <div class="price">税込170.64円（税抜158円）</div>
   <div class="meta">2026-10-20 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053831.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053831.html" data-kcal=""
    data-date="2026-10-20" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/ice.svg" width="32" height="32" alt="アイスクリーム" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ワッフルコーンこくのミルク</div>
   <div class="price">税込278.64円（税抜258円）</div>
   <div class="meta">2026-10-20 発売・アイスクリーム</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053749.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053749.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ふんわり玉子のデミオムライス</div>
   <div class="price">税込699.84円（税抜648円）</div>
   <div class="meta">2026-10-13 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053750.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053750.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">彩り3色丼</div>
   <div class="price">税込645.84円（税抜598円）</div>
   <div class="meta">2026-10-13 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053751.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053751.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">手巻寿司 明太納豆巻</div>
   <div class="price">税込213.84円（税抜198円）</div>
   <div class="meta">2026-10-13 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053752.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053752.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">まる寿司 サーモンポキ風</div>
   <div class="price">税込213.84円（税抜198円）</div>
   <div class="meta">2026-10-13 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053753.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053753.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">秋の彩りちらし寿司</div>
   <div class="price">税込321.84円（税抜298円）</div>
   <div class="meta">2026-10-13 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053754.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053754.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/onigiri.svg" width="32" height="32" alt="おにぎり" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">舞茸ごはん</div>
   <div class="price">税込116.64円（税抜108円）</div>
   <div class="meta">2026-10-13 発売・おにぎり</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053755.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053755.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ダークココアティラミス</div>
   <div class="price">税込375.84円（税抜348円）</div>
   <div class="meta">2026-10-13 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053756.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053756.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">スイートパンプキンプリン</div>
   <div class="price">税込375.84円（税抜348円）</div>
   <div class="meta">2026-10-13 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053757.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053757.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">もっちり食感のミートパン</div>
   <div class="price">税込203.04円（税抜188円）</div>
   <div class="meta">2026-10-13 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053758.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053758.html" data-kcal=""
    data-date="2026-10-13" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">ふんわり三角サンド(コーヒークリーム)</div>
   <div class="price">税込181.44円（税抜168円）</div>
   <div class="meta">2026-10-13 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053676.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053676.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">みそロースとんかつ弁当</div>
   <div class="price">税込699.84円（税抜648円）</div>
   <div class="meta">2026-10-06 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053677.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053677.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bento.svg" width="32" height="32" alt="お弁当" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">炒飯&amp;中華風炒麺</div>
   <div class="price">税込645.84円（税抜598円）</div>
   <div class="meta">2026-10-06 発売・お弁当</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053678.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053678.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sushi.svg" width="32" height="32" alt="お寿司" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">巻寿司&amp;冷製パスタ(青しそ)</div>
   <div class="price">税込429.84円（税抜398円）</div>
   <div class="meta">2026-10-06 発売・お寿司</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053679.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053679.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">アールグレイミルクティーシュークリーム</div>
   <div class="price">税込170.64円（税抜158円）</div>
   <div class="meta">2026-10-06 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053680.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053680.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">もちまる焼き 安納芋クリーム</div>
   <div class="price">税込181.44円（税抜168円）</div>
   <div class="meta">2026-10-06 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053681.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053681.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/sweets.svg" width="32" height="32" alt="デザート" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">しっとりお芋のロールケーキ</div>
   <div class="price">税込181.44円（税抜168円）</div>
   <div class="meta">2026-10-06 発売・デザート</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053682.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053682.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/bread.svg" width="32" height="32" alt="パン" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">黒ごまのデニッシュリングパン(いもあん入り)</div>
   <div class="price">税込159.84円（税抜148円）</div>
   <div class="meta">2026-10-06 発売・パン</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053683.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053683.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/ice.svg" width="32" height="32" alt="アイスクリーム" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">つぶもち入り黒蜜ほうじ茶モナカ</div>
   <div class="price">税込302.4円（税抜280円）</div>
   <div class="meta">2026-10-06 発売・アイスクリーム</div>
   
 </a>
-<a data-google-vignette="false" class="item" href="/items/ministop-053684.html" data-kcal=""
+<a data-google-vignette="false" class="item has-icon" href="/items/ministop-053684.html" data-kcal=""
    data-date="2026-10-06" data-chain="ministop">
+  <img class="cat-icon" src="/assets/icons/cat/ice.svg" width="32" height="32" alt="アイスクリーム" loading="lazy" decoding="async">
   <div class="badge">ミニストップ</div>
   <div class="t">黒蜜ソース入りほうじ茶ラテアイス</div>
   <div class="price">税込302.4円（税抜280円）</div>
@@ -849,6 +922,7 @@ function computeAdPlan(counts, every, max) {
 <a data-google-vignette="false" href="https://onsen.netaful.jp/">温泉宿ポチ<span class="lbl"> 温泉地の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://ritou.netaful.jp/">離島宿ポチ<span class="lbl"> 島の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://michinoeki.netaful.jp/">道の駅ポチ<span class="lbl"> 道の駅の駐車場と設備</span></a>
+<a data-google-vignette="false" href="https://shinhatsubai.netaful.jp/">新発売ポチ<span class="lbl"> 新商品を発売日でまとめて</span></a>
 </nav>
 </footer>
 

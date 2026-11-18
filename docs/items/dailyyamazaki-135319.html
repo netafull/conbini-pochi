@@ -81,6 +81,13 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .item .price { margin-top: 6px; font-size: 13px; }
 .item .price .kcal { margin-left: 8px; color: var(--muted); }
 .item .meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+/* カードのカテゴリアイコン（ドット絵32px。倍数で出すと点がそろう） */
+.cat-icon { width: 48px; height: 48px; flex-shrink: 0; image-rendering: pixelated; }
+@media (min-width: 700px) { .cat-icon { width: 64px; height: 64px; } }
+.item.has-icon { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 10px; align-items: start; }
+.item.has-icon > .cat-icon { grid-column: 1; grid-row: 1 / span 5; }
+.item.has-icon > :not(.cat-icon) { grid-column: 2; min-width: 0; }
+.item.has-icon .badge { justify-self: start; }
 .weeklist { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
 .weeklist a { text-decoration: none; padding: 10px 14px; background: var(--card);
   border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
@@ -244,6 +251,7 @@ border-radius:4px;padding:2px 8px;background:var(--dailyyamazaki)">デイリー�
 <a data-google-vignette="false" href="https://onsen.netaful.jp/">温泉宿ポチ<span class="lbl"> 温泉地の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://ritou.netaful.jp/">離島宿ポチ<span class="lbl"> 島の空室を、すぐ探す</span></a>
 <a data-google-vignette="false" href="https://michinoeki.netaful.jp/">道の駅ポチ<span class="lbl"> 道の駅の駐車場と設備</span></a>
+<a data-google-vignette="false" href="https://shinhatsubai.netaful.jp/">新発売ポチ<span class="lbl"> 新商品を発売日でまとめて</span></a>
 </nav>
 </footer>
 

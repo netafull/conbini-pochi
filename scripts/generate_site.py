@@ -15,6 +15,8 @@ import shutil
 import unicodedata
 from pathlib import Path
 
+from icon_guess import guess_icon
+
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
 DATA = ROOT / "data"
@@ -232,15 +234,53 @@ def price_html(item: dict) -> str:
     return "".join(parts)
 
 
+# カテゴリ名 -> アイコン（docs/assets/icons/cat/<slug>.svg）。新発売ポチの CATEGORY_ICONS["conbini"] と同じ対応。
+# カテゴリのないセブン・ローソン等は商品名から推定する（推定はアイコンにだけ使い、カテゴリー名としては出さない）。
+# 未登録で推定もできない商品はアイコンを出さない（「その他」にはフォールバックしない）。
+def _m(slug, *cats):
+    return {c: slug for c in cats}
+
+
+CATEGORY_ICONS = {
+    **_m("onigiri", "おにぎり", "おむすび"), **_m("bento", "お弁当"), **_m("sushi", "お寿司"),
+    **_m("sandwich", "サンド", "サンドイッチ・ロールパン・バーガー"), **_m("bread", "パン"),
+    **_m("noodles", "そば・うどん・中華めん", "麺"), **_m("pasta", "パスタ"),
+    **_m("sozai", "チルド惣菜", "ホットスナック・惣菜"), **_m("salad", "サラダ"),
+    **_m("soup", "スープ・グラタン・お好み焼き"), **_m("chukaman", "中華まん"),
+    **_m("sweets", "デザート", "スイーツ", "和菓子"), **_m("ice", "アイス", "アイスクリーム"),
+    **_m("snack", "お菓子"), **_m("drink", "飲料", "コーヒー・フラッペ"), **_m("alcohol", "お酒"),
+}
+ICON_LABELS = {
+    "onigiri": "おにぎり", "bento": "弁当・ごはん", "donburi": "丼・定食", "curry": "カレー", "sushi": "寿司",
+    "sandwich": "サンドイッチ", "burger": "ハンバーガー", "bread": "パン", "noodles": "麺", "pasta": "パスタ",
+    "cupnoodle": "カップ麺", "sozai": "惣菜・揚げ物", "salad": "サラダ", "soup": "スープ・グラタン",
+    "chukaman": "中華まん", "sweets": "スイーツ", "ice": "アイス", "snack": "お菓子", "drink": "ドリンク",
+    "alcohol": "お酒", "other": "その他",
+}
+
+
+def category_icon(item: dict) -> tuple[str, str] | None:
+    """商品のカテゴリアイコン (slug, 代替テキスト) を返す。なければ None。"""
+    cat = item.get("category")
+    if cat:
+        slug = CATEGORY_ICONS.get(cat)
+        return (slug, cat) if slug else None
+    slug = guess_icon(item.get("name"), "conbini")
+    return (slug, ICON_LABELS[slug]) if slug else None
+
+
 def render_card(item: dict) -> str:
     chain_name = CHAIN_NAME.get(item["chain"], item["chain"])
     date = effective_date(item) or ""
     kcal = (item.get("nutrition") or {}).get("kcal")
     kcal_html = f'<span class="kcal">{kcal:g}kcal</span>' if kcal is not None else ""
     review_html = '<div class="review-badge">レビューあり</div>' if item_reviews(item) else ""
-    return f"""<a class="item" href="/{esc(item_url(item))}" data-kcal="{kcal if kcal is not None else ''}"
+    icon = category_icon(item)
+    icon_html = (f'<img class="cat-icon" src="/assets/icons/cat/{icon[0]}.svg" width="32" height="32" '
+                 f'alt="{esc(icon[1])}" loading="lazy" decoding="async">\n  ') if icon else ""
+    return f"""<a class="item{' has-icon' if icon else ''}" href="/{esc(item_url(item))}" data-kcal="{kcal if kcal is not None else ''}"
    data-date="{esc(date)}" data-chain="{esc(item['chain'])}">
-  <div class="badge">{esc(chain_name)}</div>
+  {icon_html}<div class="badge">{esc(chain_name)}</div>
   <div class="t">{esc(item['name'])}</div>
   <div class="price">{price_html(item)}{kcal_html}</div>
   <div class="meta">{esc(date)} 発売{('・' + esc(item['category'])) if item.get('category') else ''}</div>
@@ -307,6 +347,13 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .item .price { margin-top: 6px; font-size: 13px; }
 .item .price .kcal { margin-left: 8px; color: var(--muted); }
 .item .meta { font-size: 11px; color: var(--muted); margin-top: 4px; }
+/* カードのカテゴリアイコン（ドット絵32px。倍数で出すと点がそろう） */
+.cat-icon { width: 48px; height: 48px; flex-shrink: 0; image-rendering: pixelated; }
+@media (min-width: 700px) { .cat-icon { width: 64px; height: 64px; } }
+.item.has-icon { display: grid; grid-template-columns: auto minmax(0, 1fr); column-gap: 10px; align-items: start; }
+.item.has-icon > .cat-icon { grid-column: 1; grid-row: 1 / span 5; }
+.item.has-icon > :not(.cat-icon) { grid-column: 2; min-width: 0; }
+.item.has-icon .badge { justify-self: start; }
 .weeklist { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; }
 .weeklist a { text-decoration: none; padding: 10px 14px; background: var(--card);
   border: 1px solid var(--line); border-radius: 8px; font-size: 14px; }
