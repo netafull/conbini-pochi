@@ -2772,6 +2772,18 @@
   ],
   "lawson": [
    {
+    "date": "2026-11-19T13:00:00",
+    "id": 212929,
+    "link": "https://netaful.jp/lawson/0212929.html",
+    "product_name": "盛りすぎ！ツナたまごサンド",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/lawson-50plus-tunasalada-005-485x364.jpg",
+     "width": 485
+    },
+    "title": "【ローソン】「盛りすぎ！ツナたまごサンド」ツナサラダ50%増量！実測164gでずっしり"
+   },
+   {
     "date": "2026-11-12T11:30:00",
     "id": 212549,
     "link": "https://netaful.jp/lawson/0212549.html",
@@ -12106,7 +12118,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-19T07:01:37+09:00",
+ "fetched_at": "2026-11-20T07:01:10+09:00",
  "matches": {
   "familymart-0412018": [
    210488
@@ -12132,11 +12144,17 @@
   "lawson-1532644": [
    210119
   ],
+  "lawson-1532665": [
+   212929
+  ],
   "lawson-1533651": [
    211834
   ],
   "lawson-1533652": [
    211913
+  ],
+  "lawson-1534280": [
+   212929
   ],
   "seven-040795": [
    210970

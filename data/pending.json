@@ -1,7 +1,19 @@
 {
+ "_health": {
+  "ministop": {
+   "days": 1,
+   "last_date": "2026-11-20"
+  }
+ },
  "dailyyamazaki": {},
  "familymart": {},
  "lawson": {},
- "ministop": {},
+ "ministop": {
+  "list": {
+   "checked_at": "2026-11-20T07:01:01+09:00",
+   "reason": "fetch_error: HTTP Error 503: Service Unavailable",
+   "url": "https://www.ministop.co.jp/syohin/js/recommend.json"
+  }
+ },
  "seven": {}
 }

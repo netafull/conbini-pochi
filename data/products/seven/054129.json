@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054129",
+ "name": "チョコだらけサンド",
+ "category": null,
+ "price_excl_tax": 370,
+ "price_incl_tax": 399.6,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "ココア食パン，チョコホイップ，チョコチップ，チョコソースを使用し、黒い見た目にこだわったチョコホイップサンドです。",
+ "nutrition": {
+  "kcal": 399.0,
+  "protein_g": 7.4,
+  "fat_g": 22.1,
+  "carbs_g": 43.6,
+  "sugar_g": 41.7,
+  "fiber_g": 1.9,
+  "salt_g": 0.53,
+  "raw": "熱量：399kcal、たんぱく質：7.4g、脂質：22.1g、炭水化物：43.6g（糖質：41.7g、食物繊維：1.9g）、食塩相当量：0.53g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "東北",
+   "regions": [
+    "東北"
+   ],
+   "price_excl_tax": 370,
+   "price_incl_tax": 399.6,
+   "url": "https://www.sej.co.jp/products/a/item/054129/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054129/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054129/tohoku/"
+ ],
+ "first_seen_at": "2026-11-20T07:00:30+09:00",
+ "fetched_at": "2026-11-20T07:00:30+09:00",
+ "source_list": "thisweek",
+ "image": null
+}
