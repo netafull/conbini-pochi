@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534527",
+ "name": "しっとりフルーツパウンドケーキ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 198,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026.11.24",
+ "regions": null,
+ "region_text": null,
+ "description": "フルーツの甘みとレモンの香りが楽しめるパウンドケーキです。洋酒使用。",
+ "nutrition": {
+  "kcal": 223.0,
+  "protein_g": 2.9,
+  "fat_g": 9.6,
+  "carbs_g": 31.1,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 0.2,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1個当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>223kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>2.9g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>9.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>31.1g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1個",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534527_1996.html",
+ "first_seen_at": "2026-11-21T07:04:51+09:00",
+ "fetched_at": "2026-11-21T07:04:51+09:00",
+ "source_list": "/recommend/new/list/1534462_5162.html",
+ "image": null
+}

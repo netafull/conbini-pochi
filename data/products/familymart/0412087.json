@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "0412087",
+ "name": "焼おむすび　牛焼肉",
+ "category": "おむすび",
+ "price_excl_tax": 239,
+ "price_incl_tax": 258,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "焼肉のタレやにんにくなどで味付けした旨みのある牛焼肉を包み、焦がし醤油粉末を入れた醤油タレで香ばしく焼き上げた焼おむすびです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0412087.html",
+ "first_seen_at": "2026-11-21T07:01:18+09:00",
+ "fetched_at": "2026-11-21T07:01:18+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

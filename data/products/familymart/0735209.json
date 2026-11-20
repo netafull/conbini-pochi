@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0735209",
+ "name": "香り箱　天津飯",
+ "category": "お弁当",
+ "price_excl_tax": 598,
+ "price_incl_tax": 645,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "北陸"
+ ],
+ "region_text": "北陸",
+ "description": "ふんわり食感のたまごに、醤油ベースのあんを合わせたあっさり食べやすい天津飯です。あんには鶏がらや中華だしをきかせ、香り箱のほぐし身をトッピングしました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0735209.html",
+ "first_seen_at": "2026-11-21T07:01:27+09:00",
+ "fetched_at": "2026-11-21T07:01:27+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

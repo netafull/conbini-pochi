@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534506",
+ "name": "マルエス　イカ天のり天　黒トリュフソルト",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 248,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026.11.24",
+ "regions": null,
+ "region_text": null,
+ "description": "一口サイズの本格イカ天とのり天を黒トリュフ香る塩味に仕上げました。",
+ "nutrition": {
+  "kcal": 34.0,
+  "protein_g": 3.6,
+  "fat_g": 12.6,
+  "carbs_g": 15.6,
+  "sugar_g": null,
+  "fiber_g": null,
+  "salt_g": 1.0,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1袋(34g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>34kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>3.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>12.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>15.6g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 34g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534506_1996.html",
+ "first_seen_at": "2026-11-21T07:05:51+09:00",
+ "fetched_at": "2026-11-21T07:05:51+09:00",
+ "source_list": "/recommend/new/list/1534462_5162.html",
+ "image": null
+}

@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0736343",
+ "name": "英國屋監修　シーフードドリア",
+ "category": "お弁当",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "関西"
+ ],
+ "region_text": "関西",
+ "description": "コンソメご飯にホワイトソースを重ね、海老とイカとあさりをのせた「CAFE英國屋」監修のシーフードドリアです。※和歌山県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0736343.html",
+ "first_seen_at": "2026-11-21T07:01:29+09:00",
+ "fetched_at": "2026-11-21T07:01:29+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

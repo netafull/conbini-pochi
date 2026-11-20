@@ -49,14 +49,28 @@
    "price_excl_tax": 340,
    "price_incl_tax": 367.2,
    "url": "https://www.sej.co.jp/products/a/item/054143/shikoku/"
+  },
+  "kanto": {
+   "region_text": "茨城県、栃木県、群馬県、埼玉県、東京都",
+   "regions": [
+    "茨城県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "東京都"
+   ],
+   "price_excl_tax": 340,
+   "price_incl_tax": 367.2,
+   "url": "https://www.sej.co.jp/products/a/item/054143/kanto/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/054143/shikoku/",
  "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054143/kanto/",
   "https://www.sej.co.jp/products/a/item/054143/shikoku/"
  ],
  "first_seen_at": "2026-11-17T07:05:48+09:00",
- "fetched_at": "2026-11-17T07:05:48+09:00",
+ "fetched_at": "2026-11-21T07:00:50+09:00",
  "source_list": "nextweek",
  "image": null
 }

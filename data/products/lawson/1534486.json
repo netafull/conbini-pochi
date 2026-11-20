@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534486",
+ "name": "得パン　シュガーマーガリンブレッド",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 127,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026.11.24",
+ "regions": null,
+ "region_text": "※沖縄地域のローソン、ナチュラルローソンではお取り扱いしておりません。",
+ "description": "ふんわり食感の生地にマーガリンとグラニュー糖の相性が抜群。",
+ "nutrition": {
+  "kcal": 446.0,
+  "protein_g": 8.7,
+  "fat_g": 21.3,
+  "carbs_g": 55.9,
+  "sugar_g": 53.6,
+  "fiber_g": 2.3,
+  "salt_g": 1.1,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1個当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>446kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>8.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>21.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>55.9g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>53.6g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>2.3g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>1.1g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1個",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534486_1996.html",
+ "first_seen_at": "2026-11-21T07:04:09+09:00",
+ "fetched_at": "2026-11-21T07:04:09+09:00",
+ "source_list": "/recommend/new/list/1534462_5162.html",
+ "image": null
+}

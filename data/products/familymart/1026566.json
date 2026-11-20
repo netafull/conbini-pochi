@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1026566",
+ "name": "韓国料理bibim'監修　旨辛スンドゥブ",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 369,
+ "price_incl_tax": 398,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "関西"
+ ],
+ "region_text": "関西",
+ "description": "「韓国料理bibim'」監修のスンドゥブです。牛の旨みとコクを引き出したスンドゥブスープに豆腐やあさりなどの具材を合わせました。※和歌山県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1026566.html",
+ "first_seen_at": "2026-11-21T07:02:35+09:00",
+ "fetched_at": "2026-11-21T07:02:35+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

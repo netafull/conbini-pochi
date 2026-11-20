@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "0730204",
+ "name": "香ばし炒めの黄金玉子炒飯",
+ "category": "お弁当",
+ "price_excl_tax": 554,
+ "price_incl_tax": 598,
+ "launch_date": "2026-11-23",
+ "launch_text": "2026年11月23日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": "「BE:FIRST」コラボ",
+ "description": "ファミリーマートのクリスマスアンバサダー「BE:FIRST」とのコラボ弁当です。JUNONさんが監修しました。がらスープとたまごの旨みがポイントの香ばしく炒めた塩ベースの炒飯です。シンプルながら後味までおいしく、手が止まらなくなる一品です。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/obento/0730204.html",
+ "first_seen_at": "2026-11-21T07:01:11+09:00",
+ "fetched_at": "2026-11-21T07:01:11+09:00",
+ "source_list": "thisweek",
+ "list_week_start": "2026-11-17",
+ "image": null
+}

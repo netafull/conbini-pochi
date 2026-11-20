@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "0240680",
+ "name": "スライムまん（てりやき味）",
+ "category": "中華まん",
+ "price_excl_tax": 239,
+ "price_incl_tax": 258,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "ジューシーな鶏肉に甘辛いてりやきダレを絡めた、寒い季節にぴったりの濃厚な味わいの中華まんです。今にも動き出しそうなかわいい「スライムまん」に仕上げました。※ごくまれに、「メタルスライムまん」が店頭のスチーマーに出現しますが、商品をお選びいただくことはできません。（味は同一です。）［数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/chukaman/0240680.html",
+ "first_seen_at": "2026-11-21T07:02:38+09:00",
+ "fetched_at": "2026-11-21T07:02:38+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

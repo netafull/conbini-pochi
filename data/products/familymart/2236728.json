@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "2236728",
+ "name": "あんがからんだ里いも鶏そぼろ",
+ "category": "チルド惣菜",
+ "price_excl_tax": 175,
+ "price_incl_tax": 189,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "かつおと昆布の旨みを染み込ませたコクのある味わいの鶏そぼろあんを、さといもに絡めました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/2236728.html",
+ "first_seen_at": "2026-11-21T07:02:28+09:00",
+ "fetched_at": "2026-11-21T07:02:28+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

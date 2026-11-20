@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "1730975",
+ "name": "のむヨーグルト　長野県産ふじりんご",
+ "category": "飲料",
+ "price_excl_tax": 185,
+ "price_incl_tax": 199,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "JA全農の商品ブランド「ニッポンエール」とのコラボ商品です。長野県産ふじりんごの果肉をダイスカットし、果実感溢れるおいしさを表現しました。生乳を使用しコクのある味わいです。甘味料、着色料不使用です。［数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/drink/1730975.html",
+ "first_seen_at": "2026-11-21T07:02:51+09:00",
+ "fetched_at": "2026-11-21T07:02:51+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

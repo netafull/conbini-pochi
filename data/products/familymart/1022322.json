@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1022322",
+ "name": "蒸し鶏と野菜の鶏白湯スープ",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 348,
+ "price_incl_tax": 375,
+ "launch_date": null,
+ "launch_text": "",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "1/3日分の野菜を使用したスープです。鶏の旨みがきいた鶏白湯スープで、具材には、蒸し鶏、キャベツ、もやしなどを使用しています。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1022322.html",
+ "first_seen_at": "2026-11-21T07:03:09+09:00",
+ "fetched_at": "2026-11-21T07:03:09+09:00",
+ "source_list": "lastweek",
+ "list_week_start": "2026-11-10",
+ "image": null
+}

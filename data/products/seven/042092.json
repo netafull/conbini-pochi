@@ -44,14 +44,28 @@
    "price_excl_tax": 550,
    "price_incl_tax": 594,
    "url": "https://www.sej.co.jp/products/a/item/042092/kanto/"
+  },
+  "kinki": {
+   "region_text": "関東、山梨県、長野県、近畿、九州",
+   "regions": [
+    "関東",
+    "山梨県",
+    "長野県",
+    "近畿",
+    "九州"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/042092/kinki/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/042092/kanto/",
  "official_urls": [
-  "https://www.sej.co.jp/products/a/item/042092/kanto/"
+  "https://www.sej.co.jp/products/a/item/042092/kanto/",
+  "https://www.sej.co.jp/products/a/item/042092/kinki/"
  ],
  "first_seen_at": "2026-11-10T07:03:55+09:00",
- "fetched_at": "2026-11-10T07:03:55+09:00",
+ "fetched_at": "2026-11-21T07:00:45+09:00",
  "source_list": "nextweek",
  "image": null
 }

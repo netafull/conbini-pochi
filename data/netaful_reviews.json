@@ -5616,6 +5616,18 @@
   ],
   "seven": [
    {
+    "date": "2026-11-20T09:00:00",
+    "id": 212952,
+    "link": "https://netaful.jp/seven-eleven/0212952.html",
+    "product_name": "たまごっちのチーズ肉まん",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/711-tamagocchi-009-485x364.jpg",
+     "width": 485
+    },
+    "title": "【セブン】「たまごっちのチーズ肉まん」焼印は4種ランダム！とろ～りチーズと豚肉の旨み"
+   },
+   {
     "date": "2026-11-14T15:30:00",
     "id": 212705,
     "link": "https://netaful.jp/seven-eleven/0212705.html",
@@ -12118,7 +12130,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-20T07:01:10+09:00",
+ "fetched_at": "2026-11-21T07:06:15+09:00",
  "matches": {
   "familymart-0412018": [
    210488

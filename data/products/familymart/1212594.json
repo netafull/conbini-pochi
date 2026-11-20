@@ -1,0 +1,31 @@
+{
+ "chain": "familymart",
+ "product_id": "1212594",
+ "name": "コーンと枝豆のサラダ",
+ "category": "サラダ",
+ "price_excl_tax": 198,
+ "price_incl_tax": 213,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "ダイス状にカットしたキャベツにコーンと枝豆をトッピングしたサラダです。※ドレッシング別売りです。※東京都の一部、神奈川県の一部、山梨県の一部、長野県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/salad/1212594.html",
+ "first_seen_at": "2026-11-21T07:02:11+09:00",
+ "fetched_at": "2026-11-21T07:02:11+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

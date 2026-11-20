@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "3431030",
+ "name": "ゴディバ　ガトーショコラ",
+ "category": "アイス",
+ "price_excl_tax": 370,
+ "price_incl_tax": 399,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "ガトーショコラを表現した、濃厚チョコレートアイスクリーム。アイスクリームにはダークチョコレートを使用し、しっとりしたココアクッキーを加えました。［ファミリーマート限定・数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/ice/3431030.html",
+ "first_seen_at": "2026-11-21T07:03:02+09:00",
+ "fetched_at": "2026-11-21T07:03:02+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}

@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534458",
+ "name": "盛りすぎ！高菜明太おにぎり",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 203,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026.11.24",
+ "regions": null,
+ "region_text": null,
+ "description": "ごま油香る高菜と辛子明太子の食欲そそる組み合わせ。お値段そのままで総重量50％増量。",
+ "nutrition": {
+  "kcal": 357.0,
+  "protein_g": 8.0,
+  "fat_g": 4.2,
+  "carbs_g": 73.1,
+  "sugar_g": 70.4,
+  "fiber_g": 2.7,
+  "salt_g": 3.24,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1包装当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>357kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>8.0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>4.2g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>73.1g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>70.4g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食物繊維</dt>\r\n\t\t\t\t\t\t<dd>2.7g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>3.24g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 1食",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534458_1996.html",
+ "first_seen_at": "2026-11-21T07:03:36+09:00",
+ "fetched_at": "2026-11-21T07:03:36+09:00",
+ "source_list": "/recommend/new/list/1534462_5162.html",
+ "image": null
+}

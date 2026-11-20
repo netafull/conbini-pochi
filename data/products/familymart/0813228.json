@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "0813228",
+ "name": "増量　北海道仕込みの4種味噌　味噌ラーメン",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 499,
+ "price_incl_tax": 538,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "コシと弾力のある中華麺に、北海道仕込みの味噌を使用したコクのある味わいのスープを合わせました。具材として肉そぼろ、もやし、コーンなどを使用しています。今だけコーンのトッピングを2倍に増量しております。※宮崎県、鹿児島県では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0813228.html",
+ "first_seen_at": "2026-11-21T07:01:59+09:00",
+ "fetched_at": "2026-11-21T07:01:59+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-11-24",
+ "image": null
+}
