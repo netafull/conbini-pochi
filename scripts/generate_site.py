@@ -19,6 +19,12 @@ from icon_guess import guess_icon
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+
+# ポチシリーズ全体の一覧ページ(ポチフル)へのリンク。関連サイトの直後に1行で出す
+SERIES_INDEX_HTML = (
+    '<nav class="sites"><span class="lbl">ポチシリーズ一覧：</span>\n'
+    '<a href="https://pochi.netaful.jp/">ポチフル</a>\n</nav>'
+)
 DATA = ROOT / "data"
 PRODUCTS = DATA / "products"
 DOCS = ROOT / "docs"
@@ -594,6 +600,7 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ、ミニストップ各社とは関係のない非公式サイトです。
 {policy_link}｜ <a href="/rss.xml">RSS</a> ｜ <a href="/weeks/">週別アーカイブ</a>
 {related_html}
+{SERIES_INDEX_HTML}
 </footer>
 {ad_js}
 </body>
