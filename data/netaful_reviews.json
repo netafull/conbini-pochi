@@ -5616,6 +5616,18 @@
   ],
   "seven": [
    {
+    "date": "2026-11-21T14:00:00",
+    "id": 213085,
+    "link": "https://netaful.jp/seven-eleven/0213085.html",
+    "product_name": "中華蕎麦とみ田監修 豚ラーメン",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/711-tomita-buta-ramen-004-485x364.jpg",
+     "width": 485
+    },
+    "title": "【セブン】「中華蕎麦とみ田監修 豚ラーメン」再発売！二郎系らしい濃厚スープとワシワシ麺が旨い"
+   },
+   {
     "date": "2026-11-20T09:00:00",
     "id": 212952,
     "link": "https://netaful.jp/seven-eleven/0212952.html",
@@ -12130,7 +12142,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-21T07:06:15+09:00",
+ "fetched_at": "2026-11-21T23:37:13+09:00",
  "matches": {
   "familymart-0412018": [
    210488
