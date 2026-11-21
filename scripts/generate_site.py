@@ -225,6 +225,11 @@ def item_url(item: dict) -> str:
     return f"items/{item['chain']}-{item['product_id']}.html"
 
 
+def yen(v) -> int:
+    """税込価格の表示用。小数（例 494.64）は切り捨てて整数にする（オーナー指示 2026-11-21。既存の表示も切り捨て）。"""
+    return int(float(v))
+
+
 def price_html(item: dict) -> str:
     incl = item.get("price_incl_tax")
     excl = item.get("price_excl_tax")
@@ -232,8 +237,7 @@ def price_html(item: dict) -> str:
         return ""
     parts = []
     if incl is not None:
-        v = int(incl) if float(incl) == int(incl) else incl
-        parts.append(f"税込{v}円")
+        parts.append(f"税込{yen(incl)}円")
     if excl is not None:
         v = int(excl) if float(excl) == int(excl) else excl
         parts.append(f"（税抜{v}円）")
@@ -1020,7 +1024,7 @@ def launch_labels(item: dict) -> tuple[str, str]:
 
 def price_label(item: dict) -> str:
     incl = item.get("price_incl_tax")
-    return f"税込{incl:g}円" if incl is not None else ""
+    return f"税込{yen(incl)}円" if incl is not None else ""
 
 
 def name_key(name: str | None) -> str:
@@ -1245,7 +1249,7 @@ def render_item_page(item: dict, ctx: dict | None = None) -> str:
     if len({v.get("price_incl_tax") for v in variants.values()}) > 1:
         rows = []
         for key, v in variants.items():
-            price = f"税込{v['price_incl_tax']:g}円" if v.get("price_incl_tax") is not None else ""
+            price = f"税込{yen(v['price_incl_tax'])}円" if v.get("price_incl_tax") is not None else ""
             rows.append(f"<tr><th>{esc(SEVEN_AREA_NAMES.get(key, key))}</th><td>{price}</td></tr>")
         variants_html = f"<h2>地域別の価格</h2><table>{''.join(rows)}</table>"
 
@@ -1343,7 +1347,7 @@ border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(c
     if nut.get("kcal") is not None:
         bits.append(f"{nut['kcal']:g}kcal")
     if item.get("price_incl_tax") is not None:
-        bits.append(f"税込{item['price_incl_tax']:g}円")
+        bits.append(f"税込{yen(item['price_incl_tax'])}円")
     if date:
         bits.append(f"{date}発売")
     seo_desc = "、".join(bits) + "。" + (item.get("description") or "")

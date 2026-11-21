@@ -608,3 +608,11 @@ class TestCategoryIcon(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class YenTest(unittest.TestCase):
+    def test_decimal_price_is_floored(self):
+        import generate_site as g
+        self.assertEqual(g.price_html({"price_incl_tax": 494.64, "price_excl_tax": 458}), "税込494円（税抜458円）")
+        self.assertEqual(g.price_label({"price_incl_tax": 496.8}), "税込496円")
+        self.assertEqual(g.price_label({"price_incl_tax": 429}), "税込429円")
