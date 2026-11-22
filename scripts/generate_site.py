@@ -279,6 +279,15 @@ def category_icon(item: dict) -> tuple[str, str] | None:
     return (slug, ICON_LABELS[slug]) if slug else None
 
 
+def item_head_icon_html(item: dict) -> str:
+    """商品ページのh1左に置くアイコン(一覧カードと同じ category_icon)。決まらなければ空。"""
+    icon = category_icon(item)
+    if not icon:
+        return ""
+    return (f'<img class="cat-icon" src="/assets/icons/cat/{icon[0]}.svg" width="32" height="32" '
+            f'alt="{esc(icon[1])}" decoding="async">')
+
+
 def render_card(item: dict) -> str:
     chain_name = CHAIN_NAME.get(item["chain"], item["chain"])
     date = effective_date(item) or ""
@@ -375,6 +384,9 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .detail { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
   padding: 20px; margin-top: 12px; }
 .detail h1 { font-size: 20px; margin-bottom: 8px; }
+.item-head { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.item-head h1 { margin: 0; min-width: 0; }
+.item-head .cat-icon { flex-shrink: 0; }
 .detail h1 .sub { font-size: 13px; font-weight: 400; color: var(--muted); }
 /* 商品ページの節見出し(h2)。以前のh3と同じ見た目(小さい太字)にそろえる */
 .detail h2 { font-size: 14px; padding: 0; border: 0; margin: 16px 0 0; }
@@ -1366,11 +1378,14 @@ def render_item_page(item: dict, ctx: dict | None = None) -> str:
         (item["name"], canonical),
     ])
 
+    h1_html = f"<h1>{esc(item['name'])}{h1_sub}</h1>"
+    head_icon = item_head_icon_html(item)
+    head_html = f'<div class="item-head">{head_icon}{h1_html}</div>' if head_icon else h1_html
     body = f"""<nav class="crumbs"><a href="/">トップ</a> &gt; <a href="/chains/{esc(item['chain'])}/">{esc(chain_name)}</a></nav>
 <div class="detail">
 <div class="badge" style="display:inline-block;font-size:11px;font-weight:700;color:#fff;
 border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(chain_name)}</div>
-<h1>{esc(item['name'])}{h1_sub}</h1>
+{head_html}
 <p class="price">{price_html(item)}</p>
 {facts_html}
 {quote_html}

@@ -656,3 +656,30 @@ class LaunchFactNoYearTest(unittest.TestCase):
         self.assertEqual((name, val), ("発売日", "2026年10月6日（火）発売の新商品"))
         name, val = gs.launch_fact({"launch_date": "2026-10-06", "launch_text": "地域限定"}, "2026-10-06")
         self.assertEqual(val, "2026年10月6日（地域限定）")
+
+
+class ItemPageIconTest(unittest.TestCase):
+    BASE = {"chain": "seven", "product_id": "i1", "name": "テスト商品", "price_incl_tax": 200,
+            "launch_date": "2026-11-03", "fetched_at": "2026-10-27T01:00:00"}
+
+    def page(self, **kw):
+        return gs.render_item_page({**self.BASE, **kw})
+
+    def test_category_icon_left_of_h1_same_as_card(self):
+        it = {**self.BASE, "category": "おむすび"}
+        h = gs.render_item_page(it)
+        self.assertIn('<div class="item-head"><img class="cat-icon" src="/assets/icons/cat/onigiri.svg"', h)
+        self.assertLess(h.index('class="cat-icon"'), h.index("<h1>"))
+        self.assertIn("/assets/icons/cat/onigiri.svg", gs.render_card(it))
+
+    def test_guessed_icon_matches_card(self):
+        it = {**self.BASE, "name": "ツナマヨおにぎり"}
+        h = gs.render_item_page(it)
+        self.assertIn("/assets/icons/cat/onigiri.svg", h)
+        self.assertIn("/assets/icons/cat/onigiri.svg", gs.render_card(it))
+
+    def test_no_icon_when_undecided(self):
+        h = self.page(name="ほげほげ")
+        self.assertNotIn("cat-icon\" src", h)
+        self.assertNotIn('class="item-head"', h)
+        self.assertIn("<h1>ほげほげ</h1>", h)
