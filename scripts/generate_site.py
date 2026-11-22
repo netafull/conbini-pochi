@@ -1233,6 +1233,10 @@ def launch_fact(item: dict, date: str) -> tuple[str, str]:
         if re.fullmatch(r"\d{4}\s*[年./-]\s*\d{1,2}\s*[月./-]\s*\d{1,2}\s*日?", text):
             return "発売日", base
         return "発売日", re.sub(r"(?<!\d)0(\d)(?=[月日])", r"\1", text)
+    # 年の無い「10月6日（火）発売の新商品」型で月日が発売日と同じなら、年を前に付けて1つにする(二重にしない)
+    md = re.match(r"\s*(\d{1,2})\s*月\s*(\d{1,2})\s*日", text)
+    if md and f"{int(md[1]):02d}-{int(md[2]):02d}" == item["launch_date"][5:]:
+        return "発売日", f"{int(item['launch_date'][:4])}年" + re.sub(r"(?<!\d)0(\d)(?=[月日])", r"\1", text.strip())
     return "発売日", f"{base}（{text}）"
 
 

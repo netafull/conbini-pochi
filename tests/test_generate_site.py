@@ -648,3 +648,11 @@ class ItemFactsTableTest(unittest.TestCase):
         h = gs.render_item_page(self.item(description=None))
         self.assertIn('class="source"', h)
         self.assertNotIn("class=\"warn\"", h)
+
+
+class LaunchFactNoYearTest(unittest.TestCase):
+    def test_month_day_text_gets_year_not_doubled(self):
+        name, val = gs.launch_fact({"launch_date": "2026-10-06", "launch_text": "10月6日（火）発売の新商品"}, "2026-10-06")
+        self.assertEqual((name, val), ("発売日", "2026年10月6日（火）発売の新商品"))
+        name, val = gs.launch_fact({"launch_date": "2026-10-06", "launch_text": "地域限定"}, "2026-10-06")
+        self.assertEqual(val, "2026年10月6日（地域限定）")
