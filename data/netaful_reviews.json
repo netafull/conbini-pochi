@@ -2772,6 +2772,18 @@
   ],
   "lawson": [
    {
+    "date": "2026-11-22T14:30:00",
+    "id": 213127,
+    "link": "https://netaful.jp/lawson/0213127.html",
+    "product_name": "盛りすぎ！塩焼そば",
+    "thumb": {
+     "height": 364,
+     "url": "https://netaful.jp/wp-content/uploads/2026/11/lawson-shio-yakisoba-010-485x364.jpg",
+     "width": 485
+    },
+    "title": "【ローソン】「盛りすぎ！塩焼そば」麺重量50%増量！総重量600gオーバーのボリュームがすごい"
+   },
+   {
     "date": "2026-11-19T13:00:00",
     "id": 212929,
     "link": "https://netaful.jp/lawson/0212929.html",
@@ -12142,7 +12154,7 @@
   ]
  },
  "errors": [],
- "fetched_at": "2026-11-22T07:00:58+09:00",
+ "fetched_at": "2026-11-22T21:56:05+09:00",
  "matches": {
   "familymart-0412018": [
    210488
@@ -12176,6 +12188,9 @@
   ],
   "lawson-1533652": [
    211913
+  ],
+  "lawson-1534253": [
+   213127
   ],
   "lawson-1534280": [
    212929
