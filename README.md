@@ -24,7 +24,7 @@ pip依存なし(Python標準ライブラリのみ、HTML解析は正規表現)�
 python3 scripts/crawl.py                    # 5社の新商品を取得して data/products/ に蓄積
 python3 scripts/crawl.py ministop           # 社名(seven/familymart/lawson/dailyyamazaki/ministop)を渡すと、その社だけ巡回(動作確認用)
 python3 scripts/fetch_netaful_reviews.py    # ネタフルのレビュー記事を取得・商品とひも付け
-python3 scripts/generate_site.py            # docs/ 一式(index.html, 商品ページ, RSS等)を生成
+python3 scripts/generate_site.py            # docs/ 一式(index.html, 商品ページ等)を生成
 python3 -m unittest discover tests -v       # tests/fixtures/ を相手にしたパーサのテスト
 ```
 
@@ -50,7 +50,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
   記事があれば「関連するネタフルの記事」欄に、それぞれ画像付きカードで表示
 - **キーワード検索**(トップページ内) — `docs/search-index.json` を使ったクライアント
   サイドの簡易検索
-- RSS(`rss.xml`)・サイトマップ・robots.txt・OGP・`CNAME`(conbini.netaful.jp)・
+- サイトマップ・robots.txt・OGP・`CNAME`(conbini.netaful.jp)・
   `.nojekyll`
 
 商品画像は公式のものを保存・表示しない。将来AI生成の「イメージ画像」を
