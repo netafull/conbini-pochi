@@ -571,10 +571,14 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
     )
     related_html = f'<nav class="sites"><span class="lbl">関連サイト</span>\n{links}\n</nav>' if related else ""
 
-    policy_url = CONFIG.get("policy_url", "")
-    policy_link = (
-        f'｜ <a href="{esc(policy_url)}">メディアポリシー</a>\n' if policy_url else ""
-    )
+    # 広告・解析の開示文(実際に使っているものだけ書く)
+    if adsense_id and ga_id:
+        disclosure = "当サイトは広告（Google AdSense）を掲載し、アクセス解析（Googleアナリティクス）を使っています。いずれもCookieを使うことがあります。"
+    elif ga_id:
+        disclosure = "当サイトはアクセス解析（Googleアナリティクス）を使っています。Cookieを使うことがあります。"
+    else:
+        disclosure = ""
+    disclosure_line = disclosure + "\n" if disclosure else ""
 
     # h1は1ページに1つ。トップだけサイト名をh1にし、他のページは各ページの見出しがh1になる
     site_name_tag = (
@@ -615,7 +619,7 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 <footer>
 価格・発売日・在庫は取得時点のものです。最新の状況は各社公式サイトでご確認ください。
 当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ、ミニストップ各社とは関係のない非公式サイトです。
-{policy_link}｜ <a href="/weeks/">週別アーカイブ</a>
+{disclosure_line}｜ <a href="/weeks/">週別アーカイブ</a>
 {related_html}
 {SERIES_INDEX_HTML}
 </footer>
