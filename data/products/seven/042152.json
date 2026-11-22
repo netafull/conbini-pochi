@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "042152",
+ "name": "手巻寿司　海鮮サラダ巻",
+ "category": null,
+ "price_excl_tax": 238,
+ "price_incl_tax": 257.04,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "食感と旨味を楽しめるように細かく刻んだかに風味かまぼこ、イカ、貝をマヨネーズで和えた具を手巻寿司にしました。",
+ "nutrition": {
+  "kcal": 205.0,
+  "protein_g": 5.2,
+  "fat_g": 5.6,
+  "carbs_g": 34.2,
+  "sugar_g": 32.7,
+  "fiber_g": 1.5,
+  "salt_g": 1.8,
+  "raw": "熱量：205kcal、たんぱく質：5.2g、脂質：5.6g、炭水化物：34.2g（糖質：32.7g、食物繊維：1.5g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦",
+  "えび",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 238,
+   "price_incl_tax": 257.04,
+   "url": "https://www.sej.co.jp/products/a/item/042152/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042152/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042152/hokuriku/"
+ ],
+ "first_seen_at": "2026-11-23T07:00:57+09:00",
+ "fetched_at": "2026-11-23T07:00:57+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

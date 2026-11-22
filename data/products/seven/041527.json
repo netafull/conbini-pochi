@@ -1,0 +1,53 @@
+{
+ "chain": "seven",
+ "product_id": "041527",
+ "name": "豚焼肉唐辛子マヨネーズ巻５巻",
+ "category": null,
+ "price_excl_tax": 438,
+ "price_incl_tax": 473.04,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "福島県",
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "福島県、新潟県、北陸",
+ "description": "甘く濃いタレで炒めた豚肉を唐辛子マヨネーズと一緒に巻き上げたお寿司の詰合せです。",
+ "nutrition": {
+  "kcal": 528.0,
+  "protein_g": 12.2,
+  "fat_g": 19.3,
+  "carbs_g": 78.0,
+  "sugar_g": 74.5,
+  "fiber_g": 3.5,
+  "salt_g": 4.6,
+  "raw": "熱量：528kcal、たんぱく質：12.2g、脂質：19.3g、炭水化物：78.0g（糖質：74.5g、食物繊維：3.5g）、食塩相当量：4.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "福島県、新潟県、北陸",
+   "regions": [
+    "福島県",
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 438,
+   "price_incl_tax": 473.04,
+   "url": "https://www.sej.co.jp/products/a/item/041527/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041527/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041527/hokuriku/"
+ ],
+ "first_seen_at": "2026-11-23T07:01:03+09:00",
+ "fetched_at": "2026-11-23T07:01:03+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

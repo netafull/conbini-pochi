@@ -1,0 +1,58 @@
+{
+ "chain": "seven",
+ "product_id": "044982",
+ "name": "炭火焼き豚ロースのバーべキュー弁当（麦飯）",
+ "category": null,
+ "price_excl_tax": 550,
+ "price_incl_tax": 594,
+ "launch_date": "2026-11-17",
+ "launch_text": "2026年11月17日（火）以降順次発売",
+ "regions": [
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "岐阜県",
+  "愛知県",
+  "三重県"
+ ],
+ "region_text": "千葉県、東京都、神奈川県、岐阜県、愛知県、三重県",
+ "description": "炭火焼きにした豚ロースを甘辛いタレで食べ進みよく仕立てた、ボリューム感のある弁当です。",
+ "nutrition": {
+  "kcal": 594.0,
+  "protein_g": 29.3,
+  "fat_g": 10.5,
+  "carbs_g": 99.8,
+  "sugar_g": 91.5,
+  "fiber_g": 8.3,
+  "salt_g": 2.2,
+  "raw": "熱量：594kcal、たんぱく質：29.3g、脂質：10.5g、炭水化物：99.8g（糖質：91.5g、食物繊維：8.3g）、食塩相当量：2.2g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "千葉県、東京都、神奈川県、岐阜県、愛知県、三重県",
+   "regions": [
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "岐阜県",
+    "愛知県",
+    "三重県"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/044982/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/044982/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/044982/tokai/"
+ ],
+ "first_seen_at": "2026-11-23T07:01:09+09:00",
+ "fetched_at": "2026-11-23T07:01:09+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

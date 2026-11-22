@@ -107,16 +107,39 @@
    "price_excl_tax": 460,
    "price_incl_tax": 496.8,
    "url": "https://www.sej.co.jp/products/a/item/054149/shikoku/"
+  },
+  "kinki": {
+   "region_text": "青森県、岩手県、宮城県、秋田県、山形県、関東、甲信越、北陸、東海、近畿、中国、四国、九州、沖縄",
+   "regions": [
+    "青森県",
+    "岩手県",
+    "宮城県",
+    "秋田県",
+    "山形県",
+    "関東",
+    "甲信越",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 460,
+   "price_incl_tax": 496.8,
+   "url": "https://www.sej.co.jp/products/a/item/054149/kinki/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/054149/tohoku/",
  "official_urls": [
   "https://www.sej.co.jp/products/a/item/054149/chugoku/",
+  "https://www.sej.co.jp/products/a/item/054149/kinki/",
   "https://www.sej.co.jp/products/a/item/054149/shikoku/",
   "https://www.sej.co.jp/products/a/item/054149/tohoku/"
  ],
  "first_seen_at": "2026-11-10T07:03:02+09:00",
- "fetched_at": "2026-11-10T07:03:02+09:00",
+ "fetched_at": "2026-11-23T07:00:39+09:00",
  "source_list": "nextweek",
  "image": null
 }
