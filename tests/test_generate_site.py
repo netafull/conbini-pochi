@@ -616,3 +616,35 @@ class YenTest(unittest.TestCase):
         self.assertEqual(g.price_html({"price_incl_tax": 494.64, "price_excl_tax": 458}), "税込494円（税抜458円）")
         self.assertEqual(g.price_label({"price_incl_tax": 496.8}), "税込496円")
         self.assertEqual(g.price_label({"price_incl_tax": 429}), "税込429円")
+
+
+class ItemFactsTableTest(unittest.TestCase):
+    """商品ページの基本情報は表(table.facts)。出典は表・説明の後ろ、日付はゼロ埋めなし。"""
+
+    def item(self, **kw):
+        it = {"chain": "seven", "product_id": "t1", "name": "表テスト", "price_incl_tax": 200,
+              "launch_date": "2026-11-03", "launch_text": "2026年11月03日（火）以降順次発売",
+              "spec": "規格（内容量）: 4個", "category": "おむすび", "region_text": "北陸",
+              "description": "説明です。", "fetched_at": "2026-10-27T01:00:00",
+              "official_url": "https://example.com/x"}
+        it.update(kw)
+        return it
+
+    def test_rows_and_order(self):
+        h = gs.render_item_page(self.item())
+        self.assertIn("<table class='facts'><tr><th>発売日</th><td>2026年11月3日（火）以降順次発売</td></tr>"
+                      "<tr><th>発売地域</th><td>北陸</td></tr><tr><th>内容量</th><td>4個</td></tr>"
+                      "<tr><th>カテゴリ</th><td>おむすび</td></tr></table>", h)
+        self.assertNotIn("販売地域", h)
+        self.assertLess(h.index("table class='facts'"), h.index("<blockquote"))
+        self.assertLess(h.index("<blockquote"), h.index('class="source"'))
+        self.assertIn("出典：セブンイレブン公式サイト（2026年10月27日時点）", h)
+
+    def test_week_label_when_no_launch_date(self):
+        h = gs.render_item_page(self.item(launch_date=None, launch_text=None, list_week_start="2026-11-02"))
+        self.assertIn("<th>発売週</th><td>2026年11月2日</td>", h)
+
+    def test_source_without_description(self):
+        h = gs.render_item_page(self.item(description=None))
+        self.assertIn('class="source"', h)
+        self.assertNotIn("class=\"warn\"", h)

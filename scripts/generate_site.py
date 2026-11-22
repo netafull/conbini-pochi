@@ -390,6 +390,8 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
   color: var(--text); background: var(--bg); border-radius: 4px; font-size: 14px; }
 .detail .source { font-size: 12px; color: var(--muted); margin-top: 4px; }
 .detail .warn { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.detail table.facts { max-width: 420px; margin-bottom: 4px; }
+.detail .note { font-size: 12px; color: var(--muted); margin-top: 6px; }
 .tags { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
 .tags span { font-size: 11px; border: 1px solid var(--line); border-radius: 4px; padding: 1px 6px; }
 .searchbox { margin: 16px 0; }
@@ -1207,6 +1209,33 @@ def item_lastmod(item: dict) -> str | None:
     return max(days) if days else None
 
 
+def jp_date(iso: str) -> str:
+    """2026-10-27 → 2026年10月27日(ゼロ埋めなし)。日付の形でなければそのまま返す。"""
+    m = re.fullmatch(r"(\d{4})-(\d{1,2})-(\d{1,2})", iso or "")
+    return f"{int(m[1])}年{int(m[2])}月{int(m[3])}日" if m else (iso or "")
+
+
+def launch_fact(item: dict, date: str) -> tuple[str, str]:
+    """基本情報の表の「発売日」行(行名, 値)。
+    launch_date があれば「発売日」。公式の書き方(「…以降順次発売」など)は添えて残す。
+    無い商品(ファミマの一部など)は週開始日・初検出日で代替しているので「発売週」とする。"""
+    if not date:
+        return "発売日", ""
+    base = jp_date(date)
+    if not item.get("launch_date"):
+        return "発売週", base
+    text = (item.get("launch_text") or "").strip()
+    if not text:
+        return "発売日", base
+    # 公式の文言が日付だけ、または先頭の日付が発売日と同じなら、文言をそのまま使う(二重にしない)
+    m = re.search(r"(\d{4})\s*[年./-]\s*(\d{1,2})\s*[月./-]\s*(\d{1,2})", text)
+    if m and f"{int(m[1])}-{int(m[2]):02d}-{int(m[3]):02d}" == item["launch_date"]:
+        if re.fullmatch(r"\d{4}\s*[年./-]\s*\d{1,2}\s*[月./-]\s*\d{1,2}\s*日?", text):
+            return "発売日", base
+        return "発売日", re.sub(r"(?<!\d)0(\d)(?=[月日])", r"\1", text)
+    return "発売日", f"{base}（{text}）"
+
+
 def render_item_page(item: dict, ctx: dict | None = None) -> str:
     chain_name = CHAIN_NAME.get(item["chain"], item["chain"])
     nutrition = item.get("nutrition")
@@ -1233,14 +1262,27 @@ def render_item_page(item: dict, ctx: dict | None = None) -> str:
         text = "、".join(allergens) if allergens else "特定原材料8品目は含まれていません"
         allergen_html = f"<p class='tags'><strong>アレルゲン：</strong>{esc(text)}</p>"
 
-    spec_html = f"<p><strong>規格：</strong>{esc(item['spec'])}</p>" if item.get("spec") else ""
-    region_html = ""
+    # 基本情報の表(table.facts)。データが無い項目は行ごと出さない
+    fact_rows: list[tuple[str, str]] = []
+    date = effective_date(item) or ""
+    date_label, date_value = launch_fact(item, date)
+    if date_value:
+        fact_rows.append((date_label, date_value))
     # セブンは地域別ページごとに販売地域の書き方が少し違う(後から九州が加わる等)ので和集合をとる
     all_regions = item_regions(item)
     if all_regions:
-        region_html = f"<p><strong>販売地域：</strong>{esc('・'.join(all_regions))}</p>"
+        fact_rows.append(("発売地域", "・".join(all_regions)))
     elif item.get("region_text"):
-        region_html = f"<p><strong>販売地域：</strong>{esc(item['region_text'])}</p>"
+        fact_rows.append(("発売地域", item["region_text"]))
+    if item.get("spec"):
+        # 「規格（内容量）: 4個」型の接頭辞は表の行名(内容量)と重複するので外す
+        fact_rows.append(("内容量", re.sub(r"^規格（内容量）\s*[:：]\s*", "", item["spec"])))
+    if item.get("category"):
+        fact_rows.append(("カテゴリ", item["category"]))
+    facts_html = ""
+    if fact_rows:
+        trs = "".join(f"<tr><th>{esc(k)}</th><td>{esc(v)}</td></tr>" for k, v in fact_rows)
+        facts_html = f"<table class='facts'>{trs}</table>"
 
     # セブンは同じ商品が地域別ページ(URLの /hokkaido/ 等)に重複して載る。
     # 価格が地域で違うときだけ、地域名つきで価格を並べる
@@ -1254,15 +1296,20 @@ def render_item_page(item: dict, ctx: dict | None = None) -> str:
         variants_html = f"<h2>地域別の価格</h2><table>{''.join(rows)}</table>"
 
     official_url = item.get("official_url") or (item.get("official_urls") or [None])[0]
+    # 商品説明(あれば)→出典の行。説明が無い商品にも、公式URLがあれば出典の行を出す
     quote_html = ""
     if item.get("description"):
-        fetched = (item.get("fetched_at") or "")[:10]
-        quote_html = f"""<blockquote cite="{esc(official_url or '')}">{esc(item['description'])}</blockquote>
-<p class="source">出典：{esc(chain_name)}公式サイト（{esc(fetched)}時点） ・
-<a href="{esc(official_url or '')}" target="_blank" rel="noopener">公式ページを見る</a></p>
-<p class="warn">※現在は公式ページが削除されている、または内容が変更されている場合があります。</p>"""
+        quote_html = f"""<blockquote cite="{esc(official_url or '')}">{esc(item['description'])}</blockquote>"""
+    fetched = (item.get("fetched_at") or item.get("first_seen_at") or "")[:10]
+    source_html = ""
+    if fetched or official_url:
+        stamp = f"（{esc(jp_date(fetched))}時点）" if fetched else ""
+        link = (f' ・\n<a href="{esc(official_url)}" target="_blank" rel="noopener">公式ページを見る</a>'
+                if official_url else "")
+        source_html = f'<p class="source">出典：{esc(chain_name)}公式サイト{stamp}{link}</p>'
+        if item.get("description"):
+            source_html += "\n<p class=\"warn\">※現在は公式ページが削除されている、または内容が変更されている場合があります。</p>"
 
-    date = effective_date(item) or ""
     title = item["name"]
     canonical = CONFIG.get("site_url", "") + item_url(item)
 
@@ -1321,10 +1368,9 @@ def render_item_page(item: dict, ctx: dict | None = None) -> str:
 border-radius:4px;padding:2px 8px;background:var(--{esc(item['chain'])})">{esc(chain_name)}</div>
 <h1>{esc(item['name'])}{h1_sub}</h1>
 <p class="price">{price_html(item)}</p>
-<p><strong>発売日：</strong>{esc(date)}{('（' + esc(item.get('launch_text','')) + '）') if item.get('launch_text') else ''}</p>
-{region_html}
-{spec_html}
+{facts_html}
 {quote_html}
+{source_html}
 {nut_rows}
 {allergen_html}
 {variants_html}
