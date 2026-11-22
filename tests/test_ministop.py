@@ -224,12 +224,12 @@ class TestSiteGeneration(unittest.TestCase):
         self.assertIn("ミニストップ「合成サンド」の価格・発売日", h)
         self.assertNotIn("栄養成分</h3>", h)
         self.assertIn(f'<blockquote cite="{BASE}/syohin/products/detail900001.html">合成の説明文です。</blockquote>', h)
-        self.assertIn("出典：ミニストップ公式サイト（2026-10-17時点）", h)
-        self.assertIn("販売地域：</strong>東北・関東", h)
+        self.assertIn("出典：ミニストップ公式サイト（2026年10月17日時点）", h)
+        self.assertIn("<tr><th>発売地域</th><td>東北・関東</td></tr>", h)
 
     def test_zenkoku_region_text_is_shown(self):
         h = gs.render_item_page(self.item(regions=None, region_text="全国※エリアにより発売日が異なります。"))
-        self.assertIn("販売地域：</strong>全国※エリアにより発売日が異なります。", h)
+        self.assertIn("<tr><th>発売地域</th><td>全国※エリアにより発売日が異なります。</td></tr>", h)
 
     def test_filters_and_card_use_chain(self):
         top = gs.render_top([self.item()])

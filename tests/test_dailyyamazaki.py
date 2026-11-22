@@ -197,7 +197,7 @@ class TestSiteGeneration(unittest.TestCase):
         self.assertIn("<tr><th>熱量</th><td>214kcal</td></tr>", h)
         self.assertNotIn("たんぱく質", h)
         self.assertIn('<blockquote cite="https://www.daily-yamazaki.jp/new/">合成の説明文です。</blockquote>', h)
-        self.assertIn("出典：デイリーヤマザキ公式サイト（2026-10-16時点）", h)
+        self.assertIn("出典：デイリーヤマザキ公式サイト（2026年10月16日時点）", h)
         self.assertEqual(h.count('<div class="ad-slot">'), 1)
 
     def test_item_page_without_nutrition_uses_fallback_title(self):
