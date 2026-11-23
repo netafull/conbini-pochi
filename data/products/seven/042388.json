@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "042388",
+ "name": "初志貫徹監修　塩炙りチャーシューおむすび",
+ "category": null,
+ "price_excl_tax": 218,
+ "price_incl_tax": 235.44,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "山梨県",
+  "長野県"
+ ],
+ "region_text": "山梨県、長野県",
+ "description": "山梨県甲府市の人気ラーメン店「初志貫徹」監修。塩だれを塗って炙ったチャーシューの下にごま油香るねぎが入ったおむすびです。",
+ "nutrition": {
+  "kcal": 222.0,
+  "protein_g": 5.9,
+  "fat_g": 4.3,
+  "carbs_g": 40.8,
+  "sugar_g": 39.1,
+  "fiber_g": 1.7,
+  "salt_g": 1.8,
+  "raw": "熱量：222kcal、たんぱく質：5.9g、脂質：4.3g、炭水化物：40.8g（糖質：39.1g、食物繊維：1.7g）、食塩相当量：1.8g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "山梨県、長野県",
+   "regions": [
+    "山梨県",
+    "長野県"
+   ],
+   "price_excl_tax": 218,
+   "price_incl_tax": 235.44,
+   "url": "https://www.sej.co.jp/products/a/item/042388/koshinetsu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042388/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042388/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-24T07:04:07+09:00",
+ "fetched_at": "2026-11-24T07:04:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "041550",
+ "name": "味付のりおにぎり　チキン南蛮",
+ "category": null,
+ "price_excl_tax": 198,
+ "price_incl_tax": 213.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "北海道"
+ ],
+ "region_text": "北海道",
+ "description": "卵衣をつけて揚げた鶏むね肉に甘酸っぱい南蛮ダレを染み込ませタルタルソースを組み合わせた、パリッとした味付のりを巻いて食べるおにぎりです",
+ "nutrition": {
+  "kcal": 225.0,
+  "protein_g": 5.1,
+  "fat_g": 5.0,
+  "carbs_g": 40.8,
+  "sugar_g": 39.0,
+  "fiber_g": 1.8,
+  "salt_g": 1.1,
+  "raw": "熱量：225kcal、たんぱく質：5.1g、脂質：5.0g、炭水化物：40.8g（糖質：39.0g、食物繊維：1.8g）、食塩相当量：1.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokkaido": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 198,
+   "price_incl_tax": 213.84,
+   "url": "https://www.sej.co.jp/products/a/item/041550/hokkaido/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041550/hokkaido/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041550/hokkaido/"
+ ],
+ "first_seen_at": "2026-11-24T07:00:49+09:00",
+ "fetched_at": "2026-11-24T07:00:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

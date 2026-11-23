@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "092123",
+ "name": "蟹の旨み広がるトマトクリームパスタ",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-12-02",
+ "launch_text": "2026年12月02日（水）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "蟹の旨みが溶け込んだソースに、蟹フレークとチーズを盛り付けたトマトクリームパスタです。",
+ "nutrition": {
+  "kcal": 496.0,
+  "protein_g": 24.4,
+  "fat_g": 13.4,
+  "carbs_g": 73.5,
+  "sugar_g": 65.4,
+  "fiber_g": 8.1,
+  "salt_g": 4.5,
+  "raw": "熱量：496kcal、たんぱく質：24.4g、脂質：13.4g、炭水化物：73.5g（糖質：65.4g、食物繊維：8.1g）、食塩相当量：4.5g"
+ },
+ "allergens": [
+  "乳",
+  "小麦",
+  "かに"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/092123/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/092123/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/092123/okinawa/"
+ ],
+ "first_seen_at": "2026-11-24T07:06:43+09:00",
+ "fetched_at": "2026-11-24T07:06:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "042341",
+ "name": "おむすび＆おかず　しそ昆布・ツナマヨネーズ",
+ "category": null,
+ "price_excl_tax": 420,
+ "price_incl_tax": 453.6,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "九州"
+ ],
+ "region_text": "九州",
+ "description": "しそ昆布とツナマヨネーズのおにぎりに定番おかずを組み合わせたおむすびセットです。",
+ "nutrition": {
+  "kcal": 537.0,
+  "protein_g": 14.4,
+  "fat_g": 18.7,
+  "carbs_g": 79.3,
+  "sugar_g": 76.2,
+  "fiber_g": 3.1,
+  "salt_g": 3.5,
+  "raw": "熱量：537kcal、たんぱく質：14.4g、脂質：18.7g、炭水化物：79.3g（糖質：76.2g、食物繊維：3.1g）、食塩相当量：3.5g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kyushu": {
+   "region_text": "九州",
+   "regions": [
+    "九州"
+   ],
+   "price_excl_tax": 420,
+   "price_incl_tax": 453.6,
+   "url": "https://www.sej.co.jp/products/a/item/042341/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042341/kyushu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042341/kyushu/"
+ ],
+ "first_seen_at": "2026-11-24T07:06:20+09:00",
+ "fetched_at": "2026-11-24T07:06:20+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

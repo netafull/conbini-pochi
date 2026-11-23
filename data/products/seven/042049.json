@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "042049",
+ "name": "鶏ごぼう味めしおむすび　青森県産ごぼう使用",
+ "category": null,
+ "price_excl_tax": 170,
+ "price_incl_tax": 183.6,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "宮城県",
+  "山形県"
+ ],
+ "region_text": "宮城県、山形県",
+ "description": "しっかり味が染み込むまで煮込んだ鶏肉やごぼうなどの具材を御飯に混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 227.0,
+  "protein_g": 6.3,
+  "fat_g": 3.0,
+  "carbs_g": 44.8,
+  "sugar_g": 42.6,
+  "fiber_g": 2.2,
+  "salt_g": 2.0,
+  "raw": "熱量：227kcal、たんぱく質：6.3g、脂質：3.0g、炭水化物：44.8g（糖質：42.6g、食物繊維：2.2g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "宮城県、山形県",
+   "regions": [
+    "宮城県",
+    "山形県"
+   ],
+   "price_excl_tax": 170,
+   "price_incl_tax": 183.6,
+   "url": "https://www.sej.co.jp/products/a/item/042049/tohoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042049/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042049/tohoku/"
+ ],
+ "first_seen_at": "2026-11-24T07:01:49+09:00",
+ "fetched_at": "2026-11-24T07:01:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

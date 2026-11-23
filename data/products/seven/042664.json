@@ -1,0 +1,80 @@
+{
+ "chain": "seven",
+ "product_id": "042664",
+ "name": "かつおだし香る醤油だれで食べる鶏めし",
+ "category": null,
+ "price_excl_tax": 550,
+ "price_incl_tax": 594,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "東北",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "静岡県",
+  "愛知県",
+  "九州"
+ ],
+ "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、静岡県、愛知県、九州",
+ "description": "食べやすく切った鶏の唐揚げに、かつおだしが効いた醤油だれをかけて食べるお弁当です。",
+ "nutrition": {
+  "kcal": 543.0,
+  "protein_g": 18.0,
+  "fat_g": 11.7,
+  "carbs_g": 92.6,
+  "sugar_g": 90.1,
+  "fiber_g": 2.5,
+  "salt_g": 2.8,
+  "raw": "熱量：543kcal、たんぱく質：18.0g、脂質：11.7g、炭水化物：92.6g（糖質：90.1g、食物繊維：2.5g）、食塩相当量：2.8g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、静岡県、愛知県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "静岡県",
+    "愛知県",
+    "九州"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/042664/kanto/"
+  },
+  "kyushu": {
+   "region_text": "東北、埼玉県、千葉県、東京都、神奈川県、静岡県、愛知県、九州",
+   "regions": [
+    "東北",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "静岡県",
+    "愛知県",
+    "九州"
+   ],
+   "price_excl_tax": 550,
+   "price_incl_tax": 594,
+   "url": "https://www.sej.co.jp/products/a/item/042664/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042664/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042664/kanto/",
+  "https://www.sej.co.jp/products/a/item/042664/kyushu/"
+ ],
+ "first_seen_at": "2026-11-24T07:04:01+09:00",
+ "fetched_at": "2026-11-24T07:04:01+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

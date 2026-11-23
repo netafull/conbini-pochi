@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "042384",
+ "name": "小松菜と紅鮭のおむすび　麦めし入り",
+ "category": null,
+ "price_excl_tax": 168,
+ "price_incl_tax": 181.44,
+ "launch_date": "2026-12-02",
+ "launch_text": "2026年12月02日（水）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "麦飯入りのだし飯に、小松菜の炒め煮と紅鮭フレークを混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 201.0,
+  "protein_g": 4.7,
+  "fat_g": 2.1,
+  "carbs_g": 42.2,
+  "sugar_g": 39.5,
+  "fiber_g": 2.7,
+  "salt_g": 1.5,
+  "raw": "熱量：201kcal、たんぱく質：4.7g、脂質：2.1g、炭水化物：42.2g（糖質：39.5g、食物繊維：2.7g）、食塩相当量：1.5g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 168,
+   "price_incl_tax": 181.44,
+   "url": "https://www.sej.co.jp/products/a/item/042384/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042384/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042384/kinki/"
+ ],
+ "first_seen_at": "2026-11-24T07:05:07+09:00",
+ "fetched_at": "2026-11-24T07:05:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

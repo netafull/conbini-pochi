@@ -51,15 +51,28 @@
    "price_excl_tax": 298,
    "price_incl_tax": 321.84,
    "url": "https://www.sej.co.jp/products/a/item/042191/tokai/"
+  },
+  "koshinetsu": {
+   "region_text": "関東、山梨県、北陸、東海",
+   "regions": [
+    "関東",
+    "山梨県",
+    "北陸",
+    "東海"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/042191/koshinetsu/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/042191/hokuriku/",
  "official_urls": [
   "https://www.sej.co.jp/products/a/item/042191/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042191/koshinetsu/",
   "https://www.sej.co.jp/products/a/item/042191/tokai/"
  ],
  "first_seen_at": "2026-11-17T07:03:53+09:00",
- "fetched_at": "2026-11-17T07:03:53+09:00",
+ "fetched_at": "2026-11-24T07:00:31+09:00",
  "source_list": "nextweek",
  "image": null
 }

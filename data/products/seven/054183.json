@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054183",
+ "name": "トーストサンドチーズ＆ハム",
+ "category": null,
+ "price_excl_tax": 298,
+ "price_incl_tax": 321.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "近畿"
+ ],
+ "region_text": "近畿",
+ "description": "ハムとチーズを挟んだトーストサンドです。ブラックペッパーがきいたチーズソースをアクセントにしました。",
+ "nutrition": {
+  "kcal": 371.0,
+  "protein_g": 15.5,
+  "fat_g": 15.5,
+  "carbs_g": 43.7,
+  "sugar_g": 41.2,
+  "fiber_g": 2.5,
+  "salt_g": 2.1,
+  "raw": "熱量：371kcal、たんぱく質：15.5g、脂質：15.5g、炭水化物：43.7g（糖質：41.2g、食物繊維：2.5g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "近畿",
+   "regions": [
+    "近畿"
+   ],
+   "price_excl_tax": 298,
+   "price_incl_tax": 321.84,
+   "url": "https://www.sej.co.jp/products/a/item/054183/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054183/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054183/kinki/"
+ ],
+ "first_seen_at": "2026-11-24T07:05:19+09:00",
+ "fetched_at": "2026-11-24T07:05:19+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

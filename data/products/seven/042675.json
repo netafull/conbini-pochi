@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "042675",
+ "name": "鶏そぼろご飯",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "四国"
+ ],
+ "region_text": "四国",
+ "description": "だし飯に鶏そぼろと玉子そぼろを盛り付けました。",
+ "nutrition": {
+  "kcal": 446.0,
+  "protein_g": 17.4,
+  "fat_g": 10.0,
+  "carbs_g": 71.9,
+  "sugar_g": 71.4,
+  "fiber_g": 0.5,
+  "salt_g": 2.1,
+  "raw": "熱量：446kcal、たんぱく質：17.4g、脂質：10.0g、炭水化物：71.9g（糖質：71.4g、食物繊維：0.5g）、食塩相当量：2.1g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "四国",
+   "regions": [
+    "四国"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "url": "https://www.sej.co.jp/products/a/item/042675/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042675/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042675/shikoku/"
+ ],
+ "first_seen_at": "2026-11-24T07:06:01+09:00",
+ "fetched_at": "2026-11-24T07:06:01+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

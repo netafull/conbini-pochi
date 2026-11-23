@@ -1,0 +1,50 @@
+{
+ "chain": "seven",
+ "product_id": "054184",
+ "name": "やみつき旨辛チキンロール",
+ "category": null,
+ "price_excl_tax": 350,
+ "price_incl_tax": 378,
+ "launch_date": "2026-12-02",
+ "launch_text": "2026年12月02日（水）以降順次発売",
+ "regions": [
+  "沖縄"
+ ],
+ "region_text": "沖縄",
+ "description": "ボリューム感のあるフライドチキンに唐辛子、ニンニク、胡椒が効いた特製旨辛マヨソースを合わせたロールです。",
+ "nutrition": {
+  "kcal": 436.0,
+  "protein_g": 16.0,
+  "fat_g": 20.3,
+  "carbs_g": 48.1,
+  "sugar_g": 46.3,
+  "fiber_g": 1.8,
+  "salt_g": 3.1,
+  "raw": "熱量：436kcal、たんぱく質：16.0g、脂質：20.3g、炭水化物：48.1g（糖質：46.3g、食物繊維：1.8g）、食塩相当量：3.1g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "沖縄",
+   "regions": [
+    "沖縄"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "url": "https://www.sej.co.jp/products/a/item/054184/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/054184/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/054184/okinawa/"
+ ],
+ "first_seen_at": "2026-11-24T07:06:37+09:00",
+ "fetched_at": "2026-11-24T07:06:37+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

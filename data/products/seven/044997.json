@@ -126,6 +126,30 @@
    "price_excl_tax": 430,
    "price_incl_tax": 464.4,
    "url": "https://www.sej.co.jp/products/a/item/044997/tohoku/"
+  },
+  "okinawa": {
+   "region_text": "北海道、宮城県、山形県、福島県、栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、甲信越、北陸、静岡県、中国、九州、沖縄",
+   "regions": [
+    "北海道",
+    "宮城県",
+    "山形県",
+    "福島県",
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "甲信越",
+    "北陸",
+    "静岡県",
+    "中国",
+    "九州",
+    "沖縄"
+   ],
+   "price_excl_tax": 430,
+   "price_incl_tax": 464.4,
+   "url": "https://www.sej.co.jp/products/a/item/044997/okinawa/"
   }
  },
  "official_url": "https://www.sej.co.jp/products/a/item/044997/hokkaido/",
@@ -134,10 +158,11 @@
   "https://www.sej.co.jp/products/a/item/044997/hokuriku/",
   "https://www.sej.co.jp/products/a/item/044997/kanto/",
   "https://www.sej.co.jp/products/a/item/044997/kyushu/",
+  "https://www.sej.co.jp/products/a/item/044997/okinawa/",
   "https://www.sej.co.jp/products/a/item/044997/tohoku/"
  ],
  "first_seen_at": "2026-11-03T07:02:24+09:00",
- "fetched_at": "2026-11-17T07:02:29+09:00",
+ "fetched_at": "2026-11-24T07:06:31+09:00",
  "source_list": "nextweek",
  "image": null
 }

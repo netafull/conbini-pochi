@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "042740",
+ "name": "もち麦おむすび　菜めしわさびおかか",
+ "category": null,
+ "price_excl_tax": 138,
+ "price_incl_tax": 149.04,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "プチプチした食感のもち麦入り出汁飯に小松菜とおかかを混ぜ込み、おかかとわさびを中具にしたおむすびです。",
+ "nutrition": {
+  "kcal": 159.0,
+  "protein_g": 4.6,
+  "fat_g": 1.6,
+  "carbs_g": 33.0,
+  "sugar_g": 30.0,
+  "fiber_g": 3.0,
+  "salt_g": 1.7,
+  "raw": "熱量：159kcal、たんぱく質：4.6g、脂質：1.6g、炭水化物：33.0g（糖質：30.0g、食物繊維：3.0g）、食塩相当量：1.7g"
+ },
+ "allergens": [
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 138,
+   "price_incl_tax": 149.04,
+   "url": "https://www.sej.co.jp/products/a/item/042740/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042740/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042740/tokai/"
+ ],
+ "first_seen_at": "2026-11-24T07:04:55+09:00",
+ "fetched_at": "2026-11-24T07:04:55+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

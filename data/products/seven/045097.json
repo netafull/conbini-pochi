@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "045097",
+ "name": "醤油唐揚げ＆ヒレカツ弁当",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "島根県",
+  "広島県"
+ ],
+ "region_text": "島根県、広島県",
+ "description": "醤油唐揚げとヒレカツを組み合わせたお弁当です。",
+ "nutrition": {
+  "kcal": 765.0,
+  "protein_g": 26.2,
+  "fat_g": 27.2,
+  "carbs_g": 104.8,
+  "sugar_g": 102.7,
+  "fiber_g": 2.1,
+  "salt_g": 2.7,
+  "raw": "熱量：765kcal、たんぱく質：26.2g、脂質：27.2g、炭水化物：104.8g（糖質：102.7g、食物繊維：2.1g）、食塩相当量：2.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "島根県、広島県",
+   "regions": [
+    "島根県",
+    "広島県"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/045097/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045097/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045097/chugoku/"
+ ],
+ "first_seen_at": "2026-11-24T07:05:43+09:00",
+ "fetched_at": "2026-11-24T07:05:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,54 @@
+{
+ "chain": "seven",
+ "product_id": "043694",
+ "name": "直巻おむすび　海老天むす",
+ "category": null,
+ "price_excl_tax": 278,
+ "price_incl_tax": 300.24,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "島根県、広島県、山口県",
+ "description": "かえし醤油の旨みが広がる天タレに、海老天を丸ごと１本組み合わせた満足感のあるおむすびです。",
+ "nutrition": {
+  "kcal": 248.0,
+  "protein_g": 5.8,
+  "fat_g": 3.6,
+  "carbs_g": 49.1,
+  "sugar_g": 47.1,
+  "fiber_g": 2.0,
+  "salt_g": 1.3,
+  "raw": "熱量：248kcal、たんぱく質：5.8g、脂質：3.6g、炭水化物：49.1g（糖質：47.1g、食物繊維：2.0g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "卵",
+  "小麦",
+  "えび"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "島根県、広島県、山口県",
+   "regions": [
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 278,
+   "price_incl_tax": 300.24,
+   "url": "https://www.sej.co.jp/products/a/item/043694/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/043694/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/043694/chugoku/"
+ ],
+ "first_seen_at": "2026-11-24T07:05:25+09:00",
+ "fetched_at": "2026-11-24T07:05:25+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

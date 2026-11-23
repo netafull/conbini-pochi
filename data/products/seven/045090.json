@@ -1,0 +1,52 @@
+{
+ "chain": "seven",
+ "product_id": "045090",
+ "name": "銀しゃりむすび　だしの旨味昆布",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "島根県",
+  "広島県",
+  "山口県"
+ ],
+ "region_text": "島根県、広島県、山口県",
+ "description": "お米のおいしさをまっすぐ味わう、御飯と中具のシンプルな銀しゃりむすびです。中具には地区に馴染みのある味付けのごま入り昆布佃煮を合わせました。",
+ "nutrition": {
+  "kcal": 180.0,
+  "protein_g": 2.9,
+  "fat_g": 0.9,
+  "carbs_g": 41.1,
+  "sugar_g": 39.2,
+  "fiber_g": 1.9,
+  "salt_g": 1.3,
+  "raw": "熱量：180kcal、たんぱく質：2.9g、脂質：0.9g、炭水化物：41.1g（糖質：39.2g、食物繊維：1.9g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "島根県、広島県、山口県",
+   "regions": [
+    "島根県",
+    "広島県",
+    "山口県"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/045090/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045090/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045090/chugoku/"
+ ],
+ "first_seen_at": "2026-11-24T07:05:31+09:00",
+ "fetched_at": "2026-11-24T07:05:31+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

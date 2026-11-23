@@ -1,0 +1,62 @@
+{
+ "chain": "seven",
+ "product_id": "042317",
+ "name": "加賀屋監修　金目鯛ととろろ昆布の混ぜご飯",
+ "category": null,
+ "price_excl_tax": 248,
+ "price_incl_tax": 267.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "新潟県",
+  "北陸"
+ ],
+ "region_text": "新潟県、北陸",
+ "description": "加賀屋監修の白だしを使用し、金目鯛ととろろ昆布を混ぜ込んだおむすびです。",
+ "nutrition": {
+  "kcal": 195.0,
+  "protein_g": 5.5,
+  "fat_g": 2.5,
+  "carbs_g": 38.6,
+  "sugar_g": 36.8,
+  "fiber_g": 1.8,
+  "salt_g": 2.0,
+  "raw": "熱量：195kcal、たんぱく質：5.5g、脂質：2.5g、炭水化物：38.6g（糖質：36.8g、食物繊維：1.8g）、食塩相当量：2g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "koshinetsu": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/042317/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "新潟県、北陸",
+   "regions": [
+    "新潟県",
+    "北陸"
+   ],
+   "price_excl_tax": 248,
+   "price_incl_tax": 267.84,
+   "url": "https://www.sej.co.jp/products/a/item/042317/hokuriku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042317/koshinetsu/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042317/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042317/koshinetsu/"
+ ],
+ "first_seen_at": "2026-11-24T07:04:19+09:00",
+ "fetched_at": "2026-11-24T07:04:19+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

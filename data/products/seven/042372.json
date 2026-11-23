@@ -1,0 +1,196 @@
+{
+ "chain": "seven",
+ "product_id": "042372",
+ "name": "銀しゃりむすび　野沢菜",
+ "category": null,
+ "price_excl_tax": 148,
+ "price_incl_tax": 159.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "新潟県",
+  "北陸",
+  "東海",
+  "近畿",
+  "中国",
+  "四国"
+ ],
+ "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、東海、近畿、中国、四国",
+ "description": "お米のおいしさをまっすぐ味わう、御飯と中具のシンプルな銀しゃりむすびです。中具には、だしを使用し味わい深く仕立てた野沢菜を合わせました。",
+ "nutrition": {
+  "kcal": 169.0,
+  "protein_g": 2.7,
+  "fat_g": 0.9,
+  "carbs_g": 38.4,
+  "sugar_g": 36.7,
+  "fiber_g": 1.7,
+  "salt_g": 1.3,
+  "raw": "熱量：169kcal、たんぱく質：2.7g、脂質：0.9g、炭水化物：38.4g（糖質：36.7g、食物繊維：1.7g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/042372/kanto/"
+  },
+  "koshinetsu": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/042372/koshinetsu/"
+  },
+  "hokuriku": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/042372/hokuriku/"
+  },
+  "tokai": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/042372/tokai/"
+  },
+  "kinki": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/042372/kinki/"
+  },
+  "chugoku": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/042372/chugoku/"
+  },
+  "shikoku": {
+   "region_text": "栃木県、群馬県、埼玉県、千葉県、東京都、神奈川県、新潟県、北陸、東海、近畿、中国、四国",
+   "regions": [
+    "栃木県",
+    "群馬県",
+    "埼玉県",
+    "千葉県",
+    "東京都",
+    "神奈川県",
+    "新潟県",
+    "北陸",
+    "東海",
+    "近畿",
+    "中国",
+    "四国"
+   ],
+   "price_excl_tax": 148,
+   "price_incl_tax": 159.84,
+   "url": "https://www.sej.co.jp/products/a/item/042372/shikoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042372/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042372/chugoku/",
+  "https://www.sej.co.jp/products/a/item/042372/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042372/kanto/",
+  "https://www.sej.co.jp/products/a/item/042372/kinki/",
+  "https://www.sej.co.jp/products/a/item/042372/koshinetsu/",
+  "https://www.sej.co.jp/products/a/item/042372/shikoku/",
+  "https://www.sej.co.jp/products/a/item/042372/tokai/"
+ ],
+ "first_seen_at": "2026-11-24T07:02:55+09:00",
+ "fetched_at": "2026-11-24T07:02:55+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

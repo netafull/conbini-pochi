@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "045098",
+ "name": "長州どりむね肉の唐揚げ弁当",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "山口県"
+ ],
+ "region_text": "山口県",
+ "description": "地区原材料である長州どりを使用した唐揚げ弁当です。",
+ "nutrition": {
+  "kcal": 690.0,
+  "protein_g": 36.2,
+  "fat_g": 20.5,
+  "carbs_g": 90.6,
+  "sugar_g": 89.5,
+  "fiber_g": 1.1,
+  "salt_g": 3.6,
+  "raw": "熱量：690kcal、たんぱく質：36.2g、脂質：20.5g、炭水化物：90.6g（糖質：89.5g、食物繊維：1.1g）、食塩相当量：3.6g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "chugoku": {
+   "region_text": "山口県",
+   "regions": [
+    "山口県"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/045098/chugoku/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/045098/chugoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/045098/chugoku/"
+ ],
+ "first_seen_at": "2026-11-24T07:05:37+09:00",
+ "fetched_at": "2026-11-24T07:05:37+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

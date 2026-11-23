@@ -1,0 +1,61 @@
+{
+ "chain": "seven",
+ "product_id": "040736",
+ "name": "せいろ蒸し　山菜おこわおむすび",
+ "category": null,
+ "price_excl_tax": 180,
+ "price_incl_tax": 194.4,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "福島県",
+  "茨城県"
+ ],
+ "region_text": "福島県、茨城県",
+ "description": "山菜の風味と旨味を味わえるおこわおむすびです。",
+ "nutrition": {
+  "kcal": 181.0,
+  "protein_g": 4.0,
+  "fat_g": 0.9,
+  "carbs_g": 39.7,
+  "sugar_g": 38.8,
+  "fiber_g": 0.9,
+  "salt_g": 0.94,
+  "raw": "熱量：181kcal、たんぱく質：4.0g、脂質：0.9g、炭水化物：39.7g（糖質：38.8g、食物繊維：0.9g）、食塩相当量：0.94g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tohoku": {
+   "region_text": "福島県、茨城県",
+   "regions": [
+    "福島県",
+    "茨城県"
+   ],
+   "price_excl_tax": 180,
+   "price_incl_tax": 194.4,
+   "url": "https://www.sej.co.jp/products/a/item/040736/tohoku/"
+  },
+  "kanto": {
+   "region_text": "福島県、茨城県",
+   "regions": [
+    "福島県",
+    "茨城県"
+   ],
+   "price_excl_tax": 180,
+   "price_incl_tax": 194.4,
+   "url": "https://www.sej.co.jp/products/a/item/040736/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040736/tohoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040736/kanto/",
+  "https://www.sej.co.jp/products/a/item/040736/tohoku/"
+ ],
+ "first_seen_at": "2026-11-24T07:02:07+09:00",
+ "fetched_at": "2026-11-24T07:02:07+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

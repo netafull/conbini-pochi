@@ -1,0 +1,49 @@
+{
+ "chain": "seven",
+ "product_id": "040398",
+ "name": "新潟県産コシヒカリおむすび　鮭ハラス",
+ "category": null,
+ "price_excl_tax": 258,
+ "price_incl_tax": 278.64,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "茨城県"
+ ],
+ "region_text": "茨城県",
+ "description": "脂乗りが良い銀鮭のハラスを中具に入れたおむすびです。",
+ "nutrition": {
+  "kcal": 218.0,
+  "protein_g": 3.6,
+  "fat_g": 5.0,
+  "carbs_g": 40.0,
+  "sugar_g": 39.4,
+  "fiber_g": 0.6,
+  "salt_g": 0.86,
+  "raw": "熱量：218kcal、たんぱく質：3.6g、脂質：5.0g、炭水化物：40.0g（糖質：39.4g、食物繊維：0.6g）、食塩相当量：0.86g"
+ },
+ "allergens": [
+  "卵",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kanto": {
+   "region_text": "茨城県",
+   "regions": [
+    "茨城県"
+   ],
+   "price_excl_tax": 258,
+   "price_incl_tax": 278.64,
+   "url": "https://www.sej.co.jp/products/a/item/040398/kanto/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/040398/kanto/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/040398/kanto/"
+ ],
+ "first_seen_at": "2026-11-24T07:03:49+09:00",
+ "fetched_at": "2026-11-24T07:03:49+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

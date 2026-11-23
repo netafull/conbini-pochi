@@ -1,0 +1,56 @@
+{
+ "chain": "seven",
+ "product_id": "041849",
+ "name": "直火焼きハンバーグ弁当",
+ "category": null,
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "岐阜県",
+  "愛知県",
+  "三重県",
+  "近畿"
+ ],
+ "region_text": "岐阜県、愛知県、三重県、近畿",
+ "description": "肉の旨みが感じられる、直火焼きのハンバーグ弁当です。",
+ "nutrition": {
+  "kcal": 643.0,
+  "protein_g": 23.1,
+  "fat_g": 21.3,
+  "carbs_g": 91.3,
+  "sugar_g": 88.1,
+  "fiber_g": 3.2,
+  "salt_g": 3.6,
+  "raw": "熱量：643kcal、たんぱく質：23.1g、脂質：21.3g、炭水化物：91.3g（糖質：88.1g、食物繊維：3.2g）、食塩相当量：3.6g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "kinki": {
+   "region_text": "岐阜県、愛知県、三重県、近畿",
+   "regions": [
+    "岐阜県",
+    "愛知県",
+    "三重県",
+    "近畿"
+   ],
+   "price_excl_tax": 698,
+   "price_incl_tax": 753.84,
+   "url": "https://www.sej.co.jp/products/a/item/041849/kinki/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/041849/kinki/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/041849/kinki/"
+ ],
+ "first_seen_at": "2026-11-24T07:05:13+09:00",
+ "fetched_at": "2026-11-24T07:05:13+09:00",
+ "source_list": "nextweek",
+ "image": null
+}

@@ -1,0 +1,48 @@
+{
+ "chain": "seven",
+ "product_id": "042441",
+ "name": "こんがり焼いた醤油焼おにぎり",
+ "category": null,
+ "price_excl_tax": 178,
+ "price_incl_tax": 192.24,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月01日（火）以降順次発売",
+ "regions": [
+  "静岡県"
+ ],
+ "region_text": "静岡県",
+ "description": "静岡県で醸造した醤油を使用した焼おにぎりです。",
+ "nutrition": {
+  "kcal": 211.0,
+  "protein_g": 3.9,
+  "fat_g": 0.9,
+  "carbs_g": 47.8,
+  "sugar_g": 45.9,
+  "fiber_g": 1.9,
+  "salt_g": 1.3,
+  "raw": "熱量：211kcal、たんぱく質：3.9g、脂質：0.9g、炭水化物：47.8g（糖質：45.9g、食物繊維：1.9g）、食塩相当量：1.3g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "tokai": {
+   "region_text": "静岡県",
+   "regions": [
+    "静岡県"
+   ],
+   "price_excl_tax": 178,
+   "price_incl_tax": 192.24,
+   "url": "https://www.sej.co.jp/products/a/item/042441/tokai/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042441/tokai/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042441/tokai/"
+ ],
+ "first_seen_at": "2026-11-24T07:04:43+09:00",
+ "fetched_at": "2026-11-24T07:04:43+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
