@@ -1,0 +1,60 @@
+{
+ "chain": "seven",
+ "product_id": "042079",
+ "name": "牛肉の旨みがつまったハヤシライス",
+ "category": null,
+ "price_excl_tax": 598,
+ "price_incl_tax": 645.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "全国"
+ ],
+ "region_text": "全国",
+ "description": "牛肉の旨みが溶け込んだコク深いソースと、付け合わせにブラックペッパーを効かせたポテトサラダを盛付けたご飯が進むハヤシライスです。",
+ "nutrition": {
+  "kcal": 744.0,
+  "protein_g": 12.5,
+  "fat_g": 35.0,
+  "carbs_g": 97.0,
+  "sugar_g": 92.4,
+  "fiber_g": 4.6,
+  "salt_g": 3.7,
+  "raw": "熱量：744kcal、たんぱく質：12.5g、脂質：35.0g、炭水化物：97.0g（糖質：92.4g、食物繊維：4.6g）、食塩相当量：3.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "shikoku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/042079/shikoku/"
+  },
+  "okinawa": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 598,
+   "price_incl_tax": 645.84,
+   "url": "https://www.sej.co.jp/products/a/item/042079/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042079/shikoku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042079/okinawa/",
+  "https://www.sej.co.jp/products/a/item/042079/shikoku/"
+ ],
+ "first_seen_at": "2026-11-25T07:01:25+09:00",
+ "fetched_at": "2026-11-25T07:01:25+09:00",
+ "source_list": "thisweek",
+ "image": null
+}

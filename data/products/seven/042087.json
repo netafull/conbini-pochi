@@ -1,0 +1,58 @@
+{
+ "chain": "seven",
+ "product_id": "042087",
+ "name": "キノコ炒めと肉みそ担々丼たんたんどんどんたんたんたん",
+ "category": null,
+ "price_excl_tax": 648,
+ "price_incl_tax": 699.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日（火）以降順次発売",
+ "regions": [
+  "全国"
+ ],
+ "region_text": "全国",
+ "description": "ひき肉と醤の旨みが効いた肉みそに、ごまダレ・ラー油・花椒油を合わせたピリ辛で濃厚な担々丼です。",
+ "nutrition": {
+  "kcal": 667.0,
+  "protein_g": 22.3,
+  "fat_g": 15.6,
+  "carbs_g": 112.1,
+  "sugar_g": 106.5,
+  "fiber_g": 5.6,
+  "salt_g": 3.8,
+  "raw": "熱量：667kcal、たんぱく質：22.3g、脂質：15.6g、炭水化物：112.1g（糖質：106.5g、食物繊維：5.6g）、食塩相当量：3.8g"
+ },
+ "allergens": [
+  "小麦"
+ ],
+ "spec": null,
+ "variants": {
+  "hokuriku": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/042087/hokuriku/"
+  },
+  "kyushu": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 648,
+   "price_incl_tax": 699.84,
+   "url": "https://www.sej.co.jp/products/a/item/042087/kyushu/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/042087/hokuriku/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/042087/hokuriku/",
+  "https://www.sej.co.jp/products/a/item/042087/kyushu/"
+ ],
+ "first_seen_at": "2026-11-25T07:00:39+09:00",
+ "fetched_at": "2026-11-25T07:00:39+09:00",
+ "source_list": "thisweek",
+ "image": null
+}
