@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""5社の新商品を巡回し、data/products/{chain}/{id}.json に1商品1ファイルで
+"""6社の新商品を巡回し、data/products/{chain}/{id}.json に1商品1ファイルで
 蓄積する。公式サイトは販売終了した商品ページを消してしまうため、
 「いつ何が出たか」を後から引ける記録を残すことが目的。
 
@@ -679,6 +679,103 @@ def crawl_ministop(pending: dict, stats: dict) -> None:
         pending[chain].pop(pid, None)
 
 
+# ---------------------------------------------------------------------------
+# セイコーマート
+# ---------------------------------------------------------------------------
+
+def crawl_seicomart(pending: dict, stats: dict) -> None:
+    """/instore/new.html 1ページに今週の新商品(週次更新)がすべて載っているので、
+    リクエストは1回だけ。詳細ページは無い。
+
+    公式に過去週のアーカイブは無く、ページは毎週上書きされる。そのため、
+    一覧から消えても保存済みの商品は絶対に削除しない(このクローラーは商品ファイルを
+    消す処理を一切持たない)。既存商品は上書きしない。1週間まるごと巡回に失敗すると
+    その週の分は戻せないので、一覧の失敗は pending.json の seicomart.list に記録する。
+    栄養成分・アレルゲン・カテゴリはページに無いので、nullのまま保存する。
+    """
+    base = "https://www.seicomart.co.jp"
+    chain = "seicomart"
+    pending.setdefault(chain, {})
+    stats.setdefault(chain, {"list_requests": 0, "detail_requests": 0, "new_products": 0,
+                              "failed": 0, "blocked": False})
+
+    list_url = base + "/instore/new.html"
+    try:
+        html = get(chain, list_url)
+        stats[chain]["list_requests"] += 1
+    except BlockedError as e:
+        stats[chain]["blocked"] = True
+        print(f"[blocked] seicomart list: {e}", file=sys.stderr)
+        return
+    except Exception as e:  # noqa: BLE001
+        print(f"[warn] seicomart list 取得失敗: {e}", file=sys.stderr)
+        stats[chain]["failed"] += 1
+        mark_list_failed(stats, chain, "fetch_error")
+        pending[chain]["list"] = {
+            "url": list_url, "reason": f"fetch_error: {e}", "checked_at": now_iso(),
+        }
+        return
+
+    entries = parsers.parse_seicomart_list(html, datetime.datetime.now(JST).date())
+    if not entries:
+        # サイトの作り変えで1件も取れなくなった場合。既存データには触れない
+        print("[warn] seicomart 一覧から商品を1件も取り出せませんでした", file=sys.stderr)
+        stats[chain]["failed"] += 1
+        mark_list_failed(stats, chain, "empty_list")
+        pending[chain]["list"] = {
+            "url": list_url, "reason": "empty_list", "checked_at": now_iso(),
+        }
+        return
+    pending[chain].pop("list", None)
+
+    seen: set[str] = set()
+    for e in entries:
+        pid = e["product_id"]
+        if pid in seen:
+            continue
+        seen.add(pid)
+        if load_product(chain, pid) is not None:
+            continue  # 既存商品は上書きしない(アーカイブなので初回取得が正)
+
+        excl, incl = parsers.parse_price_pair(e["price_text"])
+        variants = {}
+        for key, v in e["variants"].items():
+            v_excl, v_incl = parsers.parse_price_pair(v["price_text"])
+            variants[key] = {
+                "region_text": v["region_text"],
+                "regions": v["regions"],
+                "price_excl_tax": v_excl,
+                "price_incl_tax": v_incl,
+                "launch_date": v["launch_date"],
+                "launch_text": v["launch_text"],
+                "url": list_url,
+            }
+        product = {
+            "chain": chain,
+            "product_id": pid,
+            "name": e["name"],
+            "category": None,
+            "price_excl_tax": excl,
+            "price_incl_tax": incl,
+            "launch_date": e["launch_date"],
+            "launch_text": e["launch_text"],
+            "regions": e["regions"],
+            "region_text": e["region_text"],
+            "description": e["description"],
+            "nutrition": None,
+            "allergens": None,
+            "spec": None,
+            "variants": variants,
+            "official_url": list_url,
+            "first_seen_at": now_iso(),
+            "fetched_at": now_iso(),
+            "source_list": "new",
+            "image": None,
+        }
+        save_product(chain, product)
+        stats[chain]["new_products"] += 1
+
+
 RUN_SUMMARY = ROOT / "data" / "run_summary.json"
 
 
@@ -741,13 +838,13 @@ def main() -> int:
     pending = load_pending()
     stats: dict[str, dict] = {}
 
-    # 引数に社名(seven, familymart, lawson, dailyyamazaki, ministop)を渡すと、その社だけ巡回する
+    # 引数に社名(seven, familymart, lawson, dailyyamazaki, ministop, seicomart)を渡すと、その社だけ巡回する
     # (動作確認用。他社のサーバーに余計なリクエストを送らないため)
     only = set(sys.argv[1:])
     crawlers = {
         "seven": crawl_seven, "familymart": crawl_familymart,
         "lawson": crawl_lawson, "dailyyamazaki": crawl_dailyyamazaki,
-        "ministop": crawl_ministop,
+        "ministop": crawl_ministop, "seicomart": crawl_seicomart,
     }
     unknown = only - set(crawlers)
     if unknown:

@@ -1,0 +1,50 @@
+{
+ "chain": "seicomart",
+ "product_id": "20261123_03",
+ "name": "和牛のうどん入りすき煮",
+ "category": null,
+ "price_excl_tax": 398,
+ "price_incl_tax": 429.84,
+ "launch_date": "2026-11-25",
+ "launch_text": "11月25日(水)",
+ "regions": [
+  "北海道",
+  "茨城県",
+  "埼玉県"
+ ],
+ "region_text": "北海道、茨城県・埼玉県",
+ "description": "牛肉の旨み広がる煮たれ！満足ボリューム！",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": {
+  "北海道": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "launch_date": "2026-11-25",
+   "launch_text": "11月25日(水)",
+   "url": "https://www.seicomart.co.jp/instore/new.html"
+  },
+  "茨城県・埼玉県": {
+   "region_text": "茨城県・埼玉県",
+   "regions": [
+    "茨城県",
+    "埼玉県"
+   ],
+   "price_excl_tax": 398,
+   "price_incl_tax": 429.84,
+   "launch_date": "2026-11-25",
+   "launch_text": "11月25日(水)",
+   "url": "https://www.seicomart.co.jp/instore/new.html"
+  }
+ },
+ "official_url": "https://www.seicomart.co.jp/instore/new.html",
+ "first_seen_at": "2026-11-25T15:54:57+09:00",
+ "fetched_at": "2026-11-25T15:54:57+09:00",
+ "source_list": "new",
+ "image": null
+}

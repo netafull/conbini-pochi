@@ -242,13 +242,13 @@ class TestSiteGeneration(unittest.TestCase):
         h = gs.render_grid_page("ミニストップ", "d", [self.item()], "https://x/", review_chain="ministop")
         self.assertIn("合成サンド", h)
 
-    def test_config_and_tags_list_five_chains(self):
+    def test_config_and_tags_list_all_chains(self):
         import fetch_netaful_reviews as fr
         self.assertEqual([c["slug"] for c in gs.CHAINS],
-                         ["seven", "familymart", "lawson", "dailyyamazaki", "ministop"])
+                         ["seven", "familymart", "lawson", "dailyyamazaki", "ministop", "seicomart"])
         self.assertEqual(fr.TAGS["ministop"], 1064)
         self.assertEqual(crawl.INTERVALS["ministop"], 3)
-        self.assertIn("5社", gs.CONFIG["about"][0])
+        self.assertIn("6社", gs.CONFIG["about"][0])
         self.assertIn("ミニストップ", gs.CONFIG["site_tagline"])
 
 

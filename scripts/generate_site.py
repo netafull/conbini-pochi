@@ -311,7 +311,7 @@ CSS = """
 :root {
   --bg: #fafaf7; --card: #ffffff; --text: #1a1a1a; --muted: #6b6b6b;
   --accent: #0071e3; --line: #e5e2dc;
-  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3; --dailyyamazaki: #c62839; --ministop: #7b3fa0;
+  --seven: #e06a00; --familymart: #00a650; --lawson: #0058a3; --dailyyamazaki: #c62839; --ministop: #7b3fa0; --seicomart: #c2185b;
 }
 @media (prefers-color-scheme: dark) {
   :root { --bg: #14151a; --card: #1e2027; --text: #e8e8e6; --muted: #9a9a96;
@@ -350,6 +350,7 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .chain-group[data-chain="lawson"] h3 { border-color: var(--lawson); }
 .chain-group[data-chain="dailyyamazaki"] h3 { border-color: var(--dailyyamazaki); }
 .chain-group[data-chain="ministop"] h3 { border-color: var(--ministop); }
+.chain-group[data-chain="seicomart"] h3 { border-color: var(--seicomart); }
 .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .item { display: block; background: var(--card); border: 1px solid var(--line);
   border-radius: 10px; padding: 12px; text-decoration: none; }
@@ -361,6 +362,7 @@ h2, h1.page-title { font-size: 18px; padding-left: 10px; border-left: 4px solid 
 .item[data-chain="lawson"] .badge { background: var(--lawson); }
 .item[data-chain="dailyyamazaki"] .badge { background: var(--dailyyamazaki); }
 .item[data-chain="ministop"] .badge { background: var(--ministop); }
+.item[data-chain="seicomart"] .badge { background: var(--seicomart); }
 .item .t { font-size: 14px; font-weight: 600; display: -webkit-box;
   -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; min-height: 2.6em; }
 .item .price { margin-top: 6px; font-size: 13px; }
@@ -618,7 +620,7 @@ def page_shell(title: str, description: str, body: str, canonical: str, extra_he
 </main>
 <footer>
 価格・発売日・在庫は取得時点のものです。最新の状況は各社公式サイトでご確認ください。
-当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ、ミニストップ各社とは関係のない非公式サイトです。
+当サイトはセブン-イレブン・ジャパン、ファミリーマート、ローソン、デイリーヤマザキ、ミニストップ、セイコーマート各社とは関係のない非公式サイトです。
 {disclosure_line}｜ <a href="/weeks/">週別アーカイブ</a>
 {related_html}
 {SERIES_INDEX_HTML}

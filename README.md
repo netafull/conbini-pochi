@@ -1,6 +1,6 @@
 # コンビニポチ
 
-セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの新商品を1日1回巡回し、
+セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ・セイコーマートの新商品を1日1回巡回し、
 商品情報をアーカイブとして蓄積し続けるサイト（公開予定 https://conbini.netaful.jp/ ）。
 各社の公式サイトは販売終了した商品のページを削除してしまうため、
 「いつ・何が・いくらで発売されたか」を後から引けることが価値の中心。
@@ -21,8 +21,8 @@ pip依存なし(Python標準ライブラリのみ、HTML解析は正規表現)�
 ## 使い方
 
 ```bash
-python3 scripts/crawl.py                    # 5社の新商品を取得して data/products/ に蓄積
-python3 scripts/crawl.py ministop           # 社名(seven/familymart/lawson/dailyyamazaki/ministop)を渡すと、その社だけ巡回(動作確認用)
+python3 scripts/crawl.py                    # 6社の新商品を取得して data/products/ に蓄積
+python3 scripts/crawl.py ministop           # 社名(seven/familymart/lawson/dailyyamazaki/ministop/seicomart)を渡すと、その社だけ巡回(動作確認用)
 python3 scripts/fetch_netaful_reviews.py    # ネタフルのレビュー記事を取得・商品とひも付け
 python3 scripts/generate_site.py            # docs/ 一式(index.html, 商品ページ等)を生成
 python3 -m unittest discover tests -v       # tests/fixtures/ を相手にしたパーサのテスト
@@ -35,12 +35,12 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 ## サイトの構成
 
 - **トップ** — 「商品名で検索」の直後に「ネタフルの最新レビュー」(画像付き
-  カード6件)、その後に「今日(Asia/Tokyo)を含む週」の新商品を5社まとめて表示。
+  カード6件)、その後に「今日(Asia/Tokyo)を含む週」の新商品を6社まとめて表示。
   並び替え(発売日順/カロリー順)・社別絞り込みのJS付き。今週が0件なら直近の
   過去週を表示し、来週発売分があれば別セクション「来週の新商品」を下に出す
   (未着手週が最大の週になっていてもトップには出さない)
 - **週別アーカイブ**(`/weeks/YYYY-MM-DD/`) — 月曜始まりの週ごとに新商品を蓄積
-- **社別一覧**(`/chains/{seven|familymart|lawson|dailyyamazaki|ministop}/`) — その社のネタフル最新レビュー
+- **社別一覧**(`/chains/{seven|familymart|lawson|dailyyamazaki|ministop|seicomart}/`) — その社のネタフル最新レビュー
   5件も表示
 - **商品ページ**(`/items/{chain}-{product_id}.html`) — 価格・発売日・販売地域・
   栄養成分・アレルゲンを表示。説明文は `<blockquote cite="公式URL">` で引用し、
@@ -74,7 +74,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 
 ## クロールのマナー
 
-- リクエスト間隔: セブン6秒以上、ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ3秒以上
+- リクエスト間隔: セブン6秒以上、ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ・セイコーマート3秒以上
   （`config.json` の `request_interval_seconds`、`scripts/fetch.py` のThrottleクラス
   が実際の待ち時間を管理する）
 - タイムアウト20秒、リトライ1回まで(`scripts/fetch.py`)
@@ -86,7 +86,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 
 ## データ構造
 
-`data/products/{seven|familymart|lawson|dailyyamazaki|ministop}/{product_id}.json` に1商品1ファイル
+`data/products/{seven|familymart|lawson|dailyyamazaki|ministop|seicomart}/{product_id}.json` に1商品1ファイル
 (gitの差分を小さくするため)。主なフィールド:
 
 ```jsonc
@@ -96,6 +96,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
                                     // ローソンはURLの"_"前の数字、
                                     // デイリーヤマザキはWordPress投稿ID(モーダルのid="product130607")、
                                     // ミニストップは詳細ページURLのdetail053758の数字6桁
+                                    // セイコーマートは商品画像のファイル名(20261123_01)
   "name": "...",
   "category": null,                 // カテゴリがあるのはファミマ・デイリーヤマザキ・ミニストップ
   "price_excl_tax": 248,            // 無ければnull(ローソンは税込のみ表示のため常にnull)
@@ -110,7 +111,8 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
                  "salt_g": 1.4, "raw": "..." },  // 無ければnull(おむすび等)
   "allergens": [],                  // なしなら空配列、項目自体が無ければnull
   "spec": null,
-  "variants": { "hokkaido": {...} },// セブンのみ。地域別の価格・販売地域
+  "variants": { "hokkaido": {...} },// セブンとセイコーマートのみ。地域別の価格・販売地域
+                                    // (セイコーマートは地域別の発売日も持つ。キーは地域名)
   "official_url": "https://...",
   "official_urls": ["https://..."], // セブンのみ、地域別URLの一覧
   "first_seen_at": "2026-09-25T20:35:59+09:00",
@@ -127,7 +129,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 取得失敗(通信エラー・想定外の構造・セブンのblacklist状態)は
 `data/pending.json` に社ごとに隔離して記録し、次回`crawl.py`実行時に
 そのURLだけ再試行する。1社の失敗が他社の処理を止めないよう、
-`crawl.py`の5社分の処理は互いに独立した例外境界を持つ。
+`crawl.py`の6社分の処理は互いに独立した例外境界を持つ。
 
 既存ファイルは上書きしない(アーカイブなので初回取得が正)。
 唯一の例外はセブンの`variants`で、一覧に新しい地域URLが出てきたときだけ追記する。
@@ -200,6 +202,32 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
   `pending.json`の`ministop.list`に`empty_list`/`invalid_json`と記録し、既存データには触れない。詳細ページの取得失敗は
   `ministop.{商品ID}`に記録
 - ネタフルのタグ「ミニストップ」(ID 1064、2026-10-17時点で記事2件)を`fetch_netaful_reviews.py`のTAGSに追加済み
+
+### セイコーマート
+新商品は `https://www.seicomart.co.jp/instore/new.html` の**1ページだけ**(週次更新・月曜始まりの週、
+リクエストは1日1回)。詳細ページは無い。商品ブロックは大型(`div.snd_large_ba2`)とグリッド
+(`div.grid_new`)の2形式で、どちらも `h5`=商品名、続く`<p>`=説明文、`table.price_table`
+(地域/価格/発売日)という同一構造。
+
+- **HTMLコメント内に、コメントアウトされた過去週の商品ブロックがそのまま残っている。**
+  `parse_seicomart_list`はコメントを除去してから解析する(除去しないと過去商品を誤登録する)
+- 商品を一意に指す公式コードは無いので、商品画像のファイル名(`images/instore/new/20261123_01.jpg`)
+  のstemを商品IDにする。週をまたいだ同一商品の同一性は保証されない(別週の「復活」掲載は別商品)
+- **価格・発売日は地域(北海道 / 茨城県・埼玉県)で行ごとに違うことがある。** 代表値は北海道行
+  (無ければ最初の行)とし、全行を`variants`に地域名キーで残す(地域別の発売日も含む)。
+  `regions`/`region_text`は全行の統合。価格は「1個 350円 (8%税込378.00円）」形式で、
+  先頭の数量表記(「N個」)を落としてから分解する
+- 発売日は「11月23日(月)」と年が書かれないので、実行日(JST)に最も近い年で補う
+  (デイリーヤマザキの見出しと同じ方式)
+- **カテゴリはリボン画像のみ(alt無し)でテキスト取得できない**ため`category`はnull
+  (表示アイコンは`icon_guess.py`が商品名から推定する)。栄養成分・アレルゲンもページに無いのでnull
+- **公式に過去週のアーカイブは無い**(ページは毎週上書き)。一覧から消えても保存済みの商品は
+  削除しない。既存商品は上書きしない。一覧が0件のときは`pending.json`の`seicomart.list`に
+  `empty_list`と記録し、既存データには触れない。1週間まるごと巡回に失敗するとその週の分は戻せない
+- robots.txtは存在せず(404)、サイト内に自動取得を禁じる利用規約ページは見つからなかった
+  (2026-11-25確認)
+- ネタフルに「セイコーマート」タグがあるか未確認のため、レビュー記事のひも付けは対象外
+  (タグの存在が確認できたら`fetch_netaful_reviews.py`のTAGSに追加する)
 
 ### カテゴリ(セブン・ローソンがnullの理由)
 セブン・ローソンは`category`が全件null。一覧・詳細のHTMLを確認したが、
@@ -288,7 +316,7 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 
 ## テストのフィクスチャ（公式ページのコピーはリポジトリに入れない）
 
-`tests/fixtures/` には、セブン-イレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップの公式サイトから取得したページの
+`tests/fixtures/` には、セブン-イレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ・セイコーマートの公式サイトから取得したページの
 スナップショットを置いて、パーサのテストに使う。**各社の規約が複製・転載を禁じているため、これらは
 リポジトリに入れていない**（`.gitignore` で除外。2026-10-11に追跡から外した。それ以前のコミットには残っている）。
 ファイルの一覧は `tests/fixtures_manifest.txt`。手元に無い環境（新しく clone した場合など）では、
@@ -300,3 +328,6 @@ GitHub Actionsで1日1回自動実行する想定（`.github/workflows/update.ym
 
 ミニストップも同様に、fixtureに依存しない合成データのテスト(`tests/test_ministop.py`)を中心にしてあり、
 実データ(`ministop/recommend.json`と詳細ページ19件)を使うテスト1件だけがfixtureの有無でスキップされる。
+
+セイコーマートも同様に、fixtureに依存しない合成HTMLのテスト(`tests/test_seicomart.py`)を中心にしてあり、
+実HTML(`seicomart/new.html`)を使うテスト1件だけがfixtureの有無でスキップされる。
