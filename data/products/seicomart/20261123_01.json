@@ -1,0 +1,50 @@
+{
+ "chain": "seicomart",
+ "product_id": "20261123_01",
+ "name": "チョコモンブラン",
+ "category": null,
+ "price_excl_tax": 350,
+ "price_incl_tax": 378,
+ "launch_date": "2026-11-23",
+ "launch_text": "11月23日(月)",
+ "regions": [
+  "北海道",
+  "茨城県",
+  "埼玉県"
+ ],
+ "region_text": "北海道、茨城県・埼玉県",
+ "description": "クリスマスケーキをミニサイズでお試し！！華やかでフローラルなカカオの香りを楽しめます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": {
+  "北海道": {
+   "region_text": "北海道",
+   "regions": [
+    "北海道"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "launch_date": "2026-11-23",
+   "launch_text": "11月23日(月)",
+   "url": "https://www.seicomart.co.jp/instore/new.html"
+  },
+  "茨城県・埼玉県": {
+   "region_text": "茨城県・埼玉県",
+   "regions": [
+    "茨城県",
+    "埼玉県"
+   ],
+   "price_excl_tax": 350,
+   "price_incl_tax": 378,
+   "launch_date": "2026-11-24",
+   "launch_text": "11月24日(火)",
+   "url": "https://www.seicomart.co.jp/instore/new.html"
+  }
+ },
+ "official_url": "https://www.seicomart.co.jp/instore/new.html",
+ "first_seen_at": "2026-11-25T15:54:57+09:00",
+ "fetched_at": "2026-11-25T15:54:57+09:00",
+ "source_list": "new",
+ "image": null
+}

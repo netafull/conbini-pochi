@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""5社（セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ）のHTMLから商品情報を
+"""6社（セブンイレブン・ファミリーマート・ローソン・デイリーヤマザキ・ミニストップ・セイコーマート）のHTMLから商品情報を
 取り出す純粋関数群。ネットワークには一切触れない（テストからfixtureを渡して
 呼べるようにするため）。html.parserは使わず正規表現で十分な程度に構造が
 単純なので正規表現で抜き出す。
@@ -718,3 +718,134 @@ def parse_ministop_detail(html: str) -> dict | None:
         "description": text_of("商品特徴"),
         "category": category,
     }
+
+
+# ---------------------------------------------------------------------------
+# セイコーマート
+# ---------------------------------------------------------------------------
+# 一覧は /instore/new.html 1枚だけ(週次更新・月曜始まりの週)。詳細ページは無い。
+# 商品ブロックは大型(<div class="snd_large_ba2">)とグリッド(<div class="grid_new">)
+# の2形式で、どちらも h5=商品名、続く <p>=説明文、table.price_table(地域/価格/
+# 発売日)という同一構造。カテゴリはリボン画像のみ(alt無し)でテキスト取得できない
+# ため category は None(表示アイコンは icon_guess.py が商品名から推定する)。
+#
+# 【重要】HTMLコメントの中に、コメントアウトされた過去週の商品ブロックが
+# そのまま複数残っている。コメントを除去してから解析しないと、過去商品を
+# 新商品として誤登録する。
+#
+# 価格・発売日は地域(北海道 / 茨城県・埼玉県)で行ごとに違うことがある。
+# 代表値は北海道行(無ければ最初の行)とし、全行を variants に残す。
+# 商品を一意に指す公式コードは無いので、商品画像のファイル名
+# (images/instore/new/YYYYMMDD_NN.jpg)の stem を product_id にする。
+
+SEICOMART_BLOCK_RE = re.compile(r'<div class="(?:snd_large_ba2|grid_new)[^"]*"')
+SEICOMART_COMMENT_RE = re.compile(r"<!--.*?-->", re.S)
+SEICOMART_IMG_RE = re.compile(r"images/instore/new/(\d{8}_\d+)\.jpg")
+SEICOMART_MONTH_DAY_RE = re.compile(r"(\d{1,2})月(\d{1,2})日")
+
+
+def seicomart_price_text(raw: str | None) -> str:
+    """価格セル「1個 350円 (8%税込378.00円）」を parse_price_pair が読める
+    「350円 (8%税込378.00円）」にする。先頭の「N個」のような数量表記は
+    価格の一部ではないので落とす(数量表記が無い商品はそのまま)。"""
+    text = _unescape(_strip_tags(raw or "")) or ""
+    text = re.sub(r"[ \t\r\n\f\v]+", " ", text).strip()
+    return re.sub(r"^\d+\s*個\s*", "", text)
+
+
+def _seicomart_region(cell_html: str) -> tuple[str, list[str]]:
+    """地域セル「茨城県<br>埼玉県」を ("茨城県・埼玉県", ["茨城県", "埼玉県"]) にする。"""
+    text = re.sub(r"<br\s*/?>", "・", cell_html)
+    text = _unescape(_strip_tags(text)) or ""
+    text = re.sub(r"\s+", "", text)
+    return text, [p for p in text.split("・") if p]
+
+
+def _seicomart_row(row_html: str, today: datetime.date) -> dict | None:
+    cells = re.findall(r"<td[^>]*>(.*?)</td>", row_html, re.S)
+    if len(cells) < 3:
+        return None
+    region_text, regions = _seicomart_region(cells[0])
+    if not region_text:
+        return None
+    launch_text = _unescape(_strip_tags(cells[2])) or ""
+    launch_text = re.sub(r"\s+", "", launch_text)
+    md = SEICOMART_MONTH_DAY_RE.search(launch_text)
+    # 発売日に年は書かれないので、today(クロール実行日)に最も近い年で補う
+    # (デイリーヤマザキの見出しと同じ方式)
+    launch_date = (
+        resolve_month_day(int(md.group(1)), int(md.group(2)), today) if md else None
+    )
+    return {
+        "region_text": region_text,
+        "regions": regions,
+        "price_text": seicomart_price_text(cells[1]),
+        "launch_text": launch_text,
+        "launch_date": launch_date,
+    }
+
+
+def parse_seicomart_list(html: str, today: datetime.date) -> list[dict]:
+    """/instore/new.html から今週の新商品を取り出す。todayは発売日の年を
+    補うための基準日(JST)。
+
+    戻り値の各要素は {product_id, name, category(None), description,
+    price_text, launch_text, launch_date, regions, region_text, variants}。
+    price_text・launch_* は代表行(北海道行、無ければ最初の行)の値で、
+    variants は地域行ごとの {region_text, regions, price_text, launch_text,
+    launch_date} を地域名キーで持つ(価格の分解は呼び出し側で行う)。
+    栄養成分・アレルゲン・規格はページに無いので、ここでは返さない
+    (呼び出し側で None を入れる)。
+    """
+    cleaned = SEICOMART_COMMENT_RE.sub("", html)
+    starts = [m.start() for m in SEICOMART_BLOCK_RE.finditer(cleaned)]
+    items: list[dict] = []
+    for i, pos in enumerate(starts):
+        end = starts[i + 1] if i + 1 < len(starts) else len(cleaned)
+        block = cleaned[pos:end]
+        img_m = SEICOMART_IMG_RE.search(block)
+        name_m = re.search(r"<h5>(.*?)</h5>", block, re.S)
+        table_m = re.search(r'<table class="price_table">(.*?)</table>', block, re.S)
+        if not (img_m and name_m and table_m):
+            continue
+
+        rows: list[dict] = []
+        for row_html in re.findall(r"<tr>(.*?)</tr>", table_m.group(1), re.S):
+            if "<th" in row_html:
+                continue  # 見出し行(地域/価格/発売日)
+            row = _seicomart_row(row_html, today)
+            if row is not None:
+                rows.append(row)
+        if not rows:
+            continue
+
+        # 説明文は h5 の直後から価格表の手前までにある <p>(大型・グリッドとも
+        # 同じ位置)。グリッド形式では <p> が価格表を内包したまま閉じるので、
+        # タグを除いたテキストだけを取り出す
+        desc_segment = block[name_m.end():table_m.start()]
+        description = _unescape(_strip_tags(desc_segment))
+        description = re.sub(r"[ \t\r\n\f\v]+", " ", description).strip() if description else None
+
+        representative = next(
+            (r for r in rows if r["region_text"] == "北海道"), rows[0]
+        )
+        regions: list[str] = []
+        for r in rows:
+            for region in r["regions"]:
+                if region not in regions:
+                    regions.append(region)
+        items.append(
+            {
+                "product_id": img_m.group(1),
+                "name": _unescape(_strip_tags(name_m.group(1))),
+                "category": None,
+                "description": description,
+                "price_text": representative["price_text"],
+                "launch_text": representative["launch_text"],
+                "launch_date": representative["launch_date"],
+                "regions": regions or None,
+                "region_text": "、".join(r["region_text"] for r in rows),
+                "variants": {r["region_text"]: r for r in rows},
+            }
+        )
+    return items
