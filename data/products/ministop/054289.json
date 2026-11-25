@@ -1,0 +1,28 @@
+{
+ "chain": "ministop",
+ "product_id": "054289",
+ "name": "ソースチキンカツ弁当",
+ "category": "お弁当",
+ "price_excl_tax": 698,
+ "price_incl_tax": 753.84,
+ "launch_date": "2026-11-24",
+ "launch_text": "2026年11月24日",
+ "regions": [
+  "東北",
+  "関東",
+  "東海",
+  "近畿",
+  "四国"
+ ],
+ "region_text": "東北、関東、東海、近畿、四国",
+ "description": "やわらかく仕上げた鶏もも肉にパン粉を付けて揚げた、手作りチキンカツのお弁当です。和風仕立てのツナとしそ高菜を加えた、さっぱりとした味わいのパスタを合わせました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.ministop.co.jp/syohin/products/detail054289.html",
+ "first_seen_at": "2026-11-26T07:01:49+09:00",
+ "fetched_at": "2026-11-26T07:01:49+09:00",
+ "source_list": "recommend",
+ "image": null
+}

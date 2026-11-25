@@ -1,0 +1,51 @@
+{
+ "chain": "seven",
+ "product_id": "092102",
+ "name": "ちいかわ　草むしり検定合格おめでとう！背徳ラーメン",
+ "category": null,
+ "price_excl_tax": 460,
+ "price_incl_tax": 496.8,
+ "launch_date": "2026-12-02",
+ "launch_text": "2026年12月02日（水）以降順次発売",
+ "regions": [
+  "全国"
+ ],
+ "region_text": "全国",
+ "description": "ちいかわコラボ商品。草むしり検定に合格したちいかわが食べていたラーメンをイメージした背徳なラーメンです。小さめサイズで他の商品との買い合わせにおすすめです。",
+ "nutrition": {
+  "kcal": 431.0,
+  "protein_g": 22.2,
+  "fat_g": 15.0,
+  "carbs_g": 53.8,
+  "sugar_g": 49.7,
+  "fiber_g": 4.1,
+  "salt_g": 4.7,
+  "raw": "熱量：431kcal、たんぱく質：22.2g、脂質：15.0g、炭水化物：53.8g（糖質：49.7g、食物繊維：4.1g）、食塩相当量：4.7g"
+ },
+ "allergens": [
+  "卵",
+  "乳",
+  "小麦",
+  "えび"
+ ],
+ "spec": null,
+ "variants": {
+  "okinawa": {
+   "region_text": "全国",
+   "regions": [
+    "全国"
+   ],
+   "price_excl_tax": 460,
+   "price_incl_tax": 496.8,
+   "url": "https://www.sej.co.jp/products/a/item/092102/okinawa/"
+  }
+ },
+ "official_url": "https://www.sej.co.jp/products/a/item/092102/okinawa/",
+ "official_urls": [
+  "https://www.sej.co.jp/products/a/item/092102/okinawa/"
+ ],
+ "first_seen_at": "2026-11-26T07:00:58+09:00",
+ "fetched_at": "2026-11-26T07:00:58+09:00",
+ "source_list": "nextweek",
+ "image": null
+}
