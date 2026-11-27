@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "0256254",
+ "name": "ファミから（麻辣味）",
+ "category": "ホットスナック・惣菜",
+ "price_excl_tax": 110,
+ "price_incl_tax": 118,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "花椒のさわやかな香りとしびれる辛さ、唐辛子のピリッとした辛さが特徴の一品です。電子レンジで温めると、さらにおいしくお召し上がりいただけます。［数量限定］",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/friedfoods/0256254.html",
+ "first_seen_at": "2026-11-28T07:02:09+09:00",
+ "fetched_at": "2026-11-28T07:02:09+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}

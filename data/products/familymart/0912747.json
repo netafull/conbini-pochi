@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0912747",
+ "name": "サーモントラウトのサンドイッチ　ディルクリームチーズソース",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 508,
+ "price_incl_tax": 548,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "関東"
+ ],
+ "region_text": "東京都の一部・神奈川県の一部",
+ "description": "サーモンを使用した見た目が鮮やかなサンドイッチです。風味豊かなディルやケーパー、クリームチーズなどを組み合わせてさわやかに仕立てました。※東京都（港区、渋谷区、新宿区、千代田区、中央区、品川区、文京区、豊島区、目黒区）、神奈川県（横浜市西区、中区、神奈川区、川崎市川崎区）での取り扱いです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0912747.html",
+ "first_seen_at": "2026-11-28T07:00:59+09:00",
+ "fetched_at": "2026-11-28T07:00:59+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}

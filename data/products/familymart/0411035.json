@@ -1,0 +1,33 @@
+{
+ "chain": "familymart",
+ "product_id": "0411035",
+ "name": "脂も旨い！ごちむすび　鮭はらす",
+ "category": "おむすび",
+ "price_excl_tax": 276,
+ "price_incl_tax": 298,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州",
+  "沖縄"
+ ],
+ "region_text": null,
+ "description": "一晩目に3種の塩で熟成、二晩目に塩麹で熟成して、鮭の旨みを上げた鮭はらすを使用したおむすびです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0411035.html",
+ "first_seen_at": "2026-11-28T07:00:42+09:00",
+ "fetched_at": "2026-11-28T07:00:42+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}

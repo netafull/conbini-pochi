@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0824828",
+ "name": "ホルモン焼うどん（味噌味）",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 369,
+ "price_incl_tax": 398,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "東北"
+ ],
+ "region_text": "東北",
+ "description": "赤味噌やみりん、唐辛子で甘辛くピリ辛に仕立てた焼うどんにシャキシャキのキャベツと国産の豚モツをトッピングしました。※新潟県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0824828.html",
+ "first_seen_at": "2026-11-28T07:01:26+09:00",
+ "fetched_at": "2026-11-28T07:01:26+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}

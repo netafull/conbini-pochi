@@ -1,0 +1,32 @@
+{
+ "chain": "familymart",
+ "product_id": "0411776",
+ "name": "ごちむすび　いくらと鮭",
+ "category": "おむすび",
+ "price_excl_tax": 299,
+ "price_incl_tax": 322,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "北海道",
+  "東北",
+  "関東",
+  "東海",
+  "北陸",
+  "関西",
+  "中国・四国",
+  "九州"
+ ],
+ "region_text": null,
+ "description": "本膳しょうゆと本みりんで風味豊かに仕立てたいくらと、塩麹と昆布だしで味付けした鮭のほぐし身を合わせたおむすびです。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/omusubi/0411776.html",
+ "first_seen_at": "2026-11-28T07:00:39+09:00",
+ "fetched_at": "2026-11-28T07:00:39+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}

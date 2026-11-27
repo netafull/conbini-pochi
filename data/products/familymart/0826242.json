@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0826242",
+ "name": "大盛ソース焼そば",
+ "category": "そば・うどん・中華めん",
+ "price_excl_tax": 462,
+ "price_incl_tax": 498,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "関西"
+ ],
+ "region_text": "関西",
+ "description": "スパイシーなソースを使用した大盛の焼そばに目玉焼きと紅しょうが、揚げ玉をのせた食べごたえのある商品です。※和歌山県の一部では取り扱いがございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/noodle/0826242.html",
+ "first_seen_at": "2026-11-28T07:01:29+09:00",
+ "fetched_at": "2026-11-28T07:01:29+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}

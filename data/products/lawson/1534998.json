@@ -1,0 +1,31 @@
+{
+ "chain": "lawson",
+ "product_id": "1534998",
+ "name": "ロッテ　ACUOボール　アクアマスカットパウチ",
+ "category": null,
+ "price_excl_tax": null,
+ "price_incl_tax": 214,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026.12.01",
+ "regions": null,
+ "region_text": "※ナチュラルローソンではお取り扱いしておりません。",
+ "description": "カリッと食感でじゅわっとマスカットの果汁感を味わえる、パウチタイプの「ACUO」のボールガム。",
+ "nutrition": {
+  "kcal": 27.0,
+  "protein_g": 0.0,
+  "fat_g": 0.0,
+  "carbs_g": 16.4,
+  "sugar_g": 0.0,
+  "fiber_g": null,
+  "salt_g": 0.003,
+  "raw": "\r\n\t\t<div class=\"table ac_box\">\r\n\t\t\t<h3>栄養成分<span>【1袋(21g)当たり】</span></h3>\r\n\t\t\t<div id=\"nutritionFacts_table_in\" class=\"ac_wrap\"><div class=\"ac_in\">\r\n\t\t\t\t<ul class=\"tbody\">\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>熱量</dt>\r\n\t\t\t\t\t\t<dd>27kcal</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>たんぱく質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>脂質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>炭水化物</dt>\r\n\t\t\t\t\t\t<dd>16.4g</dd>\r\n\t\t\t\t\t</dl>\r\n\t\t\t\t\t<ul>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>糖質</dt>\r\n\t\t\t\t\t\t<dd>0g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t\t</ul>\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li><dl>\r\n\t\t\t\t\t\t<dt>食塩相当量</dt>\r\n\t\t\t\t\t\t<dd>0.003g</dd>\r\n\t\t\t\t\t</dl></li>\r\n\t\t\t\t</ul>\r\n\t\t\t"
+ },
+ "allergens": [],
+ "spec": "規格（内容量）: 21g",
+ "variants": null,
+ "official_url": "https://www.lawson.co.jp/recommend/original/detail/1534998_1996.html",
+ "first_seen_at": "2026-11-28T07:03:26+09:00",
+ "fetched_at": "2026-11-28T07:03:26+09:00",
+ "source_list": "/recommend/new/list/1534957_5162.html",
+ "image": null
+}

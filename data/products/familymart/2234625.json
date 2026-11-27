@@ -1,0 +1,27 @@
+{
+ "chain": "familymart",
+ "product_id": "2234625",
+ "name": "クセになる辛さ　赤から監修鍋",
+ "category": "チルド惣菜",
+ "price_excl_tax": 369,
+ "price_incl_tax": 398,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "関東",
+  "東海",
+  "関西"
+ ],
+ "region_text": "関東・東海・関西",
+ "description": "「赤から」監修商品です。特製味噌と複数の唐辛子をブレンドした、クセになる辛さのスープに、つくね・白菜・豚もつ・油揚げを合わせました。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sidedishes/2234625.html",
+ "first_seen_at": "2026-11-28T07:01:51+09:00",
+ "fetched_at": "2026-11-28T07:01:51+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}

@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "1030242",
+ "name": "ふんわり食感！豚玉お好み焼&ソース焼そば",
+ "category": "スープ・グラタン・お好み焼き",
+ "price_excl_tax": 369,
+ "price_incl_tax": 398,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "中国・四国"
+ ],
+ "region_text": "中国・四国",
+ "description": "山いもを加えたふんわり食感のミニお好み焼きと焼そばのセットです。※山口県の一部店舗での取り扱いはございません。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/deli/1030242.html",
+ "first_seen_at": "2026-11-28T07:01:59+09:00",
+ "fetched_at": "2026-11-28T07:01:59+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}

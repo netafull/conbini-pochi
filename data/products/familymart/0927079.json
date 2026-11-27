@@ -1,0 +1,25 @@
+{
+ "chain": "familymart",
+ "product_id": "0927079",
+ "name": "ホットサンド　はみだしドッグ（海老フライ）",
+ "category": "サンドイッチ・ロールパン・バーガー",
+ "price_excl_tax": 332,
+ "price_incl_tax": 358,
+ "launch_date": "2026-12-01",
+ "launch_text": "2026年12月1日",
+ "regions": [
+  "中国・四国"
+ ],
+ "region_text": "四国",
+ "description": "四国地方限定「ファミマの焼きたてキッチン」の商品です。自家製タルタルと甘口ソースを合わせたボリュームのある海老フライドッグ。そのままでもおいしく、お店のオーブンで焼き上げるとさらにおいしくお召し上がりいただけます。",
+ "nutrition": null,
+ "allergens": null,
+ "spec": null,
+ "variants": null,
+ "official_url": "https://www.family.co.jp/goods/sandwich/0927079.html",
+ "first_seen_at": "2026-11-28T07:01:06+09:00",
+ "fetched_at": "2026-11-28T07:01:06+09:00",
+ "source_list": "nextweek",
+ "list_week_start": "2026-12-01",
+ "image": null
+}
